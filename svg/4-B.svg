@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <style>
+      .jelly-card { fill: #FFFDF9; stroke: #594132; stroke-width: 8; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-border { fill: none; stroke: #E6D5C3; stroke-width: 4; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-hat { fill: #FF8383; stroke: #594132; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-apron { fill: #7EC8B6; stroke: #594132; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-shirt { fill: #FFD166; stroke: #594132; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-beard { fill: #FFFFFF; stroke: #594132; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-face { fill: #FFDEC4; stroke: #594132; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-machine { fill: #C8B6FF; stroke: #594132; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .jelly-steam { fill: none; stroke: #A0C4FF; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }
+      .card-text { font-family: 'Comic Sans MS', 'Chalkboard SE', sans-serif; font-weight: bold; font-size: 34px; fill: #D9534F; }
+    </style>
+  </defs>
+
+  <!-- Background / Negative space -->
+  <rect width="512" height="512" fill="#F4ECE1" />
+
+  <!-- Playing Card Base -->
+  <rect x="44" y="32" width="424" height="448" rx="28" ry="28" class="jelly-card" />
+  <rect x="60" y="48" width="392" height="416" rx="16" ry="16" class="jelly-border" />
+
+  <!-- Card Indices (Hearts theme) -->
+  <text x="78" y="90" class="card-text">K</text>
+  <path d="M 85 106 C 85 100, 93 100, 93 106 C 93 112, 85 118, 85 124 C 85 118, 77 112, 77 106 C 77 100, 85 100, 85 106 Z" fill="#D9534F" />
+  
+  <g transform="rotate(180, 436, 432)">
+    <text x="418" y="442" class="card-text">K</text>
+    <path d="M 425 458 C 425 452, 433 452, 433 458 C 433 464, 425 470, 425 476 C 425 470, 417 464, 417 458 C 417 452, 425 452, 425 458 Z" fill="#D9534F" />
+  </g>
+
+  <!-- Espresso Machine Background Element -->
+  <path d="M 150 280 C 140 220, 150 190, 180 180 L 332 180 C 362 190, 372 220, 362 280 Z" class="jelly-machine" />
+  <!-- Machine Top Details & Gauges -->
+  <circle cx="210" cy="205" r="14" fill="#FFF" stroke="#594132" stroke-width="5" />
+  <circle cx="210" cy="205" r="3" fill="#594132" />
+  <circle cx="302" cy="205" r="14" fill="#FFF" stroke="#594132" stroke-width="5" />
+  <path d="M 302 205 L 310 198" stroke="#594132" stroke-width="4" stroke-linecap="round" />
+
+  <!-- Group Head & Portafilter -->
+  <rect x="226" y="195" width="60" height="30" rx="8" ry="8" fill="#7A6555" stroke="#594132" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 210 225 L 302 225 L 286 275 L 226 275 Z" fill="#594132" stroke="#594132" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <!-- Portafilter handle -->
+  <path d="M 256 250 L 336 275" stroke="#594132" stroke-width="8" stroke-linecap="round" />
+  
+  <!-- Dripping Espresso Drop -->
+  <path d="M 256 280 C 250 295, 262 305, 256 312 C 250 305, 262 295, 256 280 Z" fill="#6B3E26" stroke="#594132" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Gnome Barista Character -->
+  <!-- Torso / Shirt -->
+  <path d="M 186 310 C 170 310, 160 380, 175 420 L 337 420 C 352 380, 342 310, 326 310 Z" class="jelly-shirt" />
+  
+  <!-- Apron -->
+  <path d="M 196 325 L 316 325 C 326 380, 316 420, 306 425 L 206 425 C 196 420, 186 380, 196 325 Z" class="jelly-apron" />
+  <!-- Apron pocket with latte art heart -->
+  <rect x="226" y="360" width="60" height="42" rx="10" ry="10" fill="#FFF" stroke="#594132" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 256 374 C 250 366, 240 372, 246 382 C 252 392, 256 396, 256 396 C 256 396, 260 392, 266 382 C 272 372, 262 366, 256 374 Z" fill="#FF8383" />
+
+  <!-- Gnome Beard (Fluffy white jelly beard) -->
+  <path d="M 176 270 C 150 290, 160 360, 216 370 C 246 376, 266 376, 296 370 C 352 360, 362 290, 336 270 C 350 320, 310 350, 256 350 C 202 350, 162 320, 176 270 Z" class="jelly-beard" />
+
+  <!-- Face / Nose -->
+  <circle cx="256" cy="260" r="24" class="jelly-face" />
+
+  <!-- Cheeks (Rosy jelly blush) -->
+  <circle cx="228" cy="265" r="9" fill="#FFB4B4" />
+  <circle cx="284" cy="265" r="9" fill="#FFB4B4" />
+
+  <!-- Eyes (Happy wink & blink) -->
+  <path d="M 238 244 Q 246 252, 252 244" fill="none" stroke="#594132" stroke-width="6" stroke-linecap="round" />
+  <circle cx="274" cy="246" r="5" fill="#594132" />
+
+  <!-- Smile -->
+  <path d="M 246 276 Q 256 286, 266 276" fill="none" stroke="#594132" stroke-width="5" stroke-linecap="round" />
+
+  <!-- Gnome Pointy Hat (Tall, flopping over gracefully) -->
+  <path d="M 176 230 C 176 230, 190 100, 296 76 C 326 70, 346 90, 330 110 C 290 150, 250 190, 336 220 C 336 220, 280 240, 176 230 Z" class="jelly-hat" />
+  <!-- Hat brim fold detail -->
+  <path d="M 176 226 C 220 240, 290 230, 336 220" fill="none" stroke="#594132" stroke-width="6" stroke-linecap="round" />
+
+  <!-- Coffee Cup on Saucer (Right side) -->
+  <path d="M 330 390 L 410 390 L 396 440 L 344 440 Z" fill="#FFF" stroke="#594132" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" />
+  <ellipse cx="370" cy="390" rx="40" ry="8" fill="#FFF" stroke="#594132" stroke-width="6" />
+  <ellipse cx="370" cy="392" rx="32" ry="5" fill="#8C5830" />
+  <!-- Cup Handle -->
+  <path d="M 396 404 C 418 404, 418 428, 396 428" fill="none" stroke="#594132" stroke-width="6" stroke-linecap="round" />
+  <ellipse cx="370" cy="445" rx="46" ry="6" fill="#E6D5C3" stroke="#594132" stroke-width="5" />
+
+  <!-- Steam rising from cup -->
+  <path d="M 356 365 C 346 350, 376 340, 361 325 C 351 315, 371 300, 366 285" class="jelly-steam" />
+  <path d="M 384 368 C 394 353, 364 343, 379 328 C 389 318, 369 303, 374 288" class="jelly-steam" />
+
+  <!-- Coffee bean scatter (Audience twist / charm) -->
+  <g transform="translate(110, 400) rotate(25)">
+    <ellipse cx="0" cy="0" rx="12" ry="7" fill="#8C5830" stroke="#594132" stroke-width="4" />
+    <path d="M -6 0 Q 0 -4 6 0" fill="none" stroke="#594132" stroke-width="3" stroke-linecap="round" />
+  </g>
+  <g transform="translate(400, 110) rotate(-15)">
+    <ellipse cx="0" cy="0" rx="10" ry="6" fill="#8C5830" stroke="#594132" stroke-width="4" />
+    <path d="M -5 0 Q 0 -3 5 0" fill="none" stroke="#594132" stroke-width="3" stroke-linecap="round" />
+  </g>
+</svg>

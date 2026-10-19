@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fffbeb"/>
+      <stop offset="100%" stop-color="#fef3c7"/>
+    </linearGradient>
+    <linearGradient id="frosting" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f472b6"/>
+      <stop offset="50%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#db2777"/>
+    </linearGradient>
+    <linearGradient id="wrapper" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Night Sky Drive-In Background Ambient -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="80" cy="70" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="430" cy="100" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="450" cy="400" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="60" cy="420" r="1.5" fill="#fff" opacity="0.7"/>
+
+  <!-- Wanted Poster Board -->
+  <rect x="48" y="28" width="416" height="456" rx="10" fill="url(#paper)" stroke="#78350f" stroke-width="8"/>
+  <rect x="60" y="40" width="392" height="432" fill="none" stroke="#b45309" stroke-width="2" stroke-dasharray="8,6"/>
+
+  <!-- Corner Rivets -->
+  <circle cx="72" cy="52" r="6" fill="#78350f"/>
+  <circle cx="440" cy="52" r="6" fill="#78350f"/>
+  <circle cx="72" cy="460" r="6" fill="#78350f"/>
+  <circle cx="440" cy="460" r="6" fill="#78350f"/>
+
+  <!-- Header Banner -->
+  <text x="256" y="92" font-family="serif" font-size="46" font-weight="bold" fill="#7c2d12" text-anchor="middle" letter-spacing="6">WANTED</text>
+  <text x="256" y="122" font-family="sans-serif" font-size="14" font-weight="bold" fill="#9a3412" text-anchor="middle">DRIVE-IN CINEMA FUGITIVE TASK FORCE</text>
+
+  <!-- Mugshot Frame -->
+  <rect x="126" y="136" width="260" height="215" fill="#1e293b" stroke="#78350f" stroke-width="4" rx="6"/>
+  
+  <!-- Drive-In Movie Screen inside Mugshot Background -->
+  <rect x="146" y="152" width="220" height="100" fill="#090d16"/>
+  <polygon points="156,252 356,252 336,172 176,172" fill="#38bdf8" opacity="0.15"/>
+  <rect x="176" y="182" width="160" height="60" fill="#020617" stroke="#38bdf8" stroke-width="2" rx="4"/>
+  <!-- Tiny car on screen -->
+  <path d="M216,232 L226,220 L256,220 L266,232 Z" fill="#94a3b8"/>
+  <circle cx="226" cy="234" r="3.5" fill="#334155"/>
+  <circle cx="256" cy="234" r="3.5" fill="#334155"/>
+  <text x="256" y="208" font-family="monospace" font-size="11" fill="#38bdf8" text-anchor="middle">FEATURE PRESENTATION</text>
+
+  <!-- CUPCAKE MUGSHOT HERO -->
+  <!-- Cupcake Wrapper -->
+  <polygon points="196,307 316,307 301,252 211,252" fill="url(#wrapper)" stroke="#881337" stroke-width="3"/>
+  <line x1="231" y1="252" x2="221" y2="307" stroke="#881337" stroke-width="2"/>
+  <line x1="256" y1="252" x2="256" y2="307" stroke="#881337" stroke-width="2"/>
+  <line x1="281" y1="252" x2="291" y2="307" stroke="#881337" stroke-width="2"/>
+
+  <!-- Frosting Swirls -->
+  <path d="M206,252 Q256,190 306,252 Q291,210 256,210 Q221,210 206,252 Z" fill="url(#frosting)" stroke="#9d174d" stroke-width="3"/>
+  <path d="M221,228 Q256,175 291,228 Q276,192 256,192 Q236,192 221,228 Z" fill="#f472b6" stroke="#be185d" stroke-width="2"/>
+  <path d="M236,208 Q256,160 276,208 Q266,182 256,182 Q246,182 236,208 Z" fill="#fbcfe8" stroke="#db2777" stroke-width="1.5"/>
+
+  <!-- Cute Villainous Face on Cupcake -->
+  <circle cx="244" cy="238" r="4" fill="#0f172a"/>
+  <circle cx="268" cy="238" r="4" fill="#0f172a"/>
+  <path d="M246,250 Q256,258 266,250" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="238" y1="230" x2="250" y2="233" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  <line x1="262" y1="233" x2="274" y2="230" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Cherry on Top -->
+  <circle cx="256" cy="170" r="14" fill="#dc2626" stroke="#991b1b" stroke-width="2"/>
+  <path d="M256,156 Q272,140 284,152" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="262" cy="166" r="3.5" fill="#fca5a5" opacity="0.8"/>
+
+  <!-- Mugshot Number Board -->
+  <rect x="206" y="315" width="100" height="24" fill="#f8fafc" stroke="#334155" stroke-width="2" rx="3"/>
+  <text x="256" y="332" font-family="monospace" font-size="12" font-weight="bold" fill="#0f172a" text-anchor="middle"># 849-CRUNCH</text>
+
+  <!-- Colorful Sprinkles -->
+  <rect x="225" y="212" width="6" height="3" rx="1.5" fill="#fef08a" transform="rotate(30 228 213)"/>
+  <rect x="275" y="210" width="6" height="3" rx="1.5" fill="#67e8f9" transform="rotate(-20 278 211)"/>
+  <rect x="245" y="195" width="6" height="3" rx="1.5" fill="#a7f3d0" transform="rotate(15 248 196)"/>
+  <rect x="235" y="235" width="6" height="3" rx="1.5" fill="#fef08a" transform="rotate(-40 238 236)"/>
+  <rect x="270" y="232" width="6" height="3" rx="1.5" fill="#c084fc" transform="rotate(25 273 233)"/>
+
+  <!-- Wanted Poster Footer Details -->
+  <text x="256" y="385" font-family="serif" font-size="24" font-weight="bold" fill="#7c2d12" text-anchor="middle">REWARD $50,000</text>
+  <text x="256" y="415" font-family="sans-serif" font-size="13" font-weight="bold" fill="#9a3412" text-anchor="middle">WANTED FOR: BUTTER-THEFT AT SCREEN 4</text>
+  <text x="256" y="437" font-family="sans-serif" font-size="12" fill="#78350f" text-anchor="middle">Extremely sweet, sprinkles on the run. Do not lick.</text>
+</svg>

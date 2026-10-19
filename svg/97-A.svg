@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1030"/>
+      <stop offset="0.55" stop-color="#1d2450"/>
+      <stop offset="1" stop-color="#3a2a52"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdf6d8"/>
+      <stop offset="0.7" stop-color="#f3e6b0"/>
+      <stop offset="1" stop-color="#e6cf7a"/>
+    </radialGradient>
+    <linearGradient id="umb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e8425c"/>
+      <stop offset="1" stop-color="#8f1735"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="96" r="58" fill="url(#moon)"/>
+  <circle cx="400" cy="96" r="86" fill="#fdf6d8" opacity="0.10"/>
+  <g fill="#fffbe8" opacity="0.85">
+    <circle cx="60" cy="60" r="2"/><circle cx="130" cy="40" r="1.6"/><circle cx="210" cy="90" r="1.4"/>
+    <circle cx="300" cy="45" r="2"/><circle cx="470" cy="180" r="1.6"/><circle cx="40" cy="200" r="1.5"/>
+    <circle cx="95" cy="140" r="1.2"/><circle cx="340" cy="150" r="1.3"/><circle cx="490" cy="60" r="1.8"/>
+  </g>
+
+  <!-- rain -->
+  <g stroke="#9fc4ff" stroke-width="1.6" opacity="0.45" stroke-linecap="round">
+    <path d="M40 30 l-8 26"/><path d="M120 60 l-8 26"/><path d="M200 25 l-8 26"/>
+    <path d="M300 70 l-8 26"/><path d="M460 120 l-8 26"/><path d="M25 160 l-8 26"/>
+    <path d="M70 260 l-8 26"/><path d="M45 350 l-8 26"/><path d="M480 300 l-8 26"/>
+    <path d="M495 400 l-8 26"/><path d="M100 430 l-8 26"/><path d="M15 440 l-8 26"/>
+  </g>
+
+  <!-- ground / puddle -->
+  <path d="M0 448 Q256 424 512 448 L512 512 L0 512 Z" fill="#151a3a"/>
+  <ellipse cx="256" cy="462" rx="150" ry="16" fill="#2b3566" opacity="0.7"/>
+
+  <!-- umbrella -->
+  <path d="M118 262 A138 138 0 0 1 394 262 Q366 248 338 262 Q310 248 282 262 Q256 248 230 262 Q202 248 174 262 Q146 248 118 262 Z" fill="url(#umb)"/>
+  <path d="M256 124 L256 262" stroke="#f6d7a0" stroke-width="2" opacity="0.5"/>
+  <path d="M118 262 A138 138 0 0 1 394 262" fill="none" stroke="#ffd9e2" stroke-width="3"/>
+  <line x1="256" y1="262" x2="256" y2="360" stroke="#6b4a2a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M256 360 q0 16 -14 16 q-12 0 -12 -12" fill="none" stroke="#6b4a2a" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- witch LEFT: tall pointy hat, dark cloak -->
+  <path d="M150 300 Q120 340 118 420 L200 420 Q196 340 176 300 Z" fill="#2f2159"/>
+  <path d="M150 300 Q120 340 118 420 L150 420 Q142 350 158 302 Z" fill="#4a2f86" opacity="0.8"/>
+  <circle cx="164" cy="288" r="24" fill="#cfe8b8"/>
+  <path d="M138 276 Q164 232 196 272 Q170 268 138 276 Z" fill="#1b1140"/>
+  <ellipse cx="166" cy="276" rx="34" ry="8" fill="#2a1a5e"/>
+  <path d="M190 292 q14 6 10 20" fill="none" stroke="#f2c14e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M144 292 Q132 300 136 312" fill="none" stroke="#e8dcc0" stroke-width="3"/>
+
+  <!-- witch RIGHT: round hat, green cloak, holding umbrella -->
+  <path d="M300 302 Q276 344 274 424 L358 424 Q356 344 332 302 Z" fill="#1f5c4a"/>
+  <path d="M332 302 Q356 344 358 424 L330 424 Q338 350 322 304 Z" fill="#2f8a68" opacity="0.85"/>
+  <circle cx="316" cy="288" r="23" fill="#f2d3a8"/>
+  <path d="M296 272 Q316 240 340 270 Q318 264 296 272 Z" fill="#7a1f3d"/>
+  <ellipse cx="318" cy="272" rx="32" ry="7" fill="#a12a52"/>
+  <!-- arm up to umbrella handle -->
+  <path d="M330 320 Q280 320 262 300" fill="none" stroke="#1f5c4a" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="262" cy="298" r="8" fill="#f2d3a8"/>
+
+  <!-- faces -->
+  <g fill="#1a1330">
+    <circle cx="158" cy="288" r="2.4"/><circle cx="172" cy="288" r="2.4"/>
+    <circle cx="308" cy="288" r="2.4"/><circle cx="322" cy="288" r="2.4"/>
+  </g>
+  <path d="M156 300 q8 6 16 0" fill="none" stroke="#1a1330" stroke-width="2"/>
+  <path d="M308 300 q8 6 16 0" fill="none" stroke="#1a1330" stroke-width="2"/>
+
+  <!-- rim light -->
+  <g fill="none" stroke="#ffe9a8" stroke-width="2.5" opacity="0.75" stroke-linecap="round">
+    <path d="M196 306 Q200 350 202 418"/>
+    <path d="M276 310 Q272 360 274 420"/>
+  </g>
+
+  <!-- glowing puddle reflection + shared sparkles -->
+  <ellipse cx="256" cy="460" rx="96" ry="8" fill="#ffd9e2" opacity="0.18"/>
+  <g fill="#ffe9a8">
+    <path d="M236 200 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 Z"/>
+    <path d="M288 176 l2 6 6 2 -6 2 -2 6 -2 -6 -6 -2 6 -2 Z"/>
+  </g>
+
+  <!-- splash drops off umbrella -->
+  <g fill="#bcd8ff" opacity="0.8">
+    <circle cx="112" cy="278" r="3"/><circle cx="400" cy="276" r="3"/>
+    <circle cx="128" cy="300" r="2"/><circle cx="386" cy="302" r="2"/>
+  </g>
+</svg>

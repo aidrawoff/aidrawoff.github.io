@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#171a45"/><stop offset="1" stop-color="#59427c"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#34364a"/><stop offset="1" stop-color="#141827"/></linearGradient>
+ <linearGradient id="cloak" x2="1" y2="1"><stop stop-color="#d83d63"/><stop offset="1" stop-color="#702b66"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<!-- twilight city -->
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="398" cy="91" r="43" fill="#ffd77b" opacity=".25" filter="url(#glow)"/><circle cx="398" cy="91" r="27" fill="#ffd77b"/>
+<path d="M0 272V205h37v67h21V170h40v102h22V221h34v51h23V145h48v127h22V190h38v82h20V158h52v114h25V218h44v54h28v-88h32v88h30v240H0z" fill="#252744"/>
+<g fill="#ffd66f" opacity=".72"><path d="M76 188h9v14h-9zM76 216h9v14h-9zM177 169h10v16h-10zM197 169h10v16h-10zM279 182h10v15h-10zM327 181h10v15h-10zM443 207h9v14h-9z"/></g>
+<!-- road and lanes -->
+<path d="M0 310 Q220 285 512 311V512H0z" fill="url(#road)"/>
+<path d="M-10 355 Q250 329 522 352M-10 429 Q250 404 522 427" fill="none" stroke="#5d6175" stroke-width="5"/>
+<path d="M55 505L119 343M210 512l22-165M397 512l-20-164" stroke="#f5c95b" stroke-width="7" stroke-dasharray="30 22" opacity=".9"/>
+<!-- cars -->
+<g stroke="#141827" stroke-width="5"><path d="M24 365l16-30h70l20 30v40H24z" fill="#3ea9c8"/><path d="M45 338h55l13 27H32z" fill="#9ee6ed"/><circle cx="46" cy="405" r="12" fill="#1b1c2e"/><circle cx="108" cy="405" r="12" fill="#1b1c2e"/><circle cx="96" cy="378" r="5" fill="#ffdb62"/>
+<path d="M350 386l15-32h82l27 32v43H350z" fill="#e35855"/><path d="M370 357h63l20 28h-96z" fill="#a8d9e0"/><circle cx="377" cy="430" r="13" fill="#171827"/><circle cx="446" cy="430" r="13" fill="#171827"/><circle cx="440" cy="399" r="6" fill="#fff07c"/></g>
+<!-- broom in strong diagonal -->
+<path d="M114 300L405 170" stroke="#9b5c35" stroke-width="10" stroke-linecap="round"/><path d="M391 177q42-6 75-33-6 32-30 58-27 22-52 15z" fill="#e4a53c" stroke="#5f3540" stroke-width="5"/>
+<!-- witch cloak/body -->
+<path d="M162 161q-20 28-10 76l-37 66q61 25 132-3l-42-68q10-39-9-70z" fill="url(#cloak)" stroke="#321d46" stroke-width="6"/>
+<!-- head and hat -->
+<circle cx="177" cy="143" r="34" fill="#f0a06f" stroke="#321d46" stroke-width="6"/><path d="M142 145q36 16 69-1l-11 30q-29 18-56-1z" fill="#f0a06f"/>
+<path d="M133 121q42-33 91 1h-25l-8-49-34 43z" fill="#27204d" stroke="#17152f" stroke-width="6"/><path d="M125 121q41-15 106 2" fill="none" stroke="#f1bb4d" stroke-width="7"/>
+<circle cx="164" cy="143" r="4" fill="#21192e"/><circle cx="190" cy="143" r="4" fill="#21192e"/><path d="M169 157q10 8 19-1" fill="none" stroke="#7b3048" stroke-width="4"/>
+<!-- arms gripping broom, legs riding -->
+<path d="M148 184l-22 49 18 8 31-43M204 184l35 25-8 12-45-17" fill="none" stroke="#f0a06f" stroke-width="13" stroke-linecap="round"/>
+<path d="M153 265q-18 23-39 33M214 260q29 25 53 25" fill="none" stroke="#f0a06f" stroke-width="13" stroke-linecap="round"/>
+<!-- rain and speed -->
+<g stroke="#9bd9ef" stroke-width="3" opacity=".65"><path d="M20 90l-12 25M63 112L51 137M113 73l-12 25M247 74l-12 25M302 104l-12 25M470 112l-12 25M500 70l-12 25M280 238l-12 25"/></g>
+<g stroke="#ffd96b" stroke-width="4" opacity=".8"><path d="M92 289h38M270 305h35M430 292h43"/></g>
+<!-- foreground puddle reflections --> <path d="M0 476q110-28 220 0t292 0v36H0z" fill="#252b4c" opacity=".75"/><path d="M48 487h92M310 482h130" stroke="#66a4b9" stroke-width="5" opacity=".5"/>
+<!-- traffic signal punctuation -->
+<path d="M478 178v116M463 178h30v70h-30z" fill="#171827" stroke="#0d1020" stroke-width="5"/>
+<circle cx="478" cy="192" r="7" fill="#f05258"/><circle cx="478" cy="214" r="7" fill="#ffd15c"/><circle cx="478" cy="236" r="7" fill="#55d59a"/>
+<path d="M22 254h85v34H22z" fill="#e9b94c" stroke="#221d35" stroke-width="4"/><path d="M64 288v33" stroke="#221d35" stroke-width="5"/><path d="M31 271h35l-7-7m7 7-7 7" fill="none" stroke="#35233d" stroke-width="3"/>
+<text x="72" y="268" font-family="sans-serif" font-size="9" font-weight="bold" fill="#35233d">BROOM</text><text x="72" y="280" font-family="sans-serif" font-size="9" font-weight="bold" fill="#35233d">LANE</text>
+<!-- tiny magical wake --> <path d="M101 278q-18 7-29 1M97 291q-18 7-30 1" fill="none" stroke="#f7d56c" stroke-width="4" stroke-linecap="round"/>
+</svg>

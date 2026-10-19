@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#2a1a4a"/>
+      <stop offset="100%" stop-color="#0a0518"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a0f2e"/>
+      <stop offset="100%" stop-color="#0d0618"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa00" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#ff6600" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff3300" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pumpSkin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff8c00"/>
+      <stop offset="100%" stop-color="#cc4400"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky and ground -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <ellipse cx="256" cy="420" rx="220" ry="30" fill="url(#ground)"/>
+  <ellipse cx="256" cy="420" rx="220" ry="30" fill="#000" opacity="0.3"/>
+
+  <!-- Moon -->
+  <circle cx="420" cy="80" r="35" fill="#ffeebb" opacity="0.8"/>
+
+  <!-- Scale base -->
+  <rect x="186" y="380" width="140" height="16" rx="4" fill="#555"/>
+  <rect x="246" y="300" width="20" height="80" fill="#777"/>
+  <rect x="236" y="290" width="40" height="12" rx="2" fill="#999"/>
+
+  <!-- Skinny pumpkin body with ribbed contour -->
+  <ellipse cx="256" cy="250" rx="48" ry="72" fill="#b33600"/>
+  <ellipse cx="256" cy="250" rx="42" ry="70" fill="url(#pumpSkin)"/>
+  <ellipse cx="242" cy="250" rx="22" ry="62" fill="#e67300" opacity="0.35"/>
+  <ellipse cx="270" cy="250" rx="22" ry="62" fill="#b33600" opacity="0.25"/>
+  <ellipse cx="256" cy="250" rx="30" ry="68" fill="#ff8c00" opacity="0.15"/>
+
+  <!-- Stem -->
+  <path d="M250 185 Q256 160 262 170 Q268 180 262 185" fill="#4a7c2a" stroke="#2e5218" stroke-width="2"/>
+
+  <!-- Carved face with asymmetry and attitude -->
+  <!-- Left eye (droopy, worried) -->
+  <polygon points="232,232 242,252 222,250" fill="#ffee66"/>
+  <polygon points="232,232 242,252 222,250" fill="#ffaa00" opacity="0.4"/>
+  <!-- Right eye (smaller, pinched) -->
+  <polygon points="270,228 278,243 260,244" fill="#ffee66"/>
+  <!-- Nose (tiny, off-center) -->
+  <polygon points="258,256 264,270 252,269" fill="#ffee66"/>
+  <!-- Mouth (tight frown, lopsided) -->
+  <path d="M232 282 Q248 275 256 280 Q264 272 278 282 Q274 288 256 284 Q238 288 232 282" fill="#ffee66"/>
+  <!-- Cheek hollows -->
+  <ellipse cx="225" cy="265" rx="6" ry="10" fill="#b33600" opacity="0.3"/>
+  <ellipse cx="287" cy="265" rx="5" ry="9" fill="#b33600" opacity="0.3"/>
+
+  <!-- Inner glow and candle light -->
+  <ellipse cx="256" cy="250" rx="38" ry="58" fill="url(#glow)" opacity="0.7"/>
+  <ellipse cx="256" cy="290" rx="10" ry="6" fill="#ffee66" opacity="0.9"/>
+
+  <!-- Diet chart on ground -->
+  <rect x="340" y="360" width="70" height="50" rx="2" fill="#eee"/>
+  <rect x="345" y="365" width="60" height="6" fill="#ccc"/>
+  <rect x="345" y="375" width="40" height="4" fill="#ddd"/>
+  <rect x="345" y="382" width="50" height="4" fill="#ddd"/>
+  <rect x="345" y="389" width="35" height="4" fill="#ddd"/>
+  <text x="350" y="400" font-family="sans-serif" font-size="8" fill="#c00">-5 lbs!</text>
+  <!-- Tiny candy corn temptation -->
+  <polygon points="365,350 370,365 360,365" fill="#ffaa00"/>
+  <polygon points="365,350 368,358 362,358" fill="#fff"/>
+  <polygon points="365,350 367,355 363,355" fill="#cc3300"/>
+
+  <!-- Shadow -->
+  <ellipse cx="256" cy="390" rx="50" ry="8" fill="#000" opacity="0.4"/>
+
+  <!-- Atmospheric stars -->
+  <circle cx="80" cy="60" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="120" cy="90" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="60" cy="140" r="1.2" fill="#fff" opacity="0.6"/>
+  <circle cx="380" cy="50" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="460" cy="130" r="1.5" fill="#fff" opacity="0.4"/>
+</svg>

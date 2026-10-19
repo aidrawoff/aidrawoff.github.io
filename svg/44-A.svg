@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#25345e"/><stop offset="1" stop-color="#688bb0"/></linearGradient>
+ <pattern id="knit" width="18" height="18" patternUnits="userSpaceOnUse"><path d="M2 3q7 5 0 10M11 3q7 5 0 10" fill="none" stroke="#f4d9b6" stroke-width="2" opacity=".65"/></pattern>
+ <pattern id="cream" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M1 2q6 4 0 8M8 2q6 4 0 8" fill="none" stroke="#c47b57" stroke-width="1.7"/></pattern>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<path d="M0 390Q110 340 220 390T512 375V512H0Z" fill="#e7bd8d"/>
+<path d="M0 390Q110 340 220 390T512 375V512H0Z" fill="url(#knit)" opacity=".5"/>
+<!-- yarn clouds --> <g fill="none" stroke="#f7e5d0" stroke-width="12" stroke-linecap="round"><path d="M30 95q18-30 38 0q24-42 48 0q24-27 43 4"/><path d="M354 80q20-28 39 2q22-34 44 2q20-20 40 5"/></g>
+<!-- trailing flock -->
+<g fill="#fff0d7" stroke="#a95855" stroke-width="5" stroke-linejoin="round">
+ <path d="M92 177l74 22-43 13-22 28-5-30-25-17z"/><path d="M203 119l61 18-34 10-16 23-5-24-20-13z"/>
+ <path d="M346 174l70 20-40 12-19 25-5-27-23-14z"/><path d="M404 270l55 16-31 10-14 20-5-22-18-11z"/>
+</g>
+<g fill="none" stroke="#d47b69" stroke-width="3"><path d="M92 177l31 35 43-13"/><path d="M203 119l27 28 34-10"/><path d="M346 174l30 32 40-12"/><path d="M404 270l23 26 31-10"/></g>
+<!-- lead knitted plane -->
+<g stroke="#7d3f50" stroke-width="7" stroke-linejoin="round">
+ <path d="M54 292L305 208 464 240 319 275 244 360 216 288 54 292Z" fill="#f6d4ad"/>
+ <path d="M54 292L216 288 244 360 184 309Z" fill="#d97968"/>
+ <path d="M216 288L305 208 319 275 244 360Z" fill="#fff0d8"/>
+ <path d="M244 360L319 275 464 240 303 302Z" fill="#eaa77e"/>
+ <path d="M69 286L217 279 294 218" fill="none" stroke="#fff2d7" stroke-width="5"/>
+</g>
+<path d="M67 288L205 285 236 345 181 303Z" fill="url(#cream)" opacity=".8"/>
+<path d="M227 285L300 222 311 270 246 348Z" fill="url(#knit)" opacity=".8"/>
+<path d="M323 278L450 243 319 294Z" fill="url(#cream)" opacity=".42"/>
+<path d="M72 294l111 3 47 49-45-39z" fill="url(#knit)" opacity=".28"/>
+<!-- yarn flight trails --> <g fill="none" stroke="#f4d9b6" stroke-width="5" stroke-dasharray="8 10" stroke-linecap="round"><path d="M55 315Q115 350 170 340"/><path d="M323 285q55 30 112 9"/><path d="M255 190q20-25 53-18"/></g>
+<!-- foreground yarn ball --> <g stroke="#7d3f50" stroke-width="5"><circle cx="76" cy="443" r="35" fill="#d97968"/><path d="M49 442q28-32 57 0q-29 31-58 0M52 423q28 29 54 0M55 466q21-24 43 0" fill="none" stroke="#f6d4ad"/></g>
+<circle cx="446" cy="445" r="5" fill="#fff0d7"/><circle cx="465" cy="425" r="4" fill="#fff0d7"/>
+<!-- hand-sewn details -->
+<g fill="none" stroke="#fff0d7" stroke-width="3" stroke-linecap="round" opacity=".9">
+ <path d="M82 280l12 3M105 276l12 3M128 270l12 3M151 264l12 3M174 258l12 3"/>
+ <path d="M335 263l12-3M358 257l12-3M381 251l12-3M404 246l12-3"/>
+ <path d="M231 306l8 7M225 319l8 7M219 332l8 7"/>
+</g>
+<g fill="#f6d4ad"><circle cx="27" cy="332" r="4"/><circle cx="40" cy="340" r="3"/><circle cx="483" cy="318" r="4"/></g>
+<g fill="none" stroke="#7d3f50" stroke-width="2" opacity=".7"><path d="M326 287l9 3M342 282l9 3M358 277l9 3M374 272l9 3M390 267l9 3"/></g>
+</svg>

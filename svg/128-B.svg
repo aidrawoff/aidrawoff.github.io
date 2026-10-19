@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <!-- Glowing yarn ball -->
+  <circle cx="320" cy="200" r="24" fill="#ffccaa" filter="url(#glow)"/>
+  <!-- Needles -->
+  <line x1="348" y1="200" x2="416" y2="200" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <line x1="348" y1="200" x2="348" y2="256" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <!-- Zombie body (simplified silhouette) -->
+  <path d="M200 280 Q220 240 260 260 Q300 280 320 240 Q340 200 320 160 Q280 140 240 160 Q200 180 180 220 Q170 240 200 280Z" fill="#c8c8c8"/>
+  <!-- Head -->
+  <ellipse cx="240" cy="160" rx="24" ry="32" fill="#c8c8c8"/>
+  <!-- Eyes -->
+  <circle cx="232" cy="152" r="4" fill="#222"/>
+  <circle cx="248" cy="152" r="4" fill="#222"/>
+  <!-- Mouth -->
+  <path d="M236 172 Q240 178 244 172" stroke="#222" stroke-width="2" fill="none"/>
+  <!-- Hands holding needles -->
+  <path d="M280 220 Q300 200 320 220" stroke="#c8c8c8" stroke-width="12" stroke-linecap="round" fill="none"/>
+  <path d="M320 220 L348 200" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+</svg>

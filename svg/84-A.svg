@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1038"/>
+      <stop offset="1" stop-color="#4a2a6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="392" cy="112" r="70" fill="#f4e9c8"/>
+  <circle cx="418" cy="96" r="62" fill="url(#sky)"/>
+  <g fill="#ffe9a8">
+    <circle cx="70" cy="70" r="3"/><circle cx="140" cy="40" r="2"/><circle cx="60" cy="200" r="2.5"/>
+    <circle cx="470" cy="230" r="3"/><circle cx="300" cy="60" r="2"/><circle cx="250" cy="30" r="2.5"/>
+  </g>
+  <ellipse cx="256" cy="470" rx="230" ry="60" fill="#231640"/>
+  <!-- body -->
+  <ellipse cx="256" cy="330" rx="120" ry="110" fill="#3fae5c"/>
+  <ellipse cx="256" cy="352" rx="82" ry="76" fill="#8fd98a"/>
+  <!-- legs -->
+  <ellipse cx="140" cy="410" rx="52" ry="26" fill="#3fae5c"/>
+  <ellipse cx="372" cy="410" rx="52" ry="26" fill="#3fae5c"/>
+  <!-- eyes -->
+  <circle cx="200" cy="240" r="40" fill="#3fae5c"/>
+  <circle cx="312" cy="240" r="40" fill="#3fae5c"/>
+  <circle cx="200" cy="238" r="28" fill="#fffbe8"/>
+  <circle cx="312" cy="238" r="28" fill="#fffbe8"/>
+  <circle cx="204" cy="240" r="14" fill="#1a1a2a"/>
+  <circle cx="308" cy="240" r="14" fill="#1a1a2a"/>
+  <circle cx="210" cy="234" r="5" fill="#ffffff"/>
+  <circle cx="314" cy="234" r="5" fill="#ffffff"/>
+  <!-- smile -->
+  <path d="M186 320 Q256 372 326 320" stroke="#1c5c31" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <!-- cheek blush -->
+  <ellipse cx="164" cy="312" rx="18" ry="11" fill="#f2839f" opacity="0.7"/>
+  <ellipse cx="348" cy="312" rx="18" ry="11" fill="#f2839f" opacity="0.7"/>
+  <!-- witch hat -->
+  <path d="M158 208 Q256 176 354 208 Q300 100 268 62 Q252 44 240 78 Q220 140 158 208 Z" fill="#6d2f8f"/>
+  <ellipse cx="256" cy="208" rx="112" ry="26" fill="#8a3fae"/>
+  <path d="M200 150 Q256 168 312 150 L306 128 Q256 146 206 128 Z" fill="#f2c14e"/>
+  <circle cx="256" cy="140" r="12" fill="#f2c14e"/>
+  <!-- front feet -->
+  <g fill="#4cbf6b">
+    <ellipse cx="204" cy="418" rx="30" ry="18"/>
+    <ellipse cx="308" cy="418" rx="30" ry="18"/>
+  </g>
+  <g fill="#3fae5c">
+    <circle cx="184" cy="424" r="9"/><circle cx="204" cy="430" r="9"/><circle cx="224" cy="424" r="9"/>
+    <circle cx="288" cy="424" r="9"/><circle cx="308" cy="430" r="9"/><circle cx="328" cy="424" r="9"/>
+  </g>
+  <!-- rim light on outer body silhouette -->
+  <path d="M138 340 Q136 290 150 258" stroke="#b9f5c0" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M374 340 Q376 290 362 258" stroke="#b9f5c0" stroke-width="6" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- wand held out to the side -->
+  <g transform="rotate(28 396 402)">
+    <rect x="391" y="300" width="10" height="110" rx="5" fill="#5b3a1e"/>
+    <path d="M396 262 L405 288 L432 288 L410 304 L418 330 L396 314 L374 330 L382 304 L360 288 L387 288 Z" fill="#ffd76b"/>
+  </g>
+  <circle cx="396" cy="296" r="4" fill="#fffbe8" opacity="0.9"/>
+  <!-- floating sparkles -->
+  <g fill="#ffe9a8">
+    <path d="M96 300 l5 12 12 5 -12 5 -5 12 -5 -12 -12 -5 12 -5 z"/>
+    <path d="M432 340 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z"/>
+    <circle cx="120" cy="150" r="3"/><circle cx="452" cy="176" r="2.5"/>
+  </g>
+  <!-- reeds / ground plane -->
+  <g stroke="#153f2a" stroke-width="7" fill="none" stroke-linecap="round">
+    <path d="M40 512 Q34 440 52 404"/>
+    <path d="M66 512 Q70 452 88 424"/>
+    <path d="M472 512 Q478 442 458 406"/>
+    <path d="M446 512 Q442 456 424 428"/>
+  </g>
+  <ellipse cx="256" cy="492" rx="150" ry="26" fill="#1d2f4d" opacity="0.6"/>
+</svg>

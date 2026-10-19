@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#f7d9ad"/><stop offset="1" stop-color="#d98955"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#b96b49"/><stop offset="1" stop-color="#713c3b"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="4"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<path d="M0 330 Q100 305 210 330 T512 320 V512H0Z" fill="url(#floor)"/>
+<path d="M0 364 Q130 340 260 366 T512 350" fill="none" stroke="#e7a06c" stroke-width="6" opacity=".6"/>
+<!-- shop awning and sign -->
+<rect x="22" y="28" width="468" height="75" rx="14" fill="#fff4d8" stroke="#633c39" stroke-width="5"/>
+<path d="M35 87 Q62 112 89 87 Q116 112 143 87 Q170 112 197 87 Q224 112 251 87 Q278 112 305 87 Q332 112 359 87 Q386 112 413 87 Q440 112 477 87" fill="#d85b45" stroke="#633c39" stroke-width="4"/>
+<text x="256" y="70" text-anchor="middle" font-family="sans-serif" font-size="30" font-weight="bold" fill="#633c39">MAPLE &amp; MOCHI TOYS</text>
+<!-- shelves -->
+<path d="M24 142 H173 V334 H24Z" fill="#9d513d" stroke="#633c39" stroke-width="6"/><path d="M339 142 H488 V334 H339Z" fill="#9d513d" stroke="#633c39" stroke-width="6"/>
+<path d="M24 205H173M24 270H173M339 205H488M339 270H488" stroke="#633c39" stroke-width="6"/>
+<!-- toys -->
+<g stroke="#633c39" stroke-width="4"><circle cx="60" cy="178" r="20" fill="#76b7ca"/><circle cx="106" cy="180" r="22" fill="#f3bb4e"/><path d="M145 193l-20-35 35 0z" fill="#e77869"/><circle cx="380" cy="178" r="21" fill="#f1a2b3"/><path d="M420 193v-37l31 19z" fill="#78b779"/><circle cx="62" cy="240" r="22" fill="#ffd36e"/><path d="M110 257q0-38 30-38t30 38" fill="#779bd0"/><circle cx="380" cy="239" r="22" fill="#79c7a0"/><path d="M412 254l15-35 24 35z" fill="#e46b58"/><path d="M53 305h42v-35H53zM117 305h42v-35h-42zM365 305h42v-35h-42zM428 305h42v-35h-42z" fill="#f5d36b"/></g>
+<!-- counter --> <path d="M145 318 H367 V390 H145Z" fill="#f5c477" stroke="#633c39" stroke-width="6"/><path d="M125 390H387" stroke="#633c39" stroke-width="10"/>
+<!-- panda shadow --> <ellipse cx="258" cy="437" rx="92" ry="18" fill="#432d32" opacity=".35" filter="url(#shadow)"/>
+<!-- red panda body, tail -->
+<path d="M205 404 Q166 388 177 348 Q184 321 211 328 Q235 336 241 364 L292 363 Q309 333 338 340 Q361 347 351 378 Q342 407 310 413Z" fill="#bd563b" stroke="#512f32" stroke-width="6"/>
+<path d="M315 382 Q382 367 398 409 Q409 439 372 451 Q344 460 326 431" fill="none" stroke="#bd563b" stroke-width="24"/><path d="M342 395q30 3 41 20M338 421q26 4 34 18" fill="none" stroke="#f2b05f" stroke-width="9"/>
+<!-- head and ears -->
+<path d="M202 332 L193 273 L226 289 Q256 274 286 289 L320 273 L309 335 Q292 365 255 367 Q218 365 202 332Z" fill="#c65a3e" stroke="#512f32" stroke-width="6"/>
+<path d="M207 291l-6-41 29 31M296 281l24-31-8 43" fill="#512f32" stroke="#512f32" stroke-width="5"/>
+<path d="M217 319 Q255 287 295 319 Q285 357 256 356 Q226 355 217 319Z" fill="#f4c27b" stroke="#512f32" stroke-width="4"/>
+<circle cx="237" cy="316" r="6" fill="#2b2028"/><circle cx="277" cy="316" r="6" fill="#2b2028"/><path d="M247 335 Q256 342 265 335" fill="none" stroke="#512f32" stroke-width="4"/>
+<!-- waving paw --> <path d="M217 365 Q187 350 188 320 Q190 305 202 309 Q209 312 205 329 Q216 310 224 318 Q229 324 219 339 Q234 324 240 334 Q243 344 228 357" fill="#c65a3e" stroke="#512f32" stroke-width="5"/>
+<!-- autumn leaves foreground -->
+<g fill="#d94f32" stroke="#633c39" stroke-width="3"><path d="M75 119q20-17 28 4l-12 18-18-5z"/><path d="M426 122q19-12 25 8l-15 15-16-9z"/><path d="M118 350q18-14 25 5l-13 17-17-7z"/><path d="M424 330q22-13 27 8l-16 17-18-8z"/><path d="M70 425q18-15 27 4l-13 18-18-8z"/></g>
+<g fill="#f3a43c" stroke="#633c39" stroke-width="3"><path d="M155 125q20-14 25 7l-14 16-17-8z"/><path d="M355 112q20-14 27 7l-15 17-18-8z"/><path d="M390 450q18-15 27 5l-14 17-17-8z"/><path d="M145 447q21-14 28 7l-16 16-18-8z"/></g>
+<g stroke="#8b4738" stroke-width="3" stroke-dasharray="5 8"><path d="M106 105q-20 50 10 81"/><path d="M439 104q-22 55 4 82"/><path d="M97 371q-18 32-2 55"/><path d="M406 291q25 21 19 47"/></g>
+<!-- finishing details: a toy airplane in the panda's paw and shop-floor accents -->
+<g stroke="#633c39" stroke-width="4" stroke-linejoin="round">
+ <path d="M192 343 Q180 331 174 338 Q169 346 184 353 L205 359" fill="none" stroke="#f4c27b" stroke-width="8"/>
+ <path d="M177 338 L157 329 L183 326 L198 315 L193 337Z" fill="#6fb7c4"/>
+ <path d="M166 330 L158 314 L184 326" fill="#e77869"/>
+ <path d="M156 468 H246 V489 H156Z" fill="#e7b04f"/>
+ <circle cx="174" cy="489" r="10" fill="#4b3440"/><circle cx="228" cy="489" r="10" fill="#4b3440"/>
+ <path d="M174 468v-19h42v19" fill="#79b7c8"/><path d="M184 449l12-15 12 15" fill="#e77869"/>
+ <path d="M251 460h58" stroke="#f2c26f" stroke-width="5"/>
+</g>
+<g fill="#fff1c7" opacity=".9"><circle cx="42" cy="117" r="3"/><circle cx="472" cy="184" r="3"/><circle cx="118" cy="407" r="3"/><circle cx="454" cy="405" r="3"/></g>
+<g font-family="sans-serif" font-size="11" font-weight="bold" fill="#633c39"><text x="39" y="326">BLOCKS</text><text x="352" y="326">PLUSHIES</text></g>
+<!-- final character polish -->
+<g fill="#e88a68" opacity=".75"><circle cx="228" cy="334" r="5"/><circle cx="284" cy="334" r="5"/></g>
+<g stroke="#633c39" stroke-width="2" opacity=".8"><path d="M222 336l-18 3M222 341l-17 8M289 336l18 3M289 341l17 8"/></g>
+<g fill="#f6d77b" stroke="#633c39" stroke-width="2"><path d="M482 258q10-9 14 2l-7 10-9-4z"/></g>
+</svg>

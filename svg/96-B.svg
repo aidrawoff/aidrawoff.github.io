@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8f0e8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#2a3a2a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a2a1a"/>
+      <stop offset="100%" stop-color="#0d1a0d"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background: spooky room -->
+  <rect width="512" height="512" fill="#1a1a2e"/>
+  <rect x="0" y="380" width="512" height="132" fill="url(#floor)"/>
+  
+  <!-- Stars -->
+  <circle cx="80" cy="60" r="1.5" fill="#f0e6c8" opacity="0.8"/>
+  <circle cx="120" cy="90" r="1" fill="#f0e6c8" opacity="0.6"/>
+  <circle cx="60" cy="140" r="1.2" fill="#f0e6c8" opacity="0.7"/>
+  <circle cx="350" cy="50" r="1" fill="#f0e6c8" opacity="0.5"/>
+  <circle cx="480" cy="180" r="1.5" fill="#f0e6c8" opacity="0.6"/>
+  
+  <!-- Moon window -->
+  <circle cx="420" cy="100" r="45" fill="#f0e6c8" opacity="0.15"/>
+  <circle cx="420" cy="100" r="35" fill="#f0e6c8" opacity="0.3"/>
+  <circle cx="420" cy="100" r="25" fill="#f0e6c8" opacity="0.5"/>
+  
+  <!-- The shared bedsheet ghost -->
+  <path d="M 160 420 
+           Q 140 350 150 280 
+           Q 155 200 200 160 
+           Q 256 130 312 160 
+           Q 357 200 362 280 
+           Q 372 350 352 420 
+           Q 256 440 160 420 Z" 
+        fill="#f0f0f0" opacity="0.92"/>
+  
+  <!-- Sheet draping folds and shadows -->
+  <path d="M 200 160 Q 220 220 210 300 Q 205 360 190 420" fill="none" stroke="#c8c8c8" stroke-width="4" opacity="0.5"/>
+  <path d="M 312 160 Q 292 220 302 300 Q 307 360 322 420" fill="none" stroke="#c8c8c8" stroke-width="4" opacity="0.5"/>
+  <path d="M 256 130 Q 256 200 256 300 Q 256 380 256 430" fill="none" stroke="#d0d0d0" stroke-width="2" opacity="0.35"/>
+  <!-- Cross folds for volume -->
+  <path d="M 180 380 Q 220 360 256 370 Q 292 360 332 380" fill="none" stroke="#c0c0c0" stroke-width="3" opacity="0.4"/>
+  <path d="M 170 340 Q 210 320 256 330 Q 302 320 342 340" fill="none" stroke="#c0c0c0" stroke-width="2" opacity="0.35"/>
+  
+  <!-- Two ghost faces under the sheet -->
+  <!-- Left ghost (taller, worried) -->
+  <ellipse cx="225" cy="240" rx="28" ry="32" fill="#1a1a2e" opacity="0.85"/>
+  <circle cx="215" cy="232" r="5" fill="#f0f0f0"/>
+  <circle cx="235" cy="232" r="5" fill="#f0f0f0"/>
+  <ellipse cx="225" cy="252" rx="6" ry="8" fill="#f0f0f0"/>
+  <!-- Worried eyebrows -->
+  <path d="M 208 222 Q 215 218 222 224" fill="none" stroke="#f0f0f0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 228 224 Q 235 218 242 222" fill="none" stroke="#f0f0f0" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Right ghost (shorter, excited) -->
+  <ellipse cx="287" cy="255" rx="24" ry="28" fill="#1a1a2e" opacity="0.85"/>
+  <circle cx="278" cy="248" r="5" fill="#f0f0f0"/>
+  <circle cx="296" cy="248" r="5" fill="#f0f0f0"/>
+  <path d="M 278 262 Q 287 272 296 262" fill="none" stroke="#f0f0f0" stroke-width="3" stroke-linecap="round"/>
+  <!-- Excited raised eyebrows -->
+  <path d="M 272 238 Q 278 232 284 238" fill="none" stroke="#f0f0f0" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 290 238 Q 296 232 302 238" fill="none" stroke="#f0f0f0" stroke-width="2" stroke-linecap="round"/>
+  
+  <!-- Arms poking out -->
+  <path d="M 175 300 Q 140 280 120 310 Q 115 320 125 325 Q 145 300 170 320" fill="#f0f0f0" opacity="0.9"/>
+  <path d="M 337 310 Q 370 290 390 320 Q 395 330 385 335 Q 365 310 340 330" fill="#f0f0f0" opacity="0.9"/>
+  
+  <!-- Feet poking out bottom -->
+  <ellipse cx="210" cy="425" rx="12" ry="8" fill="#f0f0f0" opacity="0.85"/>
+  <ellipse cx="302" cy="425" rx="12" ry="8" fill="#f0f0f0" opacity="0.85"/>
+  
+  <!-- Floor shadow -->
+  <ellipse cx="256" cy="435" rx="110" ry="18" fill="#0d1a0d" opacity="0.5"/>
+  <ellipse cx="256" cy="432" rx="90" ry="12" fill="#0d1a0d" opacity="0.3"/>
+  
+  <!-- Glow around the ghost -->
+  <circle cx="256" cy="280" r="140" fill="url(#glow)" opacity="0.4"/>
+</svg>

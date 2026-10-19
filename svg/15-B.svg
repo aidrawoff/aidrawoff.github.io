@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: glittery mountain night -->
+  <rect x="0" y="0" width="512" height="512" fill="#0A0A1A" />
+  <!-- Starfield -->
+  <g fill="#FFFFFF">
+    <circle cx="80" cy="60" r="1.5" />
+    <circle cx="450" cy="40" r="1.2" />
+    <circle cx="120" cy="30" r="1.8" />
+    <circle cx="380" cy="80" r="1.5" />
+    <circle cx="200" cy="50" r="1.3" />
+    <circle cx="420" cy="20" r="1.6" />
+  </g>
+  <!-- Mountain peak with glitter -->
+  <path d="M0 256 L256 128 L512 256 Z" fill="#1A120B" />
+  <path d="M0 256 L256 128 L512 256 Z" fill="url(#mountainGlow)" />
+  <!-- Mountain texture -->
+  <path d="M0 256 L256 128 L512 256 Z" fill="url(#mountainTexture)" opacity="0.4" />
+  <defs>
+    <radialGradient id="mountainGlow" cx="256" cy="128" r="256" gradientUnits="userSpaceOnUse">
+      <stop offset="0.7" stop-color="#4A3A2A" />
+      <stop offset="1" stop-color="#1A120B" />
+    </radialGradient>
+    <pattern id="mountainTexture" patternUnits="userSpaceOnUse" width="64" height="64">
+      <path d="M0 0 L64 0 L64 64 L0 64 Z" fill="none" stroke="#3A2A1A" stroke-width="1" opacity="0.6" />
+      <path d="M16 0 L0 16 M32 0 L16 16 M48 0 L32 16 M64 16 L48 32 M64 32 L48 48 M64 48 L32 64 M48 64 L32 48 M32 64 L16 48 M0 48 L16 32 M0 32 L16 16" stroke="#3A2A1A" stroke-width="1" opacity="0.4" />
+    </pattern>
+  </defs>
+
+  <!-- Scarecrow body: patchwork disco outfit -->
+  <rect x="192" y="160" width="128" height="256" fill="#2A1E18" />
+  <!-- Patchwork squares -->
+  <rect x="200" y="170" width="24" height="24" fill="#FF00FF" />
+  <rect x="232" y="170" width="24" height="24" fill="#00FFFF" />
+  <rect x="264" y="170" width="24" height="24" fill="#FFFF00" />
+  <rect x="296" y="170" width="24" height="24" fill="#FF00FF" />
+  <rect x="200" y="202" width="24" height="24" fill="#00FFFF" />
+  <rect x="232" y="202" width="24" height="24" fill="#FFFF00" />
+  <rect x="264" y="202" width="24" height="24" fill="#FF00FF" />
+  <rect x="296" y="202" width="24" height="24" fill="#00FFFF" />
+  <rect x="200" y="234" width="24" height="24" fill="#FFFF00" />
+  <rect x="232" y="234" width="24" height="24" fill="#FF00FF" />
+  <rect x="264" y="234" width="24" height="24" fill="#00FFFF" />
+  <rect x="296" y="234" width="24" height="24" fill="#FFFF00" />
+  <!-- Scarecrow head -->
+  <circle cx="256" cy="128" r="64" fill="#F5F5DC" />
+  <!-- Face details -->
+  <circle cx="240" cy="120" r="4" fill="#000000" />
+  <circle cx="272" cy="120" r="4" fill="#000000" />
+  <path d="M240 140 Q256 150 272 140" stroke="#000000" stroke-width="3" fill="none" />
+  <!-- Hat: wide-brimmed disco hat -->
+  <path d="M200 100 Q256 60 312 100 L312 120 Q256 80 200 120 Z" fill="#000000" />
+  <circle cx="256" cy="96" r="20" fill="#FF00FF" />
+  <!-- Arms -->
+  <rect x="128" y="224" width="64" height="32" fill="#2A1E18" />
+  <rect x="320" y="224" width="64" height="32" fill="#2A1E18" />
+  <!-- Legs -->
+  <rect x="224" y="416" width="32" height="96" fill="#2A1E18" />
+  <rect x="256" y="416" width="32" height="96" fill="#2A1E18" />
+
+  <!-- Disco ball on head -->
+  <circle cx="256" cy="128" r="32" fill="#FFF" />
+  <!-- Disco ball highlights -->
+  <circle cx="240" cy="112" r="10" fill="#FF00FF" />
+  <circle cx="272" cy="112" r="10" fill="#00FFFF" />
+  <circle cx="256" cy="144" r="10" fill="#FFFF00" />
+  <circle cx="240" cy="144" r="10" fill="#FF00FF" />
+  <circle cx="272" cy="144" r="10" fill="#00FFFF" />
+  <circle cx="256" cy="112" r="10" fill="#FFFF00" />
+
+  <!-- Disco lights on mountain -->
+  <circle cx="100" cy="200" r="12" fill="#FF00FF" opacity="0.8" />
+  <circle cx="400" cy="180" r="12" fill="#00FFFF" opacity="0.8" />
+  <circle cx="180" cy="220" r="12" fill="#FFFF00" opacity="0.8" />
+  <circle cx="350" cy="240" r="12" fill="#FF00FF" opacity="0.8" />
+  <circle cx="120" cy="260" r="12" fill="#00FFFF" opacity="0.8" />
+  <circle cx="420" cy="280" r="12" fill="#FFFF00" opacity="0.8" />
+
+  <!-- Crisp black contour -->
+  <path d="M192 160 L192 416 L224 416 L224 512 L256 512 L256 416 L288 416 L288 160 L320 160 L320 224 L128 224 L128 160 Z M256 64 L256 128 M224 128 L288 128 M240 112 L240 144 M272 112 L272 144" stroke="#000000" stroke-width="8" fill="none" />
+  <!-- Rim light on scarecrow -->
+  <ellipse cx="256" cy="200" rx="120" ry="80" fill="none" stroke="#FF00FF" stroke-width="6" opacity="0.3" />
+</svg>

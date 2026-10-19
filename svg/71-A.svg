@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1d5c"/>
+      <stop offset="0.6" stop-color="#e0648f"/>
+      <stop offset="1" stop-color="#ffb37a"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7d980"/>
+      <stop offset="1" stop-color="#b07d1f"/>
+    </linearGradient>
+  </defs>
+  <!-- card frame -->
+  <rect x="30" y="16" width="452" height="480" rx="18" fill="url(#gold)"/>
+  <rect x="48" y="34" width="416" height="444" rx="12" fill="#1a1140"/>
+  <!-- numeral and star -->
+  <text x="256" y="66" text-anchor="middle" font-family="serif" font-size="26" fill="#f7d980">XXI</text>
+  <circle cx="256" cy="84" r="5" fill="#f7d980"/>
+  <!-- art window -->
+  <rect x="78" y="100" width="356" height="290" rx="6" fill="url(#sky)"/>
+  <circle cx="256" cy="200" r="78" fill="#ffe2a8" opacity="0.18"/>
+  <circle cx="256" cy="200" r="58" fill="#ffe2a8" opacity="0.9"/>
+  <rect x="62" y="84" width="388" height="362" rx="10" fill="none" stroke="#f7d980" stroke-width="2" opacity="0.7"/>
+  <!-- stars on the night sky -->
+  <circle cx="110" cy="130" r="2" fill="#fff6d6"/>
+  <circle cx="400" cy="140" r="2.5" fill="#fff6d6"/>
+  <circle cx="150" cy="170" r="1.5" fill="#fff6d6"/>
+  <circle cx="330" cy="120" r="2" fill="#fff6d6"/>
+  <!-- wave -->
+  <path d="M78 330 C120 260 200 250 270 290 C320 318 350 240 434 228 L434 390 L78 390 Z" fill="#1f8fb0"/>
+  <path d="M236 300 C280 296 320 262 350 226 C372 200 420 196 434 214 C414 218 400 230 396 246 C380 262 360 282 330 300 Z" fill="#1f8fb0"/>
+  <path d="M292 292 C310 270 340 252 372 236 C392 226 412 222 428 226 C404 236 380 248 364 264 C348 280 330 292 292 292 Z" fill="#ffffff"/>
+  <path d="M332 300 C340 284 360 270 380 262 C370 276 358 288 332 300 Z" fill="#cfeef7"/>
+  <path d="M78 350 C160 330 240 350 434 330 L434 390 L78 390 Z" fill="#0d5f85"/>
+  <!-- surfboard -->
+  <ellipse cx="218" cy="284" rx="68" ry="9" transform="rotate(-12 218 284)" fill="#ff8a4c"/>
+  <!-- flamingo legs -->
+  <path d="M232 254 L226 282" stroke="#c2185b" stroke-width="5" stroke-linecap="round"/>
+  <path d="M250 252 L256 280" stroke="#c2185b" stroke-width="5" stroke-linecap="round"/>
+  <!-- flamingo body -->
+  <ellipse cx="240" cy="232" rx="44" ry="24" transform="rotate(-18 240 232)" fill="#ff6fa8"/>
+  <path d="M212 226 C230 212 258 214 270 226 C250 236 226 240 212 226 Z" fill="#e0457f"/>
+  <!-- neck and head -->
+  <path d="M272 220 C290 200 282 170 300 150" stroke="#ff6fa8" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <circle cx="306" cy="144" r="13" fill="#ff6fa8"/>
+  <path d="M316 140 L342 152 L316 152 Z" fill="#1a1140"/>
+  <circle cx="310" cy="140" r="2.5" fill="#1a1140"/>
+  <!-- wing, board stripe, fin, shadow -->
+  <path d="M212 226 C226 200 256 198 268 214 C254 222 232 230 212 226 Z" fill="#ffb3cf"/>
+  <path d="M196 284 L238 277" stroke="#fff3e0" stroke-width="4" stroke-linecap="round"/>
+  <path d="M220 292 C222 302 226 304 232 302" stroke="#ff8a4c" stroke-width="0" fill="none"/>
+  <ellipse cx="236" cy="296" rx="60" ry="4" fill="#0d5f85" opacity="0.5"/>
+  <!-- spray and highlight -->
+  <circle cx="380" cy="236" r="3" fill="#ffffff"/>
+  <circle cx="392" cy="222" r="2" fill="#ffffff"/>
+  <circle cx="404" cy="206" r="2.5" fill="#ffffff"/>
+  <circle cx="366" cy="250" r="2" fill="#ffffff"/>
+  <!-- foam under the board and a sun glint on the water -->
+  <path d="M160 296 C170 286 190 290 200 298 C186 304 172 304 160 296 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M276 296 C286 288 300 290 310 298 C298 304 286 304 276 296 Z" fill="#ffffff" opacity="0.85"/>
+  <path d="M230 330 L282 330" stroke="#ffe2a8" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <path d="M244 340 L268 340" stroke="#ffe2a8" stroke-width="2" stroke-linecap="round" opacity="0.4"/>
+  <!-- spray off the lip -->
+  <circle cx="412" cy="236" r="2" fill="#ffffff"/>
+  <circle cx="422" cy="250" r="1.5" fill="#ffffff"/>
+  <!-- tarot corner stars -->
+  <path d="M60 58 L63 66 L71 66 L65 71 L67 79 L60 74 L53 79 L55 71 L49 66 L57 66 Z" fill="#f7d980"/>
+  <path d="M452 58 L455 66 L463 66 L457 71 L459 79 L452 74 L445 79 L447 71 L441 66 L449 66 Z" fill="#f7d980"/>
+  <path d="M60 428 L63 436 L71 436 L65 441 L67 449 L60 444 L53 449 L55 441 L49 436 L57 436 Z" fill="#f7d980" opacity="0.6"/>
+  <path d="M452 428 L455 436 L463 436 L457 441 L459 449 L452 444 L445 449 L447 441 L441 436 L449 436 Z" fill="#f7d980" opacity="0.6"/>
+  <!-- title plate -->
+  <rect x="70" y="400" width="372" height="40" rx="6" fill="url(#gold)"/>
+  <text x="256" y="427" text-anchor="middle" font-family="serif" font-size="20" fill="#1a1140">The Surfing Flamingo</text>
+</svg>

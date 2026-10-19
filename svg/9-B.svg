@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="cor" cx="50%" cy="50%" r="50%">
+      <stop offset="55%" stop-color="#fff3b0" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff9a1f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wingG" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#d9f3ff"/>
+    </linearGradient>
+    <clipPath id="bodyclip">
+      <ellipse cx="0" cy="0" rx="92" ry="52"/>
+    </clipPath>
+  </defs>
+
+  <!-- night sky -->
+  <rect x="0" y="0" width="512" height="512" fill="#150f38"/>
+
+  <!-- stars -->
+  <g fill="#f4f0ff">
+    <circle cx="48" cy="60" r="2.5"/>
+    <circle cx="455" cy="48" r="3"/>
+    <circle cx="410" cy="150" r="2"/>
+    <circle cx="70" cy="200" r="2"/>
+    <circle cx="470" cy="260" r="2.5"/>
+    <circle cx="30" cy="300" r="2"/>
+    <circle cx="88" cy="112" r="1.5"/>
+    <circle cx="436" cy="210" r="1.5"/>
+  </g>
+
+  <!-- eclipse corona -->
+  <circle cx="256" cy="150" r="150" fill="url(#cor)"/>
+  <!-- jagged corona rays -->
+  <g fill="#ffd166" opacity="0.85">
+    <polygon points="256,40 262,62 250,62"/>
+    <polygon points="146,150 168,144 168,156"/>
+    <polygon points="366,150 344,144 344,156"/>
+    <polygon points="172,66 186,80 176,88"/>
+    <polygon points="340,66 326,80 336,88"/>
+    <polygon points="172,234 186,220 176,212"/>
+    <polygon points="340,234 326,220 336,212"/>
+    <polygon points="210,44 216,60 204,60"/>
+    <polygon points="302,44 296,60 308,60"/>
+  </g>
+  <!-- the moon covering the sun -->
+  <circle cx="256" cy="150" r="88" fill="#05040f"/>
+  <circle cx="256" cy="150" r="90" fill="none" stroke="#ffe08a" stroke-width="5"/>
+  <!-- diamond ring glint -->
+  <circle cx="318" cy="84" r="7" fill="#fff8d6"/>
+  <circle cx="318" cy="84" r="16" fill="none" stroke="#ffe08a" stroke-width="2" opacity="0.7"/>
+
+  <!-- ground / leaf mat -->
+  <path d="M0 430 L512 400 L512 512 L0 512 Z" fill="#0d3b2e"/>
+  <path d="M40 442 Q250 368 480 412 Q250 470 40 442 Z" fill="#2fa36b" stroke="#0a0a1a" stroke-width="4"/>
+  <path d="M60 440 Q250 412 462 414" fill="none" stroke="#0d3b2e" stroke-width="4"/>
+  <path d="M120 430 Q140 424 170 418 M260 412 Q280 408 300 404" fill="none" stroke="#0d3b2e" stroke-width="3" stroke-linecap="round"/>
+  <!-- bee shadow on the leaf -->
+  <ellipse cx="262" cy="418" rx="90" ry="7" fill="#0d3b2e" opacity="0.7"/>
+
+  <!-- the bee in tree pose, hovering -->
+  <g transform="translate(250 300) rotate(-18)">
+    <!-- back wings -->
+    <path d="M10 -40 Q60 -120 120 -104 Q96 -40 10 -40 Z" fill="#e8fbff" fill-opacity="0.8" stroke="#0a0a1a" stroke-width="3"/>
+    <path d="M10 -40 Q70 -90 110 -96" fill="none" stroke="#0a0a1a" stroke-width="1.5" opacity="0.6"/>
+
+    <!-- raised leg (tree pose): hip to foot up and out -->
+    <path d="M-30 -20 Q-18 -80 -58 -138" fill="none" stroke="#0a0a1a" stroke-width="9" stroke-linecap="round"/>
+    <circle cx="-58" cy="-138" r="6" fill="#0a0a1a"/>
+    <!-- bent hind leg, foot tucked to thigh -->
+    <path d="M-40 40 L-6 72 L-44 92" fill="none" stroke="#0a0a1a" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- middle leg resting on the leaf -->
+    <path d="M6 42 L22 80 L-2 96" fill="none" stroke="#0a0a1a" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- stinger -->
+    <path d="M-88 -8 L-126 0 L-88 10 Z" fill="#0a0a1a"/>
+
+    <!-- body: abdomen, thorax, head -->
+    <ellipse cx="0" cy="0" rx="92" ry="52" fill="#ffc233" stroke="#0a0a1a" stroke-width="4"/>
+    <g clip-path="url(#bodyclip)" fill="#0a0a1a">
+      <rect x="-30" y="-70" width="18" height="140"/>
+      <rect x="14" y="-70" width="18" height="140"/>
+      <rect x="58" y="-70" width="16" height="140"/>
+    </g>
+    <!-- fuzzy thorax tuft -->
+    <path d="M30 -48 L38 -58 L42 -46 L52 -56 L54 -44 L64 -50 L62 -40" fill="none" stroke="#ffc233" stroke-width="3" stroke-linejoin="round"/>
+
+    <!-- head with compound eyes -->
+    <circle cx="100" cy="-6" r="38" fill="#ffc233" stroke="#0a0a1a" stroke-width="4"/>
+    <ellipse cx="112" cy="-14" rx="12" ry="10" fill="#2b1a00" stroke="#0a0a1a" stroke-width="2"/>
+    <circle cx="116" cy="-18" r="2.5" fill="#fff"/>
+    <path d="M108 14 Q118 20 128 10" fill="none" stroke="#0a0a1a" stroke-width="3" stroke-linecap="round"/>
+    <!-- antennae -->
+    <path d="M100 -38 Q104 -82 136 -92 M120 -40 Q128 -72 160 -74" fill="none" stroke="#0a0a1a" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- prayer arms above the head -->
+    <path d="M70 -20 Q96 -60 104 -96" fill="none" stroke="#0a0a1a" stroke-width="7" stroke-linecap="round"/>
+    <path d="M80 -14 Q112 -52 118 -90" fill="none" stroke="#0a0a1a" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="104" cy="-98" r="6" fill="#ffc233" stroke="#0a0a1a" stroke-width="3"/>
+    <circle cx="118" cy="-92" r="6" fill="#ffc233" stroke="#0a0a1a" stroke-width="3"/>
+
+    <!-- front wing with veins -->
+    <ellipse cx="-4" cy="-76" rx="66" ry="30" transform="rotate(-30 -4 -76)" fill="url(#wingG)" fill-opacity="0.94" stroke="#0a0a1a" stroke-width="3"/>
+    <path d="M-40 -66 Q-4 -90 40 -102 M-30 -52 Q0 -70 30 -84" fill="none" stroke="#0a0a1a" stroke-width="1.5" opacity="0.6"/>
+  </g>
+
+  <!-- sparkles of eclipse light -->
+  <g fill="#ffe08a">
+    <polygon points="120,300 124,308 132,312 124,316 120,324 116,316 108,312 116,308"/>
+    <polygon points="392,240 395,246 402,249 395,252 392,259 389,252 382,249 389,246"/>
+    <polygon points="410,330 412,335 417,337 412,339 410,344 408,339 403,337 408,335"/>
+  </g>
+</svg>

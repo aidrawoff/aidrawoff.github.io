@@ -1,0 +1,285 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#141526"/>
+      <stop offset="40%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#374151"/>
+    </linearGradient>
+    
+    <!-- Ground gradient -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2937"/>
+      <stop offset="100%" stop-color="#0b0f19"/>
+    </linearGradient>
+    
+    <!-- Armor red gradient -->
+    <linearGradient id="armorRed" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f56565"/>
+      <stop offset="50%" stop-color="#e53e3e"/>
+      <stop offset="100%" stop-color="#9b2c2c"/>
+    </linearGradient>
+    
+    <!-- Gold gradient -->
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#f6e05e"/>
+      <stop offset="100%" stop-color="#b7791f"/>
+    </linearGradient>
+    
+    <!-- Steel blade gradient -->
+    <linearGradient id="steelGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="30%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#cbd5e0"/>
+      <stop offset="100%" stop-color="#94a3b8"/>
+    </linearGradient>
+
+    <!-- Glow filters -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Starry sparkles in sky -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="80" cy="80" r="1.5"/>
+    <circle cx="150" cy="50" r="2"/>
+    <circle cx="230" cy="90" r="1"/>
+    <circle cx="380" cy="60" r="2"/>
+    <circle cx="450" cy="110" r="1.5"/>
+    <circle cx="40" cy="180" r="2"/>
+    <circle cx="470" cy="200" r="1"/>
+  </g>
+
+  <!-- Distant mountains / temple silhouette -->
+  <path d="M0 360 Q 100 290, 220 330 T 450 310 L 512 330 L 512 380 L 0 380 Z" fill="#1f2937" opacity="0.8"/>
+  <path d="M0 370 Q 180 310, 340 350 T 512 340 L 512 380 L 0 380 Z" fill="#111827" opacity="0.95"/>
+  
+  <!-- Pagoda silhouette in background -->
+  <g fill="#0b0f19" opacity="0.7">
+    <polygon points="380,340 410,340 405,320 385,320"/>
+    <polygon points="370,320 420,320 415,305 375,305"/>
+    <polygon points="360,305 430,305 425,290 365,290"/>
+    <rect x="390" y="275" width="20" height="30"/>
+  </g>
+
+  <!-- Rainbow after the rain (Vibrant arc) -->
+  <g opacity="0.9" filter="url(#glow)">
+    <!-- Red -->
+    <path d="M -40 380 A 310 310 0 0 1 552 380" fill="none" stroke="#f87171" stroke-width="14" opacity="0.85"/>
+    <!-- Orange -->
+    <path d="M -30 380 A 300 300 0 0 1 542 380" fill="none" stroke="#fb923c" stroke-width="14" opacity="0.85"/>
+    <!-- Yellow -->
+    <path d="M -20 380 A 290 290 0 0 1 532 380" fill="none" stroke="#facc15" stroke-width="14" opacity="0.85"/>
+    <!-- Green -->
+    <path d="M -10 380 A 280 280 0 0 1 522 380" fill="none" stroke="#4ade80" stroke-width="14" opacity="0.85"/>
+    <!-- Blue -->
+    <path d="M 0 380 A 270 270 0 0 1 512 380" fill="none" stroke="#38bdf8" stroke-width="14" opacity="0.85"/>
+    <!-- Purple -->
+    <path d="M 10 380 A 260 260 0 0 1 502 380" fill="none" stroke="#a78bfa" stroke-width="14" opacity="0.85"/>
+  </g>
+
+  <!-- Ground / Courtyard floor -->
+  <rect x="0" y="380" width="512" height="132" fill="url(#groundGrad)"/>
+  
+  <!-- Large Puddles reflecting rainbow and sky -->
+  <ellipse cx="256" cy="445" rx="180" ry="32" fill="#111827" opacity="0.7"/>
+  <ellipse cx="256" cy="445" rx="150" ry="22" fill="#0b0f19" opacity="0.5"/>
+  
+  <!-- Rainbow reflections in puddles -->
+  <path d="M 120 445 Q 256 420 392 445" fill="none" stroke="#facc15" stroke-width="6" opacity="0.6" filter="url(#softGlow)"/>
+  <path d="M 140 452 Q 256 428 372 452" fill="none" stroke="#38bdf8" stroke-width="6" opacity="0.6" filter="url(#softGlow)"/>
+  <path d="M 160 459 Q 256 435 352 459" fill="none" stroke="#a78bfa" stroke-width="5" opacity="0.6" filter="url(#softGlow)"/>
+
+  <!-- Cherry Blossom Petals floating in the breeze -->
+  <g fill="#f472b6" opacity="0.9" filter="url(#softGlow)">
+    <ellipse cx="120" cy="180" rx="6" ry="3" transform="rotate(35 120 180)"/>
+    <ellipse cx="140" cy="210" rx="5" ry="2.5" transform="rotate(-20 140 210)"/>
+    <ellipse cx="380" cy="160" rx="6" ry="3" transform="rotate(50 380 160)"/>
+    <ellipse cx="410" cy="220" rx="7" ry="3.5" transform="rotate(15 410 220)"/>
+    <ellipse cx="210" cy="140" rx="5" ry="2" transform="rotate(-40 210 140)"/>
+    <ellipse cx="310" cy="150" rx="6" ry="3" transform="rotate(25 310 150)"/>
+    <ellipse cx="90" cy="320" rx="5" ry="2.5" transform="rotate(70 90 320)"/>
+    <ellipse cx="430" cy="310" rx="6" ry="3" transform="rotate(-15 430 310)"/>
+    <ellipse cx="260" cy="120" rx="6" ry="3" transform="rotate(12 260 120)"/>
+  </g>
+
+  <!-- SAMURAI CAT -->
+  <g id="samurai-cat" transform="translate(0, 10)">
+    <!-- Shadow -->
+    <ellipse cx="256" cy="380" rx="110" ry="26" fill="#030712" opacity="0.8"/>
+
+    <!-- Detailed Haori / Cape (Flowing in wind) -->
+    <path d="M 190 230 Q 120 280, 100 370 Q 160 390, 256 380 Q 352 390, 412 370 Q 392 280, 322 230 Z" fill="#1f2937"/>
+    <path d="M 200 235 Q 135 285, 115 365 Q 170 385, 256 375 Q 342 385, 397 365 Q 377 285, 312 235 Z" fill="#111827"/>
+    <!-- Haori gold trim -->
+    <path d="M 115 365 Q 170 385, 256 375 Q 342 385, 397 365" fill="none" stroke="url(#goldGrad)" stroke-width="3"/>
+
+    <!-- Cat Body (Robust Samurai build) -->
+    <ellipse cx="256" cy="275" rx="70" ry="80" fill="#e2e8f0"/>
+    <ellipse cx="256" cy="280" rx="60" ry="70" fill="#cbd5e0"/>
+    <!-- Chest tabby stripes -->
+    <path d="M 230 250 Q 256 260, 282 250" fill="none" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+    <path d="M 225 270 Q 256 280, 287 270" fill="none" stroke="#94a3b8" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- Samurai Armor - Chestplate (Do) with detailed lamellar plates -->
+    <path d="M 196 220 L 316 220 L 326 315 L 186 315 Z" fill="url(#armorRed)" stroke="#7f1d1d" stroke-width="2"/>
+    <!-- Armor horizontal plates -->
+    <line x1="188" y1="240" x2="324" y2="240" stroke="#7f1d1d" stroke-width="3"/>
+    <line x1="187" y1="260" x2="325" y2="260" stroke="#7f1d1d" stroke-width="3"/>
+    <line x1="186" y1="280" x2="326" y2="280" stroke="#7f1d1d" stroke-width="3"/>
+    <line x1="186" y1="300" x2="326" y2="300" stroke="#7f1d1d" stroke-width="3"/>
+    <!-- Vertical lacing stitches -->
+    <line x1="220" y1="220" x2="220" y2="315" stroke="#fef08a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="256" y1="220" x2="256" y2="315" stroke="#fef08a" stroke-width="1.5" stroke-dasharray="4,3"/>
+    <line x1="292" y1="220" x2="292" y2="315" stroke="#fef08a" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+    <!-- Center golden Clan Crest (Mon) - Cherry Blossom / Sun motif -->
+    <circle cx="256" cy="260" r="18" fill="url(#goldGrad)" stroke="#7f1d1d" stroke-width="2"/>
+    <circle cx="256" cy="260" r="12" fill="#9b2c2c"/>
+    <text x="256" y="267" font-family="sans-serif" font-weight="bold" font-size="16" fill="#fef08a" text-anchor="middle">侍</text>
+
+    <!-- Shoulder Guards (Sode) with lacing -->
+    <g transform="translate(0, -5)">
+      <path d="M 175 210 L 200 210 L 205 265 L 175 255 Z" fill="url(#armorRed)" stroke="#7f1d1d" stroke-width="2"/>
+      <line x1="177" y1="225" x2="202" y2="225" stroke="#fef08a" stroke-width="2"/>
+      <line x1="176" y1="240" x2="204" y2="240" stroke="#fef08a" stroke-width="2"/>
+      <line x1="176" y1="255" x2="205" y2="255" stroke="#fef08a" stroke-width="2"/>
+
+      <path d="M 337 210 L 312 210 L 307 265 L 337 255 Z" fill="url(#armorRed)" stroke="#7f1d1d" stroke-width="2"/>
+      <line x1="335" y1="225" x2="310" y2="225" stroke="#fef08a" stroke-width="2"/>
+      <line x1="336" y1="240" x2="308" y2="240" stroke="#fef08a" stroke-width="2"/>
+      <line x1="336" y1="255" x2="307" y2="255" stroke="#fef08a" stroke-width="2"/>
+    </g>
+
+    <!-- Cat Head Group -->
+    <g transform="translate(256, 170)">
+      <!-- Head Base -->
+      <circle cx="0" cy="0" r="62" fill="#cbd5e0"/>
+      <ellipse cx="0" cy="12" rx="52" ry="46" fill="#e2e8f0"/>
+
+      <!-- Samurai Helmet (Kabuto) -->
+      <!-- Neck guard (Shikoro) plates in back -->
+      <path d="M -55 -15 L -68 30 L 68 30 L 55 -15 Z" fill="url(#armorRed)" stroke="#7f1d1d" stroke-width="2"/>
+      <line x1="-63" y1="0" x2="63" y2="0" stroke="#fef08a" stroke-width="2"/>
+      <line x1="-66" y1="15" x2="66" y2="15" stroke="#fef08a" stroke-width="2"/>
+
+      <!-- Helmet Bowl (Hachi) -->
+      <path d="M -58 -20 C -58 -75, 58 -75, 58 -20 Z" fill="#374151" stroke="#1f2937" stroke-width="3"/>
+      <!-- Helmet Ribs / Plates -->
+      <path d="M 0 -75 L 0 -20" stroke="url(#goldGrad)" stroke-width="3.5"/>
+      <path d="M -28 -65 L -12 -20" stroke="url(#goldGrad)" stroke-width="2.5"/>
+      <path d="M 28 -65 L 12 -20" stroke="url(#goldGrad)" stroke-width="2.5"/>
+      <path d="M -48 -45 L -25 -20" stroke="url(#goldGrad)" stroke-width="2"/>
+      <path d="M 48 -45 L 25 -20" stroke="url(#goldGrad)" stroke-width="2"/>
+
+      <!-- Brow plate / Maedate base -->
+      <path d="M -55 -12 Q 0 -32, 55 -12 L 64 -38 Q 0 -58, -64 -38 Z" fill="url(#goldGrad)" stroke="#92400e" stroke-width="2"/>
+      
+      <!-- Golden Crescent Horn (Kuwagata) - Majestic & Sharp -->
+      <path d="M -12 -38 Q -65 -85, -100 -65 Q -75 -32, -35 -38 Z" fill="url(#goldGrad)" stroke="#92400e" stroke-width="2.5"/>
+      <path d="M 12 -38 Q 65 -85, 100 -65 Q 75 -32, 35 -38 Z" fill="url(#goldGrad)" stroke="#92400e" stroke-width="2.5"/>
+      
+      <!-- Center Emblem (Sun / Jewel on helmet) -->
+      <circle cx="0" cy="-42" r="9" fill="#ef4444" stroke="url(#goldGrad)" stroke-width="2.5"/>
+
+      <!-- Cat Ears (framed under helmet) -->
+      <polygon points="-48,-22 -72,-58 -40,-48" fill="#94a3b8"/>
+      <polygon points="-52,-26 -66,-52 -42,-44" fill="#f472b6" opacity="0.6"/>
+      <polygon points="48,-22 72,-58 40,-48" fill="#94a3b8"/>
+      <polygon points="52,-26 66,-52 42,-44" fill="#f472b6" opacity="0.6"/>
+
+      <!-- Samurai Topknot (Chonmage) sticking proudly out top -->
+      <path d="M -9 -75 C -14 -98, 14 -98, 9 -75 Z" fill="#4b5563"/>
+      <path d="M -6 -85 C -6 -102, 6 -102, 6 -85 Z" fill="#1f2937"/>
+      <!-- Binding cord -->
+      <ellipse cx="0" cy="-87" rx="7" ry="3" fill="url(#goldGrad)"/>
+
+      <!-- Cat Face Features -->
+      <!-- Fierce Focused Samurai Eyes -->
+      <path d="M -32 -6 Q -22 -18, -12 -6" fill="none" stroke="#111827" stroke-width="4.5" stroke-linecap="round"/>
+      <path d="M 12 -6 Q 22 -18, 32 -6" fill="none" stroke="#111827" stroke-width="4.5" stroke-linecap="round"/>
+      <!-- Glowing golden pupils -->
+      <circle cx="-22" cy="-9" r="3.5" fill="#fef08a"/>
+      <circle cx="22" cy="-9" r="3.5" fill="#fef08a"/>
+      <circle cx="-23" cy="-10" r="1.5" fill="#111827"/>
+      <circle cx="21" cy="-10" r="1.5" fill="#111827"/>
+
+      <!-- Cute pink nose and determined mouth -->
+      <polygon points="0,5 -5,-1 5,-1" fill="#f472b6"/>
+      <path d="M 0 5 L 0 15" fill="none" stroke="#111827" stroke-width="2.5"/>
+      <path d="M -9 17 Q 0 24, 9 17" fill="none" stroke="#111827" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Detailed Whiskers -->
+      <line x1="-38" y1="6" x2="-62" y2="2" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="-38" y1="14" x2="-65" y2="18" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="38" y1="6" x2="62" y2="2" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="38" y1="14" x2="65" y2="18" stroke="#94a3b8" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Samurai Cheek Guards (Fukigaeshi) -->
+      <path d="M -52 -10 L -64 28 L -48 38 L -42 12 Z" fill="url(#armorRed)" stroke="#7f1d1d" stroke-width="2"/>
+      <circle cx="-53" cy="18" r="4" fill="url(#goldGrad)"/>
+      
+      <path d="M 52 -10 L 64 28 L 48 38 L 42 12 Z" fill="url(#armorRed)" stroke="#7f1d1d" stroke-width="2"/>
+      <circle cx="53" cy="18" r="4" fill="url(#goldGrad)"/>
+    </g>
+
+    <!-- Arms & Katana -->
+    <!-- Left Arm holding scabbard -->
+    <path d="M 195 240 Q 145 260, 135 305 Q 130 340, 145 365" fill="none" stroke="#cbd5e0" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 195 240 Q 145 260, 135 305 Q 130 340, 145 365" fill="none" stroke="#94a3b8" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+    
+    <!-- Scabbard (Saya) with gold fittings -->
+    <line x1="135" y1="355" x2="75" y2="435" stroke="#7f1d1d" stroke-width="10" stroke-linecap="round"/>
+    <line x1="135" y1="355" x2="75" y2="435" stroke="url(#goldGrad)" stroke-width="3" stroke-linecap="round"/>
+    <rect x="110" y="380" width="8" height="12" rx="2" fill="url(#goldGrad)" transform="rotate(53 110 380)"/>
+    <rect x="85" y="415" width="6" height="10" rx="2" fill="url(#goldGrad)" transform="rotate(53 85 415)"/>
+
+    <!-- Right Arm holding Katana proudly upright with motion glow -->
+    <path d="M 317 240 Q 365 230, 375 190 Q 385 140, 365 110" fill="none" stroke="#cbd5e0" stroke-width="24" stroke-linecap="round"/>
+    <path d="M 317 240 Q 365 230, 375 190 Q 385 140, 365 110" fill="none" stroke="#94a3b8" stroke-width="12" stroke-linecap="round" opacity="0.4"/>
+
+    <!-- Katana Blade pointing up with brilliant steel gradient and glow -->
+    <g filter="url(#glow)">
+      <path d="M 365 120 L 365 15" fill="none" stroke="url(#steelGrad)" stroke-width="11" stroke-linecap="round"/>
+      <!-- Sharp edge highlight -->
+      <path d="M 361 115 L 361 20" fill="none" stroke="#ffffff" stroke-width="3.5"/>
+    </g>
+
+    <!-- Katana Guard (Tsuba) - Ornate Gold -->
+    <ellipse cx="365" cy="120" rx="18" ry="7" fill="url(#goldGrad)" stroke="#92400e" stroke-width="2.5"/>
+    <ellipse cx="365" cy="120" rx="10" ry="3" fill="#111827"/>
+
+    <!-- Katana Hilt (Tsuka) with traditional diamond wrap -->
+    <path d="M 365 124 L 365 165" fill="none" stroke="#111827" stroke-width="13" stroke-linecap="round"/>
+    <!-- Gold tsuka-ito wrap diamond pattern -->
+    <line x1="358" y1="128" x2="372" y2="135" stroke="url(#goldGrad)" stroke-width="3.5"/>
+    <line x1="358" y1="137" x2="372" y2="144" stroke="url(#goldGrad)" stroke-width="3.5"/>
+    <line x1="358" y1="146" x2="372" y2="153" stroke="url(#goldGrad)" stroke-width="3.5"/>
+    <line x1="358" y1="155" x2="372" y2="162" stroke="url(#goldGrad)" stroke-width="3.5"/>
+    <!-- Pommel (Kashira) -->
+    <circle cx="365" cy="168" r="6.5" fill="url(#goldGrad)" stroke="#92400e" stroke-width="2"/>
+  </g>
+
+  <!-- Foreground Raindrops & Sparkles glinting -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="90" cy="110" r="2.5" filter="url(#softGlow)"/>
+    <circle cx="110" cy="230" r="2" />
+    <circle cx="420" cy="90" r="3" filter="url(#softGlow)"/>
+    <circle cx="440" cy="250" r="2.5" />
+    <circle cx="70" cy="270" r="2" />
+    <circle cx="360" cy="300" r="2" />
+    <circle cx="170" cy="90" r="2.5" />
+    <circle cx="280" cy="70" r="2" />
+  </g>
+</svg>

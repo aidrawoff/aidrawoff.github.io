@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1a33"/>
+      <stop offset="0.55" stop-color="#28496e"/>
+      <stop offset="1" stop-color="#7fa8c4"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fdf6d8" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fdf6d8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="380" cy="105" r="120" fill="url(#glow)"/>
+  <circle cx="380" cy="105" r="42" fill="#f7f2dd"/>
+  <!-- distant ridge -->
+  <path d="M0 300 L70 262 L130 292 L200 250 L262 288 L330 258 L400 292 L460 266 L512 296 L512 340 L0 340 Z" fill="#3d5f80" opacity="0.85"/>
+  <path d="M0 300 L70 262 L130 292 L200 250 L262 288 L330 258 L400 292 L460 266 L512 296" fill="none" stroke="#dbe9f5" stroke-width="6" opacity="0.7"/>
+  <!-- cliff mass -->
+  <path d="M0 512 L0 330 L60 318 L120 336 L176 322 L232 344 L268 336 L300 372 L332 420 L360 512 Z" fill="#4a5f72"/>
+  <path d="M120 336 L176 322 L232 344 L268 336 L300 372 L332 420 L360 512 L250 512 L210 420 L170 380 Z" fill="#3c4f61"/>
+  <path d="M0 330 L60 318 L120 336 L176 322 L232 344 L268 336 L300 372 L280 392 L200 372 L110 386 L40 366 L0 380 Z" fill="#e8f1f8"/>
+  <path d="M0 330 L60 318 L120 336 L176 322 L232 344 L268 336 L300 372" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <!-- breath fog in the cold -->
+  <g fill="#dceaf6" opacity="0.55">
+    <circle cx="292" cy="176" r="7"/><circle cx="308" cy="170" r="5"/><circle cx="320" cy="176" r="3.5"/>
+  </g>
+  <!-- goat on the ledge, big and centred-left -->
+  <g transform="translate(88,186)">
+    <!-- legs -->
+    <path d="M34 96 l4 46 M66 104 l2 40 M112 104 l4 40 M140 92 l6 48" stroke="#ded5c4" stroke-width="13" stroke-linecap="round"/>
+    <path d="M34 138 l4 8 M66 140 l2 8 M112 140 l4 8 M140 136 l6 8" stroke="#4a423a" stroke-width="13" stroke-linecap="round"/>
+    <!-- body -->
+    <ellipse cx="88" cy="72" rx="64" ry="40" fill="#f4f0e6"/>
+    <path d="M26 62 Q64 26 118 36 Q150 44 154 68 Q124 48 80 52 Q44 56 26 80 Z" fill="#ffffff"/>
+    <path d="M28 92 Q70 112 140 96 Q120 116 76 114 Q44 110 28 92 Z" fill="#e2dccc"/>
+    <!-- neck -->
+    <path d="M118 50 Q148 36 160 10 Q166 -6 156 -16 Q142 -8 136 10 Q128 30 110 42 Z" fill="#efeade"/>
+    <!-- head: short muzzle pointing right -->
+    <path d="M148 -12 Q170 -22 186 -12 Q196 -4 190 8 Q178 18 158 14 Q144 8 144 -4 Z" fill="#f6f2e8"/>
+    <path d="M186 -8 Q196 -4 190 8 Q182 14 176 10 Z" fill="#cfc4ae"/>
+    <!-- ear, small and horizontal -->
+    <path d="M150 -6 Q132 -14 124 -4 Q132 6 150 2 Z" fill="#ddd2bd"/>
+    <!-- curved backward-sweeping horns -->
+    <path d="M156 -14 Q150 -40 168 -56 Q184 -66 196 -58 Q182 -56 172 -44 Q162 -30 166 -12 Z" fill="#b9a887"/>
+    <path d="M164 -12 Q164 -36 180 -50 Q192 -58 202 -52 Q190 -50 182 -40 Q172 -28 174 -10 Z" fill="#d6c8a6"/>
+    <circle cx="166" cy="-2" r="4.5" fill="#22303f"/>
+    <circle cx="167.5" cy="-3.5" r="1.5" fill="#ffffff"/>
+  </g>
+  <!-- wind-blown snow streaks -->
+  <g stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.5" stroke-linecap="round">
+    <path d="M20 120 Q70 108 130 122"/>
+    <path d="M240 90 Q300 78 360 92"/>
+    <path d="M300 200 Q360 188 430 202"/>
+    <path d="M40 300 Q110 288 180 302"/>
+    <path d="M330 340 Q400 328 470 342"/>
+  </g>
+  <!-- snowfall -->
+  <g fill="#ffffff">
+    <circle cx="40" cy="60" r="3"/><circle cx="120" cy="30" r="2"/><circle cx="210" cy="80" r="3"/>
+    <circle cx="300" cy="40" r="2"/><circle cx="60" cy="150" r="2"/><circle cx="160" cy="180" r="3"/>
+    <circle cx="250" cy="200" r="2"/><circle cx="340" cy="170" r="3"/><circle cx="430" cy="60" r="2"/>
+    <circle cx="470" cy="200" r="3"/><circle cx="30" cy="250" r="2"/><circle cx="390" cy="260" r="2"/>
+    <circle cx="480" cy="330" r="3"/><circle cx="420" cy="410" r="2"/><circle cx="330" cy="470" r="3"/>
+    <circle cx="460" cy="480" r="2"/><circle cx="250" cy="440" r="2"/><circle cx="180" cy="500" r="3"/>
+  </g>
+</svg>

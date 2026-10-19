@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#e8f4ff" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#a8c8e8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#2a3b5c" stop-opacity="0.9"/>
+    </radialGradient>
+    <radialGradient id="roomGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a2a4a" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0f0f1a" stop-opacity="1"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+    <filter id="softBlur">
+      <feGaussianBlur stdDeviation="1.5"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#roomGlow)"/>
+  <rect x="0" y="400" width="512" height="112" fill="#151525"/>
+  <ellipse cx="256" cy="460" rx="200" ry="25" fill="#0a0a14" opacity="0.7"/>
+  <g id="basket-back">
+    <ellipse cx="256" cy="380" rx="140" ry="35" fill="#6b3410" stroke="#4a2208" stroke-width="3"/>
+    <ellipse cx="256" cy="370" rx="130" ry="28" fill="#8B4513"/>
+  </g>
+  <g id="ghost">
+    <path d="M185 380 Q185 190 256 170 Q327 190 327 380" fill="url(#glow)" opacity="0.9"/>
+    <path d="M185 380 Q205 355 225 380 Q245 355 265 380 Q285 355 305 380 Q327 355 327 380" fill="#e8f4ff" opacity="0.75"/>
+    <ellipse cx="232" cy="250" rx="14" ry="18" fill="#1a1a2e"/>
+    <ellipse cx="280" cy="250" rx="14" ry="18" fill="#1a1a2e"/>
+    <ellipse cx="232" cy="245" rx="5" ry="7" fill="#fff"/>
+    <ellipse cx="280" cy="245" rx="5" ry="7" fill="#fff"/>
+    <ellipse cx="256" cy="278" rx="9" ry="6" fill="#1a1a2e" opacity="0.25"/>
+    <ellipse cx="215" cy="295" rx="18" ry="10" fill="#b8d4f0" opacity="0.5" filter="url(#blur)"/>
+    <ellipse cx="297" cy="295" rx="18" ry="10" fill="#b8d4f0" opacity="0.5" filter="url(#blur)"/>
+    <path d="M248 295 Q256 305 264 295" fill="none" stroke="#1a1a2e" stroke-width="2" opacity="0.3" stroke-linecap="round"/>
+  </g>
+  <g id="laundry">
+    <path d="M205 370 Q215 335 238 348 Q248 315 270 325 Q292 300 315 335 Q335 348 325 370" fill="#ff6b6b" opacity="0.95"/>
+    <path d="M228 375 Q238 340 262 352 Q272 318 295 330" fill="#4ecdc4" opacity="0.95"/>
+    <path d="M250 378 Q260 343 285 355" fill="#ffe66d" opacity="0.95"/>
+    <path d="M270 372 Q280 350 300 360" fill="#9b59b6" opacity="0.9"/>
+    <circle cx="240" cy="355" r="4" fill="#fff" opacity="0.6"/>
+    <circle cx="280" cy="340" r="5" fill="#fff" opacity="0.6"/>
+  </g>
+  <g id="basket-front">
+    <path d="M126 380 Q126 465 256 465 Q386 465 386 380" fill="none" stroke="#8B4513" stroke-width="5"/>
+    <path d="M146 380 Q146 455 256 455 Q366 455 366 380" fill="none" stroke="#a0522d" stroke-width="4"/>
+    <line x1="170" y1="380" x2="170" y2="450" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <line x1="200" y1="380" x2="200" y2="458" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <line x1="230" y1="380" x2="230" y2="462" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <line x1="256" y1="380" x2="256" y2="463" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <line x1="282" y1="380" x2="282" y2="462" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <line x1="312" y1="380" x2="312" y2="458" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+    <line x1="342" y1="380" x2="342" y2="450" stroke="#8B4513" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <ellipse cx="256" cy="170" rx="70" ry="18" fill="#fff" opacity="0.2" filter="url(#blur)"/>
+  <ellipse cx="256" cy="170" rx="40" ry="10" fill="#fff" opacity="0.35" filter="url(#softBlur)"/>
+  <g id="sparkles">
+    <circle cx="180" cy="220" r="3" fill="#fff" opacity="0.6"/>
+    <circle cx="170" cy="230" r="2" fill="#fff" opacity="0.4"/>
+    <circle cx="332" cy="210" r="3" fill="#fff" opacity="0.5"/>
+    <circle cx="345" cy="225" r="2" fill="#fff" opacity="0.3"/>
+    <circle cx="200" cy="160" r="2" fill="#fff" opacity="0.4"/>
+    <circle cx="310" cy="155" r="2" fill="#fff" opacity="0.5"/>
+  </g>
+  <g id="soap-bubbles">
+    <circle cx="150" cy="350" r="12" fill="none" stroke="#a8c8e8" stroke-width="1.5" opacity="0.5"/>
+    <circle cx="150" cy="350" r="4" fill="#a8c8e8" opacity="0.3"/>
+    <circle cx="370" cy="340" r="10" fill="none" stroke="#a8c8e8" stroke-width="1.5" opacity="0.4"/>
+    <circle cx="370" cy="340" r="3" fill="#a8c8e8" opacity="0.25"/>
+    <circle cx="130" cy="380" r="8" fill="none" stroke="#a8c8e8" stroke-width="1" opacity="0.3"/>
+  </g>
+  <text x="256" y="490" text-anchor="middle" font-family="sans-serif" font-size="14" fill="#555" opacity="0.5">LAUNDRY DAY</text>
+</svg>

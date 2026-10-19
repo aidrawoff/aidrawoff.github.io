@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#090f2d"/><stop offset="1" stop-color="#253866"/></linearGradient>
+ <linearGradient id="rain" x2="0" y2="1"><stop stop-color="#b8d9ff" stop-opacity=".7"/><stop offset="1" stop-color="#6b8cc7" stop-opacity=".05"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="408" cy="82" r="42" fill="#dce9ff" opacity=".18"/>
+<path d="M0 350L55 300 92 326 130 275 173 329 222 250 273 320 320 270 370 327 418 245 512 330V512H0Z" fill="#111b3b"/>
+<path d="M0 410H512V512H0Z" fill="#080d1d"/>
+<g fill="#1e2c54" stroke="#53658d" stroke-width="2">
+ <path d="M25 205h82v205H25z"/><path d="M120 155h75v255h-75z"/><path d="M386 150h92v260h-92z"/>
+</g>
+<g fill="#ffd66b"><path d="M39 225h18v22H39zM76 225h18v22H76zM39 270h18v22H39zM76 270h18v22H76zM136 180h16v20h-16zM165 180h16v20h-16zM136 225h16v20h-16zM165 225h16v20h-16zM404 180h18v22h-18zM443 180h18v22h-18zM404 225h18v22h-18zM443 225h18v22h-18z"/></g>
+<path d="M300 0L256 108l29-9-31 80 61-91-28 7z" fill="#fff5a3" stroke="#fff" stroke-width="5"/>
+<path d="M438 34l-18 44 13-4-18 42 34-52-14 4z" fill="#bfeaff" opacity=".9"/>
+<g stroke="url(#rain)" stroke-width="3" opacity=".65"><path d="M20 40l-35 95M65 10L30 105M112 45l-34 98M160 8l-35 100M210 45l-35 110M350 18l-35 100M400 15l-36 110M470 35l-35 110M510 10l-35 110"/></g>
+<!-- tree and treehouse -->
+<path d="M265 512Q255 370 274 265M280 370Q200 320 150 265M273 325Q350 270 390 215M270 285Q225 230 198 180" fill="none" stroke="#4b2b25" stroke-width="25" stroke-linecap="round"/>
+<path d="M115 235L151 145 226 115 312 127 365 190 344 269 142 269Z" fill="#9c542f" stroke="#48271f" stroke-width="9"/>
+<path d="M132 226L156 160 222 136 296 148 342 199 326 235Z" fill="#d17b3e"/>
+<path d="M118 235h229v35H118z" fill="#523022" stroke="#d59754" stroke-width="5"/>
+<path d="M210 235v-64h48v64" fill="#151c35" stroke="#f5c86b" stroke-width="6"/><path d="M217 181h34v43h-34z" fill="#80b9dc" opacity=".8"/><path d="M234 181v43M217 202h34" stroke="#f7d46d" stroke-width="3" opacity=".8"/>
+<path d="M145 265l-15 103M320 265l18 103M155 310h170" fill="none" stroke="#61362a" stroke-width="10"/>
+<path d="M238 247q18-20 36 0" fill="none" stroke="#f7d46d" stroke-width="5"/>
+<ellipse cx="253" cy="250" rx="72" ry="28" fill="#ffd86b" opacity=".10" filter="url(#glow)"/>
+<path d="M300 236v25" stroke="#2b1b22" stroke-width="4"/><path d="M292 257q8-7 16 0v13q-8 7-16 0z" fill="#ffcf55" stroke="#512b25" stroke-width="3"/><circle cx="300" cy="263" r="4" fill="#fff2a0"/>
+<circle cx="253" cy="211" r="14" fill="#f3a45a"/><circle cx="248" cy="210" r="2" fill="#3b2330"/><circle cx="258" cy="210" r="2" fill="#3b2330"/><path d="M247 217q6 4 12 0" fill="none" stroke="#8b3f3c" stroke-width="2"/><path d="M235 232q18-14 36 0v28h-36z" fill="#d83f4c"/><path d="M238 242l-28 19M268 242l25 12" stroke="#f3a45a" stroke-width="8" stroke-linecap="round"/>
+<path d="M150 270q-20 35-8 58M181 270q-16 30-8 56M312 270q18 31 9 57" fill="none" stroke="#78a9d9" stroke-width="4" opacity=".7"/>
+<g fill="#79a66c"><circle cx="110" cy="185" r="38"/><circle cx="165" cy="126" r="48"/><circle cx="235" cy="105" r="55"/><circle cx="344" cy="152" r="55"/><circle cx="395" cy="190" r="40"/></g>
+<g fill="#a6d48b" opacity=".5"><circle cx="150" cy="115" r="20"/><circle cx="275" cy="83" r="25"/><circle cx="365" cy="125" r="18"/></g>
+<g stroke="#b9d6ff" stroke-width="2" opacity=".35"><path d="M48 120l-26 72M92 180l-25 72M420 120l-28 76M462 80l-26 75M35 315l-22 67M470 285l-25 72M90 320l-24 70M402 300l-24 72"/></g>
+<path d="M122 271q7 13 14 0M145 271q7 13 14 0M315 271q7 13 14 0" fill="none" stroke="#a8d7ff" stroke-width="3" opacity=".8"/>
+<path d="M0 470Q110 430 210 468T420 455T512 470V512H0Z" fill="#10172d"/>
+<path d="M20 489q75-23 145 0t145 0 182-2" fill="none" stroke="#42618d" stroke-width="3" opacity=".65"/>
+<path d="M92 487l18-8 18 8-18 6zM410 480l22-7 22 7-22 6z" fill="#e5b95b" opacity=".35"/>
+<g fill="#f6cc69"><circle cx="52" cy="455" r="4"/><circle cx="94" cy="443" r="3"/><circle cx="438" cy="432" r="4"/><circle cx="472" cy="463" r="3"/></g>
+</svg>

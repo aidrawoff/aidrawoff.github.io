@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1038"/>
+      <stop offset="0.55" stop-color="#4a2159"/>
+      <stop offset="1" stop-color="#c96a4a"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7d6"/>
+      <stop offset="1" stop-color="#f2c14e"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="380" cy="120" r="62" fill="url(#moon)"/>
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="60" cy="70" r="2"/><circle cx="130" cy="40" r="1.6"/><circle cx="210" cy="90" r="2"/>
+    <circle cx="90" cy="160" r="1.4"/><circle cx="300" cy="45" r="1.8"/><circle cx="470" cy="60" r="2"/>
+    <circle cx="440" cy="220" r="1.5"/><circle cx="40" cy="260" r="1.6"/>
+  </g>
+  <path d="M0,360 Q140,320 256,352 T512,336 L512,512 L0,512 Z" fill="#2a1a3e"/>
+  <path d="M0,410 Q160,380 300,412 T512,400 L512,512 L0,512 Z" fill="#1a1028"/>
+  <ellipse cx="256" cy="470" rx="200" ry="34" fill="#3a2350"/>
+  <!-- moonlit picnic blanket + candle -->
+  <g transform="translate(256,452)">
+    <path d="M-96,10 L96,10 L118,42 L-118,42 Z" fill="#8e3b52"/>
+    <path d="M-96,10 L96,10 L101,22 L-101,22 Z" fill="#a94a63"/>
+    <g stroke="#f2d9b0" stroke-width="2" opacity="0.5">
+      <path d="M-60,12 L-66,40"/><path d="M0,12 L0,40"/><path d="M60,12 L66,40"/>
+    </g>
+    <ellipse cx="-44" cy="26" rx="20" ry="9" fill="#f6efdd"/>
+    <circle cx="-44" cy="22" r="7" fill="#e0603a"/>
+    <circle cx="-52" cy="18" r="5" fill="#e8dcc0"/>
+    <circle cx="-36" cy="20" r="5" fill="#e8dcc0"/>
+    <rect x="34" y="6" width="12" height="22" rx="3" fill="#efe4cb"/>
+    <ellipse cx="40" cy="0" rx="5" ry="9" fill="#ffd166"/>
+    <ellipse cx="40" cy="2" rx="2" ry="4" fill="#fff7d6"/>
+    <circle cx="14" cy="28" r="9" fill="#c96a4a"/>
+    <circle cx="18" cy="24" r="9" fill="#d97f56"/>
+  </g>
+  <!-- rim light on the bat from the moon -->
+  <path d="M226,272 C244,258 268,262 274,282" stroke="#f2c14e" stroke-width="4" fill="none" opacity="0.75" stroke-linecap="round"/>
+  <path d="M170,282 C150,262 132,268 128,286" stroke="#f2c14e" stroke-width="3" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <!-- heart between them -->
+  <path d="M258,208 c-8,-12 -26,-4 -22,10 c3,11 22,22 22,22 c0,0 19,-11 22,-22 c4,-14 -14,-22 -22,-10 Z" fill="#ff6b81" opacity="0.9"/>
+  <!-- moth dust trail -->
+  <g fill="#fff7d6" opacity="0.7">
+    <circle cx="404" cy="250" r="3"/><circle cx="424" cy="222" r="2.4"/><circle cx="436" cy="196" r="2"/>
+    <circle cx="446" cy="172" r="1.6"/>
+  </g>
+  <g transform="translate(196,300)">
+    <ellipse cx="0" cy="0" rx="34" ry="46" fill="#2b2b3a"/>
+    <path d="M-30,-24 C-96,-58 -112,10 -70,26 C-46,34 -22,18 -14,4 Z" fill="#3d3d52"/>
+    <path d="M30,-24 C96,-58 112,10 70,26 C46,34 22,18 14,4 Z" fill="#3d3d52"/>
+    <circle cx="0" cy="-42" r="26" fill="#2b2b3a"/>
+    <path d="M-24,-58 L-30,-84 L-8,-66 Z" fill="#2b2b3a"/>
+    <path d="M24,-58 L30,-84 L8,-66 Z" fill="#2b2b3a"/>
+    <circle cx="-9" cy="-44" r="6" fill="#ffd166"/>
+    <circle cx="9" cy="-44" r="6" fill="#ffd166"/>
+    <path d="M-8,-28 Q0,-20 8,-28" stroke="#ffd166" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(320,290)">
+    <ellipse cx="0" cy="0" rx="26" ry="38" fill="#e8dcc0"/>
+    <path d="M-20,-16 C-70,-52 -78,14 -44,24 C-26,28 -12,14 -8,2 Z" fill="#f6efdd"/>
+    <path d="M20,-16 C70,-52 78,14 44,24 C26,28 12,14 8,2 Z" fill="#f6efdd"/>
+    <circle cx="0" cy="-34" r="18" fill="#efe4cb"/>
+    <path d="M-10,-48 C-22,-72 -34,-74 -44,-64" stroke="#cbb894" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <path d="M10,-48 C22,-72 34,-74 44,-64" stroke="#cbb894" stroke-width="3" fill="none" stroke-linecap="round"/>
+    <circle cx="-44" cy="-64" r="4" fill="#f6efdd"/>
+    <circle cx="44" cy="-64" r="4" fill="#f6efdd"/>
+    <circle cx="-6" cy="-36" r="4.5" fill="#3a2f2a"/>
+    <circle cx="6" cy="-36" r="4.5" fill="#3a2f2a"/>
+  </g>
+</svg>

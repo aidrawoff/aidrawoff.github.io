@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12042e"/>
+      <stop offset="50%" stop-color="#3b1466"/>
+      <stop offset="100%" stop-color="#8e3a5a"/>
+    </linearGradient>
+    <linearGradient id="wave1" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#14b8d4"/>
+      <stop offset="100%" stop-color="#075e73"/>
+    </linearGradient>
+    <linearGradient id="wave2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d94a8"/>
+      <stop offset="100%" stop-color="#044050"/>
+    </linearGradient>
+    <linearGradient id="wave3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#066b7a"/>
+      <stop offset="100%" stop-color="#022830"/>
+    </linearGradient>
+    <linearGradient id="flam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ff9eb0"/>
+      <stop offset="100%" stop-color="#d6335c"/>
+    </linearGradient>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f4d03f"/>
+      <stop offset="50%" stop-color="#f7dc6f"/>
+      <stop offset="100%" stop-color="#d4ac0d"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- Stars -->
+  <circle cx="50" cy="45" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="130" cy="75" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="370" cy="35" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="460" cy="85" r="1.2" fill="#fff" opacity="0.7"/>
+  <circle cx="430" cy="155" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="80" cy="125" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="200" cy="55" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="320" cy="65" r="1.3" fill="#fff" opacity="0.7"/>
+
+  <!-- Moon -->
+  <circle cx="420" cy="100" r="30" fill="#ffeaa7" opacity="0.95"/>
+  <circle cx="410" cy="92" r="5" fill="#f1c40f" opacity="0.25"/>
+  <circle cx="432" cy="108" r="4" fill="#f1c40f" opacity="0.25"/>
+  <circle cx="415" cy="112" r="3" fill="#f1c40f" opacity="0.2"/>
+
+  <!-- Background wave layer -->
+  <path d="M0 340 Q160 300 300 320 T512 280 L512 512 L0 512 Z" fill="url(#wave3)"/>
+
+  <!-- Mid wave layer -->
+  <path d="M0 310 Q140 250 280 270 T512 230 L512 512 L0 512 Z" fill="url(#wave2)"/>
+
+  <!-- Main curling wave -->
+  <path d="M0 290 Q120 230 260 250 T512 210 L512 512 L0 512 Z" fill="url(#wave1)"/>
+
+  <!-- Wave foam crest -->
+  <path d="M0 290 Q120 230 260 250 T512 210" fill="none" stroke="#a5f3fc" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M40 272 Q160 225 280 242 T480 215" fill="none" stroke="#e0f2fe" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Breaking wave curl -->
+  <path d="M380 228 Q420 210 460 225 Q430 235 380 228 Z" fill="#e0f2fe" opacity="0.6"/>
+  <path d="M400 225 Q430 215 450 228" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Wave curl shadow under board -->
+  <ellipse cx="260" cy="325" rx="75" ry="12" fill="#022830" opacity="0.4"/>
+
+  <!-- Surfboard -->
+  <ellipse cx="260" cy="318" rx="78" ry="11" fill="url(#board)" stroke="#b7950b" stroke-width="2"/>
+  <ellipse cx="260" cy="318" rx="60" ry="6" fill="#f9e79f"/>
+  <line x1="200" y1="318" x2="320" y2="318" stroke="#b7950b" stroke-width="1" opacity="0.5"/>
+
+  <!-- Flamingo far leg -->
+  <line x1="275" y1="288" x2="282" y2="316" stroke="#b02040" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="282" y1="316" x2="292" y2="314" stroke="#b02040" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Flamingo body -->
+  <ellipse cx="258" cy="275" rx="46" ry="24" fill="url(#flam)" transform="rotate(-14 258 275)"/>
+  <ellipse cx="258" cy="275" rx="42" ry="20" fill="none" stroke="#b02040" stroke-width="1.5" transform="rotate(-14 258 275)"/>
+
+  <!-- Wing -->
+  <path d="M240 265 Q278 248 298 272 Q272 284 240 265 Z" fill="#ff6b8a" stroke="#b02040" stroke-width="1.5"/>
+  <path d="M248 268 Q275 256 288 270" fill="none" stroke="#b02040" stroke-width="1" opacity="0.4"/>
+
+  <!-- Neck -->
+  <path d="M228 268 Q205 225 220 185 Q230 155 252 138" fill="none" stroke="url(#flam)" stroke-width="15" stroke-linecap="round"/>
+  <path d="M228 268 Q205 225 220 185 Q230 155 252 138" fill="none" stroke="#b02040" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <ellipse cx="255" cy="135" rx="15" ry="12" fill="url(#flam)" transform="rotate(-22 255 135)"/>
+  <ellipse cx="255" cy="135" rx="15" ry="12" fill="none" stroke="#b02040" stroke-width="1.5" transform="rotate(-22 255 135)"/>
+
+  <!-- Beak -->
+  <path d="M244 130 Q224 135 218 144 L222 150 Q230 142 244 139 Z" fill="#1a1a1a"/>
+  <path d="M218 144 L222 150 L226 146 Z" fill="#fff"/>
+
+  <!-- Eye -->
+  <circle cx="249" cy="130" r="3" fill="#1a1a1a"/>
+  <circle cx="248" cy="129" r="1" fill="#fff"/>
+
+  <!-- Flamingo near leg -->
+  <line x1="248" y1="290" x2="242" y2="316" stroke="#d6335c" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="242" y1="316" x2="232" y2="314" stroke="#d6335c" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Wing feather detail -->
+  <path d="M255 260 Q270 255 280 265" fill="none" stroke="#b02040" stroke-width="1" opacity="0.5"/>
+
+  <!-- Flamingo tail feathers -->
+  <path d="M300 275 Q315 270 320 280 Q310 285 300 275 Z" fill="#ff6b8a" stroke="#b02040" stroke-width="1"/>
+  <path d="M305 278 Q318 275 322 282" fill="none" stroke="#b02040" stroke-width="1" opacity="0.4"/>
+
+  <!-- Dynamic spray -->
+  <circle cx="195" cy="312" r="5" fill="#e0f2fe" opacity="0.8"/>
+  <circle cx="178" cy="306" r="3.5" fill="#fff" opacity="0.7"/>
+  <circle cx="210" cy="318" r="4" fill="#e0f2fe" opacity="0.6"/>
+  <circle cx="165" cy="315" r="2.5" fill="#fff" opacity="0.5"/>
+  <circle cx="325" cy="318" r="4.5" fill="#e0f2fe" opacity="0.7"/>
+  <circle cx="342" cy="312" r="3" fill="#fff" opacity="0.6"/>
+  <circle cx="355" cy="320" r="2" fill="#e0f2fe" opacity="0.5"/>
+
+  <!-- Splash droplets -->
+  <circle cx="188" cy="298" r="1.5" fill="#fff" opacity="0.9"/>
+  <circle cx="172" cy="302" r="1" fill="#fff" opacity="0.8"/>
+  <circle cx="338" cy="302" r="1.5" fill="#fff" opacity="0.9"/>
+
+  <!-- Tarot border -->
+  <rect x="16" y="16" width="480" height="480" rx="14" fill="none" stroke="#f4d03f" stroke-width="5"/>
+  <rect x="26" y="26" width="460" height="460" rx="10" fill="none" stroke="#f4d03f" stroke-width="1.5"/>
+
+  <!-- Corner ornaments -->
+  <circle cx="36" cy="36" r="4" fill="#f4d03f" opacity="0.8"/>
+  <circle cx="476" cy="36" r="4" fill="#f4d03f" opacity="0.8"/>
+  <circle cx="36" cy="476" r="4" fill="#f4d03f" opacity="0.8"/>
+  <circle cx="476" cy="476" r="4" fill="#f4d03f" opacity="0.8"/>
+
+  <!-- Side line accents -->
+  <line x1="36" y1="46" x2="36" y2="90" stroke="#f4d03f" stroke-width="1.5" opacity="0.6"/>
+  <line x1="476" y1="46" x2="476" y2="90" stroke="#f4d03f" stroke-width="1.5" opacity="0.6"/>
+  <line x1="36" y1="466" x2="36" y2="422" stroke="#f4d03f" stroke-width="1.5" opacity="0.6"/>
+  <line x1="476" y1="466" x2="476" y2="422" stroke="#f4d03f" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Roman numeral -->
+  <text x="256" y="62" text-anchor="middle" fill="#f4d03f" font-family="Georgia,serif" font-size="30" font-weight="bold">VII</text>
+
+  <!-- Title -->
+  <text x="256" y="468" text-anchor="middle" fill="#f4d03f" font-family="Georgia,serif" font-size="24" font-weight="bold" letter-spacing="3">THE SURFER</text>
+</svg>

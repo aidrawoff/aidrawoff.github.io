@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#1b1030"/>
+  <!-- window and moon -->
+  <rect x="50" y="40" width="130" height="120" fill="#2a1d4a" stroke="#6b4fa0" stroke-width="6"/>
+  <circle cx="112" cy="95" r="26" fill="#ffe9a8"/>
+  <!-- stove and kitchen -->
+  <rect x="30" y="400" width="280" height="112" fill="#2b1f1f"/>
+  <rect x="30" y="380" width="280" height="22" fill="#3d2c2c"/>
+  <!-- flames under pot -->
+  <path d="M100 420 Q110 455 120 420 Q130 450 140 420 Q150 455 160 420 Q170 450 180 420 Z" fill="#ff7a1a"/>
+  <!-- pot -->
+  <path d="M80 372 L222 372 L206 432 L96 432 Z" fill="#1a1a1a" stroke="#4a4a4a" stroke-width="4"/>
+  <ellipse cx="151" cy="372" rx="71" ry="12" fill="#1a1a1a"/>
+  <ellipse cx="151" cy="372" rx="62" ry="8" fill="#2a1a0a"/>
+  <!-- burnt soup bubbles -->
+  <circle cx="132" cy="370" r="5" fill="#0d0805"/>
+  <circle cx="160" cy="374" r="7" fill="#0d0805"/>
+  <!-- smoke rising -->
+  <path d="M150 360 C125 320 180 300 150 260 C128 228 172 208 160 168" fill="none" stroke="#9a8fb0" stroke-opacity="0.6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M190 350 C210 310 170 290 200 250" fill="none" stroke="#9a8fb0" stroke-opacity="0.45" stroke-width="10" stroke-linecap="round"/>
+  <!-- fire glow under the pot -->
+  <rect x="70" y="382" width="160" height="30" fill="#ff7a1a" opacity="0.35"/>
+  <path d="M90 430 Q100 398 112 430 Q122 392 134 430 Q146 396 158 430 Q170 392 182 430 Q194 400 204 430 Z" fill="#ff7a1a"/>
+  <path d="M108 430 Q116 410 124 430 Q134 404 142 430 Q152 408 160 430 Z" fill="#ffd23f"/>
+  <!-- witch body -->
+  <path d="M335 300 L300 512 L470 512 L425 300 Z" fill="#3b1458"/>
+  <path d="M300 512 L470 512 L462 470 L308 470 Z" fill="#26093a"/>
+  <!-- spoon arm -->
+  <path d="M332 320 L240 352" stroke="#5a3a20" stroke-width="8" stroke-linecap="round"/>
+  <ellipse cx="236" cy="356" rx="7" ry="4" fill="#8a6a40"/>
+  <!-- hat -->
+  <path d="M332 192 L374 58 L410 192 Z" fill="#0d0520"/>
+  <ellipse cx="371" cy="192" rx="62" ry="11" fill="#0d0520"/>
+  <rect x="338" y="174" width="70" height="8" fill="#ff9a3c"/>
+  <!-- hair bun and loose strands -->
+  <circle cx="404" cy="250" r="14" fill="#c9462b"/>
+  <path d="M338 232 Q330 270 342 292" fill="none" stroke="#c9462b" stroke-width="6" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="371" cy="235" r="36" fill="#7fd46a"/>
+  <!-- angled worried brows -->
+  <line x1="343" y1="210" x2="362" y2="218" stroke="#0d0520" stroke-width="5" stroke-linecap="round"/>
+  <line x1="380" y1="218" x2="399" y2="210" stroke="#0d0520" stroke-width="5" stroke-linecap="round"/>
+  <!-- eyes with highlight -->
+  <ellipse cx="354" cy="230" rx="6" ry="7" fill="#ffffff"/>
+  <ellipse cx="388" cy="230" rx="6" ry="7" fill="#ffffff"/>
+  <circle cx="355" cy="231" r="3" fill="#0d0520"/>
+  <circle cx="389" cy="231" r="3" fill="#0d0520"/>
+  <!-- open mouth -->
+  <ellipse cx="371" cy="256" rx="10" ry="8" fill="#3a0a14"/>
+  <!-- soot smudges on her cheek and nose -->
+  <ellipse cx="352" cy="246" rx="7" ry="4" fill="#0d0805" opacity="0.8"/>
+  <ellipse cx="371" cy="240" rx="3" ry="2" fill="#0d0805"/>
+  <!-- black smoke puffs from the pot -->
+  <circle cx="150" cy="330" r="16" fill="#2a2030" opacity="0.5"/>
+  <circle cx="176" cy="300" r="12" fill="#2a2030" opacity="0.4"/>
+  <!-- contact shadow under the pot and edge light on the rim -->
+  <ellipse cx="151" cy="436" rx="80" ry="8" fill="#0d0805" opacity="0.5"/>
+  <path d="M82 372 Q151 362 220 372" fill="none" stroke="#ffb35c" stroke-opacity="0.6" stroke-width="3"/>
+  <!-- exclamation -->
+  <text x="420" y="150" font-family="sans-serif" font-size="64" font-weight="bold" fill="#ffd23f">!</text>
+</svg>

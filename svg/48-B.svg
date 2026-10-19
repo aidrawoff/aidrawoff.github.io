@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3a1c5a"/>
+      <stop offset="100%" stop-color="#0f0218"/>
+    </radialGradient>
+    <linearGradient id="spot" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="256" cy="430" rx="200" ry="40" fill="#1a0a2e" opacity="0.5"/>
+  <ellipse cx="256" cy="410" rx="160" ry="25" fill="#3a1c5a" opacity="0.3"/>
+  <g id="sparkles">
+    <path d="M70 250 L 75 270 L 95 275 L 75 280 L 70 300 L 65 280 L 45 275 L 65 270 Z" fill="#ffd700"/>
+    <path d="M110 220 L 113 233 L 126 236 L 113 239 L 110 252 L 107 239 L 94 236 L 107 233 Z" fill="#ffffff"/>
+    <path d="M45 320 L 48 333 L 61 336 L 48 339 L 45 352 L 42 339 L 29 336 L 42 333 Z" fill="#7bf1a8"/>
+    <circle cx="125" cy="265" r="4" fill="#fff" opacity="0.9"/>
+    <circle cx="55" cy="225" r="3" fill="#ffd700" opacity="0.9"/>
+    <circle cx="35" cy="295" r="5" fill="#7bf1a8" opacity="0.8"/>
+    <circle cx="95" cy="200" r="2" fill="#fff" opacity="0.7"/>
+  </g>
+  <g id="wand">
+    <line x1="115" y1="375" x2="70" y2="285" stroke="#c9a227" stroke-width="5" stroke-linecap="round"/>
+    <line x1="115" y1="375" x2="70" y2="285" stroke="#ffd700" stroke-width="2" stroke-linecap="round"/>
+    <polygon points="70,285 58,260 82,260" fill="#ffd700"/>
+    <polygon points="70,285 62,265 78,265" fill="#fff"/>
+    <polygon points="70,285 75,268 85,275" fill="#ff6b6b"/>
+    <polygon points="70,285 55,275 65,268" fill="#7bf1a8"/>
+  </g>
+  <g id="worm">
+    <path d="M110 380 Q 155 290 200 335 Q 245 380 285 315 Q 325 250 365 295 Q 405 340 385 380" fill="none" stroke="#c9184a" stroke-width="32" stroke-linecap="round"/>
+    <path d="M110 380 Q 155 290 200 335 Q 245 380 285 315 Q 325 250 365 295 Q 405 340 385 380" fill="none" stroke="#ff8fab" stroke-width="24" stroke-linecap="round"/>
+    <path d="M110 380 Q 155 290 200 335 Q 245 380 285 315 Q 325 250 365 295 Q 405 340 385 380" fill="none" stroke="#ffb3c6" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="385" cy="380" r="20" fill="#ff8fab"/>
+    <circle cx="390" cy="374" r="7" fill="#2a0845"/>
+    <circle cx="402" cy="374" r="7" fill="#2a0845"/>
+    <circle cx="388" cy="372" r="2.5" fill="#fff"/>
+    <circle cx="400" cy="372" r="2.5" fill="#fff"/>
+    <path d="M375 392 Q 388 400 402 392" fill="none" stroke="#c9184a" stroke-width="3" stroke-linecap="round"/>
+    <path d="M365 360 L 378 335 L 391 360 Z" fill="#f72585"/>
+    <ellipse cx="382" cy="328" rx="28" ry="12" fill="#10002b"/>
+    <rect x="355" y="328" width="54" height="7" fill="#240046" rx="3"/>
+    <rect x="360" y="335" width="44" height="4" fill="#3c096c" rx="2"/>
+    <path d="M195 365 L 240 365 L 217 320 Z" fill="#7209b7" opacity="0.8"/>
+    <path d="M220 320 Q 240 295 260 320" fill="none" stroke="#7209b7" stroke-width="4" stroke-linecap="round"/>
+  </g>
+  <g id="coffee">
+    <ellipse cx="170" cy="225" rx="38" ry="14" fill="#000" opacity="0.25"/>
+    <path d="M138 182 Q 138 225 170 225 Q 202 225 202 182 L 196 140 Q 170 135 144 140 Z" fill="#f5f5f5" stroke="#e0e0e0" stroke-width="2"/>
+    <ellipse cx="170" cy="140" rx="26" ry="9" fill="#3e2723"/>
+    <ellipse cx="170" cy="142" rx="23" ry="7" fill="#5d4037"/>
+    <ellipse cx="170" cy="143" rx="18" ry="4" fill="#795548" opacity="0.6"/>
+    <path d="M202 165 Q 220 158 220 180 Q 220 200 198 195" fill="none" stroke="#e0e0e0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M156 128 Q 163 108 173 123" fill="none" stroke="#fff" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <path d="M172 123 Q 177 103 187 118" fill="none" stroke="#fff" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <path d="M145 118 Q 152 95 162 112" fill="none" stroke="#fff" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  </g>
+  <text x="256" y="485" text-anchor="middle" font-family="sans-serif" font-size="22" fill="#ffd700" font-weight="bold" opacity="0.9">ABRACA-DRIP-DA!</text>
+</svg>

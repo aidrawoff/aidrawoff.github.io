@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+<radialGradient id="glow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#ffe066"/>
+<stop offset="100%" stop-color="#1a0b2e"/>
+</radialGradient>
+<filter id="blur">
+<feGaussianBlur stdDeviation="3"/>
+</filter>
+</defs>
+
+<!-- night sky -->
+<rect width="512" height="512" fill="#1a0b2e"/>
+
+<!-- moon glow behind -->
+<circle cx="256" cy="200" r="140" fill="url(#glow)" opacity="0.35"/>
+<circle cx="256" cy="200" r="90" fill="#ffe066" opacity="0.15"/>
+
+<!-- bat body silhouette -->
+<ellipse cx="256" cy="280" rx="55" ry="70" fill="#0d0518"/>
+
+<!-- ears -->
+<path d="M 225 220 L 215 175 L 240 210 Z" fill="#0d0518"/>
+<path d="M 287 220 L 297 175 L 272 210 Z" fill="#0d0518"/>
+
+<!-- wings spread wide -->
+<path d="M 201 250 C 160 200 100 160 40 190 C 70 230 110 250 150 260 C 110 280 60 310 30 360 C 90 340 140 320 180 300 C 160 330 130 370 110 410 C 160 380 190 340 210 310 Z" fill="#0d0518"/>
+<path d="M 311 250 C 352 200 412 160 472 190 C 442 230 402 250 362 260 C 402 280 452 310 482 360 C 422 340 372 320 332 300 C 352 330 382 370 402 410 C 352 380 322 340 302 310 Z" fill="#0d0518"/>
+
+<!-- wing membrane lighter edge -->
+<path d="M 201 250 C 160 200 100 160 40 190 C 70 230 110 250 150 260 C 110 280 60 310 30 360 C 90 340 140 320 180 300" fill="none" stroke="#2a1a4a" stroke-width="2"/>
+<path d="M 311 250 C 352 200 412 160 472 190 C 442 230 402 250 362 260 C 402 280 452 310 482 360 C 422 340 372 320 332 300" fill="none" stroke="#2a1a4a" stroke-width="2"/>
+
+<!-- wing bones -->
+<path d="M 201 250 L 150 260 L 180 300 L 210 310" fill="none" stroke="#1a0b2e" stroke-width="3" stroke-linecap="round"/>
+<path d="M 150 260 L 110 280 L 130 320" fill="none" stroke="#1a0b2e" stroke-width="2" stroke-linecap="round"/>
+<path d="M 311 250 L 362 260 L 332 300 L 302 310" fill="none" stroke="#1a0b2e" stroke-width="3" stroke-linecap="round"/>
+<path d="M 362 260 L 402 280 L 382 320" fill="none" stroke="#1a0b2e" stroke-width="2" stroke-linecap="round"/>
+
+<!-- cute face -->
+<ellipse cx="256" cy="265" rx="35" ry="30" fill="#1a0b2e"/>
+
+<!-- big eyes looking at phone -->
+<ellipse cx="242" cy="260" rx="10" ry="14" fill="#fff"/>
+<ellipse cx="270" cy="260" rx="10" ry="14" fill="#fff"/>
+<ellipse cx="245" cy="262" rx="5" ry="7" fill="#0d0518"/>
+<ellipse cx="267" cy="262" rx="5" ry="7" fill="#0d0518"/>
+<circle cx="246" cy="260" r="2" fill="#fff"/>
+<circle cx="268" cy="260" r="2" fill="#fff"/>
+
+<!-- tiny smile -->
+<path d="M 248 278 Q 256 285 264 278" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
+
+<!-- phone held up -->
+<rect x="230" y="290" width="52" height="80" rx="6" fill="#222" stroke="#555" stroke-width="2"/>
+<rect x="234" y="294" width="44" height="72" rx="3" fill="#87ceeb"/>
+
+<!-- selfie camera flash burst -->
+<circle cx="256" cy="330" r="28" fill="#fff" opacity="0.6" filter="url(#blur)"/>
+<circle cx="256" cy="330" r="18" fill="#fff" opacity="0.9" filter="url(#blur)"/>
+<circle cx="256" cy="330" r="8" fill="#fff"/>
+
+<!-- stars -->
+<circle cx="80" cy="80" r="2" fill="#fff" opacity="0.8"/>
+<circle cx="420" cy="60" r="2.5" fill="#fff" opacity="0.9"/>
+<circle cx="460" cy="150" r="1.5" fill="#fff" opacity="0.6"/>
+<circle cx="50" cy="180" r="2" fill="#fff" opacity="0.7"/>
+<circle cx="400" cy="400" r="2" fill="#fff" opacity="0.8"/>
+<circle cx="100" cy="450" r="1.5" fill="#fff" opacity="0.5"/>
+<circle cx="480" cy="480" r="2" fill="#fff" opacity="0.6"/>
+
+<!-- tiny fangs peeking -->
+<path d="M 252 282 L 254 288 L 256 282 Z" fill="#fff"/>
+<path d="M 260 282 L 262 288 L 264 282 Z" fill="#fff"/>
+
+<!-- feet gripping phone -->
+<ellipse cx="238" cy="375" rx="8" ry="5" fill="#0d0518"/>
+<ellipse cx="274" cy="375" rx="8" ry="5" fill="#0d0518"/>
+<path d="M 232 375 L 228 385 M 238 375 L 236 386 M 244 375 L 246 385" stroke="#0d0518" stroke-width="2" stroke-linecap="round"/>
+<path d="M 268 375 L 266 385 M 274 375 L 274 386 M 280 375 L 282 385" stroke="#0d0518" stroke-width="2" stroke-linecap="round"/>
+
+<!-- moon rim light on bat edges -->
+<path d="M 225 220 L 215 175 L 240 210 Z" fill="none" stroke="#ffe066" stroke-width="1.5" opacity="0.6"/>
+<path d="M 287 220 L 297 175 L 272 210 Z" fill="none" stroke="#ffe066" stroke-width="1.5" opacity="0.6"/>
+<ellipse cx="256" cy="280" rx="55" ry="70" fill="none" stroke="#ffe066" stroke-width="1.5" opacity="0.4"/>
+
+<!-- phone screen selfie preview (tiny bat icon) -->
+<ellipse cx="256" cy="325" rx="6" ry="8" fill="#0d0518"/>
+<path d="M 250 322 L 246 316 L 252 320 Z" fill="#0d0518"/>
+<path d="M 262 322 L 266 316 L 260 320 Z" fill="#0d0518"/>
+<circle cx="254" cy="324" r="1.5" fill="#fff"/>
+<circle cx="258" cy="324" r="1.5" fill="#fff"/>
+</svg>

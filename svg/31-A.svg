@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky & Background Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#fdba74"/>
+      <stop offset="50%" stop-color="#fed7aa"/>
+      <stop offset="100%" stop-color="#fef08a"/>
+    </linearGradient>
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <linearGradient id="sunGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fde047"/>
+      <stop offset="100%" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="dragonGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="50%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="bellyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#a7f3d0"/>
+      <stop offset="100%" stop-color="#6ee7b7"/>
+    </linearGradient>
+    <linearGradient id="plateGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="50%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Sky Background -->
+  <rect width="512" height="380" fill="url(#skyGrad)"/>
+
+  <!-- Sun with Sunglasses (Twist!) -->
+  <g transform="translate(410, 90)">
+    <!-- Sun Rays -->
+    <g stroke="#fbbf24" stroke-width="4" stroke-linecap="round" opacity="0.8">
+      <line x1="0" y1="-70" x2="0" y2="-90"/>
+      <line x1="0" y1="70" x2="0" y2="90"/>
+      <line x1="-70" y1="0" x2="-90" y2="0"/>
+      <line x1="70" y1="0" x2="90" y2="0"/>
+      <line x1="-50" y1="-50" x2="-65" y2="-65"/>
+      <line x1="50" y1="50" x2="65" y2="65"/>
+      <line x1="50" y1="-50" x2="65" y2="-65"/>
+      <line x1="-50" y1="50" x2="-65" y2="65"/>
+    </g>
+    <!-- Sun Body -->
+    <circle cx="0" cy="0" r="55" fill="url(#sunGrad)" filter="url(#glow)"/>
+    <!-- Sunglasses on Sun -->
+    <g transform="translate(0, -5)">
+      <!-- Frame -->
+      <path d="M -42,-18 L -5,-18 C -2,-18 0,-15 0,-10 C 0,-15 2,-18 5,-18 L 42,-18 C 46,-18 48,-15 45,-10 L 38,18 C 36,24 30,26 22,26 L -22,26 C -30,26 -36,24 -38,18 L -45,-10 C -48,-15 -46,-18 -42,-18 Z" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+      <!-- Lenses -->
+      <path d="M -38,-14 L -8,-14 C -6,-14 -5,-12 -6,-8 L -12,14 C -13,18 -18,20 -22,20 C -26,20 -31,18 -32,14 L -38,-8 C -39,-12 -40,-14 -38,-14 Z" fill="#0f172a"/>
+      <path d="M 38,-14 L 8,-14 C 6,-14 5,-12 6,-8 L 12,14 C 13,18 18,20 22,20 C 26,20 31,18 32,14 L 38,-8 C 39,-12 40,-14 38,-14 Z" fill="#0f172a"/>
+      <!-- Lens Reflections -->
+      <path d="M -32,-10 L -20,-10 L -24,8 L -30,8 Z" fill="#38bdf8" opacity="0.6"/>
+      <path d="M 20,-10 L 32,-10 L 30,8 L 24,8 Z" fill="#38bdf8" opacity="0.6"/>
+    </g>
+    <!-- Cool Smile on Sun -->
+    <path d="M -20,25 Q 0,40 20,25" fill="none" stroke="#b45309" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Distant Gym Details / Mountains/Hills silhouette -->
+  <path d="M 0,380 Q 150,340 300,370 T 512,350 L 512,380 L 0,380 Z" fill="#ea580c" opacity="0.2"/>
+
+  <!-- Gym Floor -->
+  <rect x="0" y="380" width="512" height="132" fill="url(#floorGrad)"/>
+  <!-- Floor Grid Lines / Wood Planks -->
+  <line x1="0" y1="410" x2="512" y2="410" stroke="#291102" stroke-width="3" opacity="0.6"/>
+  <line x1="0" y1="450" x2="512" y2="450" stroke="#291102" stroke-width="3" opacity="0.6"/>
+  <line x1="0" y1="490" x2="512" y2="490" stroke="#291102" stroke-width="3" opacity="0.6"/>
+
+  <!-- Gym Floor Highlight -->
+  <rect x="0" y="380" width="512" height="6" fill="#b45309" opacity="0.5"/>
+
+  <!-- Shadow under Dragon & Weights -->
+  <ellipse cx="256" cy="425" rx="110" ry="25" fill="#170701" opacity="0.7" filter="url(#shadow)"/>
+
+  <!-- Gym Chalk Bucket & Dumbbell Rack in background -->
+  <g transform="translate(80, 340)">
+    <!-- Chalk bucket -->
+    <rect x="-15" y="0" width="30" height="40" rx="4" fill="#64748b" stroke="#334155" stroke-width="2"/>
+    <ellipse cx="0" cy="0" rx="15" ry="5" fill="#94a3b8"/>
+    <!-- Chalk powder pile -->
+    <ellipse cx="0" cy="2" rx="10" ry="2" fill="#f8fafc"/>
+  </g>
+  <g transform="translate(430, 340)">
+    <!-- Dumbbell rack in background -->
+    <rect x="-20" y="-10" width="40" height="50" rx="4" fill="#334155"/>
+    <rect x="-15" y="0" width="30" height="10" rx="2" fill="#64748b"/>
+    <rect x="-15" y="20" width="30" height="10" rx="2" fill="#64748b"/>
+  </g>
+
+  <!-- THE TINY DRAGON LIFTING WEIGHTS -->
+  <g transform="translate(256, 390)">
+    
+    <!-- Dragon Tail with flame -->
+    <g>
+      <path d="M 35,-10 Q 75,-20 85,-50 Q 90,-70 70,-80 Q 55,-70 65,-55 Q 75,-40 60,-30 Q 30,-15 20,0 Z" fill="url(#dragonGrad)"/>
+      <!-- Tail Flame -->
+      <path d="M 85,-50 Q 105,-65 95,-85 Q 115,-70 95,-55 Z" fill="#fbbf24"/>
+      <path d="M 88,-55 Q 98,-63 93,-75 Q 103,-65 93,-58 Z" fill="#ef4444"/>
+    </g>
+
+    <!-- Dragon Body & Legs (Squatting/Lifting pose) -->
+    <!-- Back Leg -->
+    <path d="M -30,-20 C -50,-10 -60,10 -45,25 C -35,35 -20,20 -25,5 Z" fill="#047857"/>
+    <!-- Front Leg -->
+    <path d="M -15,-10 C -35,5 -40,30 -25,35 C -10,40 5,20 0,5 Z" fill="url(#dragonGrad)"/>
+    <!-- Feet / Claws -->
+    <ellipse cx="-42" cy="25" rx="10" ry="6" fill="#065f46"/>
+    <ellipse cx="-22" cy="35" rx="10" ry="6" fill="#059669"/>
+
+    <!-- Main Torso -->
+    <path d="M -35,-45 C -45,-20 -40,0 -15,10 C 15,10 30,-15 25,-45 C 20,-65 -20,-70 -35,-45 Z" fill="url(#dragonGrad)" filter="url(#shadow)"/>
+    
+    <!-- Belly (Lighter green with abs lines) -->
+    <path d="M -25,-40 C -30,-20 -25,0 -10,5 C 5,5 15,-15 12,-35 C 10,-45 -10,-48 -25,-40 Z" fill="url(#bellyGrad)"/>
+    <!-- Abs / Scale lines -->
+    <line x1="-18" y1="-32" x2="5" y2="-32" stroke="#047857" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-15" y1="-22" x2="8" y2="-22" stroke="#047857" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+    <line x1="-12" y1="-12" x2="5" y2="-12" stroke="#047857" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Cute Wings (spread out for balance) -->
+    <g>
+      <!-- Left Wing -->
+      <path d="M -30,-50 C -60,-70 -80,-40 -65,-20 C -55,-10 -40,-35 -30,-50 Z" fill="#6ee7b7" opacity="0.9"/>
+      <path d="M -30,-50 Q -50,-55 -65,-20 Q -45,-35 -30,-50 Z" fill="#34d399"/>
+      <!-- Right Wing -->
+      <path d="M 20,-50 C 50,-70 70,-40 55,-20 C 45,-10 30,-35 20,-50 Z" fill="#6ee7b7" opacity="0.9"/>
+    </g>
+
+    <!-- Dragon Head (Straining / Determined Expression) -->
+    <g transform="translate(0, -65)">
+      <!-- Head Base -->
+      <ellipse cx="0" cy="-15" rx="28" ry="24" fill="url(#dragonGrad)"/>
+      
+      <!-- Snout -->
+      <path d="M -18,-5 C -25,0 -20,15 0,15 C 20,15 25,0 18,-5 Z" fill="url(#dragonGrad)"/>
+      <ellipse cx="0" cy="5" rx="14" ry="9" fill="#a7f3d0"/>
+      <!-- Nostrils / Steam puffs -->
+      <circle cx="-5" cy="3" r="2" fill="#047857"/>
+      <circle cx="5" cy="3" r="2" fill="#047857"/>
+      <!-- Steam / Sweat -->
+      <path d="M -8,-2 Q -15,-10 -12,-18" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+      <path d="M 8,-2 Q 15,-10 12,-18" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" opacity="0.7"/>
+
+      <!-- Horns -->
+      <path d="M -15,-30 L -25,-48 L -10,-35 Z" fill="#f59e0b"/>
+      <path d="M 15,-30 L 25,-48 L 10,-35 Z" fill="#f59e0b"/>
+
+      <!-- Straining Eyes (Angry/Determined angled brows) -->
+      <path d="M -18,-22 L -8,-16" stroke="#065f46" stroke-width="4" stroke-linecap="round"/>
+      <path d="M 18,-22 L 8,-16" stroke="#065f46" stroke-width="4" stroke-linecap="round"/>
+      <!-- Eyeballs -->
+      <circle cx="-12" cy="-14" r="5" fill="#fff"/>
+      <circle cx="12" cy="-14" r="5" fill="#fff"/>
+      <!-- Pupils looking down at the heavy weight -->
+      <circle cx="-12" cy="-13" r="2.5" fill="#1e293b"/>
+      <circle cx="12" cy="-13" r="2.5" fill="#1e293b"/>
+
+      <!-- Determined Gritted Teeth Mouth -->
+      <path d="M -10,8 L 10,8 L 8,12 L -8,12 Z" fill="#1e293b"/>
+      <line x1="-5" y1="8" x2="-5" y2="12" stroke="#fff" stroke-width="1.5"/>
+      <line x1="0" y1="8" x2="0" y2="12" stroke="#fff" stroke-width="1.5"/>
+      <line x1="5" y1="8" x2="5" y2="12" stroke="#fff" stroke-width="1.5"/>
+    </g>
+
+    <!-- Arms pushing up the barbell -->
+    <!-- Left Arm -->
+    <path d="M -30,-50 C -45,-60 -55,-80 -45,-95 C -40,-100 -30,-90 -35,-75 C -38,-65 -30,-55 -25,-48 Z" fill="#059669"/>
+    <!-- Right Arm -->
+    <path d="M 30,-50 C 45,-60 55,-80 45,-95 C 40,-100 30,-90 35,-75 C 38,-65 30,-55 25,-48 Z" fill="#059669"/>
+
+    <!-- Bulging Biceps -->
+    <circle cx="-42" cy="-85" rx="9" ry="9" fill="#34d399"/>
+    <circle cx="42" cy="-85" rx="9" ry="9" fill="#34d399"/>
+
+  </g>
+
+  <!-- THE HEAVY BARBELL & WEIGHTS -->
+  <g transform="translate(256, 305)">
+    <!-- Barbell Shaft (Metallic gradient) -->
+    <rect x="-180" y="-8" width="360" height="16" rx="8" fill="url(#plateGrad)" filter="url(#shadow)"/>
+    <rect x="-180" y="-5" width="360" height="4" fill="#94a3b8" opacity="0.6"/>
+
+    <!-- Left Weight Stack -->
+    <!-- Inner Collar -->
+    <rect x="-140" y="-28" width="16" height="56" rx="4" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+    <!-- Plate 1 (Large Heavy) -->
+    <rect x="-165" y="-60" width="25" height="120" rx="8" fill="url(#plateGrad)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+    <circle cx="-152.5" cy="0" r="8" fill="#334155"/>
+    <text x="-152.5" y="4" font-family="sans-serif" font-weight="bold" font-size="10" fill="#cbd5e1" text-anchor="middle">100</text>
+    <!-- Plate 2 (Outer Heavy) -->
+    <rect x="-190" y="-75" width="22" height="150" rx="8" fill="url(#plateGrad)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+    <circle cx="-179" cy="0" r="6" fill="#ef4444"/>
+
+    <!-- Right Weight Stack -->
+    <!-- Inner Collar -->
+    <rect x="124" y="-28" width="16" height="56" rx="4" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+    <!-- Plate 1 (Large Heavy) -->
+    <rect x="140" y="-60" width="25" height="120" rx="8" fill="url(#plateGrad)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+    <circle cx="152.5" cy="0" r="8" fill="#334155"/>
+    <text x="152.5" y="4" font-family="sans-serif" font-weight="bold" font-size="10" fill="#cbd5e1" text-anchor="middle">100</text>
+    <!-- Plate 2 (Outer Heavy) -->
+    <rect x="168" y="-75" width="22" height="150" rx="8" fill="url(#plateGrad)" stroke="#1e293b" stroke-width="3" filter="url(#shadow)"/>
+    <circle cx="179" cy="0" r="6" fill="#ef4444"/>
+  </g>
+
+  <!-- Sweat drops flying around -->
+  <g fill="#38bdf8" opacity="0.9">
+    <path d="M 210,230 Q 205,220 210,210 Q 215,220 210,230 Z"/>
+    <path d="M 305,225 Q 310,215 305,205 Q 300,215 305,225 Z"/>
+    <path d="M 235,190 Q 232,182 235,175 Q 238,182 235,190 Z"/>
+    <path d="M 270,180 Q 267,172 270,165 Q 273,172 270,180 Z"/>
+    <path d="M 250,210 Q 247,202 250,195 Q 253,202 250,210 Z"/>
+  </g>
+
+  <!-- Chalk dust / Sparks around weights -->
+  <g fill="#f8fafc" opacity="0.8">
+    <circle cx="90" cy="300" r="4"/>
+    <circle cx="80" cy="315" r="2.5"/>
+    <circle cx="110" cy="280" r="3"/>
+    <circle cx="420" cy="305" r="4"/>
+    <circle cx="435" cy="290" r="2.5"/>
+    <circle cx="400" cy="320" r="3"/>
+    <circle cx="256" cy="350" r="3.5"/>
+    <circle cx="220" cy="340" r="2"/>
+    <circle cx="290" cy="345" r="2.5"/>
+    <circle cx="150" cy="330" r="3"/>
+    <circle cx="360" cy="335" r="2.5"/>
+  </g>
+
+  <!-- Foreground Vignette / Gym Atmosphere -->
+  <rect x="0" y="0" width="512" height="512" fill="none" stroke="#7c2d12" stroke-width="12" opacity="0.3"/>
+</svg>

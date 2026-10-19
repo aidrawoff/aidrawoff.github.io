@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- comic panel frame and night sky -->
+  <rect width="512" height="512" fill="#f8e8bc"/>
+  <rect x="14" y="14" width="484" height="484" rx="8" fill="#174c70" stroke="#172b3d" stroke-width="10"/>
+  <path d="M24 362H488V488H24Z" fill="#d85b39"/>
+  <path d="M24 362H488" stroke="#172b3d" stroke-width="8"/>
+  <circle cx="438" cy="78" r="27" fill="#f7ca55" stroke="#172b3d" stroke-width="7"/>
+  <path d="M66 78l15-10M103 49l9-16M145 68l18-7M388 145l18-7M419 173l9-16" stroke="#f7ca55" stroke-width="6" stroke-linecap="round"/>
+  <!-- burning building -->
+  <path d="M337 180h125v182H337z" fill="#f1b54c" stroke="#172b3d" stroke-width="8"/>
+  <path d="M326 180l73-45 74 45" fill="#d85b39" stroke="#172b3d" stroke-width="8" stroke-linejoin="round"/>
+  <path d="M358 213h28v33h-28zM414 213h28v33h-28zM358 270h28v33h-28z" fill="#174c70" stroke="#172b3d" stroke-width="6"/>
+  <path d="M420 263q-9-17 4-27q-1-20 15-29q-3 18 9 25q7 16-5 31q-7 9-23 0z" fill="#f7ca55" stroke="#172b3d" stroke-width="6"/>
+  <path d="M386 151q-10-19 5-31q-2-18 14-29q-1 16 10 24q9 15-3 29q-9 10-26 7z" fill="#f7ca55" stroke="#172b3d" stroke-width="6"/>
+  <path d="M396 144q-5-10 3-17q0-9 7-14q0 10 6 15q4 9-3 16q-6 5-13 0z" fill="#d85b39"/>
+  <!-- comic caption -->
+  <path d="M34 35h218l16 20-16 20H34z" fill="#fff5d6" stroke="#172b3d" stroke-width="6"/>
+  <text x="47" y="63" font-family="sans-serif" font-size="20" font-weight="900" fill="#172b3d">WORM ON DUTY!</text>
+  <!-- speed lines -->
+  <path d="M48 288h94M43 314h71M61 340h72" stroke="#f7ca55" stroke-width="8" stroke-linecap="round"/>
+  <!-- heroic worm: bold segmented silhouette -->
+  <path d="M112 350 C104 319 124 296 158 292 C192 288 215 302 235 319 C255 336 283 344 309 332" fill="none" stroke="#172b3d" stroke-width="63" stroke-linecap="round"/>
+  <path d="M112 350 C104 319 124 296 158 292 C192 288 215 302 235 319 C255 336 283 344 309 332" fill="none" stroke="#e85c43" stroke-width="50" stroke-linecap="round"/>
+  <path d="M142 313l-5 35M177 296l-4 40M213 309l-8 38M249 333l-7 35" stroke="#b93f3c" stroke-width="6"/>
+  <!-- head and helmet -->
+  <circle cx="310" cy="321" r="45" fill="#e85c43" stroke="#172b3d" stroke-width="8"/>
+  <path d="M276 286q8-36 42-39q34 3 43 39h-85z" fill="#f7ca55" stroke="#172b3d" stroke-width="8"/>
+  <path d="M266 287h104" stroke="#172b3d" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="318" cy="266" r="8" fill="#d85b39" stroke="#172b3d" stroke-width="5"/>
+  <circle cx="326" cy="317" r="7" fill="#172b3d"/>
+  <path d="M342 335q-15 13-28 2" fill="none" stroke="#172b3d" stroke-width="6" stroke-linecap="round"/>
+  <!-- action arms and hose -->
+  <path d="M288 346l-37 30" stroke="#172b3d" stroke-width="19" stroke-linecap="round"/>
+  <path d="M288 346l-37 30" stroke="#e85c43" stroke-width="11" stroke-linecap="round"/>
+  <path d="M335 345l35 27" stroke="#172b3d" stroke-width="18" stroke-linecap="round"/>
+  <path d="M335 345l35 27" stroke="#e85c43" stroke-width="10" stroke-linecap="round"/>
+  <path d="M249 376l-18 12M370 372l16 9" stroke="#172b3d" stroke-width="8" stroke-linecap="round"/>
+  <path d="M373 372 C420 355 446 325 454 284" fill="none" stroke="#172b3d" stroke-width="13" stroke-linecap="round"/>
+  <path d="M373 372 C420 355 446 325 454 284" fill="none" stroke="#6bc6cf" stroke-width="7" stroke-linecap="round"/>
+  <path d="M454 284l-13 20M454 284l-20 2M454 284l8 20" stroke="#d9f5f0" stroke-width="6" stroke-linecap="round"/>
+  <!-- ground sparks and comic burst -->
+  <path d="M82 405l18-10-4 20 18-5-15 18" fill="none" stroke="#f7ca55" stroke-width="7"/>
+  <path d="M404 402l12-8-3 14 13-3-11 13" fill="none" stroke="#f7ca55" stroke-width="6"/>
+  <path d="M377 95l10-5-3 11 11-1-9 8" fill="none" stroke="#f7ca55" stroke-width="5"/>
+  <!-- comic speech bubble and rescue impact -->
+  <path d="M257 88q0-25 28-25h86q28 0 28 25t-28 25h-47l-18 16 3-16h-24q-28 0-28-25z" fill="#fff5d6" stroke="#172b3d" stroke-width="6"/>
+  <text x="282" y="97" font-family="sans-serif" font-size="23" font-weight="900" fill="#d85b39">WHOOSH!</text>
+  <circle cx="430" cy="272" r="7" fill="#d9f5f0" stroke="#172b3d" stroke-width="4"/>
+  <circle cx="410" cy="250" r="5" fill="#d9f5f0" stroke="#172b3d" stroke-width="3"/>
+  <path d="M450 263q14 7 23-3M447 276q17 7 25-1M442 290q13 6 21 0" fill="none" stroke="#d9f5f0" stroke-width="5" stroke-linecap="round"/>
+  <!-- firefighter badge -->
+  <path d="M307 305l8-5 8 5-3 10h-10z" fill="#f7ca55" stroke="#172b3d" stroke-width="3"/>
+  <path d="M286 410l8-14 4 10 12-3-9 14M342 431l7-12 4 8 10-2-8 12" fill="none" stroke="#f7ca55" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

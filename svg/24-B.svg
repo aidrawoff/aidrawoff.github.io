@@ -1,0 +1,201 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe6f2"/>
+      <stop offset="50%" stop-color="#e6f2ff"/>
+      <stop offset="100%" stop-color="#fff0e6"/>
+    </linearGradient>
+
+    <!-- Marshmallow Cloud Gradient -->
+    <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#fff5f8"/>
+      <stop offset="100%" stop-color="#ffcce6"/>
+    </linearGradient>
+
+    <!-- Cotton Candy Hair Gradient -->
+    <linearGradient id="hairGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff79c6"/>
+      <stop offset="40%" stop-color="#bd93f9"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+
+    <!-- Licorice Tail Gradient -->
+    <linearGradient id="tailGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5555"/>
+      <stop offset="25%" stop-color="#ffb86c"/>
+      <stop offset="50%" stop-color="#f1fa8c"/>
+      <stop offset="75%" stop-color="#50fa7b"/>
+      <stop offset="100%" stop-color="#8be9fd"/>
+    </linearGradient>
+
+    <!-- Candy Cane Pattern -->
+    <pattern id="candyCane" width="30" height="30" patternTransform="rotate(45)" patternUnits="userSpaceOnUse">
+      <rect width="15" height="30" fill="#ff5555"/>
+      <rect x="15" width="15" height="30" fill="#ffffff"/>
+    </pattern>
+
+    <!-- Star Filter / Glow -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Background Sugar Stars & Gumballs -->
+  <g opacity="0.9">
+    <circle cx="90" cy="90" r="20" fill="#ff79c6" filter="url(#glow)"/>
+    <circle cx="90" cy="90" r="17" fill="#ffb86c"/>
+    <circle cx="420" cy="100" r="24" fill="#50fa7b" filter="url(#glow)"/>
+    <circle cx="420" cy="100" r="20" fill="#8be9fd"/>
+    <circle cx="270" cy="50" r="14" fill="#f1fa8c" filter="url(#glow)"/>
+    <circle cx="460" cy="230" r="12" fill="#ff79c6" filter="url(#glow)"/>
+
+    <!-- Lollipop Stars floating -->
+    <g transform="translate(160, 70)">
+      <line x1="0" y1="0" x2="0" y2="50" stroke="#ffb86c" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="0" cy="-10" r="14" fill="#ff5555" filter="url(#glow)"/>
+      <path d="M-8 -10 Q 0 -22 8 -10 Q 0 2 -8 -10" fill="#ffffff" opacity="0.7"/>
+    </g>
+    <g transform="translate(350, 160)">
+      <line x1="0" y1="0" x2="0" y2="45" stroke="#ffb86c" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="0" cy="-10" r="12" fill="#bd93f9" filter="url(#glow)"/>
+      <path d="M-7 -10 Q 0 -20 7 -10 Q 0 0 -7 -10" fill="#ffffff" opacity="0.7"/>
+    </g>
+  </g>
+
+  <!-- Giant Marshmallow Cloud Base (Polished & Glowing) -->
+  <g>
+    <path d="M 50 360 
+             C 30 300, 80 250, 140 260 
+             C 170 210, 250 210, 280 260 
+             C 340 230, 410 260, 420 310 
+             C 470 320, 490 400, 430 430 
+             C 390 480, 110 490, 70 440 
+             C 40 410, 40 370, 50 360 Z" 
+          fill="url(#cloudGrad)" stroke="#ff70a6" stroke-width="5" filter="url(#glow)"/>
+
+    <!-- Extra Marshmallow Highlight Puffs -->
+    <circle cx="120" cy="380" r="45" fill="#ffffff" opacity="0.7"/>
+    <circle cx="380" cy="390" r="50" fill="#ffffff" opacity="0.7"/>
+    <circle cx="250" cy="430" r="60" fill="#ffffff" opacity="0.6"/>
+
+    <!-- Rainbow Sprinkles on Cloud -->
+    <g>
+      <rect x="110" y="370" width="14" height="7" rx="3" transform="rotate(35 117 373)" fill="#ff5555"/>
+      <rect x="150" y="420" width="14" height="7" rx="3" transform="rotate(-20 157 423)" fill="#50fa7b"/>
+      <rect x="210" y="380" width="14" height="7" rx="3" transform="rotate(50 217 383)" fill="#f1fa8c"/>
+      <rect x="290" y="440" width="14" height="7" rx="3" transform="rotate(-35 297 443)" fill="#8be9fd"/>
+      <rect x="350" y="380" width="14" height="7" rx="3" transform="rotate(15 357 383)" fill="#ff79c6"/>
+      <rect x="390" y="430" width="14" height="7" rx="3" transform="rotate(65 397 433)" fill="#bd93f9"/>
+      <rect x="180" y="450" width="14" height="7" rx="3" transform="rotate(-45 187 453)" fill="#ffb86c"/>
+      <rect x="310" y="360" width="14" height="7" rx="3" transform="rotate(25 317 363)" fill="#50fa7b"/>
+      <rect x="80" y="420" width="14" height="7" rx="3" transform="rotate(10 87 423)" fill="#ff79c6"/>
+    </g>
+  </g>
+
+  <!-- Sweet Candy Arch (Candy Cane Rainbow) -->
+  <path d="M 40 470 Q 256 360 472 470" fill="none" stroke="url(#candyCane)" stroke-width="20" stroke-linecap="round" filter="url(#glow)"/>
+  
+  <!-- Mermaid Character (Centered & Fully Polished) -->
+  <g transform="translate(225, 185)">
+    <!-- Licorice / Sour Ribbon Tail Flowing across cloud with dynamic curve -->
+    <path d="M 15 140 
+             C 60 180, 130 190, 190 165 
+             C 230 145, 255 105, 220 85 
+             C 195 70, 140 115, 120 135 
+             C 90 155, 40 130, 15 140 Z" 
+          fill="url(#tailGrad)" stroke="#330033" stroke-width="3" filter="url(#glow)"/>
+          
+    <!-- Tail Fin (Peppermint / Hard Candy Flukes with Sparkles) -->
+    <path d="M 190 165 Q 220 190 245 175 Q 225 155 190 165" fill="#ff5555" stroke="#ffffff" stroke-width="2"/>
+    <path d="M 190 165 Q 220 140 245 155 Q 220 165 190 165" fill="#50fa7b" stroke="#ffffff" stroke-width="2"/>
+    <circle cx="215" cy="165" r="4" fill="#ffffff"/>
+
+    <!-- Scaled Tail Pattern Details (Glistening Sugar Sparkles) -->
+    <g fill="#ffffff" opacity="0.7">
+      <circle cx="35" cy="145" r="4"/>
+      <circle cx="55" cy="155" r="4.5"/>
+      <circle cx="75" cy="162" r="5"/>
+      <circle cx="95" cy="167" r="5"/>
+      <circle cx="115" cy="165" r="4.5"/>
+      <circle cx="135" cy="155" r="4"/>
+      <circle cx="155" cy="145" r="4"/>
+      <circle cx="175" cy="135" r="3.5"/>
+    </g>
+
+    <!-- Torso (Caramel / Biscuit Skin Tone with glossy finish) -->
+    <rect x="-12" y="50" width="38" height="75" rx="16" fill="#f3c68f" stroke="#c28e4f" stroke-width="3"/>
+    <path d="M -6 60 Q 3 55 12 60" fill="none" stroke="#ffedcc" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Seashell Bra (Chocolate / Wafer Shells with sprinkles) -->
+    <path d="M -10 78 Q 2 68 14 78 Q 2 90 -10 78" fill="#8b4513" stroke="#d2691e" stroke-width="2"/>
+    <circle cx="2" cy="78" r="2" fill="#ff5555"/>
+    <path d="M 6 78 Q 18 68 30 78 Q 18 90 6 78" fill="#8b4513" stroke="#d2691e" stroke-width="2"/>
+    <circle cx="18" cy="78" r="2" fill="#50fa7b"/>
+
+    <!-- Head & Face (Caramel Sphere) -->
+    <circle cx="7" cy="18" r="24" fill="#f3c68f" stroke="#c28e4f" stroke-width="3"/>
+
+    <!-- Cheerful Face & Rosy Cheeks -->
+    <circle cx="-1" cy="14" r="3" fill="#331100"/>
+    <circle cx="15" cy="14" r="3" fill="#331100"/>
+    <circle cx="-3" cy="18" r="4" fill="#ff80aa" opacity="0.7"/>
+    <circle cx="17" cy="18" r="4" fill="#ff80aa" opacity="0.7"/>
+    <path d="M 3 22 Q 7 27 11 22" fill="none" stroke="#331100" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Crown / Tiara (Chocolate Truffle with Gumball Gem) -->
+    <path d="M -10 0 Q 7 -10 24 0 L 20 -6 L 7 -15 L -6 -6 Z" fill="#5c2c16" stroke="#ffd700" stroke-width="2"/>
+    <circle cx="7" cy="-9" r="5" fill="#ff3366" filter="url(#glow)"/>
+    <circle cx="7" cy="-9" r="2" fill="#ffffff"/>
+
+    <!-- Cotton Candy Hair (Massive, Flowing, Multi-layered) -->
+    <path d="M -18 8 
+             C -45 -2, -65 -35, -20 -55 
+             C 5 -65, 45 -55, 55 -20 
+             C 75 -10, 80 25, 55 45 
+             C 45 65, 20 85, 2 75 
+             C -28 75, -25 35, -18 8 Z" 
+          fill="url(#hairGrad)" opacity="0.96" stroke="#ffffff" stroke-width="2.5" stroke-dasharray="8,5" filter="url(#glow)"/>
+
+    <!-- Arms in Lively Pose -->
+    <path d="M -10 58 C -30 48, -40 28, -30 15" fill="none" stroke="#f3c68f" stroke-width="7" stroke-linecap="round"/>
+    <!-- Holding sparkling lollipop -->
+    <circle cx="-33" cy="12" r="8" fill="#ff5555" filter="url(#glow)"/>
+    <circle cx="-33" cy="12" r="4" fill="#ff80aa"/>
+    <line x1="-33" y1="12" x2="-28" y2="28" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+
+    <path d="M 24 58 C 40 48, 50 70, 32 82" fill="none" stroke="#f3c68f" stroke-width="7" stroke-linecap="round"/>
+    <!-- Little star cookie in hand -->
+    <polygon points="32,75 35,82 42,83 37,88 38,95 32,91 26,95 27,88 22,83 29,82" fill="#f1fa8c" stroke="#ffb86c" stroke-width="1.5"/>
+  </g>
+
+  <!-- Foreground Candy Details (Gumdrop Mushrooms & Rock Candy Crystals) -->
+  <g transform="translate(50, 370)">
+    <!-- Gumdrop 1 -->
+    <path d="M 0 50 Q 20 -10 40 50 Z" fill="#ff79c6" stroke="#ffffff" stroke-width="2" filter="url(#glow)"/>
+    <ellipse cx="20" cy="50" rx="20" ry="7" fill="#ff3366"/>
+    <!-- Sugar crystals on gumdrop -->
+    <circle cx="15" cy="25" r="2" fill="#ffffff"/>
+    <circle cx="25" cy="30" r="2" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(410, 350)">
+    <!-- Gumdrop 2 -->
+    <path d="M 0 60 Q 25 -15 50 60 Z" fill="#50fa7b" stroke="#ffffff" stroke-width="2" filter="url(#glow)"/>
+    <ellipse cx="25" cy="60" rx="25" ry="8" fill="#28a442"/>
+    <circle cx="20" cy="30" r="2" fill="#ffffff"/>
+    <circle cx="35" cy="35" r="2" fill="#ffffff"/>
+  </g>
+
+  <g transform="translate(230, 440)">
+    <!-- Rock Candy Crystal Cluster -->
+    <polygon points="0,40 10,10 20,40" fill="#8be9fd" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="15,45 25,5 35,45" fill="#bd93f9" stroke="#ffffff" stroke-width="2"/>
+    <polygon points="30,42 40,15 50,42" fill="#ffb86c" stroke="#ffffff" stroke-width="2"/>
+  </g>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#0a1a3a"/>
+    <stop offset="50%" stop-color="#2a5a8a"/>
+    <stop offset="100%" stop-color="#e8c8a0"/>
+  </linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#fff8e0"/>
+    <stop offset="100%" stop-color="#f0a040"/>
+  </linearGradient>
+</defs>
+
+<!-- Sky -->
+<rect width="512" height="512" fill="url(#sky)"/>
+
+<!-- Sun behind peaks -->
+<circle cx="360" cy="180" r="45" fill="url(#sun)" opacity="0.9"/>
+
+<!-- Background mountains -->
+<path d="M0,320 L80,200 L160,280 L240,160 L320,260 L400,140 L512,240 L512,512 L0,512 Z" fill="#1e3a5a"/>
+<path d="M-20,380 L100,260 L200,340 L300,220 L420,300 L530,380 L530,512 L-20,512 Z" fill="#2a4a6a"/>
+
+<!-- Midground ridge -->
+<path d="M0,512 L120,360 L220,420 L340,340 L512,400 L512,512 Z" fill="#4a6a3a"/>
+
+<!-- Foreground mountain top -->
+<path d="M-20,512 L160,380 L280,450 L400,390 L530,512 Z" fill="#5a3a22"/>
+<path d="M160,380 L200,420 L180,440 L140,400 Z" fill="#e8e0d0"/>
+<path d="M280,450 L310,480 L290,500 L260,470 Z" fill="#e8e0d0"/>
+<path d="M400,390 L430,420 L410,440 L380,410 Z" fill="#e8e0d0"/>
+
+<!-- Llama body -->
+<ellipse cx="260" cy="355" rx="38" ry="22" fill="#c8b898"/>
+<ellipse cx="260" cy="355" rx="38" ry="22" fill="none" stroke="#a09070" stroke-width="1.5"/>
+
+<!-- Llama neck -->
+<path d="M235,345 Q225,300 230,260 L250,265 Q245,300 255,345 Z" fill="#c8b898"/>
+<path d="M235,345 Q225,300 230,260 L250,265 Q245,300 255,345 Z" fill="none" stroke="#a09070" stroke-width="1.5"/>
+
+<!-- Llama head -->
+<ellipse cx="240" cy="250" rx="14" ry="18" fill="#c8b898"/>
+<ellipse cx="240" cy="250" rx="14" ry="18" fill="none" stroke="#a09070" stroke-width="1.5"/>
+
+<!-- Ears -->
+<path d="M228,240 L222,220 L235,232 Z" fill="#c8b898"/>
+<path d="M252,240 L258,220 L245,232 Z" fill="#c8b898"/>
+<path d="M228,240 L222,220 L235,232 Z" fill="none" stroke="#a09070" stroke-width="1"/>
+<path d="M252,240 L258,220 L245,232 Z" fill="none" stroke="#a09070" stroke-width="1"/>
+
+<!-- Face -->
+<circle cx="235" cy="248" r="2" fill="#2a2a2a"/>
+<circle cx="245" cy="248" r="2" fill="#2a2a2a"/>
+<path d="M236,258 Q240,262 244,258" fill="none" stroke="#8a7a60" stroke-width="1.5"/>
+
+<!-- Legs -->
+<rect x="235" y="370" width="8" height="35" rx="3" fill="#c8b898"/>
+<rect x="275" y="370" width="8" height="35" rx="3" fill="#c8b898"/>
+<rect x="250" y="372" width="8" height="32" rx="3" fill="#b8a888"/>
+<rect x="290" y="372" width="8" height="32" rx="3" fill="#b8a888"/>
+
+<!-- Hooves -->
+<rect x="235" y="402" width="8" height="5" fill="#5a4a3a"/>
+<rect x="275" y="402" width="8" height="5" fill="#5a4a3a"/>
+<rect x="250" y="401" width="8" height="5" fill="#5a4a3a"/>
+<rect x="290" y="401" width="8" height="5" fill="#5a4a3a"/>
+
+<!-- Tail -->
+<path d="M295,355 Q310,360 315,350" fill="none" stroke="#c8b898" stroke-width="4" stroke-linecap="round"/>
+
+<!-- Scarf blowing in wind -->
+<path d="M248,265 Q270,255 290,245 Q310,240 320,250 Q300,260 280,265 Q260,270 250,275 Z" fill="#d04040"/>
+<path d="M248,265 Q270,255 290,245 Q310,240 320,250 Q300,260 280,265 Q260,270 250,275 Z" fill="none" stroke="#a02020" stroke-width="1"/>
+
+<!-- Snow/rock details on peak -->
+<circle cx="180" cy="410" r="3" fill="#e8e0d0"/>
+<circle cx="220" cy="430" r="2" fill="#e8e0d0"/>
+<circle cx="350" cy="420" r="3" fill="#e8e0d0"/>
+<circle cx="380" cy="440" r="2" fill="#e8e0d0"/>
+
+<!-- Small birds in distance -->
+<path d="M150,180 Q155,175 160,180 Q155,182 150,180 Z" fill="#1a1a1a"/>
+<path d="M170,170 Q175,165 180,170 Q175,172 170,170 Z" fill="#1a1a1a"/>
+<path d="M140,190 Q144,186 148,190 Q144,192 140,190 Z" fill="#1a1a1a"/>
+</svg>

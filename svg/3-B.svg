@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#f5f0e6"/>
+
+  <!-- Road: subtle grey strip with subtle texture -->
+  <rect x="128" y="384" width="256" height="48" rx="24" fill="#5c5c5c"/>
+  <path d="M144 384 L368 384 M144 408 L368 408 M144 432 L368 432" stroke="#7a7a7a" stroke-width="1" stroke-dasharray="4 4"/>
+
+  <!-- Tiny jelly car (body) with wobble motion -->
+  <path d="M200 360 L312 360 L320 320 L192 320 Z" fill="#ff9e80" stroke="#3a2c1a" stroke-width="4" filter="url(#jellyGloss)"/>
+  <!-- Car roof -->
+  <path d="M200 320 L312 320 L304 288 L208 288 Z" fill="#ffb366" stroke="#3a2c1a" stroke-width="4" filter="url(#jellyGloss)"/>
+  <!-- Car windows -->
+  <path d="M216 336 L296 336 L288 304 L224 304 Z" fill="#a0d8f3" fill-opacity="0.6" stroke="#3a2c1a" stroke-width="2"/>
+  <!-- Car license plate (tiny jelly) -->
+  <rect x="248" y="352" width="16" height="8" rx="2" fill="#3a2c1a" stroke="#ff9e80" stroke-width="1" filter="url(#jellyGloss)"/>
+
+  <!-- Jelly cow (body) with wobble motion -->
+  <path d="M256 200 C224 200, 200 224, 200 256 C200 288, 224 312, 256 312 C288 312, 312 288, 312 256 C312 224, 288 200, 256 200 Z" fill="#e8f5a3" stroke="#3a2c1a" stroke-width="6" filter="url(#jellyGloss)"/>
+  <!-- Cow spots (sharpened) -->
+  <circle cx="232" cy="232" r="16" fill="#5c5c5c"/>
+  <circle cx="280" cy="232" r="16" fill="#5c5c5c"/>
+  <circle cx="232" cy="280" r="16" fill="#5c5c5c"/>
+  <circle cx="280" cy="280" r="16" fill="#5c5c5c"/>
+  <!-- Cow face (sharpened) -->
+  <path d="M256 200 L256 160 L224 160 L224 176 L240 176 L240 192 L256 192 Z" fill="#f9c784" stroke="#3a2c1a" stroke-width="3"/>
+  <!-- Cow eyes -->
+  <circle cx="240" cy="172" r="6" fill="#3a2c1a"/>
+  <circle cx="252" cy="172" r="6" fill="#3a2c1a"/>
+  <!-- Cow nose -->
+  <circle cx="256" cy="192" r="8" fill="#3a2c1a"/>
+
+  <!-- Car wheels (jelly blobs) -->
+  <circle cx="224" cy="368" r="24" fill="#ff6b6b" stroke="#3a2c1a" stroke-width="3" filter="url(#jellyGloss)"/>
+  <circle cx="288" cy="368" r="24" fill="#ff6b6b" stroke="#3a2c1a" stroke-width="3" filter="url(#jellyGloss)"/>
+
+  <!-- Motion lines for wobble -->
+  <path d="M200 360 Q210 352 220 360 Q230 368 240 360 Q250 352 260 360 Q270 368 280 360 Q290 352 300 360 L312 360" stroke="#ff9e80" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M200 320 Q210 312 220 320 Q230 328 240 320 Q250 312 260 320 Q270 328 280 320 Q290 312 300 320 L312 320" stroke="#ffb366" stroke-width="3" fill="none" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- Background details: jelly puddle under car -->
+  <ellipse cx="256" cy="384" rx="120" ry="24" fill="#ff9e80" fill-opacity="0.2" stroke="#ff6b6b" stroke-width="2" stroke-dasharray="8 4"/>
+  <!-- Jelly tree (tiny) -->
+  <ellipse cx="80" cy="200" rx="24" ry="48" fill="#a0d8f3" stroke="#3a2c1a" stroke-width="2" filter="url(#jellyGloss)"/>
+  <rect x="72" y="160" width="16" height="40" fill="#e8f5a3" stroke="#3a2c1a" stroke-width="2" filter="url(#jellyGloss)"/>
+  <!-- Jelly cloud (tiny) -->
+  <ellipse cx="400" cy="120" rx="32" ry="16" fill="#ffffff" stroke="#3a2c1a" stroke-width="2" filter="url(#jellyGloss)"/>
+  <ellipse cx="424" cy="112" rx="24" ry="12" fill="#ffffff" stroke="#3a2c1a" stroke-width="2" filter="url(#jellyGloss)"/>
+  <ellipse cx="376" cy="112" rx="24" ry="12" fill="#ffffff" stroke="#3a2c1a" stroke-width="2" filter="url(#jellyGloss)"/>
+
+  <!-- Filters for jelly gloss -->
+  <defs>
+    <filter id="jellyGloss" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feSpecularLighting result="specOut" in="blur" specularConstant="0.5" specularExponent="20" lighting-color="#ffffff">
+        <fePointLight x="100" y="100" z="200"/>
+      </feSpecularLighting>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+</svg>

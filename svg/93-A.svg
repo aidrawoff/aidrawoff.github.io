@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bgGlow" cx="50%" cy="40%" r="65%">
+      <stop offset="0%" stop-color="#422475"/>
+      <stop offset="50%" stop-color="#1a0d38"/>
+      <stop offset="100%" stop-color="#070311"/>
+    </radialGradient>
+    <linearGradient id="hatGrad" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stop-color="#5a3493"/>
+      <stop offset="50%" stop-color="#2a164a"/>
+      <stop offset="100%" stop-color="#10081d"/>
+    </linearGradient>
+    <radialGradient id="eyeGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d4ff33"/>
+      <stop offset="60%" stop-color="#00e676"/>
+      <stop offset="100%" stop-color="#00a152"/>
+    </radialGradient>
+    <linearGradient id="catFur" x1="30%" y1="0%" x2="70%" y2="100%">
+      <stop offset="0%" stop-color="#342f45"/>
+      <stop offset="40%" stop-color="#191524"/>
+      <stop offset="100%" stop-color="#0a080e"/>
+    </linearGradient>
+    <linearGradient id="furHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGlow)"/>
+  
+  <!-- Magical background runes & aura -->
+  <circle cx="256" cy="190" r="130" fill="#7b4397" opacity="0.15"/>
+  <circle cx="256" cy="190" r="105" fill="#1b0e30" opacity="0.95"/>
+  
+  <!-- Magic stars / sparkles -->
+  <g fill="#d1c4e9" opacity="0.8">
+    <circle cx="85" cy="110" r="2"/>
+    <circle cx="435" cy="95" r="1.5"/>
+    <circle cx="115" cy="270" r="1.5"/>
+    <circle cx="415" cy="230" r="2"/>
+    <polygon points="256,40 259,52 271,55 259,58 256,70 253,58 241,55 253,52" fill="#c77dff" opacity="0.9"/>
+    <polygon points="105,170 107,176 113,178 107,180 105,186 103,180 97,178 103,176" fill="#c77dff" opacity="0.7"/>
+    <polygon points="415,140 417,145 422,147 417,149 415,154 413,149 408,147 413,145" fill="#c77dff" opacity="0.8"/>
+  </g>
+
+  <!-- Inner moon geometric details -->
+  <path d="M256 85 L272 138 L328 144 L284 175 L300 228 L256 196 L212 228 L228 175 L184 144 L240 138 Z" fill="#9c27b0" opacity="0.18"/>
+  <circle cx="256" cy="190" r="82" stroke="#ba68c8" stroke-width="1.2" fill="none" opacity="0.45" stroke-dasharray="5,5"/>
+
+  <!-- Altar Table / Desk -->
+  <path d="M90 420 L422 420 L450 490 L62 490 Z" fill="#140d21"/>
+  <path d="M70 420 L442 420 L422 385 L90 385 Z" fill="#291645"/>
+  <line x1="70" y1="420" x2="442" y2="420" stroke="#845ec2" stroke-width="2.5"/>
+  <line x1="90" y1="385" x2="90" y2="420" stroke="#5c388a" stroke-width="3"/>
+  <line x1="422" y1="385" x2="422" y2="420" stroke="#5c388a" stroke-width="3"/>
+
+  <!-- Spellbooks stack on left -->
+  <path d="M135 390 L225 372 L235 390 L145 408 Z" fill="#d32f2f"/>
+  <line x1="135" y1="390" x2="145" y2="408" stroke="#ff8a80" stroke-width="1.5"/>
+  
+  <path d="M125 408 L220 390 L230 408 L135 426 Z" fill="#1976d2"/>
+  <line x1="125" y1="408" x2="135" y2="426" stroke="#82b1ff" stroke-width="1.5"/>
+
+  <path d="M115 372 L205 354 L215 372 L125 390 Z" fill="#ffa000"/>
+  <path d="M215 372 L235 390 L230 408 L210 390 Z" fill="#d7ccc8"/>
+  <path d="M205 354 L225 372 L220 390 L200 372 Z" fill="#efebe9"/>
+  <!-- Glowing bookmark ribbon -->
+  <path d="M165 363 L160 395 L170 398 L175 366 Z" fill="#00e676" opacity="0.8"/>
+
+  <!-- Cat Tail wrapped elegantly -->
+  <path d="M330 385 Q395 395 405 330 Q415 265 365 260 Q345 260 335 285 Q345 315 330 350 Z" fill="url(#catFur)"/>
+  <path d="M365 270 Q395 300 385 345 Q375 380 335 380" stroke="#483d63" stroke-width="6.5" fill="none" stroke-linecap="round"/>
+  
+  <!-- Sitting Body -->
+  <ellipse cx="256" cy="305" rx="70" ry="80" fill="url(#catFur)"/>
+  <ellipse cx="256" cy="305" rx="52" ry="62" fill="url(#furHighlight)"/>
+  
+  <!-- Chest fluff (luxurious white/silver patch for contrast) -->
+  <path d="M222 265 Q256 310 290 265 Q275 330 256 340 Q237 330 222 265 Z" fill="#1e192c"/>
+  <path d="M240 280 Q256 315 272 280 Q256 325 240 280 Z" fill="#2d263d"/>
+
+  <!-- Front Paws (resting neatly) -->
+  <ellipse cx="206" cy="362" rx="24" ry="32" fill="url(#catFur)" transform="rotate(-15 206 362)"/>
+  <ellipse cx="306" cy="362" rx="24" ry="32" fill="url(#catFur)" transform="rotate(15 306 362)"/>
+  <ellipse cx="200" cy="378" rx="13" ry="9" fill="#0c0a12"/>
+  <ellipse cx="312" cy="378" rx="13" ry="9" fill="#0c0a12"/>
+  <!-- Claws on paws (subtle silver glints) -->
+  <path d="M192 382 L195 385 M200 384 L203 387" stroke="#e0e0e0" stroke-width="1.5" stroke-linecap="round"/>
+  <path d="M320 382 L317 385 M312 384 L309 387" stroke="#e0e0e0" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Head -->
+  <circle cx="256" cy="198" r="60" fill="url(#catFur)"/>
+  <circle cx="256" cy="198" r="46" fill="url(#furHighlight)"/>
+  
+  <!-- Ears -->
+  <polygon points="198,172 176,98 232,138" fill="url(#catFur)"/>
+  <polygon points="204,165 188,112 225,138" fill="#5c388a"/>
+
+  <polygon points="314,172 336,98 280,138" fill="url(#catFur)"/>
+  <polygon points="308,165 324,112 287,138" fill="#5c388a"/>
+
+  <!-- Inner Ear Fluff -->
+  <path d="M208,145 Q212,125 222,115 Q212,135 208,145 Z" fill="#2c1a45"/>
+  <path d="M304,145 Q300,125 290,115 Q300,135 304,145 Z" fill="#2c1a45"/>
+
+  <!-- Eyes (Intense, glowing, judgmental narrow glare) -->
+  <ellipse cx="228" cy="188" rx="16" ry="8" fill="url(#eyeGlow)" filter="url(#glow)" transform="rotate(-12 228 188)"/>
+  <ellipse cx="284" cy="188" rx="16" ry="8" fill="url(#eyeGlow)" filter="url(#glow)" transform="rotate(12 284 188)"/>
+  <!-- Pupils (vertical slits of pure disdain) -->
+  <ellipse cx="228" cy="188" rx="3.5" ry="7" fill="#031006"/>
+  <ellipse cx="284" cy="188" rx="3.5" ry="7" fill="#031006"/>
+  <!-- Glint -->
+  <circle cx="233" cy="184" r="2.2" fill="#ffffff"/>
+  <circle cx="289" cy="184" r="2.2" fill="#ffffff"/>
+  
+  <!-- Heavy eyelids / Furrowed angry brow -->
+  <path d="M210 178 Q228 168 246 180 Q228 174 210 178 Z" fill="#13101a"/>
+  <path d="M266 180 Q284 168 302 178 Q284 174 266 180 Z" fill="#13101a"/>
+  <path d="M240 176 Q256 186 272 176" stroke="#0a080e" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Nose & Mouth -->
+  <polygon points="256,208 248,218 264,218" fill="#ff80ab"/>
+  <path d="M256 218 L256 234 M256 234 Q243 242 237 236 M256 234 Q269 242 275 236" stroke="#0f0c14" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Whiskers -->
+  <line x1="216" y1="222" x2="154" y2="208" stroke="#b39ddb" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="216" y1="230" x2="148" y2="230" stroke="#b39ddb" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="216" y1="238" x2="156" y2="252" stroke="#b39ddb" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+
+  <line x1="296" y1="222" x2="358" y2="208" stroke="#b39ddb" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="296" y1="230" x2="364" y2="230" stroke="#b39ddb" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+  <line x1="296" y1="238" x2="356" y2="252" stroke="#b39ddb" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Witch Hat (Grand & Majestic) -->
+  <path d="M180 138 Q250 18 342 116 Q285 144 256 138 Q225 144 180 138 Z" fill="url(#hatGrad)"/>
+  <!-- Hat brim -->
+  <ellipse cx="256" cy="134" rx="86" ry="19" fill="#3d2269"/>
+  <ellipse cx="256" cy="130" rx="82" ry="16" fill="url(#hatGrad)"/>
+  <!-- Hat crease / fold -->
+  <path d="M256 68 Q282 95 304 112" stroke="#1c0f33" stroke-width="4.5" fill="none" opacity="0.6"/>
+  <!-- Hat band & Golden Buckle -->
+  <path d="M210 131 Q256 141 302 131 L295 150 Q256 159 217 150 Z" fill="#ffb300"/>
+  <rect x="246" y="135" width="20" height="17" fill="#3d2269"/>
+  <rect x="250" y="139" width="12" height="9" fill="#ffb300"/>
+
+  <!-- Potion bottle on table (right side) -->
+  <path d="M334 398 L358 398 L365 352 L378 338 L378 326 L340 326 L340 338 L352 352 Z" fill="#00e676" opacity="0.9" filter="url(#glow)"/>
+  <path d="M344 326 L374 326 L374 332 L344 332 Z" fill="#eceff1"/>
+  <circle cx="359" cy="370" r="10" fill="#ccff90" opacity="0.9" filter="url(#glow)"/>
+  <path d="M352 370 Q359 362 366 370" stroke="#ffffff" stroke-width="2.5" fill="none" opacity="0.8"/>
+
+  <!-- Magical floating sparks & aura effects -->
+  <g filter="url(#glow)">
+    <circle cx="145" cy="235" r="3.5" fill="#00e676"/>
+    <circle cx="370" cy="210" r="3" fill="#e040fb"/>
+    <path d="M125 175 Q130 162 142 168 Q130 174 125 188" stroke="#00e676" stroke-width="2" fill="none" opacity="0.85"/>
+    <path d="M380 162 Q375 150 362 156 Q375 162 380 175" stroke="#ea80fc" stroke-width="2" fill="none" opacity="0.85"/>
+  </g>
+</svg>

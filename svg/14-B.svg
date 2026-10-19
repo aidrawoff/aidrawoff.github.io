@@ -1,0 +1,178 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <radialGradient id="bgGrad" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#2c3542"/>
+      <stop offset="100%" stop-color="#141820"/>
+    </radialGradient>
+    
+    <!-- Snow Globe Glass Gradient -->
+    <linearGradient id="glassGrad" x1="20%" y1="10%" x2="80%" y2="90%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="#8be9fd" stop-opacity="0.18"/>
+      <stop offset="70%" stop-color="#4e9a06" stop-opacity="0.0"/>
+      <stop offset="100%" stop-color="#3465a4" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <!-- Glass Specular Highlight -->
+    <linearGradient id="specular" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Base Wood Gradient -->
+    <linearGradient id="woodGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5c3a21"/>
+      <stop offset="50%" stop-color="#7a4f30"/>
+      <stop offset="100%" stop-color="#4a2e19"/>
+    </linearGradient>
+
+    <!-- Fire Glow Gradient -->
+    <radialGradient id="fireGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb86c" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ff5555" stop-opacity="0.0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Studio Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Floor Shadow -->
+  <ellipse cx="256" cy="445" rx="140" ry="20" fill="#0b0d12" opacity="0.75"/>
+
+  <!-- Snow Globe Stand / Base -->
+  <g id="globe-base">
+    <!-- Brass/Metal Rim -->
+    <path d="M 186 395 L 326 395 L 346 415 L 166 415 Z" fill="#b58900" stroke="#7b5b00" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Wooden Pedestal -->
+    <path d="M 166 415 L 346 415 L 366 440 L 146 440 Z" fill="url(#woodGrad)" stroke="#2b190d" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Base Plate Bottom -->
+    <path d="M 146 440 L 366 440 L 380 455 L 132 455 Z" fill="#3b2413" stroke="#2b190d" stroke-width="3" stroke-linejoin="round"/>
+    <!-- Zen Master Calm Gold Accent on Base -->
+    <circle cx="256" cy="427" r="8" fill="#d4af37" stroke="#997d26" stroke-width="2"/>
+    <circle cx="256" cy="427" r="4" fill="#ffeb3b" opacity="0.9"/>
+  </g>
+
+  <!-- Snow Globe Glass Dome -->
+  <g id="snow-globe">
+    <!-- Outer Glass Ring -->
+    <circle cx="256" cy="235" r="165" fill="none" stroke="#68b3ce" stroke-width="4" opacity="0.7"/>
+    <circle cx="256" cy="235" r="163" fill="url(#glassGrad)" stroke="#ffffff" stroke-width="3" stroke-opacity="0.85"/>
+
+    <!-- Inside Content Clip -->
+    <clipPath id="domeClip">
+      <circle cx="256" cy="235" r="160"/>
+    </clipPath>
+
+    <g clip-path="url(#domeClip)">
+      <!-- Background Sky inside Globe -->
+      <radialGradient id="skyInside" cx="50%" cy="30%" r="70%">
+        <stop offset="0%" stop-color="#3b4252"/>
+        <stop offset="100%" stop-color="#141820"/>
+      </radialGradient>
+      <rect x="96" y="75" width="320" height="320" fill="url(#skyInside)"/>
+
+      <!-- Snowy Ground Hills -->
+      <path d="M 90 320 Q 180 290 256 315 Q 340 295 422 320 L 420 400 L 90 400 Z" fill="#eceff4" stroke="#d8dee9" stroke-width="3"/>
+      
+      <!-- Tiny Angular Pine Trees -->
+      <polygon points="120,320 135,260 150,320" fill="#4c566a" stroke="#3b4252" stroke-width="2"/>
+      <polygon points="135,288 142,248 149,288" fill="#d8dee9" stroke="#b0c4de" stroke-width="1.5"/>
+
+      <polygon points="362,325 377,255 392,325" fill="#4c566a" stroke="#3b4252" stroke-width="2"/>
+      <polygon points="377,288 384,242 391,288" fill="#d8dee9" stroke="#b0c4de" stroke-width="1.5"/>
+
+      <!-- Cozy Little Campfire -->
+      <g id="campfire" transform="translate(330, 310)">
+        <circle cx="0" cy="5" r="32" fill="url(#fireGlow)"/>
+        <!-- Logs -->
+        <line x1="-12" y1="12" x2="12" y2="12" stroke="#4c566a" stroke-width="5" stroke-linecap="round"/>
+        <line x1="-10" y1="8" x2="10" y2="16" stroke="#3b4252" stroke-width="4" stroke-linecap="round"/>
+        <!-- Flames -->
+        <polygon points="0,5 -6,-8 0,-20 6,-8" fill="#ff5555"/>
+        <polygon points="-4,8 -10,-2 -4,-13 3,-3" fill="#ffb86c"/>
+        <polygon points="4,8 9,0 3,-11 7,-2" fill="#f1fa8c"/>
+      </g>
+
+      <!-- Falling Snowflakes Inside -->
+      <g fill="#ffffff" opacity="0.95">
+        <circle cx="150" cy="120" r="5"/>
+        <circle cx="290" cy="100" r="4"/>
+        <circle cx="210" cy="85" r="6"/>
+        <circle cx="270" cy="155" r="4.5"/>
+        <circle cx="120" cy="175" r="5"/>
+        <circle cx="340" cy="185" r="4"/>
+        <circle cx="180" cy="215" r="3.5"/>
+        <circle cx="370" cy="120" r="3"/>
+        <circle cx="240" cy="140" r="4"/>
+      </g>
+
+      <!-- Koala Firefighter Character -->
+      <g id="koala-firefighter" transform="translate(205, 295)">
+        <!-- Shadow beneath koala -->
+        <ellipse cx="0" cy="25" rx="42" ry="10" fill="#1b1e24" opacity="0.45"/>
+
+        <!-- Fire Hose & Active Water Stream -->
+        <path d="M -55 15 Q -25 22 -5 18" fill="none" stroke="#bf616a" stroke-width="8" stroke-linecap="round"/>
+        <path d="M -12 22 L 4 12 L 12 20 L -2 30 Z" fill="#ebcb8b" stroke="#b48ead" stroke-width="2.5" stroke-linejoin="round"/>
+        
+        <!-- Water Stream arc to campfire -->
+        <path d="M 12 15 Q 68 -15 112 10" fill="none" stroke="#88c0d0" stroke-width="6.5" stroke-linecap="round" opacity="0.9"/>
+        <circle cx="65" cy="-6" r="4.5" fill="#ffffff" opacity="0.85"/>
+        <circle cx="88" cy="2" r="3.5" fill="#ffffff" opacity="0.85"/>
+
+        <!-- Firefighter Boots -->
+        <rect x="-26" y="12" width="18" height="15" rx="5" fill="#2e3440" stroke="#1f232a" stroke-width="2.5"/>
+        <rect x="8" y="12" width="18" height="15" rx="5" fill="#2e3440" stroke="#1f232a" stroke-width="2.5"/>
+
+        <!-- Firefighter Yellow Coat with Reflective Strip -->
+        <path d="M -32 2 L 32 2 L 38 -38 L -38 -38 Z" fill="#ebcb8b" stroke="#d08770" stroke-width="3.5" stroke-linejoin="round"/>
+        <rect x="-35" y="-22" width="70" height="7" fill="#eceff4" stroke="#4c566a" stroke-width="2"/>
+        <!-- Coat Buttons -->
+        <circle cx="0" cy="-8" r="2.5" stroke="#4c566a" stroke-width="1.5" fill="#d08770"/>
+        <circle cx="0" cy="-3" r="2.5" stroke="#4c566a" stroke-width="1.5" fill="#d08770"/>
+
+        <!-- Koala Body/Arms -->
+        <rect x="-22" y="-36" width="44" height="36" rx="12" fill="#8fbcbb" stroke="#4c566a" stroke-width="3"/>
+        <!-- Holding Hose Hands -->
+        <circle cx="-15" cy="18" r="6" fill="#8fbcbb" stroke="#4c566a" stroke-width="2"/>
+
+        <!-- Koala Head -->
+        <g id="koala-head" transform="translate(0, -60)">
+          <!-- Big Fluffy Ears -->
+          <circle cx="-30" cy="-8" r="16" fill="#8fbcbb" stroke="#4c566a" stroke-width="3"/>
+          <circle cx="-30" cy="-8" r="9" fill="#d8dee9"/>
+          
+          <circle cx="30" cy="-8" r="16" fill="#8fbcbb" stroke="#4c566a" stroke-width="3"/>
+          <circle cx="30" cy="-8" r="9" fill="#d8dee9"/>
+
+          <!-- Head Base -->
+          <path d="M -26 -20 Q 0 -38 26 -20 Q 30 14 0 18 Q -30 14 -26 -20 Z" fill="#8fbcbb" stroke="#4c566a" stroke-width="3"/>
+
+          <!-- Big Distinctive Koala Nose -->
+          <path d="M -11 -2 Q 0 -11 11 -2 Q 13 11 0 13 Q -13 11 -11 -2 Z" fill="#2e3440" stroke="#1f232a" stroke-width="2"/>
+
+          <!-- Focused, Calm Zen Eyes -->
+          <circle cx="-12" cy="-8" r="3.5" fill="#2e3440"/>
+          <circle cx="12" cy="-8" r="3.5" fill="#2e3440"/>
+          <circle cx="-11" cy="-9" r="1.2" fill="#ffffff"/>
+          <circle cx="13" cy="-9" r="1.2" fill="#ffffff"/>
+
+          <!-- Firefighter Helmet -->
+          <g id="helmet" transform="translate(0, -30)">
+            <!-- Helmet Dome -->
+            <path d="M -32 4 Q 0 -22 32 4 Q 34 14 26 16 L -26 16 Q -34 14 -32 4 Z" fill="#bf616a" stroke="#2e3440" stroke-width="3" stroke-linejoin="round"/>
+            <!-- Helmet Brim -->
+            <path d="M -38 12 L 38 12 L 42 18 L -42 18 Z" fill="#bf616a" stroke="#2e3440" stroke-width="3" stroke-linejoin="round"/>
+            <!-- Front Shield Badge -->
+            <rect x="-9" y="4" width="18" height="11" rx="2" fill="#ebcb8b" stroke="#2e3440" stroke-width="2"/>
+            <text x="0" y="13" font-family="sans-serif" font-size="9" font-weight="bold" fill="#bf616a" text-anchor="middle">911</text>
+          </g>
+        </g>
+      </g>
+    </g>
+
+    <!-- Glass Specular Highlight Overlay -->
+    <path d="M 120 120 Q 180 90 256 95 Q 320 90 380 120 Q 340 85 256 85 Q 170 85 120 120 Z" fill="url(#specular)" opacity="0.7"/>
+  </g>
+</svg>

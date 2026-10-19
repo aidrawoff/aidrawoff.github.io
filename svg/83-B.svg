@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#090d25"/><stop offset="1" stop-color="#27345d"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fffde0"/><stop offset=".65" stop-color="#d8e5c2"/><stop offset="1" stop-color="#8ca8a2"/></radialGradient>
+ <linearGradient id="coat" x2="1" y2="1"><stop stop-color="#651d48"/><stop offset=".55" stop-color="#241330"/><stop offset="1" stop-color="#09091b"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<!-- nocturnal room -->
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="400" cy="112" r="82" fill="#cfe6c4" opacity=".16" filter="url(#glow)"/>
+<circle cx="400" cy="112" r="55" fill="url(#moon)"/>
+<g fill="#dce7c7"><circle cx="60" cy="55" r="2"/><circle cx="112" cy="42" r="3"/><circle cx="320" cy="78" r="2"/><circle cx="470" cy="190" r="2"/></g>
+<path d="M0 370 Q110 330 210 370T420 350T512 370V512H0Z" fill="#10142b"/>
+<path d="M0 420 Q130 390 250 425T512 410V512H0Z" fill="#070916"/>
+<!-- window --> <path d="M335 34h130v214H335z" fill="#06091b" stroke="#a9bdd1" stroke-width="8"/><path d="M400 35v213M336 142h128" stroke="#a9bdd1" stroke-width="6" opacity=".8"/>
+<!-- dramatic shadow halo --> <ellipse cx="225" cy="280" rx="145" ry="170" fill="#000" opacity=".28"/>
+<!-- cape silhouette -->
+<path d="M180 205 Q139 250 120 354L72 455Q150 426 205 399L250 476L294 397Q355 430 424 453L365 346Q345 250 303 205Z" fill="url(#coat)" stroke="#b24b75" stroke-width="4"/>
+<!-- head --> <path d="M187 127 L211 76L237 112L276 76L290 132Q301 181 269 215Q235 238 200 208Q176 184 187 127Z" fill="#d9a49a" stroke="#35182d" stroke-width="6"/>
+<!-- hair --> <path d="M181 143Q170 84 213 60L235 99L270 57Q310 85 298 149L273 127L255 151L231 126L205 153Z" fill="#160d20"/>
+<!-- terrified eyes --> <ellipse cx="216" cy="155" rx="18" ry="23" fill="#fffde5" stroke="#481a39" stroke-width="5"/><ellipse cx="267" cy="155" rx="18" ry="23" fill="#fffde5" stroke="#481a39" stroke-width="5"/><circle cx="218" cy="158" r="7" fill="#17142c"/><circle cx="265" cy="158" r="7" fill="#17142c"/>
+<path d="M227 183Q242 171 257 183" fill="none" stroke="#632542" stroke-width="5"/>
+<path d="M230 184q12 7 24 0" fill="none" stroke="#f08a9b" stroke-width="3" stroke-linecap="round"/>
+<!-- fangs --> <path d="M215 190l8 25 10-20M259 192l-5 23-11-20" fill="#fff8df" stroke="#54203e" stroke-width="3"/>
+<!-- raised hands blocking darkness -->
+<path d="M204 177q-10 16-2 27M279 177q10 16 2 27" fill="none" stroke="#8bc9d0" stroke-width="5" stroke-linecap="round"/>
+<path d="M174 247Q143 225 130 252L137 277L115 260Q99 252 93 266Q89 278 107 291L145 318Q166 328 185 309Z" fill="#d9a49a" stroke="#35182d" stroke-width="6"/>
+<path d="M310 246Q341 225 354 252L347 277L369 260Q385 252 391 266Q395 278 377 291L339 318Q318 328 299 309Z" fill="#d9a49a" stroke="#35182d" stroke-width="6"/>
+<circle cx="242" cy="231" r="10" fill="#f1c75b" stroke="#6b294d" stroke-width="4"/>
+<!-- spotlight shield --> <path d="M195 260L242 234L289 260L267 342L242 365L217 342Z" fill="#f4edb3" opacity=".9" stroke="#fffbd2" stroke-width="4"/>
+<path d="M242 245v110M205 278h74" stroke="#fffde2" stroke-width="3" opacity=".7"/>
+<path d="M187 246l-25-18M297 246l25-18M190 300l-31 7M294 300l31 7" stroke="#fff7bf" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<!-- bats --> <path d="M58 105q20-23 40 0q20-23 40 0q-20-4-40 19q-20-23-40-19M58 180q16-18 32 0q16-18 32 0q-16-3-32 15q-16-18-32-15" fill="#0a0a19"/>
+<!-- ground accents --> <path d="M35 476h105M365 480h110" stroke="#45547a" stroke-width="6" stroke-linecap="round"/>
+</svg>

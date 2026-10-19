@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="sky" cx="60%" cy="35%" r="80%">
+      <stop offset="0%" stop-color="#34205a"/>
+      <stop offset="100%" stop-color="#06051a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffe2a0" stop-opacity="0.95"/>
+      <stop offset="60%" stop-color="#ff9a5a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#ff9a5a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wing" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1a40"/>
+      <stop offset="100%" stop-color="#0d0818"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="290" cy="250" r="230" fill="url(#glow)"/>
+  <circle cx="400" cy="80" r="30" fill="#fff3c4"/>
+  <circle cx="60" cy="60" r="2" fill="#fff"/>
+  <circle cx="150" cy="30" r="1.5" fill="#fff"/>
+  <circle cx="470" cy="190" r="2" fill="#fff"/>
+  <circle cx="40" cy="260" r="1.5" fill="#fff"/>
+  <!-- far wing (behind) -->
+  <path d="M250 250 C205 175 120 150 40 190 C90 200 120 230 135 275 C165 255 200 262 230 290 Z" fill="url(#wing)"/>
+  <!-- near wing, raised to hold the phone -->
+  <path d="M270 250 C320 150 400 110 470 125 C430 150 410 180 405 215 C430 205 440 220 440 230 C410 240 395 255 385 275 C360 262 330 268 300 290 Z" fill="url(#wing)"/>
+  <!-- rim light on wing edges -->
+  <path d="M270 250 C320 150 400 110 470 125" stroke="#ffb870" stroke-width="2.5" fill="none" opacity="0.7"/>
+  <path d="M250 250 C205 175 120 150 40 190" stroke="#ffb870" stroke-width="2.5" fill="none" opacity="0.6"/>
+  <!-- body -->
+  <ellipse cx="250" cy="310" rx="38" ry="52" fill="#1d1232" transform="rotate(-8 250 310)"/>
+  <!-- ears -->
+  <path d="M222 240 L204 190 L240 222 Z" fill="#1d1232"/>
+  <path d="M262 232 L280 186 L282 230 Z" fill="#1d1232"/>
+  <!-- head, tilted -->
+  <g transform="translate(252 252) rotate(-10) scale(1.2) translate(-252 -252)">
+    <path d="M226 236 L212 200 L240 224 Z" fill="#21153a"/>
+    <path d="M264 230 L280 196 L282 232 Z" fill="#21153a"/>
+    <ellipse cx="252" cy="252" rx="34" ry="28" fill="#21153a"/>
+    <ellipse cx="252" cy="252" rx="34" ry="28" fill="none" stroke="#ffb870" stroke-width="1.5" opacity="0.5"/>
+    <!-- rim light on head -->
+    <path d="M276 236 Q286 252 278 270" stroke="#ffb870" stroke-width="2.5" fill="none" opacity="0.8"/>
+    <!-- heavy brows, lowered lids: a smug squint -->
+    <path d="M226 240 L252 246" stroke="#0a0614" stroke-width="5" stroke-linecap="round"/>
+    <path d="M266 244 L286 236" stroke="#0a0614" stroke-width="5" stroke-linecap="round"/>
+    <path d="M226 252 Q238 258 252 252 Z" fill="#ffd27a"/>
+    <path d="M268 250 Q280 256 290 248 Z" fill="#ffd27a"/>
+    <circle cx="236" cy="252" r="1.8" fill="#fff"/>
+    <circle cx="278" cy="249" r="1.8" fill="#fff"/>
+    <!-- nose and smile -->
+    <path d="M250 266 L256 266 L253 271 Z" fill="#ff8fa0"/>
+    <path d="M238 274 Q252 286 268 274" stroke="#0a0614" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- phone up front, flash popping -->
+  <g transform="rotate(14 360 210)">
+    <rect x="330" y="160" width="60" height="96" rx="9" fill="#cfd8ec"/>
+    <rect x="337" y="172" width="46" height="72" rx="5" fill="#2a3556"/>
+    <circle cx="352" cy="180" r="4" fill="#111"/>
+    <circle cx="366" cy="180" r="3" fill="#fffbe6"/>
+  </g>
+  <circle cx="394" cy="150" r="10" fill="#fff8d6" opacity="0.8"/>
+  <path d="M394 124 L394 136 M420 150 L408 150 M368 146 L376 154" stroke="#fff8d6" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- arm holding phone -->
+  <path d="M278 290 Q310 280 330 240" stroke="#1d1232" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- ground ledge + shadow -->
+  <ellipse cx="250" cy="468" rx="150" ry="16" fill="#000" opacity="0.5"/>
+  <rect x="0" y="440" width="512" height="72" fill="#0a0716"/>
+  <path d="M0 440 L512 440" stroke="#3a2650" stroke-width="3"/>
+</svg>

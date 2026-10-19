@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: foggy laundromat interior -->
+  <rect width="512" height="512" fill="#f0f0f0" />
+
+  <!-- Fog effect: layered radials for depth -->
+  <defs>
+    <radialGradient id="fogBase" cx="50%" cy="50%" r="50%" fx="30%" fy="30%">
+      <stop offset="0%" stop-color="#f0f0f0" stop-opacity="1" />
+      <stop offset="100%" stop-color="#f0f0f0" stop-opacity="0.4" />
+    </radialGradient>
+    <radialGradient id="fogMid" cx="60%" cy="40%" r="70%" fx="45%" fy="35%">
+      <stop offset="0%" stop-color="#e0e0e0" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#e0e0e0" stop-opacity="0.1" />
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#fogBase)" />
+  <rect width="512" height="512" fill="url(#fogMid)" />
+
+  <!-- Laundromat elements: more detail and depth -->
+  <rect x="40" y="300" width="90" height="120" rx="12" fill="#ddd" opacity="0.75" />
+  <rect x="145" y="300" width="90" height="120" rx="12" fill="#ddd" opacity="0.75" />
+  <rect x="250" y="300" width="90" height="120" rx="12" fill="#ddd" opacity="0.75" />
+  <rect x="355" y="300" width="90" height="120" rx="12" fill="#ddd" opacity="0.75" />
+
+  <!-- Front panel details -->
+  <rect x="50" y="380" width="70" height="30" rx="4" fill="#bbb" opacity="0.6" />
+  <rect x="155" y="380" width="70" height="30" rx="4" fill="#bbb" opacity="0.6" />
+  <rect x="260" y="380" width="70" height="30" rx="4" fill="#bbb" opacity="0.6" />
+  <rect x="365" y="380" width="70" height="30" rx="4" fill="#bbb" opacity="0.6" />
+
+  <!-- Turtle: refined pose and textures -->
+  <g transform="translate(220, 220)">
+    <!-- Shell with richer pattern -->
+    <path d="M 60 40 C 80 20, 120 20, 140 40 C 160 60, 160 100, 140 120 C 120 140, 80 140, 60 120 C 40 100, 40 60, 60 40 Z" fill="#5e8c31" />
+    <!-- Shell seams -->
+    <path d="M 70 50 L 130 50 M 80 60 L 120 60 M 90 70 L 110 70 M 70 80 L 130 80 M 80 90 L 120 90 M 90 100 L 110 100 M 75 55 L 125 55 M 85 65 L 115 65 M 95 75 L 105 75 M 75 85 L 125 85 M 85 95 L 115 95" stroke="#2e6b1a" stroke-width="2" />
+    <!-- Head and neck -->
+    <circle cx="60" cy="40" r="15" fill="#8b4513" />
+    <path d="M 60 55 Q 60 65 55 70 Q 50 75 50 85" stroke="#8b4513" stroke-width="6" fill="none" stroke-linecap="round" />
+    <!-- Eyes -->
+    <circle cx="55" cy="35" r="3" fill="black" />
+    <circle cx="65" cy="35" r="3" fill="black" />
+    <!-- Legs and tail with better joints -->
+    <path d="M 100 120 L 100 140 L 90 140 L 90 130" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round" />
+    <path d="M 40 110 L 30 120 L 40 130" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round" />
+    <path d="M 120 110 L 130 120 L 120 130" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round" />
+    <path d="M 80 140 L 80 155" stroke="#8b4513" stroke-width="8" fill="none" stroke-linecap="round" />
+    <!-- Claws -->
+    <circle cx="100" cy="140" r="3" fill="#555" />
+    <circle cx="30" cy="130" r="3" fill="#555" />
+    <circle cx="130" cy="130" r="3" fill="#555" />
+    <circle cx="80" cy="155" r="3" fill="#555" />
+  </g>
+
+  <!-- Counter with subtle wood grain -->
+  <rect x="150" y="250" width="140" height="20" rx="6" fill="#a0522d" opacity="0.85" />
+  <path d="M 150 260 L 290 260" stroke="#8b4513" stroke-width="1" opacity="0.3" />
+  <path d="M 150 265 L 290 265" stroke="#8b4513" stroke-width="1" opacity="0.3" />
+
+  <!-- Steam and moisture: more varied blobs -->
+  <circle cx="80" cy="90" r="12" fill="white" opacity="0.6" />
+  <circle cx="180" cy="110" r="18" fill="white" opacity="0.7" />
+  <circle cx="280" cy="100" r="14" fill="white" opacity="0.65" />
+  <circle cx="380" cy="115" r="16" fill="white" opacity="0.68" />
+  <!-- Additional foggy wisps -->
+  <circle cx="50" cy="150" r="10" fill="white" opacity="0.4" />
+  <circle cx="420" cy="160" r="11" fill="white" opacity="0.45" />
+  <circle cx="200" cy="180" r="9" fill="white" opacity="0.35" />
+  <circle cx="300" cy="170" r="13" fill="white" opacity="0.5" />
+
+  <!-- Soft light rays for foggy morning -->
+  <path d="M 0 0 L 512 0 L 512 512 L 0 512 Z" fill="none" stroke="none" />
+  <path d="M 0 0 L 512 512 M 0 512 L 512 0" stroke="white" stroke-width="1" opacity="0.08" />
+  <!-- Gentle ambient glow -->
+  <rect width="512" height="512" fill="white" opacity="0.02" />
+</svg>

@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#3a1c71"/>
+      <stop offset="60%" stop-color="#1c0a38"/>
+      <stop offset="100%" stop-color="#0b021a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffeb3b" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ff9800" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="potionGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#00e676" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#1b5e20" stop-opacity="0.2"/>
+    </radialGradient>
+    <linearGradient id="wandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8d6e63"/>
+      <stop offset="100%" stop-color="#4e342e"/>
+    </linearGradient>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Moon & Stars / Fireflies -->
+  <circle cx="400" cy="110" r="48" fill="#fffde7" opacity="0.95"/>
+  <circle cx="400" cy="110" r="42" fill="#fff9c4" opacity="0.4"/>
+  <circle cx="100" cy="150" r="3" fill="#ffffff" opacity="0.9"/>
+  <circle cx="150" cy="80" r="2.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="300" cy="70" r="3.5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="80" cy="300" r="2.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="430" cy="200" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="230" cy="140" r="2" fill="#ffffff" opacity="0.8"/>
+  <!-- Fireflies in Swamp -->
+  <circle cx="120" cy="380" r="3" fill="#c6ff00" opacity="0.8"/>
+  <circle cx="320" cy="400" r="2.5" fill="#c6ff00" opacity="0.9"/>
+  <circle cx="200" cy="440" r="2" fill="#c6ff00" opacity="0.7"/>
+
+  <!-- Swamp Ground & Lily Pads with highlights -->
+  <ellipse cx="256" cy="465" rx="230" ry="65" fill="#0d1b12"/>
+  <ellipse cx="256" cy="455" rx="190" ry="45" fill="#14281d"/>
+  <ellipse cx="256" cy="445" rx="150" ry="30" fill="#1b3827"/>
+  
+  <!-- Lily Pads -->
+  <ellipse cx="150" cy="435" rx="50" ry="18" fill="#2e7d32" opacity="0.9"/>
+  <path d="M 150 435 L 125 430" stroke="#14281d" stroke-width="4" stroke-linecap="round"/>
+  <!-- Tiny flower on lily pad -->
+  <circle cx="170" cy="430" r="4" fill="#ffffff"/>
+  <circle cx="170" cy="430" r="1.5" fill="#ffeb3b"/>
+
+  <ellipse cx="370" cy="440" rx="42" ry="15" fill="#388e3c" opacity="0.9"/>
+  <path d="M 370 440 L 395 435" stroke="#14281d" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Little Cauldron with Potion & Bubbles -->
+  <circle cx="380" cy="390" r="34" fill="url(#potionGlow)"/>
+  <path d="M 345 378 Q 380 435 415 378 Z" fill="#111111"/>
+  <ellipse cx="380" cy="378" rx="35" ry="9" fill="#333333"/>
+  <ellipse cx="380" cy="380" rx="30" ry="6" fill="#00e676"/>
+  <circle cx="368" cy="377" r="3.5" fill="#e8f5e9"/>
+  <circle cx="385" cy="382" r="2.5" fill="#e8f5e9"/>
+  <circle cx="395" cy="377" r="2" fill="#e8f5e9"/>
+  <path d="M 342 375 C 340 360 350 355 355 350" stroke="#00e676" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M 418 375 C 420 360 410 355 405 350" stroke="#00e676" stroke-width="2" fill="none" opacity="0.8"/>
+
+  <!-- Frog Body -->
+  <ellipse cx="256" cy="330" rx="112" ry="92" fill="#66bb6a"/>
+  <!-- Belly -->
+  <ellipse cx="256" cy="352" rx="76" ry="62" fill="#c8e6c9"/>
+
+  <!-- Rosy Cheeks -->
+  <circle cx="192" cy="342" r="15" fill="#e57373" opacity="0.55"/>
+  <circle cx="320" cy="342" r="15" fill="#e57373" opacity="0.55"/>
+
+  <!-- Eyes -->
+  <circle cx="180" cy="235" r="34" fill="#66bb6a"/>
+  <circle cx="332" cy="235" r="34" fill="#66bb6a"/>
+  <circle cx="180" cy="230" r="19" fill="#ffffff"/>
+  <circle cx="332" cy="230" r="19" fill="#ffffff"/>
+  <circle cx="184" cy="230" r="8.5" fill="#111111"/>
+  <circle cx="328" cy="230" r="8.5" fill="#111111"/>
+  <!-- Eye highlights -->
+  <circle cx="178" cy="225" r="3.5" fill="#ffffff"/>
+  <circle cx="326" cy="225" r="3.5" fill="#ffffff"/>
+
+  <!-- Mouth -->
+  <path d="M 216 332 Q 256 372 296 332" stroke="#2e7d32" stroke-width="5.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Witch Hat -->
+  <!-- Brim -->
+  <ellipse cx="256" cy="180" rx="115" ry="26" fill="#1c1c1c"/>
+  <ellipse cx="256" cy="180" rx="115" ry="26" fill="none" stroke="#333333" stroke-width="2"/>
+  <!-- Hat Cone -->
+  <polygon points="256,35 175,185 337,185" fill="#212121"/>
+  <polygon points="256,35 256,185 337,185" fill="#181818"/> <!-- shading -->
+  <!-- Hat Band -->
+  <path d="M 193 168 Q 256 158 319 168 L 316 186 Q 256 176 196 186 Z" fill="#8e24aa"/>
+  <!-- Buckle -->
+  <rect x="246" y="163" width="20" height="20" fill="none" stroke="#ffca28" stroke-width="4" rx="3"/>
+  <!-- Star patch on hat -->
+  <path d="M 256 85 L 261 98 L 275 100 L 264 109 L 268 122 L 256 114 L 244 122 L 248 109 L 237 100 L 251 98 Z" fill="#ffca28" transform="scale(0.35) translate(300, 30)"/>
+
+  <!-- Magic Wand & Sparkles -->
+  <line x1="150" y1="380" x2="85" y2="280" stroke="url(#wandGrad)" stroke-width="7" stroke-linecap="round"/>
+  <circle cx="85" cy="280" r="16" fill="url(#glow)"/>
+  <path d="M 85 240 L 92 268 L 120 275 L 92 282 L 85 310 L 78 282 L 50 275 L 78 268 Z" fill="#ffeb3b"/>
+  <!-- Sparkles around wand -->
+  <circle cx="125" cy="235" r="4.5" fill="#ce93d8" opacity="0.9"/>
+  <circle cx="60" cy="315" r="3.5" fill="#ce93d8" opacity="0.9"/>
+  <circle cx="115" cy="305" r="3" fill="#ffeb3b" opacity="0.9"/>
+  <circle cx="55" cy="250" r="2.5" fill="#ffeb3b" opacity="0.9"/>
+</svg>

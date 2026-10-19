@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0b0416"/>
+      <stop offset="50%" stop-color="#1b0c30"/>
+      <stop offset="100%" stop-color="#2d134c"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="50%" stop-color="#9a3412"/>
+      <stop offset="100%" stop-color="#571706"/>
+    </linearGradient>
+    <linearGradient id="bristles" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="100%" stop-color="#92400e"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#fef08a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fog" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4c1d95" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#7c3aed" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4c1d95" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Stars & Constellations -->
+  <g fill="#e2e8f0">
+    <circle cx="70" cy="60" r="1.5" opacity="0.9"/>
+    <circle cx="150" cy="35" r="2" opacity="0.95"/>
+    <circle cx="260" cy="70" r="1" opacity="0.7"/>
+    <circle cx="390" cy="45" r="2.5" opacity="0.9"/>
+    <circle cx="450" cy="110" r="1.5" opacity="0.8"/>
+    <circle cx="50" cy="170" r="1.2" opacity="0.6"/>
+    <circle cx="330" cy="130" r="1.8" opacity="0.85"/>
+    <circle cx="190" cy="120" r="1.2" opacity="0.7"/>
+    <path d="M 150 30 L 150 40 M 145 35 L 155 35" stroke="#fef08a" stroke-width="1" opacity="0.8"/>
+    <path d="M 390 40 L 390 50 M 385 45 L 395 45" stroke="#fef08a" stroke-width="1" opacity="0.8"/>
+    <path d="M 70 55 L 70 65 M 65 60 L 75 60" stroke="#fef08a" stroke-width="0.8" opacity="0.7"/>
+  </g>
+
+  <!-- Moon -->
+  <circle cx="390" cy="85" r="50" fill="url(#moonGlow)"/>
+  <circle cx="385" cy="80" r="32" fill="#fef08a"/>
+  <circle cx="375" cy="70" r="5" fill="#fde047" opacity="0.4"/>
+  <circle cx="400" cy="95" r="7" fill="#fde047" opacity="0.3"/>
+
+  <!-- Atmospheric Fog Layer -->
+  <rect x="0" y="320" width="512" height="120" fill="url(#fog)"/>
+
+  <!-- Ground Hills -->
+  <path d="M0 390 Q 140 370, 270 385 T 512 380 L 512 512 L 0 512 Z" fill="#140822"/>
+  <path d="M0 420 Q 180 395, 512 420 L 512 512 L 0 512 Z" fill="#0c0414"/>
+
+  <!-- Witch Hat on Ground -->
+  <g transform="translate(60, 350)">
+    <ellipse cx="40" cy="55" rx="48" ry="13" fill="#090314" stroke="#5b21b6" stroke-width="2"/>
+    <path d="M 2 50 Q 32 12, 65 -20 Q 48 38, 78 52 Z" fill="#1e1b4b" stroke="#7c3aed" stroke-width="2"/>
+    <path d="M 15 45 Q 38 36, 62 48" fill="none" stroke="#8b5cf6" stroke-width="6"/>
+    <rect x="32" y="37" width="10" height="10" fill="#facc15" transform="rotate(12 37 42)"/>
+  </g>
+
+  <!-- Open Spellbook on Ground with glowing runes -->
+  <g transform="translate(290, 390)">
+    <path d="M -30 20 Q 0 10, 30 20 L 30 50 Q 0 40, -30 50 Z" fill="#3b0764" stroke="#6b21a8" stroke-width="2"/>
+    <path d="M -28 23 Q 0 13, 28 23 L 28 47 Q 0 37, -28 47 Z" fill="#fdf4dc"/>
+    <line x1="0" y1="15" x2="0" y2="48" stroke="#cbd5e1" stroke-width="2"/>
+    <path d="M -20 25 L -8 25 M -20 32 L -10 32 M -20 39 L -12 39" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+    <path d="M 8 25 L 20 25 M 8 32 L 18 32 M 8 39 L 15 39" stroke="#64748b" stroke-width="1.5" stroke-linecap="round"/>
+    <circle cx="0" cy="0" r="8" fill="#38bdf8" opacity="0.6"/>
+    <path d="M -4 -2 L 0 -6 L 4 -2 M 0 -6 L 0 4" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Flat Witch's Broom -->
+  <g transform="translate(120, 220)">
+    <!-- Broomstick -->
+    <path d="M 0 30 L 310 190" stroke="url(#wood)" stroke-width="15" stroke-linecap="round"/>
+    <path d="M 15 35 L 295 185" stroke="#ea580c" stroke-width="2" opacity="0.4" fill="none"/>
+    <ellipse cx="100" cy="90" rx="3" ry="5" fill="#571706" opacity="0.7"/>
+    <ellipse cx="200" cy="135" rx="2.5" ry="4" fill="#571706" opacity="0.7"/>
+
+    <!-- Flat Tire / Wheel mounted on broom -->
+    <g transform="translate(210, 135)">
+      <ellipse cx="0" cy="0" rx="24" ry="15" fill="#334155" stroke="#0f172a" stroke-width="4"/>
+      <ellipse cx="0" cy="5" rx="27" ry="9" fill="#1e293b" stroke="#0f172a" stroke-width="3"/>
+      <circle cx="0" cy="1" r="8" fill="#94a3b8"/>
+      <circle cx="0" cy="1" r="3" fill="#475569"/>
+      <rect x="-9" y="1" width="18" height="11" rx="2" fill="#b91c1c" stroke="#7f1d1d" stroke-width="1.5"/>
+      <line x1="-5" y1="1" x2="-5" y2="12" stroke="#fef08a" stroke-width="1" stroke-dasharray="2,1"/>
+      <line x1="5" y1="1" x2="5" y2="12" stroke="#fef08a" stroke-width="1" stroke-dasharray="2,1"/>
+      <path d="M -18 -12 Q -28 -22, -38 -16" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="3,3" opacity="0.85"/>
+      <path d="M 18 -12 Q 28 -24, 35 -18" fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-dasharray="3,3" opacity="0.85"/>
+    </g>
+
+    <!-- Bristles splayed flat on ground -->
+    <g transform="translate(300, 180)">
+      <path d="M 0 -5 C 35 -15, 75 15, 95 38 C 65 52, 20 45, -15 25 Z" fill="url(#bristles)"/>
+      <path d="M 10 2 C 40 2, 65 22, 82 36" stroke="#78350f" stroke-width="3.5" fill="none"/>
+      <path d="M 15 12 C 42 16, 58 28, 75 40" stroke="#78350f" stroke-width="3" fill="none"/>
+      <path d="M 5 22 C 28 28, 45 38, 58 46" stroke="#78350f" stroke-width="2.5" fill="none"/>
+    </g>
+  </g>
+
+  <!-- Magical Wrench & Repair Kit -->
+  <g transform="translate(380, 330)">
+    <path d="M 0 0 L 30 -30 C 36 -36, 42 -30, 36 -24 L 6 6 Z" fill="#cbd5e1" stroke="#64748b" stroke-width="2"/>
+    <circle cx="26" cy="-26" r="6" fill="none" stroke="#64748b" stroke-width="2.5"/>
+  </g>
+
+  <!-- Glowing magical particles & sparks -->
+  <g>
+    <circle cx="330" cy="310" r="5" fill="#38bdf8" opacity="0.9"/>
+    <circle cx="370" cy="295" r="3.5" fill="#4ade80" opacity="0.85"/>
+    <circle cx="315" cy="340" r="3" fill="#c084fc" opacity="0.9"/>
+    <circle cx="360" cy="355" r="4" fill="#fef08a" opacity="0.9"/>
+    <path d="M 330 310 L 338 302" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+    <path d="M 370 295 L 362 287" stroke="#4ade80" stroke-width="2" stroke-linecap="round"/>
+  </g>
+</svg>

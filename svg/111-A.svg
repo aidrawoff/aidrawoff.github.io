@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: Spa room / sunset tile wall -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b2631"/>
+      <stop offset="100%" stop-color="#2c3e50"/>
+    </linearGradient>
+    <linearGradient id="tubGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6c3483"/>
+      <stop offset="50%" stop-color="#8e44ad"/>
+      <stop offset="100%" stop-color="#6c3483"/>
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#5dade2" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#2874a6" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="drinkGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f39c12"/>
+      <stop offset="100%" stop-color="#d35400"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  
+  <!-- Wall tiles pattern -->
+  <path d="M 0 100 L 512 100 M 0 200 L 512 200 M 100 0 L 100 200 M 200 0 L 200 200 M 300 0 L 300 200 M 400 0 L 400 200" stroke="#34495e" stroke-width="2" opacity="0.4"/>
+
+  <!-- Steam / Atmosphere -->
+  <path d="M 150 300 Q 180 220 130 160 T 170 60" stroke="#ffffff" stroke-width="8" fill="none" opacity="0.25" stroke-linecap="round"/>
+  <path d="M 350 320 Q 320 230 370 170 T 340 70" stroke="#ffffff" stroke-width="10" fill="none" opacity="0.25" stroke-linecap="round"/>
+  <path d="M 250 280 Q 270 200 230 140 T 260 50" stroke="#ffffff" stroke-width="6" fill="none" opacity="0.2" stroke-linecap="round"/>
+
+  <!-- Hot Tub Outer Deck / Rim -->
+  <ellipse cx="256" cy="365" rx="205" ry="95" fill="#566573"/>
+  <ellipse cx="256" cy="360" rx="195" ry="90" fill="url(#tubGrad)"/>
+
+  <!-- Wooden Slat lines on tub -->
+  <path d="M 61 360 Q 256 460 451 360" stroke="#4a235a" stroke-width="3" fill="none" opacity="0.6"/>
+  <path d="M 70 380 Q 256 480 442 380" stroke="#4a235a" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <!-- Hot Tub Water -->
+  <ellipse cx="256" cy="360" rx="175" ry="75" fill="url(#waterGrad)"/>
+
+  <!-- Water Ripples / Bubbles -->
+  <circle cx="200" cy="350" r="12" fill="#ffffff" opacity="0.5"/>
+  <circle cx="310" cy="370" r="16" fill="#ffffff" opacity="0.5"/>
+  <circle cx="250" cy="385" r="10" fill="#ffffff" opacity="0.6"/>
+  <circle cx="150" cy="370" r="9" fill="#ffffff" opacity="0.4"/>
+  <circle cx="360" cy="350" r="14" fill="#ffffff" opacity="0.45"/>
+
+  <!-- Donkey Body / Neck in Water -->
+  <path d="M 190 360 Q 210 270 256 260 Q 302 270 322 360 Z" fill="#839192"/>
+
+  <!-- Donkey Head -->
+  <ellipse cx="256" cy="210" rx="55" ry="65" fill="#839192"/>
+
+  <!-- Muzzle -->
+  <ellipse cx="256" cy="235" rx="35" ry="25" fill="#a6acaf"/>
+  <ellipse cx="245" cy="235" rx="5" ry="8" fill="#5d6d7e"/>
+  <ellipse cx="267" cy="235" rx="5" ry="8" fill="#5d6d7e"/>
+  <path d="M 256 243 Q 256 253 266 250" stroke="#5d6d7e" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+  <!-- Eyes (Happy / Relaxed closed or calm eyes) -->
+  <path d="M 225 195 Q 235 205 245 195" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 267 195 Q 277 205 287 195" stroke="#2c3e50" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Rosy Cheeks -->
+  <ellipse cx="215" cy="220" rx="10" ry="6" fill="#e74c3c" opacity="0.45"/>
+  <ellipse cx="297" cy="220" rx="10" ry="6" fill="#e74c3c" opacity="0.45"/>
+
+  <!-- Big Donkey Ears (Expressive, angled outward) -->
+  <path d="M 220 160 Q 180 90 160 80 Q 165 110 205 170 Z" fill="#839192"/>
+  <path d="M 213 153 Q 185 95 172 87 Q 175 105 202 160 Z" fill="#f5b7b1"/>
+
+  <path d="M 292 160 Q 332 90 352 80 Q 347 110 307 170 Z" fill="#839192"/>
+  <path d="M 299 153 Q 327 95 340 87 Q 337 105 310 160 Z" fill="#f5b7b1"/>
+
+  <!-- Tub Rim Foreground Overlay (to make donkey look inside tub) -->
+  <path d="M 81 360 C 81 415, 431 415, 431 360 C 431 330, 410 315, 256 315 C 102 315, 81 330, 81 360 Z" fill="url(#tubGrad)" opacity="0.95"/>
+  <!-- Front rim highlight -->
+  <path d="M 90 360 C 90 410, 422 410, 422 360" stroke="#d7bde2" stroke-width="6" fill="none"/>
+
+  <!-- Bubbles on head / resting towel / foam hat -->
+  <circle cx="230" cy="155" r="11" fill="#ffffff" opacity="0.85"/>
+  <circle cx="280" cy="150" r="13" fill="#ffffff" opacity="0.9"/>
+  <circle cx="255" cy="138" r="15" fill="#ffffff" opacity="0.95"/>
+  <circle cx="245" cy="162" r="9" fill="#ffffff" opacity="0.85"/>
+  
+  <!-- Duck toy in water -->
+  <g transform="translate(320, 335) scale(0.85)">
+    <ellipse cx="30" cy="30" rx="20" ry="15" fill="#f1c40f"/>
+    <circle cx="42" cy="20" r="12" fill="#f1c40f"/>
+    <polygon points="50,18 60,16 52,22" fill="#e67e22"/>
+    <circle cx="45" cy="18" r="2" fill="#2c3e50"/>
+  </g>
+
+  <!-- Tropical Cocktail Glass on Rim Edge -->
+  <g transform="translate(100, 310)">
+    <path d="M 15 0 L 35 0 L 25 25 Z" fill="url(#drinkGrad)" opacity="0.9"/>
+    <line x1="25" y1="25" x2="25" y2="40" stroke="#bdc3c7" stroke-width="3"/>
+    <line x1="15" y1="40" x2="35" y2="40" stroke="#bdc3c7" stroke-width="3"/>
+    <!-- Tiny umbrella -->
+    <path d="M 25 15 L 10 -5 Q 25 -12 40 -5 Z" fill="#e74c3c"/>
+    <line x1="25" y1="20" x2="25" y2="-8" stroke="#f39c12" stroke-width="2"/>
+    <circle cx="28" cy="8" r="3" fill="#fff" opacity="0.6"/>
+  </g>
+
+  <!-- Sparkles / Chill vibes -->
+  <path d="M 130 120 L 135 130 L 145 135 L 135 140 L 130 150 L 125 140 L 115 135 L 125 130 Z" fill="#f1c40f" opacity="0.7"/>
+  <path d="M 390 200 L 393 206 L 399 209 L 393 212 L 390 218 L 387 212 L 381 209 L 387 206 Z" fill="#f1c40f" opacity="0.8"/>
+
+</svg>

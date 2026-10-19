@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#18252a"/>
+  <!-- distant autumn forest -->
+  <path d="M0 205L55 119 82 177 128 84 165 166 208 93 245 173 290 105 332 173 374 76 417 163 461 106 512 187V300H0Z" fill="#29484a"/>
+  <path d="M0 250L55 168 96 235 140 134 180 225 226 153 270 239 315 137 359 230 403 149 447 229 486 165 512 215V332H0Z" fill="#355d55"/>
+  <!-- warm kitchen alcove -->
+  <path d="M74 79H438V372H74Z" fill="#b45b35" stroke="#11191d" stroke-width="9"/>
+  <path d="M91 96H421V315H91Z" fill="#e0a14e" stroke="#172329" stroke-width="7"/>
+  <path d="M91 245H421V315H91Z" fill="#774232"/>
+  <!-- window / forest glimpse -->
+  <path d="M111 113H222V218H111Z" fill="#1f3d43" stroke="#172329" stroke-width="8"/>
+  <path d="M166 113V218M111 165H222" stroke="#172329" stroke-width="7"/>
+  <path d="M124 198l18-38 15 27 15-50 21 61 14-26 10 26" fill="none" stroke="#d57b3c" stroke-width="7"/>
+  <!-- tiny kitchen objects -->
+  <path d="M278 118h89v63h-89z" fill="#283b3d" stroke="#11191d" stroke-width="7"/>
+  <path d="M290 126h65v41h-65z" fill="#d9bd83"/>
+  <circle cx="310" cy="146" r="6" fill="#b45b35"/><circle cx="337" cy="146" r="6" fill="#b45b35"/>
+  <path d="M286 196h80l-9 24h-62z" fill="#18252a"/>
+  <path d="M298 215h54" stroke="#e0a14e" stroke-width="5"/>
+  <path d="M376 119v83M386 119v83" stroke="#172329" stroke-width="7"/>
+  <path d="M371 119h20" stroke="#172329" stroke-width="8"/>
+  <!-- counter and floor -->
+  <path d="M48 302H464V345H48Z" fill="#c46b39" stroke="#11191d" stroke-width="9"/>
+  <path d="M0 345H512V512H0Z" fill="#54362d"/>
+  <path d="M0 409L512 375V512H0Z" fill="#75422f"/>
+  <path d="M21 457l182-22M286 469l198-25M54 499l171-20" stroke="#a4603b" stroke-width="6"/>
+  <!-- hero shadow -->
+  <ellipse cx="252" cy="415" rx="169" ry="31" fill="#1a2021" opacity=".8"/>
+  <!-- hedgehog body -->
+  <path d="M91 362L102 315 122 330 120 278 148 300 157 244 182 280 208 225 222 275 267 230 265 286 318 259 298 313 353 306 319 343 360 366 305 378 284 412 216 429 149 413 108 390Z" fill="#9d4d32" stroke="#10191d" stroke-width="10" stroke-linejoin="round"/>
+  <!-- face -->
+  <path d="M244 303Q301 288 351 329L384 355 351 385Q296 405 241 385L213 353Z" fill="#d99456" stroke="#10191d" stroke-width="9"/>
+  <path d="M347 344l35 10-34 18" fill="#171d20" stroke="#10191d" stroke-width="7"/>
+  <circle cx="306" cy="329" r="9" fill="#10191d"/>
+  <path d="M287 348q18 16 35 0" fill="none" stroke="#6b3429" stroke-width="6" stroke-linecap="round"/>
+  <!-- belly and paws -->
+  <path d="M230 370q39-18 76 2l-8 40-63 4z" fill="#e7b56b" stroke="#10191d" stroke-width="7"/>
+  <path d="M247 410l-15 17M277 410l-4 20" stroke="#10191d" stroke-width="7" stroke-linecap="round"/>
+  <!-- tiny chef details -->
+  <path d="M250 294q-3-24 19-28 18-4 28 13 16-4 22 9l-4 18h-65z" fill="#f0d7a2" stroke="#10191d" stroke-width="7"/>
+  <path d="M270 308l-11 28M287 305l-5 30" stroke="#10191d" stroke-width="5" opacity=".65"/>
+  <path d="M233 376q17 4 31 19" fill="none" stroke="#b45b35" stroke-width="5"/>
+  <!-- counter cookware and hanging tools -->
+  <path d="M379 265h43v36h-43z" fill="#26383b" stroke="#11191d" stroke-width="6"/>
+  <path d="M385 272h31v22h-31z" fill="#d99456"/>
+  <path d="M399 245v20M399 245q-12-8-10-20M399 245q12-8 10-20" fill="none" stroke="#e0a14e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M126 276v25M143 276v25M160 276v25" stroke="#d9bd83" stroke-width="5"/>
+  <path d="M117 276h52" stroke="#11191d" stroke-width="6"/>
+  <!-- little recipe card -->
+  <path d="M190 263h38v34h-38z" fill="#f2d28b" stroke="#11191d" stroke-width="5"/>
+  <path d="M197 273h24M197 282h18M197 291h12" stroke="#9d4d32" stroke-width="3"/>
+  <!-- autumn leaves foreground -->
+  <path d="M66 391l18-17 6 25-20 14zM421 402l19-18 8 25-22 11zM392 462l16-14 5 22-18 8zM119 467l18-14 6 22-19 8z" fill="#df9a3e" stroke="#11191d" stroke-width="4"/>
+  <path d="M65 263q-25 18-39 45M445 281q28 22 46 48M386 251q30-19 53-18" fill="none" stroke="#d27b3b" stroke-width="7" stroke-linecap="round"/>
+  <!-- final autumn sparkle -->
+  <path d="M32 119l13-15 7 20-15 9zM470 151l13-12 6 18-15 8zM43 335l12-11 6 16-14 8z" fill="#e0a14e" stroke="#11191d" stroke-width="4"/>
+  <path d="M25 188q23-20 43-22M438 217q28-16 50-12" fill="none" stroke="#29484a" stroke-width="8" stroke-linecap="round"/>
+  <path d="M111 238q18-16 37-25M397 239q20-14 40-16" fill="none" stroke="#18252a" stroke-width="8" stroke-linecap="round"/>
+  <!-- steam for lived-in kitchen -->
+  <path d="M309 187q-13-14 0-27t0-25M331 187q-13-14 0-27t0-25" fill="none" stroke="#f3d08a" stroke-width="6" stroke-linecap="round"/>
+</svg>

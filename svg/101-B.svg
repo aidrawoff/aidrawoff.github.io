@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#171733"/><stop offset="1" stop-color="#442449"/></linearGradient>
+ <linearGradient id="stage" x2="0" y2="1"><stop stop-color="#d7793e"/><stop offset="1" stop-color="#7e2931"/></linearGradient>
+ <radialGradient id="spot"><stop stop-color="#fff6b0" stop-opacity=".95"/><stop offset="1" stop-color="#ffc45b" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<!-- twilight patch and marquee -->
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="80" cy="82" r="33" fill="#ffd978" opacity=".18" filter="url(#glow)"/><circle cx="80" cy="82" r="22" fill="#ffe7a1"/>
+<g fill="#f8c65b"><circle cx="28" cy="42" r="3"/><circle cx="142" cy="48" r="2"/><circle cx="450" cy="44" r="3"/><circle cx="388" cy="85" r="2"/><circle cx="266" cy="38" r="2"/></g>
+<path d="M18 150 Q256 104 494 150 L494 190 Q256 148 18 190Z" fill="#351c37" stroke="#f1aa54" stroke-width="4"/>
+<g fill="#ffe17b"><circle cx="42" cy="164" r="5"/><circle cx="82" cy="155" r="5"/><circle cx="124" cy="149" r="5"/><circle cx="168" cy="145" r="5"/><circle cx="212" cy="142" r="5"/><circle cx="256" cy="141" r="5"/><circle cx="300" cy="142" r="5"/><circle cx="344" cy="145" r="5"/><circle cx="388" cy="149" r="5"/><circle cx="430" cy="157" r="5"/><circle cx="470" cy="166" r="5"/></g>
+<text x="256" y="125" text-anchor="middle" font-family="sans-serif" font-size="25" font-weight="bold" fill="#fff0b0" letter-spacing="3">PUMPKIN PATCH</text>
+<!-- distant vines --> <path d="M0 245 Q70 205 145 243 T290 238 T430 240 T512 225" fill="none" stroke="#42613f" stroke-width="16"/>
+<!-- stage and spotlight -->
+<path d="M0 270 Q256 246 512 270 L512 512 0 512Z" fill="url(#stage)"/>
+<ellipse cx="256" cy="355" rx="180" ry="130" fill="url(#spot)" opacity=".55"/>
+<path d="M115 188 L220 300 L170 310Z M397 188 L292 300 L342 310Z" fill="#ffe79b" opacity=".10"/>
+<g fill="#ffe79b" opacity=".8"><circle cx="116" cy="238" r="3"/><circle cx="396" cy="238" r="3"/><circle cx="132" cy="215" r="3"/><circle cx="380" cy="215" r="3"/></g>
+<path d="M55 274 L78 472 M457 274 L434 472" stroke="#f6b55a" stroke-width="9"/><path d="M55 275 Q256 300 457 275" fill="none" stroke="#f6b55a" stroke-width="9"/>
+<!-- curtains --> <path d="M0 0 H85 Q75 100 104 265 Q63 300 0 290Z" fill="#8c2540"/><path d="M512 0 H427 Q438 100 410 265 Q451 300 512 290Z" fill="#8c2540"/>
+<!-- performer pumpkin -->
+<ellipse cx="258" cy="349" rx="78" ry="64" fill="#e97427" stroke="#5e2b2c" stroke-width="6"/>
+<path d="M225 292 Q256 270 289 292 Q276 320 225 292Z" fill="#4d703d" stroke="#27472e" stroke-width="5"/>
+<path d="M254 286 Q255 266 270 252" fill="none" stroke="#537841" stroke-width="8" stroke-linecap="round"/>
+<path d="M230 306 Q217 348 230 391 M256 292 Q245 349 258 412 M282 304 Q269 348 284 394" fill="none" stroke="#b84b24" stroke-width="7"/>
+<path d="M219 337 Q237 322 253 337 M270 337 Q286 322 301 337" fill="none" stroke="#45242b" stroke-width="7" stroke-linecap="round"/>
+<circle cx="240" cy="334" r="5" fill="#ffe478"/><circle cx="281" cy="334" r="5" fill="#ffe478"/>
+<path d="M232 359 Q257 384 285 356 Q260 405 232 359Z" fill="#4a202d" stroke="#351b2a" stroke-width="4"/><path d="M247 374 l6 -9 7 10 7 -9 7 7" fill="none" stroke="#ffd05c" stroke-width="4"/>
+<!-- juggling/magic act pose -->
+<path d="M226 359 Q190 338 163 300" fill="none" stroke="#e97427" stroke-width="18" stroke-linecap="round"/><path d="M294 357 Q331 334 349 292" fill="none" stroke="#e97427" stroke-width="18" stroke-linecap="round"/>
+<circle cx="157" cy="286" r="14" fill="#ffce54" stroke="#67303a" stroke-width="5"/><circle cx="353" cy="278" r="14" fill="#ffce54" stroke="#67303a" stroke-width="5"/><circle cx="256" cy="245" r="14" fill="#ffce54" stroke="#67303a" stroke-width="5"/>
+<path d="M157 286 Q210 210 256 245 Q302 280 353 278" fill="none" stroke="#ffe29a" stroke-width="3" stroke-dasharray="5 7"/>
+<!-- musical flourish -->
+<g fill="none" stroke="#ffe89b" stroke-width="4" stroke-linecap="round"><path d="M112 292 v-25 l18-5 v25"/><path d="M112 292 q-9 8-15 1 q0-8 15-8"/><path d="M386 300 v-27 l18-5 v27"/><path d="M386 300 q-9 8-15 1 q0-8 15-8"/></g>
+<g fill="#ffd35c"><circle cx="126" cy="238" r="3"/><circle cx="389" cy="242" r="3"/><circle cx="185" cy="272" r="3"/><circle cx="331" cy="267" r="3"/></g>
+<!-- audience -->
+<g fill="#30223a" stroke="#f4a950" stroke-width="3"><circle cx="55" cy="420" r="19"/><circle cx="108" cy="438" r="17"/><circle cx="405" cy="430" r="18"/><circle cx="465" cy="414" r="20"/></g>
+<g fill="#ffdc68"><path d="M45 462 l10-27 10 27Z"/><path d="M94 480 l14-32 14 32Z"/><path d="M393 475 l13-32 13 32Z"/><path d="M453 460 l12-32 12 32Z"/></g>
+<!-- hay bales and pumpkins -->
+<g fill="#d99a3d" stroke="#71343a" stroke-width="5"><ellipse cx="91" cy="360" rx="43" ry="28"/><ellipse cx="421" cy="355" rx="42" ry="28"/></g>
+<g fill="#ed792c" stroke="#632c32" stroke-width="4"><circle cx="30" cy="490" r="26"/><circle cx="485" cy="489" r="27"/></g>
+<g fill="#517343"><path d="M80 344 q12-18 24 0" fill="none" stroke="#517343" stroke-width="7"/><path d="M410 341 q12-18 24 0" fill="none" stroke="#517343" stroke-width="7"/></g>
+<text x="256" y="486" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffe8a5" letter-spacing="2">TONIGHT: THE GREAT GOURD SHOW</text>
+</svg>

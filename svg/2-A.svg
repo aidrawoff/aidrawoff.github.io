@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" stroke="#3a2230" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+  <!-- backdrop: warm cream, low sunset sun, sunset floor -->
+  <rect width="512" height="512" fill="#f7e6c8" stroke="none"/>
+  <circle cx="330" cy="300" r="120" fill="#f5b977" stroke="none" opacity="0.55"/>
+  <rect x="0" y="420" width="512" height="92" fill="#f2c48d" stroke="none"/>
+
+  <g id="body">
+    <!-- stool legs -->
+    <rect x="150" y="420" width="36" height="84" rx="12" fill="#6d7d8e"/>
+    <rect x="310" y="420" width="36" height="84" rx="12" fill="#6d7d8e"/>
+    <!-- torso -->
+    <rect x="128" y="180" width="216" height="260" rx="56" fill="#9fb3c4"/>
+    <!-- chest panel with rivets -->
+    <rect x="176" y="236" width="120" height="70" rx="16" fill="#f7e6c8"/>
+    <circle cx="190" cy="250" r="4" fill="#3a2230" stroke="none"/>
+    <circle cx="282" cy="250" r="4" fill="#3a2230" stroke="none"/>
+    <!-- head -->
+    <rect x="160" y="60" width="170" height="140" rx="46" fill="#9fb3c4"/>
+    <!-- visor eyes -->
+    <rect x="192" y="104" width="46" height="36" rx="12" fill="#3a2230"/>
+    <rect x="274" y="104" width="46" height="36" rx="12" fill="#3a2230"/>
+    <circle cx="210" cy="118" r="6" fill="#f2b33d" stroke="none"/>
+    <circle cx="292" cy="118" r="6" fill="#f2b33d" stroke="none"/>
+    <!-- blush -->
+    <circle cx="190" cy="160" r="8" fill="#e8553d" stroke="none" opacity="0.6"/>
+    <circle cx="300" cy="160" r="8" fill="#e8553d" stroke="none" opacity="0.6"/>
+    <!-- smile -->
+    <path d="M220 166 Q245 182 270 166" fill="none" stroke-width="9"/>
+    <!-- antenna -->
+    <line x1="245" y1="60" x2="245" y2="26" stroke-width="7"/>
+    <circle cx="245" cy="18" r="13" fill="#e8553d"/>
+  </g>
+
+  <g id="sweater">
+    <!-- sweater body, bold orange with mustard hem -->
+    <path d="M146 300 Q244 332 344 300 L352 430 Q244 452 138 430 Z" fill="#e8553d"/>
+    <!-- knit V-stitch rows -->
+    <path d="M168 336 L190 352 L212 336 L234 352 L256 336 L278 352 L300 336 L322 352" fill="none" stroke="#f7e6c8" stroke-width="6"/>
+    <path d="M168 372 L190 388 L212 372 L234 388 L256 372 L278 388 L300 372 L322 388" fill="none" stroke="#f7e6c8" stroke-width="6"/>
+    <path d="M140 420 Q244 442 348 420 L350 436 Q244 458 138 436 Z" fill="#f2b33d"/>
+    <!-- the clue: a dropped stitch, a hole with a loose thread -->
+    <circle cx="254" cy="394" r="10" fill="#f7e6c8"/>
+    <path d="M254 394 Q262 404 270 398" fill="none" stroke="#f2b33d" stroke-width="4"/>
+  </g>
+
+  <g id="limbs">
+    <!-- left arm reaching up to the needles -->
+    <path d="M130 250 L96 318 L124 336 L160 272 Z" fill="#9fb3c4"/>
+    <!-- right arm -->
+    <path d="M362 250 L404 312 L376 332 L346 276 Z" fill="#9fb3c4"/>
+    <circle cx="110" cy="326" r="14" fill="#6d7d8e"/>
+    <circle cx="390" cy="322" r="14" fill="#6d7d8e"/>
+    <!-- needles, dark and crossing the sweater -->
+    <line x1="96" y1="330" x2="282" y2="262" stroke="#3a2230" stroke-width="7"/>
+    <line x1="112" y1="346" x2="300" y2="282" stroke="#3a2230" stroke-width="7"/>
+    <!-- yarn strand from needle to ball -->
+    <path d="M280 262 Q330 230 340 186" fill="none" stroke="#f2b33d" stroke-width="5"/>
+  </g>
+
+  <g id="scarf">
+    <!-- scarf ribbon with flowing tail -->
+    <path d="M160 214 Q244 246 330 214 L334 236 Q244 268 156 236 Z" fill="#f08a4b"/>
+    <path d="M296 232 Q322 272 302 322 L326 324 Q346 270 332 226 Z" fill="#f08a4b"/>
+  </g>
+
+  <g id="yarn">
+    <!-- yarn ball with wrap lines -->
+    <circle cx="372" cy="200" r="36" fill="#f2b33d"/>
+    <path d="M344 186 Q372 170 400 190 M342 206 Q372 224 402 206" fill="none" stroke-width="4"/>
+    <!-- loose yarn running down to the dropped stitch -->
+    <path d="M338 214 Q316 280 254 394" fill="none" stroke="#f2b33d" stroke-width="5"/>
+  </g>
+
+  <g id="fx">
+    <!-- tiny ghost peeking from the right, glowing, with a motion trail -->
+    <circle cx="446" cy="330" r="40" fill="#fffdf6" stroke="none" opacity="0.5"/>
+    <path d="M420 330 Q420 300 446 300 Q472 300 472 330 L472 356 L462 346 L452 356 L442 346 L432 356 L422 346 L420 356 Z" fill="#fffdf6"/>
+    <circle cx="436" cy="324" r="4" fill="#3a2230" stroke="none"/>
+    <circle cx="456" cy="324" r="4" fill="#3a2230" stroke="none"/>
+    <ellipse cx="446" cy="338" rx="5" ry="6" fill="#3a2230" stroke="none"/>
+    <circle cx="428" cy="334" r="4" fill="#e8553d" stroke="none" opacity="0.6"/>
+    <circle cx="464" cy="334" r="4" fill="#e8553d" stroke="none" opacity="0.6"/>
+    <path d="M420 336 Q400 350 382 342" fill="none" stroke="#e8553d" stroke-width="4" stroke-dasharray="2 8"/>
+    <!-- sparkles -->
+    <path d="M482 282 L486 290 L494 294 L486 298 L482 306 L478 298 L470 294 L478 290 Z" fill="#f2b33d" stroke-width="3"/>
+  </g>
+</svg>

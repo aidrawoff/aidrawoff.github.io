@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="water" cx="50%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#24507a"/>
+      <stop offset="60%" stop-color="#14304f"/>
+      <stop offset="100%" stop-color="#071426"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb347" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glass" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </radialGradient>
+    <clipPath id="bowlclip">
+      <circle cx="256" cy="246" r="188"/>
+    </clipPath>
+  </defs>
+
+  <!-- night backdrop with a few distant lights -->
+  <rect width="512" height="512" fill="#0a0c1c"/>
+  <circle cx="60" cy="70" r="2" fill="#fff6d0"/>
+  <circle cx="440" cy="50" r="2" fill="#fff6d0"/>
+  <circle cx="90" cy="150" r="1.5" fill="#fff6d0"/>
+  <circle cx="470" cy="170" r="1.5" fill="#fff6d0"/>
+
+  <!-- wooden table edge -->
+  <rect x="0" y="446" width="512" height="66" fill="#2a1d14"/>
+  <rect x="0" y="440" width="512" height="8" fill="#4a3424"/>
+
+  <!-- bowl base -->
+  <ellipse cx="256" cy="438" rx="92" ry="12" fill="#120a06"/>
+  <path d="M190 420 Q256 440 322 420 L326 436 Q256 452 186 436 Z" fill="#1c1410"/>
+  <path d="M236 404 L276 404 L282 424 L230 424 Z" fill="#2c2018"/>
+
+  <!-- fishbowl water, clipped to the bowl -->
+  <g clip-path="url(#bowlclip)">
+    <rect x="60" y="50" width="400" height="400" fill="url(#water)"/>
+
+    <!-- back wall of the market: dark night sky strip -->
+    <rect x="60" y="50" width="400" height="120" fill="#0b1830"/>
+
+    <!-- market stall, midground -->
+    <rect x="112" y="236" width="288" height="160" fill="#3a1f18"/>
+    <rect x="112" y="236" width="288" height="10" fill="#5a3322"/>
+    <path d="M96 236 L416 236 L424 200 L88 200 Z" fill="#8c2a2a"/>
+    <path d="M88 200 L416 200 L416 214 Q400 230 384 214 Q368 230 352 214 Q336 230 320 214 Q304 230 288 214 Q272 230 256 214 Q240 230 224 214 Q208 230 192 214 Q176 230 160 214 Q144 230 128 214 Q112 230 96 214 Q88 222 88 214 Z" fill="#e8c27a" opacity="0.85"/>
+    <path d="M120 200 L140 236 L160 200 L180 236 L200 200 L220 236 L240 200 L260 236 L280 200 L300 236 L320 200 L340 236 L360 200 L380 236 L400 200" fill="none" stroke="#e8c27a" stroke-width="3" opacity="0.5"/>
+
+    <!-- stall shelf with jars -->
+    <rect x="120" y="300" width="272" height="6" fill="#6b4029"/>
+    <rect x="132" y="282" width="16" height="18" rx="3" fill="#d88a3c"/>
+    <rect x="160" y="278" width="14" height="22" rx="3" fill="#a44a2a"/>
+    <rect x="300" y="282" width="16" height="18" rx="3" fill="#e0b050"/>
+    <rect x="330" y="278" width="14" height="22" rx="3" fill="#8c3a2a"/>
+
+    <!-- string lights along the awning -->
+    <path d="M70 216 Q256 244 442 216" fill="none" stroke="#2a1a10" stroke-width="2"/>
+
+    <!-- hanging lanterns with glow -->
+    <line x1="150" y1="200" x2="150" y2="226" stroke="#c9a060" stroke-width="2"/>
+    <line x1="256" y1="214" x2="256" y2="236" stroke="#c9a060" stroke-width="2"/>
+    <line x1="362" y1="200" x2="362" y2="226" stroke="#c9a060" stroke-width="2"/>
+    <circle cx="150" cy="240" r="34" fill="url(#glow)"/>
+    <ellipse cx="150" cy="238" rx="14" ry="18" fill="#ffb347"/>
+    <circle cx="256" cy="252" r="40" fill="url(#glow)"/>
+    <ellipse cx="256" cy="248" rx="16" ry="20" fill="#ffc35c"/>
+    <circle cx="362" cy="240" r="34" fill="url(#glow)"/>
+    <ellipse cx="362" cy="238" rx="14" ry="18" fill="#ffb347"/>
+
+    <!-- bokeh glows in the water -->
+    <circle cx="96" cy="130" r="14" fill="#ffb347" opacity="0.25"/>
+    <circle cx="410" cy="112" r="10" fill="#ffd27a" opacity="0.25"/>
+    <circle cx="420" cy="300" r="18" fill="#ffb347" opacity="0.2"/>
+
+    <!-- a fish swimming past the lanterns -->
+    <path d="M330 110 Q350 96 372 110 Q350 124 330 110 Z" fill="#ff8a3d"/>
+    <path d="M370 110 L384 102 L382 118 Z" fill="#ff8a3d"/>
+    <circle cx="338" cy="108" r="2" fill="#120a06"/>
+
+    <!-- upper lanterns strung across the night -->
+    <path d="M90 120 Q160 140 230 118" fill="none" stroke="#2a1a10" stroke-width="1.5"/>
+    <path d="M250 118 Q320 136 400 110" fill="none" stroke="#2a1a10" stroke-width="1.5"/>
+    <circle cx="130" cy="130" r="22" fill="url(#glow)"/>
+    <ellipse cx="130" cy="130" rx="8" ry="11" fill="#ffc35c"/>
+    <circle cx="232" cy="126" r="20" fill="url(#glow)"/>
+    <ellipse cx="232" cy="126" rx="7" ry="10" fill="#ffb347"/>
+    <circle cx="330" cy="124" r="22" fill="url(#glow)"/>
+    <ellipse cx="330" cy="124" rx="8" ry="11" fill="#ffd27a"/>
+    <circle cx="400" cy="112" r="20" fill="url(#glow)"/>
+    <ellipse cx="400" cy="112" rx="7" ry="10" fill="#ffc35c"/>
+
+    <!-- cast shadows on the stall floor -->
+    <ellipse cx="150" cy="394" rx="24" ry="6" fill="#000" opacity="0.35"/>
+    <ellipse cx="256" cy="396" rx="20" ry="5" fill="#000" opacity="0.35"/>
+    <ellipse cx="322" cy="394" rx="26" ry="6" fill="#000" opacity="0.35"/>
+
+    <!-- warm light spilling across the water -->
+    <ellipse cx="256" cy="372" rx="150" ry="30" fill="#ffb347" opacity="0.07"/>
+    <ellipse cx="256" cy="420" rx="110" ry="18" fill="#ffb347" opacity="0.08"/>
+
+    <!-- foreground crowd silhouettes -->
+    <circle cx="196" cy="330" r="12" fill="#06070f"/>
+    <rect x="184" y="342" width="24" height="70" rx="8" fill="#06070f"/>
+    <circle cx="322" cy="326" r="13" fill="#06070f"/>
+    <rect x="308" y="340" width="28" height="72" rx="9" fill="#06070f"/>
+    <circle cx="268" cy="346" r="10" fill="#06070f"/>
+    <rect x="258" y="356" width="20" height="60" rx="7" fill="#06070f"/>
+  </g>
+
+  <!-- glass dome: sheen, rim and reflection -->
+  <circle cx="256" cy="246" r="188" fill="url(#glass)"/>
+  <circle cx="256" cy="246" r="188" fill="none" stroke="#bfe3ff" stroke-width="6" stroke-opacity="0.45"/>
+  <path d="M104 210 Q112 150 162 118" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.55"/>
+  <path d="M380 300 Q396 280 398 250" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+</svg>

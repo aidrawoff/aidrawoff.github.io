@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+ <defs>
+  <radialGradient id="lamp" cx="72%" cy="26%" r="85%">
+   <stop offset="0" stop-color="#ffd98a"/>
+   <stop offset=".45" stop-color="#8b4a2f"/>
+   <stop offset="1" stop-color="#2a1220"/>
+  </radialGradient>
+  <linearGradient id="robe" x1="0" y1="0" x2="1" y2="1">
+   <stop offset="0" stop-color="#4d2c86"/>
+   <stop offset="1" stop-color="#1e0f38"/>
+  </linearGradient>
+  <linearGradient id="tree" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0" stop-color="#2f8f5b"/>
+   <stop offset="1" stop-color="#0f3d28"/>
+  </linearGradient>
+ </defs>
+ <rect width="512" height="512" fill="url(#lamp)"/>
+ <!-- night window with snow -->
+ <rect x="24" y="40" width="150" height="120" rx="8" fill="#0a1030" stroke="#e8dcc0" stroke-width="6"/>
+ <line x1="99" y1="44" x2="99" y2="156" stroke="#e8dcc0" stroke-width="4"/>
+ <line x1="28" y1="100" x2="170" y2="100" stroke="#e8dcc0" stroke-width="4"/>
+ <circle cx="60" cy="70" r="3" fill="#fff"/><circle cx="140" cy="85" r="2.5" fill="#fff"/>
+ <circle cx="85" cy="130" r="2.5" fill="#fff"/><circle cx="155" cy="130" r="3" fill="#fff"/>
+ <circle cx="45" cy="115" r="2" fill="#fff"/>
+ <!-- hanging bunting lights -->
+ <path d="M180 22 Q300 70 470 26" fill="none" stroke="#3a2a1a" stroke-width="3"/>
+ <circle cx="220" cy="40" r="7" fill="#ff5252"/><circle cx="270" cy="52" r="7" fill="#ffd166"/>
+ <circle cx="320" cy="56" r="7" fill="#5bd6a0"/><circle cx="375" cy="48" r="7" fill="#7ec8ff"/>
+ <circle cx="425" cy="36" r="7" fill="#ff9de2"/>
+ <!-- CLIENT: lit christmas tree on dress form -->
+ <polygon points="330,120 268,330 392,330" fill="url(#tree)" stroke="#0a2a1a" stroke-width="3"/>
+ <rect x="300" y="330" width="60" height="34" fill="#6b3a1e"/>
+ <polygon points="330,78 338,102 362,102 342,116 350,140 330,124 310,140 318,116 298,102 322,102" fill="#ffe066" stroke="#c98a00" stroke-width="3"/>
+ <circle cx="305" cy="280" r="8" fill="#ff4d4d"/><circle cx="355" cy="250" r="8" fill="#ffd54a"/>
+ <circle cx="320" cy="205" r="7" fill="#7ec8ff"/><circle cx="345" cy="170" r="7" fill="#ff9de2"/>
+ <!-- WIZARD TAILOR: big, leaning in from left -->
+ <path d="M60 512 Q52 300 130 232 L250 250 Q300 380 292 512 Z" fill="url(#robe)" stroke="#0d0620" stroke-width="4"/>
+ <path d="M150 250 Q120 330 130 430" stroke="#ffd54a" stroke-width="3" fill="none" opacity=".7"/>
+ <circle cx="200" cy="300" r="10" fill="#ffd54a"/><circle cx="170" cy="380" r="9" fill="#ffd54a"/>
+ <circle cx="235" cy="350" r="8" fill="#7ec8ff"/>
+ <!-- arm with tape measure -->
+ <path d="M245 262 Q320 240 372 288" fill="none" stroke="url(#robe)" stroke-width="30" stroke-linecap="round"/>
+ <circle cx="378" cy="292" r="17" fill="#f2c48d"/>
+ <path d="M360 296 Q330 320 296 306" fill="none" stroke="#ffe07a" stroke-width="7" stroke-dasharray="4 5"/>
+ <!-- head -->
+ <circle cx="168" cy="196" r="34" fill="#f2c48d"/>
+ <path d="M128 206 Q168 340 214 208 Q196 250 168 252 Q140 250 128 206Z" fill="#f7f4ff" stroke="#c9c0e0" stroke-width="3"/>
+ <path d="M146 236 q22 40 44 2 M152 258 q18 30 34 2" stroke="#cdc4e4" stroke-width="3" fill="none"/>
+ <circle cx="168" cy="212" r="9" fill="#f2c48d"/>
+ <circle cx="158" cy="190" r="5" fill="#1a1030"/><circle cx="184" cy="188" r="5" fill="#1a1030"/>
+ <path d="M148 176 q11 -7 22 -1 M176 174 q11 -6 20 2" stroke="#efeaff" stroke-width="5" fill="none"/>
+ <!-- warm glow on the robe -->
+ <path d="M250 250 Q300 380 292 512 L252 512 Q262 380 226 258Z" fill="#ffb347" opacity=".22"/>
+ <path d="M60 512 Q52 300 130 232 L150 236 Q86 306 92 512Z" fill="#0b0520" opacity=".35"/>
+ <!-- star wizard hat with pins -->
+ <polygon points="168,44 214,186 122,186" fill="#3a1f6b" stroke="#0d0620" stroke-width="4"/>
+ <polygon points="120,182 216,182 208,196 128,196" fill="#ffd54a"/>
+ <polygon points="168,58 176,78 196,78 180,90 186,110 168,98 150,110 156,90 140,78 160,78" fill="#ffe066"/>
+ <line x1="150" y1="120" x2="150" y2="150" stroke="#ff5252" stroke-width="4"/><circle cx="150" cy="118" r="5" fill="#ff5252"/>
+ <line x1="190" y1="130" x2="192" y2="160" stroke="#7ec8ff" stroke-width="4"/><circle cx="189" cy="128" r="5" fill="#7ec8ff"/>
+ <!-- scissors pinched in beard -->
+ <g transform="translate(214,262) rotate(-25)">
+  <path d="M-4 -34 L4 -34 L2 6 L-2 6 Z" fill="#dfe6ef" stroke="#8892a0" stroke-width="2"/>
+  <path d="M-4 34 L4 34 L2 -6 L-2 -6 Z" fill="#dfe6ef" stroke="#8892a0" stroke-width="2"/>
+  <circle cx="-11" cy="40" r="8" fill="none" stroke="#ffb347" stroke-width="5"/>
+  <circle cx="11" cy="40" r="8" fill="none" stroke="#ffb347" stroke-width="5"/>
+ </g>
+ <!-- thread spools on floor -->
+ <rect x="52" y="452" width="34" height="42" rx="6" fill="#ff5252"/>
+ <rect x="96" y="466" width="30" height="34" rx="6" fill="#5bd6a0"/>
+ <!-- falling snowflakes inside the shop -->
+ <g fill="#ffffff" opacity=".9">
+  <path d="M430 150 v-16 M430 150 v16 M430 150 l-13 -9 M430 150 l13 9 M430 150 l-13 9 M430 150 l13 -9" stroke="#fff" stroke-width="3"/>
+  <path d="M470 240 v-13 M470 240 v13 M470 240 l-11 -7 M470 240 l11 7 M470 240 l-11 7 M470 240 l11 -7" stroke="#fff" stroke-width="3"/>
+  <path d="M404 380 v-13 M404 380 v13 M404 380 l-11 -7 M404 380 l11 7 M404 380 l-11 7 M404 380 l11 -7" stroke="#fff" stroke-width="3"/>
+  <circle cx="452" cy="196" r="3"/><circle cx="420" cy="320" r="3"/><circle cx="480" cy="330" r="3"/>
+ </g>
+ <!-- HOT GLUE BURN: jagged impact burst near tree top -->
+ <polygon points="368,132 380,112 392,134 414,124 402,146 424,156 398,160 392,184 376,162 356,174 364,150 342,140" fill="#ffdd55" stroke="#ff5252" stroke-width="3"/>
+ <text x="352" y="106" font-family="Impact,sans-serif" font-size="30" font-weight="bold" fill="#ffe066" stroke="#7a1010" stroke-width="1.5" transform="rotate(-8 352 106)">ZZZRT!</text>
+ <text x="250" y="470" font-family="Impact,sans-serif" font-size="26" font-weight="bold" fill="#fff" opacity=".95" transform="rotate(-6 250 470)">SNIP SNIP!</text>
+ <!-- steam wisps from the burn -->
+ <path d="M400 100 q10 -18 -2 -34 q-10 -16 4 -30" stroke="#ffd9a0" stroke-width="4" fill="none" opacity=".8"/>
+</svg>

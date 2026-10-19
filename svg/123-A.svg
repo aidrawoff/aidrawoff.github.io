@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1030"/><stop offset="1" stop-color="#3b2450"/>
+    </linearGradient>
+    <radialGradient id="moon" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff8d6"/><stop offset="1" stop-color="#fff8d6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- room shell -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <rect x="0" y="0" width="512" height="470" fill="#241a33"/>
+  <!-- tall window with moonlight shaft -->
+  <path d="M300 70h96v190h-96z" fill="#120c1f"/>
+  <circle cx="348" cy="120" r="46" fill="url(#moon)" opacity=".8"/>
+  <circle cx="348" cy="120" r="26" fill="#fdf6cf"/>
+  <path d="M300 70h96v190h-96z" fill="none" stroke="#4a3a5e" stroke-width="7"/>
+  <path d="M348 70v190M300 150h96" stroke="#4a3a5e" stroke-width="5"/>
+  <!-- light shaft onto floor -->
+  <path d="M300 260 396 260 470 470 210 470Z" fill="#fdf6cf" opacity=".10"/>
+  <!-- crooked staircase -->
+  <path d="M40 470 40 300 90 300 90 265 140 265 140 230 190 230 190 195 240 195 240 470Z" fill="#33253f" stroke="#54405f" stroke-width="3"/>
+  <path d="M40 300h50M90 265h50M140 230h50M190 195h50" stroke="#5f4a6b" stroke-width="4"/>
+  <!-- floor -->
+  <rect x="0" y="462" width="512" height="50" fill="#1b1226"/>
+  <path d="M0 462h512" stroke="#54405f" stroke-width="3"/>
+  <!-- GHOST GOAT HERD floating top-left -->
+  <g opacity=".55" fill="#bfe9ff">
+    <path d="M96 96c-26 0-42 18-42 42 0 30 20 52 46 52 22 0 34-14 34-34 0-26-18-60-38-60z"/>
+    <path d="M150 74c-16 0-26 12-26 28s12 30 28 30c12 0 20-8 20-20 0-16-12-38-22-38z"/>
+  </g>
+  <!-- GOAT on stairs, mid-spook -->
+  <g>
+    <path d="M150 300c-8 26-4 52 10 66l52 6 44-14c14-16 12-46-6-62l-56-10z" fill="#efe6d8" stroke="#2b2136" stroke-width="4"/>
+    <path d="M162 360c-6 24-8 44-2 58h14c-2-20 2-38 8-54z" fill="#e2d6c6" stroke="#2b2136" stroke-width="4"/>
+    <path d="M206 372c-2 24 0 42 6 54h14c-6-16-6-34-2-52z" fill="#efe6d8" stroke="#2b2136" stroke-width="4"/>
+    <!-- head thrown back in shock -->
+    <path d="M250 296c18-14 34-16 46-8 10 8 10 24 0 38-12 14-30 18-44 10z" fill="#f5eee2" stroke="#2b2136" stroke-width="4"/>
+    <path d="M292 292c10-16 24-22 32-16 6 6 0 20-12 30z" fill="#d9cbb8" stroke="#2b2136" stroke-width="4"/>
+    <path d="M268 288c-4-20 2-34 12-36 8-2 10 12 4 28z" fill="#c9b8a2" stroke="#2b2136" stroke-width="4"/>
+    <circle cx="276" cy="312" r="7" fill="#ffffff" stroke="#2b2136" stroke-width="2"/>
+    <circle cx="278" cy="313" r="3" fill="#1a1024"/>
+    <path d="M300 330c8 6 14 4 18-2" stroke="#2b2136" stroke-width="3" fill="none"/>
+  </g>
+  <!-- cobwebs -->
+  <path d="M0 0c40 8 62 30 70 70M0 0c22 26 34 44 38 74M20 0c14 22 26 34 48 42" stroke="#8f83a6" stroke-width="2" fill="none" opacity=".7"/>
+  <path d="M512 470c-34-6-52-24-58-54M512 470c-20-20-30-36-34-58" stroke="#8f83a6" stroke-width="2" fill="none" opacity=".6"/>
+  <!-- scattered props: toppled bucket, bones, candle -->
+  <path d="M420 440h44l-6 24h-32z" fill="#6b5a7a" stroke="#2b2136" stroke-width="3"/>
+  <ellipse cx="404" cy="464" rx="26" ry="7" fill="#6b5a7a" stroke="#2b2136" stroke-width="3"/>
+  <rect x="470" y="418" width="12" height="44" fill="#e8dcc8" stroke="#2b2136" stroke-width="2"/>
+  <path d="M476 418c-8-8-2-18 4-22 4 8 10 14 4 22z" fill="#ffb347"/>
+  <!-- dust motes in shaft -->
+  <g fill="#fdf6cf" opacity=".8">
+    <circle cx="330" cy="320" r="3"/><circle cx="366" cy="380" r="2"/><circle cx="300" cy="420" r="3"/><circle cx="392" cy="300" r="2"/>
+  </g>
+</svg>

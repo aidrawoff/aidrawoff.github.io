@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: candy sky gradient -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff69b4"/>
+      <stop offset="50%" stop-color="#ff1493"/>
+      <stop offset="100%" stop-color="#8a2be2"/>
+    </linearGradient>
+    <radialGradient id="cloudGradient" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ffb6c1"/>
+    </radialGradient>
+    <pattern id="candyCane" patternUnits="userSpaceOnUse" width="16" height="16">
+      <rect width="16" height="16" fill="#ff69b4"/>
+      <path d="M0 0 L16 0 L16 8 L0 8 Z" fill="#ffffff"/>
+      <path d="M0 8 L16 8 L16 16 L0 16 Z" fill="#ff1493"/>
+    </pattern>
+    <pattern id="gumdrop" patternUnits="userSpaceOnUse" width="20" height="20">
+      <circle cx="10" cy="10" r="10" fill="#ffd700"/>
+      <circle cx="10" cy="10" r="6" fill="#ff4500"/>
+    </pattern>
+    <linearGradient id="mermaidBodyGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff1493"/>
+      <stop offset="100%" stop-color="#ff69b4"/>
+    </linearGradient>
+    <filter id="gloss" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2" result="blur"/>
+      <feSpecularLighting in="blur" surfaceScale="3" specularConstant="0.5" specularExponent="20" lighting-color="white" result="specOut">
+        <fePointLight x="100" y="100" z="200"/>
+      </feSpecularLighting>
+      <feComposite in="SourceGraphic" in2="specOut" operator="arithmetic" k1="0" k2="1" k3="1" k4="0"/>
+    </filter>
+  </defs>
+
+  <!-- Sky and clouds -->
+  <rect width="512" height="512" fill="url(#skyGradient)"/>
+  <ellipse cx="256" cy="128" rx="160" ry="96" fill="url(#cloudGradient)" stroke="#ffffff" stroke-width="2"/>
+  <ellipse cx="160" cy="100" rx="80" ry="48" fill="url(#cloudGradient)" stroke="#ffffff" stroke-width="2"/>
+  <ellipse cx="352" cy="100" rx="80" ry="48" fill="url(#cloudGradient)" stroke="#ffffff" stroke-width="2"/>
+
+  <!-- Candy cloud base for mermaid -->
+  <ellipse cx="256" cy="320" rx="200" ry="120" fill="#ffb6c1" stroke="#ffffff" stroke-width="4"/>
+  <ellipse cx="256" cy="320" rx="180" ry="100" fill="url(#gumdrop)" opacity="0.7"/>
+
+  <!-- Mermaid: candy body and tail -->
+  <!-- Tail (candy cane stripes) -->
+  <path d="M256 320 Q320 380 380 320 Q440 260 380 200 Q320 140 256 200 Q192 140 132 200 Q72 260 132 320 Q192 380 256 320 Z" fill="#ff69b4" stroke="#ffffff" stroke-width="3"/>
+  <!-- Tail stripes -->
+  <path d="M256 320 Q320 380 380 320 Q440 260 380 200 Q320 140 256 200 Q192 140 132 200 Q72 260 132 320 Q192 380 256 320 Z" fill="none" stroke="url(#candyCane)" stroke-width="20" stroke-linecap="round"/>
+  <!-- Highlight on tail -->
+  <path d="M256 320 Q320 380 380 320 Q440 260 380 200 Q320 140 256 200 Q192 140 132 200 Q72 260 132 320 Q192 380 256 320 Z" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- Mermaid body (gumdrop head and candy body) -->
+  <circle cx="256" cy="240" r="40" fill="#ffd700" stroke="#ffffff" stroke-width="3" filter="url(#gloss)"/>
+  <ellipse cx="256" cy="280" rx="30" ry="50" fill="url(#mermaidBodyGradient)" stroke="#ffffff" stroke-width="3" filter="url(#gloss)"/>
+  <!-- Highlight on mermaid body -->
+  <ellipse cx="256" cy="260" rx="20" ry="15" fill="#ffffff" opacity="0.4"/>
+  <!-- Arms (candy canes) -->
+  <path d="M226 260 L180 220" stroke="url(#candyCane)" stroke-width="12" stroke-linecap="round"/>
+  <path d="M286 260 L332 220" stroke="url(#candyCane)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Candy raindrops (twist) -->
+  <g fill="#ff69b4">
+    <circle cx="100" cy="80" r="6"/>
+    <circle cx="300" cy="60" r="5"/>
+    <circle cx="400" cy="100" r="7"/>
+    <circle cx="150" cy="150" r="4"/>
+    <circle cx="350" cy="140" r="6"/>
+    <circle cx="80" cy="200" r="5"/>
+    <circle cx="450" cy="180" r="7"/>
+  </g>
+  <!-- Highlights on raindrops -->
+  <g fill="#ffffff" opacity="0.7">
+    <circle cx="100" cy="80" r="2"/>
+    <circle cx="300" cy="60" r="1.5"/>
+    <circle cx="400" cy="100" r="2.5"/>
+    <circle cx="150" cy="150" r="1"/>
+    <circle cx="350" cy="140" r="2"/>
+    <circle cx="80" cy="200" r="1.5"/>
+    <circle cx="450" cy="180" r="2.5"/>
+  </g>
+  <!-- Sparkle on cloud base -->
+  <circle cx="256" cy="320" r="12" fill="#ffffff" opacity="0.8"/>
+  <circle cx="256" cy="320" r="4" fill="#ffd700"/>
+
+  <!-- Fine candy details on cloud -->
+  <g fill="#ffffff" opacity="0.6">
+    <circle cx="200" cy="280" r="3"/>
+    <circle cx="310" cy="290" r="2.5"/>
+    <circle cx="180" cy="300" r="2"/>
+    <circle cx="330" cy="310" r="3"/>
+    <circle cx="250" cy="340" r="2.5"/>
+  </g>
+</svg>

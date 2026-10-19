@@ -1,0 +1,168 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky gradient: foggy morning -->
+    <linearGradient id="fogSky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#7d93af"/>
+      <stop offset="50%" stop-color="#abc0d4"/>
+      <stop offset="100%" stop-color="#d4dfee"/>
+    </linearGradient>
+    <!-- Morning sun glow -->
+    <radialGradient id="morningSun" cx="75%" cy="20%" r="45%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#ffebd0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#abc0d4" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Skyscraper rooftop gradient -->
+    <linearGradient id="roofGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0b1320"/>
+      <stop offset="100%" stop-color="#172133"/>
+    </linearGradient>
+    <!-- Peacock body gradient -->
+    <linearGradient id="peacockBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#020338"/>
+      <stop offset="30%" stop-color="#0066a2"/>
+      <stop offset="100%" stop-color="#00a8cc"/>
+    </linearGradient>
+    <!-- Fog layer -->
+    <linearGradient id="fogBank" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="40%" stop-color="#ffffff" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#f8fafc" stop-opacity="0.35"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background Sky & Sun -->
+  <rect width="512" height="512" fill="url(#fogSky)"/>
+  <rect width="512" height="512" fill="url(#morningSun)"/>
+
+  <!-- Distant Skyscrapers shrouded in heavy fog -->
+  <g opacity="0.32">
+    <rect x="10" y="80" width="120" height="432" fill="#3e4c5f"/>
+    <rect x="135" y="40" width="140" height="472" fill="#2a3646"/>
+    <rect x="350" y="100" width="135" height="412" fill="#3e4c5f"/>
+    
+    <!-- Distant windows with soft glow -->
+    <g fill="#94a3b8" opacity="0.4">
+      <rect x="30" y="110" width="14" height="22"/>
+      <rect x="60" y="110" width="14" height="22"/>
+      <rect x="90" y="110" width="14" height="22"/>
+      <rect x="30" y="160" width="14" height="22"/>
+      <rect x="60" y="160" width="14" height="22"/>
+      <rect x="90" y="160" width="14" height="22"/>
+
+      <rect x="160" y="70" width="16" height="24"/>
+      <rect x="194" y="70" width="16" height="24"/>
+      <rect x="228" y="70" width="16" height="24"/>
+      <rect x="160" y="120" width="16" height="24"/>
+      <rect x="194" y="120" width="16" height="24"/>
+      <rect x="228" y="120" width="16" height="24"/>
+
+      <rect x="375" y="130" width="15" height="22"/>
+      <rect x="405" y="130" width="15" height="22"/>
+      <rect x="435" y="130" width="15" height="22"/>
+    </g>
+  </g>
+
+  <!-- Mid-Level Dense Fog Band -->
+  <rect x="0" y="190" width="512" height="190" fill="url(#fogBank)"/>
+
+  <!-- Foreground Skyscraper Rooftop -->
+  <g id="rooftop">
+    <!-- Main roof deck -->
+    <polygon points="0,360 512,360 512,512 0,512" fill="url(#roofGrad)"/>
+    <!-- Parapet ledge with highlight -->
+    <rect x="0" y="345" width="512" height="20" fill="#060a12"/>
+    <rect x="0" y="338" width="512" height="7" fill="#2a3646"/>
+
+    <!-- Roof details & HVAC equipment -->
+    <rect x="350" y="270" width="100" height="75" fill="#0b1320"/>
+    <rect x="375" y="235" width="50" height="35" fill="#172133"/>
+    <line x1="400" y1="235" x2="400" y2="185" stroke="#64748b" stroke-width="6"/>
+    <circle cx="400" cy="178" r="6" fill="#ef4444"/>
+
+    <rect x="35" y="300" width="120" height="45" fill="#0b1320"/>
+    <path d="M70,300 L70,265 L110,265 L110,300" fill="none" stroke="#64748b" stroke-width="5"/>
+    
+    <!-- Rooftop access door/structure -->
+    <rect x="190" y="310" width="80" height="50" fill="#172133"/>
+    <rect x="210" y="325" width="40" height="35" fill="#060a12"/>
+  </g>
+
+  <!-- Thick Ground Fog Bank Over Roof -->
+  <ellipse cx="256" cy="355" rx="300" ry="32" fill="#ffffff" opacity="0.65"/>
+  <ellipse cx="140" cy="365" rx="190" ry="25" fill="#ffffff" opacity="0.75"/>
+
+  <!-- THE MAGNIFICENT PEACOCK -->
+  <g id="peacock" transform="translate(190, 120)">
+    <!-- Magnificent Fanned Tail Feathers (Full Majestic Fan) -->
+    <g id="fannedTail">
+      <!-- Outer radiant aura glow -->
+      <path d="M 60 155 L -40 25 Q 75 -15 190 25 Z" fill="#00b4d8" opacity="0.22"/>
+
+      <!-- Radiating feather stems and eyes -->
+      <g stroke="#0077b6" stroke-width="4.5" opacity="0.95">
+        <line x1="60" y1="155" x2="-40" y2="25"/>
+        <line x1="60" y1="155" x2="5" y2="10"/>
+        <line x1="60" y1="155" x2="55" y2="5"/>
+        <line x1="60" y1="155" x2="105" y2="5"/>
+        <line x1="60" y1="155" x2="155" y2="10"/>
+        <line x1="60" y1="155" x2="190" y2="25"/>
+      </g>
+
+      <!-- Feather Eyes (Spots) -->
+      <g fill="#ffd166" stroke="#020338" stroke-width="2.5">
+        <ellipse cx="-40" cy="25" rx="12" ry="17" transform="rotate(-60, -40, 25)"/>
+        <ellipse cx="5" cy="10" rx="12" ry="17" transform="rotate(-30, 5, 10)"/>
+        <ellipse cx="55" cy="5" rx="12" ry="17"/>
+        <ellipse cx="105" cy="5" rx="12" ry="17"/>
+        <ellipse cx="155" cy="10" rx="12" ry="17" transform="rotate(30, 155, 10)"/>
+        <ellipse cx="190" cy="25" rx="12" ry="17" transform="rotate(60, 190, 25)"/>
+      </g>
+      <g fill="#00b4d8">
+        <ellipse cx="-40" cy="25" rx="6.5" ry="9.5"/>
+        <ellipse cx="5" cy="10" rx="6.5" ry="9.5"/>
+        <ellipse cx="55" cy="5" rx="6.5" ry="9.5"/>
+        <ellipse cx="105" cy="5" rx="6.5" ry="9.5"/>
+        <ellipse cx="155" cy="10" rx="6.5" ry="9.5"/>
+        <ellipse cx="190" cy="25" rx="6.5" ry="9.5"/>
+      </g>
+    </g>
+
+    <!-- Peacock Legs standing firmly on roof -->
+    <g stroke="#caf0f8" stroke-width="5" stroke-linecap="round">
+      <line x1="48" y1="220" x2="42" y2="250"/>
+      <line x1="68" y1="220" x2="74" y2="250"/>
+    </g>
+
+    <!-- Peacock Body (Torso) -->
+    <ellipse cx="58" cy="175" rx="35" ry="50" fill="url(#peacockBody)" transform="rotate(-10, 58, 175)"/>
+    
+    <!-- Detailed Wing Feather Overlay -->
+    <path d="M 38,145 Q 65,160 52,195 Q 32,182 38,145" fill="#020338" opacity="0.82"/>
+    <path d="M 45,154 Q 60,164 52,188" fill="none" stroke="#00b4d8" stroke-width="2.5" opacity="0.9"/>
+
+    <!-- Elegant Long Neck -->
+    <path d="M 70,140 Q 98,82 80,50" fill="none" stroke="#0066a2" stroke-width="22" stroke-linecap="round"/>
+    <path d="M 70,140 Q 98,82 80,50" fill="none" stroke="#00b4d8" stroke-width="11" stroke-linecap="round" opacity="0.85"/>
+
+    <!-- Peacock Head -->
+    <circle cx="80" cy="38" r="16" fill="#0066a2"/>
+    <!-- Beak -->
+    <polygon points="93,35 114,39 93,43" fill="#f4a261"/>
+    <!-- Eye -->
+    <circle cx="84" cy="34" rx="3.8" ry="3.8" fill="#ffffff"/>
+    <circle cx="85" cy="34" rx="1.6" ry="1.6" fill="#000000"/>
+
+    <!-- Crown Crest on Head -->
+    <g stroke="#00b4d8" stroke-width="3.5" stroke-linecap="round" fill="none">
+      <path d="M 75,23 L 66,6 M 79,23 L 80,3 M 83,23 L 92,6"/>
+      <circle cx="66" cy="5" r="3.4" fill="#ffd166"/>
+      <circle cx="80" cy="2" r="3.4" fill="#ffd166"/>
+      <circle cx="92" cy="5" r="3.4" fill="#ffd166"/>
+    </g>
+  </g>
+
+  <!-- Foreground Atmospheric Mist Wisps -->
+  <path d="M 0 290 Q 180 275 256 310 T 512 290 L 512 512 L 0 512 Z" fill="#ffffff" opacity="0.28"/>
+  <path d="M 0 340 Q 200 320 350 365 T 512 330 L 512 512 L 0 512 Z" fill="#ffffff" opacity="0.4"/>
+</svg>

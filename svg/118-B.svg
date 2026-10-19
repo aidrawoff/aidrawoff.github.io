@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a4a"/>
+      <stop offset="1" stop-color="#4a6fa5"/>
+    </linearGradient>
+  </defs>
+  <!-- sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="420" cy="90" r="46" fill="#fff4c2"/>
+  <circle cx="60" cy="60" r="2" fill="#fff"/>
+  <circle cx="150" cy="40" r="2" fill="#fff"/>
+  <circle cx="300" cy="70" r="2" fill="#fff"/>
+  <circle cx="470" cy="200" r="2" fill="#fff"/>
+  <!-- ground and eucalyptus -->
+  <rect x="0" y="430" width="512" height="82" fill="#3d6b35"/>
+  <path d="M0 430 Q256 410 512 430 L512 440 L0 440 Z" fill="#2f5a2a"/>
+  <!-- koala body -->
+  <ellipse cx="256" cy="330" rx="88" ry="100" fill="#9aa3ad"/>
+  <ellipse cx="256" cy="345" rx="50" ry="62" fill="#e4e8ec"/>
+  <!-- arms flung out -->
+  <path d="M176 300 Q110 240 80 170" stroke="#8a939d" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <path d="M336 300 Q402 240 432 170" stroke="#8a939d" stroke-width="30" stroke-linecap="round" fill="none"/>
+  <!-- legs -->
+  <ellipse cx="210" cy="420" rx="26" ry="16" fill="#8a939d"/>
+  <ellipse cx="302" cy="420" rx="26" ry="16" fill="#8a939d"/>
+  <!-- head -->
+  <circle cx="256" cy="200" r="78" fill="#9aa3ad"/>
+  <circle cx="200" cy="140" r="34" fill="#8a939d"/>
+  <circle cx="312" cy="140" r="34" fill="#8a939d"/>
+  <circle cx="200" cy="142" r="20" fill="#d9a6a6"/>
+  <circle cx="312" cy="142" r="20" fill="#d9a6a6"/>
+  <circle cx="200" cy="140" r="16" fill="#e4e8ec"/>
+  <circle cx="312" cy="140" r="16" fill="#e4e8ec"/>
+  <ellipse cx="256" cy="232" rx="34" ry="26" fill="#e4e8ec"/>
+  <ellipse cx="256" cy="218" rx="13" ry="10" fill="#222"/>
+  <!-- eyes, determined -->
+  <path d="M220 190 Q236 178 250 190" stroke="#222" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M262 190 Q276 178 292 190" stroke="#222" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M212 200 Q230 180 246 196" fill="#222" opacity="0"/>
+  <path d="M236 200 L246 214" stroke="#222" stroke-width="4"/>
+  <path d="M276 200 L266 214" stroke="#222" stroke-width="4"/>
+  <!-- strained grin -->
+  <path d="M240 244 Q256 256 272 244" stroke="#222" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- lift-off: shadow left on the grass, wind streaks, leaf sprigs -->
+  <ellipse cx="256" cy="440" rx="90" ry="10" fill="#244d22"/>
+  <circle cx="236" cy="176" r="8" fill="#ffffff" opacity="0.8"/>
+  <path d="M190 330 Q196 380 230 396" stroke="#6f7882" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M40 300 L120 300 M30 330 L110 330 M50 360 L120 360" stroke="#c9dcff" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M400 300 L480 300 M410 330 L490 330 M400 360 L470 360" stroke="#c9dcff" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M70 160 Q56 140 40 146 Q52 160 70 160 Z" fill="#5f9e4d"/>
+  <path d="M442 160 Q456 140 472 146 Q460 160 442 160 Z" fill="#5f9e4d"/>
+</svg>

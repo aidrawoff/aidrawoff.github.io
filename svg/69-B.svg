@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23f"/>
+      <stop offset="0.55" stop-color="#ff8a1f"/>
+      <stop offset="1" stop-color="#ef4b2c"/>
+    </linearGradient>
+    <linearGradient id="boxsh" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#000" stop-opacity="0.22"/>
+      <stop offset="0.12" stop-color="#000" stop-opacity="0"/>
+      <stop offset="0.9" stop-color="#000" stop-opacity="0"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- table backdrop + box drop shadow -->
+  <rect width="512" height="512" fill="#2b2233"/>
+  <rect x="34" y="26" width="452" height="470" rx="10" fill="#000" opacity="0.45"/>
+
+  <!-- FRONT PANEL -->
+  <rect x="26" y="18" width="452" height="470" rx="8" fill="url(#sky)"/>
+  <rect x="26" y="18" width="452" height="470" rx="8" fill="url(#boxsh)"/>
+  <rect x="26" y="18" width="452" height="470" rx="8" fill="none" stroke="#7a1a12" stroke-width="6"/>
+  <rect x="38" y="30" width="428" height="446" rx="5" fill="none" stroke="#fff8e7" stroke-width="2" stroke-dasharray="7 6" opacity="0.8"/>
+
+  <!-- sunburst behind scene -->
+  <circle cx="248" cy="262" r="150" fill="#fff3c4" opacity="0.55"/>
+
+  <!-- BRAND TYPE -->
+  <text x="252" y="96" font-family="Impact,Haettenschweiler,'Arial Black',sans-serif" font-size="62" font-weight="900" text-anchor="middle" fill="#7a1a12" transform="rotate(-3 252 96)">K9 FLAKES</text>
+  <text x="248" y="92" font-family="Impact,Haettenschweiler,'Arial Black',sans-serif" font-size="62" font-weight="900" text-anchor="middle" fill="#fffbe6" stroke="#7a1a12" stroke-width="3" transform="rotate(-3 248 92)">K9 FLAKES</text>
+  <text x="250" y="126" font-family="'Trebuchet MS',Verdana,sans-serif" font-size="19" font-weight="bold" text-anchor="middle" fill="#123f6b" transform="rotate(-3 250 126)">WALKS YOUR MORNING!</text>
+
+  <!-- ground / sidewalk -->
+  <rect x="44" y="336" width="416" height="96" fill="#5f7d3a"/>
+  <rect x="44" y="336" width="416" height="14" fill="#7fa352"/>
+  <path d="M60 402 Q252 380 444 404" stroke="#c9c2ae" stroke-width="26" fill="none" stroke-linecap="round"/>
+
+  <!-- HUMAN being walked (behind dog's pull) -->
+  <g transform="rotate(14 330 300)">
+    <ellipse cx="330" cy="238" rx="21" ry="23" fill="#f3c19a"/>
+    <path d="M310 232 q20 -26 40 0 q-6 -20 -20 -20 q-16 0 -20 20z" fill="#4a2c1a"/>
+    <circle cx="323" cy="238" r="3" fill="#1c1c1c"/>
+    <circle cx="338" cy="238" r="3" fill="#1c1c1c"/>
+    <path d="M322 252 q9 6 18 0" stroke="#8a4b32" stroke-width="3" fill="none"/>
+    <rect x="308" y="258" width="44" height="60" rx="14" fill="#2a6fb0"/>
+    <rect x="312" y="312" width="16" height="46" rx="8" fill="#28324a"/>
+    <rect x="334" y="310" width="16" height="48" rx="8" fill="#28324a"/>
+    <ellipse cx="316" cy="360" rx="14" ry="7" fill="#111"/>
+    <ellipse cx="352" cy="358" rx="14" ry="7" fill="#111"/>
+    <!-- arms flung up holding leash -->
+    <path d="M312 266 L288 236" stroke="#f3c19a" stroke-width="13" stroke-linecap="round"/>
+    <path d="M348 266 L372 240" stroke="#f3c19a" stroke-width="13" stroke-linecap="round"/>
+  </g>
+
+  <!-- DOG striding forward -->
+  <g>
+    <path d="M150 296 q-30 -6 -34 -30" stroke="#e9e2cf" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <ellipse cx="196" cy="292" rx="52" ry="34" fill="#f6f1e2"/>
+    <ellipse cx="196" cy="300" rx="46" ry="22" fill="#e9e2cf"/>
+    <path d="M170 318 l-6 40" stroke="#f6f1e2" stroke-width="15" stroke-linecap="round"/>
+    <path d="M214 320 l8 38" stroke="#f6f1e2" stroke-width="15" stroke-linecap="round"/>
+    <path d="M186 320 l2 34" stroke="#e9e2cf" stroke-width="13" stroke-linecap="round"/>
+    <path d="M228 314 l18 30" stroke="#e9e2cf" stroke-width="13" stroke-linecap="round"/>
+    <ellipse cx="146" cy="262" rx="30" ry="26" fill="#f6f1e2"/>
+    <path d="M126 244 q-14 -26 6 -30 q8 14 12 26z" fill="#d9cfb6"/>
+    <path d="M166 242 q16 -24 26 -12 q-8 16 -20 20z" fill="#d9cfb6"/>
+    <ellipse cx="124" cy="268" rx="14" ry="11" fill="#fffdf5"/>
+    <ellipse cx="118" cy="266" rx="6" ry="5" fill="#2a2a2a"/>
+    <circle cx="152" cy="256" r="4" fill="#2a2a2a"/>
+    <path d="M132 276 q10 6 22 2" stroke="#8a4b32" stroke-width="3" fill="none"/>
+    <path d="M162 282 q10 10 22 8" stroke="#c8342a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- LEASH: taut from collar up to human's hands -->
+  <path d="M176 288 Q240 214 296 244" stroke="#c8342a" stroke-width="6" fill="none"/>
+  <path d="M176 288 Q240 214 296 244" stroke="#ff6b4a" stroke-width="2" fill="none" opacity="0.8"/>
+
+  <!-- cereal bits flying -->
+  <g fill="#ffb703">
+    <circle cx="96" cy="180" r="9"/><circle cx="404" cy="168" r="11"/>
+    <circle cx="72" cy="252" r="7"/><circle cx="428" cy="246" r="8"/>
+  </g>
+
+  <!-- BOTTOM BAND -->
+  <rect x="44" y="430" width="416" height="46" rx="6" fill="#fffbe6"/>
+  <text x="60" y="459" font-family="'Trebuchet MS',Verdana,sans-serif" font-size="17" font-weight="bold" fill="#7a1a12">NEW! LEASH-FREE CRUNCH</text>
+  <rect x="386" y="436" width="66" height="34" fill="#fffbe6"/>
+  <g stroke="#1c1c1c">
+    <path d="M390 438v30 M394 438v30 M397 438v30 M402 438v30 M405 438v30 M410 438v30 M414 438v30 M417 438v30 M422 438v30 M426 438v30 M429 438v30 M434 438v30 M438 438v30 M441 438v30 M447 438v30 M450 438v30" stroke-width="1.6"/>
+  </g>
+  <text x="386" y="484" font-family="monospace" font-size="10" fill="#fffbe6">NET WT 14 OZ (397g)</text>
+
+  <!-- starburst -->
+  <g transform="translate(404,116) rotate(12)">
+    <path d="M0 -40 L9 -14 L36 -22 L18 -3 L40 18 L12 15 L4 42 L-6 16 L-34 24 L-17 2 L-38 -16 L-11 -14 Z" fill="#2a6fb0" stroke="#fffbe6" stroke-width="3"/>
+    <text x="0" y="-2" font-family="Impact,sans-serif" font-size="14" text-anchor="middle" fill="#fffbe6">100%</text>
+    <text x="0" y="14" font-family="Impact,sans-serif" font-size="13" text-anchor="middle" fill="#ffe066">DAILY</text>
+  </g>
+</svg>

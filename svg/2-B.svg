@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient: Noir workshop mood -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0e14"/>
+      <stop offset="100%" stop-color="#141a23"/>
+    </linearGradient>
+    
+    <!-- Warm Desk Lamp Cone -->
+    <radialGradient id="lampGlow" cx="50%" cy="0%" r="85%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#0a0e14" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Robot Metallic Shading -->
+    <linearGradient id="metalGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="40%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fb923c"/>
+      <stop offset="50%" stop-color="#ea580c"/>
+      <stop offset="100%" stop-color="#9a3412"/>
+    </linearGradient>
+
+    <!-- Yarn Gradient (Crimson Red) -->
+    <linearGradient id="yarnGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#9f1239"/>
+    </linearGradient>
+
+    <!-- Sweater Wool Gradient -->
+    <linearGradient id="sweaterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e11d48"/>
+      <stop offset="100%" stop-color="#881337"/>
+    </linearGradient>
+
+    <!-- Ghost Glow -->
+    <filter id="ghostGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Window Blind Shadow Effect -->
+    <linearGradient id="windowLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.03"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  
+  <!-- Detective Noir Venetian Blind Light Streaks on Back Wall -->
+  <g fill="url(#windowLight)">
+    <polygon points="0,0 190,0 110,512 0,512"/>
+    <polygon points="220,0 340,0 260,512 140,512"/>
+    <polygon points="370,0 512,0 420,512 290,512"/>
+  </g>
+
+  <!-- Brick / Workshop Wall Details -->
+  <g stroke="#1e293b" stroke-width="1.5" opacity="0.35">
+    <line x1="0" y1="90" x2="512" y2="90"/>
+    <line x1="0" y1="180" x2="512" y2="180"/>
+    <line x1="0" y1="270" x2="512" y2="270"/>
+    <line x1="128" y1="0" x2="128" y2="270"/>
+    <line x1="256" y1="0" x2="256" y2="270"/>
+    <line x1="384" y1="0" x2="384" y2="270"/>
+  </g>
+
+  <!-- Wooden Floor -->
+  <rect x="0" y="370" width="512" height="142" fill="#070a0f"/>
+  <line x1="0" y1="370" x2="512" y2="370" stroke="#1e293b" stroke-width="4"/>
+  <line x1="0" y1="420" x2="512" y2="420" stroke="#04060a" stroke-width="3"/>
+  <line x1="0" y1="470" x2="512" y2="470" stroke="#04060a" stroke-width="3"/>
+
+  <!-- Dramatic Overhead Lamp Light Cone -->
+  <polygon points="256,0 500,512 12,512" fill="url(#lampGlow)" style="mix-blend-mode: screen;"/>
+
+  <!-- Lamp Fixture & Cord -->
+  <line x1="256" y1="0" x2="256" y2="35" stroke="#334155" stroke-width="3"/>
+  <ellipse cx="256" cy="35" rx="30" ry="12" fill="#334155"/>
+  <ellipse cx="256" cy="38" rx="20" ry="7" fill="#1e293b"/>
+  <circle cx="256" cy="42" r="10" fill="#facc15" filter="url(#ghostGlow)"/>
+
+  <!-- WORKBENCH / TABLE -->
+  <rect x="80" y="330" width="352" height="40" rx="6" fill="#334155" stroke="#475569" stroke-width="2"/>
+  <rect x="100" y="370" width="28" height="142" fill="#1e293b"/>
+  <rect x="384" y="370" width="28" height="142" fill="#1e293b"/>
+  <!-- Table shadow overlay -->
+  <rect x="80" y="330" width="352" height="10" fill="#000000" opacity="0.4"/>
+
+  <!-- YARN BALL & BASKET ON TABLE -->
+  <g transform="translate(110, 280)">
+    <!-- Little wicker basket base -->
+    <ellipse cx="40" cy="65" rx="35" ry="15" fill="#78350f"/>
+    <!-- Yarn Ball -->
+    <circle cx="40" cy="35" r="28" fill="url(#yarnGrad)" stroke="#fda4af" stroke-width="1"/>
+    <!-- Yarn strand curves -->
+    <path d="M15,25 Q40,10 65,25 Q40,55 15,25" fill="none" stroke="#ffe4e6" stroke-width="2.5" opacity="0.7"/>
+    <path d="M20,15 Q40,40 60,15" fill="none" stroke="#ffe4e6" stroke-width="2.5" opacity="0.7"/>
+    <path d="M25,48 Q40,20 55,48" fill="none" stroke="#ffe4e6" stroke-width="2" opacity="0.7"/>
+    <!-- Loose yarn thread winding up to the robot -->
+    <path d="M 60,25 C 80,0 100,20 145,60" fill="none" stroke="#f43f5e" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- SECONDARY NOIR PROP: COFFEE MUG WITH STEAM -->
+  <g transform="translate(350, 300)">
+    <rect x="0" y="10" width="24" height="30" rx="4" fill="#cbd5e1" stroke="#94a3b8" stroke-width="1.5"/>
+    <path d="M 24,16 C 32,16 32,30 24,30" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+    <!-- Steam wisps -->
+    <path d="M 8,5 Q 4,-5 12,-15 Q 16,-22 10,-30" fill="none" stroke="#f8fafc" stroke-width="1.5" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 16,8 Q 20,0 14,-10 Q 8,-18 18,-26" fill="none" stroke="#f8fafc" stroke-width="1.5" opacity="0.4" stroke-linecap="round"/>
+  </g>
+
+  <!-- ROBOT & STOOL -->
+  <!-- Stool -->
+  <ellipse cx="256" cy="330" rx="55" ry="12" fill="#475569" stroke="#64748b" stroke-width="2"/>
+  <line x1="220" y1="340" x2="190" y2="440" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
+  <line x1="292" y1="340" x2="322" y2="440" stroke="#334155" stroke-width="10" stroke-linecap="round"/>
+  <line x1="215" y1="395" x2="297" y2="395" stroke="#1e293b" stroke-width="6"/> <!-- Footrest bar -->
+
+  <!-- Robot Torso -->
+  <rect x="206" y="190" width="100" height="120" rx="16" fill="url(#metalGrad)" stroke="#475569" stroke-width="3"/>
+  
+  <!-- Chest Control Panel / Detective Badge Motif -->
+  <rect x="226" y="210" width="60" height="40" rx="8" fill="#0f172a" stroke="#64748b" stroke-width="2"/>
+  <!-- Status Lights -->
+  <circle cx="240" cy="230" r="6" fill="#ef4444" filter="url(#ghostGlow)"/>
+  <circle cx="256" cy="230" r="6" fill="#eab308"/>
+  <circle cx="272" cy="230" r="6" fill="#22c55e"/>
+  <!-- Mini pressure gauge needle -->
+  <line x1="256" y1="242" x2="264" y2="236" stroke="#38bdf8" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Robot Neck (Copper Pistons) -->
+  <rect x="246" y="166" width="20" height="26" fill="url(#copperGrad)" rx="3"/>
+  <line x1="242" y1="176" x2="270" y2="176" stroke="#1e293b" stroke-width="2"/>
+  <line x1="242" y1="186" x2="270" y2="186" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Robot Head -->
+  <rect x="206" y="86" width="100" height="84" rx="18" fill="url(#metalGrad)" stroke="#475569" stroke-width="3"/>
+  
+  <!-- Ear Dials / Bolts -->
+  <rect x="198" y="115" width="10" height="24" rx="3" fill="url(#copperGrad)"/>
+  <rect x="304" y="115" width="10" height="24" rx="3" fill="url(#copperGrad)"/>
+
+  <!-- Antenna -->
+  <line x1="256" y1="86" x2="256" y2="56" stroke="#64748b" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="256" cy="48" r="9" fill="#38bdf8" filter="url(#ghostGlow)"/>
+  <!-- Radio waves from antenna -->
+  <path d="M 242,38 Q 256,28 270,38" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Glowing Detective Eyes (Focused & Intent) -->
+  <rect x="220" y="112" width="28" height="14" rx="5" fill="#0284c7"/>
+  <rect x="264" y="112" width="28" height="14" rx="5" fill="#0284c7"/>
+  <!-- Inner intense cyan glow -->
+  <rect x="223" y="114" width="22" height="10" rx="3" fill="#38bdf8"/>
+  <rect x="267" y="114" width="22" height="10" rx="3" fill="#38bdf8"/>
+  <!-- Detective Eyebrows (Determined angle) -->
+  <line x1="218" y1="108" x2="248" y2="114" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+  <line x1="294" y1="108" x2="264" y2="114" stroke="#1e293b" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Mouth Speaker Grille -->
+  <line x1="236" y1="145" x2="276" y2="145" stroke="#1e293b" stroke-width="3.5" stroke-linecap="round"/>
+  <line x1="242" y1="153" x2="270" y2="153" stroke="#1e293b" stroke-width="3.5" stroke-linecap="round"/>
+
+  <!-- Articulated Arms & Hands -->
+  <!-- Left Arm -->
+  <path d="M 206,210 C 160,210 150,245 175,270" fill="none" stroke="url(#metalGrad)" stroke-width="16" stroke-linecap="round"/>
+  <!-- Right Arm -->
+  <path d="M 306,210 C 352,210 362,245 337,270" fill="none" stroke="url(#metalGrad)" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Precision Claws / Hands -->
+  <circle cx="175" cy="275" r="9" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+  <circle cx="337" cy="275" r="9" fill="#cbd5e1" stroke="#475569" stroke-width="2"/>
+
+  <!-- KNITTING: SWEATER WORK IN PROGRESS & NEEDLES -->
+  <g transform="translate(186, 250)">
+    <!-- Detailed Knitted Sweater Body -->
+    <path d="M 30,10 Q 70,0 110,10 L 122,75 Q 70,95 18,75 Z" fill="url(#sweaterGrad)" stroke="#fda4af" stroke-width="2"/>
+    
+    <!-- Cable Knit & Ribbing Patterns -->
+    <path d="M 35,22 Q 70,14 105,22" fill="none" stroke="#ffe4e6" stroke-width="3" stroke-dasharray="5,3"/>
+    <path d="M 30,35 Q 70,27 110,35" fill="none" stroke="#ffe4e6" stroke-width="3" stroke-dasharray="5,3"/>
+    <path d="M 25,48 Q 70,40 115,48" fill="none" stroke="#ffe4e6" stroke-width="3" stroke-dasharray="5,3"/>
+    <path d="M 22,61 Q 70,53 118,61" fill="none" stroke="#ffe4e6" stroke-width="3" stroke-dasharray="5,3"/>
+
+    <!-- Polished Knitting Needles crossing -->
+    <line x1="-15" y1="-25" x2="155" y2="75" stroke="#f8fafc" stroke-width="6" stroke-linecap="round" stroke-dasharray="none"/>
+    <!-- Needle Knob (Left) -->
+    <circle cx="-15" cy="-25" r="7" fill="#f43f5e" stroke="#ffe4e6" stroke-width="1.5"/>
+    
+    <line x1="150" y1="-20" x2="-10" y2="65" stroke="#f8fafc" stroke-width="6" stroke-linecap="round"/>
+    <!-- Needle Knob (Right) -->
+    <circle cx="150" cy="-20" r="7" fill="#f43f5e" stroke="#ffe4e6" stroke-width="1.5"/>
+  </g>
+
+  <!-- TWIST: TINY GHOST (Helping with yarn!) -->
+  <g transform="translate(330, 200)" filter="url(#ghostGlow)">
+    <!-- Floating Ghost Body -->
+    <path d="M 25,0 C 42,0 55,18 55,40 L 55,85 Q 48,95 42,85 Q 36,75 30,85 Q 24,95 18,85 Q 12,75 6,85 Q 0,95 -5,85 L -5,40 C -5,18 8,0 25,0 Z" fill="#f8fafc" opacity="0.95"/>
+    <!-- Ghost Eyes (Curious & Friendly) -->
+    <circle cx="15" cy="30" r="3.5" fill="#0f172a"/>
+    <circle cx="35" cy="30" r="3.5" fill="#0f172a"/>
+    <!-- Happy Smile -->
+    <path d="M 21,38 Q 25,44 29,38" fill="none" stroke="#0f172a" stroke-width="2.5" stroke-linecap="round"/>
+    <!-- Tiny ghost holding a glowing yarn thread -->
+    <path d="M -5,45 C -25,40 -40,30 -60,20" fill="none" stroke="#f43f5e" stroke-width="3" stroke-dasharray="4,2"/>
+    <!-- Little floating sparkles around ghost -->
+    <circle cx="-15" cy="15" r="2" fill="#fef08a"/>
+    <circle cx="65" cy="50" r="1.5" fill="#fef08a"/>
+  </g>
+
+  <!-- Atmospheric Dust Motes / Sparkles in Light Beam -->
+  <circle cx="140" cy="160" r="2.5" fill="#fef08a" opacity="0.7"/>
+  <circle cx="380" cy="140" r="2" fill="#fef08a" opacity="0.6"/>
+  <circle cx="280" cy="90" r="2" fill="#fef08a" opacity="0.8"/>
+  <circle cx="180" cy="220" r="1.5" fill="#fef08a" opacity="0.5"/>
+  <circle cx="340" cy="100" r="2.5" fill="#fef08a" opacity="0.7"/>
+</svg>

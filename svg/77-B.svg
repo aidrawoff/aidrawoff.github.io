@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Sky gradient -->
+  <defs>
+    <radialGradient id="skyg" cx="0.3" cy="0.2">
+      <stop offset="0%" stop-color="#2d1b69"/>
+      <stop offset="100%" stop-color="#0d0518"/>
+    </radialGradient>
+    <radialGradient id="moong" cx="0.4" cy="0.4">
+      <stop offset="0%" stop-color="#fffbe6"/>
+      <stop offset="100%" stop-color="#e8dcc8"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5">
+      <stop offset="0%" stop-color="#ff6b9d" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#ff6b9d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  
+  <rect width="512" height="512" fill="url(#skyg)"/>
+  
+  <!-- Moon -->
+  <circle cx="400" cy="80" r="50" fill="url(#moong)" opacity="0.95"/>
+  <circle cx="375" cy="65" r="10" fill="#c4b8a0" opacity="0.4"/>
+  <circle cx="420" cy="85" r="8" fill="#c4b8a0" opacity="0.3"/>
+  <circle cx="395" cy="105" r="9" fill="#c4b8a0" opacity="0.35"/>
+  <circle cx="430" cy="60" r="6" fill="#c4b8a0" opacity="0.25"/>
+  
+  <!-- Stars -->
+  <circle cx="50" cy="50" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="120" cy="30" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="300" cy="60" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="480" cy="40" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="460" cy="120" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="80" cy="150" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="340" cy="130" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="180" cy="40" r="1.5" fill="#fff" opacity="0.7"/>
+  
+  <!-- Ground -->
+  <ellipse cx="256" cy="465" rx="240" ry="50" fill="#1e1233"/>
+  <ellipse cx="256" cy="460" rx="200" ry="35" fill="#2d1b4e"/>
+  
+  <!-- Witch shadow -->
+  <ellipse cx="200" cy="470" rx="40" ry="8" fill="#0d0518" opacity="0.5"/>
+  
+  <!-- Witch dress -->
+  <path d="M165,420 Q160,380 175,350 Q200,340 225,350 Q240,380 235,420 Q200,435 165,420Z" fill="#1a1a3e"/>
+  <path d="M175,350 Q200,360 225,350" fill="none" stroke="#2d2d5e" stroke-width="2"/>
+  
+  <!-- Witch collar/cape -->
+  <path d="M170,340 Q200,370 230,340 L225,350 Q200,380 175,350Z" fill="#2d2d5e"/>
+  
+  <!-- Witch head -->
+  <ellipse cx="200" cy="325" rx="22" ry="26" fill="#f0c8a0"/>
+  
+  <!-- Witch hat -->
+  <polygon points="165,310 200,210 235,310" fill="#1a1a3e"/>
+  <ellipse cx="200" cy="310" rx="42" ry="10" fill="#1a1a3e"/>
+  <ellipse cx="200" cy="308" rx="42" ry="4" fill="#2d2d5e"/>
+  <polygon points="185,260 200,210 215,260" fill="#ff6b9d" opacity="0.3"/>
+  
+  <!-- Face -->
+  <circle cx="192" cy="320" r="3.5" fill="#1a1a3e"/>
+  <circle cx="208" cy="320" r="3.5" fill="#1a1a3e"/>
+  <ellipse cx="200" cy="335" rx="5" ry="9" fill="#1a1a3e"/>
+  <ellipse cx="200" cy="332" rx="2" ry="4" fill="#fff" opacity="0.3"/>
+  <!-- Blush -->
+  <ellipse cx="185" cy="332" rx="4" ry="2.5" fill="#ff6b9d" opacity="0.25"/>
+  <ellipse cx="215" cy="332" rx="4" ry="2.5" fill="#ff6b9d" opacity="0.25"/>
+  
+  <!-- Hair -->
+  <path d="M178,310 Q185,325 178,335" fill="none" stroke="#1a1a3e" stroke-width="4" stroke-linecap="round"/>
+  <path d="M222,310 Q215,325 222,335" fill="none" stroke="#1a1a3e" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Arms flailing -->
+  <line x1="178" y1="355" x2="125" y2="310" stroke="#f0c8a0" stroke-width="7" stroke-linecap="round"/>
+  <line x1="222" y1="355" x2="275" y2="295" stroke="#f0c8a0" stroke-width="7" stroke-linecap="round"/>
+  <!-- Hands -->
+  <circle cx="125" cy="310" r="5" fill="#f0c8a0"/>
+  <circle cx="275" cy="295" r="5" fill="#f0c8a0"/>
+  
+  <!-- Legs running -->
+  <line x1="185" y1="425" x2="155" y2="475" stroke="#1a1a3e" stroke-width="9" stroke-linecap="round"/>
+  <line x1="215" y1="425" x2="255" y2="465" stroke="#1a1a3e" stroke-width="9" stroke-linecap="round"/>
+  <!-- Shoes -->
+  <ellipse cx="150" cy="478" rx="10" ry="5" fill="#2d2d5e"/>
+  <ellipse cx="260" cy="468" rx="10" ry="5" fill="#2d2d5e"/>
+  
+  <!-- Magic sparkles trailing behind -->
+  <circle cx="120" cy="300" r="5" fill="url(#glow)"/>
+  <circle cx="120" cy="300" r="3" fill="#ff6b9d"/>
+  <circle cx="90" cy="275" r="4" fill="#00d4aa"/>
+  <circle cx="65" cy="295" r="3" fill="#ffd700"/>
+  <circle cx="105" cy="255" r="4" fill="#ff6b9d"/>
+  <circle cx="70" cy="260" r="2.5" fill="#00d4aa"/>
+  <circle cx="50" cy="280" r="3" fill="#ffd700"/>
+  
+  <!-- Magic trail lines -->
+  <path d="M140,315 Q110,290 80,280" fill="none" stroke="#ff6b9d" stroke-width="2" opacity="0.5" stroke-dasharray="4,4"/>
+  <path d="M130,305 Q100,270 70,265" fill="none" stroke="#00d4aa" stroke-width="1.5" opacity="0.4" stroke-dasharray="3,3"/>
+  
+  <!-- "OOPS!" speech bubble -->
+  <ellipse cx="285" cy="195" rx="50" ry="28" fill="#fff" opacity="0.95"/>
+  <polygon points="260,218 235,250 270,223" fill="#fff" opacity="0.95"/>
+  <ellipse cx="285" cy="195" rx="46" ry="24" fill="none" stroke="#1a0f2e" stroke-width="2"/>
+  <text x="285" y="203" text-anchor="middle" font-family="sans-serif" font-size="20" font-weight="bold" fill="#1a0f2e">OOPS!</text>
+  
+  <!-- Forgotten broom leaning on house -->
+  <!-- House body -->
+  <rect x="370" y="210" width="70" height="130" rx="4" fill="#3d2b1f"/>
+  <rect x="375" y="215" width="60" height="120" rx="2" fill="#4a3525"/>
+  <!-- Roof -->
+  <polygon points="365,210 405,165 445,210" fill="#2d1b0f"/>
+  <polygon points="375,210 405,175 435,210" fill="#3d2b1f"/>
+  <!-- Chimney -->
+  <rect x="420" y="175" width="12" height="30" fill="#5c4033"/>
+  <rect x="418" y="170" width="16" height="6" fill="#3d2b1f"/>
+  <!-- Window -->
+  <rect x="390" y="240" width="20" height="25" rx="2" fill="#ffd700" opacity="0.6"/>
+  <line x1="400" y1="240" x2="400" y2="265" stroke="#3d2b1f" stroke-width="2"/>
+  <line x1="390" y1="252" x2="410" y2="252" stroke="#3d2b1f" stroke-width="2"/>
+  <!-- Door -->
+  <rect x="395" y="290" width="18" height="50" rx="2" fill="#2d1b0f"/>
+  <circle cx="408" cy="315" r="2" fill="#d4a843"/>
+  
+  <!-- Broom -->
+  <line x1="425" y1="210" x2="475" y2="455" stroke="#8b6914" stroke-width="6" stroke-linecap="round"/>
+  <!-- Broom bristles -->
+  <polygon points="470,450 495,465 485,475 460,460" fill="#d4a843"/>
+  <polygon points="472,452 497,467 487,477 462,462" fill="none" stroke="#b8953a" stroke-width="1.5"/>
+  <line x1="475" y1="455" x2="490" y2="470" stroke="#b8953a" stroke-width="1"/>
+  <line x1="472" y1="458" x2="485" y2="472" stroke="#b8953a" stroke-width="1"/>
+  
+  <!-- Broom glow (magic still on it) -->
+  <circle cx="480" cy="465" r="12" fill="url(#glow)" opacity="0.4"/>
+  
+  <!-- Small cauldron near house -->
+  <ellipse cx="350" cy="450" rx="18" ry="8" fill="#1a1a3e"/>
+  <ellipse cx="350" cy="440" rx="14" ry="6" fill="#2d2d5e"/>
+  <ellipse cx="350" cy="438" rx="10" ry="4" fill="#00d4aa" opacity="0.5"/>
+</svg>

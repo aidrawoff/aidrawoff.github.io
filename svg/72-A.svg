@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#17134a"/><stop offset="1" stop-color="#5b247a"/></linearGradient>
+ <linearGradient id="track" x2="0" y2="1"><stop stop-color="#ffcf4a"/><stop offset="1" stop-color="#d64b3d"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fff7c2"/><stop offset="1" stop-color="#ffc85a"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="405" cy="92" r="48" fill="url(#moon)"/>
+<g fill="#252053" opacity=".9"><path d="M0 278V205h28v38h22v-70h31v102h27v-56h34v59h29v-91h34v91h30v-46h27v46h34v-77h32v77h32v-117h33v117h34v-52h27v52h40v234H0z"/></g>
+<g fill="none" stroke="#201735" stroke-width="10" stroke-linecap="round"><path d="M25 480 Q65 360 125 400 T215 378 T300 430 T380 365 T500 405"/><path d="M32 480 Q75 383 127 423 T215 401 T300 453 T380 388 T500 428"/></g>
+<g stroke="#9d5b55" stroke-width="8"><path d="M65 465v-77M120 430v-61M180 425v-65M245 428v-72M315 437v-74M380 403v-70M448 421v-70"/></g>
+<path d="M0 480 Q65 345 125 385 T215 363 T300 415 T380 350 T512 390 L512 415 Q440 375 380 375 T300 440 T215 388 T125 410 T0 505Z" fill="url(#track)" stroke="#ffe58a" stroke-width="5"/>
+<!-- coaster car --> <g transform="translate(138 278) rotate(-8)"><path d="M0 42 Q20 5 65 9 L150 21 Q177 25 188 49 L184 74 L8 67Z" fill="#ec3f55" stroke="#35163f" stroke-width="7"/><circle cx="35" cy="73" r="13" fill="#21162f" stroke="#ffcf4a" stroke-width="6"/><circle cx="154" cy="73" r="13" fill="#21162f" stroke="#ffcf4a" stroke-width="6"/><path d="M45 30h100" stroke="#ffdb65" stroke-width="8"/></g>
+<!-- goat --> <g stroke="#30203a" stroke-width="7" stroke-linejoin="round"><path d="M183 287 Q177 238 202 205 Q220 181 254 185 Q288 189 306 222 L330 272 L298 310 L222 310Z" fill="#f4eee0"/><path d="M236 205 Q216 174 222 139 Q240 153 250 171 Q270 140 292 146 Q286 180 270 201Z" fill="#f4eee0"/><path d="M230 158 Q213 130 224 114 Q242 130 253 150 M281 156 Q304 133 319 140 Q307 163 289 174" fill="#b77a52"/><path d="M210 223 Q183 226 177 251 Q177 282 211 294 L247 279 L247 232Z" fill="#fff8e9"/><ellipse cx="219" cy="241" rx="7" ry="11" fill="#291934" stroke="none"/><ellipse cx="239" cy="238" rx="7" ry="11" fill="#291934" stroke="none"/><path d="M214 267 Q230 279 245 266" fill="none"/><path d="M218 307v35M284 305v37" fill="none"/><path d="M208 342h22M274 342h22" fill="none"/><path d="M266 205 Q280 182 303 190 L318 218" fill="#d7c5b4"/></g>
+<!-- motion --> <g stroke="#ffd85e" stroke-width="6" stroke-linecap="round"><path d="M95 245h40M75 275h54M350 245h42M370 275h60"/><path d="M111 188h29M372 190h25" stroke="#ff8f62" stroke-width="4"/></g>
+<path d="M193 214 Q178 197 187 188 Q195 202 205 204" fill="#f4eee0" stroke="#30203a" stroke-width="6" stroke-linejoin="round"/>
+<!-- safety bar and flying beard -->
+<path d="M166 306 Q221 326 292 305" fill="none" stroke="#ffd85e" stroke-width="6" stroke-linecap="round"/><circle cx="316" cy="301" r="4" fill="#fff1a8" stroke="none"/>
+<path d="M211 284 Q220 299 233 289 M218 289 Q225 307 238 294" fill="none" stroke="#d7c5b4" stroke-width="5" stroke-linecap="round"/>
+<!-- tiny coaster flags and lamp glow -->
+<g stroke="#ffcf4a" stroke-width="4" fill="none"><path d="M52 360v-48l22 12-22 12M456 338v-42l20 11-20 11"/></g>
+<g fill="#ffe8a0" opacity=".7"><circle cx="183" cy="112" r="2"/><circle cx="298" cy="76" r="2"/><circle cx="438" cy="228" r="2"/></g>
+<g fill="#fff1a8"><circle cx="75" cy="100" r="3"/><circle cx="120" cy="140" r="4"/><circle cx="342" cy="130" r="3"/><circle cx="470" cy="170" r="4"/><circle cx="35" cy="155" r="3"/></g>
+</svg>

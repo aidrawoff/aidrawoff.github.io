@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1330"/>
+      <stop offset="1" stop-color="#2a2f5c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a0" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- night sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="420" cy="90" r="38" fill="#f6eec8"/>
+  <circle cx="436" cy="80" r="32" fill="#2a2f5c" opacity="0.3"/>
+  <g fill="#fff">
+    <circle cx="60" cy="50" r="2"/>
+    <circle cx="150" cy="30" r="1.5"/>
+    <circle cx="260" cy="60" r="2"/>
+    <circle cx="330" cy="28" r="1.5"/>
+    <circle cx="110" cy="130" r="1.5"/>
+  </g>
+  <!-- bank building -->
+  <rect x="40" y="250" width="432" height="200" fill="#5a4b6e"/>
+  <polygon points="30,250 256,180 482,250" fill="#3e3350"/>
+  <rect x="200" y="200" width="112" height="22" fill="#e0b84a"/>
+  <text x="256" y="216" font-family="Georgia, serif" font-size="16" text-anchor="middle" fill="#3e3350">BANK</text>
+  <g fill="#3e3350">
+    <rect x="70" y="280" width="26" height="170"/>
+    <rect x="130" y="280" width="26" height="170"/>
+    <rect x="356" y="280" width="26" height="170"/>
+    <rect x="416" y="280" width="26" height="170"/>
+  </g>
+  <!-- open vault with stacked loot -->
+  <rect x="200" y="320" width="112" height="130" fill="#23232f"/>
+  <rect x="200" y="320" width="112" height="130" fill="none" stroke="#111" stroke-width="4"/>
+  <rect x="216" y="380" width="26" height="20" fill="#7fc48a"/>
+  <rect x="246" y="380" width="26" height="20" fill="#7fc48a"/>
+  <rect x="276" y="380" width="26" height="20" fill="#7fc48a"/>
+  <rect x="226" y="360" width="26" height="20" fill="#7fc48a"/>
+  <rect x="262" y="360" width="26" height="20" fill="#7fc48a"/>
+  <!-- vault door, swung open -->
+  <path d="M312 320 L336 332 L336 450 L312 450 Z" fill="#c9c9d9" stroke="#111" stroke-width="3"/>
+  <circle cx="324" cy="390" r="8" fill="none" stroke="#6b6b80" stroke-width="3"/>
+  <!-- ground -->
+  <rect x="0" y="450" width="512" height="62" fill="#1d1a2b"/>
+  <rect x="0" y="448" width="512" height="4" fill="#0c0a16"/>
+  <!-- loot bag -->
+  <path d="M330 470 Q318 430 345 418 L372 418 Q398 430 386 470 Z" fill="#8b5a2b" stroke="#2a1a0c" stroke-width="3"/>
+  <text x="358" y="457" font-family="Georgia, serif" font-size="30" text-anchor="middle" fill="#f6d365">$</text>
+  <!-- squirrel thief -->
+  <g stroke="#2a1a0c" stroke-width="3" stroke-linejoin="round">
+    <!-- tail, big flowing shape -->
+    <path d="M160 420 Q80 390 96 290 Q112 230 160 262 Q132 320 176 400 Z" fill="#b5651d"/>
+    <!-- legs -->
+    <path d="M186 430 L178 452 L200 452 L206 432 Z" fill="#a85a1a"/>
+    <path d="M226 430 L224 452 L248 452 L244 428 Z" fill="#a85a1a"/>
+    <!-- body -->
+    <ellipse cx="206" cy="380" rx="44" ry="58" fill="#c8793a" transform="rotate(-12 206 380)"/>
+    <!-- belly -->
+    <ellipse cx="212" cy="392" rx="22" ry="34" fill="#f2d2a0" stroke="none" transform="rotate(-12 212 392)"/>
+    <!-- arm reaching to sack -->
+    <path d="M232 362 Q262 352 276 374" stroke="#c8793a" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <!-- head -->
+    <circle cx="210" cy="312" r="34" fill="#c8793a"/>
+    <!-- ears -->
+    <ellipse cx="188" cy="274" rx="8" ry="12" fill="#c8793a"/>
+    <ellipse cx="230" cy="274" rx="8" ry="12" fill="#c8793a"/>
+    <!-- robber mask -->
+    <path d="M180 306 Q210 296 242 306 L240 322 Q210 334 182 322 Z" fill="#1d1a2b" stroke="none"/>
+    <!-- eyes with brows -->
+    <circle cx="197" cy="312" r="4.5" fill="#fff" stroke="none"/>
+    <circle cx="225" cy="312" r="4.5" fill="#fff" stroke="none"/>
+    <circle cx="198" cy="313" r="2" fill="#1d1a2b" stroke="none"/>
+    <circle cx="226" cy="313" r="2" fill="#1d1a2b" stroke="none"/>
+    <path d="M190 302 L203 306" fill="none" stroke-width="2.5"/>
+    <path d="M232 306 L219 302" fill="none" stroke-width="2.5"/>
+    <!-- nose -->
+    <circle cx="211" cy="327" r="3" fill="#1d1a2b" stroke="none"/>
+    <!-- sack of loot -->
+    <path d="M266 368 Q252 400 270 422 L304 422 Q320 400 306 368 Z" fill="#7a4a22"/>
+    <path d="M270 368 L286 350 L302 368" fill="none" stroke-width="6"/>
+    <text x="287" y="402" font-family="Georgia, serif" font-size="22" text-anchor="middle" fill="#f6d365" stroke="none">$</text>
+  </g>
+  <!-- contact shadows -->
+  <ellipse cx="212" cy="454" rx="70" ry="7" fill="#000" opacity="0.4"/>
+  <!-- getaway: acorn-shaped sign and a dropped coin trail -->
+  <g fill="#f6d365" stroke="#2a1a0c" stroke-width="2">
+    <circle cx="300" cy="470" r="6"/>
+    <circle cx="316" cy="478" r="5"/>
+    <circle cx="332" cy="486" r="4"/>
+  </g>
+  <!-- lit window glow -->
+  <circle cx="60" cy="110" r="60" fill="url(#glow)"/>
+  <rect x="88" y="296" width="6" height="6" fill="#ffe9a0"/>
+</svg>

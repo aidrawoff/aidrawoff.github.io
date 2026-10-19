@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a4a"/>
+      <stop offset="1" stop-color="#3d5a80"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fff7c2" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#fff7c2" stop-opacity="0.08"/>
+    </linearGradient>
+  <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb347" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- stars -->
+  <circle cx="60" cy="50" r="2" fill="#fff"/>
+  <circle cx="200" cy="30" r="1.5" fill="#fff"/>
+  <circle cx="440" cy="70" r="2" fill="#fff"/>
+  <circle cx="150" cy="90" r="1.5" fill="#fff"/>
+  <circle cx="470" cy="180" r="1.5" fill="#fff"/>
+  <circle cx="30" cy="200" r="1.5" fill="#fff"/>
+  <circle cx="380" cy="30" r="1" fill="#fff"/>
+  <!-- UFO -->
+  <path d="M232 134 L268 134 L345 420 L175 420 Z" fill="url(#beam)"/>
+  <ellipse cx="250" cy="120" rx="70" ry="18" fill="#9aa8b8"/>
+  <path d="M210 110 Q250 60 290 110 Z" fill="#cfe3f0"/>
+  <ellipse cx="250" cy="120" rx="70" ry="18" fill="none" stroke="#dfe7ef" stroke-width="2"/>
+  <circle cx="220" cy="122" r="3" fill="#ffd54a"/>
+  <circle cx="250" cy="126" r="3" fill="#ffd54a"/>
+  <circle cx="280" cy="122" r="3" fill="#ffd54a"/>
+  <!-- hills -->
+  <path d="M0 330 Q120 270 260 320 Q380 280 512 320 L512 512 L0 512 Z" fill="#2e4a3a"/>
+  <!-- tent -->
+  <path d="M60 400 L150 290 L240 400 Z" fill="#c8553d"/>
+  <path d="M150 290 L185 400 L150 400 Z" fill="#a9432f"/>
+  <path d="M150 400 L150 340" stroke="#5a2a1f" stroke-width="3"/>
+  <!-- campfire glow -->
+  <circle cx="300" cy="390" r="90" fill="url(#glow)"/>
+  <!-- logs and fire -->
+  <path d="M280 412 L330 396 L334 404 L284 420 Z" fill="#6b4226"/>
+  <path d="M290 412 L340 400 L342 408 L292 420 Z" fill="#4a2c17"/>
+  <path d="M300 388 Q292 370 304 356 Q302 372 312 378 Q316 364 320 350 Q326 376 322 388 Z" fill="#ff8c1a"/>
+  <path d="M305 386 Q301 376 308 368 Q310 378 316 380 Q318 374 320 368 Q322 384 316 388 Z" fill="#ffe066"/>
+  <!-- ground -->
+  <rect y="420" width="512" height="92" fill="#4f6d3a"/>
+  <!-- bear -->
+  <g fill="#6b4a2e">
+    <circle cx="410" cy="350" r="34"/>
+    <circle cx="380" cy="320" r="11"/>
+    <circle cx="440" cy="320" r="11"/>
+    <ellipse cx="410" cy="400" rx="42" ry="50"/>
+    <ellipse cx="438" cy="428" rx="16" ry="10"/>
+  </g>
+  <circle cx="380" cy="320" r="5" fill="#a07850"/>
+  <circle cx="440" cy="320" r="5" fill="#a07850"/>
+  <ellipse cx="425" cy="352" rx="7" ry="5" fill="#2b1a0e"/>
+  <circle cx="400" cy="342" r="3" fill="#111"/>
+  <circle cx="401" cy="341" r="1" fill="#fff"/>
+  <path d="M392 380 Q410 390 428 380" fill="none" stroke="#4a2e18" stroke-width="2" opacity="0.5"/>
+  <circle cx="422" cy="342" r="3" fill="#111"/>
+  <!-- mug -->
+  <path d="M356 398 L368 398 L366 418 L358 418 Z" fill="#e8e8e8"/>
+  <!-- ants trail -->
+  <ellipse cx="400" cy="446" rx="60" ry="8" fill="#2f4a28" opacity="0.6"/>
+  <g fill="#1a1a1a" stroke="#1a1a1a" stroke-width="1.5">
+    <g transform="translate(360 446)"><circle r="3.5"/><circle cx="-6" r="2.5"/><circle cx="6" r="3.5" fill="#1a1a1a"/><path d="M8 -2 L13 -6 M8 2 L13 6" fill="none"/></g>
+    <g transform="translate(374 452) rotate(10)"><circle r="3.5"/><circle cx="-6" r="2.5"/><circle cx="6" r="3.5"/><path d="M8 -2 L13 -6 M8 2 L13 6" fill="none"/></g>
+    <g transform="translate(390 457) rotate(6)"><circle r="3.5"/><circle cx="-6" r="2.5"/><circle cx="6" r="3.5"/><path d="M8 -2 L13 -6 M8 2 L13 6" fill="none"/></g>
+    <g transform="translate(406 462) rotate(-4)"><circle r="3.5"/><circle cx="-6" r="2.5"/><circle cx="6" r="3.5"/><path d="M8 -2 L13 -6 M8 2 L13 6" fill="none"/></g>
+    <g transform="translate(422 466)"><circle r="3.5"/><circle cx="-6" r="2.5"/><circle cx="6" r="3.5"/><path d="M8 -2 L13 -6 M8 2 L13 6" fill="none"/></g>
+    <g transform="translate(438 470) rotate(8)"><circle r="3.5"/><circle cx="-6" r="2.5"/><circle cx="6" r="3.5"/><path d="M8 -2 L13 -6 M8 2 L13 6" fill="none"/></g>
+  </g>
+  <!-- ant hill and the honey jar the bear is after -->
+  <path d="M338 452 Q352 436 368 452 Z" fill="#6b4226"/>
+  <path d="M440 412 L456 412 L458 436 Q448 442 438 436 Z" fill="#e8a33a"/>
+  <rect x="436" y="404" width="24" height="10" rx="2" fill="#8a5a2b"/>
+  <ellipse cx="448" cy="414" rx="10" ry="3" fill="#ffd27a"/>
+  <!-- ants on the bear's leg -->
+  <g fill="#1a1a1a">
+    <circle cx="396" cy="436" r="2.5"/><circle cx="398" cy="428" r="2.5"/><circle cx="402" cy="420" r="2.5"/>
+  </g>
+  <!-- crumbs the ants are carrying -->
+  <circle cx="384" cy="447" r="2" fill="#e0b050"/>
+  <circle cx="414" cy="459" r="2" fill="#e0b050"/>
+  <!-- tent doorway glow -->
+  <path d="M140 400 L150 350 L162 400 Z" fill="#ffcc66" opacity="0.8"/>
+  <!-- trees -->
+  <path d="M30 420 L60 260 L90 420 Z" fill="#1f3326"/>
+  <path d="M450 430 L480 280 L510 430 Z" fill="#1f3326"/>
+</svg>

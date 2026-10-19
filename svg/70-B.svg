@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#1b2a4a"/>
+      <stop offset="60%" stop-color="#0c1226"/>
+      <stop offset="100%" stop-color="#05070f"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffcf7a" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#ff8a3d" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#ff7a2f" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#bfe9ff" stop-opacity="0.30"/>
+      <stop offset="45%" stop-color="#7fc8ef" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#dff4ff" stop-opacity="0.22"/>
+    </linearGradient>
+    <clipPath id="bowl"><circle cx="256" cy="252" r="176"/></clipPath>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="250" r="215" fill="url(#glow)"/>
+
+  <!-- bowl interior -->
+  <g clip-path="url(#bowl)">
+    <rect x="70" y="70" width="372" height="372" fill="#101a34"/>
+    <!-- string lights + lanterns -->
+    <path d="M92 150 Q180 118 256 146 Q332 174 420 140" stroke="#5b4a2a" stroke-width="2" fill="none"/>
+    <g fill="#ffd27a">
+      <circle cx="120" cy="140" r="3"/><circle cx="160" cy="132" r="3"/><circle cx="205" cy="136" r="3"/>
+      <circle cx="256" cy="147" r="3"/><circle cx="305" cy="155" r="3"/><circle cx="352" cy="150" r="3"/><circle cx="395" cy="138" r="3"/>
+    </g>
+    <g>
+      <circle cx="170" cy="185" r="42" fill="url(#glow)"/>
+      <circle cx="256" cy="196" r="50" fill="url(#glow)"/>
+      <circle cx="340" cy="182" r="40" fill="url(#glow)"/>
+      <ellipse cx="170" cy="185" rx="17" ry="21" fill="#ff6f4d"/>
+      <ellipse cx="256" cy="196" rx="20" ry="25" fill="#ffb03a"/>
+      <ellipse cx="340" cy="182" rx="16" ry="20" fill="#ff5f5f"/>
+      <rect x="160" y="203" width="20" height="4" rx="2" fill="#c9852f"/>
+      <rect x="245" y="218" width="22" height="4" rx="2" fill="#c9852f"/>
+      <rect x="331" y="199" width="18" height="4" rx="2" fill="#c9852f"/>
+      <path d="M164 207 h12 v9 l-6 6 -6 -6 z" fill="#ffd27a" opacity="0.8"/>
+      <path d="M250 222 h12 v9 l-6 6 -6 -6 z" fill="#ffe6a8" opacity="0.8"/>
+    </g>
+    <!-- moon-ish glow behind glass -->
+    <circle cx="330" cy="120" r="26" fill="#fff3d0" opacity="0.35"/>
+    <!-- stalls -->
+    <g>
+      <rect x="104" y="272" width="104" height="62" fill="#241a2e"/>
+      <path d="M96 272 L216 272 L200 246 L112 246 Z" fill="#c9483c"/>
+      <rect x="112" y="272" width="104" height="10" fill="#f2e3c8" opacity="0.5"/>
+      <rect x="118" y="292" width="80" height="30" fill="#3a2b1c"/>
+      <g fill="#ffd98a"><circle cx="132" cy="306" r="5"/><circle cx="150" cy="306" r="5"/><circle cx="168" cy="306" r="5"/></g>
+      <rect x="228" y="258" width="118" height="76" fill="#1e1730"/>
+      <path d="M220 258 L354 258 L338 230 L236 230 Z" fill="#2f8f7d"/>
+      <rect x="236" y="258" width="118" height="10" fill="#eaf6dd" opacity="0.45"/>
+      <rect x="244" y="284" width="94" height="36" fill="#3a2b1c"/>
+      <g fill="#ffe6a8"><circle cx="262" cy="300" r="6"/><circle cx="284" cy="300" r="6"/><circle cx="306" cy="300" r="6"/></g>
+      <rect x="356" y="282" width="70" height="52" fill="#241a2e"/>
+      <path d="M350 282 L430 282 L418 258 L362 258 Z" fill="#e0a63a"/>
+      <!-- hanging menu signs -->
+      <g>
+        <rect x="206" y="262" width="12" height="34" rx="2" fill="#f2e3c8"/>
+        <rect x="209" y="268" width="6" height="3" fill="#8b3a2f"/><rect x="209" y="276" width="6" height="3" fill="#8b3a2f"/>
+        <rect x="209" y="284" width="6" height="3" fill="#8b3a2f"/>
+        <rect x="352" y="266" width="11" height="30" rx="2" fill="#ffe6a8"/>
+        <rect x="355" y="272" width="5" height="3" fill="#3a2b1c"/><rect x="355" y="280" width="5" height="3" fill="#3a2b1c"/>
+      </g>
+      <!-- vendor behind the green stall -->
+      <g fill="#120d1c">
+        <circle cx="290" cy="272" r="7"/><rect x="283" y="279" width="14" height="12" rx="4"/>
+      </g>
+      <!-- skewer cup -->
+      <g>
+        <rect x="130" y="256" width="14" height="16" rx="2" fill="#7a5a34"/>
+        <g stroke="#d9b483" stroke-width="1.6"><path d="M133 258 v-14"/><path d="M137 258 v-17"/><path d="M141 258 v-13"/></g>
+        <g fill="#ff8a3d"><circle cx="133" cy="243" r="2.4"/><circle cx="137" cy="240" r="2.4"/><circle cx="141" cy="244" r="2.4"/></g>
+      </g>
+    </g>
+    <!-- steam -->
+    <g stroke="#ffffff" stroke-width="3" fill="none" opacity="0.22" stroke-linecap="round">
+      <path d="M150 268 q-10 -16 2 -30 q10 -12 0 -24"/>
+      <path d="M288 252 q-12 -16 0 -30 q10 -12 0 -22"/>
+    </g>
+    <!-- crowd silhouettes -->
+    <g fill="#070a16">
+      <circle cx="132" cy="342" r="11"/><rect x="121" y="352" width="22" height="40" rx="8"/>
+      <circle cx="196" cy="336" r="13"/><rect x="183" y="348" width="26" height="46" rx="9"/>
+      <circle cx="262" cy="344" r="12"/><rect x="250" y="356" width="24" height="40" rx="8"/>
+      <circle cx="330" cy="334" r="13"/><rect x="317" y="346" width="26" height="48" rx="9"/>
+      <circle cx="392" cy="346" r="11"/><rect x="381" y="356" width="22" height="38" rx="8"/>
+    </g>
+    <!-- wet ground + reflections -->
+    <rect x="70" y="386" width="372" height="60" fill="#0a0f1e"/>
+    <g opacity="0.5">
+      <rect x="160" y="388" width="20" height="52" fill="#ff8a3d"/>
+      <rect x="248" y="388" width="22" height="54" fill="#ffd27a"/>
+      <rect x="330" y="388" width="18" height="48" fill="#ff5f5f"/>
+    </g>
+    <!-- waterline (fishbowl!) -->
+    <path d="M80 322 Q140 312 200 322 T320 322 T432 320 L432 380 L80 380 Z" fill="#3ea8d8" opacity="0.20"/>
+    <path d="M80 322 Q140 312 200 322 T320 322 T432 320" stroke="#9fe4ff" stroke-width="2.5" fill="none" opacity="0.55"/>
+    <!-- little fish swimming among the stalls -->
+    <g fill="#ffb03a">
+      <ellipse cx="120" cy="352" rx="10" ry="5"/><path d="M130 352 l9 -5 v10 z"/>
+      <ellipse cx="372" cy="366" rx="9" ry="4.5" fill="#7fe3ff"/><path d="M381 366 l8 -4.5 v9 z" fill="#7fe3ff"/>
+      <ellipse cx="222" cy="372" rx="7" ry="3.5" fill="#ff6f8e"/><path d="M229 372 l6 -3.5 v7 z" fill="#ff6f8e"/>
+    </g>
+    <!-- bubbles rising -->
+    <g fill="#cdeeff" opacity="0.4">
+      <circle cx="150" cy="300" r="3"/><circle cx="158" cy="278" r="2"/><circle cx="300" cy="292" r="3.5"/>
+      <circle cx="310" cy="266" r="2"/><circle cx="356" cy="312" r="2.5"/>
+    </g>
+  </g>
+
+  <!-- glass shell -->
+  <circle cx="256" cy="252" r="176" fill="url(#glass)" stroke="#cfeaff" stroke-width="3" stroke-opacity="0.55"/>
+  <path d="M150 140 Q120 190 128 250" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.22" fill="none"/>
+  <path d="M182 118 Q166 140 162 162" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.28" fill="none"/>
+  <ellipse cx="342" cy="352" rx="46" ry="14" fill="#ffffff" opacity="0.08"/>
+
+  <!-- rim + stand -->
+  <ellipse cx="256" cy="96" rx="112" ry="26" fill="none" stroke="#d8f1ff" stroke-width="5" stroke-opacity="0.6"/>
+  <ellipse cx="256" cy="96" rx="112" ry="26" fill="#0c1226" opacity="0.25"/>
+  <path d="M180 416 Q256 448 332 416 L346 452 Q256 486 166 452 Z" fill="#3a2f22"/>
+  <path d="M180 416 Q256 448 332 416 L338 432 Q256 462 174 432 Z" fill="#5a4a33"/>
+  <ellipse cx="256" cy="470" rx="150" ry="18" fill="#000000" opacity="0.5"/>
+  <ellipse cx="256" cy="466" rx="150" ry="16" fill="#2a2118"/>
+</svg>

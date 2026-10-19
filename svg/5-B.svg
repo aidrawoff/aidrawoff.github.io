@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: soft warm gradient with subtle texture -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0%" stop-color="#FFE4B5"/>
+      <stop offset="100%" stop-color="#FFA07A"/>
+    </linearGradient>
+    <pattern id="woodPattern" patternUnits="userSpaceOnUse" width="64" height="64">
+      <rect width="64" height="64" fill="#D2B48C"/>
+      <path d="M0 0 L64 64 M64 0 L0 64" stroke="#A0522D" stroke-width="2" opacity="0.3"/>
+    </pattern>
+    <radialGradient id="ambientLight" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="white" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="white" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Raccoon color palette -->
+    <linearGradient id="raccoonFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E6C2C2"/>
+      <stop offset="100%" stop-color="#D4A5A5"/>
+    </linearGradient>
+    <linearGradient id="raccoonMask" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="100%" stop-color="#2A2A2A"/>
+    </linearGradient>
+    <linearGradient id="treasureFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFD700"/>
+      <stop offset="50%" stop-color="#FFA500"/>
+      <stop offset="100%" stop-color="#FF8C00"/>
+    </linearGradient>
+    <linearGradient id="tableFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B4513"/>
+      <stop offset="100%" stop-color="#A0522D"/>
+    </linearGradient>
+    <linearGradient id="tableLegs" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </linearGradient>
+
+    <!-- Thick outline stroke -->
+    <filter id="outline" x="-20%" y="-20%" width="140%" height="140%">
+      <feMorphology operator="dilate" radius="4" in="SourceAlpha" result="dilated"/>
+      <feComposite in="dilated" in2="SourceAlpha" operator="out" result="outline"/>
+      <feFlood flood-color="#000000" flood-opacity="0.7" result="outlineColor"/>
+      <feComposite in="outlineColor" in2="outline" operator="in" result="outlineOnly"/>
+      <feComposite in="SourceGraphic" in2="outlineOnly" operator="over"/>
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background with subtle texture -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  <rect width="512" height="512" fill="url(#woodPattern)" opacity="0.1"/>
+  <rect width="512" height="512" fill="url(#ambientLight)"/>
+
+  <!-- Wooden table with legs -->
+  <g transform="translate(128, 320)">
+    <rect x="0" y="0" width="256" height="64" rx="8" fill="url(#tableFill)" filter="url(#outline)"/>
+    <!-- Table legs -->
+    <rect x="16" y="64" width="16" height="64" rx="4" fill="url(#tableLegs)" filter="url(#outline)"/>
+    <rect x="224" y="64" width="16" height="64" rx="4" fill="url(#tableLegs)" filter="url(#outline)"/>
+  </g>
+
+  <!-- Treasure chest (twist) with more detail -->
+  <g transform="translate(384, 288)">
+    <!-- Chest body -->
+    <rect x="-48" y="-32" width="96" height="64" rx="8" fill="url(#treasureFill)" filter="url(#outline)"/>
+    <!-- Chest lid -->
+    <rect x="-56" y="-40" width="112" height="16" rx="8" fill="url(#treasureFill)" filter="url(#outline)"/>
+    <!-- Chest handle -->
+    <rect x="-16" y="-48" width="32" height="8" rx="4" fill="#5D4037" filter="url(#outline)"/>
+    <!-- Chest details: hinges and lock -->
+    <circle cx="-40" cy="-24" r="3" fill="#3E2723" filter="url(#outline)"/>
+    <circle cx="40" cy="-24" r="3" fill="#3E2723" filter="url(#outline)"/>
+    <rect x="-8" y="-36" width="16" height="4" rx="2" fill="#3E2723" filter="url(#outline)"/>
+  </g>
+
+  <!-- Raccoon family with improved poses and details -->
+  <!-- Parent raccoon (left) -->
+  <g transform="translate(160, 288)">
+    <!-- Body with gradient fill -->
+    <path d="M0,-24 C-24,-24 -40,-8 -40,16 C-40,40 -24,56 0,56 C24,56 40,40 40,16 C40,-8 24,-24 0,-24 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Head -->
+    <circle cx="-24" cy="-8" r="16" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Mask with gradient -->
+    <circle cx="-24" cy="-8" r="12" fill="url(#raccoonMask)"/>
+    <!-- Eyes with highlights -->
+    <circle cx="-28" cy="-12" r="3" fill="white"/>
+    <circle cx="-20" cy="-12" r="3" fill="white"/>
+    <circle cx="-28" cy="-12" r="1" fill="black"/>
+    <circle cx="-20" cy="-12" r="1" fill="black"/>
+    <!-- Nose -->
+    <circle cx="-24" cy="-4" r="2" fill="black"/>
+    <!-- Ears -->
+    <path d="M-32,-16 L-36,-24 L-28,-20 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <path d="M-16,-16 L-20,-24 L-12,-20 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Tail with more detail -->
+    <path d="M-40,16 C-64,24 -80,40 -80,64 C-80,88 -64,104 -40,112 C-16,120 0,112 0,96 C0,80 16,64 16,48" stroke="#000000" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Paws -->
+    <circle cx="-40" cy="48" r="6" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <circle cx="40" cy="48" r="6" fill="url(#raccoonFill)" filter="url(#outline)"/>
+  </g>
+
+  <!-- Child raccoon (center) -->
+  <g transform="translate(256, 320)">
+    <!-- Body -->
+    <path d="M0,-16 C-16,-16 -24,0 -24,16 C-24,32 -16,48 0,48 C16,48 24,32 24,16 C24,0 16,-16 0,-16 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Head -->
+    <circle cx="-16" cy="0" r="12" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Mask -->
+    <circle cx="-16" cy="0" r="9" fill="url(#raccoonMask)"/>
+    <!-- Eyes -->
+    <circle cx="-20" cy="-4" r="2" fill="white"/>
+    <circle cx="-12" cy="-4" r="2" fill="white"/>
+    <circle cx="-20" cy="-4" r="1" fill="black"/>
+    <circle cx="-12" cy="-4" r="1" fill="black"/>
+    <!-- Nose -->
+    <circle cx="-16" cy="4" r="1.5" fill="black"/>
+    <!-- Ears -->
+    <path d="M-24,-4 L-28,-12 L-20,-8 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Tail -->
+    <path d="M-24,16 C-36,20 -44,32 -44,48 C-44,64 -36,76 -24,80 C-12,84 0,76 0,64 C0,52 8,40 8,24" stroke="#000000" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Paws -->
+    <circle cx="-24" cy="48" r="4" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <circle cx="24" cy="48" r="4" fill="url(#raccoonFill)" filter="url(#outline)"/>
+  </g>
+
+  <!-- Baby raccoon (right) -->
+  <g transform="translate(352, 352)">
+    <!-- Body -->
+    <path d="M0,-12 C-12,-12 -16,4 -16,16 C-16,28 -12,40 0,40 C12,40 16,28 16,16 C16,4 12,-12 0,-12 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Head -->
+    <circle cx="-12" cy="8" r="8" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Mask -->
+    <circle cx="-12" cy="8" r="6" fill="url(#raccoonMask)"/>
+    <!-- Eyes -->
+    <circle cx="-15" cy="5" r="1.5" fill="white"/>
+    <circle cx="-9" cy="5" r="1.5" fill="white"/>
+    <circle cx="-15" cy="5" r="0.5" fill="black"/>
+    <circle cx="-9" cy="5" r="0.5" fill="black"/>
+    <!-- Nose -->
+    <circle cx="-12" cy="12" r="1" fill="black"/>
+    <!-- Ears -->
+    <path d="M-18,4 L-21,0 L-15,2 Z" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <!-- Tail -->
+    <path d="M-16,16 C-24,18 -28,28 -28,40 C-28,52 -24,60 -16,64 C-8,68 0,60 0,48 C0,36 4,24 4,16" stroke="#000000" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <!-- Paws -->
+    <circle cx="-16" cy="48" r="3" fill="url(#raccoonFill)" filter="url(#outline)"/>
+    <circle cx="16" cy="48" r="3" fill="url(#raccoonFill)" filter="url(#outline)"/>
+  </g>
+
+  <!-- Enhanced dinner items on table -->
+  <!-- Bowl of fruit with more detail -->
+  <g transform="translate(208, 336)">
+    <circle cx="0" cy="0" r="20" fill="#FF6347" filter="url(#outline)"/>
+    <circle cx="0" cy="0" r="16" fill="#FFD700" filter="url(#outline)"/>
+    <!-- Fruit details -->
+    <circle cx="-8" cy="-8" r="3" fill="#FF0000" filter="url(#outline)"/>
+    <circle cx="8" cy="-8" r="3" fill="#FF0000" filter="url(#outline)"/>
+    <circle cx="-12" cy="6" r="3" fill="#FFA500" filter="url(#outline)"/>
+    <circle cx="12" cy="6" r="3" fill="#FFA500" filter="url(#outline)"/>
+  </g>
+  <!-- Cup with more detail -->
+  <g transform="translate(288, 336)">
+    <rect x="-8" y="-16" width="16" height="16" rx="4" fill="#98FB98" filter="url(#outline)"/>
+    <rect x="-4" y="-24" width="8" height="8" rx="2" fill="#98FB98" filter="url(#outline)"/>
+    <!-- Cup handle -->
+    <path d="M-8,-16 Q-12,-12 -12,-8 Q-12,-4 -8,0" stroke="#5D4037" stroke-width="3" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- Plate with food -->
+  <g transform="translate(256, 368)">
+    <ellipse cx="0" cy="0" rx="24" ry="12" fill="#FFFFFF" filter="url(#outline)"/>
+    <path d="M-16,-4 Q0,-12 16,-4 Q8,4 -8,4 Z" fill="#FFA500" filter="url(#outline)"/>
+  </g>
+
+  <!-- Soft ambient highlight -->
+  <circle cx="256" cy="256" r="128" fill="white" fill-opacity="0.1" filter="url(#softGlow)"/>
+  <!-- Subtle foreground sparkle -->
+  <g fill="#FFD700" stroke="#000000" stroke-width="2" opacity="0.7">
+    <circle cx="120" cy="120" r="2"/>
+    <circle cx="380" cy="140" r="2"/>
+    <circle cx="200" cy="80" r="2"/>
+    <circle cx="400" cy="300" r="2"/>
+    <circle cx="360" cy="320" r="2"/>
+    <circle cx="420" cy="340" r="2"/>
+  </g>
+</svg>

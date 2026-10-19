@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1030"/>
+      <stop offset="0.6" stop-color="#3b1d4a"/>
+      <stop offset="1" stop-color="#6b3357"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241a33"/>
+      <stop offset="1" stop-color="#120c1c"/>
+    </linearGradient>
+    <linearGradient id="stick" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9764a"/>
+      <stop offset="0.5" stop-color="#7c5232"/>
+      <stop offset="1" stop-color="#4e3320"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d6"/>
+      <stop offset="1" stop-color="#f2d98a"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="96" r="52" fill="url(#moon)"/>
+  <circle cx="382" cy="84" r="9" fill="#e9cd7c" opacity="0.6"/>
+  <circle cx="414" cy="112" r="6" fill="#e9cd7c" opacity="0.5"/>
+
+  <!-- stars -->
+  <g fill="#ffeec2">
+    <circle cx="60" cy="60" r="2.4"/><circle cx="120" cy="34" r="1.8"/>
+    <circle cx="200" cy="70" r="2"/><circle cx="250" cy="30" r="1.6"/>
+    <circle cx="320" cy="52" r="2.2"/><circle cx="470" cy="180" r="1.8"/>
+    <circle cx="40" cy="160" r="1.6"/><circle cx="150" cy="130" r="2"/>
+  </g>
+
+  <!-- ground plane -->
+  <rect x="0" y="300" width="512" height="212" fill="url(#ground)"/>
+  <rect x="0" y="298" width="512" height="6" fill="#4a3560"/>
+
+  <!-- chalk parking box: the broom is PARKED flat -->
+  <g stroke="#8fd6ff" stroke-width="4" fill="none" opacity="0.75">
+    <path d="M70 470 L150 330 L430 330 L470 470 Z"/>
+    <path d="M110 470 L170 355"/>
+  </g>
+
+  <!-- squashed-flat shadow: the broom is pressed into the pavement -->
+  <ellipse cx="272" cy="404" rx="188" ry="9" fill="#000000" opacity="0.5"/>
+  <ellipse cx="380" cy="400" rx="110" ry="26" fill="#000000" opacity="0.35"/>
+
+  <!-- THE FLAT BROOM: handle pressed low, bristles splayed pancake-flat -->
+  <g transform="translate(0,0)">
+    <!-- handle, flattened straight against the ground -->
+    <path d="M112 396 C170 384 240 380 302 382" stroke="url(#stick)" stroke-width="22" stroke-linecap="round" fill="none"/>
+    <path d="M118 390 C172 380 240 376 300 378" stroke="#d3a56e" stroke-width="5" stroke-linecap="round" fill="none" opacity="0.55"/>
+    <!-- knob end -->
+    <ellipse cx="108" cy="398" rx="15" ry="11" fill="#8a5f38"/>
+    <!-- binding tape -->
+    <rect x="288" y="368" width="18" height="28" rx="5" fill="#5a3a22"/>
+    <rect x="288" y="373" width="18" height="4" fill="#d9b98a"/>
+    <rect x="288" y="386" width="18" height="4" fill="#d9b98a"/>
+    <!-- bristles splayed into a thin pancake fan, pressed flat -->
+    <g stroke-linecap="round" fill="none">
+      <path d="M302 380 C360 366 420 362 470 370" stroke="#f0d5a0" stroke-width="5"/>
+      <path d="M302 382 C358 374 418 374 474 384" stroke="#e0b878" stroke-width="7"/>
+      <path d="M302 384 C360 382 420 386 470 396" stroke="#c99a5c" stroke-width="7"/>
+      <path d="M302 386 C352 392 404 400 448 408" stroke="#e8c78d" stroke-width="6"/>
+      <path d="M302 382 C356 372 414 372 460 380" stroke="#d3a86a" stroke-width="6"/>
+      <path d="M302 388 C336 398 372 408 408 414" stroke="#dcb57a" stroke-width="6"/>
+      <path d="M302 380 C364 368 428 368 470 376" stroke="#caa06a" stroke-width="4"/>
+      <path d="M302 390 C328 404 356 414 388 420" stroke="#b98a52" stroke-width="5"/>
+    </g>
+    <!-- frayed tips dragged flat along the stone -->
+    <g fill="#caa06a">
+      <path d="M470 370 l20 -2 -6 12 z"/>
+      <path d="M474 384 l20 4 -10 10 z"/>
+      <path d="M470 396 l18 10 -14 6 z"/>
+      <path d="M462 352 l20 -4 -4 12 z"/>
+    </g>
+  </g>
+
+  <!-- the witch's hat, used as a bellows, lying deflated beside the handle -->
+  <g transform="translate(150,300) rotate(-8)">
+    <ellipse cx="0" cy="42" rx="56" ry="12" fill="#2a1b3d"/>
+    <path d="M-30 42 C-24 6 -8 -18 6 -34 C10 -12 22 16 30 42 Z" fill="#3b2753"/>
+    <path d="M-30 42 C-24 6 -8 -18 6 -34 C10 -12 22 16 30 42 Z" fill="none" stroke="#5a3f7a" stroke-width="2"/>
+    <rect x="-26" y="26" width="52" height="9" rx="4" fill="#c9a227"/>
+  </g>
+
+  <!-- flat / puncture gag marks -->
+  <g stroke="#ffd9e8" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M336 344 l8 -14 8 14" />
+    <path d="M366 338 l7 -12 7 12" />
+    <path d="M396 334 l6 -10 6 10" />
+  </g>
+
+  <!-- poster headline band -->
+  <rect x="0" y="36" width="512" height="104" fill="#12081f" opacity="0.55"/>
+  <rect x="0" y="36" width="512" height="4" fill="#ffe45e" opacity="0.5"/>
+  <rect x="0" y="136" width="512" height="3" fill="#ffe45e" opacity="0.35"/>
+  <text x="230" y="112" font-family="Impact, Haettenschweiler, sans-serif" font-size="76" fill="#ffe45e" text-anchor="middle" letter-spacing="6">FLAT!</text>
+  <text x="230" y="112" font-family="Impact, Haettenschweiler, sans-serif" font-size="76" fill="none" stroke="#7a4b00" stroke-width="2" text-anchor="middle" letter-spacing="6" opacity="0.6">FLAT!</text>
+  <text x="256" y="166" font-family="Verdana, sans-serif" font-size="21" fill="#cfe8ff" text-anchor="middle" letter-spacing="1">BROOM STICKDOWN — NO AIR LEFT</text>
+  <text x="256" y="192" font-family="Verdana, sans-serif" font-size="14" fill="#8f7fb0" text-anchor="middle">recommended landing: any pavement, anywhere</text>
+</svg>

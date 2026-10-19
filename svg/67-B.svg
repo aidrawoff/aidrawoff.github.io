@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#ffffff"/>
+  <!-- Card border -->
+  <rect x="40" y="40" width="432" height="432" fill="none" stroke="#000000" stroke-width="8"/>
+  <!-- Card corners -->
+  <rect x="40" y="40" width="32" height="32" fill="#000000"/>
+  <rect x="432" y="40" width="32" height="32" fill="#000000"/>
+  <rect x="40" y="440" width="32" height="32" fill="#000000"/>
+  <rect x="432" y="440" width="32" height="32" fill="#000000"/>
+  <!-- Revolving door panes (4) -->
+  <rect x="120" y="120" width="272" height="272" fill="none" stroke="#000000" stroke-width="4"/>
+  <line x1="256" y1="120" x2="256" y2="392" stroke="#000000" stroke-width="4"/>
+  <line x1="120" y1="256" x2="392" y2="256" stroke="#000000" stroke-width="4"/>
+  <!-- Depth: shadow under door panes -->
+  <rect x="124" y="124" width="264" height="264" fill="none" stroke="#202020" stroke-width="2"/>
+  <line x1="124" y1="124" x2="388" y2="124" stroke="#202020" stroke-width="1"/>
+  <line x1="124" y1="388" x2="388" y2="388" stroke="#202020" stroke-width="1"/>
+  <line x1="124" y1="124" x2="124" y2="388" stroke="#202020" stroke-width="1"/>
+  <line x1="388" y1="124" x2="388" y2="388" stroke="#202020" stroke-width="1"/>
+  <!-- Bunny silhouette (main body) -->
+  <path d="M288 224c-16-24-40-32-64-24-24 8-40 32-48 56-8 24-8 48 0 72 8 24 24 48 48 56 24 8 48-8 64-24 16-16 24-32 24-56s-8-40-24-56zm-64-48c16 0 32 8 40 24 8 16 8 32 0 48-8 16-24 24-40 24-16 0-32-8-40-24-8-16 0-32 8-48 8-16 24-24 40-24z" fill="#000000"/>
+  <!-- Bunny tail -->
+  <circle cx="208" cy="320" r="16" fill="#000000"/>
+  <!-- Bunny chest highlight -->
+  <path d="M240 304c16 0 32 8 40 16 8 8 16 16 16 24s-8 16-16 24c-8 8-24 16-40 16-16 0-32-8-40-16-8-8-16-16-16-24s8-16 16-24c8-8 24-16 40-16z" fill="#202020"/>
+  <path d="M240 304c16 0 32 8 40 16 8 8 16 16 16 24s-8 16-16 24c-8 8-24 16-40 16-16 0-32-8-40-16-8-8-16-16-16-24s8-16 16-24c8-8 24-16 40-16z" fill="#303030"/>
+  <!-- Bunny paws -->
+  <circle cx="240" cy="368" r="8" fill="#000000"/>
+  <circle cx="304" cy="368" r="8" fill="#000000"/>
+  <!-- Bunny whiskers -->
+  <path d="M288 288h32" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M288 296h24" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M288 304h24" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M224 288h-32" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M232 296h-24" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <path d="M232 304h-24" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
+  <!-- Depth: shadow under bunny -->
+  <path d="M224 256c16 16 40 24 64 16 24-8 40-32 48-56 8-24 8-48 0-72-8-16-24-24-40-24-16 0-32 8-40 24-8 16-8 32 0 48-8 16-24 24-40 16z" fill="#202020"/>
+  <!-- Bunny ears -->
+  <path d="M240 176c-8-8-8-24 0-32 8-8 24-8 32 0 8 8 8 24 0 32-8 8-24 8-32 0z" fill="#000000"/>
+  <path d="M288 176c-8-8-8-24 0-32 8-8 24-8 32 0 8 8 8 24 0 32-8 8-24 8-32 0z" fill="#000000"/>
+  <!-- Bunny inner ear highlights -->
+  <path d="M248 168c-4-4-4-12 0-16 4-4 12-4 16 0 4 4 4 12 0 16-4 4-12 4-16 0z" fill="#ffffff"/>
+  <path d="M296 168c-4-4-4-12 0-16 4-4 12-4 16 0 4 4 4 12 0 16-4 4-12 4-16 0z" fill="#ffffff"/>
+  <!-- Bunny head top highlight -->
+  <circle cx="264" cy="176" r="8" fill="#ffffff"/>
+  <!-- Playing card suit: spade in top-left -->
+  <path d="M64 64c-16 0-32 16-32 32 0 16 16 32 32 32 16 0 32-16 32-32 0-16-16-32-32-32zm0 16c8 0 16 8 16 16s-8 16-16 16-16-8-16-16 8-16 16-16z" fill="#000000"/>
+  <!-- Playing card suit: spade in bottom-right -->
+  <path d="M448 448c-16 0-32 16-32 32 0 16 16 32 32 32 16 0 32-16 32-32 0-16-16-32-32-32zm0 16c8 0 16 8 16 16s-8 16-16 16-16-8-16-16 8-16 16-16z" fill="#000000"/>
+  <!-- Card inner corners (subtle) -->
+  <rect x="72" y="72" width="16" height="16" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <rect x="424" y="72" width="16" height="16" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <rect x="72" y="424" width="16" height="16" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <rect x="424" y="424" width="16" height="16" fill="#ffffff" stroke="#000000" stroke-width="1"/>
+  <!-- Subtle paper texture: faint grid -->
+  <pattern id="paper" patternUnits="userSpaceOnUse" width="16" height="16">
+    <path d="M0 0L16 0 16 16 0 16Z" fill="none" stroke="#e0e0e0" stroke-width="0.5"/>
+  </pattern>
+  <rect width="512" height="512" fill="url(#paper)"/>
+</svg>

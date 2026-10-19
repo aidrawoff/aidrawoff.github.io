@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient (Retro arcade sunset/workshop) -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0518"/>
+      <stop offset="50%" stop-color="#1f0f38"/>
+      <stop offset="100%" stop-color="#3b123d"/>
+    </linearGradient>
+    
+    <!-- Floor Gradient -->
+    <linearGradient id="floorGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c163a"/>
+      <stop offset="100%" stop-color="#0d0314"/>
+    </linearGradient>
+
+    <!-- Giraffe Pattern Gradient -->
+    <linearGradient id="giraffeBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f9c74f"/>
+      <stop offset="100%" stop-color="#d68c24"/>
+    </linearGradient>
+
+    <!-- UI Panel Gradient -->
+    <linearGradient id="uiGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="rgba(0,0,0,0.95)"/>
+      <stop offset="100%" stop-color="rgba(25,10,40,0.95)"/>
+    </linearGradient>
+
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="512" height="4" patternUnits="userSpaceOnUse">
+      <line x1="0" y1="0" x2="512" y2="0" stroke="rgba(0,0,0,0.3)" stroke-width="1"/>
+    </pattern>
+
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Retro Sun in Background -->
+  <circle cx="380" cy="180" r="75" fill="#ff4e50" opacity="0.85" filter="url(#neonGlow)"/>
+  <!-- Sun stripes (retro arcade style) -->
+  <rect x="290" y="165" width="180" height="4" fill="#0a0518"/>
+  <rect x="290" y="180" width="180" height="6" fill="#0a0518"/>
+  <rect x="290" y="200" width="180" height="8" fill="#0a0518"/>
+  <rect x="290" y="225" width="180" height="10" fill="#0a0518"/>
+
+  <!-- Arcade Starfield / Pixel Particles -->
+  <g fill="#00ffff" opacity="0.9">
+    <rect x="75" y="85" width="3" height="3"/>
+    <rect x="140" y="125" width="2" height="2"/>
+    <rect x="230" y="75" width="4" height="4" fill="#ffff00"/>
+    <rect x="460" y="105" width="3" height="3"/>
+    <rect x="45" y="215" width="2" height="2"/>
+    <rect x="270" y="125" width="3" height="3" fill="#ff00ff"/>
+    <rect x="120" y="200" width="2" height="2" fill="#ffff00"/>
+  </g>
+
+  <!-- Pixelated Workshop / Grid Lines -->
+  <path d="M0 360 L512 360 M0 395 L512 395 M0 435 L512 435 M0 480 L512 480" stroke="#ff007f" stroke-width="1" opacity="0.25"/>
+  <path d="M60 360 L10 512 M180 360 L130 512 M320 360 L360 512 M440 360 L490 512" stroke="#ff007f" stroke-width="1" opacity="0.25"/>
+
+  <!-- Floor -->
+  <rect x="0" y="360" width="512" height="152" fill="url(#floorGrad)"/>
+  <rect x="0" y="355" width="512" height="8" fill="#00ffff" opacity="0.85" filter="url(#neonGlow)"/>
+
+  <!-- SCENE: DETAILED BICYCLE -->
+  <g id="bicycle" transform="translate(240, 310)">
+    <!-- Wheels with spokes -->
+    <circle cx="-70" cy="20" r="35" fill="none" stroke="#00ffff" stroke-width="4" stroke-dasharray="6 4" filter="url(#neonGlow)"/>
+    <circle cx="70" cy="20" r="35" fill="none" stroke="#00ffff" stroke-width="4" stroke-dasharray="6 4" filter="url(#neonGlow)"/>
+    <!-- Spokes -->
+    <path d="M-70 -15 L-70 55 M-105 20 L-35 20 M-95 -5 L-45 45 M-95 45 L-45 -5" stroke="#00ffff" stroke-width="1.2" opacity="0.6"/>
+    <path d="M35 -15 L35 55 M105 20 L35 20 M95 -5 L45 45 M95 45 L45 -5" stroke="#00ffff" stroke-width="1.2" opacity="0.6"/>
+    
+    <circle cx="-70" cy="20" r="5" fill="#ffffff"/>
+    <circle cx="70" cy="20" r="5" fill="#ffffff"/>
+
+    <!-- Frame -->
+    <path d="M-70 20 L-20 -15 L35 -15 L70 20 Z" fill="none" stroke="#ff007f" stroke-width="6" stroke-linejoin="round" filter="url(#neonGlow)"/>
+    <path d="M-20 -15 L0 30 L35 -15" fill="none" stroke="#ff007f" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M-20 -15 L-30 -35 L-42 -42" fill="none" stroke="#ff007f" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Handlebars -->
+    <path d="M-42 -42 L-52 -48 M-42 -42 L-32 -52" fill="none" stroke="#ffff00" stroke-width="5" stroke-linecap="round"/>
+    <rect x="-55" y="-52" width="6" height="4" fill="#ff007f" rx="1"/>
+    
+    <!-- Seat -->
+    <path d="M5 -26 L45 -30 L40 -18 Z" fill="#ffff00" stroke="#ff007f" stroke-width="2"/>
+    
+    <!-- Chain & Gearbox -->
+    <circle cx="0" cy="30" r="14" fill="none" stroke="#ffffff" stroke-width="4"/>
+    <circle cx="0" cy="30" r="8" fill="#222222"/>
+    <path d="M-70 24 L0 30 L70 24" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 2"/>
+    <path d="M-70 36 L0 36 L70 36" stroke="#ffffff" stroke-width="2" stroke-dasharray="4 2"/>
+    <path d="M-12 38 L12 22" stroke="#ffff00" stroke-width="5" stroke-linecap="round"/>
+  </g>
+
+  <!-- SCENE: GIRAFFE MECHANIC (EXPRESSIVE & POLISHED) -->
+  <g id="giraffe" transform="translate(140, 110)">
+    <!-- Legs / Lower Body -->
+    <rect x="15" y="155" width="14" height="135" fill="url(#giraffeBody)" rx="7"/>
+    <rect x="55" y="145" width="14" height="145" fill="url(#giraffeBody)" rx="7"/>
+    <!-- Hooves with metallic sheen -->
+    <path d="M11 285 L31 285 L35 298 L11 298 Z" fill="#1b1425"/>
+    <rect x="15" y="288" width="16" height="3" fill="#00ffff"/>
+    <path d="M51 285 L71 285 L75 298 L51 298 Z" fill="#1b1425"/>
+    <rect x="55" y="288" width="16" height="3" fill="#00ffff"/>
+
+    <!-- Body -->
+    <ellipse cx="40" cy="140" rx="48" ry="38" fill="url(#giraffeBody)"/>
+    <!-- Body Spots -->
+    <polygon points="18,118 32,112 38,124 24,132" fill="#8c5011"/>
+    <polygon points="46,132 64,126 58,145 40,152" fill="#8c5011"/>
+    <polygon points="24,150 38,144 42,160 28,166" fill="#8c5011"/>
+
+    <!-- Long Bending Neck -->
+    <path d="M 15 120 Q -22 55 -12 8 Q 2 -32 44 -42" fill="none" stroke="url(#giraffeBody)" stroke-width="28" stroke-linecap="round"/>
+    
+    <!-- Neck Spots -->
+    <rect x="-12" y="72" width="14" height="12" fill="#8c5011" rx="3" transform="rotate(-18 -5 78)"/>
+    <rect x="-4" y="32" width="12" height="16" fill="#8c5011" rx="3" transform="rotate(12 2 40)"/>
+    <rect x="10" y="2" width="12" height="14" fill="#8c5011" rx="3" transform="rotate(25 16 9)"/>
+
+    <!-- Head -->
+    <g transform="translate(48, -48) rotate(22)">
+      <!-- Snout -->
+      <ellipse cx="0" cy="-5" rx="24" ry="17" fill="url(#giraffeBody)"/>
+      <ellipse cx="-13" cy="-2" rx="7" ry="9" fill="#e89d28"/>
+      <!-- Nostrils -->
+      <circle cx="-15" cy="-3" r="2.5" fill="#2b1402"/>
+      <!-- Smiling Mouth -->
+      <path d="M-12 6 Q -5 12 2 6" fill="none" stroke="#603000" stroke-width="2" stroke-linecap="round"/>
+      
+      <!-- Ears -->
+      <path d="M 14 -18 Q 28 -28 22 -10 Z" fill="url(#giraffeBody)"/>
+      <path d="M 14 -18 Q 20 -22 18 -12 Z" fill="#ffb3ba"/>
+      
+      <!-- Ossicones (Horns with bright tufts) -->
+      <path d="M 6 -26 L 3 -42 M 16 -22 L 20 -38" stroke="#d68c24" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="3" cy="-44" r="5" fill="#542807"/>
+      <circle cx="20" cy="-40" r="5" fill="#542807"/>
+      <circle cx="3" cy="-44" r="2" fill="#ffff00"/>
+      <circle cx="20" cy="-40" r="2" fill="#ffff00"/>
+
+      <!-- Expressive Gamer Eyes -->
+      <circle cx="-2" cy="-12" r="7" fill="#ffffff"/>
+      <circle cx="-3" cy="-12" r="3.5" fill="#00ffff"/>
+      <circle cx="-4" cy="-13" r="1.5" fill="#ffffff"/>
+
+      <!-- Cyber Safety Goggles on Forehead -->
+      <rect x="-17" y="-28" width="34" height="13" rx="5" fill="none" stroke="#ffff00" stroke-width="3.5" filter="url(#neonGlow)"/>
+      <circle cx="-6" cy="-21.5" r="4.5" fill="#00ffff" opacity="0.9"/>
+      <circle cx="6" cy="-21.5" r="4.5" fill="#00ffff" opacity="0.9"/>
+      <path d="M -21 -21.5 L -17 -21.5 M 17 -21.5 L 21 -21.5" stroke="#ffff00" stroke-width="3"/>
+    </g>
+
+    <!-- Arm / Hoof holding Wrench & Repair Tool -->
+    <g transform="translate(62, 110) rotate(-28)">
+      <path d="M 0 0 L 32 22" stroke="url(#giraffeBody)" stroke-width="15" stroke-linecap="round"/>
+      <!-- Glowing Neon Wrench -->
+      <g transform="translate(38, 22) rotate(42)">
+        <rect x="-3.5" y="-16" width="7" height="34" fill="#00ffff" rx="2" filter="url(#neonGlow)"/>
+        <circle cx="0" cy="-16" r="8" fill="none" stroke="#00ffff" stroke-width="3.5"/>
+        <path d="M -6 16 L 6 16 L 4 28 L -4 28 Z" fill="#00ffff"/>
+      </g>
+    </g>
+  </g>
+
+  <!-- Dynamic Wrench Sparks / Repair FX -->
+  <g transform="translate(230, 285)">
+    <polygon points="0,0 18,-12 12,-28 30,-18 42,-34 28,-6 48,6 24,12 18,30" fill="#ffff00" filter="url(#neonGlow)"/>
+    <polygon points="10,15 22,5 35,20 18,25" fill="#ff007f" opacity="0.9"/>
+    <circle cx="-18" cy="-18" r="4" fill="#00ffff" filter="url(#neonGlow)"/>
+    <circle cx="35" cy="-38" r="5" fill="#ff007f" filter="url(#neonGlow)"/>
+    <circle cx="50" cy="18" r="4" fill="#ffff00" filter="url(#neonGlow)"/>
+    <circle cx="-5" cy="25" r="3" fill="#00ffff"/>
+  </g>
+
+  <!-- RETRO VIDEO GAME UI OVERLAY (POLISHED) -->
+  <!-- Top HUD Bar -->
+  <rect x="0" y="0" width="512" height="50" fill="url(#uiGrad)" stroke="#4a156b" stroke-width="2"/>
+  
+  <!-- Score & High Score -->
+  <text x="24" y="32" fill="#00ffff" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="2" filter="url(#neonGlow)">1UP 099999</text>
+  <text x="180" y="32" fill="#ffff00" font-family="monospace" font-size="16" font-weight="bold" letter-spacing="2">HI 99999</text>
+  
+  <!-- Lives (Glowing Pixel Hearts) -->
+  <g transform="translate(415, 17)">
+    <path d="M 10 5 C 6 0, 0 2, 0 8 C 0 14, 10 20, 10 24 C 10 20, 20 14, 20 8 C 20 2, 14 0, 10 5 Z" fill="#ff0055" filter="url(#neonGlow)"/>
+    <path d="M 32 5 C 28 0, 22 2, 22 8 C 22 14, 32 20, 32 24 C 32 20, 42 14, 42 8 C 42 2, 36 0, 32 5 Z" fill="#ff0055" filter="url(#neonGlow)"/>
+    <path d="M 54 5 C 50 0, 44 2, 44 8 C 44 14, 54 20, 54 24 C 54 20, 64 14, 64 8 C 64 2, 58 0, 54 5 Z" fill="#ff0055" filter="url(#neonGlow)"/>
+  </g>
+
+  <!-- Bottom HUD / Quest Bar -->
+  <rect x="0" y="462" width="512" height="50" fill="url(#uiGrad)" stroke="#4a156b" stroke-width="2"/>
+  <text x="24" y="493" fill="#ff007f" font-family="monospace" font-size="15" font-weight="bold" letter-spacing="1" filter="url(#neonGlow)">QUEST: COMPLETE [100%]</text>
+  
+  <!-- Mini HP Bar (Full) -->
+  <rect x="336" y="476" width="152" height="22" fill="#0a0518" stroke="#00ffff" stroke-width="2" rx="4"/>
+  <rect x="340" y="480" width="144" height="14" fill="#00ff66" rx="2" filter="url(#neonGlow)"/>
+  <!-- HP Bar segments -->
+  <line x1="376" y1="480" x2="376" y2="494" stroke="#0a0518" stroke-width="2"/>
+  <line x1="412" y1="480" x2="412" y2="494" stroke="#0a0518" stroke-width="2"/>
+  <line x1="448" y1="480" x2="448" y2="494" stroke="#0a0518" stroke-width="2"/>
+
+  <!-- Screen Scanline Overlay -->
+  <rect width="512" height="512" fill="url(#scanlines)" pointer-events="none"/>
+
+  <!-- Arcade Cabinet Outer Border -->
+  <rect x="0" y="0" width="512" height="512" fill="none" stroke="#00ffff" stroke-width="5" opacity="0.85" filter="url(#neonGlow)"/>
+</svg>

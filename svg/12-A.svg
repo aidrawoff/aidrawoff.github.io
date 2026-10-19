@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient: Deep Winter Night -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="50%" stop-color="#151b2e"/>
+      <stop offset="100%" stop-color="#221c35"/>
+    </linearGradient>
+
+    <!-- Neon Glow Filters -->
+    <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur1"/>
+      <feGaussianBlur stdDeviation="12" result="blur2"/>
+      <feMerge>
+        <feMergeNode in="blur2"/>
+        <feMergeNode in="blur1"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="subtleGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Gradients for Hippo and Magic -->
+    <linearGradient id="hippoBody" x1="20%" y1="20%" x2="80%" y2="80%">
+      <stop offset="0%" stop-color="#7c6a96"/>
+      <stop offset="60%" stop-color="#55466d"/>
+      <stop offset="100%" stop-color="#382a4d"/>
+    </linearGradient>
+
+    <linearGradient id="hippoBelly" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#b8a7d1"/>
+      <stop offset="100%" stop-color="#7c6a96"/>
+    </linearGradient>
+
+    <linearGradient id="magicBeam" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#ff00ff" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffff00" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <linearGradient id="iceFloor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1f2c4c"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </linearGradient>
+
+    <!-- Snowflake shape -->
+    <path id="snowflake" d="M0 -8 L1 -2 8 0 1 2 0 8 -1 2 -8 0 -1 -2 -8 0 -1 2 Z" fill="#ffffff"/>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Aurora / Neon Sky Waves -->
+  <path d="M0 80 Q128 30 256 90 T512 60 L512 0 L0 0 Z" fill="#00ffff" opacity="0.1"/>
+  <path d="M0 120 Q160 160 320 100 T512 140 L512 0 L0 0 Z" fill="#ff00ff" opacity="0.08"/>
+
+  <!-- Falling Snowflakes & Magic Sparkles -->
+  <g fill="#ffffff" opacity="0.8">
+    <use href="#snowflake" x="60" y="80" transform="scale(0.4)"/>
+    <use href="#snowflake" x="120" y="40" transform="scale(0.3)"/>
+    <use href="#snowflake" x="200" y="110" transform="scale(0.5)"/>
+    <use href="#snowflake" x="310" y="70" transform="scale(0.35)"/>
+    <use href="#snowflake" x="420" y="50" transform="scale(0.45)"/>
+    <use href="#snowflake" x="470" y="130" transform="scale(0.3)"/>
+    <use href="#snowflake" x="80" y="180" transform="scale(0.35)"/>
+    <use href="#snowflake" x="150" y="220" transform="scale(0.4)"/>
+    <use href="#snowflake" x="380" y="190" transform="scale(0.4)"/>
+    <use href="#snowflake" x="450" y="240" transform="scale(0.35)"/>
+  </g>
+
+  <!-- Winter Stage / Ice Floor -->
+  <path d="M0 400 L512 370 L512 512 L0 512 Z" fill="url(#iceFloor)"/>
+  <!-- Stage rim light -->
+  <path d="M0 400 L512 370" stroke="#00ffff" stroke-width="3" filter="url(#neonGlow)" opacity="0.8"/>
+  <path d="M0 404 L512 374" stroke="#ff00ff" stroke-width="1.5" opacity="0.6"/>
+
+  <!-- Snowdrifts -->
+  <path d="M-10 420 Q80 390 180 415 T400 405 Q470 395 520 410 L520 512 L-10 512 Z" fill="#e2e8f0" opacity="0.15"/>
+
+  <!-- BACKDROP MAGIC CIRCLE / NEON RING -->
+  <ellipse cx="270" cy="260" rx="130" ry="130" fill="none" stroke="#ff00aa" stroke-width="4" stroke-dasharray="12 6" filter="url(#neonGlow)" opacity="0.7"/>
+  <ellipse cx="270" cy="260" rx="150" ry="150" fill="none" stroke="#00f0ff" stroke-width="2" filter="url(#neonGlow)" opacity="0.5"/>
+
+  <!-- HIPPO CHARACTER (Hero Subject - >40% frame) -->
+  <g transform="translate(40, 40)">
+    <!-- Cast Shadow on Ice -->
+    <ellipse cx="230" cy="355" rx="110" ry="25" fill="#050811" opacity="0.7"/>
+
+    <!-- Hippo Body -->
+    <path d="M140 220 C110 220 90 250 95 300 C100 350 140 370 230 370 C320 370 360 350 365 300 C370 250 350 220 320 220 Z" fill="url(#hippoBody)" stroke="#1a1226" stroke-width="4"/>
+    <!-- Belly Patch -->
+    <ellipse cx="230" cy="310" rx="85" ry="50" fill="url(#hippoBelly)" opacity="0.85"/>
+
+    <!-- Magician Cape / Coat -->
+    <path d="M110 240 L160 365 L100 370 Z" fill="#111827" stroke="#ff00ff" stroke-width="2"/>
+    <path d="M350 240 L300 365 L360 370 Z" fill="#111827" stroke="#00ffff" stroke-width="2"/>
+    <path d="M140 235 L320 235 L300 270 L160 270 Z" fill="#b91c1c" stroke="#fef08a" stroke-width="2"/> <!-- Red cape collar -->
+
+    <!-- Hippo Head -->
+    <g transform="translate(230, 190)">
+      <!-- Ears -->
+      <ellipse cx="-65" cy="-35" rx="16" ry="22" fill="#55466d" stroke="#1a1226" stroke-width="3" transform="rotate(-20 -65 -35)"/>
+      <ellipse cx="65" cy="-35" rx="16" ry="22" fill="#55466d" stroke="#1a1226" stroke-width="3" transform="rotate(20 65 -35)"/>
+      <ellipse cx="-65" cy="-35" rx="8" ry="12" fill="#fbcfe8" transform="rotate(-20 -65 -35)"/>
+      <ellipse cx="65" cy="-35" rx="8" ry="12" fill="#fbcfe8" transform="rotate(20 65 -35)"/>
+
+      <!-- Head Base / Snout -->
+      <rect x="-85" y="-45" width="170" height="95" rx="45" fill="url(#hippoBody)" stroke="#1a1226" stroke-width="4"/>
+      <!-- Massive Snout -->
+      <path d="M-75 -5 C-75 35 -40 55 0 55 C40 55 75 35 75 -5 C75 25 40 45 0 45 C-40 45 -75 25 -75 -5 Z" fill="#7c6a96" stroke="#1a1226" stroke-width="3"/>
+
+      <!-- Nostrils -->
+      <ellipse cx="-25" cy="15" rx="8" ry="5" fill="#2b1f3d"/>
+      <ellipse cx="25" cy="15" rx="8" ry="5" fill="#2b1f3d"/>
+
+      <!-- Cheeks / Cute Sparkle Eyes -->
+      <circle cx="-45" cy="-15" r="7" fill="#111827"/>
+      <circle cx="45" cy="-15" r="7" fill="#111827"/>
+      <circle cx="-43" cy="-17" r="2.5" fill="#ffffff"/>
+      <circle cx="47" cy="-17" r="2.5" fill="#ffffff"/>
+
+      <!-- Rosy Cheeks -->
+      <ellipse cx="-52" cy="0" rx="10" ry="6" fill="#f472b6" opacity="0.6"/>
+      <ellipse cx="52" cy="0" rx="10" ry="6" fill="#f472b6" opacity="0.6"/>
+
+      <!-- Festive Winter Scarf -->
+      <path d="M-88 35 Q0 55 88 35 L85 65 Q0 85 -85 65 Z" fill="#dc2626" stroke="#fef08a" stroke-width="2"/>
+      <path d="M30 55 L45 125 L75 120 L60 50 Z" fill="#dc2626" stroke="#fef08a" stroke-width="2"/> <!-- Scarf tail hanging -->
+      <path d="M40 70 L65 67" stroke="#ffffff" stroke-width="3"/>
+      <path d="M45 95 L70 92" stroke="#ffffff" stroke-width="3"/>
+    </g>
+
+    <!-- Magician Top Hat (Sitting on head) -->
+    <g transform="translate(230, 115)">
+      <!-- Brim -->
+      <ellipse cx="0" cy="10" rx="85" ry="18" fill="#1f2937" stroke="#00ffff" stroke-width="2" filter="url(#subtleGlow)"/>
+      <!-- Hat Cylinder -->
+      <path d="M-55 10 L-45 -65 L45 -65 L55 10 Z" fill="#111827" stroke="#374151" stroke-width="3"/>
+      <!-- Neon Hat Band -->
+      <path d="M-50 -10 L50 -10 L48 2 L-48 2 Z" fill="#ff00ff" filter="url(#neonGlow)"/>
+      <!-- Snow on Top Hat -->
+      <path d="M-45 -65 Q0 -75 45 -65 Q30 -55 0 -60 Q-30 -55 -45 -65 Z" fill="#ffffff"/>
+    </g>
+
+    <!-- ARMS & MAGIC TRICK -->
+    <!-- Left Arm holding Magic Wand -->
+    <g transform="translate(130, 270)">
+      <path d="M0 0 C-40 20 -50 60 -30 80 C-15 90 0 70 15 50 Z" fill="#55466d" stroke="#1a1226" stroke-width="3" transform="rotate(-30)"/>
+      <!-- Magic Wand -->
+      <line x1="-35" y1="70" x2="-90" y2="20" stroke="#fef08a" stroke-width="6" stroke-linecap="round" filter="url(#neonGlow)"/>
+      <!-- Wand Tip Star / Neon Burst -->
+      <g transform="translate(-95, 15)">
+        <circle cx="0" cy="0" r="16" fill="#00ffff" opacity="0.4" filter="url(#neonGlow)"/>
+        <path d="M0 -22 L6 -6 L22 0 L6 6 L0 22 L-6 6 L-22 0 L-6 -6 Z" fill="#ffff00" filter="url(#neonGlow)"/>
+      </g>
+    </g>
+
+    <!-- Right Arm pointing / gesturing -->
+    <g transform="translate(330, 270)">
+      <path d="M0 0 C40 20 50 60 30 80 C15 90 0 70 -15 50 Z" fill="#55466d" stroke="#1a1226" stroke-width="3" transform="rotate(30)"/>
+    </g>
+  </g>
+
+  <!-- MAGIC EFFECTS: Summoning a Glowing Winter Rabbit / Snowball from the Wand -->
+  <g transform="translate(110, 160)" filter="url(#neonGlow)">
+    <!-- Floating Neon Magic Rings -->
+    <ellipse cx="0" cy="0" rx="35" ry="15" fill="none" stroke="#00ffff" stroke-width="3" transform="rotate(-25)"/>
+    <ellipse cx="0" cy="0" rx="25" ry="10" fill="none" stroke="#ff00ff" stroke-width="2.5" transform="rotate(45)"/>
+
+    <!-- Glowing Magical Snowbunny appearing -->
+    <g transform="translate(0, -30)">
+      <!-- Bunny Head -->
+      <ellipse cx="0" cy="0" rx="22" ry="18" fill="#e0f2fe" stroke="#00ffff" stroke-width="2"/>
+      <!-- Bunny Ears -->
+      <ellipse cx="-10" cy="-32" rx="6" ry="18" fill="#e0f2fe" stroke="#ff00ff" stroke-width="2" transform="rotate(-15 -10 -32)"/>
+      <ellipse cx="10" cy="-32" rx="6" ry="18" fill="#e0f2fe" stroke="#ff00ff" stroke-width="2" transform="rotate(15 10 -32)"/>
+      <!-- Bunny Eyes -->
+      <circle cx="-7" cy="-3" r="3" fill="#ff00aa"/>
+      <circle cx="7" cy="-3" r="3" fill="#ff00aa"/>
+      <!-- Tiny Magic Magician Bowtie -->
+      <polygon points="0,12 -8,18 0,24 8,18" fill="#ec4899"/>
+    </g>
+  </g>
+
+  <!-- Floating Sparkle Stars & Magic Cards -->
+  <g filter="url(#neonGlow)">
+    <path d="M380 120 L385 135 L400 140 L385 145 L380 160 L375 145 L360 140 L375 135 Z" fill="#00ffff"/>
+    <path d="M120 340 L124 350 L134 354 L124 358 L120 368 L116 358 L106 354 L116 350 Z" fill="#ff00ff"/>
+    <path d="M420 300 L423 308 L431 311 L423 314 L420 322 L417 314 L409 311 L417 308 Z" fill="#ffff00"/>
+    <path d="M200 200 L205 215 L220 220 L205 225 L200 240 L195 225 L180 220 L195 215 Z" fill="#00ffff"/>
+    <path d="M300 280 L304 290 L314 294 L304 298 L300 308 L296 298 L286 294 L296 290 Z" fill="#ff00ff"/>
+    <path d="M150 380 L153 388 L161 391 L153 394 L150 402 L147 394 L139 391 L147 388 Z" fill="#ffff00"/>
+  </g>
+
+  <!-- Foreground Snow Flakes (Depth) -->
+  <circle cx="100" cy="460" r="4" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+  <circle cx="230" cy="480" r="5" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+  <circle cx="390" cy="450" r="4" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+  <circle cx="50" cy="420" r="3" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+  <circle cx="450" cy="430" r="4" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+  <circle cx="180" cy="470" r="3.5" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+  <circle cx="320" cy="460" r="3" fill="#ffffff" opacity="0.9" filter="url(#subtleGlow)"/>
+
+  <!-- Live Show Watermark / DJ Sparkle Neon Vibe Tag -->
+  <text x="256" y="35" font-family="system-ui, sans-serif" font-weight="900" font-size="18" fill="#ff00ff" text-anchor="middle" filter="url(#neonGlow)" letter-spacing="4">DJ SPARKLE STAGE</text>
+</svg>

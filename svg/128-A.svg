@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background - cozy room -->
+  <rect width="512" height="512" fill="#2d1f1a"/>
+  
+  <!-- Floor -->
+  <ellipse cx="256" cy="440" rx="200" ry="40" fill="#4a3728"/>
+  
+  <!-- Window with moonlight -->
+  <rect x="350" y="40" width="120" height="100" rx="8" fill="#1a2a3a" stroke="#5a4a3a" stroke-width="6"/>
+  <circle cx="400" cy="70" r="20" fill="#e8e4b0" opacity="0.9"/>
+  <circle cx="408" cy="65" r="18" fill="#1a2a3a"/>
+  
+  <!-- Stars in window -->
+  <circle cx="370" cy="55" r="1.5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="440" cy="80" r="1" fill="#ffffff" opacity="0.6"/>
+  <circle cx="380" cy="100" r="1.5" fill="#ffffff" opacity="0.7"/>
+  
+  <!-- Zombie body - slouching posture -->
+  <ellipse cx="230" cy="300" rx="70" ry="80" fill="#6b8f5e"/>
+  
+  <!-- Body clothing - oversized sweater -->
+  <path d="M170 260 Q230 240 290 260 L300 350 Q230 370 160 350 Z" fill="#8b4557"/>
+  
+  <!-- Knitting pattern on sweater -->
+  <line x1="180" y1="280" x2="280" y2="280" stroke="#a05060" stroke-width="2" opacity="0.5"/>
+  <line x1="175" y1="300" x2="285" y2="300" stroke="#a05060" stroke-width="2" opacity="0.5"/>
+  <line x1="170" y1="320" x2="290" y2="320" stroke="#a05050" stroke-width="2" opacity="0.5"/>
+  
+  <!-- Zombie head -->
+  <ellipse cx="230" cy="170" rx="55" ry="60" fill="#7da872"/>
+  
+  <!-- Hair - messy zombie hair -->
+  <path d="M185 150 Q190 110 230 105 Q270 110 275 150" fill="#3d2b1f"/>
+  <path d="M180 140 Q175 120 190 115" fill="#3d2b1f"/>
+  <path d="M280 140 Q285 120 270 115" fill="#3d2b1f"/>
+  
+  <!-- Eyes - half-closed, learning mode -->
+  <ellipse cx="210" cy="165" rx="12" ry="8" fill="#ffffff"/>
+  <ellipse cx="250" cy="165" rx="12" ry="8" fill="#ffffff"/>
+  <circle cx="212" cy="165" r="5" fill="#2a1a1a"/>
+  <circle cx="252" cy="165" r="5" fill="#2a1a1a"/>
+  <path d="M198 160 Q210 155 222 160" stroke="#4a6a42" stroke-width="2" fill="none"/>
+  <path d="M238 160 Q250 155 262 160" stroke="#4a6a42" stroke-width="2" fill="none"/>
+  
+  <!-- Nose -->
+  <ellipse cx="230" cy="180" rx="5" ry="3" fill="#5a7a52"/>
+  
+  <!-- Mouth - concentrated expression -->
+  <path d="M215 195 Q230 205 245 195" stroke="#4a5a3a" stroke-width="2.5" fill="none"/>
+  
+  <!-- Stitches on face (zombie details) -->
+  <line x1="195" y1="145" x2="200" y2="155" stroke="#5a7a52" stroke-width="1.5"/>
+  <line x1="260" y1="145" x2="255" y2="155" stroke="#5a7a52" stroke-width="1.5"/>
+  
+  <!-- Left arm holding needle -->
+  <path d="M170 270 Q140 290 130 310 Q125 320 135 315" fill="#8b4557" stroke="#7a3a4c" stroke-width="1"/>
+  
+  <!-- Right arm holding needle -->
+  <path d="M290 270 Q320 290 330 310 Q335 320 325 315" fill="#8b4557" stroke="#7a3a4c" stroke-width="1"/>
+  
+  <!-- Hands - green zombie hands -->
+  <circle cx="130" cy="315" r="12" fill="#7da872"/>
+  <circle cx="330" cy="315" r="12" fill="#7da872"/>
+  
+  <!-- Knitting needles -->
+  <line x1="110" y1="280" x2="200" y2="340" stroke="#c0a060" stroke-width="3" stroke-linecap="round"/>
+  <line x1="350" y1="280" x2="260" y2="340" stroke="#c0a060" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Yarn ball -->
+  <circle cx="100" cy="380" r="25" fill="#e04060"/>
+  <path d="M80 370 Q90 360 100 375 Q110 365 120 370" stroke="#c03050" stroke-width="2" fill="none"/>
+  <path d="M85 385 Q95 375 105 385 Q115 375 115 390" stroke="#c03050" stroke-width="2" fill="none"/>
+  
+  <!-- Yarn strand to knitting -->
+  <path d="M100 355 Q110 340 130 320 Q150 305 180 330" stroke="#e04060" stroke-width="2.5" fill="none"/>
+  
+  <!-- Knitted piece being made -->
+  <path d="M180 330 Q200 340 230 335 Q260 340 280 330" stroke="#e04060" stroke-width="3" fill="none"/>
+  <path d="M185 340 Q200 348 230 343 Q260 348 275 340" stroke="#e04060" stroke-width="2.5" fill="none"/>
+  <path d="M190 350 Q205 356 230 352 Q255 356 270 350" stroke="#e04060" stroke-width="2" fill="none"/>
+  
+  <!-- Little stitches on knitted piece -->
+  <line x1="195" y1="335" x2="195" y2="345" stroke="#c03050" stroke-width="1.5"/>
+  <line x1="210" y1="338" x2="210" y2="348" stroke="#c03050" stroke-width="1.5"/>
+  <line x1="225" y1="336" x2="225" y2="346" stroke="#c03050" stroke-width="1.5"/>
+  <line x1="240" y1="338" x2="240" y2="348" stroke="#c03050" stroke-width="1.5"/>
+  <line x1="255" y1="336" x2="255" y2="346" stroke="#c03050" stroke-width="1.5"/>
+  <line x1="270" y1="335" x2="270" y2="345" stroke="#c03050" stroke-width="1.5"/>
+  
+  <!-- Feet -->
+  <ellipse cx="200" cy="390" rx="20" ry="10" fill="#6b8f5e"/>
+  <ellipse cx="260" cy="390" rx="20" ry="10" fill="#6b8f5e"/>
+  
+  <!-- Slippers -->
+  <ellipse cx="195" cy="395" rx="22" ry="12" fill="#5a3a6a"/>
+  <ellipse cx="265" cy="395" rx="22" ry="12" fill="#5a3a6a"/>
+  
+  <!-- Warm lamp glow -->
+  <circle cx="100" cy="200" r="60" fill="#ffa040" opacity="0.08"/>
+  <circle cx="100" cy="200" r="30" fill="#ffb060" opacity="0.1"/>
+  
+  <!-- Lamp -->
+  <rect x="95" y="250" width="10" height="80" fill="#6a5a3a"/>
+  <path d="M75 250 L100 220 L125 250 Z" fill="#e8c060"/>
+  <circle cx="100" cy="235" r="15" fill="#ffe080" opacity="0.3"/>
+</svg>

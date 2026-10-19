@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd08a"/>
+      <stop offset="0.55" stop-color="#ffb3c1"/>
+      <stop offset="1" stop-color="#8fd3f4"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f8fc9"/>
+      <stop offset="1" stop-color="#6fd0e8"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7dfa8"/>
+      <stop offset="1" stop-color="#d9b267"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="392" cy="120" r="52" fill="#ffe27a"/>
+  <circle cx="392" cy="120" r="72" fill="#ffe27a" opacity="0.25"/>
+
+  <rect y="252" width="512" height="70" fill="url(#sea)"/>
+  <path d="M0 258 Q60 250 120 258 T240 258 T360 258 T480 258 T560 258" stroke="#ffffff" stroke-width="4" fill="none" opacity="0.7"/>
+  <path d="M0 286 Q70 278 140 286 T280 286 T420 286 T560 286" stroke="#cdefff" stroke-width="3" fill="none" opacity="0.6"/>
+
+  <path d="M0 316 Q120 300 260 314 T512 308 V512 H0 Z" fill="url(#sand)"/>
+  <path d="M0 322 Q130 306 270 320 T512 314 L512 330 Q260 336 0 340 Z" fill="#ffffff" opacity="0.55"/>
+
+  <!-- beach umbrella behind -->
+  <g transform="rotate(-8 118 300)">
+    <rect x="114" y="150" width="7" height="180" fill="#8a5a2b"/>
+    <path d="M40 160 Q118 92 196 160 Z" fill="#e8433f"/>
+    <path d="M66 156 Q118 100 170 156 Z" fill="#fdf3e3"/>
+    <path d="M92 152 Q118 112 144 152 Z" fill="#e8433f"/>
+  </g>
+
+  <!-- cooler box -->
+  <g>
+    <rect x="386" y="336" width="86" height="58" rx="8" fill="#2aa9c4"/>
+    <rect x="380" y="326" width="98" height="18" rx="7" fill="#f5f2e6"/>
+    <rect x="404" y="352" width="50" height="10" rx="5" fill="#1b7f96"/>
+  </g>
+
+  <!-- beach towel -->
+  <path d="M120 400 L360 384 L392 452 L148 470 Z" fill="#ff7f9c"/>
+  <path d="M132 412 L366 396 L372 410 L138 426 Z" fill="#fff2f5"/>
+  <path d="M142 440 L378 424 L384 438 L148 454 Z" fill="#ffd166"/>
+
+  <!-- MUMMY reclining on towel -->
+  <g>
+    <!-- legs -->
+    <path d="M300 424 L392 402" stroke="#efe4c4" stroke-width="30" stroke-linecap="round"/>
+    <path d="M296 442 L388 430" stroke="#e6d9b4" stroke-width="28" stroke-linecap="round"/>
+    <!-- torso -->
+    <path d="M176 428 Q240 412 302 424" stroke="#efe4c4" stroke-width="46" stroke-linecap="round"/>
+    <!-- belly bands -->
+    <path d="M200 410 q6 30 2 44" stroke="#d9c896" stroke-width="6" fill="none"/>
+    <path d="M236 404 q7 32 3 48" stroke="#d9c896" stroke-width="6" fill="none"/>
+    <path d="M272 404 q7 30 3 46" stroke="#d9c896" stroke-width="6" fill="none"/>
+    <!-- arms: one holding sunglasses up, one behind head -->
+    <path d="M196 420 Q168 384 150 350" stroke="#efe4c4" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <path d="M256 416 Q296 388 316 356" stroke="#e6d9b4" stroke-width="20" stroke-linecap="round" fill="none"/>
+    <!-- head -->
+    <ellipse cx="152" cy="392" rx="42" ry="46" fill="#f3ead0" transform="rotate(-16 152 392)"/>
+    <path d="M114 372 Q152 350 190 374" stroke="#d9c896" stroke-width="5" fill="none"/>
+    <path d="M112 392 Q152 372 192 394" stroke="#d9c896" stroke-width="5" fill="none"/>
+    <path d="M116 412 Q152 432 190 412" stroke="#d9c896" stroke-width="5" fill="none"/>
+    <!-- dark eye sockets glowing -->
+    <ellipse cx="136" cy="384" rx="12" ry="10" fill="#2b2016" transform="rotate(-16 136 384)"/>
+    <ellipse cx="170" cy="378" rx="12" ry="10" fill="#2b2016" transform="rotate(-16 170 378)"/>
+    <circle cx="138" cy="383" r="4" fill="#7ef2c0"/>
+    <circle cx="172" cy="377" r="4" fill="#7ef2c0"/>
+    <!-- grinning mouth -->
+    <path d="M132 410 Q156 426 180 406" stroke="#2b2016" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- sunglasses dangling off hand -->
+  <g transform="rotate(12 150 348)">
+    <rect x="122" y="336" width="26" height="18" rx="6" fill="#1d1d24"/>
+    <rect x="154" y="336" width="26" height="18" rx="6" fill="#1d1d24"/>
+    <rect x="148" y="342" width="6" height="4" fill="#1d1d24"/>
+  </g>
+
+  <!-- trailing bandage streamer in the breeze -->
+  <path d="M192 356 Q250 300 210 250 Q172 206 232 176 Q286 150 268 108" stroke="#f7efd8" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M192 356 Q250 300 210 250 Q172 206 232 176 Q286 150 268 108" stroke="#d9c896" stroke-width="3" fill="none" stroke-dasharray="14 12" opacity="0.8"/>
+
+  <!-- sandcastle -->
+  <g>
+    <path d="M56 452 L112 452 L104 412 L64 412 Z" fill="#e0b872"/>
+    <rect x="70" y="392" width="28" height="24" fill="#e0b872"/>
+    <path d="M64 392 L98 392 L81 374 Z" fill="#cf9f56"/>
+    <rect x="80" y="424" width="10" height="14" fill="#8a5a2b"/>
+    <line x1="112" y1="412" x2="126" y2="398" stroke="#8a5a2b" stroke-width="3"/>
+    <path d="M126 398 l16 -6 l-6 12 z" fill="#e8433f"/>
+  </g>
+
+  <!-- flip flops + beach ball -->
+  <g>
+    <ellipse cx="430" cy="432" rx="17" ry="26" fill="#ff9f43" transform="rotate(18 430 432)"/>
+    <path d="M422 418 l10 12 l10 -10" stroke="#7a3d10" stroke-width="4" fill="none"/>
+    <ellipse cx="470" cy="446" rx="17" ry="26" fill="#ff9f43" transform="rotate(-10 470 446)"/>
+    <path d="M462 432 l10 12 l10 -10" stroke="#7a3d10" stroke-width="4" fill="none"/>
+  </g>
+  <circle cx="60" cy="336" r="26" fill="#ffffff"/>
+  <path d="M60 310 A26 26 0 0 1 82 348 L60 336 Z" fill="#e8433f"/>
+  <path d="M60 310 A26 26 0 0 0 38 348 L60 336 Z" fill="#2aa9c4"/>
+
+  <!-- starfish -->
+  <path d="M330 478 l8 16 l17 3 l-12 12 l3 17 l-16 -8 l-16 8 l3 -17 l-12 -12 l17 -3 z" fill="#ff8c5a"/>
+
+  <!-- shadow under mummy -->
+  <ellipse cx="270" cy="462" rx="130" ry="16" fill="#a9761f" opacity="0.28"/>
+
+  <!-- seagull -->
+  <path d="M330 96 q14 -12 28 0 q14 -12 28 0" stroke="#ffffff" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M448 66 q10 -9 20 0 q10 -9 20 0" stroke="#ffffff" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

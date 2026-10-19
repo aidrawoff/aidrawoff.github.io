@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f0c29"/>
+      <stop offset="50%" stop-color="#302b63"/>
+      <stop offset="100%" stop-color="#24243e"/>
+    </linearGradient>
+    <!-- Desert gradient -->
+    <linearGradient id="desertGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f37335"/>
+      <stop offset="100%" stop-color="#fdc830"/>
+    </linearGradient>
+    <!-- Car body gradient -->
+    <linearGradient id="carGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00b4d8"/>
+      <stop offset="100%" stop-color="#0077b6"/>
+    </linearGradient>
+    <!-- Scarf pattern gradient -->
+    <linearGradient id="scarfGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff416c"/>
+      <stop offset="50%" stop-color="#ff4b2b"/>
+      <stop offset="100%" stop-color="#ffa07a"/>
+    </linearGradient>
+    <!-- Crystal glow -->
+    <linearGradient id="crystalGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#70e000"/>
+      <stop offset="100%" stop-color="#38b000"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="512" height="320" fill="url(#skyGrad)"/>
+
+  <!-- Stars & Shooting Star & Cosmic Dust -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="60" cy="45" r="1.5"/>
+    <circle cx="150" cy="30" r="1"/>
+    <circle cx="280" cy="55" r="2"/>
+    <circle cx="390" cy="35" r="1.5"/>
+    <circle cx="460" cy="80" r="1"/>
+    <circle cx="110" cy="95" r="1.5"/>
+    <circle cx="220" cy="110" r="1"/>
+    <circle cx="340" cy="90" r="2"/>
+    <circle cx="430" cy="120" r="1.5"/>
+    <!-- Extra sparkle dust -->
+    <circle cx="200" cy="70" r="1"/>
+    <circle cx="310" cy="40" r="1"/>
+    <circle cx="480" cy="140" r="1.5"/>
+  </g>
+  <!-- Shooting Star -->
+  <path d="M 50 70 L 120 110" stroke="#fff" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <circle cx="50" cy="70" r="2" fill="#fff"/>
+
+  <!-- Twin Alien Moons -->
+  <circle cx="410" cy="100" r="35" fill="#ffb703" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="410" cy="100" r="35" fill="none" stroke="#fff" stroke-width="1" opacity="0.4"/>
+  <circle cx="330" cy="130" r="22" fill="#8ecae6" opacity="0.8"/>
+  <!-- Moon craters -->
+  <circle cx="400" cy="90" r="6" fill="#f37335" opacity="0.3"/>
+  <circle cx="425" cy="115" r="8" fill="#f37335" opacity="0.3"/>
+
+  <!-- Mountains in background -->
+  <polygon points="0,320 80,240 160,320" fill="#48cae4" opacity="0.25"/>
+  <polygon points="120,320 230,210 340,320" fill="#0096c7" opacity="0.3"/>
+  <polygon points="280,320 390,230 512,320" fill="#0077b6" opacity="0.25"/>
+
+  <!-- Desert Ground -->
+  <rect y="320" width="512" height="192" fill="url(#desertGrad)"/>
+  
+  <!-- Rolling sand dune waves -->
+  <path d="M0 340 Q 150 310, 320 350 T 512 335 L 512 512 L 0 512 Z" fill="#d97706" opacity="0.4"/>
+  <path d="M0 380 Q 200 350, 400 390 T 512 375 L 512 512 L 0 512 Z" fill="#b45309" opacity="0.3"/>
+
+  <!-- Roadside Alien Cacti & Glowing Crystals -->
+  <g transform="translate(60, 310)">
+    <path d="M 20 50 Q 20 20, 10 10" fill="none" stroke="#2d6a4f" stroke-width="8" stroke-linecap="round"/>
+    <path d="M 20 40 Q 30 25, 35 15" fill="none" stroke="#2d6a4f" stroke-width="6" stroke-linecap="round"/>
+    <path d="M 10 60 L 10 10 L 30 10 L 30 60 Z" fill="#52b788"/>
+    <ellipse cx="20" cy="60" rx="12" ry="5" fill="#1b4332"/>
+  </g>
+  <g transform="translate(430, 340)">
+    <polygon points="15,40 25,10 35,40" fill="url(#crystalGrad)" filter="url(#glow)"/>
+    <polygon points="5,50 12,25 20,50" fill="url(#crystalGrad)" opacity="0.8"/>
+    <polygon points="28,45 36,20 44,45" fill="url(#crystalGrad)" opacity="0.9"/>
+  </g>
+
+  <!-- Road (Perspective highway) -->
+  <polygon points="206,320 306,320 400,512 112,512" fill="#2b2d42"/>
+  <line x1="206" y1="320" x2="112" y2="512" stroke="#00f5d4" stroke-width="3" opacity="0.8"/>
+  <line x1="306" y1="320" x2="400" y2="512" stroke="#00f5d4" stroke-width="3" opacity="0.8"/>
+  <!-- Dashed center stripe -->
+  <polygon points="254,320 258,320 258,350 254,350" fill="#ffb703"/>
+  <polygon points="253,370 259,370 260,410 252,410" fill="#ffb703"/>
+  <polygon points="251,430 261,430 263,490 249,490" fill="#ffb703"/>
+
+  <!-- Speeder Car (Road Trip Vehicle) -->
+  <g transform="translate(180, 260)">
+    <!-- Car shadow -->
+    <ellipse cx="76" cy="145" rx="80" ry="15" fill="#000" opacity="0.4"/>
+    
+    <!-- Underglow -->
+    <ellipse cx="76" cy="130" rx="70" ry="10" fill="#00f5d4" opacity="0.7" filter="url(#glow)"/>
+
+    <!-- Car Body -->
+    <path d="M 20 100 Q 76 60, 132 100 Q 152 115, 142 130 Q 10 130, 8 115 Z" fill="url(#carGrad)" stroke="#caf0f8" stroke-width="2"/>
+    
+    <!-- Fins/Wings -->
+    <path d="M 16 110 L -4 125 L 12 135 Z" fill="#0077b6" stroke="#caf0f8" stroke-width="1.5"/>
+    <path d="M 136 110 L 156 125 L 140 135 Z" fill="#0077b6" stroke="#caf0f8" stroke-width="1.5"/>
+
+    <!-- Wheels (Hoverpads) -->
+    <ellipse cx="35" cy="135" rx="18" ry="8" fill="#1d3557" stroke="#48cae4" stroke-width="2"/>
+    <ellipse cx="35" cy="135" rx="10" ry="4" fill="#00f5d4"/>
+    <ellipse cx="117" cy="135" rx="18" ry="8" fill="#1d3557" stroke="#48cae4" stroke-width="2"/>
+    <ellipse cx="117" cy="135" rx="10" ry="4" fill="#00f5d4"/>
+
+    <!-- Dashboard & Steering Wheel -->
+    <path d="M 46 95 L 106 95 L 96 112 L 56 112 Z" fill="#1d3557" stroke="#90e0ef" stroke-width="1.5"/>
+    <circle cx="76" cy="100" r="14" fill="none" stroke="#ffb703" stroke-width="3"/>
+    <line x1="76" y1="100" x2="76" y2="114" stroke="#ffb703" stroke-width="3"/>
+    
+    <!-- Luggage / Road Trip Gear strapped to back -->
+    <rect x="92" y="80" rx="4" ry="4" width="30" height="22" fill="#e76f51" stroke="#264653" stroke-width="2"/>
+    <line x1="92" y1="91" x2="122" y2="91" stroke="#264653" stroke-width="2"/>
+    <rect x="100" y="66" rx="3" ry="3" width="22" height="16" fill="#f4a261" stroke="#264653" stroke-width="2"/>
+    <!-- Space map sticking out of luggage -->
+    <rect x="106" y="58" width="10" height="12" fill="#fff" transform="rotate(15, 106, 58)"/>
+    <line x1="108" y1="62" x2="114" y2="64" stroke="#e76f51" stroke-width="1.5"/>
+
+    <!-- ALIÊN DRIVER -->
+    <!-- Body / Shoulders -->
+    <path d="M 56 100 Q 76 85, 96 100 L 90 120 L 62 120 Z" fill="#52b788" stroke="#2d6a4f" stroke-width="2"/>
+
+    <!-- Head -->
+    <ellipse cx="76" cy="62" rx="26" ry="22" fill="#52b788" stroke="#2d6a4f" stroke-width="2"/>
+
+    <!-- Antenna -->
+    <line x1="76" y1="40" x2="76" y2="24" stroke="#2d6a4f" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="76" cy="20" r="6" fill="#ffb703" stroke="#d4a373" stroke-width="1.5" filter="url(#glow)"/>
+
+    <!-- Big Cute Alien Eyes -->
+    <ellipse cx="65" cy="58" rx="8" ry="11" fill="#0b090a" transform="rotate(-5, 65, 58)"/>
+    <ellipse cx="87" cy="58" rx="8" ry="11" fill="#0b090a" transform="rotate(5, 87, 58)"/>
+    <!-- Eye Highlights -->
+    <ellipse cx="63" cy="54" rx="3" ry="4" fill="#ffffff"/>
+    <ellipse cx="67" cy="61" rx="1.5" ry="2" fill="#ffffff"/>
+    <ellipse cx="85" cy="54" rx="3" ry="4" fill="#ffffff"/>
+    <ellipse cx="89" cy="61" rx="1.5" ry="2" fill="#ffffff"/>
+
+    <!-- Big Happy Smile -->
+    <path d="M 66 70 Q 76 82, 86 70" fill="none" stroke="#1b4332" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- SCARF (Mandatory Twist! Beautiful flowing winter scarf in cosmic wind) -->
+    <!-- Wrapped around neck -->
+    <path d="M 54 84 Q 76 92, 98 84 Q 88 95, 76 95 Q 64 95, 54 84 Z" fill="url(#scarfGrad)" stroke="#9b2226" stroke-width="1.5"/>
+    <!-- Flowing tail in wind -->
+    <path d="M 54 86 Q 20 80, -15 55 Q -35 35, -60 25 Q -40 45, -20 70 Q 20 95, 56 94 Z" fill="url(#scarfGrad)" stroke="#9b2226" stroke-width="1.5"/>
+    <!-- Scarf fringe stripes -->
+    <line x1="-57" y1="27" x2="-53" y2="34" stroke="#ffb703" stroke-width="3"/>
+    <line x1="-51" y1="33" x2="-47" y2="40" stroke="#ffb703" stroke-width="3"/>
+  </g>
+
+  <!-- Sparkles / Motion Lines -->
+  <g stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.8">
+    <line x1="110" y1="290" x2="70" y2="280"/>
+    <line x1="120" y1="320" x2="80" y2="310"/>
+    <line x1="400" y1="290" x2="440" y2="280"/>
+    <line x1="390" y1="330" x2="430" y2="320"/>
+  </g>
+</svg>

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background sky -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+  <!-- Ground (light gray) -->
+  <rect x="0" y="384" width="512" height="128" fill="#D3D3D3"/>
+
+  <!-- Rollercoaster track loop (light gray) -->
+  <path d="M 256 128 A 128 128 0 0 1 256 384 A 128 128 0 0 1 256 128 Z" fill="none" stroke="#A9A9A9" stroke-width="24" stroke-linecap="round"/>
+  <!-- Track inner highlight -->
+  <path d="M 256 128 A 128 128 0 0 1 256 384 A 128 128 0 0 1 256 128 Z" fill="none" stroke="#A9A9A9" stroke-width="6" stroke-linecap="round" stroke-opacity="0.3"/>
+
+  <!-- Whale body (medium blue) -->
+  <path d="M 160 256 C 160 224 192 208 224 208 C 256 208 288 224 288 256 C 288 288 256 304 224 304 C 192 304 160 288 160 256 Z" fill="#1E90FF"/>
+  <!-- Eye -->
+  <circle cx="224" cy="240" r="8" fill="#1E90FF"/>
+  <!-- Tail flukes -->
+  <path d="M 160 256 L 128 240 L 128 272 Z" fill="#1E90FF"/>
+  <path d="M 288 256 L 320 240 L 320 272 Z" fill="#1E90FF"/>
+  <!-- Pectoral fins -->
+  <path d="M 192 256 L 176 272 L 192 288 Z" fill="#1E90FF"/>
+  <path d="M 256 256 L 272 272 L 256 288 Z" fill="#1E90FF"/>
+  <!-- Mouth/water spray -->
+  <path d="M 224 208 L 256 192 L 288 208" fill="#1E90FF"/>
+  <path d="M 256 192 L 256 176 L 264 184 Z" fill="#1E90FF"/>
+  <!-- Subtle smile -->
+  <path d="M 240 208 C 248 216 264 216 272 208" stroke="#1E90FF" stroke-width="4" stroke-linecap="round" fill="none"/>  
+  <!-- Belly highlight (light gray) -->
+  <path d="M 208 256 C 224 240 240 240 256 256 C 272 272 256 288 240 288 C 224 288 208 272 208 256 Z" fill="none" stroke="#A9A9A9" stroke-width="8" stroke-linecap="round" stroke-opacity="0.4"/>
+</svg>

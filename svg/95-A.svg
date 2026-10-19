@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a1222"/>
+
+  <!-- Arch: crumbling stone, lit by moonlight -->
+  <path id="arch" d="M128 320h256v128H128z" fill="#5c544a" stroke="#3a332b" stroke-width="2"/>
+  <!-- cracks -->
+  <path d="M160 340l24-24M328 340l-24-24M248 360h8M200 380h16M288 380h16M192 352h8M312 352h8" stroke="#2a251f" stroke-width="1.5" stroke-linecap="round"/>
+  <!-- shadow under arch -->
+  <path d="M128 448h256v16H128z" fill="#2a251f" opacity="0.4"/>
+  <!-- subtle inner arch highlight -->
+  <path d="M136 328h240v16H136z" fill="#7a6f62" opacity="0.2"/>
+
+  <!-- Left mummy: peeking from behind left side of arch -->
+  <g id="mummy-left">
+    <path d="M80 320c0-32 24-56 56-56s56 24 56 56c0 16-8 32-16 48h-96c8-16 16-32 16-48z" fill="#d4c9b8" stroke="#a39688" stroke-width="1"/>
+    <!-- bandage texture -->
+    <path d="M104 296h24M104 312h24M104 328h24M112 288h16M112 304h16M112 320h16" stroke="#a39688" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- eyes -->
+    <circle cx="120" cy="304" r="4" fill="#222"/>
+    <circle cx="128" cy="304" r="2" fill="#fff"/>
+  </g>
+
+  <!-- Right mummy: peeking from behind right side of arch -->
+  <g id="mummy-right">
+    <path d="M376 320c0-32-24-56-56-56s-56 24-56 56c0 16 8 32 16 48h96c-8-16-16-32-16-48z" fill="#d4c9b8" stroke="#a39688" stroke-width="1"/>
+    <!-- bandage texture -->
+    <path d="M352 296h24M352 312h24M352 328h24M360 288h16M360 304h16M360 320h16" stroke="#a39688" stroke-width="1.5" stroke-linecap="round"/>
+    <!-- eyes -->
+    <circle cx="392" cy="304" r="4" fill="#222"/>
+    <circle cx="384" cy="304" r="2" fill="#fff"/>
+  </g>
+
+  <!-- Moon and stars -->
+  <circle cx="400" cy="80" r="32" fill="#f8f8d0"/>
+  <circle cx="400" cy="80" r="28" fill="#0a1222"/>
+  <circle cx="400" cy="80" r="2" fill="#fff"/>
+  <g fill="#f8f8d0">
+    <circle cx="360" cy="60" r="2"/>
+    <circle cx="440" cy="70" r="1.5"/>
+    <circle cx="380" cy="90" r="1"/>
+    <circle cx="420" cy="50" r="1.5"/>
+    <circle cx="320" cy="100" r="1"/>
+    <circle cx="480" cy="80" r="1.5"/>
+  </g>
+
+  <!-- Sand dunes in foreground -->
+  <path d="M0 448c64-48 128-64 256-64s192 16 256 64v64H0z" fill="#c5b99d"/>
+  <!-- subtle dune ripples -->
+  <path d="M40 464c16-8 32-12 48-8s32 12 48 4 32-12 48-4 32 12 48 4v64H40z" fill="#b3a78e" opacity="0.6"/>
+</svg>

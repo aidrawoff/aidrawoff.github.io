@@ -1,0 +1,267 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background lush garden radial gradient -->
+    <radialGradient id="gardenGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#223b18"/>
+      <stop offset="65%" stop-color="#14240e"/>
+      <stop offset="100%" stop-color="#0a1207"/>
+    </radialGradient>
+
+    <!-- Deep luminous pond water gradient -->
+    <radialGradient id="pondWater" cx="42%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#1b7896"/>
+      <stop offset="35%" stop-color="#11556e"/>
+      <stop offset="75%" stop-color="#072e3d"/>
+      <stop offset="100%" stop-color="#031620"/>
+    </radialGradient>
+
+    <!-- Round stone border gradient -->
+    <radialGradient id="stoneGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#b8b3a4"/>
+      <stop offset="50%" stop-color="#80786b"/>
+      <stop offset="100%" stop-color="#4d463d"/>
+    </radialGradient>
+
+    <!-- Koi Gradients -->
+    <linearGradient id="koiOrange" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff8c1a"/>
+      <stop offset="50%" stop-color="#ff5500"/>
+      <stop offset="100%" stop-color="#d93600"/>
+    </linearGradient>
+
+    <linearGradient id="koiWhite" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#f2f5f8"/>
+    </linearGradient>
+
+    <radialGradient id="lilyFlower" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="55%" stop-color="#ffb8e0"/>
+      <stop offset="100%" stop-color="#d952a8"/>
+    </radialGradient>
+
+    <radialGradient id="lilyFlowerYellow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffae6"/>
+      <stop offset="60%" stop-color="#ffe066"/>
+      <stop offset="100%" stop-color="#cca300"/>
+    </radialGradient>
+
+    <!-- Soft Shadows -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="5" stdDeviation="5" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="fishShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="4" dy="7" stdDeviation="4" flood-color="#010d14" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Garden background -->
+  <rect width="512" height="512" fill="url(#gardenGrad)"/>
+
+  <!-- Round decorative mossy mounds and pebbles in the garden -->
+  <circle cx="85" cy="85" r="70" fill="#1b2e12" opacity="0.85"/>
+  <circle cx="435" cy="90" r="75" fill="#172610" opacity="0.9"/>
+  <circle cx="90" cy="430" r="85" fill="#12200c" opacity="0.95"/>
+  <circle cx="420" cy="420" r="70" fill="#1a2d12" opacity="0.9"/>
+
+  <!-- Round pebble scatter around garden -->
+  <circle cx="160" cy="50" r="10" fill="#6e675b" opacity="0.7"/>
+  <circle cx="340" cy="40" r="12" fill="#595247" opacity="0.8"/>
+  <circle cx="40" cy="180" r="11" fill="#7a7265" opacity="0.7"/>
+  <circle cx="470" cy="150" r="13" fill="#635c51" opacity="0.8"/>
+  <circle cx="470" cy="320" r="10" fill="#524a40" opacity="0.7"/>
+  <circle cx="120" cy="480" r="14" fill="#6e675b" opacity="0.8"/>
+  <circle cx="380" cy="480" r="11" fill="#595247" opacity="0.7"/>
+
+  <!-- Outer Circular Stone Border Ring -->
+  <circle cx="256" cy="256" r="234" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+  <circle cx="256" cy="256" r="216" fill="#0c1710"/>
+
+  <!-- Round stepping stones embedded on border -->
+  <circle cx="70" cy="256" r="24" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+  <circle cx="256" cy="38" r="22" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+  <circle cx="454" cy="220" r="25" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+  <circle cx="220" cy="470" r="23" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+  <circle cx="380" cy="75" r="18" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+  <circle cx="110" cy="110" r="19" fill="url(#stoneGrad)" filter="url(#shadow)"/>
+
+  <!-- The Great Round Koi Pond -->
+  <circle cx="256" cy="256" r="208" fill="url(#pondWater)" filter="url(#shadow)"/>
+
+  <!-- Concentric Circular Ripples & Water Caustics -->
+  <circle cx="256" cy="256" r="175" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.28"/>
+  <circle cx="256" cy="256" r="140" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.25"/>
+  <circle cx="256" cy="256" r="105" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.22"/>
+  <circle cx="256" cy="256" r="70" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.2"/>
+  <circle cx="256" cy="256" r="35" fill="none" stroke="#4fc3f7" stroke-width="1.5" opacity="0.18"/>
+
+  <!-- Multiple ripple interference rings -->
+  <circle cx="190" cy="180" r="50" fill="none" stroke="#81d4fa" stroke-width="1" opacity="0.32"/>
+  <circle cx="190" cy="180" r="30" fill="none" stroke="#81d4fa" stroke-width="1" opacity="0.28"/>
+
+  <circle cx="330" cy="320" r="60" fill="none" stroke="#81d4fa" stroke-width="1" opacity="0.28"/>
+  <circle cx="330" cy="320" r="38" fill="none" stroke="#81d4fa" stroke-width="1" opacity="0.25"/>
+
+  <!-- Round Lily Pads with rich textures -->
+  <!-- Pad 1 (Top Left) -->
+  <g transform="translate(145, 135) rotate(20)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="42" fill="#1b4a29"/>
+    <circle cx="0" cy="0" r="38" fill="#2d6a3f"/>
+    <circle cx="0" cy="0" r="34" fill="#357a4a"/>
+    <path d="M 0 0 L 40 -15 A 40 40 0 0 0 38 18 Z" fill="#072e3d"/>
+    <path d="M 0 0 L 34 0 M 0 0 L 26 22 M 0 0 L 26 -22 M 0 0 L -25 25 M 0 0 L -25 -25" stroke="#1b4226" stroke-width="1.2" opacity="0.7"/>
+  </g>
+
+  <!-- Pad 2 (Bottom Right) -->
+  <g transform="translate(355, 345) rotate(-35)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="46" fill="#184224"/>
+    <circle cx="0" cy="0" r="42" fill="#285e37"/>
+    <circle cx="0" cy="0" r="37" fill="#317042"/>
+    <path d="M 0 0 L 45 -18 A 45 45 0 0 0 42 22 Z" fill="#072e3d"/>
+    <path d="M 0 0 L 37 0 M 0 0 L -28 28 M 0 0 L 28 -28 M 0 0 L -30 -10" stroke="#163820" stroke-width="1.2" opacity="0.7"/>
+  </g>
+
+  <!-- Pad 3 (Small Top Right) -->
+  <g transform="translate(360, 150) rotate(80)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="30" fill="#285e37"/>
+    <circle cx="0" cy="0" r="26" fill="#38854f"/>
+    <path d="M 0 0 L 28 -10 A 28 28 0 0 0 25 18 Z" fill="#072e3d"/>
+  </g>
+
+  <!-- Pad 4 (Bottom Left Small) -->
+  <g transform="translate(140, 340) rotate(160)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="28" fill="#245231"/>
+    <circle cx="0" cy="0" r="24" fill="#327344"/>
+    <path d="M 0 0 L 26 -10 A 26 26 0 0 0 24 16 Z" fill="#072e3d"/>
+  </g>
+
+  <!-- Water Lily Flower 1 (on Pad 1) -->
+  <g transform="translate(155, 122)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="18" fill="url(#lilyFlower)"/>
+    <circle cx="0" cy="-10" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="9" cy="-6" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="11" cy="3" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="4" cy="11" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="-5" cy="10" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="-11" cy="2" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="-8" cy="-7" r="6" fill="url(#lilyFlower)"/>
+    <circle cx="0" cy="0" r="6" fill="url(#lilyFlowerYellow)"/>
+    <circle cx="0" cy="0" r="3" fill="#ff9900"/>
+  </g>
+
+  <!-- Water Lily Flower 2 (on Pad 2) -->
+  <g transform="translate(345, 335)" filter="url(#shadow)">
+    <circle cx="0" cy="0" r="16" fill="url(#lilyFlowerYellow)"/>
+    <circle cx="0" cy="-9" r="5.5" fill="#fff"/>
+    <circle cx="8" cy="-5" r="5.5" fill="#fff"/>
+    <circle cx="9" cy="4" r="5.5" fill="#fff"/>
+    <circle cx="2" cy="10" r="5.5" fill="#fff"/>
+    <circle cx="-6" cy="8" r="5.5" fill="#fff"/>
+    <circle cx="-10" cy="0" r="5.5" fill="#fff"/>
+    <circle cx="-7" cy="-7" r="5.5" fill="#fff"/>
+    <circle cx="0" cy="0" r="5" fill="#ffaa00"/>
+  </g>
+
+  <!-- ================= KOI FISH GROUP ================= -->
+
+  <!-- Koi Fish 1: Majestic Flowing Orange/White Tancho/Kohaku (Top Swirl) -->
+  <g filter="url(#fishShadow)" transform="translate(250, 195) rotate(-28)">
+    <path d="M -80 0 C -80 -28, -25 -38, 20 -22 C 65 -8, 85 -18, 102 -35 C 92 -8, 112 12, 125 24 C 112 18, 80 12, 65 28 C 22 38, -25 28, -80 0 Z" fill="url(#koiOrange)"/>
+    <path d="M -35 -20 C -12 -28, 12 -18, 28 -12 C 18 6, -10 12, -35 2 Z" fill="url(#koiWhite)"/>
+    <path d="M 55 -12 C 72 -18, 82 -24, 94 -30 C 88 -10, 75 8, 60 15 Z" fill="url(#koiWhite)"/>
+    <circle cx="-58" cy="-2" r="10" fill="url(#koiOrange)"/>
+    <circle cx="-64" cy="-7" r="2.8" fill="#080c10"/>
+    <circle cx="-52" cy="3" r="2.8" fill="#080c10"/>
+    <circle cx="-65" cy="-7" r="1" fill="#ffffff"/>
+    <path d="M -24 -16 C -35 -35, -12 -46, 0 -34 C -6 -28, -18 -22, -24 -16 Z" fill="url(#koiOrange)" opacity="0.9"/>
+    <path d="M -24 16 C -35 35, -12 46, 0 34 C -6 28, -18 22, -24 16 Z" fill="url(#koiOrange)" opacity="0.9"/>
+    <path d="M 0 -22 C 15 -28, 30 -22, 40 -16 C 30 -14, 15 -18, 0 -22 Z" fill="url(#koiOrange)" opacity="0.8"/>
+    <path d="M 102 -35 C 120 -50, 142 -38, 136 -16 C 130 0, 138 18, 125 24 C 118 6, 108 -6, 102 -35 Z" fill="url(#koiWhite)" opacity="0.95"/>
+    <path d="M -15 -10 A 6 6 0 0 1 -5 -10 M 0 -5 A 6 6 0 0 1 10 -5 M -10 2 A 6 6 0 0 1 0 2" stroke="#e04000" stroke-width="1.2" fill="none" opacity="0.5"/>
+  </g>
+
+  <!-- Koi Fish 2: Vibrant Crimson & White Sanke (Bottom Right Swirl) -->
+  <g filter="url(#fishShadow)" transform="translate(325, 310) rotate(140)">
+    <path d="M -70 0 C -70 -25, -20 -35, 18 -20 C 58 -6, 78 -14, 94 -30 C 84 -6, 98 10, 110 20 C 98 15, 72 10, 58 24 C 18 34, -20 25, -70 0 Z" fill="#e62e00"/>
+    <path d="M -25 -16 C -5 -22, 15 -14, 32 -10 C 20 6, 0 10, -25 2 Z" fill="url(#koiWhite)"/>
+    <circle cx="25" cy="-2" r="11" fill="#111111"/>
+    <circle cx="28" cy="2" r="8" fill="#1a1a1a"/>
+    <circle cx="-50" cy="-2" r="9" fill="#e62e00"/>
+    <circle cx="-55" cy="-6" r="2.5" fill="#080c10"/>
+    <path d="M -20 -14 C -32 -30, -10 -40, 0 -30 C -5 -24, -15 -18, -20 -14 Z" fill="#e62e00" opacity="0.9"/>
+    <path d="M -20 14 C -32 30, -10 40, 0 30 C -5 24, -15 18, -20 14 Z" fill="#e62e00" opacity="0.9"/>
+    <path d="M 94 -30 C 110 -42, 130 -32, 124 -14 C 118 0, 126 14, 110 20 C 105 4, 98 -4, 94 -30 Z" fill="url(#koiWhite)" opacity="0.95"/>
+  </g>
+
+  <!-- Koi Fish 3: Luminous Golden Yamabuki (Swirling Left) -->
+  <g filter="url(#fishShadow)" transform="translate(180, 300) rotate(52)">
+    <linearGradient id="koiGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffeb3b"/>
+      <stop offset="45%" stop-color="#ffb300"/>
+      <stop offset="100%" stop-color="#f57c00"/>
+    </linearGradient>
+    <path d="M -60 0 C -60 -22, -15 -30, 15 -18 C 48 -5, 65 -12, 80 -24 C 72 -4, 85 8, 95 16 C 85 12, 62 8, 50 20 C 18 28, -15 22, -60 0 Z" fill="url(#koiGold)"/>
+    <circle cx="-42" cy="-2" r="7.5" fill="url(#koiGold)"/>
+    <circle cx="-47" cy="-5" r="2.2" fill="#080c10"/>
+    <path d="M -15 -12 C -24 -26, -8 -34, 0 -24 C -4 -20, -10 -15, -15 -12 Z" fill="url(#koiGold)" opacity="0.9"/>
+    <path d="M -15 12 C -24 26, -8 34, 0 24 C -4 20, -10 15, -15 12 Z" fill="url(#koiGold)" opacity="0.9"/>
+    <path d="M 80 -24 C 94 -34, 112 -26, 106 -11 C 100 0, 108 10, 95 16 C 90 3, 85 -2, 80 -24 Z" fill="url(#koiGold)" opacity="0.95"/>
+  </g>
+
+  <!-- Koi Fish 4: Small Baby Koi (Playful and dynamic near center) -->
+  <g filter="url(#fishShadow)" transform="translate(230, 275) rotate(-110)">
+    <linearGradient id="koiBaby" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffcc80"/>
+      <stop offset="100%" stop-color="#ff7043"/>
+    </linearGradient>
+    <path d="M -40 0 C -40 -15, -10 -20, 10 -12 C 32 -4, 44 -8, 54 -16 C 48 -3, 58 5, 64 10 C 58 8, 42 5, 34 13 C 10 18, -10 15, -40 0 Z" fill="url(#koiBaby)"/>
+    <circle cx="-28" cy="-1" r="5" fill="url(#koiBaby)"/>
+    <circle cx="-31" cy="-3" r="1.5" fill="#080c10"/>
+    <path d="M 54 -16 C 62 -22, 74 -18, 70 -8 C 66 0, 70 8, 64 10 C 60 2, 56 -2, 54 -16 Z" fill="url(#koiBaby)" opacity="0.9"/>
+  </g>
+
+  <!-- ================= ADDITIONAL ROUND DETAILS & ATMOSPHERE ================= -->
+
+  <!-- Glowing Water Bubbles (All Perfectly Round) -->
+  <circle cx="285" cy="170" r="6" fill="#b3e5fc" opacity="0.65" filter="url(#glow)"/>
+  <circle cx="285" cy="170" r="3" fill="#ffffff" opacity="0.9"/>
+  
+  <circle cx="298" cy="158" r="3.5" fill="#b3e5fc" opacity="0.7"/>
+  <circle cx="298" cy="158" r="1.5" fill="#ffffff" opacity="0.95"/>
+
+  <circle cx="308" cy="150" r="2" fill="#b3e5fc" opacity="0.75"/>
+
+  <circle cx="130" cy="290" r="5" fill="#b3e5fc" opacity="0.6"/>
+  <circle cx="130" cy="290" r="2.2" fill="#ffffff" opacity="0.9"/>
+
+  <circle cx="140" cy="278" r="3" fill="#b3e5fc" opacity="0.7"/>
+
+  <circle cx="355" cy="235" r="4.5" fill="#b3e5fc" opacity="0.65"/>
+  <circle cx="355" cy="235" r="2" fill="#ffffff" opacity="0.9"/>
+
+  <circle cx="365" cy="223" r="2.5" fill="#b3e5fc" opacity="0.7"/>
+
+  <!-- Extra sparkles around pond -->
+  <circle cx="256" cy="130" r="2" fill="#ffffff" opacity="0.6"/>
+  <circle cx="170" cy="240" r="2" fill="#ffffff" opacity="0.5"/>
+  <circle cx="310" cy="360" r="2" fill="#ffffff" opacity="0.6"/>
+
+  <!-- Floating circular pollen / blossoms / petals on water surface -->
+  <circle cx="215" cy="330" r="3.5" fill="#ffb8e0" opacity="0.75"/>
+  <circle cx="225" cy="340" r="2.5" fill="#fff5fb" opacity="0.8"/>
+  <circle cx="200" cy="320" r="2" fill="#ffb8e0" opacity="0.7"/>
+
+  <circle cx="290" cy="210" r="3" fill="#ffeb3b" opacity="0.7"/>
+  <circle cx="305" cy="215" r="2" fill="#fff9c4" opacity="0.8"/>
+
+  <circle cx="210" cy="180" r="3" fill="#ffb8e0" opacity="0.8"/>
+  <circle cx="195" cy="165" r="2.5" fill="#fff5fb" opacity="0.85"/>
+
+  <!-- Central Water Glint / Soft Circular Flare -->
+  <circle cx="240" cy="240" r="150" fill="none" stroke="#ffffff" stroke-width="2.5" opacity="0.14" stroke-dasharray="25 50"/>
+  <circle cx="270" cy="270" r="110" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.18" stroke-dasharray="18 40"/>
+</svg>

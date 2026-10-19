@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- sky, sun-baked wedge, dark stage -->
+  <rect width="512" height="512" fill="#ffb703"/>
+  <polygon points="0,0 512,0 512,120 0,60" fill="#fb8500"/>
+  <polygon points="0,400 512,330 512,512 0,512" fill="#1d1d2b"/>
+
+  <!-- campaign pennant on a pole, snapping in the wind -->
+  <line x1="36" y1="30" x2="36" y2="170" stroke="#1d1d2b" stroke-width="5"/>
+  <polygon points="36,36 118,22 102,50 120,78 36,66" fill="#e63946" stroke="#1d1d2b" stroke-width="3"/>
+
+  <!-- wind speed lines, sharp and fast -->
+  <g stroke="#1d1d2b" stroke-width="4" fill="none">
+    <path d="M10,150 L120,138"/>
+    <path d="M30,205 L150,190"/>
+    <path d="M0,255 L60,250"/>
+    <path d="M20,300 L110,292"/>
+    <path d="M300,40 L420,30"/>
+    <path d="M250,95 L340,92"/>
+    <path d="M140,118 L230,112"/>
+    <path d="M400,260 L500,252"/>
+    <path d="M10,345 L80,338"/>
+  </g>
+
+  <!-- papers and sign, blown right -->
+  <polygon points="372,150 412,132 396,176" fill="#ffffff" stroke="#1d1d2b" stroke-width="3"/>
+  <polygon points="430,210 470,196 452,236" fill="#ffffff" stroke="#1d1d2b" stroke-width="3"/>
+  <polygon points="470,300 500,286 492,318" fill="#ffffff" stroke="#1d1d2b" stroke-width="3"/>
+  <polygon points="150,30 178,18 170,44" fill="#ffffff" stroke="#1d1d2b" stroke-width="3"/>
+  <g transform="translate(446,92) rotate(22)">
+    <rect x="-36" y="-22" width="72" height="44" fill="#e63946" stroke="#1d1d2b" stroke-width="3"/>
+    <text x="0" y="8" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="16" fill="#ffffff">VOTE</text>
+  </g>
+
+  <!-- top hat, sailing away -->
+  <g transform="translate(318,62) rotate(38)">
+    <polygon points="-16,-6 -12,-44 14,-44 18,-6" fill="#1d1d2b"/>
+    <polygon points="-28,-6 30,-6 26,4 -24,4" fill="#1d1d2b"/>
+    <rect x="-13" y="-16" width="26" height="6" fill="#e63946"/>
+  </g>
+
+  <!-- podium with microphone -->
+  <polygon points="330,300 400,290 412,420 330,420" fill="#e63946" stroke="#1d1d2b" stroke-width="3"/>
+  <text x="371" y="378" text-anchor="middle" font-family="sans-serif" font-weight="bold" font-size="22" fill="#ffb703" transform="rotate(-5 371 378)">MAYOR</text>
+  <line x1="372" y1="294" x2="366" y2="236" stroke="#1d1d2b" stroke-width="4"/>
+  <circle cx="365" cy="230" r="9" fill="#1d1d2b"/>
+
+  <!-- walrus body: jagged silhouette -->
+  <path d="M120,360 L138,252 L170,214 L226,200 L284,222 L302,268 L290,330 L308,382 L262,394 L202,384 L150,398 Z" fill="#2b2d42" stroke="#1d1d2b" stroke-width="3"/>
+
+  <!-- mayoral sash -->
+  <line x1="150" y1="236" x2="282" y2="342" stroke="#e63946" stroke-width="14"/>
+  <line x1="150" y1="236" x2="282" y2="342" stroke="#ffb703" stroke-width="2" stroke-dasharray="10 8"/>
+
+  <!-- flipper with claws, reaching for the podium -->
+  <polygon points="288,296 340,272 328,300 312,324 296,320" fill="#2b2d42" stroke="#1d1d2b" stroke-width="3"/>
+  <path d="M340,272 L352,262 M340,272 L354,272 M340,272 L348,284" stroke="#1d1d2b" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- head: long snout, brow ridge, cheek shade -->
+  <polygon points="140,220 150,160 185,134 235,130 266,156 270,200 290,206 302,226 284,246 250,240 210,242 170,248" fill="#2b2d42" stroke="#1d1d2b" stroke-width="3"/>
+  <polygon points="168,186 200,176 230,182 220,196 180,200" fill="#4a4e69"/>
+
+  <!-- eye and brow -->
+  <polygon points="206,166 224,158 218,180" fill="#ffffff"/>
+  <circle cx="216" cy="170" r="3.5" fill="#1d1d2b"/>
+  <path d="M200,160 L226,150" stroke="#1d1d2b" stroke-width="4"/>
+
+  <!-- nostril and whisker pads -->
+  <circle cx="292" cy="214" r="3" fill="#1d1d2b"/>
+  <circle cx="292" cy="226" r="3" fill="#1d1d2b"/>
+  <g fill="#1d1d2b">
+    <circle cx="262" cy="222" r="2.5"/>
+    <circle cx="274" cy="228" r="2.5"/>
+    <circle cx="282" cy="236" r="2.5"/>
+    <circle cx="256" cy="234" r="2.5"/>
+  </g>
+
+  <!-- tusks: long and bright -->
+  <polygon points="228,240 220,292 242,244" fill="#ffffff" stroke="#1d1d2b" stroke-width="2"/>
+  <polygon points="252,240 250,294 262,242" fill="#ffffff" stroke="#1d1d2b" stroke-width="2"/>
+
+  <!-- whiskers streaming back in the wind -->
+  <g stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none">
+    <path d="M300,216 Q312,210 330,204"/>
+    <path d="M302,226 Q316,224 334,222"/>
+    <path d="M300,236 Q312,240 328,246"/>
+  </g>
+</svg>

@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd27a" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- wall and floor -->
+  <rect x="0" y="0" width="512" height="400" fill="#2b3a4a"/>
+  <rect x="0" y="400" width="512" height="112" fill="#6b4f3a"/>
+  <!-- warm halo behind the pumpkin -->
+  <circle cx="256" cy="250" r="190" fill="url(#glow)"/>
+  <!-- contact shadow -->
+  <ellipse cx="256" cy="410" rx="165" ry="12" fill="#000" opacity="0.3"/>
+  <!-- bathroom scale -->
+  <rect x="140" y="378" width="232" height="30" rx="6" fill="#c9cdd3" stroke="#555" stroke-width="3"/>
+  <rect x="200" y="386" width="112" height="14" rx="3" fill="#2d2d2d"/>
+  <rect x="222" y="388" width="68" height="10" fill="#7fff9a"/>
+  <!-- stem -->
+  <path d="M250 150 L262 150 L264 120 Q262 110 270 104" fill="none" stroke="#4a6b2a" stroke-width="12" stroke-linecap="round"/>
+  <rect x="244" y="138" width="24" height="26" rx="5" fill="#5b3a1e"/>
+  <!-- pumpkin lobes -->
+  <ellipse cx="200" cy="265" rx="72" ry="104" fill="#e8741c" stroke="#a84d10" stroke-width="4"/>
+  <ellipse cx="312" cy="265" rx="72" ry="104" fill="#e8741c" stroke="#a84d10" stroke-width="4"/>
+  <ellipse cx="256" cy="265" rx="122" ry="108" fill="#f08a2b" stroke="#a84d10" stroke-width="4"/>
+  <!-- measuring tape wrapped around the middle -->
+  <ellipse cx="256" cy="336" rx="126" ry="24" fill="none" stroke="#f4f1e6" stroke-width="14"/>
+  <ellipse cx="256" cy="336" rx="126" ry="24" fill="none" stroke="#333" stroke-width="2" stroke-dasharray="3 6"/>
+  <rect x="318" y="352" width="14" height="36" fill="#f4f1e6" stroke="#333" stroke-width="2"/>
+  <path d="M325 360 L325 380 M321 362 L329 362 M321 370 L329 370" stroke="#333" stroke-width="1.5"/>
+  <!-- volume: shade on the right, rim highlight top-left -->
+  <path d="M330 180 Q372 230 360 320 Q350 360 310 368 Q360 320 352 250 Q348 200 330 180 Z" fill="#a84d10" opacity="0.35"/>
+  <path d="M168 220 Q160 270 180 310" fill="none" stroke="#ffd08a" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <path d="M208 172 Q230 162 248 168" fill="none" stroke="#ffe2a8" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <!-- angry brows -->
+  <path d="M195 200 L236 216" stroke="#3a1a05" stroke-width="9" stroke-linecap="round"/>
+  <path d="M276 216 L317 200" stroke="#3a1a05" stroke-width="9" stroke-linecap="round"/>
+  <!-- half-lidded eyes -->
+  <ellipse cx="215" cy="240" rx="18" ry="13" fill="#fff" stroke="#3a1a05" stroke-width="3"/>
+  <ellipse cx="297" cy="240" rx="18" ry="13" fill="#fff" stroke="#3a1a05" stroke-width="3"/>
+  <circle cx="221" cy="244" r="7" fill="#111"/>
+  <circle cx="303" cy="244" r="7" fill="#111"/>
+  <circle cx="224" cy="241" r="2" fill="#fff"/>
+  <circle cx="306" cy="241" r="2" fill="#fff"/>
+  <path d="M196 236 Q215 222 234 236 L234 226 L196 226 Z" fill="#f08a2b"/>
+  <path d="M278 236 Q297 222 316 236 L316 226 L278 226 Z" fill="#f08a2b"/>
+  <!-- grumpy mouth -->
+  <path d="M212 306 Q256 282 300 306" fill="none" stroke="#3a1a05" stroke-width="7" stroke-linecap="round"/>
+  <!-- salad bowl with a sad little leaf -->
+  <path d="M368 352 L452 352 Q444 402 410 402 Q376 402 368 352 Z" fill="#dfe8ee" stroke="#6d7d88" stroke-width="3"/>
+  <ellipse cx="410" cy="352" rx="42" ry="8" fill="#8fbf4a" stroke="#4d7a25" stroke-width="2"/>
+  <ellipse cx="398" cy="346" rx="12" ry="6" fill="#6aa23a"/>
+  <ellipse cx="424" cy="344" rx="11" ry="6" fill="#6aa23a"/>
+  <!-- little fork -->
+  <path d="M470 330 L470 374" stroke="#bfc6cc" stroke-width="4" stroke-linecap="round"/>
+  <path d="M463 300 Q463 322 470 326 Q477 322 477 300" fill="none" stroke="#bfc6cc" stroke-width="3"/>
+  <path d="M467 300 L467 326 M473 300 L473 326" stroke="#bfc6cc" stroke-width="3"/>
+  <!-- scale dial needle, pointing at a big number -->
+  <circle cx="354" cy="390" r="0" fill="none"/>
+  <text x="226" y="398" font-family="monospace" font-size="10" fill="#111">-2.0 kg</text>
+</svg>

@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#3a2150"/>
+      <stop offset="100%" stop-color="#08050d"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb347" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#ff7a1a" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#ff7a1a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pump" cx="38%" cy="32%" r="75%">
+      <stop offset="0%" stop-color="#ffb040"/>
+      <stop offset="55%" stop-color="#f07814"/>
+      <stop offset="100%" stop-color="#8a3a05"/>
+    </radialGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3a4a"/>
+      <stop offset="50%" stop-color="#0a0a10"/>
+      <stop offset="100%" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="260" r="240" fill="url(#glow)"/>
+  <ellipse cx="256" cy="466" rx="180" ry="20" fill="#000" opacity="0.6"/>
+  <g transform="rotate(-6 256 300)">
+    <!-- body lobes -->
+    <ellipse cx="160" cy="302" rx="108" ry="128" fill="url(#pump)"/>
+    <ellipse cx="352" cy="302" rx="108" ry="128" fill="url(#pump)"/>
+    <ellipse cx="256" cy="300" rx="132" ry="150" fill="url(#pump)"/>
+    <!-- ribs -->
+    <path d="M256 152 Q216 300 256 450" stroke="#7a3004" stroke-width="7" fill="none" opacity="0.55"/>
+    <path d="M256 152 Q296 300 256 450" stroke="#7a3004" stroke-width="7" fill="none" opacity="0.55"/>
+    <!-- rim light on right edge -->
+    <path d="M374 220 Q392 300 370 380" stroke="#ffd27a" stroke-width="5" fill="none" opacity="0.5" stroke-linecap="round"/>
+    <!-- stem -->
+    <path d="M248 162 Q240 118 272 96 L284 110 Q262 128 266 162 Z" fill="#4a7a1e"/>
+    <path d="M272 96 Q300 84 310 96" stroke="#4a7a1e" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- sunglasses -->
+    <path d="M246 282 Q256 276 266 282" stroke="#111" stroke-width="8" fill="none"/>
+    <rect x="146" y="258" width="102" height="66" rx="18" fill="url(#lens)"/>
+    <rect x="264" y="258" width="102" height="66" rx="18" fill="url(#lens)"/>
+    <path d="M154 272 L180 266" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <path d="M272 272 L298 266" stroke="#fff" stroke-width="6" stroke-linecap="round" opacity="0.7"/>
+    <!-- heavy angled brows -->
+    <path d="M146 250 L236 262 L238 254 L152 240 Z" fill="#7a3004"/>
+    <path d="M366 250 L276 262 L274 254 L360 240 Z" fill="#7a3004"/>
+    <!-- cool smirk with teeth -->
+    <path d="M176 358 Q256 420 336 352 Q300 398 256 398 Q212 398 176 358 Z" fill="#2a0c00"/>
+    <path d="M220 384 L232 366 L244 386 Z" fill="#fff6e0"/>
+    <path d="M268 388 L280 368 L292 384 Z" fill="#fff6e0"/>
+  </g>
+</svg>

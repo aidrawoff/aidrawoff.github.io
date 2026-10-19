@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#2a1a4a"/>
+      <stop offset="100%" stop-color="#0b0518"/>
+    </radialGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff4ecd"/>
+      <stop offset="100%" stop-color="#7b2cbf"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="256" cy="420" rx="220" ry="40" fill="#150a25" opacity="0.6"/>
+  <rect x="0" y="380" width="512" height="132" fill="url(#floor)"/>
+  <ellipse cx="256" cy="380" rx="220" ry="18" fill="#ff9ecd" opacity="0.25"/>
+
+  <!-- Skeleton body -->
+  <g stroke="#f0e6d2" stroke-width="4" stroke-linecap="round" fill="none">
+    <!-- Legs -->
+    <path d="M220 280 Q200 330 210 370"/>
+    <path d="M292 280 Q312 330 302 370"/>
+    <!-- Arms -->
+    <path d="M200 200 Q160 230 150 190"/>
+    <path d="M312 200 Q352 230 362 190"/>
+    <!-- Spine/ribs -->
+    <path d="M256 180 L256 280"/>
+    <path d="M230 200 Q256 210 282 200"/>
+    <path d="M230 220 Q256 230 282 220"/>
+    <path d="M230 240 Q256 250 282 240"/>
+    <path d="M230 260 Q256 270 282 260"/>
+    <!-- Pelvis -->
+    <path d="M240 280 Q256 300 272 280"/>
+  </g>
+
+  <!-- Skull -->
+  <g fill="#f0e6d2">
+    <ellipse cx="256" cy="150" rx="38" ry="44"/>
+    <circle cx="242" cy="145" r="10" fill="#1a0f2e"/>
+    <circle cx="270" cy="145" r="10" fill="#1a0f2e"/>
+    <circle cx="242" cy="143" r="3" fill="#ff4ecd"/>
+    <circle cx="270" cy="143" r="3" fill="#ff4ecd"/>
+    <polygon points="252,165 256,175 260,165" fill="#1a0f2e"/>
+    <path d="M246 185 Q256 195 266 185" stroke="#1a0f2e" stroke-width="3" fill="none"/>
+  </g>
+
+  <!-- Rollerskates -->
+  <g>
+    <rect x="190" y="365" width="44" height="18" rx="6" fill="#00e5ff"/>
+    <rect x="278" y="365" width="44" height="18" rx="6" fill="#00e5ff"/>
+    <circle cx="202" cy="390" r="7" fill="#ffd700"/>
+    <circle cx="222" cy="390" r="7" fill="#ffd700"/>
+    <circle cx="290" cy="390" r="7" fill="#ffd700"/>
+    <circle cx="310" cy="390" r="7" fill="#ffd700"/>
+  </g>
+
+  <!-- Motion lines -->
+  <g stroke="#00e5ff" stroke-width="3" stroke-linecap="round" opacity="0.5" fill="none">
+    <path d="M120 390 L160 390"/>
+    <path d="M100 370 L140 370"/>
+    <path d="M140 410 L170 410"/>
+    <path d="M352 390 L392 390"/>
+    <path d="M372 370 L412 370"/>
+  </g>
+
+  <!-- Stars/sparkles -->
+  <g fill="#ffd700">
+    <polygon points="100,120 104,132 116,132 106,140 110,152 100,144 90,152 94,140 84,132 96,132"/>
+    <polygon points="420,160 424,172 436,172 426,180 430,192 420,184 410,192 414,180 404,172 416,172"/>
+    <polygon points="80,280 83,288 91,288 85,294 87,302 80,296 73,302 75,294 69,288 77,288"/>
+    <polygon points="440,260 443,268 451,268 445,274 447,282 440,276 433,282 435,274 429,268 437,268"/>
+  </g>
+</svg>

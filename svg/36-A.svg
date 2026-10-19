@@ -1,0 +1,246 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#070a14"/>
+      <stop offset="50%" stop-color="#172033"/>
+      <stop offset="100%" stop-color="#2a3b52"/>
+    </linearGradient>
+    
+    <!-- Snow ground gradient -->
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="25%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#f8fafc"/>
+    </linearGradient>
+
+    <!-- Barn gradient -->
+    <linearGradient id="barnGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#7f1d1d"/>
+      <stop offset="100%" stop-color="#991b1b"/>
+    </linearGradient>
+
+    <!-- Magic glow filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Soft shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#090d16" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Distant Mountains & Hills -->
+  <path d="M0 300 Q 130 240 260 270 T 512 260 L 512 512 L 0 512 Z" fill="#334155" opacity="0.5"/>
+  <path d="M0 330 Q 180 280 320 310 T 512 300 L 512 512 L 0 512 Z" fill="#475569" opacity="0.7"/>
+
+  <!-- Distant Barn & Silo -->
+  <g transform="translate(310, 210)" filter="url(#shadow)">
+    <!-- Silo -->
+    <rect x="120" y="10" width="35" height="110" rx="6" fill="#475569"/>
+    <path d="M120 10 Q 137 -10 155 10 Z" fill="#334155"/>
+    <!-- Metal rings on silo -->
+    <line x1="120" y1="35" x2="155" y2="35" stroke="#1e293b" stroke-width="3"/>
+    <line x1="120" y1="65" x2="155" y2="65" stroke="#1e293b" stroke-width="3"/>
+    <line x1="120" y1="95" x2="155" y2="95" stroke="#1e293b" stroke-width="3"/>
+
+    <!-- Barn body -->
+    <rect x="10" y="40" width="95" height="80" fill="url(#barnGrad)"/>
+    <!-- Barn roof -->
+    <polygon points="5,40 57,0 110,40" fill="#450a0a"/>
+    <!-- Snow on roof -->
+    <path d="M 57 0 Q 75 12 105 38 L 110 40 Q 60 10 5 40 Z" fill="#ffffff" opacity="0.95"/>
+    
+    <!-- Glowing window -->
+    <rect x="45" y="55" width="28" height="28" rx="4" fill="#fde047" filter="url(#glow)"/>
+    <line x1="59" y1="55" x2="59" y2="83" stroke="#7f1d1d" stroke-width="3"/>
+    <line x1="45" y1="69" x2="73" y2="69" stroke="#7f1d1d" stroke-width="3"/>
+
+    <!-- Barn door -->
+    <path d="M 35 120 L 35 90 Q 57 82 79 90 L 79 120 Z" fill="#450a0a"/>
+  </g>
+
+  <!-- Snowy Rolling Farm Fields -->
+  <path d="M0 350 Q 160 320 320 350 T 512 340 L 512 512 L 0 512 Z" fill="url(#groundGrad)"/>
+
+  <!-- Wooden Fences (Layered for depth) -->
+  <g stroke="#3d2817" stroke-width="4" stroke-linecap="round">
+    <line x1="-10" y1="390" x2="180" y2="365"/>
+    <line x1="180" y1="365" x2="360" y2="385"/>
+    <line x1="360" y1="385" x2="520" y2="370"/>
+    
+    <line x1="30" y1="398" x2="30" y2="370" stroke-width="7"/>
+    <line x1="90" y1="390" x2="90" y2="362" stroke-width="7"/>
+    <line x1="150" y1="382" x2="150" y2="354" stroke-width="7"/>
+    <line x1="240" y1="385" x2="240" y2="360" stroke-width="7"/>
+    <line x1="320" y1="395" x2="320" y2="370" stroke-width="7"/>
+    <line x1="420" y1="388" x2="420" y2="362" stroke-width="7"/>
+  </g>
+  <!-- Snow caps on fence posts -->
+  <path d="M 27 370 Q 30 362 33 370 Z" fill="#ffffff"/>
+  <path d="M 87 362 Q 90 354 93 362 Z" fill="#ffffff"/>
+  <path d="M 147 354 Q 150 346 153 354 Z" fill="#ffffff"/>
+  <path d="M 237 360 Q 240 352 243 360 Z" fill="#ffffff"/>
+  <path d="M 317 370 Q 320 362 323 370 Z" fill="#ffffff"/>
+  <path d="M 417 362 Q 420 354 423 362 Z" fill="#ffffff"/>
+
+  <!-- Magical Farm Animal: A Cute Glowing Snow-Sheep in the Foreground -->
+  <g transform="translate(360, 390)" filter="url(#shadow)">
+    <!-- Wool body -->
+    <ellipse cx="40" cy="30" rx="30" ry="22" fill="#f8fafc"/>
+    <circle cx="18" cy="22" r="14" fill="#f8fafc"/>
+    <circle cx="30" cy="12" r="14" fill="#f8fafc"/>
+    <circle cx="50" cy="14" r="14" fill="#f8fafc"/>
+    <circle cx="62" cy="24" r="14" fill="#f8fafc"/>
+    <circle cx="56" cy="38" r="14" fill="#f8fafc"/>
+    <circle cx="26" cy="40" r="14" fill="#f8fafc"/>
+    <!-- Head -->
+    <ellipse cx="12" cy="18" rx="10" ry="8" fill="#334155"/>
+    <ellipse cx="12" cy="20" rx="7" ry="6" fill="#cbd5e1"/>
+    <!-- Magical glowing scarf on sheep -->
+    <path d="M 10 24 Q 25 35 40 28 L 38 36 Q 22 42 8 32 Z" fill="#38bdf8" filter="url(#glow)"/>
+    <!-- Legs -->
+    <rect x="22" y="44" width="6" height="14" rx="2" fill="#334155"/>
+    <rect x="52" y="44" width="6" height="14" rx="2" fill="#334155"/>
+    <rect x="32" y="46" width="6" height="14" rx="2" fill="#334155"/>
+    <rect x="62" y="46" width="6" height="14" rx="2" fill="#334155"/>
+  </g>
+
+  <!-- Magical Crop Patch (Glowing giant magical frost-pumpkins / turnips) -->
+  <g filter="url(#glow)">
+    <circle cx="100" cy="440" r="20" fill="#34d399" opacity="0.85"/>
+    <circle cx="145" cy="465" r="25" fill="#38bdf8" opacity="0.85"/>
+    <circle cx="70" cy="475" r="18" fill="#f43f5e" opacity="0.8"/>
+  </g>
+  <!-- Crop details -->
+  <circle cx="100" cy="440" r="14" fill="#059669"/>
+  <circle cx="145" cy="465" r="18" fill="#0284c7"/>
+  <circle cx="70" cy="475" r="12" fill="#e11d48"/>
+  <!-- Magic leaves on crops -->
+  <path d="M 100 426 Q 110 410 120 420 Q 110 430 100 426 Z" fill="#6ee7b7"/>
+  <path d="M 145 447 Q 155 430 165 440 Q 155 450 145 447 Z" fill="#7dd3fc"/>
+
+  <!-- Wizard Character (Asymmetric placement, dynamic pose casting snow magic) -->
+  <g transform="translate(180, 230)" filter="url(#shadow)">
+    <!-- Wizard Robes (flowing dynamically) -->
+    <path d="M 35 180 Q 20 120 45 80 Q 55 60 75 55 Q 95 60 105 80 Q 130 120 115 180 Z" fill="#2e1065"/>
+    <path d="M 40 180 Q 75 205 110 180 L 135 240 Q 75 255 15 240 Z" fill="#4c1d95"/>
+
+    <!-- Belt & Buckle -->
+    <rect x="47" y="145" width="56" height="12" rx="2" fill="#1e1b4b"/>
+    <rect x="67" y="141" width="16" height="20" rx="2" fill="#fbbf24"/>
+    <rect x="71" y="145" width="8" height="12" fill="#1e1b4b"/>
+
+    <!-- Dynamic Left Arm casting magic toward crops/sky -->
+    <path d="M 50 90 Q 15 80 -10 95 Q -20 100 -12 110 Q -5 115 5 105 Q 25 100 45 105 Z" fill="#4c1d95"/>
+    <!-- Magical swirling spark from hand -->
+    <g filter="url(#glow)">
+      <circle cx="-15" cy="102" r="10" fill="#38bdf8"/>
+      <circle cx="-15" cy="102" r="5" fill="#ffffff"/>
+      <!-- Sparkle cross -->
+      <path d="M -25 102 L -5 102 M -15 92 L -15 112" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+    </g>
+
+    <!-- Beard & Face -->
+    <circle cx="75" cy="55" r="18" fill="#fed7aa"/>
+    <!-- Friendly smiling eyes -->
+    <circle cx="68" cy="51" r="2.5" fill="#1e1b4b"/>
+    <circle cx="82" cy="51" r="2.5" fill="#1e1b4b"/>
+    <path d="M 72 58 Q 75 62 78 58" stroke="#1e1b4b" stroke-width="2" stroke-linecap="round" fill="none"/>
+    
+    <!-- Epic Flowing Beard -->
+    <path d="M 58 60 Q 75 105 92 60 Q 90 75 75 90 Q 60 75 58 60 Z" fill="#f8fafc"/>
+
+    <!-- Wizard Hat -->
+    <path d="M 42 48 Q 75 35 108 48 L 92 8 Q 80 -35 72 -55 Q 65 -35 58 8 Z" fill="#3b0764"/>
+    <!-- Hat band -->
+    <path d="M 49 44 Q 75 38 101 44 L 99 51 Q 75 45 51 51 Z" fill="#fbbf24"/>
+    <!-- Snow on hat -->
+    <path d="M 64 -35 Q 72 -55 79 -35 Q 72 -42 64 -35 Z" fill="#ffffff"/>
+    <path d="M 45 46 Q 75 32 105 46 Q 90 41 75 41 Q 60 41 45 46 Z" fill="#ffffff" opacity="0.95"/>
+
+    <!-- Staff (Slightly tilted) -->
+    <line x1="120" y1="-20" x2="105" y2="240" stroke="#78350f" stroke-width="8" stroke-linecap="round"/>
+    <!-- Staff magical orb with intense multi-layered glow -->
+    <circle cx="121" cy="-25" r="22" fill="#fef08a" opacity="0.5" filter="url(#glow)"/>
+    <circle cx="121" cy="-25" r="15" fill="#fde047" filter="url(#glow)"/>
+    <circle cx="121" cy="-25" r="10" fill="#facc15"/>
+    <circle cx="121" cy="-25" r="5" fill="#ffffff"/>
+    
+    <!-- Magic aura light cast on wizard & ground -->
+    <circle cx="121" cy="-25" r="70" fill="#fde047" opacity="0.18" filter="url(#glow)"/>
+  </g>
+
+  <!-- Falling Snow (Dense Blizzard - varied flakes & streaks) -->
+  <g fill="#ffffff">
+    <!-- Large foreground snowflakes -->
+    <circle cx="45" cy="70" r="6" opacity="0.95"/>
+    <circle cx="130" cy="120" r="5" opacity="0.9"/>
+    <circle cx="260" cy="60" r="7" opacity="0.95"/>
+    <circle cx="370" cy="90" r="6" opacity="0.9"/>
+    <circle cx="460" cy="50" r="5" opacity="0.95"/>
+    <circle cx="80" cy="200" r="6" opacity="0.9"/>
+    <circle cx="210" cy="180" r="7" opacity="0.95"/>
+    <circle cx="330" cy="150" r="5" opacity="0.9"/>
+    <circle cx="470" cy="210" r="6" opacity="0.95"/>
+    <circle cx="25" cy="290" r="7" opacity="0.9"/>
+    <circle cx="170" cy="310" r="6" opacity="0.95"/>
+    <circle cx="280" cy="260" r="5" opacity="0.9"/>
+    <circle cx="400" cy="320" r="6" opacity="0.95"/>
+    <circle cx="100" cy="400" r="6" opacity="0.9"/>
+    <circle cx="220" cy="380" r="5" opacity="0.95"/>
+    <circle cx="350" cy="420" r="7" opacity="0.9"/>
+    <circle cx="480" cy="370" r="6" opacity="0.95"/>
+
+    <!-- Medium drifting snowflakes -->
+    <circle cx="90" cy="25" r="3.5" opacity="0.7"/>
+    <circle cx="200" cy="35" r="3.5" opacity="0.8"/>
+    <circle cx="320" cy="25" r="3.5" opacity="0.7"/>
+    <circle cx="420" cy="15" r="3.5" opacity="0.8"/>
+    <circle cx="15" cy="130" r="3.5" opacity="0.7"/>
+    <circle cx="160" cy="100" r="3.5" opacity="0.8"/>
+    <circle cx="240" cy="120" r="3.5" opacity="0.7"/>
+    <circle cx="350" cy="70" r="3.5" opacity="0.8"/>
+    <circle cx="430" cy="130" r="3.5" opacity="0.7"/>
+    <circle cx="60" cy="250" r="3.5" opacity="0.8"/>
+    <circle cx="140" cy="220" r="3.5" opacity="0.7"/>
+    <circle cx="250" cy="210" r="3.5" opacity="0.8"/>
+    <circle cx="370" cy="190" r="3.5" opacity="0.7"/>
+    <circle cx="430" cy="260" r="3.5" opacity="0.8"/>
+    <circle cx="40" cy="340" r="3.5" opacity="0.7"/>
+    <circle cx="120" cy="330" r="3.5" opacity="0.8"/>
+    <circle cx="200" cy="350" r="3.5" opacity="0.7"/>
+    <circle cx="300" cy="330" r="3.5" opacity="0.8"/>
+    <circle cx="420" cy="410" r="3.5" opacity="0.7"/>
+    <circle cx="70" cy="450" r="3.5" opacity="0.8"/>
+    <circle cx="180" cy="460" r="3.5" opacity="0.7"/>
+    <circle cx="300" cy="460" r="3.5" opacity="0.8"/>
+    <circle cx="390" cy="470" r="3.5" opacity="0.7"/>
+  </g>
+
+  <!-- Diagonal snow streaks (motion blur of heavy blizzard wind) -->
+  <g stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.6">
+    <line x1="70" y1="40" x2="52" y2="65"/>
+    <line x1="170" y1="80" x2="152" y2="105"/>
+    <line x1="290" y1="30" x2="272" y2="55"/>
+    <line x1="400" y1="70" x2="382" y2="95"/>
+    <line x1="110" y1="160" x2="92" y2="185"/>
+    <line x1="230" y1="130" x2="212" y2="155"/>
+    <line x1="340" y1="110" x2="322" y2="135"/>
+    <line x1="450" y1="170" x2="432" y2="195"/>
+    <line x1="40" y1="260" x2="22" y2="285"/>
+    <line x1="190" y1="250" x2="172" y2="275"/>
+    <line x1="310" y1="220" x2="292" y2="245"/>
+    <line x1="420" y1="290" x2="402" y2="315"/>
+    <line x1="80" y1="360" x2="62" y2="385"/>
+    <line x1="200" y1="330" x2="182" y2="355"/>
+    <line x1="330" y1="370" x2="312" y2="395"/>
+    <line x1="470" y1="340" x2="452" y2="365"/>
+  </g>
+
+</svg>

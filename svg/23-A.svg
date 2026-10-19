@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#11142a"/>
+  <!-- Rain streaks (denser, softer) -->
+  <g stroke="#a0c0ff" stroke-width="1" opacity="0.75">
+    <path d="M 20 12 L 24 52 M 40 8 L 44 48 M 60 16 L 64 56 M 80 12 L 84 52 M 100 20 L 104 60 M 120 16 L 124 56 M 140 24 L 144 64 M 160 20 L 164 60 M 180 28 L 184 68 M 200 24 L 204 64 M 220 32 L 224 72 M 240 28 L 244 68 M 260 36 L 264 76 M 280 32 L 284 72 M 300 40 L 304 80 M 320 36 L 324 76 M 340 44 L 344 84 M 360 40 L 364 80 M 380 48 L 384 88 M 400 44 L 404 84 M 420 52 L 424 92 M 440 48 L 444 88 M 460 56 L 464 96 M 480 52 L 484 92"/>
+    <path d="M 32 8 L 36 52 M 52 12 L 56 56 M 72 16 L 76 60 M 92 20 L 96 64 M 112 24 L 116 68 M 132 28 L 136 72 M 152 32 L 156 76 M 172 36 L 176 80 M 192 40 L 196 84 M 212 44 L 216 88 M 232 48 L 236 92 M 252 52 L 256 96 M 272 56 L 276 100 M 292 60 L 296 104 M 312 64 L 316 108 M 332 68 L 336 112 M 352 72 L 356 116 M 372 76 L 376 120 M 392 80 L 396 124 M 412 84 L 416 128 M 432 88 L 436 132 M 452 92 L 456 136 M 472 96 L 476 140"/>
+    <path d="M 12 32 L 16 76 M 32 36 L 36 80 M 52 40 L 56 84 M 72 44 L 76 88 M 92 48 L 96 92 M 112 52 L 116 96 M 132 56 L 136 100 M 152 60 L 156 104 M 172 64 L 176 108 M 192 68 L 196 112 M 212 72 L 216 116 M 232 76 L 236 120 M 252 80 L 256 124 M 272 84 L 276 128 M 292 88 L 296 132 M 312 92 L 316 136 M 332 96 L 336 140 M 352 100 L 356 144 M 372 104 L 376 148 M 392 108 L 396 152 M 412 112 L 416 156 M 432 116 L 436 160 M 452 120 L 456 164 M 472 124 L 476 168"/>
+  </g>
+  <!-- Moon base dome (softer edges) -->
+  <path d="M 256 128 A 128 128 0 0 1 256 384 A 128 128 0 0 1 256 128 Z" fill="#e0e0e0" stroke="#888" stroke-width="1.5" stroke-opacity="0.6"/>
+  <!-- Café windows with warm interior glow -->
+  <circle cx="224" cy="224" r="10" fill="#ffdd99" opacity="0.9"/>
+  <circle cx="288" cy="224" r="10" fill="#ffdd99" opacity="0.9"/>
+  <circle cx="256" cy="280" r="14" fill="#ffdd99" opacity="0.75"/>
+  <!-- Café building (softer, rounded) -->
+  <path d="M 200 320 L 312 320 L 296 384 L 216 384 Z" fill="#777" opacity="0.9"/>
+  <rect x="160" y="384" width="192" height="32" fill="#444" rx="6"/>
+  <rect x="224" y="344" width="28" height="28" fill="#222" rx="3"/>
+  <rect x="264" y="344" width="28" height="28" fill="#222" rx="3"/>
+  <rect x="244" y="368" width="28" height="18" fill="#222" rx="3"/>
+  <ellipse cx="256" cy="400" rx="140" ry="22" fill="#000" opacity="0.12"/>
+  <!-- Café signage (crisp, centered) -->
+  <text x="256" y="376" font-family="sans-serif" font-size="16" font-weight="bold" fill="#fff" text-anchor="middle" dominant-baseline="middle">MOON BASE CAFE</text>
+  <rect x="240" y="392" width="32" height="14" fill="#ff6600" rx="3"/>
+  <text x="256" y="400" font-family="sans-serif" font-size="10" fill="#fff" text-anchor="middle" dominant-baseline="middle">OPEN</text>
+</svg>

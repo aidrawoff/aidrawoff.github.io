@@ -1,0 +1,191 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1B5a"/>
+      <stop offset="0.45" stop-color="#c2417a"/>
+      <stop offset="0.75" stop-color="#ff7a45"/>
+      <stop offset="1" stop-color="#ffc145"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff2a8"/>
+      <stop offset="1" stop-color="#ffb13b"/>
+    </radialGradient>
+    <radialGradient id="ballShine" cx="0.35" cy="0.35" r="0.6">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#9aa3b5"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fffbe0" stop-opacity="0.6"/>
+      <stop offset="1" stop-color="#fffbe0" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fd16b"/>
+      <stop offset="1" stop-color="#2f7a3c"/>
+    </linearGradient>
+    <linearGradient id="skin" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8fdc78"/>
+      <stop offset="1" stop-color="#4fae5a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd9a0" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffd9a0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sunset sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- setting sun with glow -->
+  <circle cx="380" cy="330" r="96" fill="url(#glow)"/>
+  <circle cx="380" cy="330" r="62" fill="url(#sun)" opacity="0.95"/>
+  <g fill="#c2417a" opacity="0.5">
+    <rect x="300" y="352" width="170" height="5"/>
+    <rect x="300" y="366" width="170" height="7"/>
+    <rect x="300" y="382" width="170" height="9"/>
+  </g>
+
+  <!-- distant city-disco skyline -->
+  <path d="M0 330 L40 300 L70 320 L110 290 L150 318 L200 296 L240 322 L280 304 L320 328 L360 310 L420 330 L470 300 L512 325 L512 360 L0 360 Z" fill="#3a1f4e" opacity="0.85"/>
+  <g fill="#ffe27a">
+    <rect x="66" y="318" width="3" height="3"/>
+    <rect x="116" y="306" width="3" height="3"/>
+    <rect x="232" y="318" width="3" height="3"/>
+    <rect x="352" y="324" width="3" height="3"/>
+    <rect x="462" y="314" width="3" height="3"/>
+  </g>
+
+  <!-- disco ball hanging from above -->
+  <line x1="256" y1="0" x2="256" y2="66" stroke="#d9d9e6" stroke-width="2"/>
+  <circle cx="256" cy="96" r="34" fill="url(#ballShine)"/>
+  <g fill="#ffffff" opacity="0.85">
+    <rect x="236" y="80" width="6" height="6"/>
+    <rect x="262" y="90" width="6" height="6"/>
+    <rect x="244" y="106" width="6" height="6"/>
+    <rect x="270" y="112" width="5" height="5"/>
+    <rect x="228" y="98" width="5" height="5"/>
+    <rect x="276" y="76" width="4" height="4"/>
+  </g>
+
+  <!-- light beams from the ball -->
+  <polygon points="256,130 150,380 230,380" fill="url(#beam)"/>
+  <polygon points="256,130 282,380 362,380" fill="url(#beam)"/>
+  <polygon points="256,130 60,300 110,330" fill="url(#beam)" opacity="0.6"/>
+  <polygon points="256,130 452,300 402,330" fill="url(#beam)" opacity="0.6"/>
+
+  <!-- sparkles -->
+  <g fill="#fff8c4">
+    <path d="M96 150 l4 -12 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 z"/>
+    <path d="M420 190 l3 -9 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 z"/>
+    <path d="M150 230 l2 -6 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 z"/>
+    <path d="M440 110 l2 -6 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 z"/>
+    <path d="M70 90 l2 -6 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 z"/>
+  </g>
+
+  <!-- dance floor: base -->
+  <path d="M0 380 L512 380 L512 512 L0 512 Z" fill="#241433"/>
+  <!-- perspective floor lines converging on a vanishing point -->
+  <g stroke="#48e1ff" stroke-width="1.5" opacity="0.35">
+    <line x1="256" y1="380" x2="-120" y2="512"/>
+    <line x1="256" y1="380" x2="60" y2="512"/>
+    <line x1="256" y1="380" x2="200" y2="512"/>
+    <line x1="256" y1="380" x2="312" y2="512"/>
+    <line x1="256" y1="380" x2="452" y2="512"/>
+    <line x1="256" y1="380" x2="632" y2="512"/>
+  </g>
+  <g fill="none" stroke="#48e1ff" stroke-width="1.5" opacity="0.35">
+    <line x1="0" y1="400" x2="512" y2="400"/>
+    <line x1="0" y1="430" x2="512" y2="430"/>
+    <line x1="0" y1="466" x2="512" y2="466"/>
+  </g>
+  <!-- checkered tiles -->
+  <g fill="#ff4fa3" opacity="0.85">
+    <polygon points="20,400 70,400 60,430 10,430"/>
+    <polygon points="150,400 200,400 200,430 150,430"/>
+    <polygon points="290,400 340,400 350,430 300,430"/>
+    <polygon points="430,400 480,400 500,430 450,430"/>
+    <polygon points="10,450 60,450 50,490 0,490"/>
+    <polygon points="140,450 200,450 200,490 130,490"/>
+    <polygon points="300,450 360,450 360,490 290,490"/>
+    <polygon points="440,450 512,450 512,490 430,490"/>
+  </g>
+  <g fill="#48e1ff" opacity="0.85">
+    <polygon points="80,400 130,400 130,430 80,430"/>
+    <polygon points="210,400 260,400 260,430 210,430"/>
+    <polygon points="360,400 410,400 410,430 360,430"/>
+    <polygon points="70,450 130,450 140,490 60,490"/>
+    <polygon points="210,450 290,450 290,490 210,490"/>
+    <polygon points="370,450 430,450 440,490 360,490"/>
+  </g>
+
+  <!-- turtle shadow on the floor -->
+  <ellipse cx="256" cy="392" rx="128" ry="12" fill="#14081f" opacity="0.5"/>
+
+  <!-- turtle -->
+  <g>
+    <!-- raised dance flippers, behind the shell -->
+    <path d="M160 300 Q110 250 96 196" fill="none" stroke="#3f9c4c" stroke-width="22" stroke-linecap="round"/>
+    <path d="M352 300 Q402 250 416 196" fill="none" stroke="#3f9c4c" stroke-width="22" stroke-linecap="round"/>
+    <ellipse cx="94" cy="188" rx="16" ry="11" transform="rotate(-20 94 188)" fill="url(#skin)"/>
+    <ellipse cx="418" cy="188" rx="16" ry="11" transform="rotate(20 418 188)" fill="url(#skin)"/>
+
+    <!-- back legs -->
+    <ellipse cx="184" cy="352" rx="18" ry="11" fill="#3f9c4c"/>
+    <ellipse cx="328" cy="352" rx="18" ry="11" fill="#3f9c4c"/>
+    <!-- tail -->
+    <path d="M330 300 L352 296 L338 310 Z" fill="#3f9c4c"/>
+
+    <!-- shell -->
+    <path d="M150 300 Q256 210 362 300 Q362 352 256 356 Q150 352 150 300 Z" fill="url(#shell)" stroke="#1f5a2a" stroke-width="4"/>
+    <!-- shell scute pattern -->
+    <g fill="#c6f5a8" opacity="0.9" stroke="#1f5a2a" stroke-width="2">
+      <polygon points="256,240 280,256 280,282 256,296 232,282 232,256"/>
+      <polygon points="200,268 220,280 220,302 200,314 180,302 180,280"/>
+      <polygon points="312,268 332,280 332,302 312,314 292,302 292,280"/>
+    </g>
+    <path d="M176 300 Q256 286 336 300" fill="none" stroke="#1f5a2a" stroke-width="2" opacity="0.6"/>
+    <!-- disco mirror-tile glints on shell -->
+    <g fill="#ffffff">
+      <circle cx="240" cy="260" r="2.5"/>
+      <circle cx="272" cy="330" r="2.5"/>
+      <circle cx="310" cy="282" r="2"/>
+      <circle cx="210" cy="332" r="2"/>
+    </g>
+
+    <!-- front legs -->
+    <ellipse cx="206" cy="350" rx="16" ry="10" fill="#4fae5a"/>
+    <ellipse cx="306" cy="350" rx="16" ry="10" fill="#4fae5a"/>
+
+    <!-- neck and head -->
+    <ellipse cx="256" cy="232" rx="30" ry="24" fill="url(#skin)"/>
+    <!-- party hat -->
+    <path d="M236 214 L256 170 L276 214 Z" fill="#ff4fa3"/>
+    <circle cx="256" cy="170" r="5" fill="#fff3a0"/>
+    <path d="M240 200 L272 200" stroke="#fff3a0" stroke-width="3"/>
+    <!-- shades -->
+    <rect x="234" y="226" width="19" height="12" rx="4" fill="#111"/>
+    <rect x="259" y="226" width="19" height="12" rx="4" fill="#111"/>
+    <line x1="253" y1="231" x2="259" y2="231" stroke="#111" stroke-width="2.5"/>
+    <path d="M237 229 L244 229" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <path d="M262 229 L269 229" stroke="#ffffff" stroke-width="2" opacity="0.8"/>
+    <!-- rosy cheeks -->
+    <circle cx="232" cy="244" r="4" fill="#ff8fb8" opacity="0.7"/>
+    <circle cx="280" cy="244" r="4" fill="#ff8fb8" opacity="0.7"/>
+    <!-- smile -->
+    <path d="M246 248 Q256 258 266 248" fill="none" stroke="#1f5a2a" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- music notes -->
+  <g fill="#fff3a0" font-family="sans-serif" font-size="22">
+    <text x="92" y="262">&#9834;</text>
+    <text x="410" y="270">&#9835;</text>
+  </g>
+
+  <!-- final polish: shell highlight, floor spotlight glints -->
+  <path d="M190 292 Q256 240 322 292" fill="none" stroke="#e8ffd6" stroke-width="3" stroke-linecap="round" opacity="0.45"/>
+  <ellipse cx="256" cy="392" rx="150" ry="16" fill="#fff3a0" opacity="0.12"/>
+  <g fill="#ffffff" opacity="0.9">
+    <path d="M60 420 l2 -6 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 z"/>
+    <path d="M452 436 l2 -6 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 z"/>
+    <path d="M300 470 l2 -5 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 z"/>
+  </g>
+</svg>

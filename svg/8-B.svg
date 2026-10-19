@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- castle hall wall -->
+  <rect x="0" y="0" width="512" height="512" fill="#3b1a2e"/>
+  <g stroke="#2a0f2e" stroke-width="3" fill="none">
+    <path d="M0 40 H512"/><path d="M0 110 H512"/><path d="M0 190 H130"/>
+    <path d="M60 40 V110"/><path d="M300 110 V190"/><path d="M420 40 V110"/>
+    <path d="M30 190 V250"/><path d="M400 190 V260"/><path d="M180 0 V40"/>
+  </g>
+  <!-- cracks split the wall where the gust hit -->
+  <g stroke="#1a0716" stroke-width="2.5" fill="none" stroke-linejoin="miter">
+    <path d="M430 60 L418 90 L436 104 L424 130"/>
+    <path d="M440 104 L470 118"/>
+    <path d="M20 300 L34 282 L26 262"/>
+  </g>
+  <!-- torn pennant flapping off the wall -->
+  <path d="M440 20 L500 36 L486 52 L500 66 L440 80 Z" fill="#ff5a36"/>
+  <path d="M440 20 L470 28 L464 50 L440 46 Z" fill="#ffd23f" opacity="0.9"/>
+  <path d="M432 14 L436 84" stroke="#ffd23f" stroke-width="4"/>
+  <!-- tall arched window with the moon beyond -->
+  <path d="M150 300 V120 A95 95 0 0 1 340 120 V300 Z" fill="#12061c" stroke="#ff8a3d" stroke-width="8"/>
+  <path d="M150 300 V120 A95 95 0 0 1 340 120 V300 Z" fill="none" stroke="#ffd23f" stroke-width="2" stroke-dasharray="3 9" opacity="0.7" transform="translate(0 0)"/>
+  <!-- moon -->
+  <circle cx="265" cy="185" r="62" fill="#f6d28b"/>
+  <g fill="#d9a35e">
+    <circle cx="240" cy="170" r="14"/><circle cx="290" cy="205" r="10"/>
+    <circle cx="255" cy="222" r="7"/><circle cx="285" cy="160" r="6"/>
+    <circle cx="222" cy="200" r="5"/><circle cx="300" cy="170" r="4"/>
+  </g>
+  <!-- lunar ridge filling the bottom of the window -->
+  <path d="M150 272 Q190 256 236 268 T340 258 V300 H150 Z" fill="#b8642c"/>
+  <path d="M150 272 Q190 256 236 268 T340 258" fill="none" stroke="#ffb35c" stroke-width="3"/>
+  <g fill="#7a3a14">
+    <circle cx="180" cy="286" r="5"/><circle cx="214" cy="292" r="3"/><circle cx="306" cy="284" r="6"/>
+  </g>
+  <!-- stars in the black sky -->
+  <g fill="#ffd23f">
+    <path d="M176 150 L179 157 L186 160 L179 163 L176 170 L173 163 L166 160 L173 157 Z"/>
+    <path d="M320 140 L322 145 L327 147 L322 149 L320 154 L318 149 L313 147 L318 145 Z"/>
+    <circle cx="200" cy="260" r="2"/><circle cx="330" cy="240" r="2"/>
+  </g>
+  <!-- window bars -->
+  <path d="M245 125 V300 M150 215 H340" stroke="#3b1a2e" stroke-width="6"/>
+  <!-- floor -->
+  <path d="M0 360 L512 330 V512 H0 Z" fill="#7a2e3a"/>
+  <g stroke="#4a1a24" stroke-width="3">
+    <path d="M0 420 L512 392"/><path d="M0 480 L512 455"/><path d="M120 360 L90 512"/><path d="M330 340 L380 512"/>
+  </g>
+  <!-- checkered picnic blanket, lifted by the gust with a torn corner -->
+  <path d="M70 380 L290 335 L345 430 L120 478 Z" fill="#ff5a36"/>
+  <path d="M120 470 L330 430 L340 452 L125 490 Z" fill="#ffd23f"/>
+  <path d="M290 335 L345 430 L370 415 L332 330 L318 318 Z" fill="#c2331f"/>
+  <path d="M200 350 L230 344 L255 420 L226 427 Z" fill="#ffd23f" opacity="0.9"/>
+  <path d="M70 380 L84 372 L76 390 Z" fill="#c2331f"/>
+  <!-- basket -->
+  <g transform="rotate(-14 210 410)">
+    <rect x="165" y="385" width="90" height="46" rx="4" fill="#b8642c"/>
+    <path d="M165 395 H255" stroke="#7a3a14" stroke-width="4"/>
+    <path d="M175 400 V426 M190 400 V426 M205 400 V426 M220 400 V426 M235 400 V426" stroke="#7a3a14" stroke-width="2"/>
+    <path d="M160 385 Q210 350 260 385" fill="none" stroke="#7a3a14" stroke-width="5"/>
+  </g>
+  <!-- teapot and cup, tipping sideways -->
+  <g transform="rotate(-22 300 372)">
+    <ellipse cx="300" cy="372" rx="22" ry="16" fill="#ffd23f"/>
+    <path d="M318 368 Q332 360 336 348" stroke="#ffd23f" stroke-width="6" fill="none"/>
+    <rect x="292" y="350" width="16" height="8" fill="#ffd23f"/>
+  </g>
+  <circle cx="262" cy="448" r="11" fill="#ffb35c"/>
+  <path d="M240 438 L262 430 L256 452 Z" fill="#ffd23f"/>
+  <!-- wind streaks crossing the whole room -->
+  <g fill="#ffd23f" opacity="0.55">
+    <path d="M0 60 Q200 40 512 0 Q220 52 0 78 Z"/>
+    <path d="M0 150 Q260 120 512 70 Q280 140 0 170 Z"/>
+    <path d="M0 260 Q180 240 420 200 Q200 268 0 282 Z"/>
+    <path d="M0 470 Q260 440 512 400 Q260 470 0 490 Z"/>
+  </g>
+  <g fill="#ff8a3d" opacity="0.7">
+    <path d="M10 100 Q120 96 220 88 Q120 102 10 108 Z"/>
+    <path d="M20 330 Q140 312 230 300 Q140 326 20 340 Z"/>
+  </g>
+  <!-- flying shards, sheets and loose items, streaming up and to the right -->
+  <g fill="#ff8a3d">
+    <path d="M350 250 L372 238 L362 256 Z"/>
+    <path d="M395 300 L420 285 L408 306 Z"/>
+    <path d="M430 230 L444 220 L440 236 Z"/>
+    <path d="M300 280 L316 268 L310 282 Z"/>
+    <path d="M460 180 L478 170 L472 186 Z"/>
+    <path d="M250 300 L262 292 L258 306 Z"/>
+  </g>
+  <!-- flying napkin and paper cup -->
+  <path d="M386 214 L414 200 L420 224 L394 234 Z" fill="#fff4e0"/>
+  <path d="M386 214 L404 222 L394 234 Z" fill="#ffd23f"/>
+  <path d="M450 262 L466 258 L462 278 L448 276 Z" fill="#fff4e0"/>
+  <g fill="#f6d28b">
+    <path d="M380 340 L404 326 L392 344 Z"/>
+    <path d="M440 370 L462 352 L452 376 Z"/>
+    <path d="M410 150 L424 142 L420 156 Z"/>
+    <path d="M330 390 L346 378 L340 396 Z"/>
+  </g>
+  <g fill="#ff5a36">
+    <path d="M360 400 L388 380 L376 404 Z"/>
+    <path d="M478 300 L496 292 L490 310 Z"/>
+    <path d="M490 420 L508 410 L500 430 Z"/>
+  </g>
+  <!-- streaks in front of everything -->
+  <g fill="#ffd23f" opacity="0.8">
+    <path d="M330 470 Q400 440 512 420 Q410 462 330 480 Z"/>
+    <path d="M400 230 Q450 215 512 200 Q460 232 400 240 Z"/>
+    <path d="M250 500 Q330 480 512 470 Q340 494 250 506 Z"/>
+  </g>
+</svg>

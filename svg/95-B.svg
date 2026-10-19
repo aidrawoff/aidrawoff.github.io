@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#ffd27a" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#7a4a1e" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#120b08" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2a1c"/>
+      <stop offset="100%" stop-color="#1a120c"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <circle cx="300" cy="250" r="230" fill="url(#glow)"/>
+
+  <!-- floor -->
+  <rect x="0" y="400" width="512" height="112" fill="#241812"/>
+  <path d="M0 400 L512 400" stroke="#4a3320" stroke-width="4"/>
+
+  <!-- hieroglyph wall band -->
+  <rect x="20" y="60" width="120" height="200" fill="#2b1d13" stroke="#6b4a26" stroke-width="3"/>
+  <g fill="#8a6238">
+    <circle cx="50" cy="90" r="9"/><rect x="80" y="82" width="20" height="16"/>
+    <path d="M40 130 h40 v14 h-40z"/><circle cx="110" cy="137" r="8"/>
+    <rect x="42" y="170" width="16" height="26"/><circle cx="95" cy="183" r="11"/>
+    <path d="M40 220 q20 -18 40 0 q20 18 40 0" stroke="#8a6238" stroke-width="5" fill="none"/>
+  </g>
+
+  <!-- sarcophagus (hiding spot) -->
+  <g>
+    <rect x="250" y="230" width="190" height="180" rx="10" fill="#6d4c25" stroke="#3a2712" stroke-width="5"/>
+    <rect x="262" y="242" width="166" height="156" rx="8" fill="#8a6130"/>
+    <path d="M270 250 h150 M270 390 h150" stroke="#c79a52" stroke-width="4"/>
+    <rect x="240" y="210" width="210" height="34" rx="8" fill="#a3763c" stroke="#3a2712" stroke-width="4"/>
+  </g>
+
+  <!-- HIDER: peeking over the sarcophagus, arms up covering eyes -->
+  <g>
+    <path d="M300 215 q34 -60 78 -4 q6 40 -20 52 q-40 14 -60 -12 z" fill="#e8dcc0" stroke="#a89468" stroke-width="3"/>
+    <!-- bandage wraps on head -->
+    <path d="M306 190 q34 -22 68 2 M302 205 q38 -18 76 4" stroke="#bfae82" stroke-width="5" fill="none"/>
+    <!-- fingers over eyes -->
+    <g fill="#f0e6cd" stroke="#a89468" stroke-width="2">
+      <rect x="316" y="176" width="11" height="34" rx="5"/>
+      <rect x="330" y="170" width="11" height="38" rx="5"/>
+      <rect x="344" y="170" width="11" height="38" rx="5"/>
+      <rect x="358" y="176" width="11" height="34" rx="5"/>
+    </g>
+    <!-- dangling arm -->
+    <path d="M372 210 q22 30 8 58" stroke="#e8dcc0" stroke-width="14" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- SEEKER: standing mummy counting, one hand up -->
+  <g>
+    <ellipse cx="140" cy="404" rx="52" ry="12" fill="#120b08" opacity="0.6"/>
+    <!-- body -->
+    <path d="M112 260 q28 -18 56 0 l10 130 q-38 16 -76 0 z" fill="#e8dcc0" stroke="#a89468" stroke-width="3"/>
+    <path d="M112 290 h66 M110 316 h70 M112 344 h66 M114 372 h62" stroke="#c3b183" stroke-width="6"/>
+    <!-- legs/feet -->
+    <rect x="116" y="386" width="22" height="20" rx="6" fill="#d8caa8" stroke="#a89468" stroke-width="2"/>
+    <rect x="146" y="386" width="22" height="20" rx="6" fill="#d8caa8" stroke="#a89468" stroke-width="2"/>
+    <!-- head -->
+    <ellipse cx="140" cy="222" rx="34" ry="40" fill="#efe4c8" stroke="#a89468" stroke-width="3"/>
+    <path d="M108 210 q32 -18 64 0 M108 232 q32 16 64 0" stroke="#c3b183" stroke-width="5" fill="none"/>
+    <!-- glowing eyes peeking through wrap gap -->
+    <circle cx="128" cy="220" r="6" fill="#ffcf5c"/>
+    <circle cx="152" cy="220" r="6" fill="#ffcf5c"/>
+    <!-- raised counting hand with spread fingers -->
+    <path d="M170 268 q34 -20 44 -54" stroke="#e8dcc0" stroke-width="14" fill="none" stroke-linecap="round"/>
+    <g fill="#f0e6cd" stroke="#a89468" stroke-width="2">
+      <rect x="206" y="188" width="9" height="30" rx="4"/>
+      <rect x="218" y="182" width="9" height="34" rx="4"/>
+      <rect x="230" y="186" width="9" height="32" rx="4"/>
+    </g>
+    <circle cx="222" cy="216" r="14" fill="#e8dcc0" stroke="#a89468" stroke-width="2"/>
+  </g>
+
+  <!-- torch light pools -->
+  <ellipse cx="300" cy="418" rx="150" ry="26" fill="#ffcf7a" opacity="0.14"/>
+  <path d="M0 0 h512 v512 h-512z" fill="none"/>
+  <!-- vignette -->
+  <rect x="0" y="0" width="512" height="512" fill="none" stroke="#0a0604" stroke-width="40" opacity="0.55"/>
+</svg>

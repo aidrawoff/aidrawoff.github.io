@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98a4b"/>
+      <stop offset="1" stop-color="#7b4a24"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#f6dfe0"/>
+  <rect y="300" width="512" height="212" fill="url(#floor)"/>
+  <!-- bunting -->
+  <path d="M0 22 L512 40" stroke="#b95c6b" stroke-width="3" fill="none"/>
+  <g>
+    <polygon points="40,24 62,27 51,54" fill="#ff5d73"/>
+    <polygon points="110,29 132,31 121,58" fill="#ffd23f"/>
+    <polygon points="180,33 202,35 191,62" fill="#4ecdc4"/>
+    <polygon points="250,37 272,38 261,66" fill="#ff9f1c"/>
+    <polygon points="320,40 342,41 331,69" fill="#a78bfa"/>
+    <polygon points="392,43 414,43 403,71" fill="#ff5d73"/>
+    <polygon points="462,45 484,45 473,73" fill="#ffd23f"/>
+  </g>
+  <!-- shelf unit -->
+  <rect x="24" y="90" width="200" height="230" rx="8" fill="#a06a3c"/>
+  <rect x="34" y="100" width="180" height="66" fill="#fbead3"/>
+  <rect x="34" y="176" width="180" height="66" fill="#fbead3"/>
+  <rect x="34" y="252" width="180" height="58" fill="#fbead3"/>
+  <!-- toys on shelves -->
+  <circle cx="70" cy="140" r="22" fill="#4ecdc4"/>
+  <circle cx="70" cy="140" r="9" fill="#fff"/>
+  <rect x="110" y="118" width="34" height="44" rx="6" fill="#ff9f1c"/>
+  <circle cx="127" cy="140" r="10" fill="#fff"/>
+  <polygon points="170,160 190,112 210,160" fill="#a78bfa"/>
+  <circle cx="66" cy="216" r="20" fill="#ff5d73"/>
+  <rect x="100" y="198" width="44" height="40" rx="8" fill="#2ec4b6"/>
+  <polygon points="160,238 180,192 200,238" fill="#ffd23f"/>
+  <rect x="46" y="272" width="40" height="34" rx="6" fill="#a78bfa"/>
+  <circle cx="128" cy="288" r="18" fill="#ff9f1c"/>
+  <rect x="164" y="270" width="42" height="36" rx="6" fill="#4ecdc4"/>
+  <!-- right shelf hint -->
+  <rect x="400" y="120" width="92" height="200" rx="8" fill="#8b5a2b"/>
+  <rect x="410" y="132" width="72" height="56" fill="#fbead3"/>
+  <rect x="410" y="198" width="72" height="56" fill="#fbead3"/>
+  <rect x="410" y="264" width="72" height="46" fill="#fbead3"/>
+  <circle cx="432" cy="160" r="16" fill="#ff5d73"/>
+  <rect x="456" y="144" width="22" height="32" rx="4" fill="#ffd23f"/>
+  <rect x="418" y="212" width="26" height="36" rx="4" fill="#4ecdc4"/>
+  <circle cx="466" cy="230" r="14" fill="#a78bfa"/>
+  <!-- floor shadow -->
+  <ellipse cx="300" cy="452" rx="150" ry="22" fill="#000" opacity="0.18"/>
+  <!-- scattered blocks -->
+  <rect x="70" y="410" width="34" height="34" rx="5" fill="#ff5d73"/>
+  <rect x="112" y="424" width="28" height="28" rx="5" fill="#4ecdc4"/>
+  <rect x="430" y="416" width="32" height="32" rx="5" fill="#ffd23f"/>
+  <!-- BEA + stolen teddy (drawn big, center-right) -->
+  <g transform="translate(292 292) rotate(-10)">
+    <!-- wings blur -->
+    <ellipse cx="-14" cy="-58" rx="52" ry="22" fill="#dff3ff" opacity="0.85" transform="rotate(-24 -14 -58)"/>
+    <ellipse cx="44" cy="-64" rx="46" ry="19" fill="#eafaff" opacity="0.8" transform="rotate(18 44 -64)"/>
+    <!-- body -->
+    <ellipse cx="0" cy="0" rx="78" ry="58" fill="#ffc12e"/>
+    <path d="M-30 -50 Q-40 0 -30 50 L-6 55 Q-16 0 -6 -54 Z" fill="#2b2118"/>
+    <path d="M18 -52 Q10 0 18 52 L42 46 Q34 0 42 -46 Z" fill="#2b2118"/>
+    <!-- stinger -->
+    <polygon points="70,-6 92,0 70,6" fill="#2b2118"/>
+    <!-- head -->
+    <circle cx="-74" cy="-14" r="40" fill="#2b2118"/>
+    <circle cx="-84" cy="-24" r="14" fill="#fff"/>
+    <circle cx="-86" cy="-22" r="7" fill="#111"/>
+    <circle cx="-62" cy="-26" r="10" fill="#fff"/>
+    <circle cx="-63" cy="-25" r="5" fill="#111"/>
+    <!-- antennae -->
+    <path d="M-70 -50 Q-60 -84 -40 -92" stroke="#2b2118" stroke-width="5" fill="none"/>
+    <circle cx="-38" cy="-94" r="7" fill="#ff5d73"/>
+    <path d="M-88 -50 Q-100 -84 -120 -88" stroke="#2b2118" stroke-width="5" fill="none"/>
+    <circle cx="-122" cy="-90" r="7" fill="#ff5d73"/>
+    <!-- legs hugging teddy -->
+    <path d="M-40 40 Q-70 60 -96 52" stroke="#2b2118" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <path d="M-20 52 Q-52 78 -84 72" stroke="#2b2118" stroke-width="9" fill="none" stroke-linecap="round"/>
+    <!-- stolen teddy -->
+    <g transform="translate(-118 44) rotate(14)">
+      <circle cx="-26" cy="-24" r="13" fill="#b5713a"/>
+      <circle cx="26" cy="-24" r="13" fill="#b5713a"/>
+      <circle cx="0" cy="0" r="32" fill="#c8823f"/>
+      <ellipse cx="0" cy="34" rx="30" ry="26" fill="#c8823f"/>
+      <circle cx="0" cy="10" r="14" fill="#f3d3a8"/>
+      <ellipse cx="0" cy="16" rx="6" ry="4" fill="#5b3312"/>
+      <circle cx="-11" cy="-6" r="4" fill="#2b1a0d"/>
+      <circle cx="11" cy="-6" r="4" fill="#2b1a0d"/>
+      <path d="M-42 20 Q-56 34 -46 48" stroke="#b5713a" stroke-width="12" fill="none" stroke-linecap="round"/>
+      <path d="M42 20 Q56 34 46 48" stroke="#b5713a" stroke-width="12" fill="none" stroke-linecap="round"/>
+    </g>
+  </g>
+  <!-- motion dashes -->
+  <g stroke="#b95c6b" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <path d="M470 330 L500 318"/>
+    <path d="M462 360 L498 352"/>
+    <path d="M470 390 L504 386"/>
+  </g>
+  <!-- price tag trailing -->
+  <g transform="translate(392 396) rotate(20)">
+    <rect width="40" height="24" rx="5" fill="#fff8e7" stroke="#b95c6b" stroke-width="2"/>
+    <circle cx="8" cy="12" r="3" fill="#b95c6b"/>
+    <path d="M-14 6 Q-6 10 0 12" stroke="#b95c6b" stroke-width="2" fill="none"/>
+  </g>
+</svg>

@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Warm indoor background -->
+  <rect width="512" height="512" fill="#f5e7d3"/>
+  
+  <!-- Juice bar counter (light wood) -->
+  <rect x="120" y="320" width="272" height="40" fill="#d4a574" rx="4"/>
+  <rect x="130" y="310" width="252" height="20" fill="#c19660" rx="2"/>
+  
+  <!-- Vampire: tall, pale, black suit, red accents -->
+  <!-- Head and face -->
+  <circle cx="256" cy="180" r="32" fill="#f8e6e0"/>
+  <!-- Eyes (shadowed) -->
+  <circle cx="242" cy="172" r="4" fill="#2a1810"/>
+  <circle cx="270" cy="172" r="4" fill="#2a1810"/>
+  <!-- Mouth (smirk) -->
+  <path d="M248 192 Q256 200 264 192" stroke="#8b0000" stroke-width="2" fill="none"/>
+  <!-- Hair (slicked back) -->
+  <path d="M238 160 Q256 152 274 160" fill="#1a1a1a"/>
+  <!-- Suit (black) -->
+  <rect x="224" y="212" width="64" height="96" fill="#0a0a0a" rx="4"/>
+  <!-- Cape (draped) -->
+  <path d="M224 212 Q180 240 224 268" fill="#0a0a0a"/>
+  <!-- Hands holding glass -->
+  <circle cx="200" cy="280" r="8" fill="#f8e6e0"/>
+  <circle cx="312" cy="280" r="8" fill="#f8e6e0"/>
+  
+  <!-- Glass of "juice" (deep red, glowing) -->
+  <rect x="240" y="260" width="32" height="40" fill="#8b0000" rx="4"/>
+  <circle cx="256" cy="248" r="12" fill="#ff4500"/>
+  
+  <!-- Bar detail: blender base -->
+  <rect x="160" y="330" width="40" height="30" fill="#a0a0a0" rx="2"/>
+  <rect x="200" y="335" width="24" height="20" fill="#696969" rx="2"/>
+  
+  <!-- Soft shadow under vampire -->
+  <ellipse cx="256" cy="320" rx="40" ry="8" fill="#00000020"/>
+</svg>

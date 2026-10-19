@@ -1,0 +1,220 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050814"/>
+      <stop offset="40%" stop-color="#0f1738"/>
+      <stop offset="100%" stop-color="#1e294b"/>
+    </linearGradient>
+
+    <!-- Ice Rink Gradient -->
+    <linearGradient id="iceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b6e8c"/>
+      <stop offset="25%" stop-color="#679abf"/>
+      <stop offset="70%" stop-color="#8bb5d6"/>
+      <stop offset="100%" stop-color="#4d7f9e"/>
+    </linearGradient>
+
+    <!-- Ice Reflection Gradient -->
+    <linearGradient id="iceReflect" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.0"/>
+    </linearGradient>
+
+    <!-- Chameleon Skin Gradient -->
+    <linearGradient id="chamBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="40%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#047857"/>
+    </linearGradient>
+
+    <linearGradient id="chamHighlight" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+
+    <!-- Scarf Gradient -->
+    <linearGradient id="scarfGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f43f5e"/>
+      <stop offset="50%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+
+    <!-- Pet Rock Gradient -->
+    <radialGradient id="rockGrad" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#cbd5e1"/>
+      <stop offset="50%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </radialGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Sparkle Shape -->
+    <g id="sparkle">
+      <path d="M0,-9 Q0,0 9,0 Q0,0 0,9 Q0,0 -9,0 Q0,0 0,-9" fill="#ffffff" opacity="0.95"/>
+    </g>
+    <g id="snowflake">
+      <circle cx="0" cy="0" r="2" fill="#ffffff" opacity="0.85"/>
+      <path d="M-4,0 L4,0 M0,-4 L0,4" stroke="#ffffff" stroke-width="1.2" opacity="0.7"/>
+    </g>
+  </defs>
+
+  <!-- Background Sky / Rink Environment -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Distant Glowing Aurora / Arena Lights -->
+  <path d="M0,70 Q140,20 280,80 T512,60 L512,210 L0,210 Z" fill="#38bdf8" opacity="0.12" filter="url(#glow)"/>
+  <path d="M0,110 Q160,70 320,120 T512,90 L512,230 L0,230 Z" fill="#ec4899" opacity="0.1" filter="url(#glow)"/>
+
+  <!-- Atmospheric Snowfall & Sparkles -->
+  <use href="#snowflake" x="60" y="50"/>
+  <use href="#sparkle" x="120" y="80" transform="scale(0.7)"/>
+  <use href="#snowflake" x="200" y="40"/>
+  <use href="#sparkle" x="380" y="70" transform="scale(0.9)"/>
+  <use href="#snowflake" x="450" y="110"/>
+  <use href="#snowflake" x="90" y="140"/>
+  <use href="#sparkle" x="280" y="120" transform="scale(0.6)"/>
+  <use href="#snowflake" x="420" y="170"/>
+
+  <!-- Ice Rink Floor (Perspective Ellipse / Rounded Trapezoid) -->
+  <path d="M20,210 C20,180 492,180 492,210 L512,470 C512,500 0,500 0,470 Z" fill="url(#iceGrad)" stroke="#bfdbfe" stroke-width="4" stroke-opacity="0.85"/>
+
+  <!-- Ice Surface Reflections, Gouges & Skate Tracks -->
+  <path d="M50,250 Q256,220 460,280" fill="none" stroke="url(#iceReflect)" stroke-width="10" stroke-linecap="round"/>
+  <path d="M80,330 Q280,290 430,370" fill="none" stroke="url(#iceReflect)" stroke-width="5" stroke-linecap="round"/>
+  <path d="M100,380 Q220,340 400,430" fill="none" stroke="#ffffff" stroke-width="3" opacity="0.8" stroke-linecap="round"/>
+  <path d="M140,430 Q260,390 450,460" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.6" stroke-linecap="round"/>
+
+  <!-- Dramatic Ice Spray / Shavings behind Chameleon -->
+  <path d="M150,390 Q120,365 95,380 Q105,405 130,420 Z" fill="#ffffff" opacity="0.95"/>
+  <path d="M125,410 Q100,395 85,415 Q105,430 135,420 Z" fill="#ffffff" opacity="0.85"/>
+  <circle cx="105" cy="380" r="4" fill="#ffffff"/>
+  <circle cx="90" cy="400" r="3" fill="#ffffff"/>
+  <circle cx="115" cy="425" r="3.5" fill="#ffffff"/>
+  <circle cx="135" cy="410" r="2" fill="#ffffff"/>
+
+  <!-- PET ROCK ON ICE (with mini ice skates, tiny scarf, and cheering expression) -->
+  <g id="pet-rock" transform="translate(360, 350)">
+    <!-- Rock Ice Skate Blades -->
+    <path d="M-22,48 L18,48" stroke="#e2e8f0" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-17,43 L12,43" stroke="#94a3b8" stroke-width="2.5"/>
+    <line x1="-10" y1="43" x2="-10" y2="48" stroke="#475569" stroke-width="2"/>
+    <line x1="8" y1="43" x2="8" y2="48" stroke="#475569" stroke-width="2"/>
+
+    <!-- Rock Shadow -->
+    <ellipse cx="-2" cy="49" rx="24" ry="7" fill="#0f172a" opacity="0.45"/>
+
+    <!-- Rock Body -->
+    <path d="M-25,35 C-32,12 -20,-2 6,-6 C28,-10 38,12 32,34 C26,46 -18,48 -25,35 Z" fill="url(#rockGrad)" stroke="#0f172a" stroke-width="2.5"/>
+    
+    <!-- Rock Highlights & Texture Details -->
+    <path d="M-16,10 C-10,4 2,8 12,16" fill="none" stroke="#e2e8f0" stroke-width="2.5" opacity="0.7" stroke-linecap="round"/>
+    <circle cx="-6" cy="22" r="2.5" fill="#334155"/>
+    <circle cx="14" cy="26" r="2" fill="#334155"/>
+
+    <!-- Expressive Googly Eyes on Pet Rock -->
+    <circle cx="2" cy="12" r="6" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <circle cx="3" cy="12" r="2.5" fill="#0f172a"/>
+    <circle cx="17" cy="14" r="6" fill="#ffffff" stroke="#0f172a" stroke-width="1.5"/>
+    <circle cx="18" cy="14" r="2.5" fill="#0f172a"/>
+    <circle cx="5" cy="10" r="1" fill="#ffffff"/>
+    <circle cx="20" cy="12" r="1" fill="#ffffff"/>
+
+    <!-- Happy Smiling Mouth -->
+    <path d="M7,22 Q13,28 19,21" fill="none" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Tiny Pet Rock Scarf -->
+    <path d="M-6,26 Q11,22 24,28 L22,35 Q7,29 -4,32 Z" fill="url(#scarfGrad)"/>
+    <path d="M16,32 L20,45 L25,43 L20,31 Z" fill="url(#scarfGrad)"/>
+  </g>
+
+
+  <!-- CHAMELEON ICE SKATER (Graceful spin/glide pose) -->
+  <g id="chameleon" transform="translate(170, 230)">
+    <!-- Chameleon Skate Shadows -->
+    <ellipse cx="-25" cy="175" rx="32" ry="9" fill="#0f172a" opacity="0.45"/>
+    <ellipse cx="85" cy="175" rx="38" ry="9" fill="#0f172a" opacity="0.45"/>
+
+    <!-- Left Skate -->
+    <g transform="translate(-45, 138)">
+      <path d="M-18,34 L38,34" stroke="#f8fafc" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-12,28 L32,28" stroke="#94a3b8" stroke-width="3.5"/>
+      <line x1="-2" y1="28" x2="-2" y2="34" stroke="#475569" stroke-width="2"/>
+      <line x1="22" y1="28" x2="22" y2="34" stroke="#475569" stroke-width="2"/>
+      <!-- Boot -->
+      <path d="M-12,28 C-18,14 -6,4 16,8 C27,10 30,26 26,28 Z" fill="#0284c7" stroke="#0369a1" stroke-width="2.5"/>
+    </g>
+
+    <!-- Right Skate (Gliding forward with blade angle) -->
+    <g transform="translate(65, 138)">
+      <path d="M-22,34 L42,34" stroke="#f8fafc" stroke-width="6" stroke-linecap="round"/>
+      <path d="M-16,28 L36,28" stroke="#94a3b8" stroke-width="3.5"/>
+      <line x1="-6" y1="28" x2="-6" y2="34" stroke="#475569" stroke-width="2"/>
+      <line x1="26" y1="28" x2="26" y2="34" stroke="#475569" stroke-width="2"/>
+      <!-- Boot -->
+      <path d="M-12,28 C-18,14 -6,4 16,8 C27,10 30,26 26,28 Z" fill="#0284c7" stroke="#0369a1" stroke-width="2.5"/>
+    </g>
+
+    <!-- Curled Prehensile Tail (Rich, flowing gradient spiral) -->
+    <path d="M-35,100 C-100,125 -135,55 -95,0 C-75,-32 -30,-15 -2,25" fill="none" stroke="url(#chamBody)" stroke-width="30" stroke-linecap="round"/>
+    <!-- Tail scale patterns / decorative ridges -->
+    <path d="M-45,85 C-85,100 -105,45 -80,12" fill="none" stroke="#34d399" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+    <path d="M-60,50 C-75,25 -50,-5 -35,0" fill="none" stroke="#6ee7b7" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+
+    <!-- Chameleon Body (Leaning forward into the skating glide) -->
+    <path d="M-25,115 C-42,55 -2,25 52,42 C100,56 122,102 85,130 C48,158 -12,145 -25,115 Z" fill="url(#chamBody)" stroke="#065f46" stroke-width="3.5"/>
+
+    <!-- Belly Accent (Lighter glowing emerald) -->
+    <path d="M-12,125 C10,142 65,135 82,112 C65,130 18,132 -12,125 Z" fill="#6ee7b7" opacity="0.7"/>
+
+    <!-- Back Ridges / Spikes -->
+    <path d="M-18,75 L-28,62 M-6,58 L-14,44 M10,48 L6,34 M32,44 L32,28 M58,52 L66,38 M82,68 L94,56" stroke="#047857" stroke-width="6" stroke-linecap="round"/>
+
+    <!-- Arms / Posing gracefully -->
+    <!-- Left Arm waving/balancing -->
+    <path d="M-5,72 Q-38,48 -60,58" fill="none" stroke="url(#chamBody)" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="-60" cy="58" r="8" fill="#059669" stroke="#047857" stroke-width="2.5"/>
+
+    <!-- Right Arm pointing forward -->
+    <path d="M62,68 Q92,75 115,58" fill="none" stroke="url(#chamBody)" stroke-width="15" stroke-linecap="round"/>
+    <circle cx="115" cy="58" r="8" fill="#059669" stroke="#047857" stroke-width="2.5"/>
+
+    <!-- Neck & Head -->
+    <g transform="translate(75, 15)">
+      <!-- Head shape -->
+      <path d="M-12,32 C-18,4 16,-12 42,0 C70,12 80,44 52,65 C26,75 -6,62 -12,32 Z" fill="url(#chamBody)" stroke="#065f46" stroke-width="3.5"/>
+      <!-- Cheek highlight -->
+      <ellipse cx="32" cy="36" rx="16" ry="13" fill="#34d399" opacity="0.6"/>
+
+      <!-- Festive Winter Scarf around Neck -->
+      <path d="M-18,50 Q26,70 58,48 L64,59 Q22,81 -12,63 Z" fill="url(#scarfGrad)" stroke="#9f1239" stroke-width="2"/>
+      <!-- Scarf tail flowing dramatically in the wind -->
+      <path d="M58,54 Q82,78 105,70 L101,86 Q77,93 52,62 Z" fill="url(#scarfGrad)" stroke="#9f1239" stroke-width="2"/>
+
+      <!-- Large Expressive Chameleon Eyes (classic turret eye with sparkle) -->
+      <g transform="translate(28, 10)">
+        <ellipse cx="0" cy="-6" rx="15" ry="17" fill="url(#chamHighlight)" stroke="#047857" stroke-width="2.5"/>
+        <circle cx="2" cy="-6" r="10" fill="#ffffff" stroke="#065f46" stroke-width="2"/>
+        <circle cx="4" cy="-6" r="5" fill="#0f172a"/>
+        <circle cx="6" cy="-9" r="1.8" fill="#ffffff"/>
+      </g>
+
+      <!-- Joyful Smile -->
+      <path d="M38,48 Q48,60 58,45" fill="none" stroke="#047857" stroke-width="3.5" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <!-- Foreground Ice Sparkles & Starbursts -->
+  <use href="#sparkle" x="100" y="440" transform="scale(1.1)"/>
+  <use href="#sparkle" x="280" y="460" transform="scale(0.8)"/>
+  <use href="#sparkle" x="440" y="400" transform="scale(1.2)"/>
+  <use href="#sparkle" x="200" y="320" transform="scale(0.6)"/>
+  <use href="#sparkle" x="350" y="270" transform="scale(0.7)"/>
+
+  <!-- Vignette Frame Border -->
+  <rect x="0" y="0" width="512" height="512" fill="none" stroke="#38bdf8" stroke-width="10" opacity="0.4"/>
+</svg>

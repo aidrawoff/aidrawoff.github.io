@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#30205d"/>
+      <stop offset="0.48" stop-color="#d34d78"/>
+      <stop offset="1" stop-color="#ffb15c"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#4b2168"/>
+      <stop offset="1" stop-color="#160d35"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="50%" r="50%">
+      <stop stop-color="#fff5b0"/>
+      <stop offset="0.55" stop-color="#ffd16b"/>
+      <stop offset="1" stop-color="#f58a64"/>
+    </radialGradient>
+    <linearGradient id="shell" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#51d5b1"/>
+      <stop offset="0.5" stop-color="#187d91"/>
+      <stop offset="1" stop-color="#123d70"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="390" cy="177" r="67" fill="#ffd36e" opacity=".25" filter="url(#glow)"/>
+  <circle cx="390" cy="177" r="48" fill="url(#sun)"/>
+  <path d="M0 292 Q75 255 145 287 T285 275 T430 284 T512 260 V332 H0Z" fill="#4e245d" opacity=".72"/>
+  <path d="M0 322 Q110 300 210 322 T420 311 T512 322 V512 H0Z" fill="url(#floor)"/>
+  <g opacity=".32" stroke="#ff8ec2" stroke-width="3">
+    <path d="M256 320 L30 512 M256 320 L126 512 M256 320 L205 512 M256 320 L307 512 M256 320 L386 512 M256 320 L482 512"/>
+    <path d="M90 388 H422 M50 438 H462 M20 480 H492"/>
+  </g>
+  <g fill="#ffe77a">
+    <circle cx="72" cy="103" r="4"/><circle cx="120" cy="68" r="3"/><circle cx="184" cy="126" r="4"/><circle cx="310" cy="74" r="3"/><circle cx="455" cy="91" r="4"/><circle cx="429" cy="218" r="3"/>
+  </g>
+  <g stroke="#fbd66a" stroke-width="5" stroke-linecap="round" opacity=".75">
+    <path d="M67 205v42 M47 226h40 M53 212l28 28 M81 212l-28 28"/>
+    <path d="M463 272v34 M447 289h32 M452 278l22 22 M474 278l-22 22"/>
+  </g>
+  <!-- disco ball and beams -->
+  <path d="M256 0v34" stroke="#f3d67f" stroke-width="4"/>
+  <circle cx="256" cy="66" r="33" fill="#dce9ff" stroke="#fff" stroke-width="3"/>
+  <g fill="#7187ba" opacity=".9"><path d="M230 52h51v8h-51z"/><path d="M225 68h62v8h-62z"/><path d="M240 39l8 54h8l8-54z"/><path d="M265 39l-8 54h-8l-8-54z"/></g>
+  <path d="M230 92 L97 350 H190 L256 99 L322 350 H415 Z" fill="#ffc8a8" opacity=".12"/>
+  <!-- turtle shadow -->
+  <ellipse cx="257" cy="444" rx="139" ry="22" fill="#09091e" opacity=".65"/>
+  <!-- dancing turtle -->
+  <g stroke="#102d4b" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <ellipse cx="250" cy="333" rx="112" ry="85" fill="url(#shell)" transform="rotate(-8 250 333)"/>
+    <path d="M167 316 Q250 247 333 312 Q313 385 247 393 Q183 385 167 316Z" fill="none" stroke="#79f0c7" stroke-width="5"/>
+    <path d="M244 254 Q248 330 248 390 M177 309 Q248 335 325 307 M190 367 Q246 340 306 365" fill="none" stroke="#6be3bd" stroke-width="4" opacity=".8"/>
+    <path d="M343 303 Q385 282 410 248 Q424 231 438 243 Q448 254 431 272 Q397 318 351 337Z" fill="#63d6ad"/>
+    <path d="M166 330 Q128 304 111 266 Q102 245 86 255 Q73 265 87 286 Q113 337 161 359Z" fill="#63d6ad"/>
+    <path d="M216 397 Q202 430 180 449 Q169 461 179 472 Q191 484 207 469 Q232 445 242 402Z" fill="#63d6ad"/>
+    <path d="M279 397 Q293 428 321 447 Q336 457 327 471 Q317 486 299 470 Q275 446 263 402Z" fill="#63d6ad"/>
+    <path d="M230 267 Q229 226 254 211 Q280 196 305 218 Q323 235 306 267 Q288 286 258 282 Q239 280 230 267Z" fill="#74e3b5"/>
+    <path d="M266 235 Q293 218 317 240" fill="none" stroke="#102d4b" stroke-width="5"/>
+    <circle cx="266" cy="242" r="6" fill="#102d4b" stroke="none"/><circle cx="296" cy="243" r="6" fill="#102d4b" stroke="none"/>
+    <path d="M272 260 Q286 270 301 258" fill="none" stroke="#102d4b" stroke-width="5"/>
+    <path d="M230 213 Q215 193 219 177 M306 218 Q322 197 318 180" fill="none" stroke="#63d6ad" stroke-width="11"/>
+  </g>
+  <!-- party accessories -->
+  <path d="M236 205 L252 161 L285 205Z" fill="#ff5b91" stroke="#371c59" stroke-width="5"/>
+  <path d="M252 161l-8-14 M252 161l8-15" stroke="#ffe47a" stroke-width="4"/>
+  <g fill="#ffef85"><circle cx="211" cy="294" r="6"/><circle cx="294" cy="340" r="6"/><circle cx="365" cy="275" r="5"/><circle cx="134" cy="270" r="5"/></g>
+  <!-- extra round-two stage sparkle -->
+  <g fill="#ff70b7" opacity=".8">
+    <circle cx="42" cy="350" r="3"/><circle cx="59" cy="365" r="5"/><circle cx="474" cy="345" r="4"/><circle cx="449" cy="366" r="3"/>
+  </g>
+  <g fill="#ffe895" font-family="sans-serif" font-weight="bold">
+    <text x="91" y="170" font-size="27">♪</text><text x="420" y="158" font-size="31">♫</text><text x="373" y="235" font-size="20">✦</text>
+  </g>
+  <g stroke="#fff0a2" stroke-width="3" opacity=".7">
+    <path d="M24 126h20 M34 116v20"/><path d="M478 121h18 M487 112v18"/>
+  </g>
+  <text x="28" y="477" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffd98a" opacity=".9">SLOW • GROOVE • GLOW</text>
+  <!-- final charming polish -->
+  <circle cx="257" cy="256" r="5" fill="#ff8fa9" opacity=".8"/>
+  <circle cx="313" cy="255" r="5" fill="#ff8fa9" opacity=".8"/>
+  <path d="M345 304l12 10 -12 10 -12-10z M357 314l14-8v16z" fill="#ff5b91" stroke="#371c59" stroke-width="3"/>
+  <g fill="#fff1a1"><circle cx="104" cy="316" r="3"/><circle cx="399" cy="330" r="3"/><circle cx="153" cy="204" r="3"/></g>
+</svg>

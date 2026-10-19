@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#070414"/>
+      <stop offset="50%" stop-color="#181138"/>
+      <stop offset="100%" stop-color="#2e1f5e"/>
+    </linearGradient>
+    <linearGradient id="pumpkin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffa31a"/>
+      <stop offset="40%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#a84300"/>
+    </linearGradient>
+    <linearGradient id="buswindow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d9f3ff"/>
+      <stop offset="100%" stop-color="#4ba3e3"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffef0" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#f1c40f" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#f1c40f" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="headlightBeam" cx="0%" cy="50%" r="100%">
+      <stop offset="0%" stop-color="#f1c40f" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#f1c40f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Night Sky & Background -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  
+  <!-- Big Glowing Moon -->
+  <circle cx="410" cy="90" r="75" fill="url(#moonGlow)"/>
+  <circle cx="410" cy="90" r="36" fill="#fef9e7"/>
+
+  <!-- Distant Bats -->
+  <g fill="#100b24">
+    <path d="M80 100 Q88 92 96 100 Q90 106 80 100 Z"/>
+    <path d="M96 100 Q104 92 112 100 Q106 106 96 100 Z"/>
+    <path d="M280 140 Q286 134 292 140 Q288 145 280 140 Z"/>
+    <path d="M292 140 Q298 134 304 140 Q300 145 292 140 Z"/>
+    <path d="M150 60 Q155 55 160 60 Q156 64 150 60 Z"/>
+    <path d="M370 180 Q376 174 382 180 Q378 185 370 180 Z"/>
+  </g>
+
+  <!-- Stars & Magic Dust -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="50" cy="120" r="2"/>
+    <circle cx="130" cy="80" r="1.5"/>
+    <circle cx="210" cy="100" r="2"/>
+    <circle cx="340" cy="200" r="1.5"/>
+    <circle cx="65" cy="240" r="2"/>
+    <circle cx="160" cy="180" r="1"/>
+    <circle cx="450" cy="170" r="1.5"/>
+    <circle cx="100" cy="160" r="1.5"/>
+  </g>
+
+  <!-- Spooky Road / Ground -->
+  <rect x="0" y="410" width="512" height="102" fill="#0e081c"/>
+  <path d="M0 410 Q256 395 512 410" fill="none" stroke="#251642" stroke-width="4"/>
+  <!-- Road stripe -->
+  <line x1="0" y1="460" x2="512" y2="460" stroke="#f1c40f" stroke-width="4" stroke-dasharray="24,18" opacity="0.9"/>
+
+  <!-- Pumpkin Bus Ground Shadow -->
+  <ellipse cx="256" cy="415" rx="160" ry="16" fill="#06030c" opacity="0.8"/>
+
+  <!-- Pumpkin Bus Body -->
+  <ellipse cx="256" cy="330" rx="165" ry="92" fill="url(#pumpkin)" stroke="#6b2b00" stroke-width="4"/>
+  
+  <!-- Pumpkin Segments & Ribs -->
+  <path d="M256 238 Q200 330 256 422" fill="none" stroke="#873a00" stroke-width="7" opacity="0.8"/>
+  <path d="M256 238 Q312 330 256 422" fill="none" stroke="#873a00" stroke-width="7" opacity="0.8"/>
+  <path d="M256 238 Q140 330 256 422" fill="none" stroke="#873a00" stroke-width="5" opacity="0.6"/>
+  <path d="M256 238 Q372 330 256 422" fill="none" stroke="#873a00" stroke-width="5" opacity="0.6"/>
+  <path d="M256 238 Q256 330 256 422" fill="none" stroke="#873a00" stroke-width="4" opacity="0.5"/>
+
+  <!-- Bus Windows (Glowing from inside) -->
+  <rect x="145" y="270" width="55" height="48" rx="14" fill="url(#buswindow)" stroke="#3a184a" stroke-width="3"/>
+  <rect x="228" y="270" width="55" height="48" rx="14" fill="url(#buswindow)" stroke="#3a184a" stroke-width="3"/>
+  <rect x="311" y="270" width="55" height="48" rx="14" fill="url(#buswindow)" stroke="#3a184a" stroke-width="3"/>
+
+  <!-- Steering Wheel inside center window -->
+  <circle cx="255.5" cy="294" r="14" fill="none" stroke="#1f2c39" stroke-width="4"/>
+  <line x1="255.5" y1="280" x2="255.5" y2="308" stroke="#1f2c39" stroke-width="3"/>
+  <line x1="241.5" y1="294" x2="269.5" y2="294" stroke="#1f2c39" stroke-width="3"/>
+
+  <!-- Headlights & Wheels -->
+  <circle cx="85" cy="390" r="28" fill="#141c24" stroke="#000" stroke-width="6"/>
+  <circle cx="85" cy="390" r="10" fill="#626d74"/>
+  <circle cx="427" cy="390" r="28" fill="#141c24" stroke="#000" stroke-width="6"/>
+  <circle cx="427" cy="390" r="10" fill="#626d74"/>
+  
+  <!-- Front Headlight Beam & Glow -->
+  <polygon points="455,385 512,320 512,450" fill="url(#headlightBeam)"/>
+  <circle cx="445" cy="378" r="14" fill="#f1c40f" stroke="#b7950b" stroke-width="2"/>
+
+  <!-- Magical Exhaust Potion Bubbles from rear -->
+  <circle cx="125" cy="335" r="9" fill="#af7ac5" opacity="0.8"/>
+  <circle cx="105" cy="315" r="12" fill="#c39bd3" opacity="0.7"/>
+  <circle cx="85" cy="290" r="15" fill="#d7bde2" opacity="0.6"/>
+  <circle cx="68" cy="255" r="10" fill="#ebdef0" opacity="0.5"/>
+  <circle cx="55" cy="220" r="6" fill="#f4f6f7" opacity="0.4"/>
+
+  <!-- Witch Cat on Top -->
+  <!-- Cat Body -->
+  <ellipse cx="256" cy="215" rx="30" ry="38" fill="#131320"/>
+  <!-- Cat Tail wrapping around -->
+  <path d="M226 230 Q185 240 195 200 Q205 180 195 170" fill="none" stroke="#131320" stroke-width="7" stroke-linecap="round"/>
+  
+  <!-- Cat Head -->
+  <circle cx="256" cy="165" r="24" fill="#131320"/>
+  
+  <!-- Cat Ears -->
+  <polygon points="234,150 220,115 246,138" fill="#131320"/>
+  <polygon points="236,145 226,123 243,138" fill="#e8daef"/>
+  <polygon points="278,150 292,115 266,138" fill="#131320"/>
+  <polygon points="276,145 286,123 269,138" fill="#e8daef"/>
+
+  <!-- Cat Face -->
+  <ellipse cx="247" cy="163" rx="4.5" ry="7" fill="#2ecc71"/>
+  <ellipse cx="247" cy="163" rx="2" ry="4" fill="#0e6251"/>
+  <ellipse cx="265" cy="163" rx="4.5" ry="7" fill="#2ecc71"/>
+  <ellipse cx="265" cy="163" rx="2" ry="4" fill="#0e6251"/>
+  <polygon points="256,173 253,169 259,169" fill="#f39c12"/>
+  <path d="M252 178 Q256 182 260 178" fill="none" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+
+  <!-- Witch Hat -->
+  <polygon points="212,142 300,142 256,45" fill="#4a235a" stroke="#27ae60" stroke-width="2"/>
+  <ellipse cx="256" cy="142" rx="48" ry="9" fill="#4a235a" stroke="#27ae60" stroke-width="1.5"/>
+  <rect x="232" y="133" width="48" height="10" fill="#8e44ad" rx="3"/>
+  <rect x="250" y="133" width="12" height="10" fill="#f1c40f"/>
+  <!-- Star on hat -->
+  <polygon points="256,85 259,91 266,92 261,97 262,103 256,100 250,103 251,97 246,92 253,91" fill="#f1c40f"/>
+
+  <!-- Magic Wand & Sparkling Trail -->
+  <line x1="278" y1="195" x2="335" y2="150" stroke="#d5d8dc" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- Star Wand Tip -->
+  <polygon points="335,136 341,148 354,150 344,159 347,172 335,165 323,172 326,159 316,150 329,148" fill="#f1c40f" stroke="#f39c12" stroke-width="1.5"/>
+  
+  <!-- Extra Magical Sparkles around wand & scene -->
+  <circle cx="365" cy="130" r="4.5" fill="#f1c40f"/>
+  <circle cx="320" cy="125" r="3" fill="#e8daef"/>
+  <circle cx="355" cy="180" r="4" fill="#f1c40f"/>
+  <circle cx="330" cy="205" r="3" fill="#f39c12"/>
+  <circle cx="380" cy="155" r="2.5" fill="#ffffff"/>
+</svg>

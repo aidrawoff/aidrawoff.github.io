@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#ffaa44" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#cc4400" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#220a00" stop-opacity="1"/>
+    </radialGradient>
+    <linearGradient id="soup" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#88cc00"/>
+      <stop offset="100%" stop-color="#336600"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#1a0d05"/>
+  <rect x="0" y="350" width="512" height="162" fill="#2b1d14"/>
+  <rect x="40" y="80" width="200" height="270" fill="#3e2b1f" rx="4"/>
+  <rect x="50" y="90" width="180" height="250" fill="#1c120c" rx="2"/>
+  <ellipse cx="140" cy="380" rx="90" ry="22" fill="#0d0704"/>
+  <path d="M80,380 L200,380 L190,420 L90,420 Z" fill="#555" stroke="#333" stroke-width="2"/>
+  <ellipse cx="140" cy="380" rx="55" ry="12" fill="#222"/>
+  <ellipse cx="140" cy="375" rx="50" ry="10" fill="url(#soup)"/>
+  <path d="M110,375 Q120,360 130,375 Q140,355 150,375 Q160,365 170,375" fill="none" stroke="#aaff00" stroke-width="3" opacity="0.6"/>
+  <path d="M125,375 Q135,365 145,375" fill="none" stroke="#ccff66" stroke-width="2" opacity="0.5"/>
+  <path d="M100,360 Q105,330 115,340 Q120,310 130,325 Q135,300 145,315 Q150,290 160,310 Q165,320 170,340 Q175,350 180,360" fill="none" stroke="#ff4400" stroke-width="4" opacity="0.9"/>
+  <path d="M110,355 Q115,325 125,335 Q130,305 140,320 Q145,295 155,315 Q160,325 165,345" fill="none" stroke="#ff8800" stroke-width="3" opacity="0.8"/>
+  <path d="M120,350 Q125,320 135,330" fill="none" stroke="#ffcc00" stroke-width="2" opacity="0.7"/>
+  <ellipse cx="140" cy="375" rx="48" ry="8" fill="#ff6600" opacity="0.3"/>
+  <circle cx="320" cy="260" r="90" fill="url(#glow)"/>
+  <path d="M320,170 L330,200 L360,200 L335,220 L345,250 L320,230 L295,250 L305,220 L280,200 L310,200 Z" fill="#ffcc00" opacity="0.9"/>
+  <path d="M320,185 L325,205 L345,205 L330,218 L335,238 L320,225 L305,238 L310,218 L295,205 L315,205 Z" fill="#ffffaa"/>
+  <ellipse cx="320" cy="260" rx="35" ry="45" fill="#ffccaa"/>
+  <ellipse cx="320" cy="255" rx="30" ry="38" fill="#ffddcc"/>
+  <circle cx="308" cy="245" r="5" fill="#222"/>
+  <circle cx="332" cy="245" r="5" fill="#222"/>
+  <circle cx="306" cy="243" r="2" fill="#fff"/>
+  <circle cx="330" cy="243" r="2" fill="#fff"/>
+  <ellipse cx="320" cy="265" rx="4" ry="3" fill="#cc8866"/>
+  <path d="M316,275 Q320,280 324,275" fill="none" stroke="#aa6644" stroke-width="2" stroke-linecap="round"/>
+  <ellipse cx="295" cy="270" rx="8" ry="5" fill="#ffaaaa" opacity="0.4"/>
+  <ellipse cx="345" cy="270" rx="8" ry="5" fill="#ffaaaa" opacity="0.4"/>
+  <path d="M285,240 Q275,250 278,270 Q280,290 295,300 Q285,280 290,260 Q292,245 285,240" fill="#1a0d05"/>
+  <path d="M355,240 Q365,250 362,270 Q360,290 345,300 Q355,280 350,260 Q348,245 355,240" fill="#1a0d05"/>
+  <path d="M290,220 Q270,230 265,260 Q260,290 275,320 Q285,340 300,350 L300,330 Q285,310 280,280 Q275,250 290,230 Z" fill="#1a0d05"/>
+  <path d="M350,220 Q370,230 375,260 Q380,290 365,320 Q355,340 340,350 L340,330 Q355,310 360,280 Q365,250 350,230 Z" fill="#1a0d05"/>
+  <path d="M300,210 Q310,190 320,195 Q330,190 340,210 Q335,200 320,205 Q305,200 300,210" fill="#1a0d05"/>
+  <path d="M300,350 Q290,380 285,420 L355,420 Q350,380 340,350" fill="#1a0d05"/>
+  <path d="M285,420 L280,440 L360,440 L355,420" fill="#1a0d05"/>
+  <path d="M310,330 L315,360 L325,360 L330,330" fill="#1a0d05"/>
+  <path d="M300,360 L295,390 L345,390 L340,360" fill="#1a0d05"/>
+  <path d="M320,280 L320,310" fill="none" stroke="#cc8866" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="320" cy="315" rx="6" ry="4" fill="#cc8866"/>
+  <path d="M315,315 Q320,325 325,315" fill="none" stroke="#aa6644" stroke-width="2"/>
+  <path d="M305,300 Q295,310 290,330" fill="none" stroke="#cc8866" stroke-width="3" stroke-linecap="round"/>
+  <path d="M335,300 Q345,310 350,330" fill="none" stroke="#cc8866" stroke-width="3" stroke-linecap="round"/>
+  <rect x="60" y="200" width="8" height="40" fill="#888" rx="2"/>
+  <rect x="80" y="180" width="8" height="60" fill="#888" rx="2"/>
+  <rect x="100" y="210" width="8" height="30" fill="#888" rx="2"/>
+  <rect x="120" y="170" width="8" height="70" fill="#888" rx="2"/>
+  <rect x="140" y="190" width="8" height="50" fill="#888" rx="2"/>
+  <rect x="160" y="160" width="8" height="80" fill="#888" rx="2"/>
+  <rect x="180" y="200" width="8" height="40" fill="#888" rx="2"/>
+  <rect x="200" y="175" width="8" height="65" fill="#888" rx="2"/>
+  <rect x="220" y="185" width="8" height="55" fill="#888" rx="2"/>
+  <text x="256" y="480" text-anchor="middle" fill="#ccaa88" font-size="14" font-family="sans-serif">WITCH BURNED THE SOUP</text>
+</svg>

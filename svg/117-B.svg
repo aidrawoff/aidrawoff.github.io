@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1430"/>
+      <stop offset="1" stop-color="#2a1f45"/>
+    </linearGradient>
+  </defs>
+  <!-- night sky, moon, stars -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="420" cy="92" r="46" fill="#f4eed8"/>
+  <circle cx="436" cy="82" r="40" fill="#2a1f45" opacity="0.9"/>
+  <circle cx="70" cy="60" r="2" fill="#fff"/>
+  <circle cx="150" cy="120" r="2" fill="#fff"/>
+  <circle cx="300" cy="50" r="2" fill="#fff"/>
+  <circle cx="30" cy="180" r="2" fill="#fff"/>
+  <circle cx="110" cy="240" r="1.5" fill="#fff"/>
+  <circle cx="370" cy="200" r="1.5" fill="#fff"/>
+  <circle cx="470" cy="260" r="2" fill="#fff"/>
+  <!-- ground -->
+  <rect y="430" width="512" height="82" fill="#1a1426"/>
+  <path d="M0 430 L40 418 L70 430 L110 414 L150 430 L400 430 L440 416 L470 430 L512 420 L512 430 Z" fill="#241c36"/>
+  <path d="M0 430 L512 430" stroke="#6b5b93" stroke-width="2" opacity="0.6"/>
+  <!-- body (hunched, seated) -->
+  <path d="M170 430 L180 290 Q256 260 330 290 L342 430 Z" fill="#3e6b5c" stroke="#111" stroke-width="5"/>
+  <!-- long flowing scarf, stripes, off the canvas edge -->
+  <path d="M215 292 Q270 320 300 300 Q340 280 360 340 Q380 400 430 380 Q470 365 512 395 L512 415 Q470 390 435 402 Q385 420 362 364 Q340 310 300 322 Q270 340 228 316 Z" fill="#d9472b" stroke="#111" stroke-width="4"/>
+  <path d="M300 300 Q340 280 360 340 Q368 360 380 372 L392 362 Q380 345 372 330 Q350 290 300 300 Z" fill="#f4eed8"/>
+  <!-- arms reaching to the needles -->
+  <path d="M184 300 Q170 330 196 340 L222 336 Q206 320 200 300 Z" fill="#8fbf7a" stroke="#111" stroke-width="4"/>
+  <path d="M328 300 Q346 326 318 340 L292 332 Q306 318 312 300 Z" fill="#8fbf7a" stroke="#111" stroke-width="4"/>
+  <!-- head -->
+  <rect x="200" y="150" width="112" height="132" rx="26" fill="#8fbf7a" stroke="#111" stroke-width="5"/>
+  <!-- flat hair -->
+  <path d="M196 170 L316 170 L312 140 L200 140 Z" fill="#1d1d1d"/>
+  <!-- bolts -->
+  <rect x="186" y="200" width="16" height="10" fill="#777" stroke="#111" stroke-width="2"/>
+  <rect x="310" y="200" width="16" height="10" fill="#777" stroke="#111" stroke-width="2"/>
+  <!-- brows (angled, stern) -->
+  <path d="M226 200 L256 210" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <path d="M286 200 L256 210" stroke="#111" stroke-width="7" stroke-linecap="round"/>
+  <!-- eyes with lowered lids and highlights -->
+  <ellipse cx="236" cy="228" rx="10" ry="7" fill="#fff"/>
+  <ellipse cx="276" cy="228" rx="10" ry="7" fill="#fff"/>
+  <circle cx="238" cy="229" r="4" fill="#111"/>
+  <circle cx="274" cy="229" r="4" fill="#111"/>
+  <circle cx="240" cy="227" r="1.5" fill="#fff"/>
+  <circle cx="276" cy="227" r="1.5" fill="#fff"/>
+  <!-- stitched mouth -->
+  <path d="M224 258 Q256 268 288 258" stroke="#111" stroke-width="5" fill="none"/>
+  <path d="M232 252 L232 264 M244 255 L244 266 M256 258 L256 268 M268 256 L268 266 M280 252 L280 264" stroke="#111" stroke-width="3"/>
+  <!-- knitting needles and yarn ball -->
+  <path d="M200 330 L340 300" stroke="#d8d8d8" stroke-width="5" stroke-linecap="round"/>
+  <path d="M206 344 L346 312" stroke="#d8d8d8" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="210" cy="400" r="22" fill="#f2c94c" stroke="#111" stroke-width="3"/>
+  <path d="M192 392 Q210 404 228 392 M194 406 Q212 416 228 404" stroke="#b58b1a" stroke-width="2" fill="none"/>
+  <!-- yarn thread from the ball up to the needles -->
+  <path d="M226 396 Q250 370 262 330 Q270 312 300 304" stroke="#f2c94c" stroke-width="3" fill="none"/>
+  <!-- contact shadow -->
+  <ellipse cx="256" cy="434" rx="110" ry="8" fill="#000" opacity="0.4"/>
+</svg>

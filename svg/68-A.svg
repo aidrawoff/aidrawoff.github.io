@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Underwater background -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a2a4a"/>
+      <stop offset="40%" stop-color="#0d4a6e"/>
+      <stop offset="100%" stop-color="#041828"/>
+    </linearGradient>
+    <radialGradient id="light" cx="50%" cy="25%" r="65%">
+      <stop offset="0%" stop-color="#3ac0d8" stop-opacity="0.45"/>
+      <stop offset="50%" stop-color="#1a7a9a" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0a2a4a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="256" cy="140" rx="220" ry="140" fill="url(#light)"/>
+
+  <!-- Distant bubbles -->
+  <circle cx="80" cy="420" r="10" fill="#5ac8e0" opacity="0.25"/>
+  <circle cx="110" cy="360" r="6" fill="#5ac8e0" opacity="0.2"/>
+  <circle cx="430" cy="400" r="12" fill="#5ac8e0" opacity="0.22"/>
+  <circle cx="460" cy="330" r="7" fill="#5ac8e0" opacity="0.25"/>
+  <circle cx="50" cy="290" r="5" fill="#5ac8e0" opacity="0.18"/>
+  <circle cx="490" cy="450" r="9" fill="#5ac8e0" opacity="0.2"/>
+  <circle cx="200" cy="80" r="4" fill="#5ac8e0" opacity="0.3"/>
+  <circle cx="350" cy="60" r="5" fill="#5ac8e0" opacity="0.25"/>
+
+  <!-- Distant fish silhouettes -->
+  <ellipse cx="120" cy="110" rx="22" ry="12" fill="#0b3a5a" opacity="0.7"/>
+  <polygon points="98,110 84,98 84,122" fill="#0b3a5a" opacity="0.7"/>
+  <ellipse cx="410" cy="80" rx="18" ry="10" fill="#0b3a5a" opacity="0.6"/>
+  <polygon points="392,80 380,70 380,90" fill="#0b3a5a" opacity="0.6"/>
+  <ellipse cx="320" cy="50" rx="14" ry="8" fill="#0b3a5a" opacity="0.5"/>
+  <polygon points="306,50 296,42 296,58" fill="#0b3a5a" opacity="0.5"/>
+
+  <!-- Light rays from surface -->
+  <polygon points="160,0 185,0 210,512 140,512" fill="#5ac8e0" opacity="0.07"/>
+  <polygon points="260,0 285,0 330,512 280,512" fill="#5ac8e0" opacity="0.06"/>
+  <polygon points="70,0 90,0 50,512 10,512" fill="#5ac8e0" opacity="0.05"/>
+  <polygon points="380,0 400,0 430,512 390,512" fill="#5ac8e0" opacity="0.05"/>
+
+  <!-- Seaweed framing -->
+  <path d="M 25 512 Q 35 450 15 400 Q 45 340 20 280" stroke="#1a5a2a" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M 487 512 Q 477 450 497 400 Q 467 340 492 280" stroke="#1a5a2a" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <path d="M 55 512 Q 65 480 45 430" stroke="#2a8a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 457 512 Q 447 480 467 430" stroke="#2a8a3a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M 40 512 Q 30 470 50 420" stroke="#3aaa4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 472 512 Q 482 470 462 420" stroke="#3aaa4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Troll shadow on ground -->
+  <ellipse cx="256" cy="460" rx="100" ry="25" fill="#041828" opacity="0.5"/>
+
+  <!-- Troll referee body -->
+  <ellipse cx="256" cy="340" rx="95" ry="115" fill="#4a7a2a"/>
+  <ellipse cx="256" cy="340" rx="80" ry="100" fill="#5a9a3a"/>
+  <ellipse cx="256" cy="340" rx="65" ry="85" fill="#6aaa4a" opacity="0.6"/>
+
+  <!-- Referee cap -->
+  <ellipse cx="256" cy="140" rx="55" ry="18" fill="#1a1a1a"/>
+  <rect x="210" y="125" width="92" height="18" fill="#1a1a1a" rx="4"/>
+  <rect x="225" y="118" width="62" height="10" fill="#cc2222" rx="2"/>
+
+  <!-- Head -->
+  <ellipse cx="256" cy="195" rx="75" ry="70" fill="#4a7a2a"/>
+  <ellipse cx="256" cy="195" rx="60" ry="55" fill="#5a9a3a"/>
+  <ellipse cx="256" cy="195" rx="45" ry="40" fill="#6aaa4a" opacity="0.5"/>
+
+  <!-- Ears -->
+  <ellipse cx="183" cy="185" rx="20" ry="32" fill="#4a7a2a"/>
+  <ellipse cx="329" cy="185" rx="20" ry="32" fill="#4a7a2a"/>
+  <ellipse cx="183" cy="185" rx="12" ry="20" fill="#3a6a1a"/>
+  <ellipse cx="329" cy="185" rx="12" ry="20" fill="#3a6a1a"/>
+
+  <!-- Nose -->
+  <ellipse cx="256" cy="215" rx="16" ry="20" fill="#3a6a1a"/>
+  <ellipse cx="256" cy="212" rx="8" ry="10" fill="#4a8a2a"/>
+
+  <!-- Eyes -->
+  <circle cx="232" cy="180" r="12" fill="#ffffff"/>
+  <circle cx="280" cy="180" r="12" fill="#ffffff"/>
+  <circle cx="232" cy="180" r="6" fill="#1a1a1a"/>
+  <circle cx="280" cy="180" r="6" fill="#1a1a1a"/>
+  <circle cx="234" cy="178" r="2" fill="#ffffff"/>
+  <circle cx="282" cy="178" r="2" fill="#ffffff"/>
+
+  <!-- Eyebrows (grumpy referee) -->
+  <path d="M 215 165 Q 232 158 245 168" stroke="#2a4a0a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M 267 168 Q 280 158 297 165" stroke="#2a4a0a" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- Mouth -->
+  <path d="M 238 245 Q 256 238 274 245" stroke="#2a4a0a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 242 248 Q 256 242 270 248" stroke="#3a6a1a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Tusks -->
+  <path d="M 235 248 Q 230 265 225 270" stroke="#c8d8a8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 277 248 Q 282 265 287 270" stroke="#c8d8a8" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- Referee stripes on shirt -->
+  <rect x="185" y="275" width="142" height="14" fill="#1a1a1a" rx="3"/>
+  <rect x="178" y="302" width="156" height="14" fill="#1a1a1a" rx="3"/>
+  <rect x="172" y="329" width="168" height="14" fill="#1a1a1a" rx="3"/>
+  <rect x="178" y="356" width="156" height="14" fill="#1a1a1a" rx="3"/>
+  <rect x="190" y="383" width="132" height="14" fill="#1a1a1a" rx="3"/>
+
+  <!-- Arms -->
+  <ellipse cx="165" cy="300" rx="24" ry="50" fill="#4a7a2a" transform="rotate(22 165 300)"/>
+  <ellipse cx="347" cy="300" rx="24" ry="50" fill="#4a7a2a" transform="rotate(-22 347 300)"/>
+
+  <!-- Whistle on chest -->
+  <circle cx="256" cy="268" r="9" fill="#d4b000"/>
+  <rect x="252" y="277" width="8" height="12" fill="#d4b000" rx="3"/>
+  <circle cx="256" cy="268" r="4" fill="#e8c820"/>
+
+  <!-- Right hand holding red card -->
+  <ellipse cx="365" cy="265" rx="20" ry="24" fill="#5a9a3a"/>
+  <rect x="352" y="218" width="34" height="48" fill="#cc2222" rx="3" transform="rotate(-18 369 242)"/>
+  <rect x="356" y="222" width="26" height="40" fill="#dd3333" rx="2" transform="rotate(-18 369 242)"/>
+
+  <!-- Left hand holding whistle to mouth -->
+  <ellipse cx="145" cy="235" rx="20" ry="24" fill="#5a9a3a"/>
+
+  <!-- Foreground bubbles -->
+  <circle cx="150" cy="460" r="14" fill="#7ad8f0" opacity="0.35" filter="url(#blur)"/>
+  <circle cx="380" cy="480" r="18" fill="#7ad8f0" opacity="0.3" filter="url(#blur)"/>
+  <circle cx="100" cy="380" r="8" fill="#7ad8f0" opacity="0.4"/>
+  <circle cx="420" cy="350" r="10" fill="#7ad8f0" opacity="0.35"/>
+  <circle cx="200" cy="470" r="12" fill="#7ad8f0" opacity="0.25" filter="url(#blur)"/>
+  <circle cx="320" cy="490" r="9" fill="#7ad8f0" opacity="0.3"/>
+
+  <!-- Foreground seaweed -->
+  <path d="M 0 512 Q 15 480 5 440 Q 20 400 0 360" stroke="#1a4a22" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M 512 512 Q 497 480 507 440 Q 492 400 512 360" stroke="#1a4a22" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- Floating particles -->
+  <circle cx="180" cy="100" r="2" fill="#8ae0f5" opacity="0.5"/>
+  <circle cx="340" cy="150" r="1.5" fill="#8ae0f5" opacity="0.4"/>
+  <circle cx="280" cy="80" r="2.5" fill="#8ae0f5" opacity="0.45"/>
+  <circle cx="130" cy="200" r="1.5" fill="#8ae0f5" opacity="0.35"/>
+  <circle cx="390" cy="180" r="2" fill="#8ae0f5" opacity="0.4"/>
+  <circle cx="220" cy="120" r="1" fill="#8ae0f5" opacity="0.5"/>
+  <circle cx="370" cy="240" r="1.5" fill="#8ae0f5" opacity="0.3"/>
+  <circle cx="90" cy="160" r="2" fill="#8ae0f5" opacity="0.35"/>
+</svg>

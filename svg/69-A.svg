@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4facfe"/>
+      <stop offset="100%" stop-color="#E0F6FF"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8bc34a"/>
+      <stop offset="100%" stop-color="#558b2f"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="3" stdDeviation="2" flood-color="#000" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+
+  <!-- Cereal box background -->
+  <rect width="512" height="512" fill="#f8f0d8"/>
+  <rect x="16" y="16" width="480" height="480" rx="12" fill="#fff8e7" stroke="#d4a843" stroke-width="6"/>
+  <rect x="28" y="28" width="456" height="456" rx="8" fill="none" stroke="#c49a3c" stroke-width="2"/>
+
+  <!-- Top banner -->
+  <rect x="40" y="44" width="432" height="52" rx="6" fill="#e74c3c"/>
+  <text x="256" y="82" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="32" fill="#fff" font-weight="900">BARK-O'S</text>
+
+  <!-- Sky window -->
+  <rect x="60" y="110" width="392" height="280" rx="10" fill="url(#sky)"/>
+  <!-- Sun -->
+  <circle cx="110" cy="150" r="22" fill="#f1c40f" opacity="0.9"/>
+  <circle cx="110" cy="150" r="28" fill="#f1c40f" opacity="0.3"/>
+  <!-- Clouds -->
+  <ellipse cx="360" cy="145" rx="30" ry="14" fill="#fff" opacity="0.85"/>
+  <ellipse cx="380" cy="138" rx="22" ry="12" fill="#fff" opacity="0.85"/>
+  <ellipse cx="340" cy="140" rx="18" ry="10" fill="#fff" opacity="0.85"/>
+  <ellipse cx="180" cy="130" rx="25" ry="11" fill="#fff" opacity="0.7"/>
+  <ellipse cx="195" cy="125" rx="16" ry="9" fill="#fff" opacity="0.7"/>
+
+  <!-- Ground -->
+  <ellipse cx="256" cy="360" rx="180" ry="28" fill="url(#grass)"/>
+  <ellipse cx="170" cy="372" rx="70" ry="12" fill="#689f38"/>
+  <ellipse cx="350" cy="370" rx="60" ry="10" fill="#558b2f"/>
+  <ellipse cx="256" cy="380" rx="140" ry="8" fill="#33691e" opacity="0.4"/>
+
+  <!-- Dog (walking the human) -->
+  <g filter="url(#shadow)">
+    <!-- Dog body -->
+    <ellipse cx="200" cy="285" rx="58" ry="38" fill="#d35400"/>
+    <ellipse cx="200" cy="285" rx="45" ry="28" fill="#e67e22" opacity="0.3"/>
+    <!-- Dog head -->
+    <circle cx="148" cy="255" r="34" fill="#e67e22"/>
+    <ellipse cx="132" cy="242" rx="11" ry="16" fill="#e67e22"/>
+    <ellipse cx="164" cy="242" rx="11" ry="16" fill="#e67e22"/>
+    <!-- Inner ears -->
+    <ellipse cx="132" cy="245" rx="5" ry="9" fill="#bf4e00"/>
+    <ellipse cx="164" cy="245" rx="5" ry="9" fill="#bf4e00"/>
+    <!-- Eyes with shine -->
+    <circle cx="140" cy="252" r="5" fill="#333"/>
+    <circle cx="156" cy="252" r="5" fill="#333"/>
+    <circle cx="142" cy="250" r="2" fill="#fff"/>
+    <circle cx="158" cy="250" r="2" fill="#fff"/>
+    <!-- Snout -->
+    <ellipse cx="148" cy="265" rx="10" ry="8" fill="#f5cba7"/>
+    <ellipse cx="148" cy="262" rx="5" ry="4" fill="#333"/>
+    <!-- Mouth -->
+    <path d="M 140 270 Q 148 278 156 270" stroke="#333" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <!-- Tongue -->
+    <ellipse cx="148" cy="274" rx="5" ry="3" fill="#e74c3c"/>
+    <!-- Dog legs -->
+    <rect x="172" y="310" width="14" height="42" rx="7" fill="#d35400"/>
+    <rect x="214" y="310" width="14" height="42" rx="7" fill="#d35400"/>
+    <rect x="184" y="315" width="14" height="36" rx="7" fill="#bf4e00"/>
+    <rect x="206" y="315" width="14" height="36" rx="7" fill="#bf4e00"/>
+    <!-- Paws -->
+    <ellipse cx="179" cy="353" rx="9" ry="5" fill="#e67e22"/>
+    <ellipse cx="221" cy="353" rx="9" ry="5" fill="#e67e22"/>
+    <ellipse cx="191" cy="351" rx="9" ry="5" fill="#e67e22"/>
+    <ellipse cx="213" cy="351" rx="9" ry="5" fill="#e67e22"/>
+    <!-- Tail -->
+    <path d="M 252 275 Q 285 245 278 210" stroke="#d35400" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <path d="M 278 210 Q 285 200 280 195" stroke="#d35400" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Collar -->
+    <rect x="135" y="282" width="26" height="9" rx="4" fill="#c0392b"/>
+    <circle cx="161" cy="286" r="5" fill="#f1c40f"/>
+    <!-- Leash -->
+    <path d="M 166 286 Q 220 345 288 305" stroke="#8e44ad" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M 166 286 Q 220 345 288 305" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round" stroke-dasharray="6 6" opacity="0.4"/>
+  </g>
+
+  <!-- Human on leash -->
+  <g filter="url(#shadow)">
+    <!-- Human body -->
+    <rect x="280" y="242" width="30" height="58" rx="12" fill="#3498db"/>
+    <rect x="285" y="248" width="20" height="30" rx="6" fill="#5dade2" opacity="0.4"/>
+    <!-- Human head -->
+    <circle cx="295" cy="220" r="19" fill="#f5cba7"/>
+    <!-- Hair -->
+    <path d="M 278 215 Q 295 195 312 215 Q 312 225 308 220 Q 295 205 282 220 Q 278 225 278 215" fill="#5d4037"/>
+    <!-- Eyes -->
+    <circle cx="289" cy="218" r="2.5" fill="#333"/>
+    <circle cx="301" cy="218" r="2.5" fill="#333"/>
+    <!-- Mouth (slight smile) -->
+    <path d="M 290 228 Q 295 232 300 228" stroke="#c0392b" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+    <!-- Arms -->
+    <rect x="264" y="252" width="24" height="9" rx="4" fill="#f5cba7" transform="rotate(-25 264 252)"/>
+    <rect x="306" y="252" width="24" height="9" rx="4" fill="#f5cba7" transform="rotate(15 306 252)"/>
+    <!-- Legs (walking pose) -->
+    <rect x="284" y="295" width="11" height="38" rx="5" fill="#2c3e50" transform="rotate(-8 284 295)"/>
+    <rect x="300" y="295" width="11" height="38" rx="5" fill="#2c3e50" transform="rotate(10 300 295)"/>
+    <!-- Shoes -->
+    <ellipse cx="282" cy="335" rx="10" ry="5" fill="#555"/>
+    <ellipse cx="308" cy="335" rx="10" ry="5" fill="#555"/>
+    <!-- Leash hand -->
+    <circle cx="268" cy="255" r="6" fill="#f5cba7"/>
+  </g>
+
+  <!-- Decorative cereal pieces (O's) -->
+  <circle cx="90" cy="140" r="12" fill="#f1c40f" opacity="0.9"/>
+  <circle cx="90" cy="140" r="5" fill="url(#sky)" opacity="0.9"/>
+  <circle cx="420" cy="160" r="14" fill="#f1c40f" opacity="0.9"/>
+  <circle cx="420" cy="160" r="6" fill="url(#sky)" opacity="0.9"/>
+  <circle cx="100" cy="360" r="10" fill="#f1c40f" opacity="0.9"/>
+  <circle cx="100" cy="360" r="4" fill="url(#sky)" opacity="0.9"/>
+  <circle cx="410" cy="340" r="12" fill="#f1c40f" opacity="0.9"/>
+  <circle cx="410" cy="340" r="5" fill="url(#sky)" opacity="0.9"/>
+  <circle cx="80" cy="250" r="9" fill="#f1c40f" opacity="0.7"/>
+  <circle cx="80" cy="250" r="4" fill="url(#sky)" opacity="0.7"/>
+  <circle cx="430" cy="260" r="11" fill="#f1c40f" opacity="0.7"/>
+  <circle cx="430" cy="260" r="5" fill="url(#sky)" opacity="0.7"/>
+  <circle cx="70" cy="190" r="8" fill="#f1c40f" opacity="0.5"/>
+  <circle cx="70" cy="190" r="3" fill="url(#sky)" opacity="0.5"/>
+  <circle cx="440" cy="210" r="9" fill="#f1c40f" opacity="0.5"/>
+  <circle cx="440" cy="210" r="4" fill="url(#sky)" opacity="0.5"/>
+
+  <!-- Bottom banner -->
+  <rect x="40" y="410" width="432" height="52" rx="6" fill="#f39c12"/>
+  <text x="256" y="445" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="20" fill="#fff" font-weight="900">PART OF A BALANCED WALK!</text>
+
+  <!-- Nutrition corner -->
+  <rect x="370" y="120" width="70" height="50" rx="4" fill="#fff" stroke="#ccc" stroke-width="1"/>
+  <text x="405" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#333" font-weight="bold">NUTRITION</text>
+  <text x="405" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#666">100% GOOD BOY</text>
+</svg>

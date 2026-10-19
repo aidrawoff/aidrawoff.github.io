@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#f6d9a8"/>
+  <path d="M0 365 Q120 330 240 360 T512 344 V512 H0Z" fill="#d98d62"/>
+  <path d="M0 407 Q120 380 260 410 T512 390" fill="none" stroke="#b96252" stroke-width="8" opacity=".55"/>
+  <g id="town" stroke="#553b3a" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M34 324 V190 H143 V324" fill="#efb85e"/>
+    <path d="M20 191 L88 141 L157 191Z" fill="#c75b50"/>
+    <path d="M54 251 H123 M54 286 H123" fill="none"/>
+    <path d="M367 324 V176 H475 V324" fill="#efb85e"/>
+    <path d="M350 177 L421 124 L492 177Z" fill="#c75b50"/>
+    <path d="M388 235 H454 M388 273 H454" fill="none"/>
+  </g>
+  <g id="wind" fill="none" stroke="#fff4d6" stroke-width="7" stroke-linecap="round">
+    <path d="M22 90 Q72 72 113 88"/>
+    <path d="M22 103 Q110 73 180 101 T315 83"/>
+    <path d="M298 143 Q370 120 470 146"/>
+    <path d="M38 350 Q117 326 169 347"/>
+  </g>
+  <g id="body" stroke="#553b3a" stroke-width="11" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M142 294 Q145 190 252 169 Q350 150 405 216 Q433 251 407 306 Q375 356 278 357 Q180 359 142 294Z" fill="#8f8178"/>
+    <path d="M188 324 Q161 374 106 414 Q85 429 102 448 Q119 461 142 447 L239 380" fill="#81736e"/>
+    <path d="M335 325 Q365 378 431 398 Q453 404 449 425 Q444 446 419 440 L300 378" fill="#81736e"/>
+    <path d="M135 254 Q91 259 67 286 Q51 304 65 319 Q77 330 95 317 L157 291" fill="#8f8178"/>
+    <path d="M379 239 Q436 237 466 266 Q483 282 471 298 Q458 311 441 299 L375 277" fill="#8f8178"/>
+    <path d="M164 207 Q134 181 151 151 Q164 129 188 148 L224 187" fill="#a7978a"/>
+    <path d="M337 190 Q365 154 388 174 Q405 192 383 222" fill="#a7978a"/>
+    <path d="M176 257 Q181 221 224 211 Q269 200 300 225 Q315 239 310 260 Q300 286 252 291 Q201 294 176 257Z" fill="#c2afa0"/>
+    <circle cx="220" cy="222" r="8" fill="#553b3a" stroke="none"/><circle cx="281" cy="222" r="8" fill="#553b3a" stroke="none"/>
+    <path d="M215 258 Q247 278 279 257" fill="none"/>
+    <path d="M219 272 L207 305 M277 272 L289 305" fill="none" stroke-width="8"/>
+  </g>
+  <g id="scarf" stroke="#553b3a" stroke-width="9" stroke-linejoin="round">
+    <path d="M153 247 Q244 276 353 239 L365 275 Q257 315 161 282Z" fill="#d94f43"/>
+    <path d="M350 259 Q407 299 468 284 L444 326 Q386 330 348 292Z" fill="#e7a33e"/>
+  </g>
+  <g id="mayor" stroke="#553b3a" stroke-width="9" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M218 161 L236 112 L292 112 L308 161Z" fill="#3f5961"/>
+    <path d="M207 112 Q264 91 318 112 L305 130 Q260 118 220 132Z" fill="#c75b50"/>
+    <path d="M256 112 V85" fill="none"/>
+    <path d="M256 85 Q282 89 291 75 Q263 73 256 61 Q248 76 221 75 Q232 90 256 85Z" fill="#e7a33e"/>
+    <path d="M342 190 Q402 170 442 135 Q457 122 469 136 Q479 151 462 164 L371 229" fill="#8f8178"/>
+    <path d="M450 134 L474 113 M459 148 L488 140" fill="none" stroke="#c75b50" stroke-width="7"/>
+  </g>
+  <g id="campaign" stroke="#553b3a" stroke-width="7" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M24 300 Q62 286 98 300 L90 356 Q54 344 22 360Z" fill="#fff4d6"/>
+    <path d="M34 320 Q62 309 87 318" fill="none" stroke="#d94f43" stroke-width="9"/>
+    <path d="M34 340 Q62 330 82 338" fill="none" stroke="#e7a33e" stroke-width="8"/>
+    <path d="M401 374 Q440 357 479 374 L470 432 Q434 418 398 435Z" fill="#fff4d6"/>
+    <path d="M415 395 Q441 385 467 395" fill="none" stroke="#d94f43" stroke-width="9"/>
+    <path d="M413 415 Q440 405 460 414" fill="none" stroke="#e7a33e" stroke-width="8"/>
+  </g>
+  <g id="whiskers" fill="none" stroke="#fff4d6" stroke-width="5" stroke-linecap="round">
+    <path d="M190 254 L139 242 M190 265 L132 269 M302 253 L354 239 M302 265 L362 274"/>
+  </g>
+  <g id="tusks" fill="#fff4d6" stroke="#553b3a" stroke-width="7" stroke-linejoin="round">
+    <path d="M218 276 Q215 316 232 327 Q247 313 239 278Z"/>
+    <path d="M273 278 Q269 316 286 327 Q300 311 293 274Z"/>
+  </g>
+  <g id="badge" stroke="#553b3a" stroke-width="6">
+    <circle cx="256" cy="338" r="13" fill="#e7a33e"/>
+    <path d="M249 338 L254 343 L264 332" fill="none" stroke="#fff4d6" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g id="fx" fill="#c75b50" stroke="#553b3a" stroke-width="6" stroke-linejoin="round">
+    <path d="M77 110 Q105 90 132 105 L125 132 Q101 121 82 137Z"/>
+    <path d="M399 354 Q427 335 454 350 L445 376 Q421 365 403 381Z"/>
+    <path d="M33 157 L76 146 L70 176Z"/>
+  </g>
+  <g fill="#fff4d6" stroke="#553b3a" stroke-width="6" stroke-linejoin="round">
+    <path d="M62 388 Q91 373 115 386 L101 414 Q78 404 60 420Z"/>
+    <path d="M421 87 Q449 71 478 86 L465 111 Q441 101 424 117Z"/>
+  </g>
+</svg>

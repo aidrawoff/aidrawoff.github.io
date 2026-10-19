@@ -1,0 +1,224 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Sunset Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f0524"/>
+      <stop offset="35%" stop-color="#32144a"/>
+      <stop offset="70%" stop-color="#c0392b"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+    </linearGradient>
+
+    <!-- Ocean / Beach Sand Gradient -->
+    <linearGradient id="sandGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#d35400"/>
+    </linearGradient>
+
+    <!-- Fishbowl Glass Gradients -->
+    <radialGradient id="glassSphere" cx="30%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.75"/>
+      <stop offset="30%" stop-color="#5dade2" stop-opacity="0.2"/>
+      <stop offset="75%" stop-color="#1b4f72" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0b2f4c" stop-opacity="0.85"/>
+    </radialGradient>
+
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#00ffff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#154360" stop-opacity="0.75"/>
+    </linearGradient>
+
+    <!-- Penguin Body Gradient -->
+    <linearGradient id="penguinBody" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="50%" stop-color="#1f2c38"/>
+      <stop offset="100%" stop-color="#111822"/>
+    </linearGradient>
+
+    <!-- DJ Console Gradient -->
+    <linearGradient id="consoleGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="neonGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="softShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="3" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- BACKGROUND: Beach Party Sunset -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Distant Palm Silhouettes & Huge Sunset Sun -->
+  <g opacity="0.45">
+    <path d="M25 512 L25 360 Q38 325 15 295 Q52 280 70 320 L70 512 Z" fill="#090214"/>
+    <path d="M485 512 L485 340 Q475 310 500 280 Q460 260 445 300 L445 512 Z" fill="#090214"/>
+    <circle cx="256" cy="375" r="100" fill="#f1c40f" opacity="0.5" filter="url(#neonGlow)"/>
+  </g>
+
+  <!-- Beach Sand Ground Outside -->
+  <path d="M0 440 Q256 410 512 440 L512 512 L0 512 Z" fill="url(#sandGrad)"/>
+
+  <!-- DYNAMIC PARTY LIGHT BEAMS -->
+  <polygon points="256,220 0,512 60,512" fill="#ff00ff" opacity="0.18"/>
+  <polygon points="256,220 452,512 512,512" fill="#00ffff" opacity="0.18"/>
+  <polygon points="256,220 170,512 340,512" fill="#ffff00" opacity="0.18"/>
+
+  <!-- PARTY BUNTING FLAGS ACROSS BACKGROUND -->
+  <path d="M 30 170 Q 256 250 482 170" fill="none" stroke="#e74c3c" stroke-width="2.5" opacity="0.7"/>
+  <polygon points="90,192 102,218 78,218" fill="#f1c40f"/>
+  <polygon points="150,207 162,233 138,233" fill="#2ecc71"/>
+  <polygon points="210,217 222,243 198,243" fill="#9b59b6"/>
+  <polygon points="272,217 284,243 260,243" fill="#e67e22"/>
+  <polygon points="332,207 344,233 320,233" fill="#3498db"/>
+  <polygon points="392,192 404,218 380,218" fill="#e74c3c"/>
+  <polygon points="445,180 457,205 433,205" fill="#2ecc71"/>
+
+  <!-- GIANT FISHBOWL STAND / BASE -->
+  <ellipse cx="256" cy="458" rx="120" ry="26" fill="#4a5568" opacity="0.9"/>
+  <ellipse cx="256" cy="458" rx="100" ry="16" fill="#1a202c"/>
+
+  <!-- INSIDE FISHBOWL: WATER & SAND -->
+  <g clip-path="url(#bowlClip)">
+    <clipPath id="bowlClip">
+      <circle cx="256" cy="240" r="185"/>
+    </clipPath>
+
+    <!-- Underwater Background Inside Bowl -->
+    <circle cx="256" cy="240" r="185" fill="url(#glassSphere)"/>
+    
+    <!-- Water level inside bowl -->
+    <path d="M 71 240 Q 256 195 441 240 L 441 425 Q 256 440 71 425 Z" fill="url(#waterGrad)"/>
+
+    <!-- Sand inside bowl with tropical details -->
+    <path d="M 85 375 Q 256 355 427 375 L 441 425 Q 256 440 71 425 Z" fill="#d4ac0d"/>
+    
+    <!-- Starfish & Seashell on sand -->
+    <polygon points="115,380 119,390 130,391 121,398 124,408 115,402 106,408 109,398 100,391 111,390" fill="#e74c3c" opacity="0.9"/>
+    <ellipse cx="395" cy="385" rx="7" ry="5" fill="#f39c12"/>
+    <path d="M 388 385 Q 395 375 402 385 Z" fill="#e67e22"/>
+
+    <!-- Rising Bubbles -->
+    <circle cx="155" cy="295" rx="7" ry="7" fill="#ffffff" opacity="0.7"/>
+    <circle cx="145" cy="265" rx="4.5" ry="4.5" fill="#ffffff" opacity="0.7"/>
+    <circle cx="150" cy="240" rx="3" ry="3" fill="#ffffff" opacity="0.7"/>
+    <circle cx="355" cy="280" rx="9" ry="9" fill="#ffffff" opacity="0.7"/>
+    <circle cx="368" cy="245" rx="5" ry="5" fill="#ffffff" opacity="0.7"/>
+    <circle cx="310" cy="225" rx="3" ry="3" fill="#ffffff" opacity="0.7"/>
+
+    <!-- PENGUIN DJ -->
+    <g transform="translate(256, 310)">
+      <!-- Penguin Body -->
+      <ellipse cx="0" cy="15" rx="45" ry="60" fill="url(#penguinBody)" filter="url(#softShadow)"/>
+      
+      <!-- Penguin White Belly -->
+      <ellipse cx="0" cy="20" rx="33" ry="46" fill="#ecf0f1"/>
+
+      <!-- Cute Feet -->
+      <ellipse cx="-18" cy="76" rx="13" ry="5" fill="#e67e22"/>
+      <ellipse cx="18" cy="76" rx="13" ry="5" fill="#e67e22"/>
+
+      <!-- Flippers / Arms posing on turntables with DJ gloves -->
+      <path d="M -41 -5 Q -70 20 -50 40 Q -40 30 -33 14 Z" fill="#2c3e50"/>
+      <circle cx="-50" cy="37" r="6" fill="#e74c3c"/>
+      <path d="M 41 -5 Q 70 20 50 40 Q 40 30 33 14 Z" fill="#2c3e50"/>
+      <circle cx="50" cy="37" r="6" fill="#e74c3c"/>
+
+      <!-- Penguin Head -->
+      <circle cx="0" cy="-35" r="37" fill="url(#penguinBody)"/>
+      <!-- Face White Patch -->
+      <path d="M 0 -60 C 24 -60 27 -25 0 -20 C -27 -25 -24 -60 0 -60 Z" fill="#ecf0f1"/>
+
+      <!-- Cool Sunglasses -->
+      <rect x="-26" y="-47" width="52" height="17" rx="4" fill="#111" stroke="#f1c40f" stroke-width="2"/>
+      <polygon points="-5,-41 5,-41 0,-35" fill="#f1c40f"/>
+      <path d="M -20 -40 L -10 -40" stroke="#00ffff" stroke-width="2.5" stroke-linecap="round"/>
+      <path d="M 10 -40 L 20 -40" stroke="#00ffff" stroke-width="2.5" stroke-linecap="round"/>
+
+      <!-- Orange Beak -->
+      <polygon points="0,-32 -8,-24 0,-15 8,-24" fill="#f39c12"/>
+      <path d="M -8 -24 L 0 -15 L 8 -24" fill="none" stroke="#d35400" stroke-width="1"/>
+
+      <!-- DJ HEADPHONES -->
+      <path d="M -33 -50 Q 0 -88 33 -50" fill="none" stroke="#e74c3c" stroke-width="7.5" stroke-linecap="round"/>
+      <rect x="-40" y="-50" width="13" height="20" rx="4" fill="#f1c40f"/>
+      <rect x="27" y="-50" width="13" height="20" rx="4" fill="#f1c40f"/>
+      <!-- Cord -->
+      <path d="M -34 -32 Q -40 -10 -23 20" fill="none" stroke="#e74c3c" stroke-width="2.5"/>
+    </g>
+
+    <!-- DJ TURNTABLE CONSOLE (PRO SETUP) -->
+    <g transform="translate(256, 365)">
+      <!-- Console Base -->
+      <rect x="-75" y="-18" width="150" height="36" rx="8" fill="url(#consoleGrad)" stroke="#00ffff" stroke-width="3" filter="url(#neonGlow)"/>
+      
+      <!-- Mixer & Equalizer LEDs -->
+      <rect x="-14" y="-12" width="28" height="24" rx="3" fill="#111"/>
+      <line x1="-8" y1="-6" x2="-2" y2="-6" stroke="#2ecc71" stroke-width="2"/>
+      <line x1="-8" y1="0" x2="3" y2="0" stroke="#e74c3c" stroke-width="2"/>
+      <line x1="-8" y1="6" x2="-3" y2="6" stroke="#3498db" stroke-width="2"/>
+      <circle cx="6" cy="-2" r="2" fill="#f1c40f"/>
+      <circle cx="6" cy="4" r="2" fill="#e74c3c"/>
+
+      <!-- Turntable Left (Vinyl with colored slipmat) -->
+      <circle cx="-44" cy="0" r="18" fill="#111" stroke="#bdc3c7" stroke-width="2"/>
+      <circle cx="-44" cy="0" r="14" fill="#e74c3c" opacity="0.85"/>
+      <circle cx="-44" cy="0" r="5" fill="#111"/>
+      <circle cx="-44" cy="0" r="2" fill="#ffffff"/>
+      <!-- Tonearm Left -->
+      <path d="M -66 -12 L -56 -6 L -54 3" fill="none" stroke="#fff" stroke-width="2"/>
+
+      <!-- Turntable Right (Vinyl with colored slipmat) -->
+      <circle cx="44" cy="0" r="18" fill="#111" stroke="#bdc3c7" stroke-width="2"/>
+      <circle cx="44" cy="0" r="14" fill="#3498db" opacity="0.85"/>
+      <circle cx="44" cy="0" r="5" fill="#111"/>
+      <circle cx="44" cy="0" r="2" fill="#ffffff"/>
+      <!-- Tonearm Right -->
+      <path d="M 66 -12 L 56 -6 L 54 3" fill="none" stroke="#fff" stroke-width="2"/>
+    </g>
+
+    <!-- Floating Beach Cocktail with tropical umbrella -->
+    <g transform="translate(125, 330)">
+      <path d="M -9 12 L 9 12 L 6 -6 L -6 -6 Z" fill="#e74c3c" opacity="0.9"/>
+      <path d="M -7 0 L 7 0 L 5 -14 L -5 -14 Z" fill="#f1c40f" opacity="0.95"/>
+      <!-- Cocktail Umbrella -->
+      <line x1="0" y1="-14" x2="8" y2="-28" stroke="#e67e22" stroke-width="2"/>
+      <path d="M -2 -28 Q 8 -38 18 -28 Z" fill="#ff00ff"/>
+      <path d="M 2 -28 Q 8 -35 14 -28 Z" fill="#00ffff"/>
+      <!-- Lime slice -->
+      <circle cx="-8" cy="-2" r="4" fill="#2ecc71"/>
+    </g>
+
+    <!-- Glowing Subwoofer / Speaker inside bowl -->
+    <g transform="translate(380, 345)">
+      <circle cx="0" cy="0" r="17" fill="#111" stroke="#ff00ff" stroke-width="2.5" filter="url(#neonGlow)"/>
+      <circle cx="0" cy="0" r="11" fill="#222"/>
+      <circle cx="0" cy="0" r="4.5" fill="#ff00ff"/>
+    </g>
+  </g>
+
+  <!-- GIANT FISHBOWL GLASS HIGHLIGHTS & OUTLINE (drawn on top of everything) -->
+  <circle cx="256" cy="240" r="185" fill="none" stroke="#ffffff" stroke-width="5" opacity="0.9"/>
+  <!-- Major Glass Glare Arcs -->
+  <path d="M 115 130 Q 185 85 255 100" fill="none" stroke="#ffffff" stroke-width="13" stroke-linecap="round" opacity="0.65"/>
+  <path d="M 350 320 Q 385 370 365 405" fill="none" stroke="#ffffff" stroke-width="6.5" stroke-linecap="round" opacity="0.4"/>
+  <!-- Bottom reflection -->
+  <ellipse cx="256" cy="395" rx="135" ry="14" fill="#ffffff" opacity="0.2"/>
+
+  <!-- Foreground Party Bokeh / Glow Orbs -->
+  <circle cx="65" cy="110" r="15" fill="#ff00ff" opacity="0.55" filter="url(#neonGlow)"/>
+  <circle cx="445" cy="90" r="19" fill="#00ffff" opacity="0.55" filter="url(#neonGlow)"/>
+  <circle cx="465" cy="435" r="10" fill="#f1c40f" opacity="0.65" filter="url(#neonGlow)"/>
+  <circle cx="45" cy="455" r="13" fill="#e74c3c" opacity="0.65" filter="url(#neonGlow)"/>
+
+  <!-- Floating Music Notes -->
+  <text x="85" y="185" font-size="32" fill="#ffffff" opacity="0.85" font-family="Arial" filter="url(#neonGlow)">♪</text>
+  <text x="410" y="165" font-size="40" fill="#00ffff" opacity="0.85" font-family="Arial" filter="url(#neonGlow)">♫</text>
+  <text x="315" y="90" font-size="28" fill="#ff00ff" opacity="0.85" font-family="Arial" filter="url(#neonGlow)">♪</text>
+  <text x="170" y="120" font-size="24" fill="#f1c40f" opacity="0.85" font-family="Arial">♫</text>
+</svg>

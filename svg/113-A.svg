@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Dark background -->
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  
+  <!-- Soft ambient glow (toy store light) -->
+  <circle cx="256" cy="256" r="192" fill="#ff00ff" fill-opacity="0.08"/>
+  
+  <!-- Toy store shelf (simple shelf shape) -->
+  <rect x="64" y="384" width="384" height="32" fill="#3a3a5a" stroke="#5a5a7a" stroke-width="2"/>
+  
+  <!-- Bee body (main oval) -->
+  <ellipse cx="256" cy="312" rx="48" ry="32" fill="#ffcc00"/>
+  
+  <!-- Bee stripes (horizontal bands) -->
+  <rect x="208" y="296" width="96" height="8" fill="#000000"/>
+  <rect x="208" y="320" width="96" height="8" fill="#000000"/>
+  
+  <!-- Bee wings (semi-transparent) -->
+  <ellipse cx="224" cy="280" rx="24" ry="8" fill="#ffffff" fill-opacity="0.7"/>
+  <ellipse cx="288" cy="280" rx="24" ry="8" fill="#ffffff" fill-opacity="0.7"/>
+  <ellipse cx="224" cy="344" rx="24" ry="8" fill="#ffffff" fill-opacity="0.7"/>
+  <ellipse cx="288" cy="344" rx="24" ry="8" fill="#ffffff" fill-opacity="0.7"/>
+  
+  <!-- Bee head (small circle) -->
+  <circle cx="256" cy="256" r="16" fill="#000000"/>
+  
+  <!-- Bee antennae -->
+  <path d="M256 240 L248 224" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M256 240 L264 224" stroke="#000000" stroke-width="2" fill="none"/>
+  
+  <!-- Toy store items (simple shapes) -->
+  <rect x="128" y="320" width="32" height="32" fill="#ff5555" rx="4"/>
+  <rect x="184" y="320" width="32" height="32" fill="#55ff55" rx="4"/>
+  <rect x="240" y="320" width="32" height="32" fill="#5555ff" rx="4"/>
+  <rect x="296" y="320" width="32" height="32" fill="#ffff55" rx="4"/>
+  <rect x="352" y="320" width="32" height="32" fill="#ff55ff" rx="4"/>
+</svg>

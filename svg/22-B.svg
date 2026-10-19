@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#18264f"/><stop offset="1" stop-color="#f29b72"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#47536b"/><stop offset="1" stop-color="#1d2638"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#fff3b0"/><stop offset="1" stop-color="#f2a15c"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="392" cy="137" r="58" fill="#ffd889" opacity=".35" filter="url(#glow)"/><circle cx="392" cy="137" r="32" fill="url(#sun)"/>
+<path d="M0 286 Q65 242 130 276 T255 265 T385 274 T512 247 V344 H0Z" fill="#263457"/>
+<path d="M0 320 Q77 291 147 320 T290 312 T430 324 T512 300 V382 H0Z" fill="#334d55"/>
+<path d="M0 512 L188 352 Q246 331 306 350 L512 512Z" fill="url(#road)"/>
+<path d="M244 512 Q248 421 254 365" stroke="#f8d67d" stroke-width="9" stroke-dasharray="28 22" fill="none"/>
+<path d="M72 390 Q117 369 165 380 M360 374 Q410 357 474 369" stroke="#9ed0bd" stroke-width="6" fill="none"/>
+<g fill="#142438"><path d="M45 344 l18-67 18 67z"/><path d="M92 351 l22-82 22 82z"/><path d="M443 352 l20-77 20 77z"/><path d="M480 350 l15-60 15 60z"/></g>
+<!-- car -->
+<g stroke="#101827" stroke-width="6" stroke-linejoin="round">
+ <path d="M100 397 Q111 364 145 358 L201 357 Q231 361 246 391 L249 420 L99 420Z" fill="#d95c5b"/>
+ <path d="M139 361 L158 334 Q169 324 190 329 L216 360Z" fill="#6cc6d1"/>
+ <circle cx="132" cy="420" r="19" fill="#182334"/><circle cx="222" cy="420" r="19" fill="#182334"/>
+ <path d="M104 388 H245" stroke="#f4b05f"/>
+</g>
+<!-- alien -->
+<g stroke="#16263b" stroke-width="7" stroke-linejoin="round">
+ <path d="M307 287 Q308 225 350 205 Q392 190 424 221 Q447 249 433 302 L426 358 Q414 383 365 383 Q319 378 304 351Z" fill="#79d6a4"/>
+ <path d="M328 238 Q343 184 386 180 Q426 184 435 236 Q420 260 383 264 Q344 258 328 238Z" fill="#8ce5b1"/>
+ <ellipse cx="354" cy="229" rx="12" ry="20" fill="#202d58"/><ellipse cx="407" cy="229" rx="12" ry="20" fill="#202d58"/>
+ <path d="M357 276 Q382 292 407 273" fill="none" stroke="#244652"/>
+ <path d="M313 294 Q278 285 249 262 Q238 254 230 265 Q264 311 316 321Z" fill="#79d6a4"/>
+ <path d="M428 294 Q460 281 474 252" fill="none"/>
+ <path d="M332 349 L323 414 M413 350 L423 414" fill="none"/>
+ <path d="M312 416 Q328 408 342 416 M410 416 Q426 408 440 416" fill="none"/>
+</g>
+<!-- scarf -->
+<path d="M318 282 Q374 305 432 278 L426 307 Q372 331 320 307Z" fill="#f05f68" stroke="#18243a" stroke-width="6"/>
+<path d="M424 294 Q463 304 482 341 L450 333 L437 365 L416 321Z" fill="#f05f68" stroke="#18243a" stroke-width="6"/>
+<path d="M445 319 l20 8 M434 339 l19 8" stroke="#ffd36b" stroke-width="5"/>
+<path d="M418 321 l7 13 M426 319 l8 12 M434 316 l9 10" stroke="#ffd36b" stroke-width="4"/>
+<path d="M105 395 l15 -5 M230 395 l12 4" stroke="#fff4b0" stroke-width="7" stroke-linecap="round"/>
+<path d="M18 509 L187 365 M494 509 L316 365" stroke="#9ad1c3" stroke-width="3" opacity=".7"/>
+<path d="M52 421 Q67 409 82 421 M458 423 Q474 410 490 423" stroke="#f6cf76" stroke-width="5" fill="none"/>
+<!-- cosmic road-trip details -->
+<g fill="#f9e9b0"><circle cx="50" cy="82" r="3"/><circle cx="90" cy="126" r="2"/><circle cx="166" cy="72" r="3"/><circle cx="278" cy="64" r="2"/><circle cx="470" cy="91" r="3"/><circle cx="445" cy="166" r="2"/></g>
+<path d="M365 183 Q371 161 383 151" fill="none" stroke="#18263b" stroke-width="5"/>
+<circle cx="385" cy="149" r="7" fill="#f7d568" stroke="#18263b" stroke-width="4"/>
+<path d="M150 334 Q169 314 194 320" fill="none" stroke="#f7d568" stroke-width="4"/>
+</svg>

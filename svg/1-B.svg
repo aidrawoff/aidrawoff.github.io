@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+ <defs>
+  <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#16083d"/><stop offset="1" stop-color="#071b43"/></linearGradient>
+  <linearGradient id="fur" x2="0" y2="1"><stop stop-color="#c9783e"/><stop offset="1" stop-color="#8b452b"/></linearGradient>
+  <linearGradient id="scarf" x2="1" y2="1"><stop stop-color="#ffdf39"/><stop offset="1" stop-color="#ff3e93"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+ </defs>
+ <rect width="512" height="512" fill="url(#bg)"/>
+ <circle cx="256" cy="220" r="170" fill="#241064" stroke="#ff3cac" stroke-width="3" opacity=".75"/>
+ <path d="M0 388 Q80 350 160 388 T320 388 T512 380 V512 H0Z" fill="#090d2c"/>
+ <g fill="none" stroke="#39f5ff" stroke-width="5" opacity=".8" filter="url(#glow)">
+   <path d="M34 90V300 M64 65V280 M448 70V290 M478 95V305"/>
+   <path d="M20 330 Q95 295 170 330 M342 330 Q425 292 492 322"/>
+ </g>
+ <g fill="#ffdf39" opacity=".95">
+   <circle cx="70" cy="120" r="5"/><circle cx="445" cy="140" r="6"/><circle cx="98" cy="262" r="4"/><circle cx="414" cy="270" r="4"/>
+ </g>
+ <text x="256" y="72" text-anchor="middle" font-family="sans-serif" font-weight="900" font-size="27" letter-spacing="5" fill="#fff27a" stroke="#ff4fa8" stroke-width="2">KARATE GROOVE</text>
+ <!-- scarf -->
+ <path d="M173 174 Q110 127 45 170 Q104 182 132 219 Q75 220 35 266 Q120 260 187 220Z" fill="url(#scarf)" stroke="#ffed58" stroke-width="5"/>
+ <path d="M78 166 Q112 175 143 207 M82 246 Q127 237 166 211" fill="none" stroke="#fff" stroke-width="4" opacity=".75"/>
+ <!-- capybara body -->
+ <ellipse cx="257" cy="292" rx="119" ry="91" fill="url(#fur)" stroke="#4a211d" stroke-width="7"/>
+ <ellipse cx="181" cy="218" rx="72" ry="62" fill="url(#fur)" stroke="#4a211d" stroke-width="7"/>
+ <ellipse cx="157" cy="222" rx="45" ry="31" fill="#b96538" stroke="#4a211d" stroke-width="6"/>
+ <circle cx="149" cy="201" r="7" fill="#171024"/>
+ <ellipse cx="163" cy="235" rx="9" ry="6" fill="#321528"/>
+ <path d="M116 180 Q102 161 118 151 Q133 160 136 180 M182 174 Q187 150 205 157 Q210 173 195 185" fill="#9a4e32" stroke="#4a211d" stroke-width="6"/>
+ <path d="M216 267 Q250 284 285 267" fill="none" stroke="#5d2a25" stroke-width="7" stroke-linecap="round"/>
+ <!-- scarf around neck -->
+ <path d="M178 248 Q241 278 307 239 L322 264 Q247 311 178 276Z" fill="url(#scarf)" stroke="#ffef6a" stroke-width="5"/>
+ <!-- grounded leg -->
+ <path d="M236 346 Q213 387 222 430 L194 455 L245 455 L267 420 L282 352Z" fill="#9a4e30" stroke="#4a211d" stroke-width="7"/>
+ <path d="M282 349 Q287 393 315 426 L354 435 L344 462 L299 453 L258 404 L250 354Z" fill="#a95731" stroke="#4a211d" stroke-width="7"/>
+ <!-- kicking leg -->
+ <path d="M311 282 Q353 249 382 205 L414 221 Q394 277 346 326Z" fill="#b86537" stroke="#4a211d" stroke-width="7"/>
+ <path d="M382 205 L427 170 Q443 160 455 174 L437 202 L414 221Z" fill="#c9793d" stroke="#4a211d" stroke-width="7"/>
+ <path d="M427 171 l23 -22 M439 189 l29 -10" stroke="#ffdf39" stroke-width="7" stroke-linecap="round"/>
+ <!-- arms karate pose -->
+ <path d="M208 267 Q160 263 128 294 L104 279 Q143 235 205 240Z" fill="#ae5d35" stroke="#4a211d" stroke-width="7"/>
+ <path d="M307 263 Q347 229 380 246 L367 270 Q342 261 319 290Z" fill="#ae5d35" stroke="#4a211d" stroke-width="7"/>
+ <circle cx="106" cy="286" r="16" fill="#c9793d" stroke="#4a211d" stroke-width="6"/>
+ <path d="M96 276 l-13 -12 M106 272 l-3 -17 M116 276 l8 -14" stroke="#c9793d" stroke-width="7" stroke-linecap="round"/>
+ <!-- motion marks -->
+ <g fill="none" stroke="#ff4fa8" stroke-width="7" stroke-linecap="round" filter="url(#glow)"><path d="M350 174 l45 -22"/><path d="M365 187 l52 -4"/><path d="M126 326 l-42 25"/><path d="M136 341 l-34 38"/></g>
+ <g fill="#39f5ff"><circle cx="57" cy="407" r="4"/><circle cx="86" cy="430" r="6"/><circle cx="435" cy="404" r="5"/><circle cx="468" cy="433" r="3"/></g>
+ <path d="M70 477 H442" stroke="#ff3cac" stroke-width="6" opacity=".8"/>
+ <!-- punchy stage details -->
+ <path d="M454 120 l7 16 17 3-13 11 3 17-14-9-15 8 4-17-12-11 17-2Z" fill="#fff25c" stroke="#ff4fa8" stroke-width="3" filter="url(#glow)"/>
+ <path d="M146 198 q5 -5 10 0" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <path d="M134 225 q-13 5 -23 2 M137 230 q-13 10 -21 10" stroke="#e9a46a" stroke-width="3" fill="none" stroke-linecap="round"/>
+ <g stroke="#ffdf39" stroke-width="4" stroke-linecap="round" opacity=".9"><path d="M43 448 l20 8"/><path d="M449 452 l20 -6"/><path d="M60 373 l-19 -8"/><path d="M454 351 l19 -9"/></g>
+ <text x="402" y="116" font-family="sans-serif" font-weight="900" font-size="18" fill="#39f5ff" transform="rotate(-12 402 116)">HI-YAH!</text>
+ <path d="M205 267 Q252 289 303 258" fill="none" stroke="#fff" stroke-width="3" opacity=".65"/>
+ <g fill="#ffdf39" font-family="sans-serif" font-weight="900" font-size="22"><text x="32" y="418">♪</text><text x="464" y="389">♫</text></g>
+</svg>

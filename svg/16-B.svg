@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0814"/>
+      <stop offset="50%" stop-color="#150f28"/>
+      <stop offset="100%" stop-color="#241436"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+    <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="20" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Deep glowing background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Magical glowing ambient stars/sparkles for Grandma Rose's cozy heart -->
+  <circle cx="80" cy="110" r="3" fill="#ff79c6" filter="url(#glow)"/>
+  <circle cx="430" cy="90" r="4" fill="#8be9fd" filter="url(#glow)"/>
+  <circle cx="470" cy="240" r="2.5" fill="#50fa7b" filter="url(#glow)"/>
+  <circle cx="50" cy="280" r="3" fill="#ffb86c" filter="url(#glow)"/>
+
+  <!-- Cozy glowing window behind -->
+  <rect x="160" y="45" width="192" height="150" rx="20" fill="#ff79c6" opacity="0.12" filter="url(#softGlow)" />
+  <rect x="160" y="45" width="192" height="150" rx="20" fill="none" stroke="#ff79c6" stroke-width="2.5" filter="url(#glow)"/>
+  <line x1="256" y1="45" x2="256" y2="195" stroke="#ff79c6" stroke-width="1.5" opacity="0.6" filter="url(#glow)"/>
+  <line x1="160" y1="120" x2="352" y2="120" stroke="#ff79c6" stroke-width="1.5" opacity="0.6" filter="url(#glow)"/>
+
+  <!-- Warm hanging glowing fairy lights -->
+  <path d="M 30 40 Q 256 120 482 40" fill="none" stroke="#ffb86c" stroke-width="2" opacity="0.75" filter="url(#glow)"/>
+  <circle cx="110" cy="68" r="5" fill="#ffb86c" filter="url(#glow)"/>
+  <circle cx="200" cy="92" r="5" fill="#50fa7b" filter="url(#glow)"/>
+  <circle cx="312" cy="92" r="5" fill="#8be9fd" filter="url(#glow)"/>
+  <circle cx="402" cy="68" r="5" fill="#ff79c6" filter="url(#glow)"/>
+
+  <!-- Office Desk (Rich glowing wood & neon trim) -->
+  <path d="M 70 400 L 442 400 L 472 480 L 40 480 Z" fill="#282a36" stroke="#bd93f9" stroke-width="3" filter="url(#glow)"/>
+  <rect x="90" y="415" width="332" height="12" fill="#50fa7b" opacity="0.35" filter="url(#glow)"/>
+
+  <!-- Desk Lamp casting warm cyan glow -->
+  <path d="M 400 400 L 408 290 L 388 270 L 378 400 Z" fill="#44475a"/>
+  <path d="M 378 270 Q 398 220 418 270 Z" fill="#8be9fd" filter="url(#glow)"/>
+  <circle cx="398" cy="275" r="18" fill="#8be9fd" filter="url(#softGlow)"/>
+
+  <!-- Interviewer (Friendly HR Manager with glowing badge & glasses) -->
+  <path d="M 400 400 C 400 330 480 330 480 400 Z" fill="#44475a" stroke="#ff79c6" stroke-width="2.5" filter="url(#glow)"/>
+  <circle cx="440" cy="280" r="28" fill="#44475a" stroke="#ffb86c" stroke-width="2.5" filter="url(#glow)"/>
+  <!-- Glowing spectacles -->
+  <rect x="425" y="270" width="11" height="7" rx="1.5" fill="none" stroke="#50fa7b" stroke-width="2" filter="url(#glow)"/>
+  <rect x="442" y="270" width="11" height="7" rx="1.5" fill="none" stroke="#50fa7b" stroke-width="2" filter="url(#glow)"/>
+  <line x1="436" y1="273" x2="442" y2="273" stroke="#50fa7b" stroke-width="2"/>
+  <!-- Warm smile -->
+  <path d="M 433 292 Q 440 298 447 292" fill="none" stroke="#ffb86c" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Dinosaur Candidate (T-Rex in a snazzy glowing orange tie, smiling eagerly) -->
+  <!-- Long tail draping off back -->
+  <path d="M 130 410 Q 60 430 50 380 Q 40 330 80 350 Q 100 360 120 395" fill="none" stroke="#50fa7b" stroke-width="16" stroke-linecap="round" filter="url(#glow)"/>
+  
+  <!-- Massive glowing green body -->
+  <path d="M 110 415 Q 80 330 130 280 Q 180 230 220 290 Q 250 340 230 415 Z" fill="#50fa7b" filter="url(#glow)" opacity="0.95"/>
+  <path d="M 135 350 Q 155 370 145 395" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.4" filter="url(#glow)"/>
+  <path d="M 155 335 Q 175 355 165 385" fill="none" stroke="#fff" stroke-width="4" stroke-linecap="round" opacity="0.4" filter="url(#glow)"/>
+
+  <!-- Dinosaur Head -->
+  <path d="M 200 245 Q 245 195 285 225 Q 305 245 275 265 Q 245 285 215 255 Z" fill="#50fa7b" filter="url(#glow)"/>
+  
+  <!-- Big Friendly Eye -->
+  <circle cx="250" cy="225" r="9" fill="#8be9fd" filter="url(#glow)"/>
+  <circle cx="252" cy="223" r="3.5" fill="#fff" />
+
+  <!-- Open happy mouth -->
+  <path d="M 245 250 Q 270 250 280 260 Q 265 270 245 260 Z" fill="#150f28" filter="url(#glow)"/>
+  <path d="M 260 255 Q 270 255 275 258" fill="none" stroke="#ff79c6" stroke-width="2" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Tiny T-Rex Arms holding resume clip nervously -->
+  <path d="M 180 295 Q 160 315 175 330" fill="none" stroke="#50fa7b" stroke-width="9" stroke-linecap="round" filter="url(#glow)"/>
+  <path d="M 200 300 Q 190 330 205 335" fill="none" stroke="#50fa7b" stroke-width="9" stroke-linecap="round" filter="url(#glow)"/>
+
+  <!-- Glowing Orange/Pink Necktie -->
+  <polygon points="208,255 222,255 218,300 212,300" fill="#ffb86c" filter="url(#glow)"/>
+  <polygon points="212,300 218,300 224,325 206,325" fill="#ff79c6" filter="url(#glow)"/>
+
+  <!-- Glowing Resume on Desk -->
+  <rect x="140" y="405" width="55" height="45" rx="4" fill="#f8f8f2" stroke="#ff79c6" stroke-width="2.5" filter="url(#glow)"/>
+  <line x1="152" y1="418" x2="182" y2="418" stroke="#6272a4" stroke-width="3"/>
+  <line x1="152" y1="428" x2="175" y2="428" stroke="#6272a4" stroke-width="3"/>
+  <line x1="152" y1="438" x2="170" y2="438" stroke="#6272a4" stroke-width="3"/>
+  <!-- Gold star sticker on resume -->
+  <circle cx="175" cy="415" r="4" fill="#ffb86c" filter="url(#glow)"/>
+
+  <!-- Glowing Coffee Mug with Heart Steam -->
+  <rect x="225" y="410" width="28" height="34" rx="4" fill="#8be9fd" filter="url(#glow)"/>
+  <path d="M 253 420 Q 263 420 263 430 Q 263 440 253 440" fill="none" stroke="#8be9fd" stroke-width="3.5" filter="url(#glow)"/>
+  <!-- Heart-shaped steam puffs -->
+  <path d="M 234 395 Q 239 387 244 395 Q 239 403 234 395 Z" fill="#ff79c6" filter="url(#glow)"/>
+  <path d="M 244 380 Q 248 373 252 380 Q 248 387 244 380 Z" fill="#ffb86c" filter="url(#glow)"/>
+
+  <!-- Glowing Title at Top -->
+  <text x="256" y="80" text-anchor="middle" fill="#ff79c6" font-family="sans-serif" font-weight="bold" font-size="22" letter-spacing="4" filter="url(#glow)">JOB INTERVIEW</text>
+</svg>

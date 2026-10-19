@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="58%" r="55%">
+      <stop offset="0%" stop-color="#ffc35a"/>
+      <stop offset="40%" stop-color="#8a4316"/>
+      <stop offset="100%" stop-color="#1a0d08"/>
+    </radialGradient>
+    <radialGradient id="iron" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#63686f"/>
+      <stop offset="100%" stop-color="#121417"/>
+    </radialGradient>
+  </defs>
+  <!-- background glow -->
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <!-- ground shadow -->
+  <ellipse cx="256" cy="478" rx="180" ry="20" fill="#000" opacity="0.6"/>
+  <g transform="translate(256 256) rotate(-4) scale(1.12) translate(-256 -256)">
+    <!-- legs -->
+    <path d="M148 380 L124 466 L146 466 L172 388 Z" fill="#14161a"/>
+    <path d="M364 380 L388 466 L366 466 L340 388 Z" fill="#14161a"/>
+    <!-- body -->
+    <path d="M118 206 C104 318 126 404 256 408 C386 404 408 318 394 206 Z" fill="url(#iron)"/>
+    <!-- rim -->
+    <ellipse cx="256" cy="206" rx="138" ry="26" fill="#2a2e34"/>
+    <ellipse cx="256" cy="202" rx="118" ry="18" fill="#0d0f12"/>
+    <!-- brew surface -->
+    <ellipse cx="256" cy="204" rx="110" ry="12" fill="#3b5b2a"/>
+    <!-- nightcap, tilted, with a pom-pom -->
+    <path d="M150 198 C160 110 250 56 336 96 L368 150 L346 158 C322 118 262 100 222 196 Z" fill="#4a2a7a"/>
+    <path d="M346 158 Q336 110 300 100" fill="none" stroke="#2b1650" stroke-width="5" opacity="0.6"/>
+    <circle cx="368" cy="150" r="14" fill="#ffe4b5"/>
+    <path d="M140 200 Q250 222 362 196" fill="none" stroke="#ffe4b5" stroke-width="9" stroke-linecap="round"/>
+    <!-- sleepy closed eyes -->
+    <path d="M186 300 Q208 318 230 300" fill="none" stroke="#ffb347" stroke-width="6" stroke-linecap="round"/>
+    <path d="M282 300 Q304 318 326 300" fill="none" stroke="#ffb347" stroke-width="6" stroke-linecap="round"/>
+    <!-- heavy brows -->
+    <path d="M180 282 L232 292" stroke="#0d0f12" stroke-width="7" stroke-linecap="round"/>
+    <path d="M332 292 L280 282" stroke="#0d0f12" stroke-width="7" stroke-linecap="round"/>
+    <!-- snore mouth -->
+    <ellipse cx="256" cy="354" rx="14" ry="10" fill="#0d0f12"/>
+    <!-- rim light -->
+    <path d="M144 262 C134 322 146 372 188 394" fill="none" stroke="#ffb347" stroke-width="4" opacity="0.7"/>
+  </g>
+  <!-- embers under the pot -->
+  <ellipse cx="256" cy="452" rx="130" ry="22" fill="#ff8c2a" opacity="0.18"/>
+  <circle cx="110" cy="330" r="3" fill="#ffd27a"/>
+  <circle cx="92" cy="260" r="2" fill="#ffd27a"/>
+  <circle cx="420" cy="300" r="3" fill="#ffd27a"/>
+  <circle cx="440" cy="230" r="2" fill="#ffd27a"/>
+  <!-- zzz -->
+  <text x="384" y="150" font-family="sans-serif" font-size="48" font-weight="bold" fill="#ffe4b5" transform="rotate(-12 384 150)">z</text>
+  <text x="420" y="104" font-family="sans-serif" font-size="62" font-weight="bold" fill="#ffe4b5" transform="rotate(-12 420 104)">Z</text>
+  <!-- steam wisps -->
+  <path d="M196 150 C176 118 216 92 192 56" fill="none" stroke="#e8e0d0" stroke-width="8" stroke-linecap="round" opacity="0.5"/>
+  <path d="M250 146 C230 110 270 84 250 40" fill="none" stroke="#e8e0d0" stroke-width="8" stroke-linecap="round" opacity="0.4"/>
+</svg>

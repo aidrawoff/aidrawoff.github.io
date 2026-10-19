@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#101a3c"/><stop offset="1" stop-color="#354b78"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff4bf" stop-opacity=".9"/><stop offset="1" stop-color="#ffd76a" stop-opacity="0"/></radialGradient>
+ <linearGradient id="ghost" x2="0" y2="1"><stop stop-color="#fffdf1"/><stop offset="1" stop-color="#c7d8ed"/></linearGradient>
+ </defs>
+ <rect width="512" height="512" fill="url(#sky)"/>
+ <circle cx="390" cy="100" r="74" fill="#dbeaff" opacity=".2"/><circle cx="390" cy="100" r="51" fill="#f5f1d0" opacity=".9"/>
+ <path d="M0 365 Q90 330 175 366T350 355T512 340V512H0Z" fill="#172342"/>
+ <path d="M0 418 Q100 382 205 421T390 405T512 416V512H0Z" fill="#0b142d"/>
+ <ellipse cx="245" cy="220" rx="170" ry="150" fill="url(#glow)" opacity=".35"/>
+ <!-- rain -->
+ <g stroke="#89bde5" stroke-width="3" opacity=".55">
+  <path d="M40 40l-24 58M95 10L70 70M150 45l-22 57M210 5l-26 65M270 35l-23 62M330 10l-24 62M460 20l-24 62M500 95l-25 60M72 170l-23 60M140 145l-22 58M450 180l-22 59M495 250l-24 59"/>
+ </g>
+ <path d="M414 154 L395 190 L410 187 L394 220" fill="none" stroke="#ffe58a" stroke-width="7" stroke-linejoin="round" opacity=".9"/>
+ <!-- umbrella --> <path d="M99 290 Q165 228 231 290 Q165 274 99 290Z" fill="#d95773" stroke="#351c43" stroke-width="6"/><path d="M165 288v92q0 24 18 24" fill="none" stroke="#351c43" stroke-width="6"/>
+ <!-- ghost body -->
+ <path d="M158 365 L158 195 Q158 112 239 108 Q321 110 321 195 L321 365 Q303 344 285 365 Q266 388 247 365 Q227 343 209 365 Q190 388 174 365 Q165 357 158 365Z" fill="url(#ghost)" stroke="#536b9a" stroke-width="7"/>
+ <path d="M177 199 Q201 160 239 160 Q278 160 302 199" fill="none" stroke="#ffffff" stroke-width="9" opacity=".7"/>
+ <!-- nervous face -->
+ <ellipse cx="207" cy="218" rx="13" ry="19" fill="#1c2346"/><ellipse cx="272" cy="218" rx="13" ry="19" fill="#1c2346"/><circle cx="210" cy="213" r="4" fill="white"/><circle cx="275" cy="213" r="4" fill="white"/>
+ <path d="M225 253 Q239 264 253 253" fill="none" stroke="#1c2346" stroke-width="7" stroke-linecap="round"/>
+ <path d="M185 244 Q178 256 185 266 M294 244 Q301 256 294 266" fill="none" stroke="#8db5d2" stroke-width="5" stroke-linecap="round"/>
+ <path d="M305 231 q13 13 0 26 q-13 -13 0 -26Z" fill="#9cdaf0" stroke="#557ca8" stroke-width="3"/>
+ <path d="M187 193l-18-10M290 193l18-10" stroke="#536b9a" stroke-width="6" stroke-linecap="round"/>
+ <!-- arms --> <path d="M164 270 Q126 274 119 316 Q116 331 102 326" fill="none" stroke="#d7e6f2" stroke-width="18" stroke-linecap="round"/><path d="M314 270 Q352 276 361 314" fill="none" stroke="#d7e6f2" stroke-width="18" stroke-linecap="round"/>
+ <circle cx="102" cy="326" r="8" fill="#fffdf1"/><circle cx="362" cy="315" r="8" fill="#fffdf1"/>
+ <!-- puddle and reflected glow --> <ellipse cx="244" cy="438" rx="145" ry="23" fill="#557fa6" opacity=".55"/><ellipse cx="244" cy="438" rx="80" ry="10" fill="#d8efff" opacity=".45"/>
+ <g fill="#d5efff" opacity=".7"><circle cx="83" cy="405" r="3"/><circle cx="405" cy="372" r="4"/><circle cx="430" cy="450" r="3"/><circle cx="120" cy="466" r="4"/></g>
+ <text x="256" y="484" text-anchor="middle" fill="#b8d1ef" font-family="sans-serif" font-size="14" letter-spacing="4">UH-OH, THUNDER</text>
+</svg>

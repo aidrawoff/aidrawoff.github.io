@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#1d2b5a"/>
+      <stop offset="1" stop-color="#070b1c"/>
+    </radialGradient>
+    <radialGradient id="moonG" cx="40%" cy="35%" r="70%">
+      <stop offset="0" stop-color="#f6f1de"/>
+      <stop offset="1" stop-color="#c9c2a8"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- stars -->
+  <g fill="#fff">
+    <circle cx="40" cy="60" r="2"/><circle cx="110" cy="30" r="1.5"/><circle cx="180" cy="95" r="2"/>
+    <circle cx="300" cy="25" r="1.5"/><circle cx="90" cy="150" r="1.5"/><circle cx="470" cy="200" r="2"/>
+    <circle cx="30" cy="260" r="1.5"/><circle cx="480" cy="330" r="1.5"/><circle cx="60" cy="420" r="2"/>
+    <circle cx="460" cy="470" r="1.5"/><circle cx="150" cy="480" r="2"/><circle cx="330" cy="490" r="1.5"/>
+  </g>
+  <!-- Earth -->
+  <circle cx="420" cy="80" r="36" fill="#3a7bd5"/>
+  <path d="M400 62 q14 -6 22 6 q-4 12 -14 10 q-10 2 -8 -16z M418 92 q12 -4 16 8 q-6 10 -14 4z" fill="#4caf50"/>
+  <circle cx="420" cy="80" r="36" fill="none" stroke="#9ed3ff" stroke-width="2" opacity="0.6"/>
+  <!-- Moon -->
+  <circle cx="256" cy="340" r="160" fill="url(#moonG)"/>
+  <g fill="#b8b09a" opacity="0.8">
+    <circle cx="200" cy="270" r="22"/><circle cx="300" cy="300" r="14"/>
+    <circle cx="170" cy="370" r="18"/><circle cx="330" cy="390" r="26"/>
+    <circle cx="260" cy="430" r="12"/><circle cx="380" cy="300" r="9"/>
+    <circle cx="140" cy="440" r="10"/>
+  </g>
+  <!-- footprints -->
+  <g fill="#aaa28c">
+    <ellipse cx="228" cy="236" rx="5" ry="3"/><ellipse cx="240" cy="230" rx="5" ry="3"/>
+    <ellipse cx="252" cy="226" rx="5" ry="3"/>
+  </g>
+  <!-- Rabbit in space helmet -->
+  <!-- ears -->
+  <ellipse cx="240" cy="40" rx="11" ry="36" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <ellipse cx="272" cy="40" rx="11" ry="36" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <ellipse cx="240" cy="42" rx="5" ry="25" fill="#ffb6c1"/>
+  <ellipse cx="272" cy="42" rx="5" ry="25" fill="#ffb6c1"/>
+  <!-- body -->
+  <ellipse cx="256" cy="155" rx="46" ry="54" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <!-- suit chest panel -->
+  <rect x="236" y="140" width="40" height="22" rx="5" fill="#e53935" stroke="#333" stroke-width="2"/>
+  <circle cx="246" cy="151" r="3" fill="#ffeb3b"/><circle cx="256" cy="151" r="3" fill="#8bc34a"/><circle cx="266" cy="151" r="3" fill="#4fc3f7"/>
+  <!-- haunches -->
+  <ellipse cx="222" cy="194" rx="22" ry="14" fill="#f2f2f2" stroke="#333" stroke-width="2"/>
+  <ellipse cx="290" cy="194" rx="22" ry="14" fill="#f2f2f2" stroke="#333" stroke-width="2"/>
+  <!-- arm holding flag -->
+  <path d="M296 130 Q318 118 322 92" fill="none" stroke="#333" stroke-width="10" stroke-linecap="round"/>
+  <path d="M296 130 Q318 118 322 92" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>
+  <line x1="322" y1="92" x2="322" y2="40" stroke="#555" stroke-width="3"/>
+  <path d="M322 42 L360 52 L322 64z" fill="#ff7043" stroke="#333" stroke-width="1.5"/>
+  <!-- head -->
+  <circle cx="256" cy="88" r="36" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  <!-- helmet glass -->
+  <circle cx="256" cy="88" r="46" fill="#9ed3ff" fill-opacity="0.25" stroke="#cfe9ff" stroke-width="5"/>
+  <path d="M224 66 Q232 52 248 50" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.9"/>
+  <!-- face -->
+  <circle cx="244" cy="90" r="4" fill="#222"/><circle cx="268" cy="90" r="4" fill="#222"/>
+  <circle cx="245" cy="89" r="1.2" fill="#fff"/><circle cx="269" cy="89" r="1.2" fill="#fff"/>
+  <ellipse cx="256" cy="102" rx="4" ry="3" fill="#ff8fa3"/>
+  <path d="M248 108 Q256 114 264 108" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round"/>
+  <!-- whiskers -->
+  <g stroke="#333" stroke-width="1.2"><line x1="222" y1="100" x2="236" y2="102"/><line x1="222" y1="108" x2="236" y2="106"/>
+  <line x1="290" y1="102" x2="276" y2="104"/><line x1="290" y1="108" x2="276" y2="106"/></g>
+  <!-- foreground: moon dust puff -->
+  <ellipse cx="200" cy="200" rx="28" ry="5" fill="#e8e2cf" opacity="0.8"/>
+  <ellipse cx="312" cy="204" rx="22" ry="4" fill="#e8e2cf" opacity="0.8"/>
+  <!-- round 2: candy on the moon (playful nod to Mistral) -->
+  <g>
+    <line x1="352" y1="270" x2="352" y2="312" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+    <circle cx="352" cy="258" r="16" fill="#ff6fa8" stroke="#333" stroke-width="2"/>
+    <path d="M352 258 m-8 0 a8 8 0 1 1 8 8 a4 4 0 1 1 -4 -4" fill="none" stroke="#fff" stroke-width="3"/>
+    <circle cx="150" cy="330" r="13" fill="#ffd54f" stroke="#333" stroke-width="2"/>
+    <path d="M140 326 l20 8 M140 334 l20 -8" stroke="#ff7043" stroke-width="3"/>
+    <rect x="98" y="260" width="10" height="26" rx="4" fill="#4fc3f7" stroke="#333" stroke-width="1.5" transform="rotate(-20 103 273)"/>
+    <rect x="356" y="380" width="26" height="14" rx="4" fill="#b388ff" stroke="#333" stroke-width="1.5"/>
+    <rect x="200" y="410" width="22" height="13" rx="4" fill="#80cbc4" stroke="#333" stroke-width="1.5" transform="rotate(15 211 416)"/>
+    <circle cx="300" cy="455" r="10" fill="#ff8a65" stroke="#333" stroke-width="1.5"/>
+  </g>
+  <!-- final polish: lunar breeze streaks and dust -->
+  <g fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" opacity="0.7">
+    <path d="M150 170 q20 -8 40 0"/><path d="M140 186 q24 -8 48 2"/>
+    <path d="M360 150 q18 -6 34 2"/><path d="M372 166 q14 -4 26 2"/>
+  </g>
+  <g fill="#e8e2cf" opacity="0.7">
+    <circle cx="186" cy="214" r="3"/><circle cx="196" cy="206" r="2"/><circle cx="318" cy="220" r="2.5"/>
+  </g>
+  <!-- title-free text-free -->
+</svg>

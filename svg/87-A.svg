@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: dark neon juice bar -->
+  <rect width="512" height="512" fill="#1a0a2e"/>
+  
+  <!-- Bar counter -->
+  <rect x="0" y="380" width="512" height="132" fill="#2d1b4e"/>
+  <rect x="0" y="370" width="512" height="10" fill="#4a2c7a"/>
+  
+  <!-- Neon sign glow -->
+  <ellipse cx="256" cy="100" rx="120" ry="40" fill="#ff0066" opacity="0.15"/>
+  <text x="256" y="110" text-anchor="middle" font-family="sans-serif" font-size="28" fill="#ff66aa" opacity="0.6">BITE BAR</text>
+  
+  <!-- Vampire sitting at bar -->
+  <ellipse cx="200" cy="360" rx="35" ry="12" fill="#0d0d0d"/>
+  <!-- Cape with flow -->
+  <path d="M 170 360 Q 155 310 168 260 Q 175 240 185 235 L 200 230 L 215 235 Q 225 240 232 260 Q 245 310 230 360 Z" fill="#0a0a0a"/>
+  <!-- Cape inner shadow -->
+  <path d="M 175 360 Q 165 310 175 265 Q 180 250 188 242 L 200 238 L 212 242 Q 220 250 225 265 Q 235 310 225 360 Z" fill="#14101a"/>
+  <!-- High collar -->
+  <path d="M 180 235 L 165 195 L 188 228 L 200 225 L 212 228 L 235 195 L 220 235 Z" fill="#0a0a0a"/>
+  <!-- Head -->
+  <ellipse cx="200" cy="218" rx="19" ry="23" fill="#f0d5b8"/>
+  <!-- Hair with sweep -->
+  <path d="M 181 215 Q 178 190 200 186 Q 222 190 219 215 Q 216 200 200 196 Q 184 200 181 215 Z" fill="#0a0a0a"/>
+  <!-- Widow's peak -->
+  <path d="M 200 196 L 195 205 L 200 202 L 205 205 Z" fill="#0a0a0a"/>
+  <!-- Fangs -->
+  <path d="M 195 228 L 197 236 L 199 228 Z" fill="#fff"/>
+  <path d="M 205 228 L 203 236 L 201 228 Z" fill="#fff"/>
+  <!-- Eyes with glow -->
+  <ellipse cx="193" cy="220" rx="4" ry="2.5" fill="#ff0044"/>
+  <ellipse cx="207" cy="220" rx="4" ry="2.5" fill="#ff0044"/>
+  <ellipse cx="193" cy="220" rx="2" ry="1.5" fill="#ff88aa"/>
+  <ellipse cx="207" cy="220" rx="2" ry="1.5" fill="#ff88aa"/>
+  <!-- Eyebrows -->
+  <path d="M 188 214 Q 193 212 197 214" fill="none" stroke="#0a0a0a" stroke-width="1.2"/>
+  <path d="M 203 214 Q 207 212 212 214" fill="none" stroke="#0a0a0a" stroke-width="1.2"/>
+  <!-- Nose -->
+  <path d="M 200 222 L 198 228 L 202 228 Z" fill="#e0c0a0" opacity="0.6"/>
+  <!-- Hand on glass -->
+  <ellipse cx="228" cy="345" rx="6" ry="5" fill="#f0d5b8"/>
+  
+  <!-- Juice glass with blood-red drink -->
+  <rect x="230" y="335" width="26" height="35" fill="none" stroke="#88ccff" stroke-width="1.5" opacity="0.7"/>
+  <rect x="232" y="345" width="22" height="23" fill="#cc0033" opacity="0.9"/>
+  <rect x="232" y="345" width="22" height="8" fill="#ff0044" opacity="0.5"/>
+  <!-- Ice cube -->
+  <rect x="238" y="352" width="6" height="6" fill="#ff88aa" opacity="0.3" transform="rotate(15 241 355)"/>
+  <line x1="242" y1="335" x2="242" y2="312" stroke="#fff" stroke-width="1" opacity="0.4"/>
+  <ellipse cx="242" cy="312" rx="3" ry="5" fill="#ff99cc" opacity="0.6"/>
+  <!-- Glass highlight -->
+  <line x1="234" y1="340" x2="234" y2="365" stroke="#fff" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Bartender (shadowy figure) -->
+  <ellipse cx="350" cy="360" rx="30" ry="10" fill="#0d0d0d"/>
+  <path d="M 325 360 Q 320 310 335 270 Q 350 260 365 270 Q 380 310 375 360 Z" fill="#141414"/>
+  <ellipse cx="350" cy="260" rx="15" ry="18" fill="#2a1a1a"/>
+  <!-- Bartender towel over shoulder -->
+  <path d="M 365 275 Q 375 290 370 310" fill="none" stroke="#4a3a5a" stroke-width="4" opacity="0.6"/>
+  <!-- Bartender eyes (glowing green) -->
+  <ellipse cx="345" cy="258" rx="2" ry="1.5" fill="#66ff66" opacity="0.7"/>
+  <ellipse cx="355" cy="258" rx="2" ry="1.5" fill="#66ff66" opacity="0.7"/>
+  
+  <!-- Shelf with juice bottles behind bar -->
+  <rect x="280" y="200" width="180" height="4" fill="#3a2a5a"/>
+  <rect x="300" y="170" width="12" height="30" fill="#66ff66" opacity="0.5"/>
+  <rect x="320" y="165" width="12" height="35" fill="#ff6666" opacity="0.5"/>
+  <rect x="340" y="175" width="12" height="25" fill="#ffff66" opacity="0.5"/>
+  <rect x="360" y="160" width="12" height="40" fill="#ff66ff" opacity="0.5"/>
+  <rect x="380" y="170" width="12" height="30" fill="#66ffff" opacity="0.5"/>
+  <!-- Second shelf -->
+  <rect x="280" y="150" width="180" height="4" fill="#3a2a5a"/>
+  <rect x="310" y="125" width="10" height="25" fill="#ffaa66" opacity="0.5"/>
+  <rect x="330" y="120" width="10" height="30" fill="#aa66ff" opacity="0.5"/>
+  <rect x="350" y="130" width="10" height="20" fill="#66ffaa" opacity="0.5"/>
+  <rect x="370" y="115" width="10" height="35" fill="#ff66aa" opacity="0.5"/>
+  <rect x="390" y="125" width="10" height="25" fill="#66aaff" opacity="0.5"/>
+  
+  <!-- Neon rim light on vampire -->
+  <path d="M 170 360 Q 160 300 175 250" fill="none" stroke="#ff0066" stroke-width="1.5" opacity="0.4"/>
+  
+  <!-- Straw in drink -->
+  <line x1="248" y1="330" x2="242" y2="348" stroke="#fff" stroke-width="1.5" opacity="0.7"/>
+</svg>

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#263b67"/><stop offset="1" stop-color="#9bb9d2"/></linearGradient>
+ <linearGradient id="hill" x2="0" y2="1"><stop stop-color="#dceaf0"/><stop offset="1" stop-color="#9bb8c8"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="405" cy="92" r="38" fill="#eaf6ff" opacity=".45"/>
+<path d="M0 300 Q90 238 185 286 T370 270 T512 245 V512 H0Z" fill="url(#hill)"/>
+<path d="M0 365 Q105 315 215 349 T420 325 T512 340 V512 H0Z" fill="#f5fbfd"/>
+<!-- barn and farm -->
+<path d="M322 242 L408 197 493 242 V382 H322Z" fill="#873f43" stroke="#422f3b" stroke-width="8"/>
+<path d="M310 244 L408 185 505 244Z" fill="#592f3d" stroke="#422f3b" stroke-width="8"/>
+<path d="M366 291h53v91h-53z" fill="#3e3540" stroke="#f2c57f" stroke-width="7"/>
+<path d="M336 270h39v33h-39zM421 270h39v33h-39z" fill="#b9d9e3" stroke="#422f3b" stroke-width="6"/>
+<path d="M42 403 Q126 362 221 402" fill="none" stroke="#526c73" stroke-width="7"/>
+<path d="M67 382v52M123 370v48M180 381v49" stroke="#526c73" stroke-width="6"/>
+<!-- wizard shadow/glow -->
+<ellipse cx="228" cy="448" rx="103" ry="20" fill="#526f83" opacity=".35"/>
+<circle cx="238" cy="256" r="62" fill="#e8f7ff" opacity=".28" filter="url(#glow)"/>
+<!-- staff -->
+<path d="M300 197 Q330 265 314 438" fill="none" stroke="#583d36" stroke-width="11"/>
+<path d="M300 197 Q318 164 347 179 Q316 188 300 197Z" fill="#8d5a42" stroke="#422f3b" stroke-width="5"/>
+<circle cx="304" cy="193" r="14" fill="#a9efff" stroke="#eafcff" stroke-width="5"/>
+<!-- cloak body -->
+<path d="M190 286 Q158 327 135 432 Q181 458 274 443 Q285 350 263 286Z" fill="#4f397c" stroke="#2e2949" stroke-width="9"/>
+<path d="M190 318 Q222 350 264 318" fill="none" stroke="#8f76c7" stroke-width="8"/>
+<!-- arm casting snow magic -->
+<path d="M192 309 Q154 287 126 252" fill="none" stroke="#4f397c" stroke-width="25" stroke-linecap="round"/>
+<path d="M126 252 l-10 -21 M126 252 l-25 -2 M126 252 l-17 17" stroke="#e9fbff" stroke-width="7" stroke-linecap="round"/>
+<path d="M86 205 Q112 180 139 207 Q113 229 86 205Z" fill="#bdf3ff" opacity=".9"/>
+<!-- head and beard -->
+<circle cx="218" cy="245" r="48" fill="#f1bd8d" stroke="#392c43" stroke-width="8"/>
+<path d="M180 240 Q216 266 255 238 L245 295 Q218 322 188 286Z" fill="#e9f3f3" stroke="#392c43" stroke-width="7"/>
+<circle cx="203" cy="241" r="6" fill="#25243a"/><circle cx="232" cy="241" r="6" fill="#25243a"/>
+<path d="M208 260 Q220 267 231 259" fill="none" stroke="#743e45" stroke-width="5"/>
+<!-- hat -->
+<path d="M167 211 Q183 112 236 126 Q265 145 270 210Z" fill="#46366e" stroke="#292640" stroke-width="9"/>
+<path d="M151 210 Q215 185 278 210 Q230 233 151 210Z" fill="#352b59" stroke="#292640" stroke-width="8"/>
+<path d="M194 145 Q218 132 243 149" fill="none" stroke="#c3a2f0" stroke-width="7"/>
+<!-- boots -->
+<path d="M166 423 l-22 37 h57 l14-37M239 424 l8 37 h56 l-30-40" fill="#362e43" stroke="#292640" stroke-width="8"/>
+<!-- snowy farm life and magical motion -->
+<path d="M20 438 Q48 420 76 438 L76 466 H20Z" fill="#d6e7ed" stroke="#526c73" stroke-width="6"/>
+<path d="M32 438 Q48 410 64 438" fill="none" stroke="#526c73" stroke-width="6"/>
+<circle cx="46" cy="447" r="5" fill="#39444d"/><circle cx="65" cy="447" r="5" fill="#39444d"/>
+<path d="M405 402 Q423 381 447 399 L454 433 H397Z" fill="#c99155" stroke="#70503e" stroke-width="6"/>
+<path d="M401 402 Q424 378 449 400" fill="none" stroke="#f5dfaa" stroke-width="8"/>
+<path d="M103 256 Q70 237 61 203 Q84 221 109 221" fill="none" stroke="#bdf3ff" stroke-width="6" opacity=".9"/>
+<path d="M278 147 Q307 121 335 136 Q310 142 296 162" fill="none" stroke="#bdf3ff" stroke-width="6" opacity=".9"/>
+<path d="M284 177 l9 -12 m-4 20 l16 -2 m-24 6 l-4 14" stroke="#fff" stroke-width="5" stroke-linecap="round"/>
+<!-- snow caps and a friendly sheep -->
+<path d="M319 244 Q408 184 497 244 Q470 231 441 237 Q408 219 374 238 Q344 229 319 244Z" fill="#f7ffff" opacity=".95"/>
+<path d="M391 428 Q405 407 430 418 Q451 405 466 427 Q463 450 431 452 Q399 450 391 428Z" fill="#f4f8f7" stroke="#4b5362" stroke-width="6"/>
+<circle cx="463" cy="428" r="16" fill="#555066" stroke="#343346" stroke-width="5"/>
+<circle cx="458" cy="426" r="3" fill="#fff"/><circle cx="469" cy="426" r="3" fill="#fff"/>
+<path d="M405 447v17M450 447v17" stroke="#4b5362" stroke-width="6"/>
+<path d="M402 413 Q427 398 453 412" fill="none" stroke="#fff" stroke-width="7"/>
+<!-- heavy snow -->
+<g fill="#fff" opacity=".95">
+<circle cx="28" cy="61" r="6"/><circle cx="77" cy="137" r="5"/><circle cx="121" cy="54" r="7"/><circle cx="169" cy="91" r="5"/><circle cx="222" cy="39" r="6"/><circle cx="280" cy="90" r="7"/><circle cx="336" cy="42" r="5"/><circle cx="376" cy="143" r="7"/><circle cx="450" cy="43" r="6"/><circle cx="490" cy="118" r="5"/>
+<circle cx="52" cy="270" r="7"/><circle cx="93" cy="324" r="5"/><circle cx="145" cy="180" r="6"/><circle cx="285" cy="154" r="5"/><circle cx="350" cy="224" r="6"/><circle cx="437" cy="181" r="7"/><circle cx="480" cy="292" r="6"/><circle cx="26" cy="454" r="5"/><circle cx="329" cy="391" r="6"/><circle cx="467" cy="421" r="5"/>
+</g>
+<path d="M0 115 Q80 94 154 119 T310 111 T512 120" fill="none" stroke="#d9eff8" stroke-width="5" opacity=".7"/>
+</svg>

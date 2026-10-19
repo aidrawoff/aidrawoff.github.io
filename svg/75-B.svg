@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="lightglow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff9c4" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#fff9c4" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="capegrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2e1a47"/>
+      <stop offset="100%" stop-color="#0d0221"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Wall and floor -->
+  <rect width="512" height="512" fill="#d6eaf0"/>
+  <rect x="0" y="360" width="512" height="152" fill="#b0c4ce"/>
+  <line x1="0" y1="360" x2="512" y2="360" stroke="#90a4ae" stroke-width="2"/>
+
+  <!-- Dental chair back -->
+  <rect x="50" y="280" width="140" height="18" rx="8" fill="#546e7a"/>
+  <rect x="52" y="282" width="136" height="14" rx="6" fill="#607d8a"/>
+  <rect x="70" y="298" width="100" height="90" rx="10" fill="#78909c"/>
+  <rect x="72" y="300" width="96" height="86" rx="8" fill="#90a4ae"/>
+  <rect x="85" y="388" width="70" height="70" rx="6" fill="#607d8b"/>
+  <rect x="60" y="458" width="120" height="12" rx="4" fill="#455a64"/>
+  <!-- chair shadow -->
+  <ellipse cx="120" cy="470" rx="70" ry="8" fill="#78909c" opacity="0.5"/>
+
+  <!-- Overhead light -->
+  <rect x="340" y="30" width="90" height="24" rx="4" fill="#cfd8dc"/>
+  <ellipse cx="385" cy="62" rx="55" ry="16" fill="#eceff1"/>
+  <ellipse cx="385" cy="64" rx="45" ry="10" fill="#fff59d"/>
+  <ellipse cx="385" cy="64" rx="120" ry="80" fill="url(#lightglow)"/>
+
+  <!-- Vampire patient -->
+  <!-- cape draped over chair -->
+  <path d="M130 250 Q70 330 60 460 L240 460 Q220 330 190 250 Z" fill="url(#capegrad)"/>
+  <path d="M130 250 Q100 350 90 460" stroke="#1a0b2e" stroke-width="3" fill="none"/>
+  <!-- collar -->
+  <path d="M125 245 L100 210 L160 200 L220 210 L195 245 Z" fill="#1a0b2e"/>
+  <!-- head tilted back -->
+  <ellipse cx="160" cy="195" rx="36" ry="42" fill="#f5e6d3"/>
+  <!-- neck shadow -->
+  <ellipse cx="160" cy="228" rx="18" ry="6" fill="#e0c0a0" opacity="0.6"/>
+  <!-- hair -->
+  <path d="M124 185 Q122 140 160 140 Q198 140 196 185 Q196 165 160 165 Q124 165 124 185" fill="#0d0221"/>
+  <!-- widened eyes -->
+  <ellipse cx="148" cy="188" rx="7" ry="5" fill="#fff"/>
+  <ellipse cx="172" cy="188" rx="7" ry="5" fill="#fff"/>
+  <circle cx="149" cy="188" r="3" fill="#b71c1c"/>
+  <circle cx="173" cy="188" r="3" fill="#b71c1c"/>
+  <!-- eyebrows raised in panic -->
+  <path d="M140 178 Q148 172 156 178" stroke="#0d0221" stroke-width="2" fill="none"/>
+  <path d="M164 178 Q172 172 180 178" stroke="#0d0221" stroke-width="2" fill="none"/>
+  <!-- open mouth with fangs -->
+  <ellipse cx="160" cy="215" rx="10" ry="14" fill="#3e2723"/>
+  <path d="M153 208 L156 220 L159 208 Z" fill="#fff"/>
+  <path d="M161 208 L164 220 L167 208 Z" fill="#fff"/>
+  <!-- sweat drops -->
+  <path d="M192 175 Q196 165 200 175 Q200 183 192 175" fill="#4fc3f7"/>
+  <path d="M200 190 Q204 182 208 190 Q208 196 200 190" fill="#4fc3f7"/>
+
+  <!-- Dentist standing -->
+  <!-- body/white coat -->
+  <path d="M310 240 Q345 230 380 240 L395 420 L295 420 Z" fill="#fff"/>
+  <path d="M315 245 Q345 236 375 245 L385 415 L305 415 Z" fill="#f5f5f5"/>
+  <rect x="295" y="420" width="100" height="50" rx="6" fill="#e0e0e0"/>
+  <!-- coat shadow -->
+  <path d="M310 420 L330 470 L350 420" fill="#bdbdbd" opacity="0.3"/>
+  <!-- head -->
+  <ellipse cx="345" cy="190" rx="30" ry="36" fill="#ffccbc"/>
+  <!-- hair -->
+  <ellipse cx="345" cy="168" rx="32" ry="16" fill="#4e342e"/>
+  <!-- mask -->
+  <rect x="325" y="185" width="40" height="24" rx="6" fill="#90a4ae"/>
+  <!-- eyes focused -->
+  <ellipse cx="335" cy="180" rx="4" ry="2.5" fill="#3e2723"/>
+  <ellipse cx="355" cy="180" rx="4" ry="2.5" fill="#3e2723"/>
+  <!-- dental mirror in hand -->
+  <rect x="290" y="210" width="5" height="55" fill="#78909c" transform="rotate(-15 292 210)"/>
+  <circle cx="288" cy="208" r="10" fill="#cfd8dc"/>
+  <circle cx="288" cy="208" r="7" fill="#e1f5fe"/>
+  <!-- glove -->
+  <circle cx="292" cy="265" r="9" fill="#fff"/>
+  <ellipse cx="292" cy="272" rx="4" ry="6" fill="#fff"/>
+
+  <!-- Tools tray -->
+  <rect x="250" y="350" width="110" height="8" rx="3" fill="#b0bec5"/>
+  <rect x="265" y="342" width="4" height="8" fill="#78909c"/>
+  <rect x="285" y="340" width="4" height="10" fill="#78909c"/>
+  <rect x="305" y="341" width="4" height="9" fill="#78909c"/>
+  <rect x="325" y="342" width="4" height="8" fill="#78909c"/>
+  <!-- tray shadow -->
+  <ellipse cx="305" cy="362" rx="50" ry="4" fill="#90a4ae" opacity="0.4"/>
+
+  <!-- Speech bubble dentist -->
+  <ellipse cx="290" cy="120" rx="60" ry="28" fill="#fff" stroke="#455a64" stroke-width="2.5"/>
+  <path d="M270 144 L285 168 L295 146" fill="#fff" stroke="#455a64" stroke-width="2.5"/>
+  <text x="290" y="126" text-anchor="middle" font-family="sans-serif" font-size="17" font-weight="bold" fill="#37474f">Say Ahh...</text>
+
+  <!-- Thought bubble vampire -->
+  <ellipse cx="90" cy="115" rx="48" ry="26" fill="#fff" stroke="#c62828" stroke-width="2"/>
+  <circle cx="115" y="145" r="5" fill="#fff" stroke="#c62828" stroke-width="2"/>
+  <circle cx="130" y="160" r="3" fill="#fff" stroke="#c62828" stroke-width="2"/>
+  <text x="90" y="122" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#c62828">HELP</text>
+
+  <!-- Cabinet in background -->
+  <rect x="420" y="200" width="70" height="160" rx="4" fill="#cfd8dc"/>
+  <rect x="430" y="210" width="50" height="35" rx="2" fill="#eceff1"/>
+  <rect x="430" y="255" width="50" height="35" rx="2" fill="#eceff1"/>
+  <rect x="430" y="300" width="50" height="35" rx="2" fill="#eceff1"/>
+  <circle cx="470" cy="228" r="3" fill="#90a4ae"/>
+  <circle cx="470" cy="273" r="3" fill="#90a4ae"/>
+  <circle cx="470" cy="318" r="3" fill="#90a4ae"/>
+  <!-- cabinet shadow -->
+  <rect x="420" y="360" width="70" height="6" fill="#b0bec5" opacity="0.5"/>
+</svg>

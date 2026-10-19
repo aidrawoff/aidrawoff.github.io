@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a0"/>
+      <stop offset="0.55" stop-color="#ffb46b"/>
+      <stop offset="1" stop-color="#f78bb0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6d0"/>
+      <stop offset="1" stop-color="#ffcf6a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#2a1f2e"/>
+  <!-- big windshield: sunrise city -->
+  <rect x="34" y="34" width="444" height="286" rx="34" fill="url(#sky)"/>
+  <circle cx="360" cy="150" r="86" fill="url(#sun)"/>
+  <circle cx="360" cy="150" r="34" fill="#fff3c4"/>
+  <!-- skyline -->
+  <g fill="#b06a8e" opacity="0.85">
+    <rect x="52" y="196" width="46" height="124"/>
+    <rect x="106" y="164" width="34" height="156"/>
+    <rect x="148" y="214" width="58" height="106"/>
+    <rect x="214" y="182" width="40" height="138"/>
+    <rect x="418" y="188" width="44" height="132"/>
+  </g>
+  <g fill="#7c4a72" opacity="0.9">
+    <rect x="258" y="228" width="150" height="92"/>
+    <rect x="60" y="252" width="70" height="68"/>
+  </g>
+  <!-- road -->
+  <rect x="34" y="292" width="444" height="28" fill="#4a4258"/>
+  <g fill="#ffe9a8">
+    <rect x="60" y="303" width="34" height="5" rx="2"/>
+    <rect x="130" y="303" width="34" height="5" rx="2"/>
+    <rect x="200" y="303" width="34" height="5" rx="2"/>
+    <rect x="270" y="303" width="34" height="5" rx="2"/>
+    <rect x="340" y="303" width="34" height="5" rx="2"/>
+    <rect x="410" y="303" width="34" height="5" rx="2"/>
+  </g>
+  <!-- window frame + pillars -->
+  <rect x="34" y="34" width="444" height="286" rx="34" fill="none" stroke="#efe6ee" stroke-width="14"/>
+  <rect x="246" y="34" width="12" height="286" fill="#efe6ee"/>
+  <!-- dashboard -->
+  <path d="M0 318 Q256 296 512 318 L512 512 L0 512 Z" fill="#5d3f6b"/>
+  <path d="M0 318 Q256 296 512 318 L512 340 Q256 320 0 340 Z" fill="#7a5489"/>
+  <!-- route sign -->
+  <rect x="150" y="14" width="212" height="30" rx="8" fill="#1f7a5a"/>
+  <text x="256" y="35" font-family="sans-serif" font-size="18" fill="#fff6d8" text-anchor="middle">ACORN LINE 7</text>
+  <!-- steering column + wheel -->
+  <ellipse cx="256" cy="418" rx="86" ry="82" fill="none" stroke="#241a2b" stroke-width="20"/>
+  <ellipse cx="256" cy="418" rx="86" ry="82" fill="none" stroke="#3c2b46" stroke-width="8"/>
+  <circle cx="256" cy="418" r="24" fill="#241a2b"/>
+  <rect x="248" y="336" width="16" height="82" fill="#241a2b"/>
+  <rect x="176" y="410" width="160" height="14" rx="7" fill="#241a2b"/>
+  <!-- PIG DRIVER: body behind dash -->
+  <ellipse cx="256" cy="352" rx="150" ry="86" fill="#f2a0b5"/>
+  <ellipse cx="256" cy="368" rx="112" ry="60" fill="#ffc0cf"/>
+  <!-- ears -->
+  <path d="M150 262 q-30 -46 6 -62 q34 -12 44 40 z" fill="#f2a0b5"/>
+  <path d="M362 262 q30 -46 -6 -62 q-34 -12 -44 40 z" fill="#f2a0b5"/>
+  <path d="M160 256 q-16 -32 6 -44 q22 -6 28 30 z" fill="#d9748f"/>
+  <path d="M352 256 q16 -32 -6 -44 q-22 -6 -28 30 z" fill="#d9748f"/>
+  <!-- head -->
+  <ellipse cx="256" cy="272" rx="108" ry="98" fill="#f7aec1"/>
+  <ellipse cx="256" cy="240" rx="104" ry="70" fill="#ffc6d4" opacity="0.55"/>
+  <!-- driver cap -->
+  <path d="M158 214 q98 -84 196 0 z" fill="#1f5f8f"/>
+  <path d="M150 214 q106 -22 212 0 q-106 20 -212 0 z" fill="#164a70"/>
+  <rect x="228" y="168" width="56" height="22" rx="6" fill="#ffd76a"/>
+  <!-- eyes -->
+  <ellipse cx="204" cy="268" rx="15" ry="17" fill="#ffffff"/>
+  <ellipse cx="308" cy="268" rx="15" ry="17" fill="#ffffff"/>
+  <circle cx="207" cy="270" r="8" fill="#2a1f2e"/>
+  <circle cx="305" cy="270" r="8" fill="#2a1f2e"/>
+  <circle cx="210" cy="266" r="3" fill="#ffffff"/>
+  <circle cx="308" cy="266" r="3" fill="#ffffff"/>
+  <!-- snout -->
+  <ellipse cx="256" cy="322" rx="52" ry="40" fill="#f2879f"/>
+  <ellipse cx="256" cy="322" rx="52" ry="40" fill="none" stroke="#d9678a" stroke-width="3"/>
+  <ellipse cx="238" cy="322" rx="9" ry="13" fill="#8f3b57"/>
+  <ellipse cx="274" cy="322" rx="9" ry="13" fill="#8f3b57"/>
+  <path d="M232 356 q24 20 48 0" fill="none" stroke="#c25c7c" stroke-width="6" stroke-linecap="round"/>
+  <!-- hooves on wheel -->
+  <g fill="#f7aec1">
+    <ellipse cx="182" cy="404" rx="30" ry="24"/>
+    <ellipse cx="330" cy="404" rx="30" ry="24"/>
+  </g>
+  <g fill="#d9748f">
+    <ellipse cx="172" cy="410" rx="12" ry="9"/>
+    <ellipse cx="340" cy="410" rx="12" ry="9"/>
+  </g>
+  <!-- mirror -->
+  <rect x="466" y="120" width="10" height="120" fill="#efe6ee"/>
+  <ellipse cx="492" cy="118" rx="22" ry="28" fill="#cfe6ef" stroke="#efe6ee" stroke-width="8"/>
+</svg>

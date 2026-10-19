@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: deep blue gradient with subtle snowflakes -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a1a3a"/>
+      <stop offset="100%" stop-color="#00082a"/>
+    </linearGradient>
+    <pattern id="snow" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="1" fill="white" opacity="0.6"/>
+      <circle cx="12" cy="12" r="1" fill="white" opacity="0.6"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#bgGradient)"/>
+  <rect width="512" height="512" fill="url(#snow)"/>
+
+  <!-- Bear substitute teacher: strong silhouette with subtle fur texture -->
+  <g id="bear-teacher">
+    <!-- Body and head as one dark shape -->
+    <path d="M256 260 C210 260, 180 240, 170 220 C160 200, 170 180, 190 170 C210 160, 240 165, 260 180 C280 195, 290 220, 290 240 C290 260, 270 280, 256 280 C242 280, 230 270, 220 260 C210 250, 220 240, 240 245 C260 250, 270 260, 256 260 Z" fill="black"/>
+    <!-- Hoodie outline -->
+    <path d="M200 240 C180 240, 170 260, 180 280 C190 300, 220 310, 250 310 C280 310, 310 300, 320 280 C330 260, 320 240, 300 240 C280 240, 260 245, 256 240 C252 240, 240 240, 200 240 Z" fill="none" stroke="black" stroke-width="4"/>
+    <!-- Fur texture: subtle highlights on top and sides -->
+    <path d="M200 200 C210 190, 230 195, 240 200 C250 205, 260 210, 270 215 C280 220, 290 230, 290 240 C280 250, 270 260, 260 265 C250 270, 240 270, 230 265 C220 260, 210 250, 200 240 C190 230, 190 220, 200 200 Z" fill="white" opacity="0.15"/>
+    <!-- Ears -->
+    <circle cx="220" cy="150" r="14" fill="black"/>
+    <circle cx="292" cy="150" r="14" fill="black"/>
+    <!-- Inner ears -->
+    <circle cx="220" cy="150" r="6" fill="white" opacity="0.2"/>
+    <circle cx="292" cy="150" r="6" fill="white" opacity="0.2"/>
+    <!-- Cheeks -->
+    <circle cx="235" cy="200" r="6" fill="white" opacity="0.15"/>
+    <circle cx="277" cy="200" r="6" fill="white" opacity="0.15"/>
+
+    <!-- Face -->
+    <circle cx="256" cy="185" r="20" fill="white"/>
+    <circle cx="245" cy="175" r="4" fill="black"/>
+    <circle cx="267" cy="175" r="4" fill="black"/>
+    <path d="M245 185 Q256 192 267 185" stroke="black" stroke-width="2" fill="none"/>
+    <!-- Glasses -->
+    <ellipse cx="245" cy="185" rx="12" ry="7" fill="none" stroke="black" stroke-width="2"/>
+    <ellipse cx="267" cy="185" rx="12" ry="7" fill="none" stroke="black" stroke-width="2"/>
+    <line x1="259" y1="185" x2="259" y2="185" stroke="black" stroke-width="2"/>
+  </g>
+
+  <!-- Desk and chalkboard -->
+  <rect x="120" y="320" width="272" height="80" rx="8" fill="black"/>
+  <rect x="130" y="330" width="252" height="60" rx="4" fill="white"/>
+  <text x="256" y="365" font-family="serif" font-size="24" font-weight="bold" fill="black" text-anchor="middle">BEAR SUB</text>
+
+  <!-- Snow on edges: sharp white edges -->
+  <path d="M0 0 L512 0 L512 40 L0 40 Z" fill="white"/>
+  <path d="M0 472 L512 472 L512 512 L0 512 Z" fill="white"/>
+  <path d="M0 0 L40 0 L40 512 L0 512 Z" fill="white"/>
+  <path d="M472 0 L512 0 L512 512 L472 512 Z" fill="white"/>
+
+  <!-- Depth: darker shadows under bear and desk -->
+  <path d="M200 280 C220 280, 240 300, 256 300 L256 320 C240 320, 220 300, 200 300 Z" fill="black" opacity="0.4"/>
+  <path d="M120 320 L392 320 L392 400 L120 400 Z" fill="black" opacity="0.3"/>
+</svg>

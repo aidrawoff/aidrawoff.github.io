@@ -1,0 +1,125 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- sky -->
+  <rect x="0" y="0" width="512" height="512" fill="#bfe6ff"/>
+  <!-- sparkles -->
+  <path d="M70 80 L76 94 L90 100 L76 106 L70 120 L64 106 L50 100 L64 94 Z" fill="#ffffff" stroke="#2b4a6f" stroke-width="3"/>
+  <path d="M430 70 L435 82 L447 87 L435 92 L430 104 L425 92 L413 87 L425 82 Z" fill="#ffffff" stroke="#2b4a6f" stroke-width="3"/>
+  <path d="M452 150 L455 157 L462 160 L455 163 L452 170 L449 163 L442 160 L449 157 Z" fill="#fff3b0" stroke="#2b4a6f" stroke-width="2"/>
+  <!-- snowflakes -->
+  <g fill="#ffffff" stroke="#2b4a6f" stroke-width="2">
+    <circle cx="150" cy="150" r="6"/>
+    <circle cx="300" cy="120" r="5"/>
+    <circle cx="380" cy="190" r="7"/>
+    <circle cx="110" cy="240" r="5"/>
+    <circle cx="470" cy="270" r="6"/>
+    <circle cx="260" cy="60" r="4"/>
+    <circle cx="200" cy="200" r="4"/>
+    <circle cx="40" cy="170" r="4"/>
+  </g>
+  <!-- hills -->
+  <path d="M0 340 Q120 290 250 335 Q380 290 512 330 L512 512 L0 512 Z" fill="#e9f8ff" stroke="#2b4a6f" stroke-width="6"/>
+  <!-- snow ground -->
+  <path d="M0 392 Q64 378 128 392 T256 392 T384 392 T512 392 L512 512 L0 512 Z" fill="#ffffff" stroke="#2b4a6f" stroke-width="6"/>
+  <!-- snow bushes -->
+  <g fill="#ffffff" stroke="#2b4a6f" stroke-width="5">
+    <circle cx="48" cy="392" r="22"/>
+    <circle cx="70" cy="384" r="16"/>
+    <circle cx="462" cy="404" r="18"/>
+  </g>
+  <!-- ground dots -->
+  <g fill="#9fd8f0">
+    <circle cx="90" cy="440" r="5"/>
+    <circle cx="150" cy="470" r="4"/>
+    <circle cx="330" cy="452" r="5"/>
+    <circle cx="410" cy="480" r="4"/>
+  </g>
+
+  <!-- truck body -->
+  <rect x="120" y="230" width="240" height="135" rx="22" fill="#ffb3d1" stroke="#2b4a6f" stroke-width="6"/>
+  <!-- body stripe -->
+  <path d="M130 352 L350 352" stroke="#ffe27a" stroke-width="8" stroke-linecap="round"/>
+  <!-- window frame -->
+  <rect x="160" y="258" width="146" height="70" rx="12" fill="#d9f3ff" stroke="#2b4a6f" stroke-width="6"/>
+  <!-- awning -->
+  <rect x="150" y="238" width="170" height="24" rx="8" fill="#ffffff" stroke="#2b4a6f" stroke-width="6"/>
+  <g fill="#ff7fa8">
+    <rect x="168" y="240" width="18" height="20"/>
+    <rect x="204" y="240" width="18" height="20"/>
+    <rect x="240" y="240" width="18" height="20"/>
+    <rect x="276" y="240" width="18" height="20"/>
+  </g>
+  <!-- window glints -->
+  <path d="M172 272 L184 272" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M286 272 L298 272" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- polar bear chef, popping out of the window -->
+  <circle cx="204" cy="268" r="12" fill="#ffffff" stroke="#2b4a6f" stroke-width="5"/>
+  <circle cx="260" cy="268" r="12" fill="#ffffff" stroke="#2b4a6f" stroke-width="5"/>
+  <circle cx="204" cy="269" r="5" fill="#ffb3c9"/>
+  <circle cx="260" cy="269" r="5" fill="#ffb3c9"/>
+  <circle cx="232" cy="292" r="36" fill="#ffffff" stroke="#2b4a6f" stroke-width="6"/>
+  <!-- chef hat -->
+  <g fill="#ffffff" stroke="#2b4a6f" stroke-width="5">
+    <circle cx="212" cy="240" r="11"/>
+    <circle cx="232" cy="232" r="13"/>
+    <circle cx="252" cy="240" r="11"/>
+    <rect x="204" y="244" width="56" height="12" rx="4"/>
+  </g>
+  <!-- eyes -->
+  <circle cx="220" cy="288" r="6" fill="#2b4a6f"/>
+  <circle cx="244" cy="288" r="6" fill="#2b4a6f"/>
+  <circle cx="222" cy="286" r="2" fill="#ffffff"/>
+  <circle cx="246" cy="286" r="2" fill="#ffffff"/>
+  <!-- blush -->
+  <circle cx="206" cy="304" r="6" fill="#ff9ec0"/>
+  <circle cx="258" cy="304" r="6" fill="#ff9ec0"/>
+  <!-- muzzle and nose -->
+  <ellipse cx="232" cy="306" rx="12" ry="8" fill="#f2fbff" stroke="#2b4a6f" stroke-width="3"/>
+  <ellipse cx="232" cy="301" rx="6" ry="4" fill="#2b4a6f"/>
+  <path d="M225 311 Q232 318 239 311" fill="none" stroke="#2b4a6f" stroke-width="3" stroke-linecap="round"/>
+  <!-- paws -->
+  <ellipse cx="200" cy="326" rx="12" ry="9" fill="#ffffff" stroke="#2b4a6f" stroke-width="5"/>
+  <ellipse cx="266" cy="322" rx="11" ry="8" fill="#ffffff" stroke="#2b4a6f" stroke-width="5"/>
+  <!-- cone in right paw -->
+  <polygon points="257,324 275,324 266,350" fill="#e8b26b" stroke="#2b4a6f" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="266" cy="314" r="11" fill="#ffd1e8" stroke="#2b4a6f" stroke-width="4"/>
+  <path d="M260 310 l3 2 M270 306 l3 -2 M266 318 l2 3" stroke="#2b4a6f" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- counter ledge -->
+  <rect x="158" y="332" width="150" height="12" rx="5" fill="#2b4a6f"/>
+
+  <!-- cab -->
+  <path d="M360 262 L404 262 Q428 262 436 284 L448 322 L448 362 L360 362 Z" fill="#ffb3d1" stroke="#2b4a6f" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M372 276 L402 276 L416 306 L372 306 Z" fill="#d9f3ff" stroke="#2b4a6f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M372 320 L436 320" stroke="#2b4a6f" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <circle cx="436" cy="338" r="5" fill="#ffe27a" stroke="#2b4a6f" stroke-width="3"/>
+
+  <!-- sprinkles and heart on body -->
+  <g stroke="#2b4a6f" stroke-width="4" stroke-linecap="round">
+    <line x1="140" y1="290" x2="150" y2="284" stroke="#ffe27a"/>
+    <line x1="330" y1="300" x2="340" y2="296" stroke="#7fd3ff"/>
+    <line x1="150" y1="310" x2="158" y2="306" stroke="#ffffff"/>
+  </g>
+  <path d="M320 216 c-4-6 -12-3 -8 4 l8 8 l8-8 c4-7-4-10-8-4 z" fill="#ff5c8a" stroke="#2b4a6f" stroke-width="2.5" stroke-linejoin="round"/>
+
+  <!-- giant scoop on roof -->
+  <path d="M226 226 L274 226 L250 264 Z" fill="#e8b26b" stroke="#2b4a6f" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M232 240 L268 240 M240 252 L260 252 M236 234 L246 246 M264 234 L254 246" stroke="#2b4a6f" stroke-width="2" stroke-linecap="round" opacity="0.5"/>
+  <path d="M226 226 Q232 236 238 226 Q244 236 250 226 Q256 236 262 226 Q268 236 274 226" fill="none" stroke="#2b4a6f" stroke-width="0" />
+  <path d="M222 214 Q224 232 232 230 Q238 246 246 232 Q252 240 258 232 Q266 246 272 230 Q278 232 280 214 Z" fill="#fff0f7" stroke="#2b4a6f" stroke-width="4" stroke-linejoin="round"/>
+  <circle cx="250" cy="206" r="30" fill="#fff0f7" stroke="#2b4a6f" stroke-width="6"/>
+  <circle cx="234" cy="196" r="8" fill="#ffd1e8" stroke="#2b4a6f" stroke-width="3"/>
+  <circle cx="262" cy="222" r="8" fill="#ffd1e8" stroke="#2b4a6f" stroke-width="3"/>
+  <path d="M236 180 Q246 172 258 180" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="248" cy="172" r="6" fill="#ff5c8a" stroke="#2b4a6f" stroke-width="3"/>
+  <path d="M248 166 Q252 156 260 154" fill="none" stroke="#2b4a6f" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- wheels -->
+  <circle cx="168" cy="370" r="25" fill="#2b4a6f" stroke="#2b4a6f" stroke-width="5"/>
+  <circle cx="168" cy="370" r="10" fill="#cfd8e3"/>
+  <circle cx="396" cy="370" r="25" fill="#2b4a6f" stroke="#2b4a6f" stroke-width="5"/>
+  <circle cx="396" cy="370" r="10" fill="#cfd8e3"/>
+
+  <!-- floating heart -->
+  <path d="M120 200 c-5-8 -15-4 -10 5 l10 10 l10-10 c5-9-5-13-10-5 z" fill="#ff5c8a" stroke="#2b4a6f" stroke-width="3" stroke-linejoin="round"/>
+</svg>

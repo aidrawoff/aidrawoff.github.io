@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D7CCC8"/>
+      <stop offset="100%" stop-color="#A1887F"/>
+    </linearGradient>
+  </defs>
+  <!-- Background sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- Factory building -->
+  <rect x="60" y="120" width="392" height="280" rx="8" fill="#FFF8E1" stroke="#FFCC80" stroke-width="3"/>
+  <!-- Roof -->
+  <path d="M40 120 L256 40 L472 120 Z" fill="#FF7043" stroke="#E64A19" stroke-width="3"/>
+  <!-- Chimneys -->
+  <rect x="100" y="20" width="30" height="60" fill="#8D6E63" rx="2"/>
+  <rect x="382" y="20" width="30" height="60" fill="#8D6E63" rx="2"/>
+  <!-- Smoke puffs -->
+  <circle cx="115" cy="10" r="12" fill="#fff" opacity="0.8"/>
+  <circle cx="125" cy="-5" r="16" fill="#fff" opacity="0.7"/>
+  <circle cx="397" cy="10" r="12" fill="#fff" opacity="0.8"/>
+  <circle cx="407" cy="-5" r="16" fill="#fff" opacity="0.7"/>
+  <!-- Big window -->
+  <rect x="90" y="160" width="160" height="120" rx="6" fill="#B3E5FC" stroke="#4FC3F7" stroke-width="3"/>
+  <line x1="170" y1="160" x2="170" y2="280" stroke="#4FC3F7" stroke-width="3"/>
+  <line x1="90" y1="220" x2="250" y2="220" stroke="#4FC3F7" stroke-width="3"/>
+  <!-- Conveyor belt -->
+  <rect x="70" y="310" width="372" height="16" rx="4" fill="#78909C"/>
+  <rect x="70" y="326" width="372" height="8" rx="2" fill="#546E7A"/>
+  <!-- Candy on belt -->
+  <circle cx="130" cy="302" r="10" fill="#FF4081"/>
+  <rect x="180" y="294" width="20" height="16" rx="4" fill="#AB47BC"/>
+  <polygon points="240,294 250,314 230,314" fill="#FFEE58"/>
+  <circle cx="310" cy="302" r="10" fill="#66BB6A"/>
+  <rect x="360" y="294" width="20" height="16" rx="8" fill="#EF5350"/>
+  <!-- Robot arm -->
+  <rect x="340" y="160" width="12" height="80" fill="#90A4AE" rx="2"/>
+  <rect x="340" y="240" width="50" height="10" rx="3" fill="#78909C"/>
+  <circle cx="390" cy="245" r="6" fill="#FF7043"/>
+  <!-- Foreground table -->
+  <rect x="0" y="400" width="512" height="112" fill="url(#floor)"/>
+  <rect x="0" y="400" width="512" height="8" fill="#8D6E63"/>
+  <!-- Giant lollipop on table -->
+  <rect x="240" y="340" width="12" height="70" fill="#FFF" rx="2"/>
+  <circle cx="246" cy="330" r="28" fill="#FF4081" opacity="0.9"/>
+  <circle cx="246" cy="330" r="20" fill="#F06292"/>
+  <circle cx="246" cy="330" r="10" fill="#FFF" opacity="0.4"/>
+  <!-- Gumballs scattered -->
+  <circle cx="120" cy="440" r="14" fill="#29B6F6"/>
+  <circle cx="120" cy="440" r="5" fill="#fff" opacity="0.3"/>
+  <circle cx="380" cy="460" r="16" fill="#FFCA28"/>
+  <circle cx="380" cy="460" r="6" fill="#fff" opacity="0.3"/>
+  <circle cx="420" cy="430" r="12" fill="#EF5350"/>
+  <circle cx="420" cy="430" r="4" fill="#fff" opacity="0.3"/>
+  <!-- Factory sign -->
+  <rect x="180" y="80" width="152" height="28" rx="6" fill="#FFEB3B" stroke="#FBC02D" stroke-width="2"/>
+  <text x="256" y="100" font-family="sans-serif" font-size="16" font-weight="bold" fill="#E65100" text-anchor="middle">SWEET FACTORY</text>
+</svg>

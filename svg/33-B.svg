@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b0f3b"/>
+      <stop offset="1" stop-color="#2d2b6b"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00c060"/>
+      <stop offset="1" stop-color="#006b45"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <!-- pixel stars -->
+  <g fill="#fff1e8">
+    <rect x="40" y="62" width="6" height="6"/><rect x="110" y="110" width="4" height="4"/>
+    <rect x="200" y="54" width="6" height="6"/><rect x="470" y="96" width="6" height="6"/>
+    <rect x="430" y="150" width="4" height="4"/><rect x="60" y="200" width="4" height="4"/>
+    <rect x="490" y="222" width="6" height="6"/><rect x="160" y="150" width="4" height="4"/>
+  </g>
+  <!-- sun -->
+  <circle cx="380" cy="200" r="58" fill="#ff004d"/>
+  <g fill="#1b0f3b">
+    <rect x="320" y="210" width="120" height="6"/><rect x="320" y="228" width="120" height="8"/>
+  </g>
+  <!-- HUD -->
+  <rect x="0" y="0" width="512" height="44" fill="#000"/>
+  <text x="14" y="30" font-family="monospace" font-size="20" fill="#ffec27">SCORE 04200</text>
+  <text x="330" y="30" font-family="monospace" font-size="20" fill="#ff004d">LIVES x3</text>
+  <!-- midground pixel mountains -->
+  <path d="M0 330 L40 290 L70 310 L120 260 L165 320 L200 300 L250 340 L300 285 L350 330 L400 300 L450 325 L512 280 L512 360 L0 360 Z" fill="#3b1f6e"/>
+  <!-- ground -->
+  <rect x="0" y="360" width="512" height="152" fill="url(#grass)"/>
+  <rect x="0" y="360" width="512" height="8" fill="#00e436"/>
+  <g fill="#008751">
+    <rect x="30" y="450" width="12" height="6"/><rect x="180" y="478" width="12" height="6"/>
+    <rect x="420" y="462" width="12" height="6"/><rect x="300" y="492" width="12" height="6"/>
+  </g>
+  <!-- giraffe legs -->
+  <g fill="#f4b23a" stroke="#5c3a10" stroke-width="4" stroke-linejoin="round">
+    <rect x="150" y="330" width="18" height="92" rx="4"/>
+    <rect x="178" y="330" width="18" height="92" rx="4"/>
+    <rect x="236" y="330" width="18" height="92" rx="4"/>
+    <rect x="262" y="330" width="18" height="92" rx="4"/>
+  </g>
+  <g fill="#3a2410">
+    <rect x="148" y="414" width="22" height="8"/><rect x="176" y="414" width="22" height="8"/>
+    <rect x="234" y="414" width="22" height="8"/><rect x="260" y="414" width="22" height="8"/>
+  </g>
+  <!-- tail -->
+  <path d="M112 290 Q96 300 100 326" stroke="#5c3a10" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- body and neck -->
+  <g fill="#f4b23a" stroke="#5c3a10" stroke-width="4" stroke-linejoin="round">
+    <ellipse cx="200" cy="300" rx="90" ry="50"/>
+    <path d="M250 290 L298 170 L330 168 L304 300 Z"/>
+    <path d="M290 175 Q318 90 330 96 L340 130 Q330 170 320 190 Z"/>
+  </g>
+  <!-- head -->
+  <ellipse cx="345" cy="110" rx="34" ry="24" fill="#f4b23a" stroke="#5c3a10" stroke-width="4"/>
+  <path d="M330 92 L326 74 M356 92 L360 74" stroke="#5c3a10" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="326" cy="72" r="5" fill="#5c3a10"/><circle cx="360" cy="72" r="5" fill="#5c3a10"/>
+  <circle cx="352" cy="106" r="8" fill="#fff"/><circle cx="354" cy="106" r="4" fill="#000"/>
+  <circle cx="356" cy="104" r="1.5" fill="#fff"/>
+  <path d="M344 96 Q352 92 360 96" stroke="#5c3a10" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="338" cy="118" rx="5" ry="3" fill="#ff7a8a" opacity="0.7"/>
+  <path d="M362 124 Q372 132 380 120" stroke="#5c3a10" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- spots -->
+  <g fill="#b8691e" stroke="#7a4512" stroke-width="2">
+    <circle cx="170" cy="290" r="13"/><circle cx="208" cy="270" r="11"/>
+    <circle cx="232" cy="306" r="12"/><circle cx="184" cy="318" r="9"/>
+    <circle cx="300" cy="230" r="10"/><circle cx="312" cy="176" r="8"/>
+    <circle cx="282" cy="198" r="7"/><circle cx="316" cy="250" r="6"/>
+  </g>
+  <!-- front arm holding wrench -->
+  <path d="M278 320 L318 352" stroke="#5c3a10" stroke-width="20" stroke-linecap="round"/>
+  <path d="M278 320 L318 352" stroke="#f4b23a" stroke-width="12" stroke-linecap="round"/>
+  <!-- wrench -->
+  <g transform="rotate(-30 330 352)">
+    <rect x="300" y="346" width="60" height="12" rx="4" fill="#c2c3c7" stroke="#000" stroke-width="3"/>
+    <circle cx="300" cy="352" r="11" fill="#c2c3c7" stroke="#000" stroke-width="3"/>
+    <circle cx="300" cy="352" r="4" fill="#1d2b53"/>
+  </g>
+  <!-- bike: wheels with spokes -->
+  <g fill="none" stroke="#111" stroke-width="9">
+    <circle cx="380" cy="380" r="34"/>
+    <circle cx="462" cy="380" r="34"/>
+  </g>
+  <g stroke="#9aa3b5" stroke-width="2">
+    <path d="M380 346 L380 414 M346 380 L414 380 M358 358 L402 402 M402 358 L358 402"/>
+    <path d="M462 346 L462 414 M428 380 L496 380 M440 358 L484 402 M484 358 L440 402"/>
+  </g>
+  <!-- frame -->
+  <g fill="none" stroke="#ff004d" stroke-width="8" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M380 380 L414 318 L462 380 M414 318 L380 380"/>
+    <path d="M404 300 L424 300 M440 318 L452 296 L472 296"/>
+  </g>
+  <circle cx="414" cy="352" r="12" fill="none" stroke="#ffec27" stroke-width="4"/>
+  <circle cx="380" cy="380" r="5" fill="#ffec27"/><circle cx="462" cy="380" r="5" fill="#ffec27"/>
+  <!-- sparkles -->
+  <g fill="#ffec27">
+    <rect x="410" y="250" width="6" height="6"/><rect x="398" y="262" width="4" height="4"/>
+    <rect x="200" y="210" width="6" height="6"/><rect x="346" y="330" width="4" height="4"/>
+    <rect x="360" y="312" width="6" height="6"/>
+    <rect x="330" y="318" width="4" height="4"/><rect x="316" y="330" width="6" height="6"/>
+    <rect x="338" y="296" width="4" height="4"/>
+  </g>
+  <!-- wrench impact burst -->
+  <path d="M322 336 L330 344 M330 330 L332 320 M338 340 L348 336" stroke="#ffec27" stroke-width="3" stroke-linecap="round"/>
+  <!-- CRT scanlines -->
+  <g fill="#000" opacity="0.14">
+    <rect x="0" y="60" width="512" height="3"/><rect x="0" y="120" width="512" height="3"/>
+    <rect x="0" y="180" width="512" height="3"/><rect x="0" y="240" width="512" height="3"/>
+    <rect x="0" y="300" width="512" height="3"/><rect x="0" y="420" width="512" height="3"/>
+    <rect x="0" y="470" width="512" height="3"/>
+  </g>
+  <rect x="4" y="4" width="504" height="504" fill="none" stroke="#ffec27" stroke-width="8"/>
+</svg>

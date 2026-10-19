@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#18254c"/><stop offset="1" stop-color="#8d3856"/></linearGradient>
+ <linearGradient id="desk" x2="0" y2="1"><stop stop-color="#d34d43"/><stop offset="1" stop-color="#70243d"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#ffd96a"/><stop offset="1" stop-color="#ff9860"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="420" cy="102" r="57" fill="url(#sun)"/>
+<g stroke="#20233d" stroke-width="9" stroke-linecap="round"><path d="M393 96 Q420 78 447 96" fill="none"/><path d="M393 99 L416 105 L420 91 L397 86Z M424 91 L428 105 L451 99 L447 86Z" fill="#20233d"/></g>
+<path d="M35 136 H477 V350 H35Z" fill="#20233d" opacity=".72" stroke="#eb6b54" stroke-width="5"/>
+<text x="58" y="183" fill="#f8d57b" font-family="sans-serif" font-size="26" font-weight="bold" letter-spacing="4">DINOSAUR NEWS</text>
+<rect x="60" y="205" width="112" height="5" fill="#e85e55"/><rect x="185" y="205" width="265" height="5" fill="#e85e55"/>
+<circle cx="105" cy="274" r="48" fill="#243d68" stroke="#f4a35f" stroke-width="4"/><path d="M82 274 Q105 250 128 274 Q105 291 82 274" fill="#f4a35f"/><circle cx="105" cy="270" r="8" fill="#20233d"/>
+<g stroke="#20233d" stroke-width="7" stroke-linejoin="round">
+ <path d="M246 188 Q207 174 181 205 L151 252 Q137 274 159 291 L199 295 Q226 319 270 301 L317 278 Q344 265 335 235 L309 211 Q288 188 246 188Z" fill="#5e9b70"/>
+ <path d="M178 252 Q151 231 136 246 Q121 261 143 275 L184 286" fill="#5e9b70"/>
+ <path d="M194 203 L179 175 L203 184 L208 154 L226 186" fill="#5e9b70"/>
+ <path d="M244 189 Q276 156 322 177 Q359 195 337 235 Q319 263 278 249 L245 237Z" fill="#72b77a"/>
+ <path d="M337 211 L370 224 L339 243" fill="#72b77a"/>
+ <circle cx="308" cy="199" r="7" fill="#f7d66e"/><circle cx="309" cy="199" r="3" fill="#20233d"/>
+ <path d="M285 230 Q313 239 330 224" fill="none"/><path d="M276 240 L286 249 M289 243 L298 251 M302 243 L311 249" fill="none"/>
+ <path d="M222 295 L218 342 M281 294 L294 340" fill="none"/><path d="M210 341 l-17 12 M212 341 l12 12 M293 340 l-8 14 M296 340 l18 8" fill="none"/>
+</g>
+<path d="M72 334 Q256 310 440 334 L470 512 H42Z" fill="url(#desk)" stroke="#3e2036" stroke-width="7"/>
+<rect x="105" y="353" width="302" height="106" rx="12" fill="#f3d37b" stroke="#34243c" stroke-width="7"/>
+<rect x="121" y="369" width="270" height="70" rx="7" fill="#26395b"/><circle cx="256" cy="404" r="24" fill="#e65e54"/><path d="M256 388 v31 M240 404 h32" stroke="#f9dc86" stroke-width="7"/>
+<text x="173" y="426" fill="#f9dc86" font-family="sans-serif" font-size="22" font-weight="bold">LIVE</text>
+<path d="M55 478 H457" stroke="#f6bc62" stroke-width="5"/><circle cx="456" cy="478" r="9" fill="#ef6254"/>
+<g font-family="sans-serif" font-weight="bold">
+ <rect x="48" y="302" width="416" height="30" rx="5" fill="#e85e55" stroke="#34243c" stroke-width="4"/>
+ <text x="64" y="324" font-size="17" fill="#fff0b0">BREAKING: DINO ANCHOR TAKES OVER</text>
+ <rect x="365" y="373" width="18" height="10" rx="3" fill="#ef6254"/><rect x="365" y="389" width="18" height="10" rx="3" fill="#f6bc62"/>
+ <circle cx="142" cy="404" r="7" fill="#ef6254"/><circle cx="164" cy="404" r="7" fill="#f6bc62"/><circle cx="186" cy="404" r="7" fill="#72b77a"/>
+</g>
+<g stroke="#34243c" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M344 337 Q353 317 362 337 L362 355" fill="none"/><circle cx="344" cy="338" r="9" fill="#f6bc62"/>
+ <path d="M78 449 h74 l-9 16 H70Z" fill="#f6bc62"/><path d="M87 452 h54 M91 458 h40" stroke="#d34d43" stroke-width="3"/>
+ <path d="M382 449 h42" stroke="#f6bc62"/>
+</g>
+<text x="383" y="468" fill="#f9dc86" font-family="sans-serif" font-size="11" font-weight="bold">STUDIO 1</text>
+</svg>

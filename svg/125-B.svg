@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050714"/>
+      <stop offset="50%" stop-color="#0f1730"/>
+      <stop offset="100%" stop-color="#1d2645"/>
+    </linearGradient>
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffffd8" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#ffea90" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffea90" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="cornStalk" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#22190c"/>
+      <stop offset="35%" stop-color="#4a3717"/>
+      <stop offset="75%" stop-color="#634b1d"/>
+      <stop offset="100%" stop-color="#2d2210"/>
+    </linearGradient>
+    <linearGradient id="cornLeaf" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#594318"/>
+      <stop offset="100%" stop-color="#38290e"/>
+    </linearGradient>
+    <linearGradient id="ghostGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#daf3ff"/>
+      <stop offset="100%" stop-color="#8cd5ef" stop-opacity="0.85"/>
+    </linearGradient>
+    <linearGradient id="mapGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff5cc"/>
+      <stop offset="100%" stop-color="#d6bc82"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Sky & Stars -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="80" cy="70" r="1.5"/>
+    <circle cx="150" cy="40" r="1"/>
+    <circle cx="230" cy="90" r="2"/>
+    <circle cx="60" cy="160" r="1"/>
+    <circle cx="310" cy="60" r="1.5"/>
+    <circle cx="200" cy="150" r="1"/>
+    <circle cx="110" cy="210" r="1.5"/>
+  </g>
+
+  <!-- Moon -->
+  <circle cx="410" cy="100" r="110" fill="url(#moonGlow)"/>
+  <circle cx="410" cy="100" r="42" fill="#fffef0"/>
+
+  <!-- Distant Corn Field Background -->
+  <rect x="0" y="300" width="512" height="212" fill="#140f07"/>
+
+  <!-- Corn Maze Walls (Perspective Corridors) -->
+  <!-- Left Wall Structure -->
+  <path d="M0,230 L160,320 L160,512 L0,512 Z" fill="#1b140a"/>
+  <path d="M0,260 L140,340 L140,512 L0,512 Z" fill="#281f10"/>
+  
+  <!-- Right Wall Structure -->
+  <path d="M512,210 L340,320 L340,512 L512,512 Z" fill="#1b140a"/>
+  <path d="M512,240 L360,340 L360,512 L512,512 Z" fill="#281f10"/>
+
+  <!-- Detailed Corn Stalks (Foreground Left) -->
+  <g fill="url(#cornStalk)">
+    <path d="M-10,280 Q45,220 25,512 L-10,512 Z"/>
+    <path d="M35,300 Q95,240 75,512 L20,512 Z"/>
+    <path d="M85,335 Q145,275 120,512 L70,512 Z"/>
+  </g>
+  <!-- Foreground Left Leaves & Cobs -->
+  <g fill="url(#cornLeaf)">
+    <path d="M15,360 Q-25,330 -50,370 Q-15,400 25,380 Z"/>
+    <path d="M50,400 Q-5,380 -30,420 Q15,440 65,415 Z"/>
+    <path d="M75,345 Q135,325 155,365 Q125,395 85,375 Z"/>
+    <!-- Corn cobs -->
+    <ellipse cx="65" cy="385" rx="8" ry="14" fill="#ffd275" transform="rotate(25, 65, 385)"/>
+    <ellipse cx="105" cy="430" rx="7" ry="12" fill="#ffd275" transform="rotate(-15, 105, 430)"/>
+  </g>
+
+  <!-- Detailed Corn Stalks (Foreground Right) -->
+  <g fill="url(#cornStalk)">
+    <path d="M522,270 Q465,210 485,512 L522,512 Z"/>
+    <path d="M465,290 Q410,230 435,512 L455,512 Z"/>
+    <path d="M415,325 Q360,265 385,512 L405,512 Z"/>
+  </g>
+  <!-- Foreground Right Leaves & Cobs -->
+  <g fill="url(#cornLeaf)">
+    <path d="M475,350 Q535,330 555,370 Q525,400 470,385 Z"/>
+    <path d="M435,390 Q385,370 365,410 Q405,430 445,410 Z"/>
+    <!-- Corn cob -->
+    <ellipse cx="445" cy="375" rx="8" ry="13" fill="#ffd275" transform="rotate(-20, 445, 375)"/>
+  </g>
+
+  <!-- Pathway Floor -->
+  <path d="M160,320 L340,320 L440,512 L72,512 Z" fill="#120c05"/>
+  <!-- Ground track lines / texture -->
+  <line x1="200" y1="360" x2="310" y2="360" stroke="#221708" stroke-width="5"/>
+  <line x1="175" y1="410" x2="335" y2="410" stroke="#221708" stroke-width="7"/>
+  <line x1="140" y1="465" x2="370" y2="465" stroke="#221708" stroke-width="9"/>
+  <line x1="105" y1="512" x2="410" y2="512" stroke="#221708" stroke-width="10"/>
+
+  <!-- Ground Mist / Fog -->
+  <ellipse cx="256" cy="480" rx="150" ry="25" fill="#a0c0e0" opacity="0.15" filter="url(#glow)"/>
+  <ellipse cx="200" cy="420" rx="100" ry="18" fill="#a0c0e0" opacity="0.1" filter="url(#glow)"/>
+
+  <!-- The Lost Ghost & Map -->
+  <g transform="translate(256, 245)" filter="url(#glow)">
+    <!-- Ghost Body -->
+    <path d="M-36,-25 
+             C-36,-72 36,-72 36,-25 
+             C48,8 32,44 26,76 
+             C21,98 11,88 6,73 
+             C1,58 -4,88 -9,73 
+             C-14,58 -24,98 -29,76 
+             C-34,44 -48,8 -36,-25 Z" 
+          fill="url(#ghostGrad)"/>
+    
+    <!-- Big Expressive Bewildered Eyes -->
+    <ellipse cx="-13" cy="-30" rx="5.5" ry="8" fill="#0b1329"/>
+    <ellipse cx="13" cy="-30" rx="5.5" ry="8" fill="#0b1329"/>
+    <!-- Eye highlights -->
+    <circle cx="-15" cy="-32" rx="2" ry="2.5" fill="#ffffff"/>
+    <circle cx="11" cy="-32" rx="2" ry="2.5" fill="#ffffff"/>
+
+    <!-- Confused Open Mouth -->
+    <ellipse cx="0" cy="-10" rx="6.5" ry="10" fill="#0b1329"/>
+
+    <!-- Little Hands / Arms -->
+    <path d="M-36,-10 Q-48,-5 -42,5" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none"/>
+    <path d="M36,-10 Q48,-5 42,5" stroke="#ffffff" stroke-width="5" stroke-linecap="round" fill="none"/>
+
+    <!-- Map Held in Left Hand / Drooping -->
+    <g transform="translate(-45, 5) rotate(-15)">
+      <rect x="-10" y="0" width="22" height="28" rx="2" fill="url(#mapGrad)" stroke="#8c6d36" stroke-width="1.5"/>
+      <line x1="-5" y1="8" x2="5" y2="10" stroke="#b83232" stroke-width="1.5" stroke-linecap="round"/>
+      <line x1="-3" y1="16" x2="6" y2="14" stroke="#4170b8" stroke-width="1.5" stroke-linecap="round"/>
+      <circle cx="2" cy="10" r="2.5" fill="none" stroke="#b83232" stroke-width="1"/>
+    </g>
+
+    <!-- Question Mark Floating Above Ghost -->
+    <g transform="translate(28, -85) scale(0.95)" stroke="#a5f3fc" stroke-width="4.5" stroke-linecap="round" fill="none">
+      <path d="M-12,-12 C-12,-28 18,-28 18,-6 C18,12 -6,16 -6,32"/>
+      <circle cx="-6" cy="44" r="3.5" fill="#a5f3fc"/>
+    </g>
+  </g>
+
+  <!-- Glowing Fireflies -->
+  <circle cx="170" cy="200" r="3.5" fill="#fffca5" filter="url(#glow)"/>
+  <circle cx="340" cy="180" r="2.5" fill="#fffca5" filter="url(#glow)"/>
+  <circle cx="110" cy="270" r="3" fill="#fffca5" filter="url(#glow)"/>
+  <circle cx="415" cy="240" r="4" fill="#fffca5" filter="url(#glow)"/>
+  <circle cx="270" cy="160" r="2.5" fill="#fffca5" filter="url(#glow)"/>
+  <circle cx="225" cy="310" r="3" fill="#fffca5" filter="url(#glow)"/>
+</svg>

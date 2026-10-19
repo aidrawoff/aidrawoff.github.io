@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#2a1d33"/>
+  <rect y="330" width="512" height="182" fill="#3b2a45"/>
+  <!-- window -->
+  <rect x="330" y="60" width="140" height="120" rx="8" fill="#f7b733"/>
+  <rect x="330" y="60" width="140" height="120" rx="8" fill="none" stroke="#5a3d2b" stroke-width="10"/>
+  <line x1="400" y1="60" x2="400" y2="180" stroke="#5a3d2b" stroke-width="8"/>
+  <line x1="330" y1="120" x2="470" y2="120" stroke="#5a3d2b" stroke-width="8"/>
+  <!-- counter -->
+  <rect x="0" y="330" width="512" height="26" fill="#7a5230"/>
+  <rect x="0" y="356" width="512" height="156" fill="#4c3520"/>
+  <!-- zombie body: apron torso -->
+  <path d="M186 330 Q186 236 256 236 Q326 236 326 330 Z" fill="#6f9c53"/>
+  <path d="M206 330 Q206 250 256 250 Q306 250 306 330 Z" fill="#e8dcc0"/>
+  <!-- head -->
+  <ellipse cx="252" cy="180" rx="62" ry="66" fill="#7fae5e"/>
+  <ellipse cx="252" cy="180" rx="62" ry="66" fill="none" stroke="#4d7538" stroke-width="3"/>
+  <!-- chef hat -->
+  <path d="M196 122 Q190 66 252 62 Q316 66 310 122 Z" fill="#f4f1ea"/>
+  <rect x="196" y="118" width="114" height="22" rx="8" fill="#ffffff" stroke="#d5cec0" stroke-width="3"/>
+  <!-- arms -->
+  <path d="M198 262 Q150 288 138 322" stroke="#6f9c53" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M314 262 Q362 288 376 320" stroke="#6f9c53" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <circle cx="136" cy="326" r="17" fill="#8fbd6b"/>
+  <circle cx="378" cy="324" r="17" fill="#8fbd6b"/>
+  <!-- cookie sheet with dough -->
+  <rect x="330" y="316" width="150" height="18" rx="6" fill="#b9c3cc"/>
+  <circle cx="358" cy="312" r="12" fill="#d9a441"/>
+  <circle cx="392" cy="310" r="12" fill="#d9a441"/>
+  <circle cx="426" cy="312" r="12" fill="#d9a441"/>
+  <circle cx="458" cy="310" r="12" fill="#d9a441"/>
+  <!-- bowl on counter -->
+  <path d="M60 330 Q110 380 160 330 Z" fill="#c65b4e"/>
+  <!-- face: droopy eyes -->
+  <ellipse cx="228" cy="176" rx="16" ry="18" fill="#f2f0e6"/>
+  <circle cx="230" cy="182" r="7" fill="#241a12"/>
+  <ellipse cx="278" cy="172" rx="13" ry="15" fill="#f2f0e6"/>
+  <circle cx="280" cy="178" r="6" fill="#241a12"/>
+  <path d="M210 154 Q228 146 246 156" stroke="#4d7538" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M264 150 Q280 144 292 154" stroke="#4d7538" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- stitched mouth with missing teeth -->
+  <path d="M218 214 Q252 236 292 210" stroke="#2c1f16" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <rect x="238" y="212" width="12" height="14" fill="#f4f1e2"/>
+  <line x1="228" y1="206" x2="228" y2="226" stroke="#2c1f16" stroke-width="3"/>
+  <line x1="268" y1="208" x2="268" y2="228" stroke="#2c1f16" stroke-width="3"/>
+  <!-- exposed brain patch -->
+  <path d="M292 128 Q312 138 306 158" stroke="#c97f8f" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <!-- stitches on cheek -->
+  <line x1="200" y1="196" x2="214" y2="192" stroke="#33421f" stroke-width="4"/>
+  <line x1="204" y1="206" x2="218" y2="202" stroke="#33421f" stroke-width="4"/>
+  <!-- counter front panel + cabinets to fill lower frame -->
+  <rect x="0" y="356" width="512" height="156" fill="#4c3520"/>
+  <rect x="24" y="392" width="200" height="96" rx="8" fill="#5d4227" stroke="#3a2716" stroke-width="4"/>
+  <rect x="288" y="392" width="200" height="96" rx="8" fill="#5d4227" stroke="#3a2716" stroke-width="4"/>
+  <circle cx="200" cy="440" r="7" fill="#c9a15c"/>
+  <circle cx="312" cy="440" r="7" fill="#c9a15c"/>
+  <!-- warm light pool from window across the scene -->
+  <path d="M330 180 L470 180 L512 330 L300 330 Z" fill="#f7b733" opacity="0.13"/>
+  <!-- flour bag left of zombie -->
+  <path d="M40 330 L44 288 Q70 278 96 288 L100 330 Z" fill="#e9dfc6" stroke="#bfae8b" stroke-width="3"/>
+  <text x="70" y="316" font-family="sans-serif" font-size="16" font-weight="bold" fill="#7a5230" text-anchor="middle">F</text>
+  <!-- rolling pin on counter -->
+  <rect x="150" y="344" width="120" height="16" rx="8" fill="#a9743f"/>
+  <rect x="130" y="348" width="24" height="8" rx="4" fill="#8a5c30"/>
+  <rect x="266" y="348" width="24" height="8" rx="4" fill="#8a5c30"/>
+  <!-- cookie tray sitting ON counter, with handle tabs -->
+  <rect x="326" y="330" width="158" height="10" rx="5" fill="#8f9aa5"/>
+  <!-- sprinkled chocolate chips + dough ball in hand -->
+  <circle cx="136" cy="326" r="17" fill="#8fbd6b"/>
+  <circle cx="132" cy="318" r="11" fill="#e6c079"/>
+  <circle cx="200" cy="352" r="4" fill="#4a2c17"/>
+  <circle cx="300" cy="350" r="4" fill="#4a2c17"/>
+  <circle cx="248" cy="356" r="3.5" fill="#4a2c17"/>
+  <!-- oven glow at bottom right for depth -->
+  <rect x="330" y="400" width="150" height="80" rx="6" fill="#2b2020" stroke="#171010" stroke-width="4"/>
+  <rect x="344" y="414" width="122" height="52" rx="4" fill="#ff8c42" opacity="0.85"/>
+  <rect x="344" y="414" width="122" height="52" rx="4" fill="none" stroke="#ffb066" stroke-width="3"/>
+  <!-- flour dust -->
+  <circle cx="170" cy="150" r="5" fill="#fdf8ec" opacity="0.85"/>
+  <circle cx="344" cy="200" r="4" fill="#fdf8ec" opacity="0.85"/>
+  <circle cx="120" cy="230" r="6" fill="#fdf8ec" opacity="0.7"/>
+  <circle cx="420" cy="240" r="5" fill="#fdf8ec" opacity="0.7"/>
+</svg>

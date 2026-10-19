@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: warm cream gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fdf4d3" />
+      <stop offset="100%" stop-color="#f9a825" />
+    </linearGradient>
+    <filter id="eclipse" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background layer -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#bgGrad)" />
+
+  <!-- Eclipse: dark disc with soft edge -->
+  <circle cx="256" cy="256" r="120" fill="#1a1a2e" filter="url(#eclipse)" opacity="0.85"/>
+  <!-- Corona rays (sharper, more golden) -->
+  <g fill="#ffc107" opacity="0.85">
+    <polygon points="256,136 264,156 250,156"/>
+    <polygon points="256,376 264,356 250,356"/>
+    <polygon points="136,256 156,250 156,264"/>
+    <polygon points="376,256 356,250 356,264"/>
+    <polygon points="172,172 188,188 176,196"/>
+    <polygon points="340,172 324,188 336,196"/>
+    <polygon points="172,340 188,324 176,316"/>
+    <polygon points="340,340 324,324 336,316"/>
+  </g>
+
+  <!-- Yoga mat: bold teal with subtle texture -->
+  <path d="M120 420 L390 420 L380 470 L130 470 Z" fill="#009688" opacity="0.85"/>
+  <path d="M130 420 L380 420 L370 470 L120 470 Z" fill="#00bcd4" opacity="0.6"/>
+  <!-- Mat texture lines -->
+  <path d="M140 430 L370 430 M140 440 L370 440 M140 450 L370 450 M140 460 L370 460" stroke="#004d40" stroke-width="2" opacity="0.3"/>
+
+  <!-- Bee body (chunky flat shape) -->
+  <g id="body">
+    <!-- Head -->
+    <ellipse cx="280" cy="220" rx="28" ry="24" fill="#ffd700" stroke="#2c1810" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Thorax -->
+    <ellipse cx="280" cy="260" rx="32" ry="28" fill="#2c1810" stroke="#2c1810" stroke-width="4" stroke-linejoin="round"/>
+    <!-- Abdomen stripes -->
+    <rect x="250" y="270" width="60" height="80" rx="10" fill="#ffd700" stroke="#2c1810" stroke-width="4" stroke-linejoin="round"/>
+    <rect x="254" y="280" width="52" height="12" fill="#2c1810"/>
+    <rect x="254" y="300" width="52" height="12" fill="#2c1810"/>
+    <rect x="254" y="320" width="52" height="12" fill="#2c1810"/>
+    <rect x="254" y="340" width="52" height="12" fill="#2c1810"/>
+  </g>
+
+  <!-- Bee limbs (chunky flat shapes) -->
+  <g id="limbs">
+    <!-- Front left leg (raised) -->
+    <path d="M 260 270 L 240 240 L 230 230" stroke="#2c1810" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Front right leg (raised) -->
+    <path d="M 300 270 L 320 240 L 330 230" stroke="#2c1810" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Middle left leg (extended) -->
+    <path d="M 250 300 L 200 320 L 190 330" stroke="#2c1810" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Middle right leg (extended) -->
+    <path d="M 310 300 L 360 320 L 370 330" stroke="#2c1810" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Back left leg (extended, striking pose) -->
+    <path d="M 240 340 L 180 380 L 170 390" stroke="#2c1810" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Back right leg (extended, striking pose) -->
+    <path d="M 320 340 L 380 380 L 390 390" stroke="#2c1810" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <!-- Tiny antennae -->
+    <line x1="280" y1="200" x2="270" y2="180" stroke="#2c1810" stroke-width="4" stroke-linecap="round"/>
+    <line x1="280" y1="200" x2="290" y2="180" stroke="#2c1810" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Yoga pose ribbon: teal with subtle sheen -->
+  <g id="scarf">
+    <path d="M 280 220 Q 260 180 240 200 Q 220 220 240 240" stroke="#00bcd4" stroke-width="12" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 240 240 L 200 220 L 190 230" stroke="#009688" stroke-width="10" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Motion marks at point of impact (teal glow) -->
+  <g id="fx">
+    <circle cx="170" cy="390" r="12" fill="#00bcd4" opacity="0.8"/>
+    <circle cx="390" cy="390" r="12" fill="#00bcd4" opacity="0.8"/>
+    <circle cx="280" cy="200" r="8" fill="#009688" opacity="0.6"/>
+  </g>
+
+  <!-- subtle ground shadow under bee -->
+  <ellipse cx="280" cy="400" rx="60" ry="15" fill="#000000" opacity="0.12"/>
+  <!-- Tiny yoga mat shadow -->
+  <ellipse cx="255" cy="445" rx="80" ry="8" fill="#000000" opacity="0.1"/>
+
+</svg>

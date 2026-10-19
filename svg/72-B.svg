@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1a5e"/>
+      <stop offset="0.45" stop-color="#f0603c"/>
+      <stop offset="1" stop-color="#ffc861"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="120" r="58" fill="#fff2b0" opacity="0.9"/>
+  <!-- speed streaks -->
+  <g stroke="#ffffff" stroke-linecap="round" opacity="0.35">
+    <line x1="20" y1="60" x2="150" y2="110" stroke-width="6"/>
+    <line x1="30" y1="150" x2="120" y2="185" stroke-width="4"/>
+    <line x1="360" y1="240" x2="500" y2="290" stroke-width="7"/>
+    <line x1="390" y1="330" x2="505" y2="375" stroke-width="5"/>
+  </g>
+  <!-- far hills -->
+  <path d="M0 430 Q90 380 180 425 T360 420 T512 400 L512 512 L0 512 Z" fill="#3a2159" opacity="0.8"/>
+  <!-- track: big drop from top-left to bottom-right -->
+  <path d="M-20 90 C 120 90 190 200 250 300 C 310 400 380 470 540 480" fill="none" stroke="#1a1030" stroke-width="26" stroke-linecap="round"/>
+  <path d="M-20 90 C 120 90 190 200 250 300 C 310 400 380 470 540 480" fill="none" stroke="#e8452f" stroke-width="14" stroke-linecap="round"/>
+  <!-- ties -->
+  <g stroke="#ffd98a" stroke-width="6" opacity="0.9">
+    <line x1="60" y1="70" x2="60" y2="112"/>
+    <line x1="120" y1="88" x2="120" y2="130"/>
+    <line x1="180" y1="140" x2="180" y2="182"/>
+    <line x1="235" y1="230" x2="235" y2="272"/>
+    <line x1="290" y1="330" x2="290" y2="372"/>
+    <line x1="350" y1="400" x2="350" y2="442"/>
+    <line x1="420" y1="440" x2="420" y2="482"/>
+  </g>
+  <!-- support lattice -->
+  <g stroke="#2a1a4a" stroke-width="7">
+    <line x1="235" y1="272" x2="200" y2="512"/>
+    <line x1="235" y1="272" x2="280" y2="512"/>
+    <line x1="215" y1="400" x2="268" y2="400"/>
+    <line x1="420" y1="482" x2="400" y2="512"/>
+    <line x1="420" y1="482" x2="450" y2="512"/>
+  </g>
+  <!-- cart + goat, rotated along the drop -->
+  <g transform="translate(268,318) rotate(52)">
+    <rect x="-52" y="-6" width="104" height="52" rx="10" fill="#2f6fd0" stroke="#12224a" stroke-width="5"/>
+    <rect x="-52" y="-6" width="104" height="14" rx="7" fill="#f4b52a"/>
+    <circle cx="-30" cy="48" r="12" fill="#141024"/><circle cx="-30" cy="48" r="5" fill="#8899bb"/>
+    <circle cx="30" cy="48" r="12" fill="#141024"/><circle cx="30" cy="48" r="5" fill="#8899bb"/>
+    <!-- scream shock lines -->
+    <g stroke="#fff2b0" stroke-width="4" stroke-linecap="round" opacity="0.95">
+      <line x1="76" y1="-104" x2="90" y2="-118"/>
+      <line x1="88" y1="-88" x2="106" y2="-92"/>
+      <line x1="62" y1="-118" x2="68" y2="-136"/>
+    </g>
+    <!-- back legs kicking up (behind body) -->
+    <path d="M-24 -34 Q-46 -58 -60 -50" stroke="#e2d6c1" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- goat body -->
+    <ellipse cx="-6" cy="-22" rx="30" ry="21" fill="#efe6d6" stroke="#4a3b2c" stroke-width="4"/>
+    <!-- front legs flailing forward/up -->
+    <path d="M4 -36 Q22 -58 14 -76" stroke="#efe6d6" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <path d="M12 -30 Q38 -40 40 -54" stroke="#f5eee0" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- neck -->
+    <path d="M16 -32 Q30 -44 36 -54" stroke="#efe6d6" stroke-width="20" fill="none" stroke-linecap="round"/>
+    <!-- head, big and readable -->
+    <ellipse cx="50" cy="-80" rx="21" ry="17" fill="#f7f0e2" stroke="#4a3b2c" stroke-width="4.5" transform="rotate(-22 50 -80)"/>
+    <!-- muzzle dropped open screaming -->
+    <path d="M60 -70 Q74 -66 76 -52 Q70 -46 60 -52 Z" fill="#f7f0e2" stroke="#4a3b2c" stroke-width="4"/>
+    <ellipse cx="69" cy="-56" rx="7" ry="10" fill="#5c1f22" transform="rotate(-18 69 -56)"/>
+    <!-- horns swept back -->
+    <path d="M38 -92 Q20 -104 8 -98" stroke="#8a6a3c" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <path d="M50 -95 Q44 -116 30 -120" stroke="#a37c46" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- eye wide with terror -->
+    <circle cx="48" cy="-86" r="7" fill="#ffffff"/><circle cx="50" cy="-86" r="3.4" fill="#1a1018"/>
+    <!-- ear flapping back -->
+    <path d="M32 -80 Q14 -76 8 -64" stroke="#d9c9b4" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- beard -->
+    <path d="M64 -48 Q70 -36 62 -28" stroke="#cbbb9e" stroke-width="7" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- safety bar over the goat -->
+  <path d="M236 300 Q262 268 296 292" stroke="#12224a" stroke-width="7" fill="none" opacity="0.55"/>
+  <!-- motion blur ghost behind cart -->
+  <g opacity="0.3" transform="translate(215,238) rotate(52)">
+    <rect x="-46" y="-4" width="92" height="44" rx="9" fill="#7fb2ff"/>
+  </g>
+  <!-- flying hay / drool bits -->
+  <g fill="#ffe9a8">
+    <circle cx="180" cy="180" r="5"/>
+    <circle cx="330" cy="200" r="4"/>
+    <circle cx="150" cy="300" r="6"/>
+    <circle cx="360" cy="150" r="4"/>
+  </g>
+</svg>

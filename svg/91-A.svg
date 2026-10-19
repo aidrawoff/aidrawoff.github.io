@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <radialGradient id="bg"><stop stop-color="#283b66"/><stop offset="1" stop-color="#0b1028"/></radialGradient>
+ <linearGradient id="mat" x2="0" y2="1"><stop stop-color="#c76b55"/><stop offset="1" stop-color="#733b49"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<!-- background -->
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="408" cy="90" r="52" fill="#f7e6ae" opacity=".9"/>
+<circle cx="392" cy="78" r="52" fill="#18264b"/>
+<path d="M350 136 Q408 155 466 136" fill="none" stroke="#f7e6ae" stroke-width="2" opacity=".35"/>
+<g fill="#f7e6ae" opacity=".75"><circle cx="82" cy="92" r="2"/><circle cx="126" cy="50" r="2"/><circle cx="460" cy="170" r="2"/><circle cx="50" cy="205" r="2"/><circle cx="330" cy="50" r="2"/></g>
+<path d="M35 400 Q115 365 185 397 T335 390 T490 402 V512H35Z" fill="#11182c"/>
+<path d="M75 455 Q256 430 438 455" stroke="#e9a66c" stroke-width="4" opacity=".5" fill="none"/>
+<ellipse cx="257" cy="431" rx="178" ry="20" fill="#e9a66c" opacity=".18" filter="url(#glow)"/>
+<ellipse cx="256" cy="402" rx="138" ry="15" fill="#060a18" opacity=".6"/>
+<!-- yoga mat --> <rect x="91" y="415" width="330" height="47" rx="23" fill="url(#mat)" stroke="#f0ad77" stroke-width="3"/>
+<!-- aura --> <circle cx="256" cy="246" r="164" fill="none" stroke="#f5d98c" stroke-width="3" opacity=".28"/>
+<!-- raised arms, skull, ribcage -->
+<g fill="none" stroke="#f3e8cf" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+ <path d="M225 185 L174 132 L138 78"/><path d="M287 185 L338 132 L374 78"/>
+ <path d="M138 78 l-16 -15 M138 78 l4 -22 M374 78 l16 -15 M374 78 l-4 -22" stroke-width="7"/>
+ <ellipse cx="256" cy="145" rx="42" ry="49" fill="#17213e" stroke-width="9"/>
+ <path d="M222 137 Q256 120 290 137 M230 157 Q256 169 282 157 M246 181 L246 193 M266 181 L266 193" stroke-width="5"/>
+ <path d="M256 194 L256 295"/><path d="M218 207 Q256 225 294 207 M215 226 Q256 245 297 226 M214 248 Q256 266 298 248 M218 271 Q256 288 294 271" stroke-width="7"/>
+ <path d="M219 205 L191 275 L207 329 M293 205 L321 275 L305 329"/>
+ <!-- bent leg lotus --> <path d="M256 295 L225 350 L170 383 L128 365"/><path d="M256 295 L287 350 L342 383 L384 365"/>
+ <path d="M170 383 Q256 416 342 383" stroke-width="8"/>
+</g>
+<!-- calm, focused expression -->
+<g fill="#f3e8cf"><circle cx="242" cy="145" r="3"/><circle cx="270" cy="145" r="3"/></g>
+<path d="M249 158 Q256 162 263 158" fill="none" stroke="#f3e8cf" stroke-width="3" stroke-linecap="round"/>
+<!-- joints and hands -->
+<g fill="#f3e8cf"><circle cx="256" cy="194" r="9"/><circle cx="219" cy="205" r="8"/><circle cx="293" cy="205" r="8"/><circle cx="225" cy="350" r="8"/><circle cx="287" cy="350" r="8"/><circle cx="138" cy="78" r="8"/><circle cx="374" cy="78" r="8"/></g>
+<!-- candle-like foreground accents -->
+<g fill="#f7c86b"><circle cx="72" cy="373" r="5"/><circle cx="445" cy="346" r="5"/></g>
+<path d="M72 365 Q64 350 72 339 Q80 350 72 365 M445 338 Q437 323 445 312 Q453 323 445 338" fill="#ff9c55" opacity=".8"/>
+<!-- simple lotus marks -->
+<g fill="none" stroke="#f5c77b" stroke-width="3" opacity=".7">
+ <path d="M55 405 Q70 389 85 405 Q70 401 55 405 M61 405 Q70 381 79 405"/>
+ <path d="M427 405 Q442 389 457 405 Q442 401 427 405 M433 405 Q442 381 451 405"/>
+</g>
+</svg>

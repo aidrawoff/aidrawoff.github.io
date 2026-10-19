@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#2a2550"/>
+      <stop offset="100%" stop-color="#07061a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ffe9a8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#c9cde8"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="220" r="210" fill="url(#glow)"/>
+  <!-- floor shadow -->
+  <ellipse cx="256" cy="452" rx="130" ry="18" fill="#000" opacity="0.5"/>
+  <!-- ghost body, bare and wobbly -->
+  <path d="M176 452 C170 380 168 300 180 230 C190 150 220 110 258 108 C300 108 330 150 336 230 C344 300 340 380 340 452 L318 436 L298 452 L276 436 L256 452 L236 436 L214 452 L194 436 Z" fill="url(#ghost)"/>
+  <ellipse cx="260" cy="474" rx="150" ry="10" fill="#000" opacity="0.4"/>
+  <path d="M184 240 C176 290 176 340 180 400" fill="none" stroke="#e8ecff" stroke-width="4" opacity="0.6"/>
+  <!-- rim light on the edge -->
+  <path d="M258 108 C300 108 330 150 336 230" fill="none" stroke="#fff6d6" stroke-width="5" opacity="0.9"/>
+  <!-- eyes: lowered lids, embarrassed -->
+  <ellipse cx="226" cy="210" rx="11" ry="14" fill="#1b1640"/>
+  <ellipse cx="290" cy="210" rx="11" ry="14" fill="#1b1640"/>
+  <path d="M208 200 L242 190" stroke="#1b1640" stroke-width="6" stroke-linecap="round"/>
+  <path d="M272 190 L306 200" stroke="#1b1640" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="208" cy="238" rx="9" ry="5" fill="#ff9ec4" opacity="0.6"/>
+  <ellipse cx="308" cy="238" rx="9" ry="5" fill="#ff9ec4" opacity="0.6"/>
+  <path d="M322 178 Q328 190 322 198 Q316 190 322 178 Z" fill="#9fe3ff"/>
+  <circle cx="230" cy="206" r="3" fill="#fff"/>
+  <circle cx="294" cy="206" r="3" fill="#fff"/>
+  <path d="M120 150 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 z" fill="#fff6d6" opacity="0.8"/>
+  <path d="M400 110 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 z" fill="#fff6d6" opacity="0.7"/>
+  <!-- mouth -->
+  <path d="M236 256 Q258 244 282 256" fill="none" stroke="#1b1640" stroke-width="5" stroke-linecap="round"/>
+  <!-- the forgotten sheet, crumpled on the floor -->
+  <path d="M120 470 C140 438 180 432 210 446 C240 430 290 432 310 448 C340 438 390 440 410 470 C370 490 150 492 120 470 Z" fill="#f4f4fb" stroke="#b9bfd9" stroke-width="3"/>
+  <path d="M150 468 Q230 452 300 466" fill="none" stroke="#b9bfd9" stroke-width="3"/>
+  <path d="M330 452 Q360 440 386 458" fill="none" stroke="#b9bfd9" stroke-width="3"/>
+  <path d="M190 480 Q250 486 330 478" fill="none" stroke="#9aa1c4" stroke-width="2" opacity="0.7"/>
+</svg>

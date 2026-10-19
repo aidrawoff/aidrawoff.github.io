@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <radialGradient id="sky" cx="50%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#1a0a2e"/>
+    <stop offset="60%" stop-color="#0d0221"/>
+    <stop offset="100%" stop-color="#05010f"/>
+  </radialGradient>
+  <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#fff8dc"/>
+    <stop offset="70%" stop-color="#ffd700"/>
+    <stop offset="100%" stop-color="#ff8c00" stop-opacity="0.3"/>
+  </radialGradient>
+  <radialGradient id="spot" cx="50%" cy="30%" r="60%">
+    <stop offset="0%" stop-color="#ffeb3b" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#ffeb3b" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<!-- sky -->
+<rect width="512" height="512" fill="url(#sky)"/>
+
+<!-- moon -->
+<circle cx="420" cy="80" r="45" fill="url(#moon)"/>
+
+<!-- ground -->
+<ellipse cx="256" cy="460" rx="280" ry="60" fill="#1a1208"/>
+<ellipse cx="256" cy="455" rx="260" ry="50" fill="#2d1f0f"/>
+
+<!-- curtains -->
+<path d="M0 200 Q40 300 0 400 L0 512 L60 512 L60 200 Z" fill="#4a0000"/>
+<path d="M512 200 Q472 300 512 400 L512 512 L452 512 L452 200 Z" fill="#4a0000"/>
+<path d="M0 200 Q30 280 0 360" stroke="#7f0000" stroke-width="3" fill="none"/>
+<path d="M512 200 Q482 280 512 360" stroke="#7f0000" stroke-width="3" fill="none"/>
+<!-- stage -->
+<rect x="86" y="380" width="340" height="20" fill="#5d4037" rx="4"/>
+<rect x="80" y="400" width="352" height="40" fill="#3e2723" rx="4"/>
+<rect x="86" y="380" width="340" height="6" fill="#795548" rx="2"/>
+
+<!-- spotlight beams -->
+<ellipse cx="256" cy="390" rx="140" ry="25" fill="url(#spot)"/>
+<path d="M120 0 L180 390 L210 390 L160 0 Z" fill="#ffeb3b" opacity="0.08"/>
+<path d="M392 0 L332 390 L302 390 L352 0 Z" fill="#ffeb3b" opacity="0.08"/>
+
+<!-- left pumpkin: singer with mic -->
+<g id="singer">
+  <!-- body -->
+  <ellipse cx="180" cy="340" rx="55" ry="50" fill="#ff6f00"/>
+  <ellipse cx="180" cy="340" rx="50" ry="45" fill="#ff8f00"/>
+  <!-- ridges -->
+  <path d="M180 295 Q195 340 180 385" stroke="#e65100" stroke-width="3" fill="none"/>
+  <path d="M160 305 Q170 340 160 375" stroke="#e65100" stroke-width="3" fill="none"/>
+  <path d="M200 305 Q190 340 200 375" stroke="#e65100" stroke-width="3" fill="none"/>
+  <!-- stem -->
+  <path d="M175 295 Q170 270 185 260 Q195 265 190 295" fill="#4a7c2a"/>
+  <!-- face -->
+  <ellipse cx="165" cy="330" rx="10" ry="12" fill="#1a0a00"/>
+  <ellipse cx="195" cy="330" rx="10" ry="12" fill="#1a0a00"/>
+  <ellipse cx="167" cy="328" rx="3" ry="4" fill="#ffeb3b"/>
+  <ellipse cx="197" cy="328" rx="3" ry="4" fill="#ffeb3b"/>
+  <!-- mouth singing -->
+  <ellipse cx="180" cy="355" rx="14" ry="10" fill="#1a0a00"/>
+  <ellipse cx="180" cy="353" rx="10" ry="6" fill="#ff5722"/>
+  <!-- mic -->
+  <rect x="210" y="310" width="4" height="40" fill="#555" rx="2"/>
+  <circle cx="212" cy="308" r="7" fill="#333"/>
+  <circle cx="212" cy="308" r="5" fill="#777"/>
+</g>
+
+<!-- right pumpkin: dancer with cane -->
+<g id="dancer">
+  <!-- body -->
+  <ellipse cx="330" cy="340" rx="55" ry="50" fill="#ff6f00"/>
+  <ellipse cx="330" cy="340" rx="50" ry="45" fill="#ff8f00"/>
+  <!-- ridges -->
+  <path d="M330 295 Q345 340 330 385" stroke="#e65100" stroke-width="3" fill="none"/>
+  <path d="M310 305 Q320 340 310 375" stroke="#e65100" stroke-width="3" fill="none"/>
+  <path d="M350 305 Q340 340 350 375" stroke="#e65100" stroke-width="3" fill="none"/>
+  <!-- top hat -->
+  <rect x="310" y="245" width="40" height="8" fill="#1a1a1a" rx="2"/>
+  <rect x="315" y="215" width="30" height="30" fill="#1a1a1a" rx="2"/>
+  <rect x="315" y="240" width="30" height="5" fill="#333" rx="1"/>
+  <!-- stem -->
+  <path d="M325 295 Q320 270 335 260 Q345 265 340 295" fill="#4a7c2a"/>
+  <!-- face -->
+  <ellipse cx="315" cy="330" rx="10" ry="12" fill="#1a0a00"/>
+  <ellipse cx="345" cy="330" rx="10" ry="12" fill="#1a0a00"/>
+  <ellipse cx="317" cy="328" rx="3" ry="4" fill="#ffeb3b"/>
+  <ellipse cx="347" cy="328" rx="3" ry="4" fill="#ffeb3b"/>
+  <!-- smile -->
+  <path d="M315 355 Q330 370 345 355" stroke="#1a0a00" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- cane -->
+  <path d="M360 380 L365 300" stroke="#8d6e63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M360 300 Q365 290 375 295" stroke="#8d6e63" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- arm up -->
+  <path d="M280 340 Q260 300 270 280" stroke="#ff6f00" stroke-width="8" fill="none" stroke-linecap="round"/>
+</g>
+
+<!-- audience pumpkins in foreground -->
+<ellipse cx="100" cy="470" rx="25" ry="20" fill="#bf360c"/>
+<ellipse cx="100" cy="468" rx="20" ry="16" fill="#e65100"/>
+<circle cx="92" cy="465" r="4" fill="#1a0a00"/>
+<circle cx="108" cy="465" r="4" fill="#1a0a00"/>
+
+<ellipse cx="412" cy="475" rx="28" ry="22" fill="#bf360c"/>
+<ellipse cx="412" cy="473" rx="23" ry="18" fill="#e65100"/>
+<circle cx="404" cy="470" r="4" fill="#1a0a00"/>
+<circle cx="420" cy="470" r="4" fill="#1a0a00"/>
+
+<ellipse cx="256" cy="485" rx="30" ry="24" fill="#bf360c"/>
+<ellipse cx="256" cy="483" rx="25" ry="20" fill="#e65100"/>
+<circle cx="247" cy="480" r="5" fill="#1a0a00"/>
+<circle cx="265" cy="480" r="5" fill="#1a0a00"/>
+<path d="M248 490 Q256 498 264 490" stroke="#1a0a00" stroke-width="2" fill="none"/>
+
+<!-- stars -->
+<circle cx="60" cy="50" r="1.5" fill="#fff"/>
+<circle cx="120" cy="80" r="1" fill="#fff"/>
+<circle cx="200" cy="40" r="2" fill="#fff"/>
+<circle cx="350" cy="60" r="1.5" fill="#fff"/>
+<circle cx="480" cy="90" r="1" fill="#fff"/>
+<circle cx="90" cy="130" r="1" fill="#fff"/>
+<circle cx="300" cy="100" r="1.5" fill="#fff"/>
+</svg>

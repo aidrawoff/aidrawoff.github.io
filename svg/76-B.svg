@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#3a2f5c"/>
+      <stop offset="60%" stop-color="#1d1836"/>
+      <stop offset="100%" stop-color="#0b0918"/>
+    </radialGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#bcd0ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <rect y="400" width="512" height="112" fill="#15112b"/>
+  <!-- bunting banner -->
+  <path d="M8 40 Q256 92 504 40" fill="none" stroke="#6b5aa8" stroke-width="4"/>
+  <g>
+    <path d="M60 52 l16 34 l16 -30 z" fill="#ff5d8f"/>
+    <path d="M140 66 l16 34 l16 -28 z" fill="#ffd166"/>
+    <path d="M222 74 l16 34 l16 -30 z" fill="#4ecdc4"/>
+    <path d="M302 72 l16 34 l16 -32 z" fill="#ff9f43"/>
+    <path d="M382 60 l16 32 l16 -30 z" fill="#a55eea"/>
+  </g>
+  <!-- balloons -->
+  <g>
+    <ellipse cx="52" cy="170" rx="30" ry="36" fill="#ff5d8f"/>
+    <path d="M52 206 l-6 10 h12 z" fill="#ff5d8f"/>
+    <path d="M52 216 q10 40 -4 70" stroke="#8f7fb8" stroke-width="2" fill="none"/>
+    <ellipse cx="462" cy="150" rx="26" ry="32" fill="#4ecdc4"/>
+    <path d="M462 182 l-6 10 h12 z" fill="#4ecdc4"/>
+    <path d="M462 192 q-12 40 4 70" stroke="#8f7fb8" stroke-width="2" fill="none"/>
+  </g>
+  <!-- candle light pooling on the ghost -->
+  <ellipse cx="256" cy="300" rx="120" ry="90" fill="#ffcf6b" opacity="0.16"/>
+  <!-- table + cake (in front of ghost) -->
+  <rect x="112" y="430" width="288" height="16" rx="5" fill="#4a3a6e"/>
+  <rect x="150" y="446" width="212" height="6" fill="#332852"/>
+  <g>
+    <rect x="188" y="386" width="136" height="46" rx="8" fill="#f2a3c0"/>
+    <rect x="208" y="352" width="96" height="38" rx="8" fill="#f7c56b"/>
+    <path d="M188 400 q22 14 45 0 q22 14 45 0 q23 14 46 0 v-14 h-136 z" fill="#fff0f5"/>
+    <circle cx="222" cy="416" r="4" fill="#c9688d"/>
+    <circle cx="256" cy="422" r="4" fill="#c9688d"/>
+    <circle cx="290" cy="416" r="4" fill="#c9688d"/>
+    <g stroke="#fff6e0" stroke-width="5">
+      <line x1="228" y1="330" x2="228" y2="352"/>
+      <line x1="256" y1="324" x2="256" y2="352"/>
+      <line x1="284" y1="330" x2="284" y2="352"/>
+    </g>
+    <g fill="#ffdd55">
+      <ellipse cx="228" cy="322" rx="5" ry="9"/>
+      <ellipse cx="256" cy="316" rx="5" ry="9"/>
+      <ellipse cx="284" cy="322" rx="5" ry="9"/>
+    </g>
+    <g fill="#fff3b0" opacity="0.85">
+      <ellipse cx="228" cy="320" rx="2" ry="4"/>
+      <ellipse cx="256" cy="314" rx="2" ry="4"/>
+      <ellipse cx="284" cy="320" rx="2" ry="4"/>
+    </g>
+  </g>
+  <!-- GHOST -->
+  <g>
+    <path d="M170 250 q0 -90 86 -90 q86 0 86 90 v72 q-14 -16 -28 0 q-14 16 -28 0 q-14 -16 -28 0 q-14 16 -29 0 q-14 -16 -30 0 z" fill="url(#sheet)" opacity="0.93"/>
+    <ellipse cx="228" cy="212" rx="13" ry="17" fill="#241d3d"/>
+    <ellipse cx="284" cy="212" rx="13" ry="17" fill="#241d3d"/>
+    <ellipse cx="232" cy="206" rx="4" ry="5" fill="#fff"/>
+    <ellipse cx="288" cy="206" rx="4" ry="5" fill="#fff"/>
+    <ellipse cx="256" cy="252" rx="14" ry="18" fill="#241d3d"/>
+    <!-- party hat -->
+    <path d="M256 128 l34 58 l-68 0 z" fill="#ff5d8f"/>
+    <path d="M232 168 q24 10 48 0" stroke="#ffd166" stroke-width="4" fill="none"/>
+    <circle cx="256" cy="124" r="8" fill="#ffd166"/>
+    <!-- arms -->
+    <path d="M176 258 q-30 6 -34 30 q22 6 40 -10 z" fill="#dbe7fa"/>
+    <path d="M336 258 q30 6 34 30 q-22 6 -40 -10 z" fill="#dbe7fa"/>
+  </g>
+  <!-- confetti -->
+  <g>
+    <rect x="110" y="250" width="8" height="8" fill="#ffd166" transform="rotate(20 114 254)"/>
+    <rect x="396" y="270" width="8" height="8" fill="#4ecdc4" transform="rotate(-30 400 274)"/>
+    <circle cx="140" cy="330" r="4" fill="#ff5d8f"/>
+    <circle cx="380" cy="340" r="4" fill="#a55eea"/>
+    <rect x="330" y="120" width="7" height="7" fill="#ff9f43" transform="rotate(35 333 123)"/>
+    <circle cx="180" cy="120" r="4" fill="#4ecdc4"/>
+    <rect x="96" y="380" width="7" height="7" fill="#ff9f43" transform="rotate(45 99 383)"/>
+    <circle cx="424" cy="392" r="4" fill="#ffd166"/>
+    <rect x="404" y="196" width="7" height="7" fill="#ff5d8f" transform="rotate(-20 407 199)"/>
+    <circle cx="112" cy="212" r="3" fill="#a55eea"/>
+  </g>
+</svg>

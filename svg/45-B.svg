@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: jelly jungle base -->
+  <rect width="512" height="512" fill="#d4f4ff"/>
+  <!-- Jelly texture filter -->
+  <filter id="jelly" x="-20%" y="-20%" width="140%" height="140%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="2" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="4" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+  <!-- Jelly highlights overlay -->
+  <g filter="url(#jelly)" opacity="0.25">
+    <rect x="0" y="0" width="512" height="512" fill="#d4f4ff"/>
+  </g>
+  <!-- Duck body (jelly) -->
+  <g id="duck">
+    <!-- Body blob -->
+    <ellipse cx="256" cy="288" rx="64" ry="48" fill="#ff9e40" opacity="0.95"/>
+    <!-- Head -->
+    <circle cx="256" cy="208" r="40" fill="#ff9e40" opacity="0.95"/>
+    <!-- Beak -->
+    <path d="M216 208l48-24-8-16-40 20-40-20-8 16z" fill="#ff5c33" opacity="0.95"/>
+    <!-- Eye -->
+    <circle cx="236" cy="196" r="6" fill="#000" opacity="0.9"/>
+    <!-- Confident smile -->
+    <path d="M240 224c6 6 16 6 22 0" stroke="#000" stroke-width="2" fill="none" opacity="0.8"/>
+    <!-- Suit jacket (jelly folds) -->
+    <path d="M208 208h96v96c0 26.5-21.5 48-48 48s-48-21.5-48-48V208z" fill="#0055aa" opacity="0.9"/>
+    <!-- Tie (jelly blob) -->
+    <path d="M256 240c-16 0-28 12-28 28s12 28 28 28 28-12 28-28-12-28-28-28z" fill="#aa0055" opacity="0.95"/>
+    <!-- Tie knot gloss -->
+    <ellipse cx="256" cy="264" rx="8" ry="6" fill="#ffffff" opacity="0.5"/>
+    <!-- Cufflinks -->
+    <circle cx="224" cy="280" r="4" fill="#ffd700" opacity="0.95"/>
+    <circle cx="288" cy="280" r="4" fill="#ffd700" opacity="0.95"/>
+    <!-- Fedora (jelly) -->
+    <path d="M232 168c-24 0-40 16-40 40v48h80v-48c0-24-16-40-40-40z" fill="#0055aa" opacity="0.9"/>
+    <circle cx="256" cy="168" r="24" fill="#0055aa" opacity="0.9"/>
+    <!-- Briefcase (jelly) -->
+    <rect x="208" y="320" width="96" height="64" rx="8" fill="#333333" opacity="0.9"/>
+    <rect x="216" y="328" width="80" height="48" rx="4" fill="#555555" opacity="0.95"/>
+  </g>
+  <!-- Jelly highlights on duck -->
+  <ellipse cx="256" cy="208" rx="32" ry="24" fill="#ffffff" opacity="0.2" filter="url(#jelly)"/>
+  <ellipse cx="256" cy="288" rx="48" ry="32" fill="#ffffff" opacity="0.15" filter="url(#jelly)"/>
+  <!-- Dense jungle vines/leaves (jelly-like) -->
+  <g fill="#00aa44" opacity="0.65">
+    <path d="M40 40c10-5 20 0 25 10s5 20-5 25-20 5-25-5-5-20 5-25 20-5z"/>
+    <path d="M80 60c8-4 16 2 20 10s2 16-6 18-16-2-20-10-2-16 6-18 16-2z"/>
+    <path d="M120 40c12-6 24 0 30 12s6 24-6 30-24 0-30-12-6-24 6-30 24 0z"/>
+    <path d="M480 40c-10-5-20 0-25 10s-5 20 5 25 20 5 25-5 5-20-5-25-20-5z"/>
+    <path d="M440 60c-8-4-16 2-20 10s-2 16 6 18 16-2 20-10 2-16-6-18-16-2z"/>
+    <path d="M400 40c-12-6-24 0-30 12s-6 24 6 30 24 0 30-12 6-24-6-30-24 0z"/>
+    <path d="M40 440c10-5 20 0 25 10s5 20-5 25-20 5-25-5-5-20 5-25 20-5z"/>
+    <path d="M80 420c8-4 16 2 20 10s2 16-6 18-16-2-20-10-2-16 6-18 16-2z"/>
+    <path d="M120 440c12-6 24 0 30 12s6 24-6 30-24 0-30-12-6-24 6-30 24 0z"/>
+    <path d="M480 440c-10-5-20 0-25 10s-5 20 5 25 20 5 25-5 5-20-5-25-20-5z"/>
+    <path d="M440 420c-8-4-16 2-20 10s-2 16 6 18 16-2 20-10 2-16-6-18-16-2z"/>
+    <path d="M400 440c-12-6-24 0-30 12s-6 24 6 30 24 0 30-12 6-24-6-30-24 0z"/>
+  </g>
+</svg>

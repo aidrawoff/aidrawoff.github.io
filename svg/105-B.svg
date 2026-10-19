@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  <!-- Moon glow -->
+  <circle cx="420" cy="80" r="70" fill="#f5f3ce" opacity="0.5"/>
+  <circle cx="420" cy="80" r="50" fill="#f5f3ce" opacity="0.7"/>
+  <circle cx="420" cy="80" r="20" fill="#f5f3ce" opacity="0.9"/>
+  <!-- Ground shadow -->
+  <rect x="0" y="400" width="512" height="112" fill="#1a1a2e"/>
+  <!-- Skeleton on rollerskates -->
+  <!-- Head (skull) -->
+  <circle cx="256" cy="180" r="24" fill="#e0e0e0"/>
+  <!-- Body (spine) -->
+  <path d="M256 204 v45 l-8 12 l8-12 z" stroke="#e0e0e0" stroke-width="8" stroke-linecap="round"/>
+  <!-- Ribcage -->
+  <path d="M220 220 h72" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <!-- Arms -->
+  <path d="M190 220 h-30" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M322 220 h30" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <!-- Legs angled for motion -->
+  <path d="M220 280 v60 l-6 15 l6-15 z" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <path d="M292 280 v60 l6 15 l-6-15 z" stroke="#e0e0e0" stroke-width="6" stroke-linecap="round"/>
+  <!-- Motion blur for speed -->
+  <path d="M210 280 v70" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M302 280 v70" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M180 220 h-20" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <path d="M332 220 h20" stroke="#e0e0e0" stroke-width="4" stroke-linecap="round" opacity="0.4"/>
+  <!-- Rollerskates -->
+  <rect x="200" y="348" width="32" height="12" rx="4" fill="#333"/>
+  <rect x="200" y="348" width="32" height="4" rx="2" fill="#555"/>
+  <rect x="260" y="348" width="32" height="12" rx="4" fill="#333"/>
+  <rect x="260" y="348" width="32" height="4" rx="2" fill="#555"/>
+  <!-- Candle in "hand" -->
+  <rect x="150" y="205" width="8" height="20" fill="#ffcc88"/>
+  <circle cx="154" cy="195" r="8" fill="#ff9800"/>
+  <!-- Fear: trembling edges on body -->
+  <path d="M220 220 h72 l0 15 l-72 0 z" fill="#e0e0e0" opacity="0.7"/>
+  <path d="M256 204 v50 l-15 8 l15-8 z" fill="#e0e0e0" opacity="0.7"/>
+  <!-- Tiny light source (candle glow) -->
+  <circle cx="154" cy="195" r="14" fill="#ffcc88" opacity="0.2"/>
+  <!-- Subtle shadow under skates -->
+  <ellipse cx="216" cy="364" rx="18" ry="6" fill="#000000" opacity="0.3"/>
+  <ellipse cx="276" cy="364" rx="18" ry="6" fill="#000000" opacity="0.3"/>
+</svg>

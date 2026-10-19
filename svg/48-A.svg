@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- background -->
+  <rect x="0" y="0" width="512" height="512" fill="#2b1d4a"/>
+  <circle cx="256" cy="200" r="175" fill="#3d2a63"/>
+  <!-- stage table -->
+  <rect x="0" y="392" width="512" height="120" fill="#6b3f2a"/>
+  <rect x="0" y="384" width="512" height="14" fill="#8a5636"/>
+  <!-- worm body rising out of hat -->
+  <g stroke="#1d7a4b" stroke-width="3" fill="#4cc27a">
+    <circle cx="236" cy="236" r="30"/>
+    <circle cx="262" cy="190" r="32"/>
+    <circle cx="236" cy="142" r="31"/>
+    <circle cx="262" cy="98" r="29"/>
+  </g>
+  <!-- worm head with face -->
+  <circle cx="292" cy="72" r="36" fill="#7be39b" stroke="#1d7a4b" stroke-width="3"/>
+  <circle cx="280" cy="64" r="6" fill="#15131a"/>
+  <circle cx="304" cy="64" r="6" fill="#15131a"/>
+  <circle cx="282" cy="62" r="2" fill="#fff"/>
+  <circle cx="306" cy="62" r="2" fill="#fff"/>
+  <path d="M276 84 Q292 102 308 84" stroke="#15131a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- top hat sitting on stage -->
+  <ellipse cx="236" cy="350" rx="72" ry="10" fill="#0d0b11"/>
+  <rect x="180" y="262" width="112" height="88" fill="#15131a"/>
+  <rect x="180" y="262" width="112" height="16" fill="#c8323c"/>
+  <rect x="164" y="340" width="144" height="16" rx="4" fill="#15131a"/>
+  <ellipse cx="236" cy="262" rx="56" ry="10" fill="#241f2c"/>
+  <!-- body stripes -->
+  <g stroke="#1d7a4b" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M222 224 Q236 236 250 224"/>
+    <path d="M232 178 Q248 190 262 178"/>
+    <path d="M222 130 Q236 142 250 130"/>
+    <path d="M250 86 Q262 98 276 86"/>
+  </g>
+  <!-- puff of magic smoke from the hat -->
+  <g fill="#e6dcff" opacity="0.8">
+    <circle cx="196" cy="252" r="10"/>
+    <circle cx="218" cy="246" r="12"/>
+    <circle cx="246" cy="250" r="11"/>
+    <circle cx="270" cy="256" r="9"/>
+  </g>
+  <!-- magic wand held by worm's hand -->
+  <circle cx="318" cy="104" r="11" fill="#7be39b" stroke="#1d7a4b" stroke-width="3"/>
+  <line x1="318" y1="100" x2="382" y2="40" stroke="#f5d342" stroke-width="6" stroke-linecap="round"/>
+  <path d="M386 36 l5 -14 l5 14 l14 5 l-14 5 l-5 14 l-5 -14 l-14 -5 z" fill="#ffe98a"/>
+  <!-- coffee cup on table -->
+  <path d="M396 338 L430 338 L424 384 L402 384 Z" fill="#f4f1ea" stroke="#9c948a" stroke-width="2"/>
+  <path d="M430 346 Q446 346 444 360 Q442 372 426 372" stroke="#9c948a" stroke-width="5" fill="none"/>
+  <ellipse cx="413" cy="338" rx="17" ry="4" fill="#5a3320"/>
+  <path d="M406 320 Q402 310 408 302 Q414 294 408 284" stroke="#d9d4cc" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M420 318 Q416 308 422 300" stroke="#d9d4cc" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- rosy cheeks and a grin-line for charm -->
+  <circle cx="276" cy="78" r="5" fill="#ff8fa3" opacity="0.8"/>
+  <circle cx="308" cy="78" r="5" fill="#ff8fa3" opacity="0.8"/>
+  <!-- sparkle trail from the wand -->
+  <circle cx="352" cy="92" r="3" fill="#ffe98a"/>
+  <circle cx="366" cy="74" r="2.5" fill="#ffe98a"/>
+  <circle cx="404" cy="58" r="2" fill="#ffe98a"/>
+  <!-- sparkles -->
+  <path d="M110 120 l6 -18 l6 18 l18 6 l-18 6 l-6 18 l-6 -18 l-18 -6 z" fill="#ffe98a"/>
+  <path d="M420 180 l4 -12 l4 12 l12 4 l-12 4 l-4 12 l-4 -12 l-12 -4 z" fill="#ffe98a"/>
+</svg>

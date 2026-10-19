@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#10183d"/><stop offset="1" stop-color="#33205a"/></linearGradient>
+ <linearGradient id="pump" x2="0" y2="1"><stop stop-color="#ff9d27"/><stop offset="1" stop-color="#d94b18"/></linearGradient>
+ <linearGradient id="belt"><stop stop-color="#542c52"/><stop offset="1" stop-color="#241936"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="405" cy="92" r="55" fill="#ffe9a3" opacity=".18" filter="url(#glow)"/>
+<circle cx="405" cy="92" r="38" fill="#ffe9a3"/>
+<path d="M0 330 Q80 270 155 325 T315 315 T512 300 V512 H0Z" fill="#18203e"/>
+<path d="M0 392 Q120 350 245 390 T512 370 V512 H0Z" fill="#0d142b"/>
+<g fill="#ffb52e" opacity=".8"><circle cx="75" cy="110" r="3"/><circle cx="125" cy="70" r="2"/><circle cx="275" cy="92" r="3"/><circle cx="340" cy="48" r="2"/><circle cx="462" cy="165" r="3"/></g>
+<!-- spotlight --> <path d="M228 120 L350 120 455 440 85 440Z" fill="#ffd85a" opacity=".06"/>
+<!-- treadmill -->
+<path d="M84 399 L398 399 L457 454 L125 454Z" fill="url(#belt)" stroke="#f07135" stroke-width="6"/>
+<path d="M112 411 L385 411 L426 438 L140 438Z" fill="#15142b" stroke="#ffb438" stroke-width="3"/>
+<circle cx="145" cy="438" r="14" fill="#e96b2d"/><circle cx="402" cy="438" r="14" fill="#e96b2d"/>
+<path d="M385 399 L395 286" stroke="#f0a334" stroke-width="8"/><path d="M395 292 Q439 275 460 301" fill="none" stroke="#f0a334" stroke-width="8"/>
+<!-- speed marks --> <path d="M57 352h63 M32 375h68 M399 350h64" stroke="#ffb438" stroke-width="7" stroke-linecap="round"/>
+<!-- pumpkin body -->
+<path d="M192 175 Q256 130 320 175 Q351 205 339 276 Q326 340 256 350 Q186 340 173 276 Q161 205 192 175Z" fill="url(#pump)" stroke="#6f2b30" stroke-width="7"/>
+<path d="M222 166 Q256 143 290 166" fill="none" stroke="#ffbf38" stroke-width="13" opacity=".7"/>
+<path d="M230 171 Q218 252 238 329 M281 171 Q294 252 274 329" fill="none" stroke="#aa3d24" stroke-width="8" opacity=".8"/>
+<!-- stem --> <path d="M244 166 Q239 133 259 120 Q273 111 285 119 Q273 142 280 168Z" fill="#4e7540" stroke="#263f32" stroke-width="6"/>
+<!-- face -->
+<path d="M193 213 L235 199 L225 238 L191 232Z M278 199 L319 213 L321 232 L287 238Z" fill="#241632"/>
+<path d="M205 278 Q256 308 307 278 Q292 326 256 327 Q220 326 205 278Z" fill="#241632"/>
+<path d="M221 294 L240 301 L237 319 L218 310Z M253 305 L270 305 L270 323 L253 323Z M283 297 L300 288 L298 309 L281 317Z" fill="#ffc044"/>
+<!-- arms -->
+<path d="M181 232 Q143 247 130 286 L150 293 Q167 268 194 260" fill="none" stroke="#e56b22" stroke-width="15" stroke-linecap="round"/>
+<path d="M329 232 Q361 244 377 276" fill="none" stroke="#e56b22" stroke-width="15" stroke-linecap="round"/>
+<!-- legs running -->
+<path d="M218 335 Q183 352 157 389" fill="none" stroke="#e56b22" stroke-width="18" stroke-linecap="round"/>
+<path d="M289 335 Q329 354 357 389" fill="none" stroke="#e56b22" stroke-width="18" stroke-linecap="round"/>
+<path d="M150 386 l-30 13 M349 386 l32 11" stroke="#f7c14b" stroke-width="9" stroke-linecap="round"/>
+<!-- diet badge --> <circle cx="102" cy="205" r="43" fill="#e84b35" stroke="#ffd05b" stroke-width="5"/><path d="M79 216 Q103 178 126 216 Q103 239 79 216Z" fill="#8ed15e"/><path d="M102 179v52" stroke="#fff0a2" stroke-width="4"/><path d="M70 258 Q102 272 134 258" fill="none" stroke="#ffd05b" stroke-width="5"/>
+<!-- polished rim light and healthy snack cue -->
+<path d="M188 205 Q177 260 193 298" fill="none" stroke="#ffd35a" stroke-width="6" stroke-linecap="round" opacity=".8"/>
+<path d="M315 184 Q338 220 331 258" fill="none" stroke="#ffbf3e" stroke-width="5" stroke-linecap="round" opacity=".65"/>
+<g fill="#9ee8ff" stroke="#d9fbff" stroke-width="2"><path d="M171 185 q10 14 0 20 q-10-6 0-20Z"/><path d="M344 192 q9 13 0 19 q-9-6 0-19Z"/><path d="M159 222 q7 10 0 15 q-7-5 0-15Z"/></g>
+<path d="M54 294 l38 -12 M65 313 l32 -7 M421 261 l34 -10" stroke="#ffd05b" stroke-width="5" stroke-linecap="round"/>
+<g transform="translate(410 190)"><path d="M0 22 Q18 -5 38 22 Q20 42 0 22Z" fill="#70c957" stroke="#d8f28c" stroke-width="3"/><path d="M19 20 Q19 7 29 0" fill="none" stroke="#d8f28c" stroke-width="3"/></g>
+<text x="256" y="482" text-anchor="middle" font-family="sans-serif" font-size="18" font-weight="bold" fill="#ffcf62" letter-spacing="4">FEAR THE FLAB</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#1a1030"/>
+  <ellipse cx="256" cy="470" rx="210" ry="40" fill="#241640"/>
+  <!-- sneeze shockwave rings -->
+  <g fill="none" stroke="#ffd98a" stroke-width="6" opacity="0.5">
+    <path d="M150 300 C150 190 200 130 256 130 C312 130 362 190 362 300 C362 410 312 460 256 460 C200 460 150 410 150 300 Z" stroke-dasharray="18 14"/>
+  </g>
+  <!-- ACHOO burst star behind pumpkin -->
+  <path d="M256 60 L288 150 L382 118 L348 208 L452 226 L356 262 L440 330 L330 316 L340 420 L262 344 L196 428 L200 320 L92 340 L154 262 L60 232 L158 202 L112 118 L212 152 Z"
+        fill="#ffcf4d" stroke="#a86b00" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M256 96 L280 162 L350 140 L326 208 L402 224 L326 252 L384 306 L296 296 L302 378 L254 322 L206 380 L210 298 L136 314 L186 254 L116 230 L190 206 L156 140 L228 162 Z"
+        fill="#fff3c4" stroke="#a86b00" stroke-width="5" stroke-linejoin="round"/>
+  <!-- pumpkin body -->
+  <g stroke="#3d1c00" stroke-width="8">
+    <ellipse cx="140" cy="300" rx="80" ry="120" fill="#d9660a"/>
+    <ellipse cx="372" cy="300" rx="80" ry="120" fill="#d9660a"/>
+    <ellipse cx="190" cy="298" rx="88" ry="132" fill="#f07b12"/>
+    <ellipse cx="322" cy="298" rx="88" ry="132" fill="#f07b12"/>
+    <ellipse cx="256" cy="296" rx="96" ry="140" fill="#ff8c1a"/>
+  </g>
+  <!-- stem, flung backward by the sneeze -->
+  <path d="M244 160 C236 118 250 94 288 82 C302 78 308 92 296 100 C272 118 268 138 272 162 Z" fill="#4e7a2a" stroke="#2c4a16" stroke-width="7"/>
+  <path d="M292 88 C320 74 344 84 350 104 C330 96 310 98 296 104 Z" fill="#69a03a" stroke="#2c4a16" stroke-width="5"/>
+  <!-- squeezed-shut eyes, angled for the scrunch -->
+  <g fill="none" stroke="#1c0d00" stroke-width="11" stroke-linecap="round">
+    <path d="M176 254 C200 230 234 230 252 254"/>
+    <path d="M262 254 C280 230 314 230 336 254"/>
+    <path d="M186 232 L242 238" stroke-width="7"/>
+    <path d="M270 238 L326 232" stroke-width="7"/>
+  </g>
+  <!-- mouth wide open mid-achoo -->
+  <path d="M194 328 C220 312 292 312 318 328 C318 386 292 412 256 412 C220 412 194 386 194 328 Z" fill="#2a0f00" stroke="#120600" stroke-width="5"/>
+  <path d="M214 398 C236 384 278 384 298 398 C286 410 226 410 214 398 Z" fill="#e05a7a"/>
+  <!-- spray cone + globs flying right -->
+  <path d="M300 340 C360 320 430 330 496 366 L496 420 C420 400 340 392 296 380 Z" fill="#fff6d8" opacity="0.35"/>
+  <g stroke="#c99a2e" stroke-width="4">
+    <circle cx="352" cy="352" r="17" fill="#ffe9a8"/>
+    <circle cx="398" cy="334" r="12" fill="#fff3c4"/>
+    <circle cx="424" cy="378" r="10" fill="#ffe9a8"/>
+    <circle cx="456" cy="352" r="7" fill="#fff3c4"/>
+    <circle cx="392" cy="408" r="8" fill="#ffe9a8"/>
+    <circle cx="470" cy="398" r="5" fill="#fff3c4"/>
+  </g>
+  <!-- motion tears flung from eyes -->
+  <g fill="#8fd3ff" stroke="#3f8fc0" stroke-width="3">
+    <path d="M162 232 C152 212 168 198 176 214 C181 224 173 234 162 232 Z"/>
+    <path d="M350 230 C362 210 346 196 338 212 C333 222 341 232 350 230 Z"/>
+    <circle cx="140" cy="200" r="6"/>
+    <circle cx="374" cy="198" r="6"/>
+  </g>
+</svg>

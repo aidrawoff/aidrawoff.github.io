@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1d4a"/>
+      <stop offset="1" stop-color="#e8794a"/>
+    </linearGradient>
+    <radialGradient id="pump" cx="0.38" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#c85a12"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3a0" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ffb000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="420" cy="90" r="34" fill="#ffe9b0" opacity="0.9"/>
+  <path d="M0 330 Q120 270 250 325 T512 310 L512 512 L0 512 Z" fill="#4a2f5c"/>
+  <rect x="0" y="400" width="512" height="112" fill="#2f4a2a"/>
+  <!-- vine -->
+  <path d="M90 395 Q60 350 92 320 Q120 300 110 270" fill="none" stroke="#3d5a2a" stroke-width="6"/>
+  <path d="M104 336 Q130 326 136 306" fill="none" stroke="#3d5a2a" stroke-width="4"/>
+  <!-- giant pumpkin body -->
+  <ellipse cx="256" cy="330" rx="170" ry="120" fill="url(#pump)" stroke="#3a1a05" stroke-width="6"/>
+  <path d="M256 210 Q200 330 256 450" fill="none" stroke="#a24a0c" stroke-width="5" opacity="0.7"/>
+  <path d="M256 210 Q312 330 256 450" fill="none" stroke="#a24a0c" stroke-width="5" opacity="0.7"/>
+  <path d="M256 210 Q140 330 256 450" fill="none" stroke="#a24a0c" stroke-width="4" opacity="0.5"/>
+  <path d="M256 210 Q372 330 256 450" fill="none" stroke="#a24a0c" stroke-width="4" opacity="0.5"/>
+  <!-- highlight -->
+  <ellipse cx="190" cy="270" rx="34" ry="18" fill="#ffe2a0" opacity="0.45" transform="rotate(-20 190 270)"/>
+  <!-- stem -->
+  <path d="M240 215 Q246 170 270 160 L282 175 Q262 190 262 215 Z" fill="#5a3a16" stroke="#2a1505" stroke-width="4"/>
+  <!-- carved face glow -->
+  <circle cx="256" cy="335" r="95" fill="url(#glow)" opacity="0.5"/>
+  <!-- eyes -->
+  <path d="M185 300 L215 285 L220 320 Z" fill="#fff3a0" stroke="#3a1a05" stroke-width="3"/>
+  <path d="M327 300 L297 285 L292 320 Z" fill="#fff3a0" stroke="#3a1a05" stroke-width="3"/>
+  <!-- grin -->
+  <path d="M185 355 Q256 425 327 355 L318 368 Q256 400 194 368 Z" fill="#fff3a0" stroke="#3a1a05" stroke-width="3"/>
+  <path d="M220 372 L232 388 L244 374 L256 392 L268 374 L280 388 L292 372" fill="none" stroke="#3a1a05" stroke-width="3"/>
+  <!-- little snowman for scale -->
+  <circle cx="440" cy="440" r="34" fill="#f4f8ff" stroke="#2a3a4a" stroke-width="4"/>
+  <circle cx="440" cy="390" r="24" fill="#f4f8ff" stroke="#2a3a4a" stroke-width="4"/>
+  <circle cx="433" cy="386" r="3" fill="#1a1a1a"/>
+  <circle cx="447" cy="386" r="3" fill="#1a1a1a"/>
+  <path d="M440 392 L458 396 L440 399 Z" fill="#ff8a1a"/>
+  <!-- leaf on stem -->
+  <path d="M268 190 Q300 160 326 178 Q300 204 268 190 Z" fill="#3f7a2e" stroke="#1d3a14" stroke-width="3"/>
+  <!-- glints on the rind -->
+  <path d="M130 300 Q140 292 150 300" fill="none" stroke="#ffe2a0" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <path d="M360 350 Q368 344 376 352" fill="none" stroke="#ffe2a0" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  <!-- stars -->
+  <circle cx="60" cy="70" r="2.5" fill="#fff8dc"/>
+  <circle cx="150" cy="40" r="2" fill="#fff8dc"/>
+  <circle cx="300" cy="60" r="2.5" fill="#fff8dc"/>
+  <circle cx="470" cy="180" r="2" fill="#fff8dc"/>
+  <circle cx="30" cy="190" r="2" fill="#fff8dc"/>
+  <!-- warm glow spilling onto the grass -->
+  <ellipse cx="256" cy="440" rx="200" ry="30" fill="#ffb000" opacity="0.15"/>
+  <!-- contact shadow -->
+  <ellipse cx="256" cy="452" rx="190" ry="18" fill="#1d2a18" opacity="0.6"/>
+  <ellipse cx="440" cy="478" rx="50" ry="8" fill="#1d2a18" opacity="0.6"/>
+</svg>

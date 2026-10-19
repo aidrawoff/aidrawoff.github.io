@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a2e"/>
+      <stop offset="1" stop-color="#2b3552"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#bff4ff" stop-opacity=".8"/>
+      <stop offset="1" stop-color="#bff4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sheet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#c9d6ea"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <rect y="404" width="512" height="108" fill="#171c2c"/>
+  <ellipse cx="256" cy="470" rx="180" ry="26" fill="#0e1220"/>
+  <circle cx="256" cy="270" r="200" fill="url(#glow)"/>
+  <!-- laundry pile spilling on floor -->
+  <path d="M120 452q40-34 96-20t120 6q40 10 56 30H96z" fill="#7f5fb8"/>
+  <ellipse cx="150" cy="462" rx="46" ry="20" fill="#e8724f"/>
+  <ellipse cx="360" cy="466" rx="52" ry="18" fill="#f2c14e"/>
+  <!-- basket body -->
+  <path d="M148 300h216l-24 152H172z" fill="#c98a4b"/>
+  <g stroke="#8d5a26" stroke-width="5" fill="none">
+    <path d="M154 336h204M160 372h192M166 408h180M172 444h168"/>
+    <path d="M196 300l-10 152M256 300v152M316 300l10 152"/>
+  </g>
+  <path d="M142 296q114-34 228 0l-6 14q-108-28-216 0z" fill="#7d4f21"/>
+  <path d="M148 306q108 30 216 0l4 12q-112 30-224 0z" fill="#5e3a17"/>
+  <!-- ghost rising, wavy tail hem -->
+  <path d="M256 96c60 0 96 52 96 122 0 54 12 84 26 104-16 10-32-6-44 8-14-14-28 8-44-6-16 14-30-8-46 6-14-14-30 6-44-8-12 14-28-2-44-8 14-20 26-50 26-104 0-70 36-122 96-122z" fill="url(#sheet)" stroke="#8fa6c8" stroke-width="3"/>
+  <!-- face: huge surprised mouth, squeezed eyes -->
+  <ellipse cx="222" cy="196" rx="17" ry="9" fill="#2b3552"/>
+  <ellipse cx="290" cy="196" rx="17" ry="9" fill="#2b3552"/>
+  <ellipse cx="256" cy="240" rx="26" ry="32" fill="#2b3552"/>
+  <ellipse cx="256" cy="252" rx="12" ry="14" fill="#e0607a"/>
+  <circle cx="204" cy="228" r="12" fill="#ffb3c8" opacity=".7"/>
+  <circle cx="308" cy="228" r="12" fill="#ffb3c8" opacity=".7"/>
+  <!-- arms flung up -->
+  <path d="M168 210q-46-30-58-74" stroke="url(#sheet)" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <path d="M344 210q46-30 58-74" stroke="url(#sheet)" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <!-- motion lines bursting from basket -->
+  <g stroke="#ffe27a" stroke-width="6" stroke-linecap="round">
+    <path d="M120 250l-42-26"/><path d="M392 250l42-26"/><path d="M132 292l-52 6"/>
+    <path d="M380 292l52 6"/><path d="M256 66l0-40"/><path d="M204 78l-22-32"/><path d="M308 78l22-32"/>
+  </g>
+  <!-- flying socks and shirt -->
+  <path d="M84 128q22-16 34 4 10 20-12 26-24 6-22-30z" fill="#4ecdc4" stroke="#1f6f68" stroke-width="3"/>
+  <path d="M404 152q26-14 34 10t-20 30q-26 8-24-40z" fill="#f28cb1" stroke="#a34a72" stroke-width="3"/>
+  <path d="M388 84q28-20 44 6 12 24-16 30-30 6-28-36z" fill="#6bb6f0" stroke="#2c6a9e" stroke-width="3"/>
+  <path d="M112 62q26-18 42 6 10 20-14 26-28 6-28-32z" fill="#ffd166" stroke="#b4881f" stroke-width="3"/>
+</svg>

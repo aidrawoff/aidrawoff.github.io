@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff7d6"/>
+      <stop offset="60%" stop-color="#ffe9a0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffe9a0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="sky" cx="50%" cy="40%" r="75%">
+      <stop offset="0%" stop-color="#2a2f5c"/>
+      <stop offset="100%" stop-color="#0b0d22"/>
+    </radialGradient>
+    <radialGradient id="sheet" cx="40%" cy="30%" r="75%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#b8c4e0"/>
+    </radialGradient>
+    <radialGradient id="halo">
+      <stop offset="0%" stop-color="#e8ecff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#e8ecff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a8cc7c"/>
+      <stop offset="100%" stop-color="#6c9650"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="392" cy="112" r="100" fill="url(#moon)"/>
+  <circle cx="392" cy="112" r="42" fill="#fff7d6"/>
+  <ellipse cx="256" cy="478" rx="220" ry="20" fill="#000" opacity="0.5"/>
+  <circle cx="290" cy="290" r="170" fill="url(#halo)"/>
+  <!-- snail foot -->
+  <path d="M70 448 Q60 404 120 398 L380 396 Q440 400 446 440 Q440 462 380 462 L110 462 Q72 462 70 448 Z" fill="url(#body)"/>
+  <!-- eyestalks -->
+  <path d="M118 400 Q104 350 92 318" stroke="#8fb36a" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <path d="M140 400 Q146 352 134 314" stroke="#8fb36a" stroke-width="11" fill="none" stroke-linecap="round"/>
+  <circle cx="90" cy="312" r="10" fill="#1e1e1e"/>
+  <circle cx="132" cy="306" r="10" fill="#1e1e1e"/>
+  <!-- shell under the sheet -->
+  <circle cx="352" cy="318" r="104" fill="#a86f45"/>
+  <circle cx="352" cy="318" r="72" fill="none" stroke="#7a4d2c" stroke-width="7"/>
+  <circle cx="352" cy="318" r="40" fill="none" stroke="#7a4d2c" stroke-width="7"/>
+  <path d="M352 318 Q372 300 380 318 Q376 336 356 334" stroke="#7a4d2c" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- ghost sheet draped over shell and body -->
+  <path d="M180 300 Q176 170 300 160 Q420 170 418 300 L424 396 Q404 384 388 402 Q372 384 354 404 Q336 384 318 404 Q300 384 282 404 Q264 384 246 404 Q228 384 212 402 Q196 384 180 396 Z" fill="url(#sheet)"/>
+  <!-- sheet folds -->
+  <path d="M250 196 Q240 300 252 390" stroke="#9aa8c8" stroke-width="5" fill="none" opacity="0.6"/>
+  <path d="M352 200 Q362 300 350 388" stroke="#9aa8c8" stroke-width="5" fill="none" opacity="0.6"/>
+  <!-- ghost eyes: angled brows, lowered lids -->
+  <ellipse cx="256" cy="262" rx="14" ry="18" fill="#1a1a2e"/>
+  <ellipse cx="324" cy="262" rx="14" ry="18" fill="#1a1a2e"/>
+  <path d="M236 236 L272 246" stroke="#1a1a2e" stroke-width="6" stroke-linecap="round"/>
+  <path d="M344 236 L308 246" stroke="#1a1a2e" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="260" cy="256" r="5" fill="#fff"/>
+  <circle cx="328" cy="256" r="5" fill="#fff"/>
+  <!-- mouth -->
+  <path d="M270 306 Q290 322 310 306" stroke="#1a1a2e" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- rim light on sheet -->
+  <path d="M196 232 Q216 186 290 170" stroke="#ffffff" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.7"/>
+</svg>

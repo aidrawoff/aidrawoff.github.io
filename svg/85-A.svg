@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <radialGradient id="moon" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fff8d0"/><stop offset="100%" stop-color="#e8c84a"/></radialGradient>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0a0a2e"/><stop offset="100%" stop-color="#1a0f3a"/></linearGradient>
+  <linearGradient id="pumpkin" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#ff7b00"/><stop offset="100%" stop-color="#cc4400"/></linearGradient>
+</defs>
+
+<!-- sky -->
+<rect width="512" height="512" fill="url(#sky)"/>
+
+<!-- moon -->
+<circle cx="420" cy="80" r="45" fill="url(#moon)"/>
+
+<!-- stars -->
+<circle cx="50" cy="40" r="2" fill="#fff" opacity="0.8"/>
+<circle cx="120" cy="70" r="1.5" fill="#fff" opacity="0.6"/>
+<circle cx="200" cy="30" r="2" fill="#fff" opacity="0.9"/>
+<circle cx="320" cy="55" r="1.5" fill="#fff" opacity="0.7"/>
+<circle cx="480" cy="120" r="2" fill="#fff" opacity="0.8"/>
+<circle cx="80" cy="150" r="1.5" fill="#fff" opacity="0.5"/>
+
+<!-- ground/hills -->
+<path d="M0 420 Q 128 380 256 400 T 512 410 L 512 512 L 0 512 Z" fill="#0d1f0d"/>
+<path d="M0 450 Q 150 430 300 460 T 512 450 L 512 512 L 0 512 Z" fill="#061306"/>
+
+<!-- pumpkin bus body -->
+<ellipse cx="256" cy="340" rx="140" ry="90" fill="url(#pumpkin)"/>
+<ellipse cx="256" cy="340" rx="110" ry="85" fill="none" stroke="#a83200" stroke-width="3"/>
+<ellipse cx="256" cy="340" rx="75" ry="80" fill="none" stroke="#a83200" stroke-width="3"/>
+<ellipse cx="256" cy="340" rx="40" ry="75" fill="none" stroke="#a83200" stroke-width="3"/>
+
+<!-- bus windows (carved like jack-o-lantern) -->
+<rect x="180" y="290" width="50" height="40" rx="8" fill="#ffeb3b" opacity="0.9"/>
+<rect x="282" y="290" width="50" height="40" rx="8" fill="#ffeb3b" opacity="0.9"/>
+<!-- window glow spill -->
+<ellipse cx="205" cy="310" rx="35" ry="25" fill="#ffeb3b" opacity="0.15"/>
+<ellipse cx="307" cy="310" rx="35" ry="25" fill="#ffeb3b" opacity="0.15"/>
+<!-- tiny passengers silhouettes -->
+<circle cx="200" cy="315" r="5" fill="#5a3a00" opacity="0.6"/>
+<circle cx="215" cy="318" r="4" fill="#5a3a00" opacity="0.5"/>
+<circle cx="295" cy="315" r="5" fill="#5a3a00" opacity="0.6"/>
+<circle cx="310" cy="318" r="4" fill="#5a3a00" opacity="0.5"/>
+
+<!-- bus door -->
+<rect x="235" y="300" width="42" height="70" rx="6" fill="#8b2500"/>
+<rect x="242" y="308" width="28" height="55" rx="4" fill="#ffeb3b" opacity="0.7"/>
+
+<!-- bus wheels (small pumpkins) -->
+<circle cx="170" cy="415" r="22" fill="#e85d04"/>
+<circle cx="170" cy="415" r="14" fill="#ffaa33"/>
+<circle cx="170" cy="415" r="6" fill="#5a1a00"/>
+<circle cx="342" cy="415" r="22" fill="#e85d04"/>
+<circle cx="342" cy="415" r="14" fill="#ffaa33"/>
+<circle cx="342" cy="415" r="6" fill="#5a1a00"/>
+
+<!-- bus stem -->
+<path d="M256 250 Q 256 230 270 220 L 275 225 Q 265 235 265 250 Z" fill="#2d5a1e"/>
+
+<!-- witch cat on top -->
+<!-- cat body -->
+<ellipse cx="256" cy="235" rx="35" ry="22" fill="#1a1a2e"/>
+<!-- cat head -->
+<circle cx="256" cy="210" r="20" fill="#1a1a2e"/>
+<!-- ear inner pink -->
+<path d="M243 198 L 238 180 L 248 195 Z" fill="#ff69b4" opacity="0.6"/>
+<path d="M269 198 L 274 180 L 264 195 Z" fill="#ff69b4" opacity="0.6"/>
+<!-- ears -->
+<path d="M242 200 L 236 175 L 250 195 Z" fill="#1a1a2e"/>
+<path d="M270 200 L 276 175 L 262 195 Z" fill="#1a1a2e"/>
+<!-- witch hat -->
+<ellipse cx="256" cy="192" rx="35" ry="6" fill="#1a1a2e"/>
+<path d="M240 192 L 256 130 L 272 192 Z" fill="#1a1a2e"/>
+<ellipse cx="256" cy="188" rx="20" ry="4" fill="#6a1b9a"/>
+<!-- eyes -->
+<ellipse cx="248" cy="208" rx="5" ry="7" fill="#76ff03"/>
+<ellipse cx="264" cy="208" rx="5" ry="7" fill="#76ff03"/>
+<ellipse cx="249" cy="206" rx="2" ry="4" fill="#fff"/>
+<ellipse cx="265" cy="206" rx="2" ry="4" fill="#fff"/>
+<!-- pupils -->
+<ellipse cx="249" cy="209" rx="1.5" ry="3" fill="#000"/>
+<ellipse cx="265" cy="209" rx="1.5" ry="3" fill="#000"/>
+<!-- nose -->
+<circle cx="256" cy="216" r="2" fill="#ff69b4"/>
+<!-- mouth -->
+<path d="M250 222 Q 256 228 262 222" fill="none" stroke="#ff69b4" stroke-width="1.5" stroke-linecap="round"/>
+<!-- tiny fangs -->
+<path d="M252 223 L 253 227 L 254 223 Z" fill="#fff"/>
+<path d="M258 223 L 259 227 L 260 223 Z" fill="#fff"/>
+<!-- whiskers -->
+<line x1="235" y1="214" x2="220" y2="210" stroke="#1a1a2e" stroke-width="1.5"/>
+<line x1="235" y1="218" x2="220" y2="222" stroke="#1a1a2e" stroke-width="1.5"/>
+<line x1="277" y1="214" x2="292" y2="210" stroke="#1a1a2e" stroke-width="1.5"/>
+<line x1="277" y1="218" x2="292" y2="222" stroke="#1a1a2e" stroke-width="1.5"/>
+<!-- tail -->
+<path d="M286 235 Q 310 225 315 205 Q 320 190 310 185" fill="none" stroke="#1a1a2e" stroke-width="5" stroke-linecap="round"/>
+
+<!-- broomstick behind cat -->
+<line x1="200" y1="200" x2="320" y2="180" stroke="#8b4513" stroke-width="4" stroke-linecap="round"/>
+<path d="M195 205 Q 170 215 160 230 Q 175 225 190 220 Q 185 210 195 205 Z" fill="#d4a017"/>
+
+<!-- magic sparkles around broom -->
+<circle cx="180" cy="190" r="3" fill="#76ff03" opacity="0.8"/>
+<circle cx="170" cy="210" r="2" fill="#e040fb" opacity="0.8"/>
+<circle cx="190" cy="180" r="2.5" fill="#00e5ff" opacity="0.8"/>
+<circle cx="165" cy="195" r="2" fill="#ffea00" opacity="0.8"/>
+<circle cx="175" cy="175" r="1.5" fill="#ff4081" opacity="0.9"/>
+<circle cx="185" cy="215" r="1.5" fill="#76ff03" opacity="0.7"/>
+<circle cx="160" cy="185" r="2" fill="#00e5ff" opacity="0.6"/>
+
+<!-- pumpkin bus shadow -->
+<ellipse cx="256" cy="430" rx="130" ry="15" fill="#000" opacity="0.4"/>
+
+<!-- tiny bats in sky -->
+<path d="M100 100 Q 105 90 110 100 Q 115 90 120 100 L 110 105 Z" fill="#0a0a1a"/>
+<path d="M380 140 Q 385 130 390 140 Q 395 130 400 140 L 390 145 Z" fill="#0a0a1a"/>
+<path d="M60 200 Q 63 193 66 200 Q 69 193 72 200 L 66 203 Z" fill="#0a0a1a"/>
+
+<!-- road -->
+<path d="M0 480 L 512 480 L 512 512 L 0 512 Z" fill="#1a1a1a"/>
+<line x1="50" y1="496" x2="150" y2="496" stroke="#ffeb3b" stroke-width="3" opacity="0.6"/>
+<line x1="200" y1="496" x2="300" y2="496" stroke="#ffeb3b" stroke-width="3" opacity="0.6"/>
+<line x1="350" y1="496" x2="450" y2="496" stroke="#ffeb3b" stroke-width="3" opacity="0.6"/>
+</svg>

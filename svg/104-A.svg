@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffd98a" stop-opacity="0.95"/>
+      <stop offset="45%" stop-color="#e8a44a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#0b1020" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dark" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05070f"/>
+      <stop offset="100%" stop-color="#141d33"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#dark)"/>
+  <circle cx="256" cy="300" r="230" fill="url(#glow)"/>
+  <!-- floor -->
+  <path d="M0 430 Q256 405 512 430 L512 512 L0 512 Z" fill="#0a0f1c"/>
+  <ellipse cx="256" cy="452" rx="120" ry="22" fill="#000000" opacity="0.45"/>
+  <!-- GHOST body -->
+  <path d="M170 300 Q170 175 256 175 Q342 175 342 300 L342 380 Q320 368 300 385 Q282 400 256 385 Q230 400 212 385 Q192 368 170 380 Z"
+        fill="#dff3ff" stroke="#8fd0ea" stroke-width="4"/>
+  <!-- eyes wide with fear -->
+  <ellipse cx="228" cy="255" rx="20" ry="26" fill="#ffffff" stroke="#5aa3c4" stroke-width="3"/>
+  <ellipse cx="288" cy="255" rx="20" ry="26" fill="#ffffff" stroke="#5aa3c4" stroke-width="3"/>
+  <circle cx="230" cy="262" r="9" fill="#12203a"/>
+  <circle cx="290" cy="262" r="9" fill="#12203a"/>
+  <!-- screaming mouth -->
+  <ellipse cx="258" cy="315" rx="24" ry="30" fill="#1b2b45"/>
+  <!-- arms hugging candle -->
+  <path d="M178 318 Q210 348 244 344" fill="none" stroke="#dff3ff" stroke-width="22" stroke-linecap="round"/>
+  <path d="M336 318 Q304 348 270 344" fill="none" stroke="#dff3ff" stroke-width="22" stroke-linecap="round"/>
+  <!-- candle -->
+  <rect x="242" y="356" width="28" height="48" rx="6" fill="#f6efe0" stroke="#c9b78f" stroke-width="3"/>
+  <path d="M256 354 Q240 334 256 310 Q272 334 256 354 Z" fill="#ffe27a" stroke="#ff9d2e" stroke-width="3"/>
+  <circle cx="256" cy="330" r="9" fill="#fffbe0"/>
+  <!-- frightened shake lines -->
+  <g stroke="#9fe4ff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8">
+    <path d="M150 200 l-22 -14"/><path d="M146 232 l-26 -4"/><path d="M362 200 l22 -14"/><path d="M366 232 l26 -4"/>
+  </g>
+  <!-- sweat drops -->
+  <path d="M200 215 q-8 12 0 18 q10 -6 0 -18 z" fill="#7fd3ff"/>
+  <path d="M320 220 q8 12 0 18 q-10 -6 0 -18 z" fill="#7fd3ff"/>
+  <!-- dark closing in at the corners -->
+  <rect width="512" height="512" fill="url(#vig)"/>
+</svg>

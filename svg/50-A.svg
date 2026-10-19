@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f28b6b"/><stop offset=".58" stop-color="#f6bd75"/><stop offset="1" stop-color="#f7d69a"/></linearGradient>
+ <linearGradient id="field" x2="0" y2="1"><stop stop-color="#759653"/><stop offset="1" stop-color="#304b35"/></linearGradient>
+ <radialGradient id="sun"><stop stop-color="#fff4bd"/><stop offset="1" stop-color="#ffc66d"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="390" cy="145" r="52" fill="url(#sun)"/>
+<path d="M0 270 Q90 225 180 263 T350 250 T512 260 V330 H0Z" fill="#617052"/>
+<path d="M0 315 Q130 278 250 315 T512 295 V512 H0Z" fill="url(#field)"/>
+<path d="M0 367 Q125 340 260 372 T512 350" fill="none" stroke="#a6b66c" stroke-width="5" opacity=".7"/>
+<path d="M0 410 Q120 380 250 416 T512 395" fill="none" stroke="#b8c679" stroke-width="4" opacity=".55"/>
+<!-- barn -->
+<path d="M42 300 V205 L112 157 L182 205 V300Z" fill="#a94e43" stroke="#713c37" stroke-width="6"/>
+<path d="M32 207 L112 145 L192 207" fill="#743d3b" stroke="#593534" stroke-width="7"/>
+<path d="M92 300 V238 Q112 214 132 238 V300" fill="#593c37"/>
+<path d="M55 220 H82 V250 H55ZM142 220 H169 V250 H142" fill="#ffe69a" stroke="#713c37" stroke-width="4"/>
+<path d="M147 225 H164 V245 H147" fill="#fff5bd" opacity=".9"/>
+<!-- fence -->
+<path d="M0 343 H224 M0 380 H224" stroke="#e5c48b" stroke-width="8"/>
+<path d="M25 326 V405 M88 326 V405 M152 326 V405 M213 326 V405" stroke="#c99661" stroke-width="10"/>
+<!-- raccoon tail behind -->
+<path d="M337 361 Q429 324 447 260 Q456 224 429 211 Q403 202 388 232 Q410 245 394 275 Q368 313 307 317" fill="#657078" stroke="#303a43" stroke-width="8"/>
+<path d="M410 225 Q431 233 439 249 M394 256 Q415 266 422 279 M370 291 Q388 301 399 314" fill="none" stroke="#303a43" stroke-width="12"/>
+<!-- raccoon body -->
+<ellipse cx="280" cy="341" rx="83" ry="96" fill="#707982" stroke="#303a43" stroke-width="8"/>
+<ellipse cx="281" cy="405" rx="53" ry="31" fill="#aab0ae"/>
+<!-- head and ears -->
+<path d="M214 245 L211 194 L247 217 Q278 203 314 217 L351 194 L346 250 Q365 277 350 319 Q333 359 280 360 Q227 359 209 319 Q194 278 214 245Z" fill="#7c8589" stroke="#303a43" stroke-width="8"/>
+<path d="M218 204 L240 222 L216 235ZM343 204 L321 222 L345 235Z" fill="#b86663" stroke="#303a43" stroke-width="5"/>
+<!-- mask -->
+<path d="M211 267 Q280 231 350 267 Q335 312 280 315 Q225 312 211 267Z" fill="#303a43"/>
+<ellipse cx="249" cy="273" rx="12" ry="15" fill="#f3e6c6"/><ellipse cx="312" cy="273" rx="12" ry="15" fill="#f3e6c6"/>
+<circle cx="250" cy="276" r="6"/><circle cx="311" cy="276" r="6"/>
+<path d="M269 296 Q280 286 291 296 L280 307Z" fill="#252b31"/>
+<path d="M264 310 Q280 321 296 310" fill="none" stroke="#252b31" stroke-width="5" stroke-linecap="round"/>
+<path d="M267 299 L235 294 M267 305 L234 310 M293 299 L325 294 M293 305 L326 310" stroke="#252b31" stroke-width="3" stroke-linecap="round" opacity=".8"/>
+<!-- paws holding corn -->
+<path d="M227 350 Q205 349 198 372 Q195 390 218 389 L255 374" fill="#818b8e" stroke="#303a43" stroke-width="7"/>
+<path d="M333 350 Q355 349 362 372 Q365 390 342 389 L305 374" fill="#818b8e" stroke="#303a43" stroke-width="7"/>
+<path d="M280 365 L280 463" stroke="#53683c" stroke-width="8"/>
+<path d="M267 398 Q280 382 293 398 L300 449 Q280 463 260 449Z" fill="#e5b34e" stroke="#9a633b" stroke-width="5"/>
+<path d="M267 410 L294 410 M264 425 L297 425 M263 440 L298 440" stroke="#9a633b" stroke-width="4"/>
+<!-- foreground grass -->
+<path d="M20 512 Q25 465 43 438 M42 512 Q50 470 70 449 M470 512 Q460 468 444 445 M490 512 Q484 475 470 460" stroke="#263d31" stroke-width="8" fill="none"/>
+<g fill="#ffe6a0" opacity=".9"><circle cx="80" cy="285" r="3"/><circle cx="70" cy="300" r="2"/><circle cx="430" cy="315" r="3"/><circle cx="455" cy="285" r="2"/><circle cx="175" cy="290" r="2"/></g>
+<path d="M402 397 Q427 379 451 397 L451 421 H402Z" fill="#d88645" stroke="#70453a" stroke-width="5"/><path d="M414 397 Q426 386 438 397 M426 386 V421" fill="none" stroke="#f0b55d" stroke-width="4"/>
+<g fill="#fff0b2"><circle cx="115" cy="116" r="2"/><circle cx="152" cy="88" r="2"/><circle cx="278" cy="105" r="2"/><circle cx="452" cy="155" r="2"/></g>
+<text x="256" y="493" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#f4d58e" opacity=".9">SUNSET ON THE FARM</text>
+</svg>

@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1e182c"/>
+      <stop offset="100%" stop-color="#0d0a12"/>
+    </linearGradient>
+    <linearGradient id="sweater" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#b82e2e"/>
+      <stop offset="100%" stop-color="#701010"/>
+    </linearGradient>
+    <linearGradient id="yarnBall" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffdd44"/>
+      <stop offset="100%" stop-color="#cca811"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Background Window with Moon & Stars -->
+  <circle cx="390" cy="110" r="45" fill="#e8e2cc" opacity="0.8"/>
+  <circle cx="375" cy="100" r="40" fill="#1e182c"/>
+  <circle cx="120" cy="90" r="2" fill="#fff" opacity="0.7"/>
+  <circle cx="150" cy="140" r="1.5" fill="#fff" opacity="0.5"/>
+  <circle cx="280" cy="80" r="2" fill="#fff" opacity="0.8"/>
+
+  <!-- Wooden Chair Back -->
+  <rect x="146" y="100" width="220" height="300" rx="24" fill="#3d2212"/>
+  <rect x="176" y="130" width="160" height="240" rx="12" fill="#29160a"/>
+
+  <!-- Frankenstein Monster Head & Shoulders -->
+  <!-- Shoulders / Sweater -->
+  <path d="M 130 410 Q 256 350 382 410 L 400 512 L 112 512 Z" fill="url(#sweater)"/>
+  <path d="M 210 410 Q 256 380 302 410 L 290 460 Q 256 470 222 460 Z" fill="#992222" opacity="0.5"/>
+
+  <!-- Neck & Bolts -->
+  <rect x="220" y="270" width="72" height="60" fill="#527d52"/>
+  <rect x="198" y="295" width="26" height="18" rx="4" fill="#d0d0d0" stroke="#666" stroke-width="2"/>
+  <rect x="288" y="295" width="26" height="18" rx="4" fill="#d0d0d0" stroke="#666" stroke-width="2"/>
+  
+  <!-- Head -->
+  <rect x="176" y="130" width="160" height="155" rx="22" fill="#5e8c5e"/>
+  <!-- Flat top hair -->
+  <path d="M 176 155 L 192 120 L 216 138 L 256 115 L 296 138 L 320 120 L 336 155 Z" fill="#181818"/>
+
+  <!-- Face details -->
+  <!-- Eyebrows / expression -->
+  <line x1="196" y1="180" x2="236" y2="188" stroke="#2c422c" stroke-width="5" stroke-linecap="round"/>
+  <line x1="316" y1="180" x2="276" y2="188" stroke="#2c422c" stroke-width="5" stroke-linecap="round"/>
+  <!-- Eyes -->
+  <circle cx="216" cy="200" r="13" fill="#fff"/>
+  <circle cx="218" cy="200" r="5" fill="#111"/>
+  <circle cx="296" cy="200" r="13" fill="#fff"/>
+  <circle cx="294" cy="200" r="5" fill="#111"/>
+  <!-- Nose & Mouth / stitches -->
+  <path d="M 256 205 L 248" stroke="#3c5a3c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 256 205 L 264" stroke="#3c5a3c" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 210 250 Q 256 268 302 250" stroke="#1c281c" stroke-width="4" fill="none"/>
+  <line x1="230" y1="257" x2="230" y2="243" stroke="#1c281c" stroke-width="3"/>
+  <line x1="256" y1="261" x2="256" y2="245" stroke="#1c281c" stroke-width="3"/>
+  <line x1="282" y1="257" x2="282" y2="243" stroke="#1c281c" stroke-width="3"/>
+
+  <!-- Yarn Ball on floor/side -->
+  <circle cx="100" cy="440" r="32" fill="url(#yarnBall)"/>
+  <path d="M 75 430 Q 100 410 125 430" stroke="#b38f00" stroke-width="4" fill="none"/>
+  <path d="M 70 450 Q 100 470 130 450" stroke="#b38f00" stroke-width="4" fill="none"/>
+  <path d="M 100 408 Q 115 440 100 472" stroke="#b38f00" stroke-width="4" fill="none"/>
+  <!-- Yarn strand leading to hands -->
+  <path d="M 125 430 Q 150 400 170 380" stroke="#ffcc00" stroke-width="5" fill="none"/>
+
+  <!-- Scarf being knitted in lap -->
+  <path d="M 160 370 Q 256 385 352 370 Q 370 420 350 465 Q 256 485 162 465 Q 142 420 160 370 Z" fill="#ffcc00"/>
+  <path d="M 180 395 Q 256 410 332 395" stroke="#e6b800" stroke-width="6" fill="none"/>
+  <path d="M 170 430 Q 256 445 342 430" stroke="#e6b800" stroke-width="6" fill="none"/>
+
+  <!-- Cozy Mug on Right Side -->
+  <rect x="410" y="440" width="36" height="42" rx="6" fill="#e0e0e0"/>
+  <path d="M 446 452 C 460 452 460 474 446 474" stroke="#e0e0e0" stroke-width="5" fill="none"/>
+  <path d="M 418 435 Q 428 420 432 435" stroke="#fff" stroke-width="2" fill="none" opacity="0.6"/>
+
+  <!-- Knitting needles -->
+  <line x1="80" y1="310" x2="432" y2="410" stroke="#e0e0e0" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="80" cy="310" r="7" fill="#ff5555"/>
+  <line x1="80" y1="410" x2="432" y2="310" stroke="#cccccc" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="80" cy="410" r="7" fill="#ff5555"/>
+</svg>

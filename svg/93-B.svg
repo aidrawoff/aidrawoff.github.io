@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#3a2b52"/>
+      <stop offset="60%" stop-color="#140f1f"/>
+      <stop offset="100%" stop-color="#07060c"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#211d2b"/>
+      <stop offset="100%" stop-color="#080710"/>
+    </linearGradient>
+    <linearGradient id="eye" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd34d"/>
+      <stop offset="100%" stop-color="#e8541f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <!-- cat body + head silhouette -->
+  <path d="M96 512 C104 380 150 300 256 300 C362 300 408 380 416 512 Z" fill="url(#fur)"/>
+  <path d="M132 268 L150 132 L232 214 Z" fill="url(#fur)"/>
+  <path d="M380 268 L362 132 L280 214 Z" fill="url(#fur)"/>
+  <ellipse cx="256" cy="270" rx="132" ry="112" fill="url(#fur)"/>
+  <!-- rim light -->
+  <path d="M124 236 C118 176 140 140 150 134 L156 152 C140 180 134 214 136 246 Z" fill="#8f7bd4" opacity="0.55"/>
+  <path d="M388 236 C394 176 372 140 362 134 L356 152 C372 180 378 214 376 246 Z" fill="#8f7bd4" opacity="0.55"/>
+  <path d="M138 208 C172 172 340 172 374 208 C340 188 172 188 138 208 Z" fill="#a894ea" opacity="0.30"/>
+  <!-- lit chest fur so the body separates from the void -->
+  <path d="M150 512 C168 404 208 344 256 344 C304 344 344 404 362 512 Z" fill="#1b1726" opacity="0.9"/>
+  <!-- judging eyes: left wide, right narrowed -->
+  <ellipse cx="200" cy="262" rx="40" ry="30" fill="url(#eye)"/>
+  <path d="M158 246 C186 226 218 228 242 244 L242 232 C214 210 182 212 156 232 Z" fill="#0b0912"/>
+  <ellipse cx="200" cy="262" rx="9" ry="26" fill="#120c06"/>
+  <path d="M262 268 Q316 236 358 266 Q316 288 262 268 Z" fill="url(#eye)"/>
+  <path d="M258 258 Q316 224 362 258 L362 244 Q316 212 256 246 Z" fill="#0b0912"/>
+  <ellipse cx="312" cy="266" rx="7" ry="12" fill="#120c06"/>
+  <!-- nose + mouth (unimpressed flat line) -->
+  <path d="M244 318 L268 318 L256 334 Z" fill="#c4576b"/>
+  <path d="M256 334 L256 346 M256 346 Q232 360 212 350 M256 346 Q280 360 300 350" stroke="#3b3350" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- whiskers -->
+  <g stroke="#cfc6e8" stroke-width="3" opacity="0.7" stroke-linecap="round">
+    <path d="M214 330 C150 322 100 336 58 358"/>
+    <path d="M214 342 C152 348 104 366 66 392"/>
+    <path d="M298 330 C362 322 412 336 454 358"/>
+    <path d="M298 342 C360 348 408 366 446 392"/>
+  </g>
+  <!-- the witch's scale, perched on the bridge: verdict delivered -->
+  <g transform="translate(256 240)">
+    <path d="M-17 3 C-9 -11 9 -11 17 3 C9 13 -9 13 -17 3 Z" fill="#d8b23c"/>
+    <path d="M-17 3 C-9 -11 9 -11 17 3 L0 3 Z" fill="#f4dc7d"/>
+    <circle cx="0" cy="-1" r="4.5" fill="#3a2a08"/>
+    <path d="M0 3 L0 22 M-11 22 L11 22" stroke="#d8b23c" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+    <ellipse cx="-11" cy="26" rx="7" ry="2.6" fill="#e8c95a"/>
+    <ellipse cx="11" cy="26" rx="7" ry="2.6" fill="#c9a334"/>
+  </g>
+  <!-- tail curling up with tip hook -->
+  <path d="M400 500 C470 470 486 386 440 340 C414 314 376 328 372 358 C370 378 388 390 404 382" stroke="#0d0b16" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M400 500 C470 470 486 386 440 340 C418 320 388 326 376 346" stroke="#8f7bd4" stroke-width="5" fill="none" opacity="0.5" stroke-linecap="round"/>
+</svg>

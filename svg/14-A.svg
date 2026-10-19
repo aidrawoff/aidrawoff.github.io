@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- night backdrop -->
+  <rect width="512" height="512" fill="#1b2a4a"/>
+  <!-- soft shadow under base -->
+  <ellipse cx="256" cy="476" rx="130" ry="10" fill="#0f1a2e"/>
+  <!-- glass globe -->
+  <circle cx="256" cy="240" r="190" fill="#cfe9f7" stroke="#e8f6ff" stroke-width="8"/>
+  <clipPath id="globe"><circle cx="256" cy="240" r="186"/></clipPath>
+  <g clip-path="url(#globe)">
+    <!-- snowy ground -->
+    <path d="M60 340 Q256 300 452 340 L452 480 L60 480 Z" fill="#ffffff"/>
+    <!-- pine trees -->
+    <path d="M118 340 L140 282 L162 340 Z" fill="#3e5c76"/>
+    <path d="M124 340 L140 300 L156 340 Z" fill="#ffffff"/>
+    <path d="M372 340 L392 276 L412 340 Z" fill="#3e5c76"/>
+    <path d="M378 340 L392 298 L406 340 Z" fill="#ffffff"/>
+  </g>
+  <!-- snowflakes -->
+  <g fill="#ffffff">
+    <circle cx="130" cy="150" r="5"/>
+    <circle cx="380" cy="130" r="6"/>
+    <circle cx="410" cy="220" r="4"/>
+    <circle cx="105" cy="250" r="4"/>
+    <circle cx="225" cy="105" r="4"/>
+    <circle cx="330" cy="95" r="3"/>
+    <circle cx="150" cy="310" r="4"/>
+    <circle cx="380" cy="290" r="5"/>
+    <circle cx="200" cy="170" r="3"/>
+    <circle cx="300" cy="150" r="3"/>
+  </g>
+  <!-- water tank on back -->
+  <rect x="168" y="326" width="84" height="84" rx="16" fill="#f2a33a"/>
+  <rect x="176" y="342" width="68" height="12" rx="6" fill="#fbd27a"/>
+  <rect x="176" y="378" width="68" height="12" rx="6" fill="#fbd27a"/>
+  <!-- koala body -->
+  <ellipse cx="256" cy="368" rx="58" ry="52" fill="#9aa3ad"/>
+  <!-- koala ears -->
+  <circle cx="200" cy="200" r="30" fill="#9aa3ad"/>
+  <circle cx="312" cy="200" r="30" fill="#9aa3ad"/>
+  <circle cx="200" cy="200" r="14" fill="#f4c2c2"/>
+  <circle cx="312" cy="200" r="14" fill="#f4c2c2"/>
+  <!-- koala head -->
+  <circle cx="256" cy="255" r="72" fill="#9aa3ad"/>
+  <!-- firefighter helmet -->
+  <path d="M182 225 A74 74 0 0 1 330 225 Z" fill="#d7263d"/>
+  <rect x="176" y="222" width="160" height="12" rx="6" fill="#f2c94c"/>
+  <!-- muzzle and face -->
+  <ellipse cx="256" cy="282" rx="42" ry="34" fill="#f1efe9"/>
+  <ellipse cx="256" cy="268" rx="14" ry="11" fill="#2b2b2b"/>
+  <circle cx="232" cy="252" r="6" fill="#2b2b2b"/>
+  <circle cx="280" cy="252" r="6" fill="#2b2b2b"/>
+  <circle cx="234" cy="250" r="2" fill="#ffffff"/>
+  <circle cx="282" cy="250" r="2" fill="#ffffff"/>
+  <path d="M248 292 Q256 300 264 292" fill="none" stroke="#2b2b2b" stroke-width="3" stroke-linecap="round"/>
+  <!-- arm holding nozzle -->
+  <path d="M300 352 Q338 340 356 316" fill="none" stroke="#9aa3ad" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="358" cy="312" r="9" fill="#2b2b2b"/>
+  <!-- fire hose -->
+  <path d="M360 310 Q380 360 340 392 Q310 412 300 430" fill="none" stroke="#d7263d" stroke-width="10" stroke-linecap="round"/>
+  <!-- glass highlight -->
+  <path d="M120 170 Q150 110 210 88" fill="none" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.7"/>
+  <!-- base of globe -->
+  <rect x="146" y="424" width="220" height="48" rx="12" fill="#8a5a32"/>
+  <rect x="160" y="436" width="192" height="8" rx="4" fill="#f2c94c"/>
+</svg>

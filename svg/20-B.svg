@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fb8ec"/>
+      <stop offset="0.6" stop-color="#bfe6f7"/>
+      <stop offset="1" stop-color="#fde7c0"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a9fd6"/>
+      <stop offset="1" stop-color="#1b7bb0"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6dc9c"/>
+      <stop offset="1" stop-color="#e2b769"/>
+    </linearGradient>
+    <linearGradient id="wall" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#f3d59a"/>
+      <stop offset="0.5" stop-color="#e6c384"/>
+      <stop offset="1" stop-color="#b98f4f"/>
+    </linearGradient>
+    <g id="heart">
+      <path d="M0,6 C-12,-2 -6,-12 0,-5 C6,-12 12,-2 0,6 Z" fill="#e8336d"/>
+    </g>
+    <g id="slice">
+      <path d="M0,0 L-34,-78 L34,-78 Z" fill="#f7c948" stroke="#b9722a" stroke-width="3" stroke-linejoin="round"/>
+      <path d="M-34,-78 Q0,-92 34,-78" fill="none" stroke="#c98a3a" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="-8" cy="-50" r="7" fill="#c0392b"/>
+      <circle cx="12" cy="-30" r="7" fill="#c0392b"/>
+      <circle cx="-6" cy="-14" r="6" fill="#c0392b"/>
+      <circle cx="0" cy="-64" r="5" fill="#c0392b"/>
+    </g>
+  </defs>
+
+  <!-- sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- sun, shaped like a pizza -->
+  <circle cx="440" cy="70" r="40" fill="#fff2b0" opacity="0.5"/>
+  <circle cx="440" cy="70" r="34" fill="#ffd54a" stroke="#e0a526" stroke-width="3"/>
+  <circle cx="432" cy="62" r="6" fill="#d9822b"/>
+  <circle cx="448" cy="80" r="5" fill="#d9822b"/>
+  <circle cx="436" cy="82" r="4" fill="#d9822b"/>
+
+  <!-- sea at the horizon -->
+  <rect x="0" y="262" width="512" height="48" fill="url(#sea)"/>
+  <g fill="none" stroke="#ffffff" stroke-width="2" opacity="0.7" stroke-linecap="round">
+    <path d="M300,278 q10,-6 20,0 t20,0"/>
+    <path d="M400,292 q10,-6 20,0 t20,0"/>
+    <path d="M20,290 q10,-6 20,0 t20,0"/>
+    <path d="M90,276 q10,-6 20,0 t20,0"/>
+  </g>
+
+  <!-- floating hearts -->
+  <use href="#heart" transform="translate(70,70) scale(1.4)"/>
+  <use href="#heart" transform="translate(120,130) scale(1)"/>
+  <use href="#heart" transform="translate(360,150) scale(1.2)"/>
+  <use href="#heart" transform="translate(300,40) scale(0.9)"/>
+  <use href="#heart" transform="translate(30,200) scale(0.8)"/>
+
+  <!-- dune behind the castle -->
+  <path d="M0,300 Q140,262 260,300 T512,296 L512,430 L0,430 Z" fill="#efd08a"/>
+
+  <!-- soft shadow under the castle -->
+  <ellipse cx="256" cy="432" rx="180" ry="12" fill="#b98f4f" opacity="0.35"/>
+
+  <!-- castle: side towers -->
+  <rect x="118" y="250" width="64" height="190" fill="url(#wall)" stroke="#9c7434" stroke-width="3"/>
+  <rect x="330" y="250" width="64" height="190" fill="url(#wall)" stroke="#9c7434" stroke-width="3"/>
+
+  <!-- castle: central keep -->
+  <rect x="194" y="180" width="124" height="260" fill="url(#wall)" stroke="#9c7434" stroke-width="3"/>
+
+  <!-- castle: curtain wall between -->
+  <rect x="182" y="330" width="148" height="110" fill="#dcb673" stroke="#9c7434" stroke-width="3"/>
+
+  <!-- brick-like sand block lines -->
+  <g fill="none" stroke="#9c7434" stroke-width="1.5" opacity="0.45">
+    <path d="M118,290 H182 M118,320 H182 M118,350 H182 M118,380 H182 M118,410 H182"/>
+    <path d="M330,290 H394 M330,320 H394 M330,350 H394 M330,380 H394 M330,410 H394"/>
+    <path d="M194,210 H318 M194,240 H318 M194,270 H318 M194,300 H318"/>
+    <path d="M182,350 H330 M182,380 H330 M182,410 H330"/>
+  </g>
+
+  <!-- merlons on towers and keep -->
+  <g fill="#f0d08f" stroke="#9c7434" stroke-width="3">
+    <rect x="118" y="234" width="14" height="18"/>
+    <rect x="140" y="234" width="14" height="18"/>
+    <rect x="162" y="234" width="14" height="18"/>
+    <rect x="330" y="234" width="14" height="18"/>
+    <rect x="352" y="234" width="14" height="18"/>
+    <rect x="374" y="234" width="14" height="18"/>
+    <rect x="194" y="164" width="14" height="18"/>
+    <rect x="216" y="164" width="14" height="18"/>
+    <rect x="238" y="164" width="14" height="18"/>
+    <rect x="260" y="164" width="14" height="18"/>
+    <rect x="282" y="164" width="14" height="18"/>
+    <rect x="304" y="164" width="14" height="18"/>
+  </g>
+
+  <!-- flags with pizza-slice pennants -->
+  <line x1="150" y1="234" x2="150" y2="170" stroke="#5a4320" stroke-width="3"/>
+  <path d="M150,170 L186,180 L150,190 Z" fill="#e8336d"/>
+  <line x1="362" y1="234" x2="362" y2="170" stroke="#5a4320" stroke-width="3"/>
+  <path d="M362,170 L398,180 L362,190 Z" fill="#e8336d"/>
+  <line x1="256" y1="164" x2="256" y2="92" stroke="#5a4320" stroke-width="3"/>
+  <path d="M256,92 L300,106 L256,120 Z" fill="#f7c948" stroke="#b9722a" stroke-width="2"/>
+  <circle cx="262" cy="106" r="5" fill="#c0392b"/>
+
+  <!-- windows, with shutters -->
+  <rect x="246" y="230" width="20" height="30" rx="10" fill="#4a3a2a"/>
+  <rect x="146" y="290" width="12" height="20" rx="6" fill="#4a3a2a"/>
+  <rect x="354" y="290" width="12" height="20" rx="6" fill="#4a3a2a"/>
+  <rect x="222" y="260" width="12" height="20" rx="6" fill="#4a3a2a"/>
+  <rect x="278" y="260" width="12" height="20" rx="6" fill="#4a3a2a"/>
+  <rect x="222" y="350" width="12" height="20" rx="6" fill="#4a3a2a"/>
+  <rect x="278" y="350" width="12" height="20" rx="6" fill="#4a3a2a"/>
+
+  <!-- gate -->
+  <path d="M234,430 L234,390 Q256,362 278,390 L278,430 Z" fill="#7a5a2e" stroke="#4a3a2a" stroke-width="3"/>
+
+  <!-- cheese drips over the gate arch -->
+  <path d="M226,384 Q236,362 256,362 Q276,362 286,384 Q282,378 278,388 Q272,376 262,384 Q256,372 250,384 Q240,376 234,390 Q230,386 226,384 Z" fill="#fff0a0" opacity="0.9"/>
+
+  <!-- sand grains -->
+  <g fill="#b98f4f" opacity="0.5">
+    <circle cx="200" cy="300" r="2"/><circle cx="310" cy="210" r="2"/>
+    <circle cx="150" cy="380" r="2"/><circle cx="350" cy="400" r="2"/>
+    <circle cx="210" cy="410" r="2"/><circle cx="300" cy="300" r="2"/>
+    <circle cx="90" cy="330" r="2"/><circle cx="420" cy="340" r="2"/>
+  </g>
+
+  <!-- beach ground -->
+  <path d="M0,420 Q128,400 256,420 T512,420 L512,512 L0,512 Z" fill="url(#sand)"/>
+  <path d="M0,450 Q160,430 300,455 T512,448 L512,512 L0,512 Z" fill="#e8c173"/>
+
+  <!-- moat of sea spray around the base -->
+  <path d="M170,440 Q256,452 342,440" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+
+  <!-- pizza slices on the sand -->
+  <g transform="translate(70,470) rotate(-20)">
+    <use href="#slice"/>
+  </g>
+  <g transform="translate(440,478) rotate(18) scale(0.9)">
+    <use href="#slice"/>
+  </g>
+
+  <!-- a whole pizza on a plate in front of the gate -->
+  <ellipse cx="256" cy="478" rx="58" ry="14" fill="#f2f2f2" stroke="#c9c9c9" stroke-width="2"/>
+  <circle cx="256" cy="472" r="40" fill="#f7c948" stroke="#b9722a" stroke-width="4"/>
+  <circle cx="256" cy="472" r="32" fill="none" stroke="#c98a3a" stroke-width="3" stroke-dasharray="2 4"/>
+  <circle cx="240" cy="462" r="7" fill="#c0392b"/>
+  <circle cx="270" cy="466" r="7" fill="#c0392b"/>
+  <circle cx="252" cy="484" r="7" fill="#c0392b"/>
+  <circle cx="276" cy="484" r="6" fill="#c0392b"/>
+  <circle cx="236" cy="482" r="5" fill="#7fbf4a"/>
+
+  <!-- sand sparkles -->
+  <g fill="#fff6d6" opacity="0.9">
+    <path d="M60,250 l3,-8 l3,8 l8,3 l-8,3 l-3,8 l-3,-8 l-8,-3 z"/>
+    <path d="M460,230 l2,-6 l2,6 l6,2 l-6,2 l-2,6 l-2,-6 l-6,-2 z"/>
+  </g>
+
+  <!-- hearts over the pizza -->
+  <use href="#heart" transform="translate(96,380) scale(0.9)"/>
+  <use href="#heart" transform="translate(430,410) scale(0.8)"/>
+  <use href="#heart" transform="translate(206,420) scale(0.7)"/>
+</svg>

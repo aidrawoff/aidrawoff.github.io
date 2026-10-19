@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b132b"/>
+      <stop offset="50%" stop-color="#1c2541"/>
+      <stop offset="100%" stop-color="#3a506b"/>
+    </linearGradient>
+    
+    <!-- Squid Gradient -->
+    <linearGradient id="squidGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff7b00"/>
+      <stop offset="50%" stop-color="#ff5400"/>
+      <stop offset="100%" stop-color="#9e0059"/>
+    </linearGradient>
+    
+    <!-- Palette Gradient -->
+    <linearGradient id="paletteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f4d35e"/>
+      <stop offset="100%" stop-color="#ee9b00"/>
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.4"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Ambient Bubbles & Studio Lights -->
+  <g opacity="0.75">
+    <circle cx="80" cy="100" r="14" fill="#6fffe9" opacity="0.45"/>
+    <circle cx="120" cy="70" r="8" fill="#6fffe9" opacity="0.35"/>
+    <circle cx="430" cy="150" r="20" fill="#6fffe9" opacity="0.35"/>
+    <circle cx="400" cy="90" r="10" fill="#6fffe9" opacity="0.55"/>
+    <circle cx="460" cy="220" r="12" fill="#6fffe9" opacity="0.45"/>
+    <circle cx="70" cy="280" r="18" fill="#ffb703" opacity="0.35"/>
+    <circle cx="100" cy="330" r="10" fill="#ffb703" opacity="0.25"/>
+    <circle cx="256" cy="420" r="14" fill="#ff007f" opacity="0.3"/>
+  </g>
+
+  <!-- Upside Down Room Elements -->
+  <g transform="translate(0, 512) scale(1, -1)" opacity="0.35">
+    <!-- Floorboards now at top acting as ceiling -->
+    <rect x="0" y="0" width="512" height="35" fill="#b5838d"/>
+    <line x1="128" y1="0" x2="128" y2="35" stroke="#6d597a" stroke-width="2"/>
+    <line x1="256" y1="0" x2="256" y2="35" stroke="#6d597a" stroke-width="2"/>
+    <line x1="384" y1="0" x2="384" y2="35" stroke="#6d597a" stroke-width="2"/>
+    <!-- Hanging Studio Lamp -->
+    <path d="M 256 35 L 256 80" stroke="#adb5bd" stroke-width="4"/>
+    <path d="M 226 80 L 286 80 L 276 100 L 236 100 Z" fill="#ffd166"/>
+    <circle cx="256" cy="100" r="15" fill="#fff" filter="url(#glow)"/>
+  </g>
+
+  <!-- Upside Down Easel & Canvas -->
+  <g filter="url(#dropShadow)">
+    <line x1="256" y1="0" x2="256" y2="280" stroke="#8d5524" stroke-width="10" stroke-linecap="round"/>
+    <line x1="256" y1="40" x2="140" y2="290" stroke="#65350f" stroke-width="8" stroke-linecap="round"/>
+    <line x1="256" y1="40" x2="372" y2="290" stroke="#65350f" stroke-width="8" stroke-linecap="round"/>
+    
+    <!-- Upside Down Canvas -->
+    <rect x="150" y="95" width="212" height="250" rx="8" fill="#ffffff" stroke="#d4a373" stroke-width="6"/>
+    
+    <!-- Artwork on canvas: Enhanced dynamic painting with extra polish -->
+    <path d="M170 115 Q 256 165 342 115 T 342 225 Q 256 275 170 225 Z" fill="#ffb703" opacity="0.65"/>
+    <circle cx="256" cy="175" r="40" fill="#e056fd" opacity="0.75"/>
+    <!-- Glowing Starfish / Coral motif on canvas -->
+    <path d="M 256 135 L 265 155 L 285 158 L 270 172 L 275 195 L 256 182 L 237 195 L 242 172 L 227 158 L 247 155 Z" fill="#06d6a0" opacity="0.85" filter="url(#glow)"/>
+    <path d="M 175 290 Q 256 220 337 290" stroke="#2ed573" stroke-width="8" fill="none" stroke-linecap="round"/>
+    <!-- Additional artistic brush swoosh -->
+    <path d="M 180 150 Q 220 200 320 180" stroke="#ff007f" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.75"/>
+  </g>
+
+  <!-- THE SQUID PAINTER (Hanging head-down from ceiling) -->
+  <g filter="url(#dropShadow)">
+    <!-- Squid Mantle -->
+    <path d="M 205 0 C 205 85, 230 115, 256 125 C 282 115, 307 85, 307 0 Z" fill="url(#squidGrad)"/>
+    
+    <!-- Fins -->
+    <path d="M 205 30 C 160 20, 155 55, 190 75 Z" fill="#ff7b00"/>
+    <path d="M 307 30 C 352 20, 357 55, 322 75 Z" fill="#ff7b00"/>
+
+    <!-- Expressive Eyes with highlights -->
+    <circle cx="236" cy="70" r="15" fill="#ffffff"/>
+    <circle cx="276" cy="70" r="15" fill="#ffffff"/>
+    <circle cx="238" cy="70" r="7" fill="#1d3557"/>
+    <circle cx="274" cy="70" r="7" fill="#1d3557"/>
+    <circle cx="235" cy="67" r="2.5" fill="#ffffff"/>
+    <circle cx="271" cy="67" r="2.5" fill="#ffffff"/>
+    
+    <!-- Artistic Smile -->
+    <path d="M 246 88 Q 256 98 266 88" stroke="#ffffff" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+
+    <!-- Artistic Beret -->
+    <ellipse cx="285" cy="32" rx="30" ry="13" fill="#1d3557" transform="rotate(-22 285 32)"/>
+    <circle cx="308" cy="20" r="5.5" fill="#1d3557"/>
+
+    <!-- Tentacles (Dynamic action wrapping around canvas and tools) -->
+    <!-- Tentacle 1: holding palette -->
+    <path d="M 215 100 Q 140 130, 150 185 T 185 215" stroke="#ff7b00" stroke-width="16" fill="none" stroke-linecap="round"/>
+    
+    <!-- Tentacle 2: fine brush stroke -->
+    <path d="M 285 100 Q 360 140, 340 205 T 295 255" stroke="#ff5400" stroke-width="14" fill="none" stroke-linecap="round"/>
+
+    <!-- Tentacle 3: waving / gesturing -->
+    <path d="M 245 110 Q 215 185, 175 235 T 120 255" stroke="#ff7b00" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- Tentacle 4: adjusting canvas -->
+    <path d="M 265 110 Q 315 170, 375 185 T 415 155" stroke="#9e0059" stroke-width="12" fill="none" stroke-linecap="round"/>
+
+    <!-- Tentacle 5: extra sweeping tentacle with suction cups -->
+    <path d="M 230 105 Q 190 160, 235 230 T 265 290" stroke="#ff7b00" stroke-width="10" fill="none" stroke-linecap="round"/>
+    <!-- Suction cups dots -->
+    <circle cx="210" cy="140" r="2.5" fill="#ffe5ec"/>
+    <circle cx="202" cy="155" r="2.5" fill="#ffe5ec"/>
+    <circle cx="205" cy="175" r="2.5" fill="#ffe5ec"/>
+  </g>
+
+  <!-- Artist Palette held by left tentacle -->
+  <g transform="translate(130, 185) rotate(-18)" filter="url(#dropShadow)">
+    <ellipse cx="40" cy="30" rx="36" ry="26" fill="url(#paletteGrad)" stroke="#b5651d" stroke-width="3"/>
+    <!-- Thumb hole -->
+    <ellipse cx="50" cy="35" rx="6" ry="8" fill="#1c2541"/>
+    <!-- Paint blobs on palette -->
+    <circle cx="24" cy="18" r="6.5" fill="#e63946" filter="url(#glow)"/>
+    <circle cx="45" cy="14" r="6.5" fill="#457b9d" filter="url(#glow)"/>
+    <circle cx="62" cy="24" r="5.5" fill="#2a9d8f" filter="url(#glow)"/>
+    <circle cx="20" cy="36" r="5.5" fill="#f4a261" filter="url(#glow)"/>
+    <circle cx="36" cy="42" r="5" fill="#9b5de5" filter="url(#glow)"/>
+  </g>
+
+  <!-- Paintbrush held by right tentacle -->
+  <g transform="translate(305, 235) rotate(42)" filter="url(#dropShadow)">
+    <rect x="-4" y="-40" width="8" height="80" rx="4" fill="#d4a373"/>
+    <rect x="-5" y="-55" width="10" height="15" fill="#adb5bd"/>
+    <!-- Bristles with bright cyan paint -->
+    <path d="M -5 -55 Q 0 -72 5 -55 Z" fill="#4ea8de"/>
+    <path d="M 0 -55 Q 6 -35 3 -20 C 0 -10 0 -10 3 0" stroke="#4ea8de" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Dynamic Paint Splatters & Drops (Floating Upwards) -->
+  <g filter="url(#glow)">
+    <circle cx="110" cy="310" r="9" fill="#e63946"/>
+    <circle cx="395" cy="270" r="11" fill="#4ea8de"/>
+    <circle cx="350" cy="360" r="7" fill="#ffb703"/>
+    <circle cx="170" cy="390" r="13" fill="#2a9d8f"/>
+    <circle cx="290" cy="380" r="8" fill="#9b5de5"/>
+    <path d="M 245 330 Q 255 310 235 290" stroke="#ff007f" stroke-width="6" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- Live Draw-Off HUD / Accent Badge -->
+  <g transform="translate(20, 456)">
+    <rect x="0" y="0" width="170" height="38" rx="8" fill="#0b132b" stroke="#ff7b00" stroke-width="2.5" opacity="0.9"/>
+    <text x="14" y="24" fill="#6fffe9" font-family="monospace" font-size="14" font-weight="bold">TEAM GOOGLE</text>
+  </g>
+</svg>
