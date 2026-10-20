@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0b1030"/>
+      <stop offset="1" stop-color="#2a2550"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8dc" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff8dc" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- night sky and moon -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="92" r="80" fill="url(#glow)"/>
+  <circle cx="400" cy="92" r="40" fill="#fff4cc"/>
+  <!-- distant hills and trees -->
+  <path d="M0,380 Q60,330 130,370 Q200,320 270,370 Q340,335 420,372 Q480,345 512,365 L512,512 L0,512 Z" fill="#1a1838"/>
+  <path d="M40,512 L40,400 L48,400 L48,512 Z M30,420 L58,420 L44,360 Z" fill="#0d0b22"/>
+  <path d="M460,512 L460,380 L468,380 L468,512 Z M448,410 L480,410 L464,340 Z" fill="#0d0b22"/>
+  <rect x="0" y="440" width="512" height="72" fill="#0d0b22"/>
+  <!-- one sheet, two ghosts -->
+  <ellipse cx="256" cy="436" rx="170" ry="14" fill="#000" opacity="0.35"/>
+  <path d="M130,430 C120,330 130,210 190,200 C235,195 255,230 256,260 C258,230 280,195 320,200 C385,210 395,330 385,430 Q360,410 340,430 Q320,410 300,430 Q280,410 258,430 Q235,410 215,430 Q190,410 160,430 Q145,420 130,430 Z" fill="#f4f1ff" stroke="#14142e" stroke-width="5" stroke-linejoin="round"/>
+  <!-- left ghost face -->
+  <ellipse cx="176" cy="246" rx="9" ry="12" fill="#14142e"/>
+  <ellipse cx="206" cy="246" rx="9" ry="12" fill="#14142e"/>
+  <circle cx="179" cy="242" r="3" fill="#fff"/>
+  <circle cx="209" cy="242" r="3" fill="#fff"/>
+  <ellipse cx="191" cy="282" rx="8" ry="10" fill="#14142e"/>
+  <!-- right ghost face -->
+  <ellipse cx="306" cy="246" rx="9" ry="12" fill="#14142e"/>
+  <ellipse cx="336" cy="246" rx="9" ry="12" fill="#14142e"/>
+  <circle cx="309" cy="242" r="3" fill="#fff"/>
+  <circle cx="339" cy="242" r="3" fill="#fff"/>
+  <path d="M302,276 Q321,300 340,276" fill="none" stroke="#14142e" stroke-width="4" stroke-linecap="round"/>
+  <!-- sheet folds and shade for depth -->
+  <path d="M258,262 Q250,330 262,420" fill="none" stroke="#b9b3d9" stroke-width="5" stroke-linecap="round"/>
+  <path d="M240,300 Q230,350 236,412" fill="none" stroke="#c9c4e6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M340,330 Q352,370 346,420" fill="none" stroke="#c9c4e6" stroke-width="4" stroke-linecap="round"/>
+  <path d="M300,200 Q330,205 350,240" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M150,330 Q148,380 152,420" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.7"/>
+  <!-- stars -->
+  <g fill="#fff8dc">
+    <circle cx="60" cy="70" r="2"/>
+    <circle cx="140" cy="40" r="1.5"/>
+    <circle cx="230" cy="90" r="2"/>
+    <circle cx="300" cy="50" r="1.5"/>
+    <circle cx="470" cy="200" r="2"/>
+    <circle cx="30" cy="200" r="1.5"/>
+  </g>
+  <!-- tombstones and ground detail -->
+  <path d="M60,470 L60,440 Q60,425 74,425 Q88,425 88,440 L88,470 Z" fill="#2a2748" stroke="#0a0820" stroke-width="3"/>
+  <path d="M430,478 L430,452 Q430,438 444,438 Q458,438 458,452 L458,478 Z" fill="#2a2748" stroke="#0a0820" stroke-width="3"/>
+  <path d="M120,470 Q130,462 140,470 M380,470 Q392,462 402,470" fill="none" stroke="#3a3660" stroke-width="3" stroke-linecap="round"/>
+  <ellipse cx="256" cy="450" rx="180" ry="6" fill="#000" opacity="0.25"/>
+  <!-- waving hand from the right ghost -->
+  <path d="M384,300 Q402,280 410,250 Q414,240 420,246 Q424,256 416,290 Q404,318 388,322 Z" fill="#f4f1ff" stroke="#14142e" stroke-width="4" stroke-linejoin="round"/>
+</svg>

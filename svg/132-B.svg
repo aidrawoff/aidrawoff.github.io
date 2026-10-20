@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#1b2a4a"/>
+  <circle cx="256" cy="230" r="185" fill="#2e4a7d" opacity="0.75"/>
+  <!-- toilet -->
+  <rect x="196" y="330" width="120" height="120" rx="14" fill="#cfd8e6"/>
+  <ellipse cx="256" cy="336" rx="86" ry="30" fill="#eef3fa"/>
+  <ellipse cx="256" cy="336" rx="58" ry="18" fill="#9fb2cc"/>
+  <!-- body bandages -->
+  <path d="M186 300 Q256 250 326 300 L320 340 Q256 316 192 340 Z" fill="#f7f3e3"/>
+  <rect x="196" y="240" width="120" height="90" rx="26" fill="#faf6e8"/>
+  <g stroke="#d9d2b6" stroke-width="4" fill="none">
+    <path d="M200 262 Q256 280 312 262"/>
+    <path d="M200 288 Q256 306 312 288"/>
+    <path d="M200 312 Q256 330 312 312"/>
+  </g>
+  <!-- arms -->
+  <path d="M200 258 Q150 280 132 320" stroke="#faf6e8" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <path d="M312 258 Q362 280 380 320" stroke="#faf6e8" stroke-width="24" stroke-linecap="round" fill="none"/>
+  <!-- head -->
+  <ellipse cx="256" cy="176" rx="62" ry="68" fill="#fdfaf0"/>
+  <g stroke="#d9d2b6" stroke-width="4" fill="none">
+    <path d="M198 150 Q256 132 314 150"/>
+    <path d="M196 176 Q256 194 316 176"/>
+    <path d="M204 204 Q256 222 308 204"/>
+  </g>
+  <!-- eye gap + glowing eyes -->
+  <path d="M200 162 Q256 152 312 162 L312 186 Q256 176 200 186 Z" fill="#241a12"/>
+  <ellipse cx="232" cy="174" rx="11" ry="8" fill="#39e0ff"/>
+  <ellipse cx="282" cy="174" rx="11" ry="8" fill="#39e0ff"/>
+  <!-- loose hanging strip -->
+  <path d="M300 226 q18 40 -4 78 q-16 28 6 52 l26 -8 q-14 -22 2 -46 q18 -34 4 -70 Z" fill="#f3ecd6"/>
+  <!-- toilet paper roll -->
+  <circle cx="420" cy="410" r="42" fill="#f7f2df"/>
+  <circle cx="420" cy="410" r="14" fill="#1b2a4a"/>
+  <path d="M420 368 Q330 340 300 226" stroke="#f7f2df" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- feet on the rim -->
+  <ellipse cx="216" cy="330" rx="20" ry="11" fill="#fdfaf0"/>
+  <ellipse cx="296" cy="330" rx="20" ry="11" fill="#fdfaf0"/>
+  <!-- streamers flying off the roll -->
+  <path d="M452 396 q40 -18 34 -58 q-4 -26 -26 -34 l-6 18 q14 8 16 22 q2 24 -24 34 Z" fill="#efe7cf"/>
+  <path d="M392 442 q-34 26 -78 14 q-24 -8 -30 -30 l20 -4 q6 14 24 18 q32 8 58 -14 Z" fill="#efe7cf"/>
+  <!-- inner eye-socket shading + brows for character -->
+  <path d="M204 158 Q256 148 308 158 L308 166 Q256 156 204 166 Z" fill="#0d0906" opacity="0.55"/>
+  <path d="M218 150 q14 -8 28 -2" stroke="#b9ae86" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M294 150 q-14 -8 -28 -2" stroke="#b9ae86" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- crown bandage tail -->
+  <path d="M296 116 q34 -18 52 4 q-24 -6 -40 10 Z" fill="#f3ecd6"/>
+  <!-- floor shadow -->
+  <ellipse cx="256" cy="462" rx="150" ry="20" fill="#0f1a30" opacity="0.6"/>
+  <!-- highlight glints -->
+  <circle cx="235" cy="171" r="3.5" fill="#ffffff"/>
+  <circle cx="285" cy="171" r="3.5" fill="#ffffff"/>
+</svg>
