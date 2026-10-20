@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#171735"/><stop offset="1" stop-color="#3b2455"/></linearGradient>
+ <linearGradient id="ghost" x2="0" y2="1"><stop stop-color="#f8fbff"/><stop offset="1" stop-color="#9fc9e8"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="130" cy="110" r="70" fill="#f7d891" opacity=".16" filter="url(#glow)"/><circle cx="130" cy="110" r="38" fill="#f7d891" opacity=".75"/>
+<path d="M0 390 Q130 350 255 390 T512 375 V512 H0Z" fill="#241b38"/>
+<path d="M30 370 V170 Q30 145 55 145 H190 Q215 145 215 170 V370" fill="#6d4267" stroke="#d49b9d" stroke-width="5"/>
+<path d="M52 200 H194 M52 245 H194 M52 290 H194" stroke="#d49b9d" stroke-width="4" opacity=".7"/>
+<text x="63" y="185" fill="#fff0c8" font-family="sans-serif" font-size="20" font-weight="bold">HATS</text>
+<path d="M55 235 q25-28 50 0 q-25 25-50 0 M125 235 q25-28 50 0 q-25 25-50 0" fill="#e99a58" stroke="#552f58" stroke-width="4"/>
+<path d="M60 278 h55 l-10 24 H70z M130 278 h55 l-10 24 H140z" fill="#58b9b1" stroke="#552f58" stroke-width="4"/>
+<path d="M60 330 q22-25 45 0 M135 330 q22-25 45 0" fill="none" stroke="#f4d16b" stroke-width="9"/>
+<!-- ghost -->
+<path d="M285 390 C257 350 268 300 276 253 C280 227 273 187 294 160 C318 128 374 127 398 160 C419 188 410 227 416 253 C425 301 434 348 405 390 L390 376 L374 394 L355 376 L336 395 L317 375 L299 394Z" fill="url(#ghost)" stroke="#dff7ff" stroke-width="6"/>
+<ellipse cx="354" cy="176" rx="59" ry="54" fill="#dff4ff" stroke="#9fc9e8" stroke-width="4"/>
+<ellipse cx="335" cy="177" rx="10" ry="15" fill="#242044"/><ellipse cx="375" cy="177" rx="10" ry="15" fill="#242044"/>
+<circle cx="314" cy="202" r="6" fill="#ef9cad" opacity=".7"/><circle cx="394" cy="202" r="6" fill="#ef9cad" opacity=".7"/>
+<path d="M337 205 Q354 220 372 204" fill="none" stroke="#51446e" stroke-width="5"/>
+<!-- hat on head -->
+<path d="M302 134 Q310 91 354 84 Q397 92 407 134Z" fill="#e67d58" stroke="#542c58" stroke-width="6"/><path d="M290 132 Q355 115 420 132 Q425 145 414 149 Q355 137 296 149 Q287 144 290 132Z" fill="#f4b35f" stroke="#542c58" stroke-width="5"/>
+<path d="M326 103 Q354 95 383 103" fill="none" stroke="#f6b58a" stroke-width="3"/>
+<!-- raised arm trying next hat -->
+<path d="M402 258 Q445 229 440 188" fill="none" stroke="#dff4ff" stroke-width="22" stroke-linecap="round"/>
+<path d="M438 190 Q435 167 454 154" fill="none" stroke="#dff4ff" stroke-width="15" stroke-linecap="round"/>
+<!-- held hat -->
+<path d="M422 143 Q433 105 469 101 Q494 116 495 145Z" fill="#6ac0c4" stroke="#542c58" stroke-width="6"/><path d="M413 143 Q457 132 500 145 Q502 157 493 159 Q454 151 418 160 Q410 153 413 143Z" fill="#f0d36b" stroke="#542c58" stroke-width="5"/>
+<path d="M445 112 Q465 105 481 116" fill="none" stroke="#a8e1dc" stroke-width="3"/>
+<!-- other hand -->
+<path d="M292 265 Q247 245 235 208" fill="none" stroke="#dff4ff" stroke-width="21" stroke-linecap="round"/><circle cx="234" cy="202" r="13" fill="#dff4ff"/>
+<path d="M215 195 Q223 168 249 164 Q269 180 267 202Z" fill="#9d6bd1" stroke="#542c58" stroke-width="5"/><path d="M207 201 Q242 191 274 202 Q276 211 267 214 Q238 207 212 216 Q205 210 207 201Z" fill="#f4b35f" stroke="#542c58" stroke-width="4"/>
+<path d="M455 101 l5-18 l9 16" fill="none" stroke="#f7d891" stroke-width="3"/>
+<path d="M270 421 Q354 445 438 421" fill="none" stroke="#e7c06b" stroke-width="5" opacity=".7"/>
+<circle cx="460" cy="65" r="4" fill="#fff0c8"/><circle cx="480" cy="82" r="3" fill="#fff0c8"/><circle cx="250" cy="80" r="3" fill="#fff0c8"/>
+<path d="M475 175 q18 8 22 24 M470 184 q12 10 14 22 M190 130 q15-12 29-5" fill="none" stroke="#f7d891" stroke-width="4" stroke-linecap="round"/>
+<ellipse cx="354" cy="408" rx="92" ry="10" fill="#11132b" opacity=".45"/>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: dark room with subtle ambient glow -->
+  <rect width="512" height="512" fill="#08080f"/>
+
+  <!-- Soft ambient glow (eerie green-blue) -->
+  <radialGradient id="ambient" cx="256" cy="200" r="200" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#00f0e0" stop-opacity="0.14"/>
+    <stop offset="100%" stop-color="#00f0e0" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="512" height="512" fill="url(#ambient)"/>
+
+  <!-- Cauldron with subtle glow -->
+  <g id="cauldron">
+    <ellipse cx="160" cy="360" rx="40" ry="20" fill="#2a1a0a"/>
+    <path d="M120 360 L200 360 M120 360 L130 320 L170 320 L180 360" stroke="#4a2a1a" stroke-width="2" fill="none"/>
+    <!-- Cauldron glow -->
+    <radialGradient id="cauldronGlow" cx="160" cy="360" r="60" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ff5c33" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#ff5c33" stop-opacity="0"/>
+    </radialGradient>
+    <ellipse cx="160" cy="360" rx="60" ry="30" fill="url(#cauldronGlow)"/>
+  </g>
+
+  <!-- Floating ingredients near cauldron -->
+  <g id="ingredients">
+    <circle cx="160" cy="330" r="6" fill="#ff6b6b" opacity="0.85"/>
+    <circle cx="180" cy="340" r="5" fill="#4ecdc4" opacity="0.85"/>
+    <circle cx="140" cy="350" r="4" fill="#ffe66d" opacity="0.85"/>
+    <circle cx="170" cy="320" r="3" fill="#a855f7" opacity="0.85"/>
+    <circle cx="150" cy="335" r="3.5" fill="#ff9f43" opacity="0.85"/>
+  </g>
+
+  <!-- Ghost: translucent white body with faint blue glow -->
+  <g id="ghost">
+    <path d="M256 220 C240 220, 220 240, 220 260 C220 280, 240 300, 256 300 C272 300, 292 280, 292 260 C292 240, 272 220, 256 220 Z" fill="#f8f8ff" fill-opacity="0.95" stroke="#a8b0ff" stroke-width="1.5"/>
+    <path d="M256 180 C256 160, 270 150, 285 150 C300 150, 310 165, 310 180 C310 195, 300 210, 285 210 C270 210, 256 195, 256 180 Z" fill="#f8f8ff" fill-opacity="0.95" stroke="#a8b0ff" stroke-width="1.5"/>
+  </g>
+
+  <!-- Hats on wall (right side): refined silhouettes -->
+  <g id="hats">
+    <!-- Top hat -->
+    <path d="M380 160 L420 160 L420 180 L400 190 L380 180 Z" fill="#1a1a1a"/>
+    <!-- Witch hat -->
+    <path d="M380 200 L420 200 L410 240 L390 240 Z" fill="#1a1a1a"/>
+    <!-- Beanie -->
+    <path d="M380 250 C380 240, 400 230, 420 230 C440 230, 460 240, 460 250 C460 260, 440 270, 420 270 C400 270, 380 260, 380 250 Z" fill="#1a1a1a"/>
+  </g>
+
+  <!-- Floor shadow under ghost -->
+  <ellipse cx="256" cy="320" rx="60" ry="12" fill="#000000" fill-opacity="0.2"/>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#101833"/><stop offset="1" stop-color="#302050"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff8b0" stop-opacity=".9"/><stop offset="1" stop-color="#ffcf4a" stop-opacity="0"/></radialGradient>
+ <filter id="blur"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="395" cy="100" r="92" fill="#d9e7ff" opacity=".18"/><circle cx="395" cy="100" r="62" fill="#eef3ff" opacity=".8"/>
+<g fill="#dce6ff"><circle cx="70" cy="180" r="2"/><circle cx="115" cy="55" r="2"/><circle cx="445" cy="210" r="2"/><circle cx="330" cy="62" r="2"/><circle cx="55" cy="285" r="2"/></g>
+<path d="M0 390 Q90 350 170 382 T330 370 T512 388 V512H0Z" fill="#0a1025"/>
+<path d="M40 18 C120 125 130 200 208 260 S330 330 475 465" fill="none" stroke="#d8d0b5" stroke-width="5"/>
+<g opacity=".45" filter="url(#blur)"><circle cx="92" cy="78" r="40" fill="url(#glow)"/><circle cx="180" cy="179" r="40" fill="url(#glow)"/><circle cx="270" cy="275" r="40" fill="url(#glow)"/><circle cx="380" cy="365" r="40" fill="url(#glow)"/></g>
+<g stroke="#302b32" stroke-width="4"><circle cx="92" cy="78" r="11" fill="#ffcf4a"/><circle cx="180" cy="179" r="11" fill="#ff6f91"/><circle cx="270" cy="275" r="11" fill="#72e0ff"/><circle cx="380" cy="365" r="11" fill="#ffcf4a"/></g>
+<!-- bat, upside down and visibly tangled -->
+<g transform="rotate(-12 252 260)">
+ <path d="M253 265 C236 245 233 214 246 194 C258 178 278 184 284 201 C291 219 275 249 260 267Z" fill="#31264c" stroke="#11101e" stroke-width="6"/>
+ <path d="M250 205 Q218 168 177 155 Q188 190 217 224 Q185 205 151 204 Q181 239 234 243" fill="#593a76" stroke="#11101e" stroke-width="6"/>
+ <path d="M278 207 Q314 171 356 158 Q345 191 313 225 Q346 207 380 208 Q349 240 294 244" fill="#593a76" stroke="#11101e" stroke-width="6"/>
+ <circle cx="264" cy="190" r="19" fill="#4a315d" stroke="#11101e" stroke-width="5"/>
+ <path d="M251 183 l-13 -17 20 9 M277 182 l14 -17 -20 9" fill="#4a315d" stroke="#11101e" stroke-width="5"/>
+ <circle cx="257" cy="189" r="3" fill="#ffcf4a"/><circle cx="271" cy="189" r="3" fill="#ffcf4a"/>
+ <path d="M255 208 Q264 215 273 208" fill="none" stroke="#ff9ab0" stroke-width="3"/>
+ <path d="M249 263 l-10 28 M268 263 l11 28" stroke="#11101e" stroke-width="7" stroke-linecap="round"/>
+</g>
+<!-- tangled wire crossing body -->
+<g fill="none" stroke="#8f65ad" stroke-width="2" opacity=".8">
+ <path d="M177 155 Q210 190 234 243 M151 204 Q200 212 234 230 M356 158 Q323 191 294 244 M380 208 Q332 215 300 231"/>
+</g>
+<path d="M40 18 C150 105 120 235 246 222 C350 210 310 300 430 330 C470 341 455 420 475 465" fill="none" stroke="#d8d0b5" stroke-width="4"/>
+<path d="M90 78 C200 130 167 270 275 275" fill="none" stroke="#d8d0b5" stroke-width="3"/>
+<g fill="none" stroke="#fff1a6" stroke-width="3" stroke-linecap="round">
+ <path d="M70 125 l-8 8 M70 125 l2 11 M340 292 l-8 7 M340 292 l2 11 M414 405 l-8 5 M414 405 l2 10"/>
+</g>
+<text x="24" y="480" fill="#e6d8bd" font-family="sans-serif" font-size="16" letter-spacing="3">NIGHT SIGNAL</text>
+</svg>
