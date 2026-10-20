@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: starry night -->
+  <rect width="512" height="512" fill="#0a041a"/>
+  <!-- Stars: small white circles -->
+  <circle cx="80" cy="60" r="1.2" fill="#fff"/>
+  <circle cx="120" cy="40" r="1" fill="#fff"/>
+  <circle cx="160" cy="70" r="1.3" fill="#fff"/>
+  <circle cx="200" cy="50" r="0.9" fill="#fff"/>
+  <circle cx="240" cy="80" r="1.1" fill="#fff"/>
+  <circle cx="280" cy="45" r="1.2" fill="#fff"/>
+  <circle cx="320" cy="75" r="1" fill="#fff"/>
+  <circle cx="360" cy="55" r="1.3" fill="#fff"/>
+  <circle cx="400" cy="85" r="0.9" fill="#fff"/>
+  <circle cx="440" cy="50" r="1.1" fill="#fff"/>
+  <circle cx="480" cy="70" r="1.2" fill="#fff"/>
+  <circle cx="100" cy="120" r="1" fill="#fff"/>
+  <circle cx="140" cy="100" r="1.3" fill="#fff"/>
+  <circle cx="180" cy="130" r="0.9" fill="#fff"/>
+  <circle cx="220" cy="110" r="1.1" fill="#fff"/>
+  <circle cx="260" cy="140" r="1.2" fill="#fff"/>
+  <circle cx="300" cy="105" r="1" fill="#fff"/>
+  <circle cx="340" cy="135" r="1.3" fill="#fff"/>
+  <circle cx="380" cy="115" r="0.9" fill="#fff"/>
+  <circle cx="420" cy="145" r="1.1" fill="#fff"/>
+  <circle cx="460" cy="100" r="1.2" fill="#fff"/>
+  <!-- Moon: soft glow -->
+  <circle cx="450" cy="180" r="35" fill="#f5e6b8" opacity="0.85"/>
+  <circle cx="450" cy="180" r="30" fill="#f0d796"/>
+  <!-- Cauldron base -->
+  <path d="M 200 380 Q 256 420 312 380 L 312 340 Q 256 300 200 340 Z" fill="#3a2c1a"/>
+  <!-- Cauldron rim highlight -->
+  <path d="M 200 340 Q 256 300 312 340" stroke="#5a422a" stroke-width="3" fill="none"/>
+  <!-- Witch 1: silhouette and hat with purple glow -->
+  <path d="M 160 220 C 160 200 180 180 200 180 C 220 180 240 200 240 220 C 240 240 220 260 200 260 C 180 260 160 240 160 220 Z M 180 180 C 180 165 190 155 200 155 C 210 155 220 165 220 180 L 200 180 Z" fill="#2a1e18"/>
+  <path d="M 180 155 C 180 140 200 130 220 140 C 240 150 240 170 220 180 L 200 180 C 200 170 180 165 180 155 Z" fill="#9d6cd8"/>
+  <circle cx="200" cy="155" r="8" fill="#c7a3ff" opacity="0.8"/>  <!-- hat tip highlight -->
+  <!-- Witch 2: silhouette and hat with purple glow -->
+  <path d="M 320 220 C 320 200 340 180 360 180 C 380 180 400 200 400 220 C 400 240 380 260 360 260 C 340 260 320 240 320 220 Z M 340 180 C 340 165 350 155 360 155 C 370 155 380 165 380 180 L 360 180 Z" fill="#2a1e18"/>
+  <path d="M 340 155 C 340 140 360 130 380 140 C 400 150 400 170 380 180 L 360 180 C 360 170 340 165 340 155 Z" fill="#9d6cd8"/>
+  <circle cx="360" cy="155" r="8" fill="#c7a3ff" opacity="0.8"/>  <!-- hat tip highlight -->
+  <!-- Cauldron steam wisps -->
+  <path d="M 256 320 Q 256 280 256 240" stroke="#e0e0e0" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M 260 320 Q 260 275 260 235" stroke="#e0e0e0" stroke-width="2" fill="none" opacity="0.6"/>
+  <path d="M 252 320 Q 252 285 252 245" stroke="#e0e0e0" stroke-width="2" fill="none" opacity="0.5"/>
+  <!-- Cauldron shadow depth -->
+  <ellipse cx="256" cy="380" rx="60" ry="15" fill="#1a120b"/>  <!-- soft shadow under cauldron -->
+</svg>

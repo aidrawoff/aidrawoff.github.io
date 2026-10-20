@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#140c2a"/>
+      <stop offset="1" stop-color="#43305f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f7e7b5" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#f7e7b5" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- night sky -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="92" r="90" fill="url(#glow)"/>
+  <circle cx="400" cy="92" r="46" fill="#f5e9c8"/>
+  <circle cx="386" cy="80" r="8" fill="#d9c9a0"/>
+  <circle cx="412" cy="108" r="6" fill="#d9c9a0"/>
+  <!-- stars -->
+  <circle cx="70" cy="60" r="2" fill="#fff8e0"/>
+  <circle cx="150" cy="120" r="2" fill="#fff8e0"/>
+  <circle cx="90" cy="200" r="1.5" fill="#fff8e0"/>
+  <circle cx="470" cy="230" r="1.5" fill="#fff8e0"/>
+  <!-- distant hills -->
+  <path d="M0 400 Q120 330 250 390 T512 380 V512 H0 Z" fill="#241a40"/>
+  <!-- branch -->
+  <path d="M0 395 Q200 375 512 400 L512 420 Q200 397 0 417 Z" fill="#2a1d14"/>
+  <!-- bushy bandaged tail -->
+  <path d="M318 330 Q440 320 428 170 Q420 100 366 104 Q400 170 370 280 Q350 320 318 330 Z" fill="#c9782e" stroke="#1a1020" stroke-width="5"/>
+  <path d="M356 300 Q404 262 396 200" stroke="#f3e6c4" stroke-width="11" fill="none"/>
+  <path d="M372 262 Q414 232 406 178" stroke="#f3e6c4" stroke-width="11" fill="none"/>
+  <!-- body wrapped in bandages -->
+  <ellipse cx="256" cy="300" rx="88" ry="85" fill="#f3e6c4" stroke="#1a1020" stroke-width="6"/>
+  <path d="M190 260 Q256 280 322 260" stroke="#cdbb93" stroke-width="7" fill="none"/>
+  <path d="M184 300 Q256 320 328 300" stroke="#cdbb93" stroke-width="7" fill="none"/>
+  <path d="M190 340 Q256 360 322 340" stroke="#cdbb93" stroke-width="7" fill="none"/>
+  <!-- ears -->
+  <circle cx="208" cy="132" r="22" fill="#c9782e" stroke="#1a1020" stroke-width="5"/>
+  <circle cx="304" cy="132" r="22" fill="#c9782e" stroke="#1a1020" stroke-width="5"/>
+  <circle cx="208" cy="134" r="10" fill="#f3e6c4"/>
+  <circle cx="304" cy="134" r="10" fill="#f3e6c4"/>
+  <!-- head wrapped -->
+  <circle cx="256" cy="186" r="62" fill="#f3e6c4" stroke="#1a1020" stroke-width="6"/>
+  <path d="M198 170 Q256 150 314 170" stroke="#cdbb93" stroke-width="7" fill="none"/>
+  <path d="M196 200 Q256 220 316 200" stroke="#cdbb93" stroke-width="7" fill="none"/>
+  <!-- spooky brows and eyes -->
+  <path d="M224 162 L244 170" stroke="#1a1020" stroke-width="4" stroke-linecap="round"/>
+  <path d="M288 162 L268 170" stroke="#1a1020" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="236" cy="184" r="9" fill="#1a1020"/>
+  <circle cx="276" cy="184" r="9" fill="#1a1020"/>
+  <circle cx="239" cy="181" r="3" fill="#ffffff"/>
+  <circle cx="279" cy="181" r="3" fill="#ffffff"/>
+  <!-- nose and sly grin -->
+  <ellipse cx="256" cy="208" rx="6" ry="4" fill="#1a1020"/>
+  <path d="M238 220 Q256 240 274 220" stroke="#1a1020" stroke-width="3" fill="none"/>
+  <!-- bandage wrap on tail tip -->
+  <path d="M366 110 Q392 118 410 140" stroke="#f3e6c4" stroke-width="9" fill="none"/>
+  <!-- contact shadow and whiskers -->
+  <ellipse cx="256" cy="402" rx="70" ry="8" fill="#140c2a" opacity="0.5"/>
+  <path d="M236 206 L196 200 M236 212 L198 216 M276 206 L316 200 M276 212 L314 216" stroke="#cdbb93" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- paws -->
+  <ellipse cx="226" cy="368" rx="14" ry="10" fill="#f3e6c4" stroke="#1a1020" stroke-width="4"/>
+  <ellipse cx="286" cy="368" rx="14" ry="10" fill="#f3e6c4" stroke="#1a1020" stroke-width="4"/>
+</svg>
