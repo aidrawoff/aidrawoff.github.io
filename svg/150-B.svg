@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d0"/>
+      <stop offset="1" stop-color="#e8d98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- night sky -->
+  <rect width="512" height="512" fill="#1b1d3a"/>
+  <circle cx="400" cy="90" r="60" fill="url(#moon)"/>
+  <circle cx="400" cy="90" r="30" fill="#fff4c2"/>
+  <!-- stars -->
+  <circle cx="60" cy="60" r="2.5" fill="#fff"/>
+  <circle cx="150" cy="120" r="2" fill="#fff"/>
+  <circle cx="90" cy="200" r="2.5" fill="#fff"/>
+  <circle cx="470" cy="210" r="2" fill="#fff"/>
+  <circle cx="330" cy="40" r="2" fill="#fff"/>
+  <!-- soft glow lifting the witch off the sky -->
+  <ellipse cx="235" cy="300" rx="110" ry="170" fill="#5b4a9a" opacity="0.35"/>
+  <!-- back hills -->
+  <path d="M0 360 Q120 300 250 350 T512 330 L512 512 L0 512 Z" fill="#2a2450"/>
+  <!-- cottage window glow -->
+  <rect x="320" y="250" width="110" height="110" fill="#f5c46b" stroke="#2b1e14" stroke-width="6"/>
+  <line x1="375" y1="250" x2="375" y2="360" stroke="#2b1e14" stroke-width="5"/>
+  <line x1="320" y1="305" x2="430" y2="305" stroke="#2b1e14" stroke-width="5"/>
+  <!-- ground -->
+  <path d="M0 400 Q256 380 512 405 L512 512 L0 512 Z" fill="#14122a"/>
+  <!-- witch body -->
+  <path d="M190 300 L170 470 L300 470 L275 300 Z" fill="#3b1d5a" stroke="#0d0717" stroke-width="5"/>
+  <!-- scarf trailing down from the needles (stripes), drawn over the body -->
+  <path d="M236 318 Q200 360 210 410 Q222 462 186 506" fill="none" stroke="#c0392b" stroke-width="18" stroke-linecap="round"/>
+  <path d="M212 352 Q198 385 206 412" fill="none" stroke="#f1c40f" stroke-width="18" stroke-linecap="butt"/>
+  <path d="M218 448 Q212 470 214 484" fill="none" stroke="#f1c40f" stroke-width="18" stroke-linecap="butt"/>
+  <!-- head -->
+  <circle cx="232" cy="268" r="26" fill="#9be0a0" stroke="#0d0717" stroke-width="4"/>
+  <!-- hat (brim sits above the eyes) -->
+  <path d="M190 236 L232 100 L276 236 Z" fill="#2b1245" stroke="#0d0717" stroke-width="5"/>
+  <ellipse cx="233" cy="238" rx="50" ry="9" fill="#2b1245" stroke="#0d0717" stroke-width="4"/>
+  <!-- eyes and mouth: wide and worried, mid-knit -->
+  <circle cx="223" cy="270" r="5" fill="#fff"/>
+  <circle cx="242" cy="270" r="5" fill="#fff"/>
+  <circle cx="223" cy="271" r="2.5" fill="#0d0717"/>
+  <circle cx="242" cy="271" r="2.5" fill="#0d0717"/>
+  <ellipse cx="232" cy="286" rx="5" ry="4" fill="#0d0717"/>
+  <!-- knitting needles -->
+  <line x1="200" y1="330" x2="150" y2="300" stroke="#d8d8d8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="262" y1="330" x2="310" y2="300" stroke="#d8d8d8" stroke-width="5" stroke-linecap="round"/>
+  <!-- yarn ball on the ground, with a loose strand -->
+  <circle cx="130" cy="470" r="22" fill="#2e86c1" stroke="#0d0717" stroke-width="4"/>
+  <path d="M112 462 Q130 448 148 462 M114 476 Q130 490 146 478" fill="none" stroke="#1b4f72" stroke-width="3"/>
+  <path d="M150 474 Q175 500 196 492" fill="none" stroke="#2e86c1" stroke-width="5"/>
+  <!-- moonlight rim on the hat -->
+  <path d="M232 100 L244 200" stroke="#b9c3ff" stroke-width="3" opacity="0.6"/>
+  <!-- contact shadow -->
+  <ellipse cx="235" cy="472" rx="90" ry="10" fill="#000" opacity="0.4"/>
+</svg>

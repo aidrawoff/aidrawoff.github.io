@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#ffe9c9"/>
+  <circle cx="410" cy="90" r="46" fill="#ffd27a"/>
+  <rect y="330" width="512" height="182" fill="#e8b877"/>
+  <g stroke="#c98f4d" stroke-width="4">
+    <line x1="0" y1="370" x2="512" y2="370"/>
+    <line x1="0" y1="420" x2="512" y2="420"/>
+    <line x1="0" y1="470" x2="512" y2="470"/>
+  </g>
+  <!-- fallen yoga mat, rolled up -->
+  <rect x="20" y="452" width="140" height="40" rx="10" fill="#7fd1c1"/>
+  <circle cx="160" cy="472" r="24" fill="#5cb8a8"/>
+  <circle cx="160" cy="472" r="8" fill="#e8f7f4"/>
+  <!-- motion arcs showing the tumble -->
+  <g fill="none" stroke="#8a5a2b" stroke-width="6" stroke-linecap="round" opacity="0.55">
+    <path d="M300 120 A120 120 0 0 1 400 250"/>
+    <path d="M330 95 A150 150 0 0 1 440 245"/>
+  </g>
+  <!-- SKETCH OF SKELETON: hips high, head down, arms flailing -->
+  <g transform="rotate(-158 250 290)">
+    <!-- spine -->
+    <path d="M250 300 L250 200" stroke="#fbfbf5" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <!-- ribcage -->
+    <ellipse cx="250" cy="215" rx="42" ry="34" fill="#fbfbf5"/>
+    <g stroke="#cfcabb" stroke-width="4">
+      <line x1="215" y1="205" x2="285" y2="205"/>
+      <line x1="212" y1="220" x2="288" y2="220"/>
+      <line x1="218" y1="235" x2="282" y2="235"/>
+    </g>
+    <!-- pelvis -->
+    <path d="M215 300 Q250 335 285 300 Z" fill="#fbfbf5"/>
+    <!-- legs waving in air -->
+    <g stroke="#fbfbf5" stroke-width="13" stroke-linecap="round" fill="none">
+      <path d="M232 305 L205 380 L215 430"/>
+      <path d="M268 305 L300 375 L292 428"/>
+    </g>
+    <!-- feet bones -->
+    <g stroke="#fbfbf5" stroke-width="9" stroke-linecap="round">
+      <line x1="215" y1="430" x2="192" y2="442"/>
+      <line x1="292" y1="428" x2="315" y2="440"/>
+    </g>
+    <!-- arms flailing -->
+    <g stroke="#fbfbf5" stroke-width="11" stroke-linecap="round" fill="none">
+      <path d="M222 200 L160 165 L120 195"/>
+      <path d="M278 200 L340 160 L382 190"/>
+    </g>
+    <!-- hands -->
+    <g fill="#fbfbf5">
+      <circle cx="118" cy="197" r="11"/>
+      <circle cx="384" cy="192" r="11"/>
+    </g>
+    <!-- skull, upside-down-ish -->
+    <g transform="translate(250,150)">
+      <circle r="40" fill="#fbfbf5"/>
+      <rect x="-24" y="20" width="48" height="24" rx="8" fill="#fbfbf5"/>
+      <circle cx="-15" cy="-6" r="12" fill="#3a2b22"/>
+      <circle cx="15" cy="-6" r="12" fill="#3a2b22"/>
+      <circle cx="-12" cy="-9" r="4" fill="#fff"/>
+      <circle cx="18" cy="-9" r="4" fill="#fff"/>
+      <path d="M-4 12 L4 12 L0 20 Z" fill="#3a2b22"/>
+      <g stroke="#3a2b22" stroke-width="3">
+        <line x1="-14" y1="28" x2="-14" y2="42"/>
+        <line x1="0" y1="28" x2="0" y2="44"/>
+        <line x1="14" y1="28" x2="14" y2="42"/>
+      </g>
+    </g>
+  </g>
+  <!-- flying bone for comedy -->
+  <g transform="rotate(-30 420 150)" fill="#fbfbf5">
+    <rect x="400" y="144" width="40" height="10" rx="5"/>
+    <circle cx="400" cy="142" r="8"/><circle cx="400" cy="156" r="8"/>
+    <circle cx="440" cy="142" r="8"/><circle cx="440" cy="156" r="8"/>
+  </g>
+  <!-- sweat drops / surprise marks -->
+  <g fill="#6bb7e8">
+    <path d="M150 120 q10 -18 20 0 q-10 14 -20 0z"/>
+    <path d="M360 110 q9 -16 18 0 q-9 12 -18 0z"/>
+  </g>
+</svg>
