@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a4a"/>
+      <stop offset="1" stop-color="#3a1f5c"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8d6"/>
+      <stop offset="1" stop-color="#f2c14e"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="90" r="62" fill="url(#moon)" opacity="0.95"/>
+  <circle cx="80" cy="60" r="3" fill="#ffffff"/>
+  <circle cx="170" cy="120" r="2" fill="#ffffff"/>
+  <circle cx="300" cy="40" r="2.5" fill="#ffffff"/>
+  <circle cx="470" cy="220" r="2" fill="#ffffff"/>
+  <!-- branch -->
+  <path d="M40 150 Q200 190 330 175 L340 190 Q200 210 40 172 Z" fill="#4a3220"/>
+  <!-- bat body, hanging -->
+  <g>
+    <path d="M250 185 q-6 -18 6 -22 q12 4 6 22" fill="#2b2338"/>
+    <ellipse cx="256" cy="270" rx="42" ry="55" fill="#3b2f4d"/>
+    <!-- wings folded -->
+    <path d="M256 215 C200 230 170 300 195 355 C220 380 250 350 256 300 Z" fill="#5a4670"/>
+    <path d="M256 215 C312 230 342 300 317 355 C292 380 262 350 256 300 Z" fill="#5a4670"/>
+    <!-- head upside down -->
+    <circle cx="256" cy="330" r="34" fill="#4a3a5e"/>
+    <path d="M228 350 l-16 22 l24 -6 Z" fill="#3b2f4d"/>
+    <path d="M284 350 l16 22 l-24 -6 Z" fill="#3b2f4d"/>
+    <ellipse cx="244" cy="324" rx="8" ry="9" fill="#ffd500"/>
+    <ellipse cx="268" cy="324" rx="8" ry="9" fill="#ffd500"/>
+    <circle cx="245" cy="326" r="4" fill="#1a1030"/>
+    <circle cx="267" cy="326" r="4" fill="#1a1030"/>
+    <!-- snout reaching to fruit + open mouth -->
+    <path d="M242 350 q14 22 14 34 q0 12 -14 16 q-14 -4 -14 -16 q0 -12 14 -34 Z" fill="#6d5585" transform="translate(14,0)"/>
+    <path d="M244 348 l6 12 l6 -12 Z M258 348 l6 12 l6 -12 Z" fill="#ffffff"/>
+    <!-- wing membranes with finger ribs -->
+    <path d="M256 215 C200 230 170 300 195 355" fill="none" stroke="#3b2f4d" stroke-width="4"/>
+    <path d="M256 215 C312 230 342 300 317 355" fill="none" stroke="#3b2f4d" stroke-width="4"/>
+    <path d="M215 240 L200 340 M232 250 L222 350 M297 240 L312 340 M280 250 L290 350" stroke="#46375c" stroke-width="3" fill="none"/>
+    <!-- thumbs -->
+    <circle cx="196" cy="352" r="7" fill="#6d5585"/>
+    <circle cx="316" cy="352" r="7" fill="#6d5585"/>
+    <!-- fur tuft / chest highlight -->
+    <path d="M232 250 q24 14 48 0 q-6 34 -24 34 q-18 0 -24 -34 Z" fill="#7a6192" opacity="0.7"/>
+  </g>
+  <!-- the fig being eaten, held by the snout -->
+  <circle cx="262" cy="400" r="24" fill="#6a0dad"/>
+  <path d="M252 392 a24 24 0 0 0 24 20 l-4 -22 Z" fill="#ff2e63" opacity="0.9"/>
+  <circle cx="262" cy="382" r="4" fill="#3b2f4d"/>
+  <!-- juice drops -->
+  <circle cx="286" cy="418" r="5" fill="#ff2e63"/>
+  <circle cx="296" cy="434" r="3.5" fill="#ff2e63"/>
+  <circle cx="240" cy="424" r="3" fill="#ff2e63"/>
+  <!-- fruit bowl below -->
+  <path d="M120 440 h270 q-10 55 -135 55 q-125 0 -135 -55 Z" fill="#c9762f"/>
+  <ellipse cx="255" cy="440" rx="135" ry="18" fill="#e8963f"/>
+  <circle cx="200" cy="425" r="30" fill="#e63946"/>
+  <circle cx="255" cy="420" r="28" fill="#7cb518"/>
+  <circle cx="305" cy="427" r="26" fill="#ffb703"/>
+  <circle cx="228" cy="405" r="22" fill="#9d4edd"/>
+</svg>

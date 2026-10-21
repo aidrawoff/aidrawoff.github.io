@@ -1,0 +1,162 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1b263b"/>
+      <stop offset="100%" stop-color="#4a154b"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2e7d32"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4e342e"/>
+      <stop offset="100%" stop-color="#3e2723"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="512" height="340" fill="url(#sky)"/>
+  
+  <!-- Stars / Fireflies -->
+  <circle cx="80" cy="70" r="2" fill="#fff" opacity="0.8"/>
+  <circle cx="150" cy="120" r="1.5" fill="#fff" opacity="0.6"/>
+  <circle cx="280" cy="60" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="450" cy="140" r="2.5" fill="#ffe082" opacity="0.8"/>
+  <circle cx="370" cy="90" r="1.5" fill="#ffe082" opacity="0.7"/>
+
+  <!-- Moon -->
+  <circle cx="420" cy="90" r="40" fill="#fbc02d" opacity="0.9"/>
+  <circle cx="405" cy="80" r="8" fill="#f9a825" opacity="0.4"/>
+  <circle cx="435" cy="105" r="12" fill="#f9a825" opacity="0.4"/>
+
+  <!-- Distant Hills -->
+  <path d="M 0 340 Q 150 280 300 340 T 512 340 V 340 H 0 Z" fill="#2d3748" opacity="0.5"/>
+
+  <!-- Ground & Soil -->
+  <rect y="340" width="512" height="172" fill="url(#soil)"/>
+  <rect y="340" width="512" height="30" fill="url(#ground)"/>
+
+  <!-- Garden fence -->
+  <g stroke="#b0bec5" stroke-width="3">
+    <line x1="0" y1="325" x2="512" y2="325" stroke="#78909c" stroke-width="6"/>
+    <line x1="0" y1="355" x2="512" y2="355" stroke="#78909c" stroke-width="6"/>
+  </g>
+  <g fill="#cfd8dc">
+    <polygon points="50,270 65,290 65,360 35,360 35,290"/>
+    <polygon points="150,270 165,290 165,360 135,360 135,290"/>
+    <polygon points="250,270 265,290 265,360 235,360 235,290"/>
+    <polygon points="350,270 365,290 365,360 335,360 335,290"/>
+    <polygon points="450,270 465,290 465,360 435,360 435,290"/>
+  </g>
+
+  <!-- Flower Patch / Extra Flowers in Background -->
+  <g transform="translate(40, 360)">
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#81c784" stroke-width="4"/>
+    <circle cx="0" cy="-5" r="10" fill="#ff7043"/>
+    <circle cx="0" cy="-5" r="4" fill="#ffee58"/>
+  </g>
+  <g transform="translate(100, 370)">
+    <line x1="0" y1="40" x2="0" y2="0" stroke="#81c784" stroke-width="4"/>
+    <circle cx="0" cy="-5" r="10" fill="#ab47bc"/>
+    <circle cx="0" cy="-5" r="4" fill="#ffee58"/>
+  </g>
+
+  <!-- Zombie Character -->
+  <!-- Torso (tattered blue overalls & shirt) -->
+  <rect x="216" y="250" width="80" height="110" rx="12" fill="#1565c0"/>
+  <rect x="236" y="260" width="40" height="50" fill="#e0f7fa" rx="4"/>
+  <!-- Overalls straps -->
+  <rect x="228" y="250" width="12" height="70" fill="#0d47a1"/>
+  <rect x="272" y="250" width="12" height="70" fill="#0d47a1"/>
+  <!-- Patch on overalls -->
+  <rect x="246" y="315" width="20" height="20" fill="#5d4037" rx="2"/>
+  <line x1="246" y1="315" x2="266" y2="335" stroke="#3e2723" stroke-width="2"/>
+
+  <!-- Arms -->
+  <path d="M 216 270 Q 180 280 160 310" stroke="#80cbc4" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M 296 270 Q 330 280 340 310" stroke="#80cbc4" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <!-- Hands -->
+  <circle cx="155" cy="315" r="10" fill="#80cbc4"/>
+  <circle cx="345" cy="315" r="10" fill="#80cbc4"/>
+
+  <!-- Head -->
+  <circle cx="256" cy="185" r="54" fill="#a7ffeb"/>
+  <!-- Ears -->
+  <circle cx="200" cy="185" r="8" fill="#80cbc4"/>
+  <circle cx="312" cy="185" r="8" fill="#80cbc4"/>
+
+  <!-- Stitches & Scars -->
+  <path d="M 220 150 Q 256 130 292 150" stroke="#00796b" stroke-width="5" fill="none"/>
+  <line x1="235" y1="165" x2="250" y2="180" stroke="#00796b" stroke-width="4"/>
+  <line x1="275" y1="165" x2="260" y2="180" stroke="#00796b" stroke-width="4"/>
+  <line x1="290" y1="195" x2="305" y2="205" stroke="#00796b" stroke-width="4"/>
+
+  <!-- Eyes: One large goofy eye, one stitched/wink -->
+  <circle cx="232" cy="190" r="14" fill="#ffffff"/>
+  <circle cx="232" cy="190" r="6" fill="#b71c1c"/>
+  <circle cx="234" cy="188" r="2" fill="#ffffff"/>
+  
+  <path d="M 268 185 Q 284 185 296 195" stroke="#00796b" stroke-width="4" stroke-linecap="round" fill="none"/>
+  <line x1="275" y1="190" x2="285" y2="200" stroke="#00796b" stroke-width="3"/>
+  <line x1="285" y1="190" x2="275" y2="200" stroke="#00796b" stroke-width="3"/>
+
+  <!-- Happy Zombie Smile (crooked, missing tooth) -->
+  <path d="M 235 215 Q 256 235 285 210" stroke="#004d40" stroke-width="5" stroke-linecap="round" fill="none"/>
+  <rect x="250" y="215" width="10" height="10" fill="#fff"/>
+
+  <!-- Sunflower sprouting from head -->
+  <line x1="256" y1="131" x2="256" y2="85" stroke="#4caf50" stroke-width="6"/>
+  <circle cx="256" cy="75" r="22" fill="#e65100"/>
+  <circle cx="256" cy="75" r="10" fill="#3e2723"/>
+  <g fill="#ffeb3b">
+    <ellipse cx="256" cy="45" rx="6" ry="14"/>
+    <ellipse cx="256" cy="105" rx="6" ry="14"/>
+    <ellipse cx="226" cy="75" rx="14" ry="6"/>
+    <ellipse cx="286" cy="75" rx="14" ry="6"/>
+    <ellipse cx="235" cy="54" rx="10" ry="10" transform="rotate(-45 235 54)"/>
+    <ellipse cx="277" cy="96" rx="10" ry="10" transform="rotate(-45 277 96)"/>
+    <ellipse cx="235" cy="96" rx="10" ry="10" transform="rotate(45 235 96)"/>
+    <ellipse cx="277" cy="54" rx="10" ry="10" transform="rotate(45 277 54)"/>
+  </g>
+
+  <!-- Watering Can held in left hand -->
+  <g transform="translate(115, 290)">
+    <rect x="0" y="10" width="45" height="35" rx="6" fill="#90a4ae"/>
+    <path d="M 0 20 Q -25 20 -20 35" stroke="#78909c" stroke-width="5" fill="none"/>
+    <path d="M 45 20 Q 75 0 80 -10" stroke="#78909c" stroke-width="5" fill="none"/>
+    <ellipse cx="80" cy="-10" rx="6" ry="10" fill="#607d8b"/>
+    <!-- Water drops -->
+    <circle cx="95" cy="0" r="3" fill="#4fc3f7" opacity="0.8"/>
+    <circle cx="105" cy="15" r="4" fill="#4fc3f7" opacity="0.8"/>
+    <circle cx="115" cy="30" r="5" fill="#4fc3f7" opacity="0.8"/>
+  </g>
+
+  <!-- Foreground Giant Sunflower being tended -->
+  <g transform="translate(390, 420)">
+    <line x1="0" y1="0" x2="0" y2="-130" stroke="#388e3c" stroke-width="10"/>
+    <path d="M -10 -80 Q -40 -100 -30 -60" stroke="#4caf50" stroke-width="6" fill="none"/>
+    <path d="M 10 -50 Q 40 -70 30 -40" stroke="#4caf50" stroke-width="6" fill="none"/>
+    
+    <!-- Flower Head -->
+    <circle cx="0" cy="-130" r="38" fill="#d84315"/>
+    <circle cx="0" cy="-130" r="16" fill="#3e2723"/>
+    <g fill="#ffc107">
+      <ellipse cx="0" cy="-175" rx="8" ry="20"/>
+      <ellipse cx="0" cy="-85" rx="8" ry="20"/>
+      <ellipse cx="-45" cy="-130" rx="20" ry="8"/>
+      <ellipse cx="45" cy="-130" rx="20" ry="8"/>
+      <ellipse cx="-32" cy="-162" rx="14" ry="14" transform="rotate(-45 -32 -162)"/>
+      <ellipse cx="32" cy="-98" rx="14" ry="14" transform="rotate(-45 32 -98)"/>
+      <ellipse cx="-32" cy="-98" rx="14" ry="14" transform="rotate(45 -32 -98)"/>
+      <ellipse cx="32" cy="-162" rx="14" ry="14" transform="rotate(45 32 -162)"/>
+    </g>
+  </g>
+
+  <!-- Cute Butterfly / Bee buzzing around -->
+  <g transform="translate(320, 200)">
+    <ellipse cx="0" cy="0" rx="8" ry="5" fill="#ffeb3b"/>
+    <circle cx="6" cy="0" r="4" fill="#333"/>
+    <ellipse cx="-3" cy="-7" rx="6" ry="4" fill="#b3e5fc" opacity="0.8"/>
+    <ellipse cx="-3" cy="7" rx="6" ry="4" fill="#b3e5fc" opacity="0.8"/>
+  </g>
+</svg>

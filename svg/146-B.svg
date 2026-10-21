@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Night sky -->
+  <rect width="512" height="512" fill="#0a0e1a"/>
+  <circle cx="420" cy="80" r="30" fill="#f0e6c8" opacity="0.9"/>
+  <circle cx="400" cy="70" r="28" fill="#0a0e1a"/>
+  
+  <!-- Ground -->
+  <rect x="0" y="400" width="512" height="112" fill="#1a1f2e"/>
+  <line x1="0" y1="400" x2="512" y2="400" stroke="#2a3045" stroke-width="2"/>
+  
+  <!-- Bus stop sign -->
+  <rect x="340" y="180" width="6" height="220" fill="#4a5568"/>
+  <rect x="320" y="160" width="46" height="30" fill="#1e3a5f" rx="3"/>
+  <rect x="325" y="165" width="36" height="20" fill="#fbbf24" rx="2"/>
+  <text x="343" y="179" font-family="sans-serif" font-size="10" fill="#1e3a5f" text-anchor="middle" font-weight="bold">BUS</text>
+  
+  <!-- Bench -->
+  <rect x="80" y="360" width="120" height="8" fill="#5c4033"/>
+  <rect x="90" y="368" width="8" height="32" fill="#3e2723"/>
+  <rect x="182" y="368" width="8" height="32" fill="#3e2723"/>
+  
+  <!-- Skeleton body -->
+  <ellipse cx="180" cy="280" rx="18" ry="35" fill="#e8e0d0"/>
+  <!-- Spine -->
+  <line x1="180" y1="250" x2="180" y2="310" stroke="#c4b8a8" stroke-width="4"/>
+  <circle cx="180" cy="260" r="3" fill="#a09588"/>
+  <circle cx="180" cy="275" r="3" fill="#a09588"/>
+  <circle cx="180" cy="290" r="3" fill="#a09588"/>
+  <circle cx="180" cy="305" r="3" fill="#a09588"/>
+  
+  <!-- Ribs -->
+  <path d="M 180 265 Q 165 265 165 275 Q 165 285 180 285" fill="none" stroke="#c4b8a8" stroke-width="3"/>
+  <path d="M 180 265 Q 195 265 195 275 Q 195 285 180 285" fill="none" stroke="#c4b8a8" stroke-width="3"/>
+  <path d="M 180 275 Q 168 275 168 285 Q 168 295 180 295" fill="none" stroke="#c4b8a8" stroke-width="3"/>
+  <path d="M 180 275 Q 192 275 192 285 Q 192 295 180 295" fill="none" stroke="#c4b8a8" stroke-width="3"/>
+  
+  <!-- Pelvis -->
+  <path d="M 170 310 Q 180 325 190 310" fill="none" stroke="#c4b8a8" stroke-width="4"/>
+  
+  <!-- Legs sitting -->
+  <line x1="175" y1="315" x2="160" y2="360" stroke="#c4b8a8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="185" y1="315" x2="200" y2="360" stroke="#c4b8a8" stroke-width="5" stroke-linecap="round"/>
+  <!-- Femurs -->
+  <line x1="160" y1="360" x2="130" y2="365" stroke="#c4b8a8" stroke-width="5" stroke-linecap="round"/>
+  <line x1="200" y1="360" x2="230" y2="365" stroke="#c4b8a8" stroke-width="5" stroke-linecap="round"/>
+  <!-- Feet dangling -->
+  <line x1="130" y1="365" x2="125" y2="395" stroke="#c4b8a8" stroke-width="4" stroke-linecap="round"/>
+  <line x1="230" y1="365" x2="235" y2="395" stroke="#c4b8a8" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- Arms -->
+  <line x1="170" y1="255" x2="140" y2="300" stroke="#c4b8a8" stroke-width="4" stroke-linecap="round"/>
+  <line x1="190" y1="255" x2="220" y2="300" stroke="#c4b8a8" stroke-width="4" stroke-linecap="round"/>
+  <!-- Hands on bench -->
+  <circle cx="140" cy="300" r="5" fill="#e8e0d0"/>
+  <line x1="137" y1="298" x2="135" y2="305" stroke="#c4b8a8" stroke-width="2"/>
+  <line x1="140" y1="298" x2="140" y2="305" stroke="#c4b8a8" stroke-width="2"/>
+  <line x1="143" y1="298" x2="145" y2="305" stroke="#c4b8a8" stroke-width="2"/>
+  <circle cx="220" cy="300" r="5" fill="#e8e0d0"/>
+  <line x1="217" y1="298" x2="215" y2="305" stroke="#c4b8a8" stroke-width="2"/>
+  <line x1="220" y1="298" x2="220" y2="305" stroke="#c4b8a8" stroke-width="2"/>
+  <line x1="223" y1="298" x2="225" y2="305" stroke="#c4b8a8" stroke-width="2"/>
+  
+  <!-- Skull -->
+  <ellipse cx="180" cy="215" rx="22" ry="26" fill="#e8e0d0"/>
+  <!-- Jaw -->
+  <path d="M 165 228 Q 180 245 195 228" fill="#e8e0d0"/>
+  <!-- Eye sockets -->
+  <ellipse cx="172" cy="210" rx="6" ry="7" fill="#0a0e1a"/>
+  <ellipse cx="188" cy="210" rx="6" ry="7" fill="#0a0e1a"/>
+  <!-- Nose -->
+  <polygon points="180,218 177,224 183,224" fill="#0a0e1a"/>
+  <!-- Teeth -->
+  <line x1="170" y1="232" x2="170" y2="238" stroke="#a09588" stroke-width="1.5"/>
+  <line x1="175" y1="234" x2="175" y2="240" stroke="#a09588" stroke-width="1.5"/>
+  <line x1="180" y1="235" x2="180" y2="241" stroke="#a09588" stroke-width="1.5"/>
+  <line x1="185" y1="234" x2="185" y2="240" stroke="#a09588" stroke-width="1.5"/>
+  <line x1="190" y1="232" x2="190" y2="238" stroke="#a09588" stroke-width="1.5"/>
+  
+  <!-- Expression: tired waiting -->
+  <line x1="168" y1="208" x2="176" y2="212" stroke="#0a0e1a" stroke-width="1"/>
+  <line x1="192" y1="208" x2="184" y2="212" stroke="#0a0e1a" stroke-width="1"/>
+  
+  <!-- Briefcase -->
+  <rect x="205" y="340" width="30" height="20" fill="#3e2723" rx="2"/>
+  <rect x="215" y="335" width="10" height="5" fill="none" stroke="#3e2723" stroke-width="2"/>
+  
+  <!-- Street lamp glow -->
+  <circle cx="80" cy="120" r="60" fill="#fbbf24" opacity="0.08"/>
+  <circle cx="80" cy="120" r="35" fill="#fbbf24" opacity="0.15"/>
+  <line x1="80" y1="120" x2="80" y2="400" stroke="#2a3045" stroke-width="4"/>
+  <rect x="70" y="110" width="20" height="15" fill="#fbbf24" opacity="0.6" rx="2"/>
+</svg>

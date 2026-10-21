@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <!-- Moonlit sky gradient -->
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="512">
+    <stop offset="0%" stop-color="#0a0a1a"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </linearGradient>
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- Full moon -->
+  <circle cx="420" cy="120" r="60" fill="#f5f3d8" />
+  <circle cx="420" cy="120" r="60" fill="none" stroke="#f5f3d8" stroke-width="1" stroke-opacity="0.3"/>
+
+  <!-- Bat body: large teardrop shape, wings spread -->
+  <path d="M 280 280 c -40 -30 -80 -60 -120 -80 -20 -10 -40 -20 -60 -30 -30 -15 -60 -30 -90 -45 -40 -20 -80 -40 -120 -60 -20 -10 -40 -20 -60 -30 -10 -5 -20 -10 -30 -15 -20 -10 -40 -20 -60 -30 -15 -5 -30 -10 -45 -15 -20 -8 -40 -16 -60 -24 -15 -6 -30 -12 -45 -18 -20 -10 -40 -20 -60 -30 -10 -5 -20 -10 -30 -15 -5 -3 -10 -6 -15 -9 -10 -5 -20 -10 -30 -15 -10 -5 -20 -10 -30 -15 -5 -3 -10 -6 -15 -9 -5 -2 -10 -4 -15 -6 -10 -4 -20 -8 -30 -12 -5 -2 -10 -4 -15 -6 -5 -2 -10 -4 -15 -6 z" fill="#2a2a3a"/>
+
+  <!-- Bat head and face -->
+  <path d="M 160 240 c -10 -5 -20 -10 -30 -15 -15 -8 -30 -16 -45 -24 -20 -10 -40 -20 -60 -30 -10 -5 -20 -10 -30 -15 -5 -3 -10 -6 -15 -9 -5 -2 -10 -4 -15 -6 -5 -2 -10 -4 -15 -6 -10 -4 -20 -8 -30 -12 -5 -2 -10 -4 -15 -6 -5 -2 -10 -4 -15 -6 z M 130 220 c -5 0 -10 0 -15 0 -5 0 -10 0 -15 0 -5 0 -10 0 -15 0 -5 0 -10 0 -15 0 z" fill="#1a1a2a"/>
+
+  <!-- Ears -->
+  <path d="M 130 220 l -15 -20 l 0 10 l 15 20 z" fill="#1a1a2a"/>
+  <path d="M 100 210 l -12 -16 l 0 8 l 12 16 z" fill="#1a1a2a"/>
+
+  <!-- Eyes and fangs -->
+  <circle cx="120" cy="215" r="4" fill="#f5f3d8"/>
+  <circle cx="120" cy="215" r="2" fill="#000000"/>
+  <path d="M 120 220 l -3 -5 l 6 0 z" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+  <path d="M 115 225 l -3 5 l 6 0 z" stroke="#ffffff" stroke-width="1.5" fill="none"/>
+
+  <!-- Wings detail: primary veins -->
+  <path d="M 200 280 l -30 -20 l -20 -15 l -15 -10 l -10 -5" stroke="#3a3a4a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 230 260 l -25 -15 l -20 -10 l -15 -8" stroke="#3a3a4a" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <path d="M 255 245 l -20 -10 l -15 -8 l -10 -5" stroke="#3a3a4a" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+  <!-- Fruit: hanging cluster of grapes -->
+  <g transform="translate(320,180) scale(0.8)">
+    <!-- Stem -->
+    <path d="M 0 0 l 0 -60" stroke="#5a4a3a" stroke-width="3" fill="none"/>
+    <!-- Grapes -->
+    <circle cx="0" cy="-40" r="12" fill="#6a2a5a"/>
+    <circle cx="12" cy="-35" r="10" fill="#7a3a6a"/>
+    <circle cx="-12" cy="-35" r="10" fill="#7a3a6a"/>
+    <circle cx="6" cy="-25" r="9" fill="#8a4a7a"/>
+    <circle cx="-6" cy="-25" r="9" fill="#8a4a7a"/>
+    <circle cx="0" cy="-15" r="8" fill="#9a5a8a"/>
+    <!-- Highlight on top grape -->
+    <circle cx="0" cy="-40" r="4" fill="#f5f3d8" opacity="0.7"/>
+  </g>
+
+  <!-- Glow filter -->
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Soft ambient glow on bat -->
+  <ellipse cx="200" cy="260" rx="80" ry="60" fill="#4a4a6a" opacity="0.25" />
+
+  <!-- Subtle shadow under bat -->
+  <ellipse cx="200" cy="320" rx="90" ry="20" fill="#000000" opacity="0.15"/>
+</svg>
