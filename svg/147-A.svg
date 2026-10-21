@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1b4d"/>
+      <stop offset="1" stop-color="#6a3fb0"/>
+    </linearGradient>
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#c98a4b"/>
+      <stop offset="1" stop-color="#7a4a22"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <rect y="360" width="512" height="152" fill="url(#floor)"/>
+  <!-- moon -->
+  <circle cx="430" cy="90" r="46" fill="#ffe6a3"/>
+  <!-- dust pile being swept -->
+  <ellipse cx="150" cy="410" rx="70" ry="20" fill="#3a2a55"/>
+  <!-- broom handle -->
+  <line x1="360" y1="120" x2="250" y2="360" stroke="#e8d59a" stroke-width="16" stroke-linecap="round"/>
+  <!-- broom head block -->
+  <rect x="215" y="350" width="80" height="22" rx="8" fill="#b5651d" transform="rotate(20 255 361)"/>
+  <!-- bristles -->
+  <path d="M230 372 L200 440 M245 378 L225 448 M260 382 L250 452 M275 380 L278 450 M288 372 L302 440" stroke="#f4c542" stroke-width="9" stroke-linecap="round"/>
+  <!-- sparkle trail -->
+  <g fill="#fff6b0">
+    <circle cx="180" cy="330" r="5"/>
+    <circle cx="140" cy="290" r="4"/>
+    <circle cx="110" cy="240" r="6"/>
+    <circle cx="330" cy="300" r="4"/>
+    <circle cx="380" cy="250" r="5"/>
+  </g>
+</svg>

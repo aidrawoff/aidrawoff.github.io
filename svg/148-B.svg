@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#7fc8f8"/>
+      <stop offset="1" stop-color="#e6f7ff"/>
+    </linearGradient>
+  </defs>
+  <!-- sky and sun with rays -->
+  <g stroke="#ffd23f" stroke-width="5" stroke-linecap="round">
+    <line x1="440" y1="22" x2="440" y2="6"/>
+    <line x1="492" y1="80" x2="508" y2="80"/>
+    <line x1="388" y1="80" x2="372" y2="80"/>
+    <line x1="410" y1="30" x2="400" y2="18"/>
+    <line x1="470" y1="30" x2="480" y2="18"/>
+  </g>
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="440" cy="80" r="60" fill="#fff3b0" opacity="0.6"/>
+  <circle cx="440" cy="80" r="46" fill="#ffd23f"/>
+  <!-- back hills -->
+  <path d="M0 330 Q120 270 250 320 T512 310 V512 H0 Z" fill="#8fd18a"/>
+  <!-- ground -->
+  <rect x="0" y="420" width="512" height="92" fill="#5fae5a"/>
+  <!-- contact shadow -->
+  <ellipse cx="250" cy="418" rx="130" ry="10" fill="#2d5a2a" opacity="0.5"/>
+  <!-- scooter: stem and handlebar -->
+  <path d="M338 372 L346 280" stroke="#333" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <path d="M332 280 L366 272" stroke="#333" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <!-- scooter deck -->
+  <path d="M160 360 L340 360 L350 378 L160 378 Z" fill="#e8553d" stroke="#333" stroke-width="4"/>
+  <!-- wheels -->
+  <circle cx="170" cy="392" r="26" fill="#333"/>
+  <circle cx="170" cy="392" r="10" fill="#bbb"/>
+  <circle cx="338" cy="392" r="26" fill="#333"/>
+  <circle cx="338" cy="392" r="10" fill="#bbb"/>
+  <!-- witch dress -->
+  <path d="M196 362 Q230 250 268 362 Z" fill="#5b2a86" stroke="#2a1040" stroke-width="4"/>
+  <!-- neck and torso joining head to dress -->
+  <path d="M222 258 L244 258 L248 300 L216 300 Z" fill="#5b2a86" stroke="#2a1040" stroke-width="4"/>
+  <!-- slow-ride dust puffs -->
+  <circle cx="120" cy="392" r="10" fill="#f4f4f4" opacity="0.8"/>
+  <circle cx="98" cy="398" r="7" fill="#f4f4f4" opacity="0.7"/>
+  <circle cx="140" cy="402" r="6" fill="#f4f4f4" opacity="0.7"/>
+  <!-- arm to handlebar -->
+  <path d="M262 300 Q300 290 340 276" stroke="#2a1040" stroke-width="10" stroke-linecap="round" fill="none"/>
+  <!-- head -->
+  <circle cx="232" cy="240" r="22" fill="#b6f0a0" stroke="#2a1040" stroke-width="4"/>
+  <!-- hair -->
+  <path d="M212 236 Q206 270 218 282" stroke="#e0a8ff" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- hat -->
+  <path d="M198 226 L268 226 L234 150 Z" fill="#222" stroke="#000" stroke-width="3"/>
+  <ellipse cx="233" cy="228" rx="42" ry="7" fill="#222"/>
+  <!-- face: open happy grin -->
+  <circle cx="225" cy="240" r="3" fill="#222"/>
+  <circle cx="241" cy="240" r="3" fill="#222"/>
+  <path d="M222 250 Q232 260 243 250" stroke="#222" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- hat band and sparkles -->
+  <path d="M203 216 L263 216" stroke="#c040a0" stroke-width="6"/>
+  <path d="M90 200 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 l14 -6 z" fill="#ffd23f"/>
+  <path d="M400 190 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4 l9 -4 z" fill="#ffd23f"/>
+  <!-- flying cape -->
+  <path d="M200 300 Q150 300 130 340 Q160 330 200 340 Z" fill="#c040a0"/>
+</svg>
