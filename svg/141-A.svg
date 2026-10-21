@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#182552"/><stop offset="1" stop-color="#56386d"/></linearGradient>
+ <linearGradient id="tub" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#9bc8db"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#fff7cf"/><stop offset="1" stop-color="#ffb45e"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="410" cy="100" r="58" fill="url(#glow)" opacity=".8"/><circle cx="410" cy="100" r="42" fill="#fff5c4"/>
+<path d="M0 350 Q90 318 170 348 T340 340 T512 350 V512 H0Z" fill="#253563"/>
+<rect x="32" y="368" width="448" height="112" rx="48" fill="url(#tub)" stroke="#315d85" stroke-width="8"/>
+<ellipse cx="256" cy="372" rx="212" ry="52" fill="#dff8ff" stroke="#315d85" stroke-width="8"/>
+<!-- monster body and head -->
+<ellipse cx="255" cy="322" rx="118" ry="78" fill="#62bd83" stroke="#173e4b" stroke-width="9"/>
+<path d="M153 277 Q142 190 187 154 Q252 108 323 151 Q370 180 357 279 Q338 328 254 330 Q171 324 153 277Z" fill="#72cf8e" stroke="#173e4b" stroke-width="9"/>
+<path d="M176 171 L164 111 L207 145 M307 145 L348 105 L337 180" fill="#72cf8e" stroke="#173e4b" stroke-width="9" stroke-linejoin="round"/>
+<circle cx="210" cy="208" r="22" fill="#fff" stroke="#173e4b" stroke-width="7"/><circle cx="300" cy="208" r="22" fill="#fff" stroke="#173e4b" stroke-width="7"/><circle cx="215" cy="211" r="9" fill="#173e4b"/><circle cx="295" cy="211" r="9" fill="#173e4b"/>
+<path d="M213 252 Q255 282 299 250" fill="#f47e86" stroke="#173e4b" stroke-width="8" stroke-linecap="round"/>
+<!-- arms --> <path d="M160 293 Q101 280 82 323 Q69 350 102 357 Q139 356 176 330" fill="#62bd83" stroke="#173e4b" stroke-width="9"/>
+<path d="M350 290 Q416 270 437 316 Q448 341 419 355 Q383 356 340 326" fill="#62bd83" stroke="#173e4b" stroke-width="9"/>
+<!-- bubbles --> <g fill="#fff" stroke="#a9dce7" stroke-width="4"><circle cx="105" cy="286" r="22"/><circle cx="139" cy="350" r="17"/><circle cx="390" cy="288" r="25"/><circle cx="426" cy="347" r="18"/><circle cx="205" cy="350" r="19"/><circle cx="300" cy="350" r="25"/></g>
+<path d="M55 410 Q130 390 200 410 T350 408 T475 410" fill="none" stroke="#75b6d2" stroke-width="8" opacity=".8"/>
+<path d="M80 78 v72 M60 112 h40 M455 200 v54 M435 227 h40" stroke="#f8df9b" stroke-width="7" stroke-linecap="round"/>
+<!-- warm bath steam and playful bath toy -->
+<path d="M235 112 C205 88 244 70 218 43 M274 112 C304 86 266 70 292 42" fill="none" stroke="#b9e9ed" stroke-width="9" stroke-linecap="round" opacity=".75"/>
+<path d="M390 428 q18-25 45 0 q-18 20-45 0Z" fill="#f7c84b" stroke="#7a5b27" stroke-width="5"/><circle cx="404" cy="422" r="3" fill="#173e4b"/><circle cx="421" cy="422" r="3" fill="#173e4b"/>
+<!-- tile glints and monster claws -->
+<g fill="none" stroke="#6b82bd" stroke-width="4" opacity=".55"><path d="M20 180h90 M20 230h55 M430 300h70 M15 300h55"/><path d="M125 448h40 M305 448h50"/></g>
+<g stroke="#173e4b" stroke-width="6" stroke-linecap="round"><path d="M91 345l-8 10 M106 348l-3 12 M420 345l8 10 M405 348l3 12"/></g>
+<g fill="#fff" opacity=".8"><circle cx="116" cy="282" r="5"/><circle cx="398" cy="281" r="6"/><circle cx="204" cy="344" r="5"/><circle cx="296" cy="343" r="6"/></g>
+</svg>

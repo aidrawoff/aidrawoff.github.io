@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  <!-- Ghost body: soft purple, wispy oval with subtle texture -->
+  <path id="ghost" d="M256 220c-30 0-55 25-55 55 0 15 10 28 24 32 14 4 28-2 32-16 4-14-2-28-16-32-14-4-28 2-32 16 0 30 25 55 55 55s55-25 55-55c-14-4-28 2-32-16-4-14 2-28 16-32 14-4 28 2 32 16 0-30-25-55-55-55zm-20 50c11 0 20-9 20-20s-9-20-20-20-20 9-20 20 9 20 20 20z" fill="#c8a8e8" opacity="0.85"/>
+  <!-- Subtle inner texture on ghost -->
+  <path d="M240 240c-8 0-15 7-15 15s7 15 15 15 15-7 15-15-7-15-15-15zm16 10c-6 0-11 5-11 11s5 11 11 11 11-5 11-11-5-11-11-11z" fill="#b090d8" opacity="0.65"/>
+  <!-- Ambient glow on ghost edges -->
+  <path d="M230 230c-12 0-22 10-22 22s10 22 22 22 22-10 22-22-10-22-22-22zm12 12c-8 0-15 7-15 15s7 15 15 15 15-7 15-15-7-15-15-15z" fill="#c8a8e8" opacity="0.25"/>
+  <!-- Top hat: sharp silhouette, floating above ghost -->
+  <path id="hat" d="M220 140h72v20H220zM230 120h52v20H230zM240 100h32v20H240z" fill="#1a1a1a"/>
+  <!-- Hat band texture -->
+  <path d="M220 140h72v2H220zM220 144h72v2H220zM220 148h72v2H220zM220 152h72v2H220zM220 156h72v2H220z" fill="#3a3a3a"/>
+  <!-- Glowing hat band: bright highlight, crisp edges -->
+  <path id="glow" d="M220 160h72v3h-72z" fill="#ffde00" filter="url(#glowblur)"/>
+  <!-- Eerie green glow behind ghost, deeper and more defined -->
+  <ellipse cx="256" cy="280" rx="60" ry="30" fill="#00ff88" opacity="0.45"/>
+  <!-- Soft shadow under ghost to ground it -->
+  <ellipse cx="256" cy="320" rx="50" ry="12" fill="#000000" opacity="0.2"/>
+  <!-- Quick blur filter for glow crispness -->
+  <defs>
+    <filter id="glowblur" x="215" y="155" width="82" height="12" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="0.7" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg>

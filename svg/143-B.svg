@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1040"/>
+      <stop offset="1" stop-color="#3a2a6b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6c8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff6c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- moon -->
+  <circle cx="420" cy="70" r="34" fill="#ffe9a8"/>
+  <circle cx="408" cy="62" r="8" fill="#f2d489"/>
+  <!-- floor -->
+  <rect y="380" width="512" height="132" fill="#241a3d"/>
+  <!-- bed frame -->
+  <rect x="70" y="300" width="372" height="90" rx="10" fill="#6b3f22"/>
+  <rect x="56" y="250" width="26" height="150" rx="8" fill="#7d4a28"/>
+  <rect x="430" y="270" width="26" height="130" rx="8" fill="#7d4a28"/>
+  <!-- mattress -->
+  <rect x="86" y="286" width="340" height="44" rx="14" fill="#e8e2f2"/>
+  <!-- pillow -->
+  <ellipse cx="140" cy="286" rx="46" ry="22" fill="#ffffff"/>
+  <!-- bare springs where the sheet was ripped off -->
+  <path d="M200 300 q10 -10 20 0 q10 10 20 0 q10 -10 20 0 q10 10 20 0 q10 -10 20 0" fill="none" stroke="#9aa6c4" stroke-width="4"/>
+  <!-- mattress -->
+  <!-- sheet torn off and stretched taut between the two ghosts -->
+  <path d="M158 268 Q256 150 356 268 Q300 300 256 296 Q212 300 158 268 Z" fill="#ffffff" stroke="#b9c6e0" stroke-width="3"/>
+  <path d="M176 262 Q256 176 338 262" fill="none" stroke="#dbe3f2" stroke-width="4"/>
+  <path d="M204 258 Q256 200 310 258" fill="none" stroke="#dbe3f2" stroke-width="4"/>
+  <path d="M232 262 Q256 236 282 262" fill="none" stroke="#dbe3f2" stroke-width="4"/>
+  <!-- dangling corner of sheet -->
+  <path d="M300 288 q18 40 -6 66 q-16 -30 -22 -58 z" fill="#f4f7ff" stroke="#c9d4e8" stroke-width="3"/>
+  <!-- ghost A (left) -->
+  <path d="M110 300 c-30 -10 -44 -50 -30 -88 c10 -30 46 -40 70 -20 c20 16 22 44 8 62 l-8 60 l-14 -10 l-14 12 l-14 -12 z" fill="#a9f5e2" opacity="0.92"/>
+  <circle cx="112" cy="232" r="7" fill="#123"/>
+  <circle cx="134" cy="228" r="7" fill="#123"/>
+  <path d="M116 254 q10 10 20 2" stroke="#123" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- ghost B (right) -->
+  <path d="M402 300 c30 -10 44 -52 28 -88 c-12 -30 -48 -38 -72 -18 c-20 16 -22 44 -8 62 l8 60 l14 -10 l14 12 l14 -12 z" fill="#ffb3d1" opacity="0.92"/>
+  <circle cx="378" cy="228" r="7" fill="#312"/>
+  <circle cx="400" cy="232" r="7" fill="#312"/>
+  <path d="M376 256 q12 -8 22 4" stroke="#312" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- arms grabbing sheet -->
+  <path d="M150 258 q30 8 44 34" stroke="#a9f5e2" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M362 258 q-30 8 -44 34" stroke="#ffb3d1" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- sparks of conflict -->
+  <g stroke="#ffe9a8" stroke-width="4" stroke-linecap="round">
+    <path d="M256 196 l0 -26"/><path d="M232 206 l-18 -18"/><path d="M280 206 l18 -18"/>
+  </g>
+</svg>

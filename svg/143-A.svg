@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05050f"/>
+      <stop offset="100%" stop-color="#161228"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbea" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffcc00" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="softglow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Moonlight through gothic window -->
+  <circle cx="256" cy="110" r="75" fill="url(#moon)" opacity="0.35"/>
+  <path d="M220,40 L292,40 L292,180 L220,180 Z" fill="none" stroke="#252042" stroke-width="8"/>
+  <path d="M256,40 L256,180 M220,110 L292,110" stroke="#252042" stroke-width="4"/>
+
+  <!-- Cobwebs in top corners -->
+  <path d="M0,0 Q50,50 100,0 M0,0 Q30,70 0,120 M512,0 Q462,50 412,0 M512,0 Q482,70 512,120" fill="none" stroke="#3d3668" stroke-width="2.5" opacity="0.7"/>
+
+  <!-- Floorboards with perspective & rich texture -->
+  <path d="M0,400 L512,380 M0,435 L512,410 M0,470 L512,445 M0,505 L512,480" stroke="#121024" stroke-width="5"/>
+  <path d="M256,390 L80,512 M256,390 L432,512 M256,390 L256,512" stroke="#0e0c1c" stroke-width="4" opacity="0.6"/>
+
+  <!-- Ghost 1 (Left - Determined Grumpy) -->
+  <g id="ghost1" filter="url(#glow)">
+    <path d="M 125 210 Q 90 140 150 120 Q 210 140 175 210 Q 200 310 170 380 Q 155 415 135 385 Q 115 355 125 320 Q 105 350 90 385 Q 70 415 105 365 Z" fill="#e0f7fa" opacity="0.94"/>
+    <path d="M 160 250 Q 200 230 215 240" fill="none" stroke="#e0f7fa" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="130" cy="170" rx="7" ry="11" fill="#080814"/>
+    <ellipse cx="160" cy="170" rx="7" ry="11" fill="#080814"/>
+    <!-- Angry brows -->
+    <path d="M 118 155 L 140 164 M 172 155 L 150 164" stroke="#080814" stroke-width="3.5" stroke-linecap="round"/>
+    <!-- Frown -->
+    <path d="M 138 202 Q 145 192 152 202" fill="none" stroke="#080814" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Ghost 2 (Right - Mischievous Grinner) -->
+  <g id="ghost2" filter="url(#glow)">
+    <path d="M 387 210 Q 422 140 362 120 Q 302 140 337 210 Q 312 310 342 380 Q 357 415 377 385 Q 397 355 387 320 Q 407 350 422 385 Q 442 415 407 365 Z" fill="#e0f7fa" opacity="0.94"/>
+    <path d="M 352 250 Q 312 230 297 240" fill="none" stroke="#e0f7fa" stroke-width="16" stroke-linecap="round"/>
+    <ellipse cx="352" cy="170" rx="7" ry="11" fill="#080814"/>
+    <ellipse cx="382" cy="170" rx="7" ry="11" fill="#080814"/>
+    <!-- Worried / scheming brows -->
+    <path d="M 342 164 L 362 156 M 392 164 L 372 156" stroke="#080814" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 352 195 Q 367 215 382 195" fill="#080814" stroke="#080814" stroke-width="2"/>
+  </g>
+
+  <!-- The Bed Sheet (Epic Tug of War in Center) -->
+  <g filter="url(#softglow)">
+    <path d="M 195 230 Q 256 200 317 230 Q 330 270 325 310 Q 256 330 187 310 Q 182 270 195 230 Z" fill="#ffffff" stroke="#80deea" stroke-width="5"/>
+    <!-- Folds & Stripes -->
+    <path d="M 230 220 L 220 320 M 282 220 L 292 320" stroke="#e0f7fa" stroke-width="8" opacity="0.7"/>
+    <path d="M 256 215 L 256 325" stroke="#b2ebf2" stroke-width="6" stroke-dasharray="6,4" opacity="0.9"/>
+  </g>
+
+  <!-- Ripped edges & dynamic tension details -->
+  <path d="M 190 250 L 172 244 M 322 250 L 340 244 M 256 250 L 256 225" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+  <circle cx="210" cy="235" r="4" fill="#ff4081"/>
+  <circle cx="302" cy="235" r="4" fill="#ff4081"/>
+
+  <!-- Magic Sparks & Energy Bursts -->
+  <circle cx="256" cy="265" r="10" fill="#fff" filter="url(#softglow)"/>
+  <circle cx="256" cy="265" r="5" fill="#ffeb3b"/>
+  <path d="M 235 240 L 222 227 M 277 240 L 290 227 M 235 290 L 222 303 M 277 290 L 290 303" stroke="#00e5ff" stroke-width="3.5" stroke-linecap="round" filter="url(#softglow)"/>
+  <circle cx="195" cy="280" r="2.5" fill="#fff"/>
+  <circle cx="317" cy="280" r="2.5" fill="#fff"/>
+</svg>
