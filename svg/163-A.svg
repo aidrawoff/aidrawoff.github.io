@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9fd3e8"/>
+      <stop offset="1" stop-color="#f6e7b0"/>
+    </linearGradient>
+    <radialGradient id="pump" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="1" stop-color="#d9620f"/>
+    </radialGradient>
+  </defs>
+  <!-- sky -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <!-- back corn row -->
+  <rect x="0" y="180" width="512" height="332" fill="#3f7a2a"/>
+  <!-- ground -->
+  <rect x="0" y="430" width="512" height="82" fill="#6b4a25"/>
+  <!-- back stalks -->
+  <g stroke="#2a5a1a" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M20 430 L20 150"/>
+    <path d="M100 430 L100 200"/>
+    <path d="M250 430 L250 190"/>
+    <path d="M300 430 L300 150"/>
+    <path d="M490 430 L490 170"/>
+  </g>
+  <ellipse cx="100" cy="240" rx="9" ry="20" fill="#e8b020" stroke="#2a5a1a" stroke-width="2"/>
+  <ellipse cx="300" cy="200" rx="9" ry="20" fill="#e8b020" stroke="#2a5a1a" stroke-width="2"/>
+  <!-- pumpkin body, peeking between stalks -->
+  <ellipse cx="256" cy="330" rx="120" ry="95" fill="url(#pump)" stroke="#3a1d05" stroke-width="6"/>
+  <!-- pumpkin ribs -->
+  <path d="M200 245 Q190 330 205 420" fill="none" stroke="#b24e0a" stroke-width="5"/>
+  <path d="M256 237 Q256 330 256 425" fill="none" stroke="#b24e0a" stroke-width="5"/>
+  <path d="M312 245 Q322 330 307 420" fill="none" stroke="#b24e0a" stroke-width="5"/>
+  <!-- stem -->
+  <rect x="244" y="222" width="24" height="26" fill="#4d7a22" stroke="#2a3d10" stroke-width="4"/>
+  <!-- sun rays -->
+  <g stroke="#e0b040" stroke-width="4" stroke-linecap="round">
+    <path d="M450 12 L450 0"/>
+    <path d="M500 60 L512 60"/>
+    <path d="M400 60 L388 60"/>
+  </g>
+  <!-- sun glow in the corner -->
+  <circle cx="450" cy="60" r="34" fill="#fff3b0" stroke="#e0b040" stroke-width="3"/>
+  <!-- front corn stalks -->
+  <g stroke="#2d5a1b" stroke-width="10" fill="none" stroke-linecap="round">
+    <path d="M60 512 L60 120"/>
+    <path d="M140 512 L140 90"/>
+    <path d="M190 512 L190 170"/>
+    <path d="M330 512 L330 160"/>
+    <path d="M400 512 L400 100"/>
+    <path d="M470 512 L470 150"/>
+  </g>
+  <!-- leaves -->
+  <g fill="#5fae3a" stroke="#2d5a1b" stroke-width="3">
+    <path d="M60 300 Q20 270 10 230 Q50 245 60 300 Z"/>
+    <path d="M140 260 Q190 230 215 200 Q175 225 140 260 Z"/>
+    <path d="M330 300 Q370 265 395 240 Q355 270 330 300 Z"/>
+    <path d="M400 210 Q440 185 470 190 Q430 205 400 210 Z"/>
+  </g>
+  <!-- extra front stalks overlapping the pumpkin edges -->
+  <g stroke="#2d5a1b" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M150 512 L140 300"/>
+    <path d="M370 512 L380 290"/>
+  </g>
+  <g fill="#5fae3a" stroke="#2d5a1b" stroke-width="3">
+    <path d="M140 330 Q110 300 100 260 Q130 285 140 330 Z"/>
+    <path d="M380 320 Q410 300 420 262 Q395 290 380 320 Z"/>
+  </g>
+  <!-- glossy highlight on the pumpkin -->
+  <ellipse cx="215" cy="265" rx="26" ry="12" fill="#ffe0a0" opacity="0.55" transform="rotate(-20 215 265)"/>
+  <!-- rosy cheeks -->
+  <ellipse cx="205" cy="325" rx="11" ry="6" fill="#ff7a59" opacity="0.6"/>
+  <ellipse cx="312" cy="325" rx="11" ry="6" fill="#ff7a59" opacity="0.6"/>
+  <!-- contact shadow -->
+  <ellipse cx="256" cy="425" rx="130" ry="14" fill="#3a2410" opacity="0.5"/>
+  <!-- sly face peeking out of the gap -->
+  <path d="M205 300 Q220 288 235 300" fill="none" stroke="#3a1d05" stroke-width="9" stroke-linecap="round"/>
+  <path d="M280 300 Q295 288 310 300" fill="none" stroke="#3a1d05" stroke-width="9" stroke-linecap="round"/>
+  <path d="M215 345 Q258 375 300 340" fill="#3a1d05" stroke="#3a1d05" stroke-width="6" stroke-linejoin="round"/>
+  <path d="M225 350 Q258 362 290 348 Q258 352 225 350 Z" fill="#ffe9b0"/>
+  <!-- cobs -->
+  <ellipse cx="140" cy="200" rx="12" ry="26" fill="#f2c230" stroke="#2d5a1b" stroke-width="3"/>
+  <ellipse cx="400" cy="230" rx="12" ry="26" fill="#f2c230" stroke="#2d5a1b" stroke-width="3"/>
+</svg>

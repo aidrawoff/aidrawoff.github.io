@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1a4a"/>
+      <stop offset="0.6" stop-color="#c2573a"/>
+      <stop offset="1" stop-color="#f29a4a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="pump" cx="0.38" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#ffb35a"/>
+      <stop offset="0.6" stop-color="#ff7a1a"/>
+      <stop offset="1" stop-color="#d2540c"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="256" cy="250" r="200" fill="url(#glow)"/>
+  <!-- distant skyline -->
+  <path d="M0 330 L40 300 L70 320 L110 285 L150 318 L200 296 L240 325 L290 290 L330 316 L380 282 L420 312 L470 294 L512 320 L512 392 L0 392 Z" fill="#4a2a52" opacity="0.8"/>
+  <rect x="0" y="390" width="512" height="122" fill="#3a2440"/>
+  <rect x="0" y="390" width="512" height="6" fill="#6a4a6a"/>
+  <path d="M40 430 L120 430 M200 460 L300 460 M360 440 L470 440" stroke="#4e3354" stroke-width="4" stroke-linecap="round"/>
+  <!-- contact shadow -->
+  <ellipse cx="256" cy="402" rx="160" ry="11" fill="#1a0f1e" opacity="0.7"/>
+  <!-- skateboard deck -->
+  <path d="M104 350 Q256 326 408 350 Q418 362 402 370 Q256 360 110 370 Q94 362 104 350 Z" fill="#2a2a34" stroke="#0d0d12" stroke-width="5"/>
+  <path d="M130 354 Q256 340 382 354" fill="none" stroke="#ff4f7a" stroke-width="4" stroke-linecap="round"/>
+  <!-- trucks and wheels -->
+  <path d="M140 366 L150 372 M372 366 L362 372" stroke="#8a8a96" stroke-width="5"/>
+  <circle cx="142" cy="380" r="13" fill="#e8e0d0" stroke="#0d0d12" stroke-width="4"/>
+  <circle cx="370" cy="380" r="13" fill="#e8e0d0" stroke="#0d0d12" stroke-width="4"/>
+  <circle cx="142" cy="380" r="4" fill="#0d0d12"/>
+  <circle cx="370" cy="380" r="4" fill="#0d0d12"/>
+  <ellipse cx="256" cy="346" rx="96" ry="8" fill="#1a0f1e" opacity="0.35"/>
+  <!-- pumpkin body -->
+  <ellipse cx="256" cy="262" rx="114" ry="96" fill="url(#pump)" stroke="#3a1400" stroke-width="7"/>
+  <path d="M212 170 Q206 262 212 348" fill="none" stroke="#b8430a" stroke-width="6" opacity="0.7"/>
+  <path d="M256 166 Q256 262 256 352" fill="none" stroke="#b8430a" stroke-width="6" opacity="0.7"/>
+  <path d="M300 170 Q306 262 300 348" fill="none" stroke="#b8430a" stroke-width="6" opacity="0.7"/>
+  <!-- rim light -->
+  <path d="M170 232 Q180 190 228 172" fill="none" stroke="#ffe2a8" stroke-width="7" stroke-linecap="round" opacity="0.8"/>
+  <!-- stem -->
+  <path d="M246 170 Q250 138 270 128 L276 144 Q262 156 260 172 Z" fill="#4f7a2a" stroke="#1d2e10" stroke-width="5"/>
+  <!-- eyes: sly, half-lidded -->
+  <path d="M198 236 L226 216 L240 242 Z" fill="#1a0800"/>
+  <path d="M314 236 L286 216 L272 242 Z" fill="#1a0800"/>
+  <path d="M212 226 L228 222" stroke="#ffd27a" stroke-width="3" stroke-linecap="round"/>
+  <path d="M300 226 L284 222" stroke="#ffd27a" stroke-width="3" stroke-linecap="round"/>
+  <!-- grin with teeth -->
+  <path d="M198 288 Q256 344 314 288 L304 304 Q256 326 208 304 Z" fill="#1a0800"/>
+  <path d="M232 306 L238 318 L244 306 M262 312 L268 322 L274 312" fill="#fff4dc" stroke="#fff4dc" stroke-width="2"/>
+  <!-- motion streaks and sparkles -->
+  <path d="M30 372 L86 372 M50 386 L94 386 M24 358 L70 358" stroke="#ffd27a" stroke-width="4" stroke-linecap="round" opacity="0.6"/>
+  <path d="M410 150 L416 160 L426 164 L416 168 L410 178 L404 168 L394 164 L404 160 Z" fill="#ffe9b0"/>
+  <path d="M84 170 L88 176 L95 179 L88 182 L84 189 L80 182 L73 179 L80 176 Z" fill="#ffe9b0" opacity="0.8"/>
+  <!-- eye glints -->
+  <circle cx="232" cy="230" r="3" fill="#ffe9b0"/>
+  <circle cx="280" cy="230" r="3" fill="#ffe9b0"/>
+</svg>
