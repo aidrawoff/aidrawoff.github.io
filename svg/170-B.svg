@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a3a"/>
+      <stop offset="1" stop-color="#0d1620"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.55">
+      <stop offset="0" stop-color="#9fe8ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#9fe8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f4fbff"/>
+      <stop offset="0.7" stop-color="#cfe9f7"/>
+      <stop offset="1" stop-color="#a8cfe4" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="tub" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#fdfdfa"/>
+      <stop offset="1" stop-color="#c3ccd6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <rect y="404" width="512" height="108" fill="#0a1018"/>
+  <g stroke="#2b3f55" stroke-width="3">
+    <line x1="0" y1="150" x2="512" y2="150"/>
+    <line x1="0" y1="250" x2="512" y2="250"/>
+    <line x1="130" y1="0" x2="130" y2="404"/>
+    <line x1="382" y1="0" x2="382" y2="404"/>
+  </g>
+
+  <ellipse cx="256" cy="250" rx="185" ry="185" fill="url(#glow)"/>
+
+  <!-- ghost body -->
+  <path d="M256 96c-52 0-86 38-86 92v96c0 18-14 26-24 34 14 10 30 4 38-8 8 14 22 16 32 4 8 16 26 18 36 4 10 14 28 12 36-4 10 12 24 10 38-2-10-8-24-16-24-34v-94c0-54-30-92-82-92z" fill="url(#ghost)" opacity="0.94"/>
+  <!-- face -->
+  <ellipse cx="228" cy="176" rx="15" ry="21" fill="#16283a"/>
+  <ellipse cx="284" cy="176" rx="15" ry="21" fill="#16283a"/>
+  <ellipse cx="232" cy="170" rx="5" ry="6" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="288" cy="170" rx="5" ry="6" fill="#ffffff" opacity="0.85"/>
+  <ellipse cx="256" cy="222" rx="14" ry="18" fill="#16283a"/>
+  <!-- raised arms -->
+  <path d="M176 208c-28-16-44-38-48-62 16 12 34 16 48 14" fill="none" stroke="#e4f2fc" stroke-width="18" stroke-linecap="round" opacity="0.95"/>
+  <path d="M336 208c28-16 44-38 48-62-16 12-34 16-48 14" fill="none" stroke="#e4f2fc" stroke-width="18" stroke-linecap="round" opacity="0.95"/>
+  <path d="M246 98q10-16 22-10" fill="none" stroke="#eaf7ff" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+
+  <!-- bathwater surface -->
+  <path d="M104 296q38-16 76 0t76 0q38 16 76 0t76 0v34H104z" fill="#5fc9e8" opacity="0.9"/>
+  <path d="M104 296q38-16 76 0t76 0q38 16 76 0t76 0" fill="none" stroke="#bff0ff" stroke-width="5" opacity="0.9"/>
+
+  <!-- tub -->
+  <path d="M96 288h320c0 78-46 122-160 122S96 366 96 288z" fill="url(#tub)" stroke="#101c28" stroke-width="6"/>
+  <clipPath id="tubclip"><path d="M96 318h320c0 78-46 122-160 122S96 396 96 318z"/></clipPath>
+  <g clip-path="url(#tubclip)">
+    <rect x="96" y="318" width="320" height="120" fill="#4fbfe0" opacity="0.5"/>
+    <path d="M96 318q40 16 80 0t80 0q40 16 80 0t80 0" fill="none" stroke="#a9e8fa" stroke-width="6" opacity="0.7"/>
+  </g>
+  <path d="M96 288h320" stroke="#101c28" stroke-width="8" stroke-linecap="round"/>
+  <path d="M132 316q10 46 44 66" fill="none" stroke="#ffffff" stroke-width="9" opacity="0.5" stroke-linecap="round"/>
+  <path d="M118 402c-16 12-22 26-20 40" fill="none" stroke="#d9b25c" stroke-width="14" stroke-linecap="round"/>
+  <path d="M394 402c16 12 22 26 20 40" fill="none" stroke="#d9b25c" stroke-width="14" stroke-linecap="round"/>
+  <!-- faucet -->
+  <path d="M398 288c30-8 44-30 42-58" fill="none" stroke="#d9b25c" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- bubbles -->
+  <g fill="#eaf9ff" opacity="0.9">
+    <circle cx="150" cy="272" r="16"/><circle cx="196" cy="256" r="11"/>
+    <circle cx="316" cy="262" r="13"/><circle cx="358" cy="278" r="17"/>
+    <circle cx="256" cy="248" r="9"/><circle cx="120" cy="240" r="8"/>
+    <circle cx="392" cy="242" r="9"/><circle cx="222" cy="272" r="7"/>
+    <circle cx="290" cy="276" r="8"/>
+  </g>
+  <g fill="none" stroke="#ffffff" stroke-width="3" opacity="0.7">
+    <circle cx="146" cy="266" r="6"/><circle cx="354" cy="272" r="7"/>
+  </g>
+</svg>

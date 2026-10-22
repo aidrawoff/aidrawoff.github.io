@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#19243d"/><stop offset="1" stop-color="#465477"/></linearGradient>
+    <linearGradient id="tub" x2="0" y2="1"><stop stop-color="#f7fbff"/><stop offset="1" stop-color="#aebed6"/></linearGradient>
+    <radialGradient id="moon"><stop stop-color="#fffbd2"/><stop offset="1" stop-color="#f0b96a"/></radialGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <rect y="382" width="512" height="130" fill="#202b43"/>
+  <path d="M0 390h512M0 438h512M0 486h512" stroke="#354461" stroke-width="3"/>
+  <path d="M38 55h142v145H38z" fill="#0d162b" stroke="#b7c4df" stroke-width="7"/>
+  <circle cx="109" cy="125" r="42" fill="url(#moon)"/>
+  <path d="M52 174q25-38 55-8t71-14" fill="none" stroke="#8ba0c4" stroke-width="5" opacity=".7"/>
+  <rect x="389" y="63" width="66" height="242" rx="8" fill="#7b8da8" stroke="#c7d4e8" stroke-width="6"/>
+  <path d="M402 83h40v53h-40zM402 153h40v53h-40zM402 223h40v53h-40z" fill="#293854"/>
+  <ellipse cx="258" cy="423" rx="183" ry="56" fill="#111a2c" opacity=".65"/>
+  <path d="M82 292Q93 255 137 247h240q43 8 54 45l-8 101q-10 54-60 64H150q-51-9-61-64z" fill="url(#tub)" stroke="#e5f1ff" stroke-width="8"/>
+  <ellipse cx="258" cy="302" rx="170" ry="39" fill="#d9e7f4" stroke="#f8ffff" stroke-width="8"/>
+  <ellipse cx="258" cy="302" rx="148" ry="25" fill="#647d9f"/>
+  <path d="M129 305q12 37 50 39h158q38-2 50-39" fill="none" stroke="#f7fcff" stroke-width="7" opacity=".7"/>
+  <path d="M375 271v-57q0-21 18-21t18 21v57" fill="none" stroke="#dce9f9" stroke-width="9"/>
+  <path d="M390 193q-13-17 2-30" fill="none" stroke="#dce9f9" stroke-width="7" stroke-linecap="round"/>
+  <path d="M390 214v20" stroke="#b8e7f2" stroke-width="3" stroke-dasharray="2 6" stroke-linecap="round"/>
+  <circle cx="377" cy="274" r="5" fill="#f2a7a1"/><circle cx="406" cy="274" r="5" fill="#9cc8ee"/>
+  <g opacity=".9" fill="#f4fbff">
+    <circle cx="146" cy="263" r="9"/><circle cx="173" cy="252" r="7"/><circle cx="200" cy="267" r="6"/><circle cx="321" cy="263" r="8"/><circle cx="347" cy="250" r="6"/>
+  </g>
+  <!-- translucent ghost rising from the bath -->
+  <path d="M175 292Q163 247 180 207Q197 168 238 164Q280 160 306 191Q328 218 319 293L304 315q-17-18-34 0-15 18-30 0-15-18-31 0z" fill="#d9f6f1" opacity=".88" stroke="#f3ffff" stroke-width="5"/>
+  <ellipse cx="246" cy="208" rx="57" ry="47" fill="#dcf8f2" opacity=".9"/>
+  <circle cx="225" cy="207" r="10" fill="#26354e"/><circle cx="270" cy="207" r="10" fill="#26354e"/>
+  <circle cx="228" cy="204" r="3" fill="#fff"/><circle cx="273" cy="204" r="3" fill="#fff"/>
+  <path d="M232 230q15 12 29 0" fill="none" stroke="#516b7d" stroke-width="5" stroke-linecap="round"/>
+  <path d="M191 261q20 13 38 3M271 264q20 10 35-4" fill="none" stroke="#fff" stroke-width="6" opacity=".8"/>
+  <path d="M198 165q-5-26 14-40M283 169q12-28-2-44" fill="none" stroke="#d9f6f1" stroke-width="12" stroke-linecap="round" opacity=".75"/>
+  <path d="M151 236q-12-22 3-39M338 238q13-22-2-41" fill="none" stroke="#c9e9e8" stroke-width="6" stroke-linecap="round" opacity=".55"/>
+  <path d="M146 338q-14 28 0 57M173 343q-12 23 0 42M339 337q14 28 0 58M365 333q12 27 0 48" fill="none" stroke="#fff" stroke-width="5" opacity=".55"/>
+  <circle cx="348" cy="115" r="8" fill="#f7d58b"/><circle cx="348" cy="115" r="19" fill="#f7d58b" opacity=".2"/>
+  <path d="M214 91v12M208 97h12M302  seventy" stroke="#dbe8ff" opacity=".75"/>
+  <g fill="none" stroke="#e8f8ff" stroke-width="3" opacity=".8"><circle cx="120" cy="220" r="6"/><circle cx="136" cy="207" r="3"/><circle cx="333" cy="231" r="5"/></g>
+  <path d="M52 356h25" stroke="#f4d58d" stroke-width="5" stroke-linecap="round"/><circle cx="64" cy="348" r="5" fill="#f4d58d"/>
+  <text x="256" y="480" text-anchor="middle" fill="#a9bad4" font-family="sans-serif" font-size="14" letter-spacing="4">MIDNIGHT BATH</text>
+</svg>

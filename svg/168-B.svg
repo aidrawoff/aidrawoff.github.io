@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#02040a"/>
+      <stop offset="45%" stop-color="#090f20"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <!-- Ghost Sheet Gradient -->
+    <linearGradient id="sheetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <!-- Specular Highlight Gradient -->
+    <linearGradient id="highlightGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="3" dy="14" stdDeviation="12" flood-color="#000000" flood-opacity="0.85"/>
+    </filter>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Multi-stop Atmospheric Hills / Background Silhouette -->
+  <path d="M 0 400 Q 120 340 250 395 Q 380 335 512 385 L 512 512 L 0 512 Z" fill="#070c18" opacity="0.8"/>
+  <path d="M 0 430 Q 150 375 295 418 Q 435 370 512 420 L 512 512 L 0 512 Z" fill="#0f172a" opacity="0.95"/>
+
+  <!-- Glowing Stars & Falling Snow -->
+  <g fill="#fff">
+    <circle cx="60" cy="70" r="2" opacity="0.9"/>
+    <circle cx="140" cy="40" r="1.5" opacity="0.6"/>
+    <circle cx="370" cy="55" r="2.5" opacity="0.8"/>
+    <circle cx="430" cy="130" r="1.5" opacity="0.7"/>
+    <circle cx="80" cy="170" r="2" opacity="0.6"/>
+    <circle cx="420" cy="260" r="1" opacity="0.5"/>
+    <circle cx="220" cy="100" r="1.5" opacity="0.8"/>
+    <circle cx="470" cy="80" r="2" opacity="0.7"/>
+    <!-- Soft Glowing Snowflakes -->
+    <circle cx="110" cy="110" r="5" fill="#38bdf8" opacity="0.65" filter="url(#glow)"/>
+    <circle cx="380" cy="90" r="6.5" fill="#38bdf8" opacity="0.55" filter="url(#glow)"/>
+    <circle cx="270" cy="60" r="4.5" fill="#38bdf8" opacity="0.65" filter="url(#glow)"/>
+    <circle cx="80" cy="310" r="3.5" fill="#38bdf8" opacity="0.55" filter="url(#glow)"/>
+    <circle cx="410" cy="340" r="4.5" fill="#38bdf8" opacity="0.65" filter="url(#glow)"/>
+  </g>
+
+  <!-- Ground Snow Drift -->
+  <ellipse cx="256" cy="475" rx="250" ry="48" fill="#0b1325"/>
+  <path d="M 10 445 Q 256 385 502 445 L 502 512 L 10 512 Z" fill="#f8fafc"/>
+  <path d="M 10 445 Q 256 385 502 445" fill="none" stroke="#cbd5e1" stroke-width="4"/>
+  <!-- Sparkling Ground Snow Details -->
+  <circle cx="80" cy="458" r="3" fill="#38bdf8" filter="url(#glow)"/>
+  <circle cx="200" cy="472" r="2" fill="#38bdf8"/>
+  <circle cx="330" cy="462" r="3" fill="#38bdf8" filter="url(#glow)"/>
+  <circle cx="420" cy="478" r="2" fill="#38bdf8"/>
+  <circle cx="150" cy="490" r="2.5" fill="#38bdf8" filter="url(#glow)"/>
+
+  <!-- Main Snowman Ghost Character with Rich Shadow -->
+  <g filter="url(#shadow)">
+    <!-- Twig Arms (Dynamic Spooky Pose with Detailed Branchlets) -->
+    <path d="M 175 285 L 90 220 M 90 220 L 75 205 M 90 220 L 83 238 M 112 235 L 102 210" stroke="#78350f" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 337 285 L 422 220 L 437 205 M 422 220 L 429 238 M 400 235 L 410 210" stroke="#78350f" stroke-width="9.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <!-- Ghost Sheet Draped Body -->
+    <path d="M 256 100 C 150 100 120 205 120 335 C 120 395 145 442 170 465 C 195 442 216 395 256 442 C 296 395 317 442 342 465 C 367 442 392 395 392 335 C 392 205 362 100 256 100 Z" fill="url(#sheetGrad)" stroke="#94a3b8" stroke-width="2"/>
+
+    <!-- Specular Highlight Curve for Volume -->
+    <path d="M 256 110 C 175 110 160 185 160 320" fill="none" stroke="url(#highlightGrad)" stroke-width="16" stroke-linecap="round"/>
+
+    <!-- Deep Fabric Folds and Ripple Shadows -->
+    <path d="M 256 120 C 190 175 180 305 192 452" fill="none" stroke="#cbd5e1" stroke-width="5" opacity="0.85"/>
+    <path d="M 295 130 C 325 200 338 315 315 445" fill="none" stroke="#cbd5e1" stroke-width="5" opacity="0.85"/>
+
+    <!-- Magical Ethereal Glow from Inside -->
+    <circle cx="256" cy="235" r="55" fill="#38bdf8" opacity="0.45" filter="url(#glow)"/>
+    <circle cx="256" cy="235" r="22" fill="#fef08a" opacity="0.65" filter="url(#glow)"/>
+
+    <!-- Spooky Face Cutouts -->
+    <!-- Asymmetric Expressive Left Eye -->
+    <path d="M 198 188 Q 216 170 234 193 Q 216 206 198 188 Z" fill="#0f172a"/>
+    <!-- Right Eye -->
+    <path d="M 278 193 Q 296 170 314 188 Q 296 206 278 193 Z" fill="#0f172a"/>
+    <!-- Surprised O Mouth with Depth -->
+    <ellipse cx="256" cy="243" rx="19" ry="25" fill="#0f172a"/>
+    <ellipse cx="256" cy="248" rx="13" ry="17" fill="#1e293b"/>
+
+    <!-- Festive Mini Winter Witch Hat -->
+    <path d="M 218 100 C 218 100 256 45 294 100 Z" fill="#f97316"/>
+    <ellipse cx="256" cy="100" rx="32" ry="8.5" fill="#ea580c"/>
+    <circle cx="256" cy="42" r="10" fill="#10b981"/>
+    <!-- Hat Gold Band -->
+    <path d="M 228 92 Q 256 98 284 92" fill="none" stroke="#fef08a" stroke-width="5"/>
+  </g>
+
+  <!-- Floating Magic Sparkles around Ghost -->
+  <g fill="#38bdf8" opacity="1" filter="url(#glow)">
+    <circle cx="125" cy="255" r="5.5"/>
+    <circle cx="395" cy="235" r="6.5"/>
+    <circle cx="175" cy="385" r="6"/>
+    <circle cx="345" cy="365" r="5.5"/>
+    <circle cx="256" cy="325" r="4.5"/>
+    <circle cx="140" cy="170" r="4"/>
+    <circle cx="370" cy="150" r="4.5"/>
+  </g>
+</svg>
