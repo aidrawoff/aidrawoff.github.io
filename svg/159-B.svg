@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Gradients & Shadows -->
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fff5eb"/>
+      <stop offset="100%" stop-color="#fce4d6"/>
+    </linearGradient>
+    <linearGradient id="counterGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d99b6c"/>
+      <stop offset="100%" stop-color="#a86e43"/>
+    </linearGradient>
+    <linearGradient id="spiderBody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d2c29"/>
+      <stop offset="100%" stop-color="#1f1513"/>
+    </linearGradient>
+    <linearGradient id="ovenGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a4a4a"/>
+      <stop offset="100%" stop-color="#2b2b2b"/>
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Kitchen Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  
+  <!-- Oven in Background -->
+  <rect x="220" y="80" width="220" height="200" rx="16" fill="url(#ovenGrad)" filter="url(#dropShadow)"/>
+  <rect x="240" y="100" width="180" height="120" rx="8" fill="#ffb347" opacity="0.8"/>
+  <rect x="250" y="110" width="160" height="100" rx="6" fill="#1a1a1a"/>
+  <!-- Oven window glow & interior cookies -->
+  <circle cx="300" cy="150" r="12" fill="#c48a59"/>
+  <circle cx="360" cy="170" r="12" fill="#c48a59"/>
+  <!-- Oven Controls -->
+  <circle cx="250" cy="240" r="10" fill="#d0d0d0"/>
+  <circle cx="280" cy="240" r="10" fill="#d0d0d0"/>
+  <rect x="330" y="235" width="70" height="10" rx="5" fill="#d0d0d0"/>
+
+  <!-- Kitchen Window / Shelves -->
+  <rect x="50" y="80" width="140" height="160" rx="8" fill="#fff" opacity="0.7" filter="url(#dropShadow)"/>
+  <path d="M50 140 h140 M50 200 h140" stroke="#f0d5c3" stroke-width="2"/>
+  <path d="M120 80 v160" stroke="#f0d5c3" stroke-width="2"/>
+
+  <!-- Countertop -->
+  <rect x="0" y="340" width="512" height="172" fill="url(#counterGrad)" filter="url(#dropShadow)"/>
+  <rect x="0" y="340" width="512" height="12" fill="#c38355"/>
+
+  <!-- Mixing Bowl on Counter -->
+  <ellipse cx="130" cy="380" rx="60" ry="20" fill="#e0e0e0"/>
+  <path d="M 70 380 Q 75 450 130 450 Q 185 450 190 380 Z" fill="#f5f5f5" filter="url(#dropShadow)"/>
+  <ellipse cx="130" cy="380" rx="52" ry="14" fill="#8b5a2b"/> <!-- cookie dough inside -->
+  
+  <!-- Baking Tray with Cookies -->
+  <rect x="260" y="360" width="200" height="110" rx="8" fill="#b0b0b0" filter="url(#dropShadow)"/>
+  <rect x="270" y="370" width="180" height="90" rx="4" fill="#dcdcdc"/>
+  
+  <!-- Cookies with Chocolate Chips & Sprinkles -->
+  <g fill="#c48a59">
+    <circle cx="310" cy="400" r="16"/>
+    <circle cx="370" cy="425" r="16"/>
+    <circle cx="420" cy="395" r="16"/>
+    <circle cx="390" cy="380" r="15"/>
+    <circle cx="330" cy="445" r="15"/>
+  </g>
+  <g fill="#5c3a21">
+    <circle cx="306" cy="396" r="2.5"/>
+    <circle cx="314" cy="404" r="2.5"/>
+    <circle cx="366" cy="421" r="2.5"/>
+    <circle cx="374" cy="429" r="2.5"/>
+    <circle cx="416" cy="391" r="2.5"/>
+    <circle cx="424" cy="399" r="2.5"/>
+    <circle cx="386" cy="376" r="2.5"/>
+    <circle cx="326" cy="441" r="2.5"/>
+  </g>
+  <!-- Colorful sprinkles/candies on cookies -->
+  <circle cx="318" cy="398" r="1.5" fill="#e74c3c"/>
+  <circle cx="368" cy="427" r="1.5" fill="#3498db"/>
+  <circle cx="418" cy="397" r="1.5" fill="#2ecc71"/>
+
+  <!-- SPIDER CHEF -->
+  <!-- Legs (Back set) -->
+  <path d="M 200 280 Q 240 240 280 300" stroke="#1f1513" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M 220 290 Q 270 260 300 330" stroke="#1f1513" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M 120 280 Q 80 240 50 300" stroke="#1f1513" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <path d="M 100 290 Q 60 260 30 330" stroke="#1f1513" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Spider Body (Abdomen & Cephalothorax) -->
+  <ellipse cx="160" cy="300" rx="45" ry="40" fill="url(#spiderBody)" filter="url(#dropShadow)"/>
+  <ellipse cx="160" cy="250" rx="35" ry="32" fill="url(#spiderBody)" filter="url(#dropShadow)"/>
+
+  <!-- Tiny Chef Apron -->
+  <path d="M 140 270 L 180 270 L 190 335 L 130 335 Z" fill="#fff" filter="url(#dropShadow)"/>
+  <circle cx="160" cy="300" r="10" fill="#e74c3c"/>
+
+  <!-- Front Legs (Holding wooden spoon / active) -->
+  <path d="M 130 230 Q 110 200 130 170" stroke="#1f1513" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M 190 230 Q 210 200 190 160" stroke="#1f1513" stroke-width="7" stroke-linecap="round" fill="none"/>
+  
+  <!-- Wooden Spoon -->
+  <line x1="120" y1="160" x2="150" y2="350" stroke="#a0522d" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="120" cy="155" rx="12" ry="8" fill="#cd853f"/>
+
+  <!-- Eyes (Multiple cute spider eyes) -->
+  <circle cx="150" cy="240" r="7" fill="#fff"/>
+  <circle cx="150" cy="240" r="3" fill="#000"/>
+  <circle cx="170" cy="240" r="7" fill="#fff"/>
+  <circle cx="170" cy="240" r="3" fill="#000"/>
+  
+  <circle cx="138" cy="248" r="5" fill="#fff"/>
+  <circle cx="138" cy="248" r="2" fill="#000"/>
+  <circle cx="182" cy="248" r="5" fill="#fff"/>
+  <circle cx="182" cy="248" r="2" fill="#000"/>
+
+  <!-- Chef Hat -->
+  <path d="M 140 220 Q 130 180 150 160 Q 160 140 180 160 Q 200 140 210 160 Q 230 180 200 220 Z" fill="#fff" filter="url(#dropShadow)"/>
+  <rect x="145" y="215" width="60" height="15" rx="3" fill="#f0f0f0"/>
+
+  <!-- Cute Smile & Rosy Cheeks -->
+  <circle cx="145" cy="254" r="5" fill="#ff9999" opacity="0.6"/>
+  <circle cx="175" cy="254" r="5" fill="#ff9999" opacity="0.6"/>
+  <path d="M 152 258 Q 160 266 168 258" stroke="#fff" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+
+  <!-- Steam wisps -->
+  <path d="M 320 350 Q 315 330 325 310 Q 335 290 330 270" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 400 350 Q 405 330 395 310 Q 385 290 390 270" stroke="#fff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+</svg>
