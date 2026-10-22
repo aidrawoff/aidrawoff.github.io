@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#e98a4a"/>
+      <stop offset="0.55" stop-color="#f9c98a"/>
+      <stop offset="1" stop-color="#e8e0b0"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff3c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="110" r="90" fill="url(#sun)"/>
+  <!-- distant field line -->
+  <path d="M0 360 Q128 340 256 356 T512 352 L512 380 L0 380 Z" fill="#b9a46a"/>
+  <!-- field -->
+  <rect x="0" y="380" width="512" height="132" fill="#8fae4e"/>
+  <path d="M0 420 L512 400 M0 450 L512 432 M0 484 L512 466" stroke="#7a9a40" stroke-width="5" opacity="0.6"/>
+  <ellipse cx="256" cy="472" rx="160" ry="18" fill="#5d7a2e" opacity="0.6"/>
+  <!-- pole -->
+  <rect x="244" y="190" width="24" height="280" fill="#6b4a2b" stroke="#2e1f10" stroke-width="4"/>
+  <!-- arms with straw cuffs -->
+  <rect x="112" y="250" width="288" height="22" rx="8" fill="#7a5532" stroke="#2e1f10" stroke-width="4"/>
+  <path d="M112 252 l-10 -8 M118 262 l-12 4 M394 252 l10 -8 M400 262 l12 4" stroke="#e8c76a" stroke-width="4" stroke-linecap="round"/>
+  <!-- shirt with patch -->
+  <path d="M190 260 L322 260 L340 380 L172 380 Z" fill="#3e6fb0" stroke="#1d2e4a" stroke-width="5"/>
+  <path d="M276 300 L300 296 L304 318 L280 322 Z" fill="#c9a062" stroke="#1d2e4a" stroke-width="3"/>
+  <path d="M205 300 L235 300 M200 320 L240 320" stroke="#1d2e4a" stroke-width="3" opacity="0.5"/>
+  <!-- straw hair -->
+  <path d="M212 190 Q208 150 230 146 M300 190 Q306 150 282 146" fill="none" stroke="#e8c76a" stroke-width="7" stroke-linecap="round"/>
+  <!-- head sack -->
+  <circle cx="256" cy="200" r="48" fill="#ecd7a0" stroke="#4a3a1e" stroke-width="5"/>
+  <!-- stitched cheeks -->
+  <path d="M222 214 l8 4 M290 214 l-8 4" stroke="#4a3a1e" stroke-width="2"/>
+  <!-- sly eyes -->
+  <path d="M234 196 Q240 190 246 196" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+  <path d="M266 196 Q272 190 278 196" fill="none" stroke="#222" stroke-width="4" stroke-linecap="round"/>
+  <path d="M236 222 Q256 236 276 222" fill="none" stroke="#4a3a1e" stroke-width="4" stroke-linecap="round"/>
+  <!-- hat -->
+  <ellipse cx="256" cy="162" rx="96" ry="17" fill="#3b2a1a" stroke="#1a120a" stroke-width="4"/>
+  <path d="M220 160 L226 116 Q256 102 286 116 L292 160 Z" fill="#3b2a1a" stroke="#1a120a" stroke-width="4"/>
+  <path d="M222 150 Q256 160 290 150" fill="none" stroke="#c0392b" stroke-width="5"/>
+  <!-- crow on hat -->
+  <ellipse cx="256" cy="128" rx="26" ry="16" fill="#1f2430" stroke="#0a0c12" stroke-width="4"/>
+  <path d="M236 126 L212 112 L226 136 Z" fill="#11151e" stroke="#0a0c12" stroke-width="3"/>
+  <circle cx="280" cy="114" r="12" fill="#1f2430" stroke="#0a0c12" stroke-width="4"/>
+  <path d="M290 112 L304 117 L290 121 Z" fill="#f2b230" stroke="#0a0c12" stroke-width="2"/>
+  <circle cx="284" cy="111" r="3" fill="#f5e6a0"/>
+  <circle cx="285" cy="111" r="1.4" fill="#111"/>
+  <path d="M244 124 Q256 116 270 124" fill="none" stroke="#4a5568" stroke-width="2"/>
+  <path d="M248 142 L246 156 M262 142 L264 156" stroke="#f2b230" stroke-width="3"/>
+  <!-- rim light on hat and head -->
+  <path d="M226 116 Q256 102 286 116" fill="none" stroke="#ffd98a" stroke-width="3" opacity="0.7"/>
+  <path d="M214 200 Q212 184 224 172" fill="none" stroke="#fff3c4" stroke-width="3" opacity="0.6"/>
+  <!-- straw poking from the hat -->
+  <path d="M296 150 l10 -12 M300 152 l14 -6" stroke="#e8c76a" stroke-width="3" stroke-linecap="round"/>
+  <!-- straw scatter on the ground -->
+  <path d="M140 440 l10 -4 M180 452 l12 -3 M330 446 l10 -5 M370 458 l9 -3" stroke="#e8c76a" stroke-width="3" stroke-linecap="round"/>
+  <!-- shadow -->
+  <ellipse cx="256" cy="470" rx="130" ry="10" fill="#3d5a1e" opacity="0.5"/>
+</svg>

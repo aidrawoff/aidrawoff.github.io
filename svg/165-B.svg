@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  <rect x="0" y="384" width="512" height="128" fill="#3a2c1a"/>
+  <!-- Scarecrow silhouette -->
+  <path d="M256 128h-64v32h128v-32h-64zm0 32v96h-24v-96h24zm-32 96h-16v32h16v-32zm32 0h16v32h-16v-32zm-64-96h-24v32h24v-32zm64 96v-32h24v32h-24zM256 256v64h-16v-64h16zm-16 64h-16v32h16v-32zm16 32h16v-32h-16v32z" fill="#f5e7d3"/>
+  <!-- Bird on hat -->
+  <circle cx="256" cy="136" r="8" fill="#2a1a0a"/>
+  <circle cx="260" cy="132" r="3" fill="#f5e7d3"/>
+  <path d="M256 136l4 4 2-2-2-2z" fill="#2a1a0a"/>
+</svg>
