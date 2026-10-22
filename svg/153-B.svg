@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101735"/><stop offset="1" stop-color="#34234a"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fff8c9"/><stop offset="1" stop-color="#e9b866"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="416" cy="82" r="48" fill="#fff0ae" opacity=".18" filter="url(#glow)"/><circle cx="416" cy="82" r="32" fill="url(#moon)"/>
+<path d="M0 350 Q110 300 220 342T512 322V512H0Z" fill="#17172e"/>
+<!-- towering shelves -->
+<g fill="#4b2d38" stroke="#a76a48" stroke-width="5"><rect x="18" y="50" width="125" height="310"/><rect x="171" y="38" width="125" height="322"/><rect x="324" y="48" width="170" height="312"/></g>
+<g stroke="#d08b50" stroke-width="5"><path d="M18 145h125M18 235h125M171 135h125M171 225h125M324 145h170M324 240h170"/></g>
+<g fill="#d7a15b"><path d="M32 75h22v58H32zM63 69h28v64H63zM103 80h25v53h-25zM185 60h22v68h-22zM218 75h29v53h-29zM260 55h21v73h-21zM339 70h25v65h-25zM375 82h18v53h-18zM408 61h29v74h-29zM452 78h25v57h-25z"/><path d="M30 162h32v65H30zM75 155h20v72H75zM108 168h24v59h-24zM184 153h28v68h-28zM226 160h20v61h-20zM260 145h28v76h-28zM338 163h21v64h-21zM370 151h28v76h-28zM417 166h19v61h-19zM450 150h31v77h-31z"/></g>
+<!-- table and lamp --> <path d="M30 367H482L455 397H57Z" fill="#bc7545" stroke="#542c35" stroke-width="6"/><path d="M73 397v88M435 397v88" stroke="#542c35" stroke-width="12"/><path d="M387 360v-83M360 277h53l-10-27h-34z" fill="#f5d27d" stroke="#5b3540" stroke-width="6"/><circle cx="387" cy="273" r="10" fill="#fff4ad"/>
+<!-- werewolf --> <path d="M244 178L216 112 256 137 285 105 292 170Q314 195 300 235L274 260 228 247Q203 215 220 183Z" fill="#75627a" stroke="#17152a" stroke-width="7"/><path d="M227 125l19 34M280 118l-3 39" stroke="#d49b62" stroke-width="7"/>
+<path d="M225 187q28-20 63 0v38q-31 27-63 0z" fill="#a47c83"/><circle cx="242" cy="192" r="7" fill="#eaffba"/><circle cx="276" cy="192" r="7" fill="#eaffba"/><path d="M244 218q12 12 26 0" fill="none" stroke="#281b2b" stroke-width="6"/><path d="M238 240L207 278 187 342H315L292 273 273 245" fill="#39405f" stroke="#17152a" stroke-width="8"/>
+<!-- paws holding book --> <path d="M223 274l-48 58 38 21 50-50M282 273l45 57-38 23-47-51" fill="#75627a" stroke="#17152a" stroke-width="8"/>
+<path d="M183 323l54 8 18 48-82-8zM256 331l75-8 12 48-83 8z" fill="#f2d58b" stroke="#5b3540" stroke-width="5"/><path d="M256 332v45M196 340h40M274 341h47" stroke="#b16b58" stroke-width="3"/>
+<!-- claws --> <path d="M184 350l-18 14M198 353l-15 20M322 350l18 14M308 353l15 20" stroke="#f0d2ad" stroke-width="5" stroke-linecap="round"/>
+<g fill="#f9e9a7"><circle cx="71" cy="430" r="3"/><circle cx="128" cy="399" r="3"/><circle cx="356" cy="427" r="3"/><circle cx="466" cy="382" r="3"/><circle cx="154" cy="96" r="2"/></g>
+<text x="256" y="475" text-anchor="middle" fill="#f6d997" font-family="serif" font-size="19" letter-spacing="3">MOONLIGHT READING ROOM</text>
+<!-- final sparkle accents -->
+<g fill="#fff2b0"><path d="M154 92l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M466 378l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/><path d="M356 422l2 5 5 2-5 2-2 5-2-5-5-2 5-2z"/></g>
+<g fill="#302039"><circle cx="242" cy="192" r="2.5"/><circle cx="276" cy="192" r="2.5"/></g>
+</svg>

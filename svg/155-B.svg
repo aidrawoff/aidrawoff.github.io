@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101b38"/><stop offset="1" stop-color="#38234d"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fff5c7"/><stop offset="1" stop-color="#e6a95b"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="390" cy="105" r="72" fill="#ffd974" opacity=".16" filter="url(#glow)"/><circle cx="390" cy="105" r="49" fill="url(#moon)"/>
+<g fill="#f7d98b" opacity=".7"><circle cx="76" cy="76" r="2"/><circle cx="130" cy="132" r="3"/><circle cx="460" cy="190" r="2"/><circle cx="285" cy="62" r="2"/><circle cx="48" cy="230" r="2"/></g>
+<path d="M0 405 Q100 350 185 402 T360 385 T512 400 V512 H0Z" fill="#17172e"/>
+<path d="M72 442 Q140 395 205 432 T345 418 T465 441" fill="none" stroke="#6e4566" stroke-width="6"/>
+<!-- crooked branch --> <path d="M58 120 Q105 154 166 143 Q222 133 281 164 Q330 190 405 176" fill="none" stroke="#4b2b2b" stroke-width="24" stroke-linecap="round"/><path d="M89 137 Q95 194 76 249 M156 144 Q171 195 160 235 M275 162 Q259 208 277 258 M399 177 Q420 218 407 265" fill="none" stroke="#4b2b2b" stroke-width="13" stroke-linecap="round"/>
+<!-- bat hanging upside down --> <g stroke="#171524" stroke-linejoin="round">
+ <path d="M204 158 Q236 123 269 158 L282 218 Q271 249 238 252 Q205 249 193 218Z" fill="#403454" stroke-width="5"/>
+ <path d="M206 166 Q171 135 139 124 Q153 163 151 203 Q179 190 202 201" fill="#61456f" stroke-width="5"/>
+ <path d="M268 166 Q306 135 340 124 Q325 163 326 203 Q296 189 273 201" fill="#61456f" stroke-width="5"/>
+ <path d="M223 165 L219 132 M258 165 L263 132" stroke-width="10" stroke-linecap="round"/>
+ <path d="M209 132 Q220 116 230 132 M253 132 Q263 116 274 132" fill="none" stroke-width="7"/>
+ <path d="M211 183 Q238 201 267 183" fill="#e7a9b0" stroke-width="4"/>
+ <circle cx="224" cy="168" r="5" fill="#ffd878" stroke-width="2"/><circle cx="255" cy="168" r="5" fill="#ffd878" stroke-width="2"/>
+ <path d="M231 191 Q239 198 247 191" fill="none" stroke="#f7c1b3" stroke-width="3"/>
+ <!-- book --> <ellipse cx="251" cy="307" rx="92" ry="70" fill="#ffd978" opacity=".12" filter="url(#glow)"/><path d="M184 272 Q223 255 251 276 Q279 255 318 272 L311 344 Q278 328 251 349 Q221 328 190 344Z" fill="#f3dfb0" stroke-width="5"/>
+ <path d="M251 276 V348" stroke="#8c5b55" stroke-width="4"/><path d="M201 287 Q222 279 241 290 M201 300 Q222 292 241 303 M261 290 Q282 279 302 287 M261 303 Q282 292 302 300" fill="none" stroke="#9a6d66" stroke-width="3"/>
+ <!-- hands --> <path d="M202 268 Q186 266 178 282 L193 294 L210 280 M300 268 Q316 266 324 282 L309 294 L292 280" fill="#403454" stroke-width="4"/>
+</g>
+<text x="256" y="475" text-anchor="middle" fill="#f5dca1" font-family="serif" font-size="18" letter-spacing="4">NIGHT SCHOOL</text>
+</svg>

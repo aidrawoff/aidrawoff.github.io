@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="0.42" cy="0.56" r="0.55">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.85"/>
+      <stop offset="0.55" stop-color="#ffb347" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#ffb347" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1526"/>
+      <stop offset="1" stop-color="#1e2f4d"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="215" cy="290" rx="230" ry="215" fill="url(#glow)"/>
+  <!-- stone ceiling + beam -->
+  <path d="M0 0 H512 V70 Q420 96 330 74 Q240 52 150 80 Q70 104 0 82 Z" fill="#241a12"/>
+  <rect x="60" y="66" width="400" height="30" rx="8" fill="#3b2a1a" stroke="#160e07" stroke-width="3"/>
+  <!-- hanging lamp -->
+  <line x1="430" y1="92" x2="430" y2="180" stroke="#6b5a44" stroke-width="4"/>
+  <path d="M404 180 L456 180 L444 210 L416 210 Z" fill="#c8763a" stroke="#160e07" stroke-width="3"/>
+  <circle cx="430" cy="214" r="11" fill="#fff3c4"/>
+  <!-- BAT: feet hooked on beam, head down -->
+  <g fill="none" stroke="#2b1d4a" stroke-width="9" stroke-linecap="round">
+    <path d="M198 96 C196 78 204 70 214 72"/>
+    <path d="M230 96 C232 78 224 70 214 72"/>
+  </g>
+  <g fill="none" stroke="#0f0a1e" stroke-width="5" stroke-linecap="round">
+    <path d="M198 96 C196 78 204 70 214 72"/>
+    <path d="M230 96 C232 78 224 70 214 72"/>
+    <path d="M190 84 l-10 -8 M192 74 l-12 -4 M240 84 l10 -8 M238 74 l12 -4"/>
+  </g>
+  <path d="M186 92 C176 120 190 150 214 158 C238 150 250 120 240 92 Z" fill="#5a3f8c" stroke="#0f0a1e" stroke-width="4"/>
+  <!-- wings folded, draping down past head -->
+  <path d="M188 100 C150 130 138 190 158 250 C176 220 186 200 196 176 C190 150 186 124 188 100 Z" fill="#3a2a5e" stroke="#0f0a1e" stroke-width="4"/>
+  <path d="M238 100 C276 130 288 190 268 250 C250 220 240 200 230 176 C236 150 240 124 238 100 Z" fill="#3a2a5e" stroke="#0f0a1e" stroke-width="4"/>
+  <!-- head (lowest part, upside down) -->
+  <circle cx="213" cy="182" r="30" fill="#6b4fa3" stroke="#0f0a1e" stroke-width="4"/>
+  <path d="M190 160 L176 132 L200 152 Z M236 160 L250 132 L226 152 Z" fill="#6b4fa3" stroke="#0f0a1e" stroke-width="4"/>
+  <!-- face: eyes below brow since inverted, nose up -->
+  <ellipse cx="203" cy="192" rx="8" ry="9" fill="#ffffff"/>
+  <ellipse cx="225" cy="192" rx="8" ry="9" fill="#ffffff"/>
+  <circle cx="204" cy="195" r="4.2" fill="#141020"/>
+  <circle cx="226" cy="195" r="4.2" fill="#141020"/>
+  <circle cx="206" cy="193" r="1.4" fill="#fff"/>
+  <circle cx="228" cy="193" r="1.4" fill="#fff"/>
+  <path d="M209 176 q5 -6 9 0 q-4 5 -9 0 Z" fill="#1d1430"/>
+  <path d="M198 208 q15 8 30 0" fill="none" stroke="#1d1430" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M204 212 l3 7 l4 -6 l4 6 l3 -7" fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linejoin="round"/>
+  <!-- arms/paws holding open book below head -->
+  <path d="M196 206 C186 236 190 258 202 268 M230 206 C240 236 236 258 224 268" fill="none" stroke="#0f0a1e" stroke-width="8" stroke-linecap="round"/>
+  <path d="M150 268 Q213 246 276 268 L276 322 Q213 300 150 322 Z" fill="#f7f0dd" stroke="#0f0a1e" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M213 252 V308" stroke="#0f0a1e" stroke-width="3"/>
+  <g stroke="#8c7f66" stroke-width="2.6" stroke-linecap="round">
+    <path d="M164 280 H204 M164 290 H204 M164 300 H198"/>
+    <path d="M222 280 H262 M222 290 H262 M228 300 H262"/>
+  </g>
+  <!-- floating books + dust motes -->
+  <g stroke="#160e07" stroke-width="3">
+    <rect x="330" y="300" width="66" height="18" rx="3" fill="#b6472f"/>
+    <rect x="336" y="322" width="60" height="18" rx="3" fill="#2f7f8c"/>
+    <rect x="326" y="344" width="72" height="18" rx="3" fill="#c9a227"/>
+    <rect x="60" y="380" width="70" height="18" rx="3" fill="#7b4fa3" transform="rotate(-8 95 389)"/>
+  </g>
+  <g fill="#ffe6a8" opacity="0.75">
+    <circle cx="320" cy="200" r="3"/><circle cx="356" cy="250" r="2.4"/><circle cx="120" cy="230" r="2.6"/>
+    <circle cx="96" cy="300" r="2"/><circle cx="300" cy="150" r="2.2"/><circle cx="390" cy="330" r="2.4"/>
+  </g>
+  <!-- floor -->
+  <path d="M0 430 Q256 400 512 430 V512 H0 Z" fill="#141d31"/>
+  <ellipse cx="213" cy="452" rx="120" ry="22" fill="#000000" opacity="0.35"/>
+</svg>
