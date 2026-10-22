@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#0f0f0f"/>
+  <!-- Pumpkin body (torso) with sharper edges -->
+  <path d="M256 320c-48 0-88-32-88-72s32-72 88-72 88 32 88 72-32 72-88 72zm0-128c-28 0-52 20-52 44s20 44 52 44 52-20 52-44-20-44-52-44z" fill="#ff7700" stroke="#4a2a00" stroke-width="2.5"/>
+  <!-- Stem and leaf refined -->
+  <path d="M256 200l-8-40c-2-12 6-22 18-22s16 10 14 22l-8 40c-2 12-16 20-28 14l-40-20c-12-6-20-18-14-30l8-40c2-12 16-20 28-14l40 20c12 6 20 18 14 30l8 40c2 12-12 24-24 18z" fill="#6a4222" stroke="#3a2a00" stroke-width="1.2"/>
+  <path d="M256 180l4-12h-8l4 12z" fill="#6a4222" stroke="#3a2a00" stroke-width="0.8"/>
+  <!-- Limbs (arms and legs) with smoother curves -->
+  <path d="M200 280c-24-12-36-36-24-56s36-36 56-24c24 12 36 36 24 56s-36 36-56 24z" fill="#ff7700" stroke="#4a2a00" stroke-width="2.5"/>
+  <path d="M312 280c24-12 48-36 36-56s-48-36-68-24c-24 12-48 36-36 56s48 36 68 24z" fill="#ff7700" stroke="#4a2a00" stroke-width="2.5"/>
+  <path d="M200 360c-24 12-36 36-24 56s36 36 56 24c24-12 36-36 24-56s-36-36-56-24z" fill="#ff7700" stroke="#4a2a00" stroke-width="2.5"/>
+  <path d="M312 360c24 12 48 36 36 56s-48 36-68 24c-24-12-48-36-36-56s48-36 68-24z" fill="#ff7700" stroke="#4a2a00" stroke-width="2.5"/>
+  <!-- Yoga mat glow with refined texture -->
+  <ellipse cx="256" cy="400" rx="120" ry="20" fill="#ffcc00" opacity="0.4"/>
+  <path d="M140 400h10M160 400h10M180 400h10M200 400h10M220 400h10M240 400h10M260 400h10M280 400h10M300 400h10M320 400h10M340 400h10M360 400h10" stroke="#ffaa00" stroke-width="1.5" opacity="0.7"/>
+  <!-- Subtle shadow under pumpkin -->
+  <ellipse cx="256" cy="380" rx="60" ry="12" fill="#000000" opacity="0.2"/>
+</svg>

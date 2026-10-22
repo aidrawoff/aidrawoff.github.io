@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#2a1a0a"/>
+  <!-- Floor shadow -->
+  <ellipse cx="256" cy="420" rx="160" ry="20" fill="#1a0f05" opacity="0.6"/>
+  <!-- Floor mat -->
+  <rect x="80" y="380" width="352" height="60" rx="10" fill="#5a7a5a"/>
+  <rect x="90" y="390" width="332" height="40" rx="8" fill="#6b8e6b"/>
+  <rect x="100" y="400" width="312" height="20" rx="6" fill="#7fa37f"/>
+  <!-- Pumpkin body with depth -->
+  <ellipse cx="256" cy="260" rx="95" ry="105" fill="#e67e00"/>
+  <ellipse cx="220" cy="265" rx="60" ry="90" fill="#d35400"/>
+  <ellipse cx="292" cy="265" rx="60" ry="90" fill="#d35400"/>
+  <ellipse cx="256" cy="270" rx="40" ry="85" fill="#c03900"/>
+  <!-- Highlight on body -->
+  <ellipse cx="240" cy="220" rx="25" ry="35" fill="#f39c12" opacity="0.5"/>
+  <!-- Stem -->
+  <path d="M244 170 Q250 130 264 125 Q272 130 268 170" fill="#2d5a1e" stroke="#1a3d12" stroke-width="3"/>
+  <ellipse cx="256" cy="170" rx="14" ry="7" fill="#3a7a2a"/>
+  <!-- Left leg (warrior pose, bent) -->
+  <path d="M200 340 Q150 350 140 390 L165 395 Q175 365 210 355" fill="#e67e00" stroke="#a04000" stroke-width="3"/>
+  <ellipse cx="152" cy="392" rx="18" ry="10" fill="#d35400"/>
+  <!-- Right leg (extended) -->
+  <path d="M312 340 Q360 350 370 390 L345 395 Q335 365 300 355" fill="#e67e00" stroke="#a04000" stroke-width="3"/>
+  <ellipse cx="358" cy="392" rx="18" ry="10" fill="#d35400"/>
+  <!-- Left arm (up, reaching) -->
+  <path d="M210 240 Q160 200 140 150 L158 142 Q178 188 220 225" fill="#e67e00" stroke="#a04000" stroke-width="3"/>
+  <ellipse cx="149" cy="146" rx="10" ry="14" fill="#d35400" transform="rotate(-20 149 146)"/>
+  <!-- Right arm (out, horizontal) -->
+  <path d="M302 240 Q350 220 380 200 L372 185 Q340 205 290 225" fill="#e67e00" stroke="#a04000" stroke-width="3"/>
+  <ellipse cx="376" cy="192" rx="10" ry="14" fill="#d35400" transform="rotate(-30 376 192)"/>
+  <!-- Face -->
+  <ellipse cx="234" cy="245" rx="9" ry="11" fill="#2a1a0a"/>
+  <ellipse cx="278" cy="245" rx="9" ry="11" fill="#2a1a0a"/>
+  <ellipse cx="236" cy="242" rx="3" ry="4" fill="#fff"/>
+  <ellipse cx="280" cy="242" rx="3" ry="4" fill="#fff"/>
+  <!-- Smile -->
+  <path d="M244 270 Q256 282 268 270" fill="none" stroke="#2a1a0a" stroke-width="3" stroke-linecap="round"/>
+  <!-- Cheeks -->
+  <ellipse cx="224" cy="260" rx="8" ry="5" fill="#e74c3c" opacity="0.4"/>
+  <ellipse cx="288" cy="260" rx="8" ry="5" fill="#e74c3c" opacity="0.4"/>
+  <!-- Leaf on head -->
+  <path d="M256 135 Q235 115 245 100 Q260 110 256 135" fill="#4a9a3a"/>
+  <path d="M256 135 Q275 115 265 100 Q250 110 256 135" fill="#3a7a2a"/>
+  <!-- Small vine curl -->
+  <path d="M264 130 Q280 120 275 105 Q270 95 260 100" fill="none" stroke="#4a9a3a" stroke-width="2" stroke-linecap="round"/>
+</svg>

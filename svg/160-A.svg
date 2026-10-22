@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#aef4ff" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#4ec9ff" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#4ec9ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- cave -->
+  <rect width="512" height="512" fill="#141a2e"/>
+  <path d="M0 0 H512 V70 C430 120 380 40 300 95 C240 135 190 55 120 100 C70 132 30 80 0 105 Z" fill="#0b0f1c"/>
+  <path d="M0 512 H512 V430 C420 380 360 470 280 420 C210 378 150 460 80 420 C45 402 20 430 0 420 Z" fill="#0b0f1c"/>
+  <!-- thread -->
+  <line x1="256" y1="95" x2="256" y2="168" stroke="#3a4468" stroke-width="5"/>
+  <!-- phone glow halo -->
+  <circle cx="330" cy="300" r="120" fill="url(#glow)"/>
+  <!-- wings -->
+  <path d="M232 200 C150 175 92 205 62 262 C104 250 128 262 140 292 C158 268 182 268 200 296 C214 272 228 272 240 300 Z" fill="#241d3a"/>
+  <path d="M280 200 C362 175 420 205 450 262 C408 250 384 262 372 292 C354 268 330 268 312 296 C298 272 284 272 272 300 Z" fill="#241d3a"/>
+  <!-- body -->
+  <path d="M256 168 C214 168 200 210 202 258 C204 312 224 350 256 350 C288 350 308 312 310 258 C312 210 298 168 256 168 Z" fill="#3b2f5c"/>
+  <!-- ears -->
+  <path d="M214 190 C200 150 206 128 224 132 C240 136 244 166 240 190 Z" fill="#3b2f5c"/>
+  <path d="M298 190 C312 150 306 128 288 132 C272 136 268 166 272 190 Z" fill="#3b2f5c"/>
+  <path d="M220 178 C212 152 216 140 226 143 C235 147 236 166 233 180 Z" fill="#6b4f8a"/>
+  <path d="M292 178 C300 152 296 140 286 143 C277 147 276 166 279 180 Z" fill="#6b4f8a"/>
+  <!-- head -->
+  <ellipse cx="256" cy="212" rx="46" ry="40" fill="#4a3a70"/>
+  <!-- face lit by phone -->
+  <path d="M256 252 C232 252 216 236 214 216 C230 240 282 240 298 216 C296 236 280 252 256 252 Z" fill="#7f6bb0"/>
+  <!-- eyes -->
+  <ellipse cx="238" cy="212" rx="9" ry="10" fill="#0d0b16"/>
+  <ellipse cx="274" cy="212" rx="9" ry="10" fill="#0d0b16"/>
+  <circle cx="241" cy="208" r="3" fill="#c8f6ff"/>
+  <circle cx="277" cy="208" r="3" fill="#c8f6ff"/>
+  <!-- snout + fangs -->
+  <path d="M248 232 L252 242 L256 232 Z" fill="#ffffff"/>
+  <path d="M256 232 L260 242 L264 232 Z" fill="#ffffff"/>
+  <!-- feet gripping -->
+  <path d="M240 348 C236 362 244 368 252 364 M272 348 C276 362 268 368 260 364" stroke="#241d3a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- arm holding phone -->
+  <path d="M292 268 C312 276 322 288 328 300" stroke="#4a3a70" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- phone -->
+  <g transform="rotate(-12 336 312)">
+    <rect x="312" y="272" width="52" height="88" rx="10" fill="#101826" stroke="#8fd8ff" stroke-width="3"/>
+    <rect x="318" y="282" width="40" height="66" rx="4" fill="#5fe0ff"/>
+    <rect x="324" y="290" width="28" height="8" rx="4" fill="#ffffff" opacity="0.85"/>
+    <rect x="324" y="304" width="20" height="6" rx="3" fill="#0d3b52" opacity="0.6"/>
+    <rect x="324" y="316" width="26" height="6" rx="3" fill="#0d3b52" opacity="0.45"/>
+    <circle cx="338" cy="336" r="7" fill="#ff5fa2"/>
+  </g>
+  <!-- thumb over phone -->
+  <path d="M318 340 C326 332 336 334 340 342" stroke="#4a3a70" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- screen light cast on face/chest -->
+  <path d="M256 250 C280 248 296 232 298 214 C300 236 286 254 262 258 Z" fill="#8ff3ff" opacity="0.35"/>
+  <!-- ear tips perked -->
+  <path d="M216 132 C222 118 232 122 232 134" stroke="#6b4f8a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- notifications -->
+  <circle cx="392" cy="252" r="12" fill="#ffd166"/>
+  <text x="392" y="257" font-family="sans-serif" font-size="15" font-weight="bold" fill="#141a2e" text-anchor="middle">1</text>
+</svg>
