@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: stormy sky and choppy sea -->
+  <rect width="512" height="512" fill="#0a1e3c"/>
+  <path d="M0,384 Q128,320 256,384 T512,384 L512,512 L0,512 Z" fill="#1a3a6c"/>
+  <!-- Waves -->
+  <path d="M0,420 Q64,400 128,420 T256,420 T384,420 T512,420 L512,512 L0,512 Z" fill="#005580"/>
+  <path d="M0,440 Q96,430 192,440 T384,440 T512,440 L512,512 L0,512 Z" fill="#0077aa"/>
+  <!-- Ship deck -->
+  <path d="M64,400 L448,400 L448,440 L64,440 Z" fill="#5c4033"/>
+  <!-- Rail -->
+  <path d="M64,400 L448,400" stroke="#3a2212" stroke-width="8" stroke-linecap="round"/>
+  <!-- Pirate: leaning forward, one hand on rail, other on stomach, coat flapping -->
+  <g id="pirate">
+    <!-- Coat (flapping) -->
+    <path d="M256,360 L280,320 L320,320 L344,360 L344,400 L168,400 L168,360 Z" fill="#2a1e18"/>
+    <!-- Coat flap (left) -->
+    <path d="M168,360 L192,320 L224,340 L168,360 Z" fill="#3a2a22" opacity="0.8"/>
+    <!-- Coat flap (right) -->
+    <path d="M344,360 L320,320 L288,340 L344,360 Z" fill="#3a2a22" opacity="0.8"/>
+    <!-- Hat -->
+    <path d="M256,320 L280,280 L320,280 L344,320 L304,320 L256,296 L208,320 L256,320 Z" fill="#1a120c"/>
+    <!-- Head and face -->
+    <circle cx="256" cy="336" r="20" fill="#a0c4ff"/>
+    <!-- Greenish tint for seasickness -->
+    <ellipse cx="256" cy="340" rx="12" ry="6" fill="#8bc34a"/>
+    <!-- Eyes -->
+    <circle cx="248" cy="332" r="3" fill="#000000"/>
+    <circle cx="264" cy="332" r="3" fill="#000000"/>
+    <!-- Nose -->
+    <path d="M256,340 L256,350" stroke="#ff9800" stroke-width="2" stroke-linecap="round"/>
+    <!-- Mouth (grimace) -->
+    <path d="M248,360 Q256,364 264,360" stroke="#000000" stroke-width="2" fill="none"/>
+    <!-- Hand on stomach -->
+    <path d="M280,360 L296,376 L280,380 Z" fill="#ffeb3b"/>
+    <!-- Other hand on rail -->
+    <path d="M224,360 L208,344 L224,340 Z" fill="#ffeb3b"/>
+    <!-- Legs (slightly bent) -->
+    <path d="M224,400 L224,440 L240,440 L240,400 Z" fill="#2a1e18"/>
+    <path d="M288,400 L288,440 L304,440 L304,400 Z" fill="#2a1e18"/>
+  </g>
+  <!-- Foam details -->
+  <circle cx="96" cy="430" r="8" fill="#ffffff" opacity="0.7"/>
+  <circle cx="160" cy="425" r="6" fill="#ffffff" opacity="0.7"/>
+  <circle cx="224" cy="435" r="10" fill="#ffffff" opacity="0.7"/>
+  <circle cx="288" cy="428" r="7" fill="#ffffff" opacity="0.7"/>
+  <circle cx="352" cy="432" r="9" fill="#ffffff" opacity="0.7"/>
+  <circle cx="416" cy="426" r="5" fill="#ffffff" opacity="0.7"/>
+</svg>
