@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#060913"/>
+      <stop offset="50%" stop-color="#121630"/>
+      <stop offset="100%" stop-color="#240c38"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fef08a" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#facc15" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ca8a04" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="mat" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#fb7185"/>
+      <stop offset="100%" stop-color="#e11d48"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComponentTransfer in="blur" result="brightBlur">
+        <feFuncA type="linear" slope="2.0"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode in="brightBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="10" flood-color="#000000" flood-opacity="0.7"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Atmospheric rolling hills in background -->
+  <path d="M0 440 Q 130 400 270 420 T 512 410 L 512 512 L 0 512 Z" fill="#150a24" opacity="0.9"/>
+  <path d="M0 470 Q 180 435 360 455 T 512 440 L 512 512 L 0 512 Z" fill="#0b0414" opacity="0.95"/>
+
+  <!-- Moon & Stars -->
+  <circle cx="410" cy="100" r="95" fill="url(#moon)"/>
+  <circle cx="85" cy="65" r="1.8" fill="#fff" opacity="0.85"/>
+  <circle cx="165" cy="105" r="2.2" fill="#fff" opacity="0.6"/>
+  <circle cx="305" cy="55" r="1.8" fill="#fff" opacity="0.95"/>
+  <circle cx="65" cy="175" r="2.2" fill="#fff" opacity="0.7"/>
+  <circle cx="225" cy="85" r="1.2" fill="#fff" opacity="0.8"/>
+
+  <!-- Studio Floor Shadow & Mat -->
+  <ellipse cx="256" cy="438" rx="215" ry="40" fill="#000" opacity="0.6" filter="url(#shadow)"/>
+  <rect x="76" y="416" width="360" height="28" rx="14" fill="url(#mat)"/>
+  <line x1="96" y1="430" x2="416" y2="430" stroke="#ffe4e6" stroke-width="2" stroke-dasharray="10 6" opacity="0.8"/>
+
+  <!-- Incense burner / Zen candle with smoke ring -->
+  <rect x="110" y="386" width="24" height="30" rx="6" fill="#64748b"/>
+  <ellipse cx="122" cy="386" r="12" fill="#94a3b8"/>
+  <path d="M122 374 Q 120 356 125 340" stroke="#ea580c" stroke-width="2" stroke-linecap="round" fill="none"/>
+  <ellipse cx="125" cy="335" rx="5" ry="9" fill="#fde047" filter="url(#glow)"/>
+  <path d="M125 325 Q 115 305 135 285" stroke="#cbd5e1" stroke-width="1.5" stroke-linecap="round" opacity="0.5" fill="none"/>
+
+  <!-- Ghost Doing Yoga Badly (Extremely wobbly, asymmetric twisted pose) -->
+  <g filter="url(#shadow)">
+    <!-- Ghost Sheet Body -->
+    <path d="M210 185 
+             C200 110 275 100 295 175 
+             C335 245 365 355 315 395 
+             C290 410 275 375 256 375 
+             C237 375 222 410 197 395 
+             C147 355 175 245 210 185 Z" 
+          fill="#ffffff" opacity="0.98" filter="url(#glow)"/>
+
+    <!-- Inner fold/shadow shading on sheet for 3D volume -->
+    <path d="M250 130 C275 130 280 160 272 195 C255 280 268 350 256 372" stroke="#e2e8f0" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.65"/>
+
+    <!-- Face: Hilarious asymmetric strained expression -->
+    <path d="M222 158 Q 234 144 246 162" stroke="#1e1b4b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <path d="M266 154 Q 278 166 288 158" stroke="#1e1b4b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+
+    <!-- Eyes: one popping wide open with tiny pupil, one squinting shut -->
+    <circle cx="236" cy="176" r="10" fill="#1e1b4b"/>
+    <circle cx="233" cy="173" r="3.5" fill="#ffffff"/>
+    <ellipse cx="277" cy="174" rx="9" ry="5" fill="#1e1b4b" transform="rotate(-18 277 174)"/>
+
+    <!-- Strained wavy mouth (grimacing) -->
+    <path d="M246 198 Q 256 212 266 198" stroke="#1e1b4b" stroke-width="4.5" stroke-linecap="round" fill="none"/>
+    <!-- Rosy panic cheeks -->
+    <circle cx="225" cy="192" r="5" fill="#fca5a5" opacity="0.7"/>
+    <circle cx="288" cy="190" r="5" fill="#fca5a5" opacity="0.7"/>
+
+    <!-- Sweat beads flying off -->
+    <path d="M302 165 C 302 158 310 148 310 148 C 310 148 318 158 318 165 A 4 4 0 1 1 302 165 Z" fill="#38bdf8" opacity="0.95"/>
+    <path d="M204 152 C 204 146 210 138 210 138 C 210 138 216 146 216 152 A 3 3 0 1 1 204 152 Z" fill="#38bdf8" opacity="0.95"/>
+    <path d="M290 140 C 290 136 295 130 295 130 C 295 130 300 136 300 140 A 2.5 2.5 0 1 1 290 140 Z" fill="#38bdf8" opacity="0.9"/>
+
+    <!-- Arms in awkward, strained balance poses -->
+    <path d="M210 205 L 125 145 L 105 165" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
+    <path d="M295 205 L 385 175 L 405 200" stroke="#ffffff" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
+
+    <!-- Motion / tremor lines on hands -->
+    <path d="M96 165 L 112 160" stroke="#93c5fd" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M412 210 L 398 195" stroke="#93c5fd" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Wobbly leg sticking way up in the air incorrectly (Tree pose disaster) -->
+    <path d="M256 375 L 256 445 L 345 370 L 365 335" stroke="#ffffff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)"/>
+    
+    <!-- Ghost toes gripping air desperately -->
+    <circle cx="365" cy="335" r="7" fill="#ffffff"/>
+    <path d="M370 330 L 380 325" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+    <path d="M368 338 L 378 340" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  </g>
+
+  <!-- Title / Header Banner -->
+  <rect x="96" y="22" width="320" height="52" rx="26" fill="#060913" fill-opacity="0.85" stroke="#fb7185" stroke-width="3"/>
+  <text x="256" y="56" font-family="system-ui, sans-serif" font-weight="900" font-size="26" fill="#ffe4e6" text-anchor="middle" letter-spacing="1.5">Downward Facing Boo</text>
+</svg>
