@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffe6d5"/>
+      <stop offset="1" stop-color="#ffc2b0"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffb74d" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#ffb74d" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- window with sun -->
+  <rect x="18" y="60" width="78" height="100" rx="6" fill="#fff3e0" stroke="#8d6e63" stroke-width="8"/>
+  <circle cx="57" cy="105" r="22" fill="#ffd54f"/>
+  <line x1="57" y1="60" x2="57" y2="160" stroke="#8d6e63" stroke-width="6"/>
+  <!-- wall shelf -->
+  <rect x="330" y="120" width="150" height="10" rx="3" fill="#6d4c41"/>
+  <rect x="345" y="92" width="26" height="28" fill="#f48fb1"/>
+  <rect x="395" y="82" width="30" height="38" fill="#90caf9"/>
+  <!-- counter -->
+  <rect x="0" y="340" width="512" height="172" fill="#8d6e63"/>
+  <rect x="0" y="330" width="512" height="18" fill="#b28a7a"/>
+  <!-- oven -->
+  <rect x="290" y="200" width="190" height="130" rx="10" fill="#607d8b"/>
+  <rect x="306" y="216" width="158" height="78" rx="6" fill="#263238"/>
+  <ellipse cx="385" cy="255" rx="90" ry="50" fill="url(#glow)"/>
+  <rect x="300" y="302" width="170" height="8" fill="#455a64"/>
+  <circle cx="330" cy="318" r="4" fill="#cfd8dc"/>
+  <circle cx="450" cy="318" r="4" fill="#cfd8dc"/>
+  <!-- cupcakes baking in oven -->
+  <path d="M322 282 L340 282 L336 262 L326 262 Z" fill="#ffd54f"/>
+  <ellipse cx="331" cy="258" rx="14" ry="10" fill="#f8bbd0"/>
+  <path d="M368 282 L386 282 L382 262 L372 262 Z" fill="#ffd54f"/>
+  <ellipse cx="377" cy="258" rx="14" ry="10" fill="#f8bbd0"/>
+  <path d="M414 282 L432 282 L428 262 L418 262 Z" fill="#ffd54f"/>
+  <ellipse cx="423" cy="258" rx="14" ry="10" fill="#f8bbd0"/>
+  <!-- robot body -->
+  <rect x="90" y="190" width="130" height="150" rx="22" fill="#90a4ae"/>
+  <rect x="110" y="215" width="90" height="50" rx="8" fill="#37474f"/>
+  <circle cx="135" cy="240" r="8" fill="#76ff03"/>
+  <circle cx="175" cy="240" r="8" fill="#76ff03"/>
+  <rect x="120" y="280" width="70" height="8" rx="4" fill="#607d8b"/>
+  <!-- chef hat -->
+  <ellipse cx="155" cy="62" rx="36" ry="18" fill="#ffffff"/>
+  <rect x="122" y="66" width="66" height="22" fill="#ffffff"/>
+  <rect x="122" y="80" width="66" height="8" fill="#e0e0e0"/>
+  <!-- robot head -->
+  <rect x="105" y="90" width="100" height="90" rx="16" fill="#b0bec5"/>
+  <rect x="122" y="130" width="22" height="12" rx="3" fill="#263238"/>
+  <rect x="164" y="130" width="22" height="12" rx="3" fill="#263238"/>
+  <circle cx="115" cy="152" r="6" fill="#ff8a80" opacity="0.7"/>
+  <circle cx="195" cy="152" r="6" fill="#ff8a80" opacity="0.7"/>
+  <path d="M130 158 Q155 172 180 158" stroke="#263238" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- arms holding tray -->
+  <rect x="210" y="235" width="80" height="18" rx="9" fill="#78909c"/>
+  <rect x="210" y="300" width="60" height="16" rx="8" fill="#78909c"/>
+  <!-- cupcake tray in hands -->
+  <rect x="220" y="262" width="150" height="14" rx="4" fill="#546e7a"/>
+  <path d="M228 262 L246 262 L242 240 L232 240 Z" fill="#ffd54f"/>
+  <ellipse cx="237" cy="236" rx="16" ry="12" fill="#f8bbd0"/>
+  <path d="M258 262 L276 262 L272 240 L262 240 Z" fill="#ffd54f"/>
+  <ellipse cx="267" cy="236" rx="16" ry="12" fill="#b39ddb"/>
+  <path d="M288 262 L306 262 L302 240 L292 240 Z" fill="#ffd54f"/>
+  <ellipse cx="297" cy="236" rx="16" ry="12" fill="#f8bbd0"/>
+  <circle cx="237" cy="232" r="2" fill="#e53935"/>
+  <circle cx="267" cy="229" r="2" fill="#43a047"/>
+  <circle cx="297" cy="232" r="2" fill="#1e88e5"/>
+  <circle cx="232" cy="226" r="2" fill="#fff176"/>
+  <circle cx="262" cy="224" r="2" fill="#ff80ab"/>
+  <circle cx="292" cy="226" r="2" fill="#80deea"/>
+  <!-- sprinkle bowl on counter -->
+  <g transform="translate(0,78)">
+  <ellipse cx="450" cy="300" rx="28" ry="8" fill="#ffffff"/>
+  <path d="M422 300 Q450 330 478 300 Z" fill="#f5f5f5"/>
+  <circle cx="440" cy="296" r="2" fill="#e53935"/>
+  <circle cx="458" cy="294" r="2" fill="#1e88e5"/>
+  <circle cx="450" cy="290" r="2" fill="#43a047"/>
+  </g>
+  <!-- finished cupcake on counter -->
+  <path d="M140 372 L166 372 L160 346 L146 346 Z" fill="#ffd54f"/>
+  <ellipse cx="153" cy="342" rx="20" ry="14" fill="#f8bbd0"/>
+  <circle cx="148" cy="338" r="2" fill="#e53935"/>
+  <circle cx="158" cy="336" r="2" fill="#fff176"/>
+  <!-- floor shadow -->
+  <ellipse cx="200" cy="470" rx="120" ry="12" fill="#5d4037" opacity="0.3"/>
+</svg>
