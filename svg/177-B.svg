@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <radialGradient id="sky" cx="50%" cy="30%" r="70%">
+    <stop offset="0%" stop-color="#87CEEB"/>
+    <stop offset="100%" stop-color="#E6C288"/>
+  </radialGradient>
+</defs>
+<!-- Sky -->
+<rect width="512" height="512" fill="url(#sky)"/>
+<!-- Sun -->
+<circle cx="420" cy="80" r="45" fill="#FFD700" opacity="0.9"/>
+<!-- Distant hills -->
+<path d="M0 320 Q120 280 256 310 Q380 340 512 300 L512 512 L0 512 Z" fill="#8B7355"/>
+<!-- Field -->
+<path d="M0 360 Q150 340 256 370 Q380 390 512 350 L512 512 L0 512 Z" fill="#DAA520"/>
+<!-- Scarecrow post -->
+<rect x="248" y="200" width="16" height="220" fill="#8B4513"/>
+<!-- Scarecrow head -->
+<circle cx="256" cy="170" r="35" fill="#F4A460"/>
+<!-- Hat -->
+<ellipse cx="256" cy="145" rx="55" ry="12" fill="#654321"/>
+<path d="M231 145 L241 95 L271 95 L281 145 Z" fill="#5D3A1A"/>
+<!-- Face -->
+<circle cx="244" cy="165" r="4" fill="#333"/>
+<circle cx="268" cy="165" r="4" fill="#333"/>
+<path d="M246 180 Q256 190 266 180" stroke="#333" stroke-width="3" fill="none"/>
+<!-- Shirt -->
+<rect x="210" y="200" width="92" height="70" rx="8" fill="#CD5C5C"/>
+<!-- Left arm (waving) -->
+<path d="M210 220 Q160 180 140 140" stroke="#CD5C5C" stroke-width="18" fill="none" stroke-linecap="round"/>
+<circle cx="140" cy="140" r="12" fill="#F4A460"/>
+<!-- Right arm -->
+<path d="M302 220 Q340 240 360 260" stroke="#CD5C5C" stroke-width="18" fill="none" stroke-linecap="round"/>
+<circle cx="360" cy="260" r="12" fill="#F4A460"/>
+<!-- Overalls -->
+<rect x="225" y="240" width="62" height="90" rx="5" fill="#4682B4"/>
+<!-- Straw details -->
+<line x1="210" y1="210" x2="190" y2="205" stroke="#DAA520" stroke-width="3"/>
+<line x1="302" y1="215" x2="320" y2="210" stroke="#DAA520" stroke-width="3"/>
+<line x1="248" y1="200" x2="245" y2="185" stroke="#DAA520" stroke-width="3"/>
+<!-- Shadow under scarecrow -->
+<ellipse cx="256" cy="420" rx="50" ry="10" fill="#8B6914" opacity="0.5"/>
+<!-- Motion lines for wave -->
+<path d="M120 120 Q100 110 90 130" stroke="#FFF" stroke-width="2" fill="none" opacity="0.7"/>
+<path d="M125 135 Q105 125 95 145" stroke="#FFF" stroke-width="2" fill="none" opacity="0.7"/>
+<path d="M115 150 Q95 140 85 160" stroke="#FFF" stroke-width="2" fill="none" opacity="0.5"/>
+<!-- Crows -->
+<path d="M80 100 Q90 85 100 100 Q110 85 120 100" stroke="#111" stroke-width="3" fill="none"/>
+<path d="M150 70 Q158 58 166 70 Q174 58 182 70" stroke="#111" stroke-width="2.5" fill="none"/>
+<path d="M380 120 Q390 105 400 120 Q410 105 420 120" stroke="#111" stroke-width="3" fill="none"/>
+<path d="M320 90 Q328 78 336 90 Q344 78 352 90" stroke="#111" stroke-width="2.5" fill="none"/>
+<path d="M200 60 Q208 48 216 60 Q224 48 232 60" stroke="#111" stroke-width="2" fill="none"/>
+<path d="M280 50 Q288 38 296 50 Q304 38 312 50" stroke="#111" stroke-width="2" fill="none"/>
+<path d="M420 160 Q428 148 436 160 Q444 148 452 160" stroke="#111" stroke-width="2" fill="none"/>
+<!-- Crow looking at scarecrow -->
+<path d="M170 110 Q178 98 186 110 Q194 98 202 110" stroke="#111" stroke-width="2.5" fill="none"/>
+<circle cx="186" cy="112" r="1.5" fill="#111"/>
+<!-- Ground grass tufts -->
+<path d="M40 400 L35 380 L45 400 L50 375 L55 400" stroke="#556B2F" stroke-width="2" fill="none"/>
+<path d="M460 420 L455 400 L465 420 L470 395 L475 420" stroke="#556B2F" stroke-width="2" fill="none"/>
+<path d="M120 450 L115 430 L125 450 L130 425 L135 450" stroke="#556B2F" stroke-width="2" fill="none"/>
+</svg>

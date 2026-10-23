@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#f7c66b"/>
+  <circle cx="380" cy="110" r="58" fill="#fff3c4"/>
+  <rect x="0" y="330" width="512" height="182" fill="#8a5a2b"/>
+  <rect x="0" y="330" width="512" height="26" fill="#a8703a"/>
+  <!-- post -->
+  <rect x="246" y="200" width="20" height="200" fill="#5b3a1e"/>
+  <!-- crossbar arms -->
+  <rect x="150" y="212" width="212" height="16" fill="#5b3a1e"/>
+  <!-- body / shirt -->
+  <path d="M212 210 h88 l18 120 -124 0 z" fill="#c94b3b"/>
+  <!-- head -->
+  <circle cx="256" cy="160" r="42" fill="#e8c48a"/>
+  <!-- hat -->
+  <path d="M196 140 h120 l-14 -14 q-46 -30 -92 0 z" fill="#4a3b23"/>
+  <rect x="182" y="136" width="148" height="14" rx="7" fill="#5c4a2c"/>
+  <!-- face -->
+  <circle cx="242" cy="158" r="6" fill="#2b2118"/>
+  <circle cx="272" cy="158" r="6" fill="#2b2118"/>
+  <path d="M244 180 q12 10 26 0" stroke="#2b2118" stroke-width="4" fill="none"/>
+  <!-- waving right arm (raised) -->
+  <path d="M296 216 q40 -20 52 -66" stroke="#c94b3b" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="350" cy="146" r="13" fill="#e8c48a"/>
+  <!-- straw tufts hand -->
+  <path d="M352 132 l10 -14 M360 140 l16 -8 M346 130 l4 -18" stroke="#e6c06a" stroke-width="4"/>
+  <!-- left arm drooping -->
+  <path d="M216 218 q-38 14 -46 52" stroke="#c94b3b" stroke-width="20" fill="none" stroke-linecap="round"/>
+  <circle cx="168" cy="274" r="12" fill="#e8c48a"/>
+  <!-- straw at hem -->
+  <path d="M222 330 l-6 22 M240 332 l-2 24 M262 332 l2 24 M284 330 l8 22" stroke="#e6c06a" stroke-width="5"/>
+  <!-- straw hair -->
+  <path d="M222 186 l-8 20 M234 192 l-4 22 M256 194 l0 22 M278 192 l4 22 M290 186 l8 20" stroke="#d9a94f" stroke-width="5"/>
+  <!-- crows -->
+  <g fill="#1d1d24">
+    <path d="M96 150 q22 -20 44 -4 q-8 -14 4 -18 q20 -6 30 12 q10 -22 32 -14 q-6 16 -22 20 q6 18 -12 22 q-22 6 -44 4 q-22 -4 -32 -22 z"/>
+    <path d="M420 250 q18 -16 36 -3 q-6 -12 4 -15 q16 -5 24 10 q8 -18 26 -11 q-5 13 -18 16 q5 15 -10 18 q-18 5 -36 3 q-18 -3 -26 -18 z"/>
+    <ellipse cx="120" cy="300" rx="26" ry="17"/>
+    <circle cx="142" cy="288" r="11"/>
+    <path d="M150 288 l14 3 -14 5 z"/>
+    <path d="M104 296 q-14 10 -4 22 q14 8 22 -6 z"/>
+  </g>
+</svg>
