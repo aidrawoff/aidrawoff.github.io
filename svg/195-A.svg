@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="75%">
+      <stop offset="0" stop-color="#2b2350"/>
+      <stop offset="1" stop-color="#0d0a1f"/>
+    </radialGradient>
+    <linearGradient id="pill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7bcd0"/>
+      <stop offset="1" stop-color="#e57fa0"/>
+    </linearGradient>
+  </defs>
+  <!-- backdrop, calm and dark -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="420" cy="90" r="40" fill="#f5e9b8" opacity="0.9"/>
+  <g fill="#f5e9b8">
+    <circle cx="70" cy="60" r="2"/><circle cx="150" cy="120" r="1.5"/><circle cx="60" cy="180" r="1.5"/><circle cx="460" cy="200" r="2"/>
+  </g>
+  <!-- pillow shadow and seams -->
+  <ellipse cx="256" cy="456" rx="160" ry="10" fill="#000000" opacity="0.35"/>
+  <path d="M124 330 L124 420 M390 330 L390 420" stroke="#d96d91" stroke-width="2" stroke-dasharray="6 6" fill="none" opacity="0.6"/>
+  <!-- pillow -->
+  <path d="M110 300 Q100 260 150 262 L362 262 Q412 260 402 300 L404 430 Q404 452 380 452 L132 452 Q108 452 108 430 Z" fill="url(#pill)"/>
+  <path d="M130 300 Q256 282 384 300" stroke="#c76487" stroke-width="4" fill="none" opacity="0.5"/>
+  <circle cx="256" cy="330" r="5" fill="#c76487" opacity="0.5"/>
+  <ellipse cx="170" cy="330" rx="26" ry="12" fill="#ffffff" opacity="0.35" transform="rotate(-20 170 330)"/>
+  <!-- wings wrapped around the pillow like arms -->
+  <path d="M70 250 Q120 330 130 420 Q170 380 210 392 Q196 330 176 290 Z" fill="#1c1630"/>
+  <path d="M442 250 Q392 330 382 420 Q342 380 302 392 Q316 330 336 290 Z" fill="#1c1630"/>
+  <path d="M130 420 Q170 380 210 392" stroke="#3b2f5c" stroke-width="3" fill="none"/>
+  <path d="M382 420 Q342 380 302 392" stroke="#3b2f5c" stroke-width="3" fill="none"/>
+  <!-- body -->
+  <ellipse cx="256" cy="236" rx="56" ry="60" fill="#2a2140"/>
+  <!-- ears -->
+  <path d="M212 194 L198 144 L234 178 Z" fill="#2a2140"/>
+  <path d="M300 194 L314 144 L278 178 Z" fill="#2a2140"/>
+  <path d="M212 190 L204 160 L226 180 Z" fill="#3b2f5c"/>
+  <path d="M300 190 L308 160 L286 180 Z" fill="#3b2f5c"/>
+  <!-- sleepy happy face -->
+  <path d="M220 230 Q234 244 248 230" stroke="#f5e9b8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M264 230 Q278 244 292 230" stroke="#f5e9b8" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M244 262 Q256 272 268 262" stroke="#f5e9b8" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- fangs -->
+  <path d="M243 265 L247 282 L251 265 Z" fill="#ffffff"/>
+  <path d="M261 265 L265 282 L269 265 Z" fill="#ffffff"/>
+  <!-- blush -->
+  <circle cx="218" cy="252" r="7" fill="#f29bb5" opacity="0.5"/>
+  <circle cx="294" cy="252" r="7" fill="#f29bb5" opacity="0.5"/>
+  <!-- sleep sign -->
+  <text x="376" y="170" font-family="sans-serif" font-size="34" font-weight="bold" fill="#f5e9b8">Z</text>
+  <text x="402" y="144" font-family="sans-serif" font-size="26" font-weight="bold" fill="#f5e9b8" opacity="0.8">z</text>
+</svg>

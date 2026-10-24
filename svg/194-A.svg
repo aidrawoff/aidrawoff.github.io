@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- wall -->
+  <rect x="0" y="0" width="512" height="360" fill="#c9d3dc"/>
+  <!-- window with rain -->
+  <rect x="300" y="60" width="160" height="150" fill="#7f97ab" stroke="#3b4a57" stroke-width="8"/>
+  <line x1="380" y1="60" x2="380" y2="210" stroke="#3b4a57" stroke-width="6"/>
+  <line x1="300" y1="135" x2="460" y2="135" stroke="#3b4a57" stroke-width="6"/>
+  <g stroke="#dfe9f2" stroke-width="2" opacity="0.7">
+    <line x1="315" y1="75" x2="310" y2="95"/>
+    <line x1="340" y1="80" x2="335" y2="105"/>
+    <line x1="400" y1="72" x2="395" y2="98"/>
+    <line x1="435" y1="85" x2="430" y2="112"/>
+    <line x1="320" y1="160" x2="315" y2="185"/>
+    <line x1="415" y1="165" x2="410" y2="192"/>
+    <line x1="445" y1="185" x2="440" y2="205"/>
+  </g>
+  <!-- Monday calendar -->
+  <rect x="40" y="70" width="90" height="100" fill="#ffffff" stroke="#44515c" stroke-width="4"/>
+  <rect x="40" y="70" width="90" height="26" fill="#d9534f"/>
+  <text x="85" y="89" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#ffffff">MON</text>
+  <text x="85" y="142" font-family="Arial, sans-serif" font-size="40" font-weight="bold" text-anchor="middle" fill="#44515c">24</text>
+  <!-- table -->
+  <rect x="0" y="360" width="512" height="152" fill="#8b6a4f"/>
+  <rect x="0" y="360" width="512" height="14" fill="#6e513b"/>
+  <g transform="translate(0,28)">
+  <!-- alarm clock -->
+  <circle cx="110" cy="330" r="34" fill="#e4572e" stroke="#7a2a12" stroke-width="4"/>
+  <circle cx="110" cy="330" r="22" fill="#fff7e6"/>
+  <line x1="110" y1="330" x2="110" y2="314" stroke="#222" stroke-width="3"/>
+  <line x1="110" y1="330" x2="122" y2="334" stroke="#222" stroke-width="3"/>
+  <ellipse cx="110" cy="366" rx="40" ry="6" fill="#000" opacity="0.25"/>
+  </g>
+  <g transform="translate(0,50)">
+  <!-- coffee mug -->
+  <rect x="390" y="300" width="60" height="60" rx="6" fill="#ffffff" stroke="#44515c" stroke-width="4"/>
+  <path d="M450 316 q18 6 0 28" fill="none" stroke="#44515c" stroke-width="5"/>
+  <ellipse cx="420" cy="302" rx="28" ry="6" fill="#5a3825"/>
+  <path d="M408 290 q-8 -14 0 -26 q8 -12 0 -24" fill="none" stroke="#8a9aa8" stroke-width="4" stroke-linecap="round"/>
+  <path d="M424 290 q-8 -14 0 -26 q8 -12 0 -24" fill="none" stroke="#8a9aa8" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="420" cy="422" rx="36" ry="6" fill="#000" opacity="0.25"/>
+  </g>
+  <!-- cat body -->
+  <ellipse cx="250" cy="330" rx="75" ry="60" fill="#1d1d22"/>
+  <!-- tail -->
+  <path d="M320 370 q60 -10 50 -60 q-4 -20 -20 -14" fill="none" stroke="#1d1d22" stroke-width="16" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="250" cy="240" r="58" fill="#1d1d22"/>
+  <!-- ears -->
+  <polygon points="200,200 204,150 238,186" fill="#1d1d22"/>
+  <polygon points="300,200 296,150 262,186" fill="#1d1d22"/>
+  <!-- grumpy brows -->
+  <line x1="214" y1="222" x2="240" y2="232" stroke="#0b0b0e" stroke-width="6" stroke-linecap="round"/>
+  <line x1="286" y1="222" x2="260" y2="232" stroke="#0b0b0e" stroke-width="6" stroke-linecap="round"/>
+  <!-- half-closed eyes -->
+  <path d="M218 246 q14 8 28 0" fill="none" stroke="#f2c230" stroke-width="5" stroke-linecap="round"/>
+  <path d="M254 246 q14 8 28 0" fill="none" stroke="#f2c230" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="232" cy="248" rx="3" ry="6" fill="#f2c230"/>
+  <ellipse cx="268" cy="248" rx="3" ry="6" fill="#f2c230"/>
+  <!-- nose and frown -->
+  <polygon points="246,262 258,262 252,270" fill="#e0707a"/>
+  <path d="M236 282 q16 -10 32 0" fill="none" stroke="#0b0b0e" stroke-width="4" stroke-linecap="round"/>
+  <!-- whiskers -->
+  <g stroke="#6b6b75" stroke-width="2">
+    <line x1="200" y1="262" x2="172" y2="256"/>
+    <line x1="200" y1="270" x2="172" y2="272"/>
+    <line x1="300" y1="262" x2="328" y2="256"/>
+    <line x1="300" y1="270" x2="328" y2="272"/>
+  </g>
+  <!-- cushion under cat -->
+  <ellipse cx="250" cy="392" rx="96" ry="12" fill="#b5483a"/>
+  <ellipse cx="250" cy="390" rx="84" ry="7" fill="#d46a58" opacity="0.6"/>
+  <!-- front paws -->
+  <ellipse cx="222" cy="384" rx="22" ry="11" fill="#1d1d22"/>
+  <ellipse cx="278" cy="384" rx="22" ry="11" fill="#1d1d22"/>
+  <line x1="214" y1="387" x2="214" y2="393" stroke="#0b0b0e" stroke-width="2"/>
+  <line x1="230" y1="388" x2="230" y2="394" stroke="#0b0b0e" stroke-width="2"/>
+  <line x1="270" y1="388" x2="270" y2="394" stroke="#0b0b0e" stroke-width="2"/>
+  <line x1="286" y1="387" x2="286" y2="393" stroke="#0b0b0e" stroke-width="2"/>
+  <!-- sunlight from window -->
+  <polygon points="300,210 460,210 400,360 300,300" fill="#ffffff" opacity="0.08"/>
+  <!-- shadow under cat -->
+  <ellipse cx="250" cy="402" rx="110" ry="8" fill="#000" opacity="0.2"/>
+  <!-- crumpled paper balls -->
+  <circle cx="300" cy="446" r="14" fill="#f4f1e8" stroke="#b9b2a0" stroke-width="2"/>
+  <path d="M292 440 q8 -6 14 2 M300 452 q10 2 6 -8" fill="none" stroke="#b9b2a0" stroke-width="2"/>
+  <ellipse cx="300" cy="462" rx="18" ry="4" fill="#000" opacity="0.2"/>
+  <circle cx="332" cy="458" r="10" fill="#f4f1e8" stroke="#b9b2a0" stroke-width="2"/>
+  <ellipse cx="332" cy="470" rx="13" ry="3" fill="#000" opacity="0.2"/>
+  <!-- potted cactus -->
+  <rect x="58" y="440" width="50" height="44" rx="4" fill="#c8643b" stroke="#7a3a1f" stroke-width="3"/>
+  <rect x="82" y="410" width="14" height="32" rx="7" fill="#4e9a52"/>
+  <rect x="62" y="424" width="12" height="20" rx="6" fill="#4e9a52"/>
+  <rect x="90" y="428" width="12" height="18" rx="6" fill="#4e9a52"/>
+  <ellipse cx="83" cy="490" rx="34" ry="5" fill="#000" opacity="0.25"/>
+  <ellipse cx="232" cy="212" rx="10" ry="5" fill="#ffffff" opacity="0.12"/>
+</svg>
