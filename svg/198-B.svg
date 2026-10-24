@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070814"/>
+      <stop offset="50%" stop-color="#181030"/>
+      <stop offset="100%" stop-color="#2d1538"/>
+    </linearGradient>
+    <linearGradient id="catGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff9f43"/>
+      <stop offset="100%" stop-color="#ee5253"/>
+    </linearGradient>
+    <radialGradient id="moon" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff6db" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#f1c40f" stop-opacity="0.2"/>
+    </radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="5" stdDeviation="4" flood-color="#000" flood-opacity="0.5"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- Big Glowing Moon -->
+  <circle cx="430" cy="100" r="55" fill="url(#moon)"/>
+
+  <!-- Stars & Magic Sparks -->
+  <g fill="#ffeaa7" opacity="0.95">
+    <circle cx="70" cy="80" r="2.5"/>
+    <circle cx="200" cy="60" r="2"/>
+    <circle cx="310" cy="200" r="1.5"/>
+    <circle cx="90" cy="370" r="2"/>
+    <circle cx="470" cy="420" r="3"/>
+    <polygon points="250,30 253,42 265,45 253,48 250,60 247,48 235,45 247,42" fill="#fff"/>
+    <polygon points="135,150 137,156 143,158 137,160 135,166 133,160 127,158 133,156" fill="#ffeaa7"/>
+    <polygon points="360,280 362,286 368,288 362,290 360,296 358,290 352,288 358,286" fill="#ffeaa7"/>
+  </g>
+
+  <!-- Motion Wind Streaks -->
+  <g stroke="#ffffff" stroke-opacity="0.3" stroke-width="3" stroke-linecap="round">
+    <line x1="15" y1="200" x2="85" y2="200"/>
+    <line x1="4" y1="240" x2="65" y2="240"/>
+    <line x1="25" y1="280" x2="105" y2="280"/>
+    <line x1="45" y1="320" x2="85" y2="320"/>
+  </g>
+
+  <!-- Broomstick -->
+  <path d="M 40 380 Q 250 310 470 160" stroke="#4e342e" stroke-width="21" stroke-linecap="round" fill="none" filter="url(#shadow)"/>
+  <path d="M 40 380 Q 250 310 470 160" stroke="#8d6e63" stroke-width="8" stroke-linecap="round" fill="none"/>
+
+  <!-- Splinters -->
+  <line x1="190" y1="320" x2="210" y2="315" stroke="#3e2723" stroke-width="3" stroke-linecap="round"/>
+  <line x1="310" y1="265" x2="330" y2="258" stroke="#3e2723" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Broom Bristles -->
+  <g fill="#d7ccc8" stroke="#a1887f" stroke-width="2">
+    <path d="M 440 175 L 510 115 L 515 185 Z"/>
+    <path d="M 455 165 L 505 105 L 490 150 Z"/>
+    <path d="M 430 180 L 500 160 L 505 215 Z"/>
+  </g>
+  <line x1="440" y1="160" x2="475" y2="155" stroke="#3e2723" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Cat Body -->
+  <g filter="url(#shadow)">
+    <!-- Back leg flailing -->
+    <path d="M 285 275 Q 345 315 320 370" stroke="url(#catGrad)" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="320" cy="370" r="7" fill="#ee5253"/>
+    <path d="M 317 370 L 310 380 M 323 370 L 330 378" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Main chubby body -->
+    <ellipse cx="250" cy="265" rx="78" ry="54" fill="url(#catGrad)" transform="rotate(-16 250 265)"/>
+    
+    <!-- Front paws gripping -->
+    <path d="M 200" cy="270 Q 180 315 195 365" stroke="url(#catGrad)" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <circle cx="195" cy="365" r="6.5" fill="#ee5253"/>
+    <path d="M 192 365 L 185 375 M 198 365 L 203 375" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+
+    <path d="M 230" cy="280 Q 220 325 235 375" stroke="url(#catGrad)" stroke-width="13" stroke-linecap="round" fill="none"/>
+    <circle cx="235" cy="375" r="6.5" fill="#ee5253"/>
+    <path d="M 232 375 L 227 385 M 238 375 L 243 385" stroke="#c0392b" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Cat Head -->
+    <circle cx="190" cy="200" r="50" fill="url(#catGrad)"/>
+    
+    <!-- Mismatched Ears -->
+    <polygon points="150,165 167,100 193,150" fill="#ee5253"/>
+    <polygon points="205,155 237,110 230,170" fill="#ee5253"/>
+    <polygon points="160,155 171,115 185,145" fill="#ff7675" opacity="0.8"/>
+    <polygon points="213,150 229,125 225,160" fill="#ff7675" opacity="0.8"/>
+
+    <!-- Crazy Wide Eyes -->
+    <circle cx="173" cy="190" r="15" fill="#ffffff" stroke="#c0392b" stroke-width="2.5"/>
+    <circle cx="178" cy="188" r="5.5" fill="#2d3436"/>
+    <circle cx="180" cy="185" r="2" fill="#ffffff"/>
+
+    <circle cx="217" cy="185" r="17" fill="#ffffff" stroke="#c0392b" stroke-width="2.5"/>
+    <circle cx="212" cy="185" r="6.5" fill="#2d3436"/>
+    <circle cx="210" cy="182" r="2.5" fill="#ffffff"/>
+
+    <!-- Eyebrows -->
+    <line x1="155" y1="167" x2="188" y2="177" stroke="#2d3436" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="200" y1="175" x2="233" y2="163" stroke="#2d3436" stroke-width="3.5" stroke-linecap="round"/>
+
+    <!-- Nose & open mouth with tongue -->
+    <polygon points="193,208 201,208 197,214" fill="#2d3436"/>
+    <path d="M 185 221 Q 197 237 209 221" fill="#ff7675" stroke="#2d3436" stroke-width="2.5"/>
+    <path d="M 193 230 Q 197 243 202 237" fill="#ff4757"/>
+
+    <!-- Whiskers -->
+    <path d="M 150 205 Q 120 200 100 207" stroke="#2d3436" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 150 217 Q 120 223 105 233" stroke="#2d3436" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 237 200 Q 267 205 290 197" stroke="#2d3436" stroke-width="2" fill="none" stroke-linecap="round"/>
+    <path d="M 237 213 Q 267 223 285 237" stroke="#2d3436" stroke-width="2" fill="none" stroke-linecap="round"/>
+
+    <!-- Tail -->
+    <path d="M 320 250 Q 385 290 370 215 Q 355 150 405 140" stroke="url(#catGrad)" stroke-width="11" fill="none" stroke-linecap="round"/>
+    <circle cx="405" cy="140" r="6.5" fill="#ffeaa7"/>
+  </g>
+
+  <!-- Sparkles -->
+  <g fill="#ffeaa7">
+    <circle cx="425" cy="125" r="3"/>
+    <circle cx="395" cy="115" r="2"/>
+    <circle cx="420" cy="160" r="2.5"/>
+  </g>
+</svg>

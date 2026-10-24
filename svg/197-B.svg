@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- sky -->
+  <rect width="512" height="300" fill="#4facfe"/>
+  <rect y="200" width="512" height="100" fill="#00f2fe" opacity="0.4"/>
+  <!-- sun -->
+  <circle cx="400" cy="80" r="45" fill="#ffd700"/>
+  <circle cx="400" cy="80" r="55" fill="#ffd700" opacity="0.3"/>
+  <!-- ocean -->
+  <rect y="280" width="512" height="120" fill="#006994"/>
+  <!-- waves -->
+  <path d="M0,300 Q64,290 128,300 T256,300 T384,300 T512,300" fill="none" stroke="#4db8ff" stroke-width="4"/>
+  <path d="M0,320 Q64,310 128,320 T256,320 T384,320 T512,320" fill="none" stroke="#4db8ff" stroke-width="3"/>
+  <!-- sand -->
+  <path d="M0,380 Q256,360 512,380 L512,512 L0,512 Z" fill="#e6c288"/>
+  <!-- palm tree -->
+  <path d="M80,420 Q90,320 85,220" fill="none" stroke="#8B4513" stroke-width="12" stroke-linecap="round"/>
+  <ellipse cx="85" cy="210" rx="55" ry="18" fill="#228B22" transform="rotate(-20,85,210)"/>
+  <ellipse cx="85" cy="210" rx="55" ry="18" fill="#228B22" transform="rotate(20,85,210)"/>
+  <ellipse cx="85" cy="210" rx="55" ry="18" fill="#228B22" transform="rotate(60,85,210)"/>
+  <ellipse cx="85" cy="210" rx="55" ry="18" fill="#228B22" transform="rotate(-60,85,210)"/>
+  <ellipse cx="85" cy="210" rx="55" ry="18" fill="#228B22" transform="rotate(100,85,210)"/>
+  <ellipse cx="85" cy="210" rx="55" ry="18" fill="#228B22" transform="rotate(-100,85,210)"/>
+  <!-- beach ball -->
+  <circle cx="350" cy="440" r="28" fill="#ff4444"/>
+  <path d="M322,440 A28,28 0 0,1 350,412 L350,468 A28,28 0 0,1 322,440" fill="#44ff44"/>
+  <path d="M378,440 A28,28 0 0,1 350,412 L350,468 A28,28 0 0,1 378,440" fill="#4444ff"/>
+  <circle cx="350" cy="440" r="6" fill="white"/>
+  <!-- starfish -->
+  <polygon points="420,460 425,475 440,475 428,485 433,500 420,490 407,500 412,485 400,475 415,475" fill="#ff6b6b"/>
+  <!-- seashell -->
+  <path d="M200,450 Q210,440 220,450 Q215,460 200,450" fill="#ffe4e1" stroke="#ffb6c1" stroke-width="1.5"/>
+  <path d="M205,450 L208,445 M210,450 L212,443 M215,450 L217,445" stroke="#ffb6c1" stroke-width="1"/>
+  <!-- shadow under palm -->
+  <ellipse cx="80" cy="425" rx="30" ry="6" fill="#c4a265" opacity="0.6"/>
+  <!-- clouds -->
+  <ellipse cx="120" cy="70" rx="35" ry="14" fill="white" opacity="0.9"/>
+  <ellipse cx="145" cy="75" rx="25" ry="12" fill="white" opacity="0.9"/>
+  <ellipse cx="95" cy="75" rx="25" ry="12" fill="white" opacity="0.9"/>
+  <ellipse cx="280" cy="50" rx="30" ry="12" fill="white" opacity="0.85"/>
+  <ellipse cx="300" cy="55" rx="22" ry="10" fill="white" opacity="0.85"/>
+  <!-- sun reflection on water -->
+  <ellipse cx="400" cy="290" rx="25" ry="4" fill="#fff5b3" opacity="0.6"/>
+  <ellipse cx="400" cy="300" rx="18" ry="3" fill="#fff5b3" opacity="0.5"/>
+  <ellipse cx="400" cy="310" rx="12" ry="2" fill="#fff5b3" opacity="0.4"/>
+  <!-- coconuts -->
+  <circle cx="75" cy="235" r="7" fill="#5D4037"/>
+  <circle cx="90" cy="240" r="6" fill="#5D4037"/>
+  <!-- more waves -->
+  <path d="M0,340 Q64,330 128,340 T256,340 T384,340 T512,340" fill="none" stroke="#4db8ff" stroke-width="2" opacity="0.7"/>
+  <!-- sand texture dots -->
+  <circle cx="150" cy="400" r="2" fill="#c4a265" opacity="0.5"/>
+  <circle cx="180" cy="420" r="1.5" fill="#c4a265" opacity="0.5"/>
+  <circle cx="250" cy="390" r="2" fill="#c4a265" opacity="0.5"/>
+  <circle cx="300" cy="410" r="1.5" fill="#c4a265" opacity="0.5"/>
+  <circle cx="450" cy="400" r="2" fill="#c4a265" opacity="0.5"/>
+  <!-- seagull -->
+  <path d="M200,100 Q210,90 220,100 Q230,90 240,100" fill="none" stroke="white" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- tiny crab -->
+  <ellipse cx="280" cy="470" rx="10" ry="5" fill="#ff4500"/>
+  <circle cx="275" cy="465" r="2.5" fill="#ff4500"/>
+  <circle cx="285" cy="465" r="2.5" fill="#ff4500"/>
+  <circle cx="275" cy="465" r="1" fill="white"/>
+  <circle cx="285" cy="465" r="1" fill="white"/>
+  <path d="M270,468 L265,465 M290,468 L295,465" stroke="#ff4500" stroke-width="1.5" fill="none"/>
+</svg>

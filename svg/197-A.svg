@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3fa9e0"/>
+      <stop offset="0.6" stop-color="#bfe6f7"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b8fb8"/>
+      <stop offset="1" stop-color="#0b5f86"/>
+    </linearGradient>
+    <linearGradient id="sand" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7dc9c"/>
+      <stop offset="1" stop-color="#e9c270"/>
+    </linearGradient>
+  </defs>
+  <!-- back: sky and sun -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="92" r="40" fill="#ffd54a"/>
+  <circle cx="410" cy="92" r="54" fill="#ffd54a" opacity="0.25"/>
+  <!-- distant gull -->
+  <path d="M120 110 Q132 98 144 110 Q156 98 168 110" fill="none" stroke="#2d4a5c" stroke-width="3" stroke-linecap="round"/>
+  <!-- middle: sea -->
+  <rect x="0" y="250" width="512" height="110" fill="url(#sea)"/>
+  <path d="M0 262 Q40 252 80 262 T160 262 T240 262 T320 262 T400 262 T512 262" fill="none" stroke="#e6f8ff" stroke-width="4"/>
+  <path d="M0 300 Q50 290 100 300 T200 300 T300 300 T400 300 T512 300" fill="none" stroke="#7fd3ef" stroke-width="3"/>
+  <!-- front: sand -->
+  <path d="M0 340 Q256 310 512 340 L512 512 L0 512 Z" fill="url(#sand)"/>
+  <!-- sandcastle -->
+  <ellipse cx="375" cy="462" rx="66" ry="8" fill="#c99a4a" opacity="0.6"/>
+  <rect x="330" y="400" width="90" height="60" fill="#c4954a"/>
+  <rect x="330" y="380" width="18" height="22" fill="#c4954a"/>
+  <rect x="402" y="380" width="18" height="22" fill="#c4954a"/>
+  <path d="M358 400 L358 382 L372 368 L386 382 L386 400 Z" fill="#a87a35"/>
+  <path d="M330 380 L339 368 L348 380 Z M402 380 L411 368 L420 380 Z" fill="#a87a35"/>
+  <line x1="372" y1="368" x2="372" y2="340" stroke="#5a3d1e" stroke-width="3"/>
+  <path d="M372 340 L392 346 L372 352 Z" fill="#ffd54a"/>
+  <rect x="340" y="420" width="70" height="4" fill="#8a6328" opacity="0.6"/>
+  <!-- hero: umbrella, big and close -->
+  <line x1="170" y1="470" x2="170" y2="170" stroke="#7a4a2a" stroke-width="10" stroke-linecap="round"/>
+  <path d="M40 200 Q170 60 300 200 Z" fill="#ff5a5f"/>
+  <path d="M40 200 Q82 150 124 200 Q170 150 216 200 Q258 150 300 200 Z" fill="#ffffff"/>
+  <path d="M40 200 Q82 150 124 200 Q170 150 216 200 Q258 150 300 200 Z" fill="none" stroke="#c63c42" stroke-width="2"/>
+  <!-- towel under the umbrella -->
+  <rect x="120" y="420" width="130" height="36" rx="4" fill="#4ecdc4"/>
+  <rect x="120" y="436" width="130" height="6" fill="#ffffff" opacity="0.7"/>
+  <ellipse cx="170" cy="470" rx="62" ry="7" fill="#c99a4a" opacity="0.5"/>
+  <ellipse cx="200" cy="448" rx="10" ry="5" fill="#f7a7a0"/>
+  <circle cx="60" cy="470" r="2" fill="#fff8e0" opacity="0.8"/>
+  <circle cx="455" cy="440" r="2.5" fill="#fff8e0" opacity="0.8"/>
+  <path d="M20 500 Q60 492 100 500" fill="none" stroke="#fff8e0" stroke-width="2" opacity="0.7"/>
+  <!-- footprints -->
+  <ellipse cx="250" cy="480" rx="5" ry="8" fill="#d9ad58"/>
+  <ellipse cx="268" cy="492" rx="5" ry="8" fill="#d9ad58"/>
+</svg>
