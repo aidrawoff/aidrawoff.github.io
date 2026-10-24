@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#171631"/><stop offset="1" stop-color="#4a2451"/></linearGradient>
+ <radialGradient id="spot"><stop stop-color="#ffe9a6" stop-opacity=".45"/><stop offset="1" stop-color="#ffe9a6" stop-opacity="0"/></radialGradient>
+ <linearGradient id="pump" x2="0" y2="1"><stop stop-color="#ffb52e"/><stop offset="1" stop-color="#d85a20"/></linearGradient>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<ellipse cx="260" cy="205" rx="235" ry="210" fill="url(#spot)"/>
+<path d="M0 410 Q130 380 255 414 T512 403 V512H0Z" fill="#20182c"/>
+<!-- hat rack --> <path d="M420 145V423M382 423H463" stroke="#b87952" stroke-width="12" stroke-linecap="round"/>
+<path d="M420 226l-56-42M420 285l56-48M420 337l-57-28" stroke="#b87952" stroke-width="8"/>
+<!-- hats --> <path d="M330 179 Q365 165 402 179 L402 188 H330Z M345 179 Q350 137 369 126 Q389 140 391 179Z" fill="#36b9b0" stroke="#102f47" stroke-width="6"/>
+<path d="M435 238 Q463 226 493 239 L493 247 H435Z M449 236 Q455 205 471 194 Q486 208 487 237Z" fill="#ed5b62" stroke="#5b2049" stroke-width="6"/>
+<path d="M344 308 Q375 296 402 309 L402 317 H344Z M354 306 Q359 278 376 270 Q392 283 394 307Z" fill="#f0c64e" stroke="#5b3b49" stroke-width="6"/>
+<!-- pumpkin body --> <path d="M116 330 Q91 286 113 235 Q139 192 196 207 Q247 178 300 209 Q357 193 383 240 Q402 290 374 338 Q343 386 273 392 Q220 409 166 386 Q130 372 116 330Z" fill="url(#pump)" stroke="#57253a" stroke-width="8"/>
+<path d="M190 213 Q171 293 194 381M258 198 Q238 292 258 395M316 211 Q293 298 318 376" fill="none" stroke="#b64625" stroke-width="10" opacity=".7"/>
+<!-- stem and hat --> <path d="M239 214 Q234 181 255 159 Q271 149 280 163 Q269 188 278 211Z" fill="#53733b" stroke="#263c36" stroke-width="7"/>
+<!-- oversized top hat being tried on --> <path d="M164 174 Q250 153 334 174 L334 190 Q250 207 164 190Z" fill="#293452" stroke="#10162d" stroke-width="7"/>
+<path d="M192 174 L201 103 Q250 83 299 103 L308 174 Q250 190 192 174Z" fill="#39466d" stroke="#10162d" stroke-width="7"/>
+<path d="M198 137 Q250 151 302 137 L300 155 Q250 169 196 153Z" fill="#f2a83b"/>
+<!-- face --> <ellipse cx="198" cy="280" rx="18" ry="26" fill="#fff4c7" stroke="#57253a" stroke-width="6"/><ellipse cx="301" cy="280" rx="18" ry="26" fill="#fff4c7" stroke="#57253a" stroke-width="6"/><circle cx="203" cy="286" r="8" fill="#202039"/><circle cx="296" cy="286" r="8" fill="#202039"/>
+<path d="M228 322 Q250 342 275 319" fill="none" stroke="#57253a" stroke-width="8" stroke-linecap="round"/>
+<!-- arms and cards --> <path d="M125 304 Q77 295 62 253" fill="none" stroke="#d85a20" stroke-width="16" stroke-linecap="round"/><path d="M363 303 Q397 287 414 254" fill="none" stroke="#d85a20" stroke-width="16" stroke-linecap="round"/>
+<circle cx="61" cy="249" r="12" fill="#ffb52e"/><circle cx="415" cy="249" r="12" fill="#ffb52e"/>
+<!-- stage sparkle and warm highlights -->
+<path d="M88 150v28M74 164h28M399 105v22M388 116h22" stroke="#ffe9a6" stroke-width="5" stroke-linecap="round" opacity=".9"/>
+<path d="M145 251 Q154 230 169 225" fill="none" stroke="#ffd66b" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+<path d="M331 252 Q340 232 351 229" fill="none" stroke="#ffd66b" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+<circle cx="108" cy="185" r="4" fill="#ffe9a6"/><circle cx="383" cy="161" r="4" fill="#ffe9a6"/>
+<text x="256" y="468" text-anchor="middle" font-family="sans-serif" font-size="21" font-weight="bold" fill="#ffe9a6" letter-spacing="4">HAT TRY-ON NIGHT</text>
+</svg>

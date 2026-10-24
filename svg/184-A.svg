@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: dark gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0" stop-color="#0a0a1a"/>
+      <stop offset="1" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <filter id="batGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="eggGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Bat 1: centered, arms spread -->
+  <path id="bat1" d="M256 256c0-40-15-75-40-100 5 10 10 20 15 30-25 10-45 35-55 65-10-5-20-10-30-15 20 30 45 50 75 55-15 10-30 20-45 30-15-5-30-10-45-15 30 25 55 45 75 65-10 15-20 30-30 45 25-15 50-30 75-45-5 15-10 30-15 45 20-10 40-20 60-30-10 25-20 50-30 75 15 5 30 10 45 15-25-20-50-40-75-55 10-15 20-30 30-45-20 15-40 30-60 45z" fill="#6a4c93" transform="translate(0 0) scale(1.8)"/>
+
+  <!-- Bat 2: offset, arms spread -->
+  <path id="bat2" d="M256 256c0-40-15-75-40-100 5 10 10 20 15 30-25 10-45 35-55 65-10-5-20-10-30-15 20 30 45 50 75 55-15 10-30 20-45 30-15-5-30-10-45-15 30 25 55 45 75 65-10 15-20 30-30 45 25-15 50-30 75-45-5 15-10 30-15 45 20-10 40-20 60-30-10 25-20 50-30 75 15 5 30 10 45 15-25-20-50-40-75-55 10-15 20-30 30-45-20 15-40 30-60 45z" fill="#6a4c93" transform="translate(60 -20) scale(1.5)"/>
+
+  <!-- Egg 1: mid-air, warm yellow -->
+  <path id="egg1" d="M200 180c12-4 24-4 36 0 8 4 16 12 20 20 4 8 4 16 0 24-4 8-12 16-20 20-12 4-24 4-36 0-8-4-16-12-20-20-4-8-4-16 0-24 4-8 12-16 20-20z" fill="#ffd166" transform="scale(1.2)" filter="url(#eggGlow)"/>
+
+  <!-- Egg 2: mid-air, warm yellow -->
+  <path id="egg2" d="M256 160c12-4 24-4 36 0 8 4 16 12 20 20 4 8 4 16 0 24-4 8-12 16-20 20-12 4-24 4-36 0-8-4-16-12-20-20-4-8-4-16 0-24 4-8 12-16 20-20z" fill="#ffd166" transform="scale(1.2)" filter="url(#eggGlow)"/>
+
+  <!-- Egg 3: mid-air, warm yellow -->
+  <path id="egg3" d="M312 180c12-4 24-4 36 0 8 4 16 12 20 20 4 8 4 16 0 24-4 8-12 16-20 20-12 4-24 4-36 0-8-4-16-12-20-20-4-8-4-16 0-24 4-8 12-16 20-20z" fill="#ffd166" transform="scale(1.2)" filter="url(#eggGlow)"/>
+
+  <!-- Soft purple glow behind bats -->
+  <ellipse cx="256" cy="256" rx="120" ry="80" fill="#8c72b0" opacity="0.2" filter="url(#glow)"/>
+  <defs>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="eggGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+</svg>

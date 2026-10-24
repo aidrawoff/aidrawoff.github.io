@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#120b2e"/>
+      <stop offset="0.6" stop-color="#2b1a4e"/>
+      <stop offset="1" stop-color="#4a2b5c"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="400" cy="96" r="52" fill="#f7f0c0"/>
+  <circle cx="382" cy="82" r="10" fill="#e6dcab" opacity="0.6"/>
+  <circle cx="414" cy="112" r="7" fill="#e6dcab" opacity="0.5"/>
+  <g fill="#ffffff">
+    <circle cx="60" cy="60" r="2"/><circle cx="140" cy="40" r="1.6"/><circle cx="230" cy="70" r="2"/>
+    <circle cx="300" cy="34" r="1.5"/><circle cx="480" cy="50" r="2"/><circle cx="50" cy="170" r="1.6"/>
+    <circle cx="190" cy="150" r="1.4"/><circle cx="470" cy="190" r="1.8"/>
+  </g>
+  <!-- far hill -->
+  <path d="M0 330 Q120 300 260 326 Q400 352 512 322 L512 512 L0 512 Z" fill="#241634"/>
+  <!-- mid ground -->
+  <path d="M0 372 Q140 350 280 374 Q410 396 512 372 L512 512 L0 512 Z" fill="#170e24"/>
+  <!-- gravestones -->
+  <g fill="#3b3050">
+    <path d="M56 344 q16 -26 32 0 v22 h-32 z"/>
+    <path d="M118 336 q13 -20 26 0 v18 h-26 z"/>
+    <path d="M430 348 q15 -24 30 0 v20 h-30 z"/>
+  </g>
+  <!-- GHOST: recoiling, hands up, drifting left -->
+  <g>
+    <path d="M150 200 q0 -58 58 -58 q58 0 58 58 v96 q-14 -14 -29 0 q-15 14 -29 0 q-15 -14 -29 0 q-15 14 -29 0 z"
+          fill="#dff4ff" opacity="0.92"/>
+    <ellipse cx="196" cy="196" rx="10" ry="14" fill="#2a2340"/>
+    <ellipse cx="222" cy="196" rx="10" ry="14" fill="#2a2340"/>
+    <ellipse cx="209" cy="232" rx="9" ry="12" fill="#2a2340"/>
+    <!-- raised startled arms -->
+    <path d="M152 210 q-34 -26 -46 -58 q22 6 34 22 q10 14 20 24 z" fill="#dff4ff" opacity="0.9"/>
+    <path d="M266 210 q34 -26 46 -58 q-22 6 -34 22 q-10 14 -20 24 z" fill="#dff4ff" opacity="0.9"/>
+  </g>
+  <!-- KID CHASER: full lunge, arm stabbing out to tag -->
+  <g fill="#ffb347">
+    <path d="M352 292 l30 -8 l20 46 l-18 8 l-18 -28 l-14 34 l-20 -6 z"/>
+    <path d="M318 262 l44 12 l-8 34 l-40 -14 z"/>
+    <path d="M330 272 q-40 -22 -74 -40 l8 -16 q38 20 74 40 z"/>
+    <circle cx="338" cy="246" r="21"/>
+    <path d="M356 258 q34 -12 46 -34 l-14 -8 q-18 18 -38 26 z"/>
+  </g>
+  <!-- motion lines behind ghost -->
+  <g stroke="#9fe8ff" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <path d="M118 150 h-34"/><path d="M108 178 h-44"/><path d="M112 206 h-36"/>
+  </g>
+  <!-- TAG spark at fingertip -->
+  <g stroke="#fff27a" stroke-width="3" stroke-linecap="round">
+    <path d="M262 216 l-14 -10"/><path d="M266 226 l-18 2"/><path d="M258 206 l-6 -16"/>
+  </g>
+  <text x="292" y="188" font-family="Georgia,serif" font-size="26" fill="#fff27a" opacity="0.9">TAG!</text>
+  <!-- fleeing wisps + ground shadow to sell the escape -->
+  <g stroke="#dff4ff" stroke-width="3" stroke-linecap="round" opacity="0.5">
+    <path d="M280 130 q14 -10 26 -4"/><path d="M292 152 q14 -8 24 0"/>
+  </g>
+  <ellipse cx="208" cy="352" rx="62" ry="9" fill="#0a0616" opacity="0.55"/>
+  <ellipse cx="366" cy="372" rx="46" ry="8" fill="#0a0616" opacity="0.55"/>
+</svg>

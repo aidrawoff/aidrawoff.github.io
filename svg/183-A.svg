@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#140c26"/>
+      <stop offset="50%" stop-color="#281548"/>
+      <stop offset="100%" stop-color="#461e5f"/>
+    </linearGradient>
+
+    <!-- Pumpkin Gradients -->
+    <radialGradient id="pumpGrad" cx="50%" cy="45%" r="50%">
+      <stop offset="0%" stop-color="#ffb156"/>
+      <stop offset="70%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#c84b00"/>
+    </radialGradient>
+    <linearGradient id="stemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#196f3d"/>
+    </linearGradient>
+
+    <!-- Hat Gradients -->
+    <linearGradient id="hatGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#34495e"/>
+      <stop offset="100%" stop-color="#1a252f"/>
+    </linearGradient>
+    <linearGradient id="ribbonGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+
+    <!-- Second Hat (Wizard/Party Hat on floor) -->
+    <linearGradient id="wizardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#af7ac5"/>
+      <stop offset="100%" stop-color="#6c3483"/>
+    </linearGradient>
+    
+    <!-- Third Hat (Beret perched on side) -->
+    <radialGradient id="beretGrad" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#21618c"/>
+    </radialGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.5"/>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Background Ambient Glow -->
+  <circle cx="256" cy="270" r="180" fill="#ff9f43" opacity="0.08" filter="url(#softGlow)"/>
+
+  <!-- Floor Shadow -->
+  <ellipse cx="256" cy="445" rx="160" ry="22" fill="#090414" opacity="0.7"/>
+
+  <!-- Discarded Wizard Hat on the floor (left) -->
+  <g transform="translate(100, 365) rotate(-18)" filter="url(#dropShadow)">
+    <ellipse cx="40" cy="55" rx="38" ry="12" fill="url(#wizardGrad)"/>
+    <path d="M 8 55 L 40 5 L 72 55 Z" fill="url(#wizardGrad)"/>
+    <circle cx="40" cy="5" r="6" fill="#f1c40f"/>
+  </g>
+
+  <!-- Discarded Beret on the floor (right) -->
+  <g transform="translate(360, 380) rotate(20)" filter="url(#dropShadow)">
+    <ellipse cx="40" cy="30" rx="30" ry="15" fill="url(#beretGrad)"/>
+    <path d="M 38 15 C 38 10 42 10 42 15" stroke="#1b4f72" stroke-width="3" stroke-linecap="round" fill="none"/>
+  </g>
+
+  <!-- Pumpkin Body Group with Drop Shadow -->
+  <g filter="url(#dropShadow)">
+    <!-- Back / Side Lobes -->
+    <ellipse cx="196" cy="280" rx="90" ry="110" fill="#b94700" transform="rotate(-15 196 280)"/>
+    <ellipse cx="316" cy="280" rx="90" ry="110" fill="#b94700" transform="rotate(15 316 280)"/>
+    <ellipse cx="220" cy="275" rx="85" ry="115" fill="#d35400" transform="rotate(-8 220 275)"/>
+    <ellipse cx="292" cy="275" rx="85" ry="115" fill="#d35400" transform="rotate(8 292 275)"/>
+    
+    <!-- Main Center Lobe -->
+    <ellipse cx="256" cy="270" rx="95" ry="120" fill="url(#pumpGrad)"/>
+
+    <!-- Specular Highlight on Pumpkin -->
+    <ellipse cx="225" cy="220" rx="35" ry="60" fill="#ffffff" opacity="0.18" transform="rotate(-20 225 220)"/>
+    <ellipse cx="285" cy="235" rx="20" ry="40" fill="#ffffff" opacity="0.1" transform="rotate(15 285 235)"/>
+  </g>
+
+  <!-- Stem -->
+  <path d="M 242 165 C 240 135 255 110 275 100 C 285 95 295 95 290 115 C 285 130 260 145 255 165 Z" fill="url(#stemGrad)" filter="url(#dropShadow)"/>
+
+  <!-- Face: Expressive Eyes & Smile -->
+  <!-- Left Eye (cheerful wink / curve) -->
+  <path d="M 200 245 Q 215 230 230 245" stroke="#2c3e50" stroke-width="8" stroke-linecap="round" fill="none"/>
+  <!-- Right Eye (wide happy arc with sparkle) -->
+  <circle cx="312" cy="240" r="14" fill="#2c3e50"/>
+  <circle cx="308" cy="236" r="5" fill="#ffffff"/>
+
+  <!-- Confident Eyebrow -->
+  <path d="M 295 215 Q 315 205 330 218" stroke="#2c3e50" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Cheerful Grin -->
+  <path d="M 215 285 Q 256 335 297 285 Z" fill="#2c3e50"/>
+  <!-- Teeth / highlight inside mouth -->
+  <path d="M 240 300 Q 256 315 272 300 Z" fill="#ff9f43"/>
+
+  <!-- Rosy Cheeks -->
+  <circle cx="195" cy="275" r="15" fill="#e74c3c" opacity="0.4" filter="url(#softGlow)"/>
+  <circle cx="317" cy="275" r="15" fill="#e74c3c" opacity="0.4" filter="url(#softGlow)"/>
+
+  <!-- Cute Bowtie -->
+  <g transform="translate(256, 372)" filter="url(#dropShadow)">
+    <path d="M 0 0 L -28 -16 L -28 16 Z" fill="#e74c3c"/>
+    <path d="M 0 0 L 28 -16 L 28 16 Z" fill="#e74c3c"/>
+    <circle cx="0" cy="0" r="9" fill="#c0392b"/>
+    <circle cx="0" cy="0" r="3" fill="#f1c40f"/>
+  </g>
+
+  <!-- Tilted Dapper Top Hat (Trying on hats!) -->
+  <g transform="translate(260, 130) rotate(12) translate(-260, -130)" filter="url(#dropShadow)">
+    <!-- Hat Brim -->
+    <ellipse cx="256" cy="155" rx="85" ry="20" fill="url(#hatGrad)" stroke="#1a252f" stroke-width="2"/>
+    <!-- Hat Ribbon -->
+    <path d="M 195 142 C 220 138 292 138 317 142 L 316 155 L 196 155 Z" fill="url(#ribbonGrad)"/>
+    <!-- Hat Cylinder -->
+    <path d="M 205 140 L 212 75 C 213 70 220 65 230 65 L 282 65 C 292 65 299 70 300 75 L 307 140 Z" fill="url(#hatGrad)"/>
+    <!-- Hat Top Oval -->
+    <ellipse cx="256" cy="67" rx="36" ry="12" fill="#415b76"/>
+    <!-- Hat Highlight -->
+    <path d="M 220 80 L 225 130" stroke="#ffffff" stroke-width="4" opacity="0.25" stroke-linecap="round"/>
+  </g>
+
+  <!-- Floating Sparkles / Joyful Vibe -->
+  <path d="M 120 170 L 126 185 L 141 191 L 126 197 L 120 212 L 114 197 L 99 191 L 114 185 Z" fill="#f1c40f" opacity="0.9"/>
+  <path d="M 390 190 L 394 200 L 404 204 L 394 208 L 390 218 L 386 208 L 376 204 L 386 200 Z" fill="#f1c40f" opacity="0.95"/>
+  <circle cx="256" cy="100" r="3" fill="#f1c40f" opacity="0.8"/>
+  <circle cx="340" cy="130" r="2" fill="#f1c40f" opacity="0.7"/>
+</svg>
