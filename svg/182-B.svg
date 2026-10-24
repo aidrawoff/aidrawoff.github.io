@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#241f52"/>
+      <stop offset="1" stop-color="#4a4a8a"/>
+    </linearGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- wall, window and moon -->
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <rect x="30" y="50" width="120" height="130" fill="#15123a" stroke="#8a7a5a" stroke-width="8"/>
+  <circle cx="110" cy="92" r="20" fill="#fff3c4"/>
+  <circle cx="118" cy="86" r="18" fill="#2a2660"/>
+  <path d="M30 115 H150 M90 50 V180" stroke="#8a7a5a" stroke-width="5"/>
+  <circle cx="220" cy="70" r="2.5" fill="#fff3c4"/>
+  <circle cx="260" cy="120" r="2" fill="#fff3c4"/>
+  <circle cx="190" cy="150" r="2.5" fill="#fff3c4"/>
+  <circle cx="300" cy="50" r="2" fill="#fff3c4"/>
+  <!-- floor -->
+  <rect x="0" y="390" width="512" height="122" fill="#6b4a33"/>
+  <rect x="0" y="388" width="512" height="6" fill="#4a3322"/>
+  <rect x="90" y="400" width="300" height="60" rx="6" fill="#a33f4a"/>
+  <rect x="106" y="412" width="268" height="36" rx="4" fill="none" stroke="#e7b865" stroke-width="3"/>
+  <!-- bedside lamp glow -->
+  <circle cx="430" cy="200" r="170" fill="url(#lamp)"/>
+  <!-- nightstand + lamp -->
+  <rect x="418" y="300" width="80" height="90" fill="#7a4c30"/>
+  <rect x="418" y="296" width="80" height="8" fill="#5a3620"/>
+  <polygon points="428,296 488,296 470,262 446,262" fill="#f4d58d"/>
+  <rect x="455" y="262" width="6" height="34" fill="#5a3620"/>
+  <!-- bed frame and mattress -->
+  <rect x="40" y="290" width="440" height="50" rx="10" fill="#8a5a3c"/>
+  <rect x="40" y="235" width="34" height="115" rx="8" fill="#6b4226"/>
+  <!-- pillow under head -->
+  <ellipse cx="392" cy="268" rx="50" ry="22" fill="#ffffff" opacity="0.9"/>
+  <!-- blanket / pajama bottom -->
+  <rect x="150" y="306" width="250" height="34" rx="8" fill="#5fb3c9"/>
+  <circle cx="178" cy="322" r="4" fill="#ffe9a8"/>
+  <circle cx="210" cy="322" r="4" fill="#ffe9a8"/>
+  <circle cx="242" cy="322" r="4" fill="#ffe9a8"/>
+  <circle cx="274" cy="322" r="4" fill="#ffe9a8"/>
+  <circle cx="306" cy="322" r="4" fill="#ffe9a8"/>
+  <!-- mummy wrapped body -->
+  <rect x="120" y="262" width="250" height="46" rx="20" fill="#f1ead8"/>
+  <path d="M128 270 H360 M128 282 H360 M128 294 H360" stroke="#c9bfa5" stroke-width="3"/>
+  <path d="M170 262 V308 M210 262 V308 M250 262 V308 M290 262 V308 M330 262 V308" stroke="#c9bfa5" stroke-width="2" opacity="0.8"/>
+  <!-- pajama top with star print -->
+  <path d="M300 262 Q330 250 350 264 L346 300 Q322 306 300 300 Z" fill="#f29c4b"/>
+  <circle cx="318" cy="278" r="3" fill="#fff3c4"/>
+  <circle cx="334" cy="292" r="3" fill="#fff3c4"/>
+  <!-- head with bandage -->
+  <ellipse cx="380" cy="232" rx="48" ry="54" fill="#f1ead8"/>
+  <path d="M336 206 Q380 166 424 206 L424 224 Q380 208 336 224 Z" fill="#f1ead8"/>
+  <path d="M340 226 Q380 212 420 226" stroke="#c9bfa5" stroke-width="3" fill="none"/>
+  <path d="M338 214 Q380 200 422 214" stroke="#c9bfa5" stroke-width="2" fill="none"/>
+  <!-- sleepy closed eyes and snore mouth -->
+  <path d="M356 240 Q365 247 374 240" stroke="#3a2e22" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M388 240 Q397 247 406 240" stroke="#3a2e22" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <ellipse cx="381" cy="262" rx="5" ry="6" fill="#3a2e22"/>
+  <!-- rosy cheeks -->
+  <circle cx="358" cy="256" r="6" fill="#f2a6a0" opacity="0.6"/>
+  <circle cx="404" cy="256" r="6" fill="#f2a6a0" opacity="0.6"/>
+  <path d="M352 214 Q360 206 368 214" stroke="#c9bfa5" stroke-width="2" fill="none"/>
+  <!-- zzz drifting up -->
+  <text x="296" y="176" font-family="sans-serif" font-size="28" font-weight="bold" fill="#ffe9a8">Z</text>
+  <text x="318" y="150" font-family="sans-serif" font-size="22" font-weight="bold" fill="#ffe9a8">z</text>
+  <text x="336" y="128" font-family="sans-serif" font-size="16" font-weight="bold" fill="#ffe9a8">z</text>
+  <!-- slippers on floor -->
+  <ellipse cx="62" cy="394" rx="14" ry="6" fill="#e0607e"/>
+  <ellipse cx="88" cy="394" rx="14" ry="6" fill="#e0607e"/>
+  <ellipse cx="62" cy="391" rx="6" ry="3" fill="#ffb3c4"/>
+  <ellipse cx="88" cy="391" rx="6" ry="3" fill="#ffb3c4"/>
+  <!-- contact shadows -->
+  <ellipse cx="260" cy="412" rx="200" ry="8" fill="#3d2a1c" opacity="0.5"/>
+  <ellipse cx="458" cy="394" rx="44" ry="6" fill="#3d2a1c" opacity="0.5"/>
+</svg>
