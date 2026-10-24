@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- kitchen backdrop -->
+  <rect width="512" height="512" fill="#2b1d14"/>
+  <rect x="330" y="60" width="150" height="130" rx="14" fill="#1a120c"/>
+  <rect x="342" y="72" width="126" height="106" rx="8" fill="#ff9a3c" opacity="0.4"/>
+  <rect x="0" y="400" width="512" height="112" fill="#4a3322"/>
+  <rect x="0" y="392" width="512" height="10" fill="#6b4a30"/>
+  <!-- wooden sign -->
+  <rect x="34" y="420" width="130" height="44" rx="6" fill="#8a5a33"/>
+  <text x="99" y="450" font-family="Arial, sans-serif" font-weight="bold" font-size="22" fill="#fff3d6" text-anchor="middle">COOKIES</text>
+  <!-- warm glow and steam from the cookies -->
+  <ellipse cx="200" cy="260" rx="170" ry="150" fill="#ff9a3c" opacity="0.12"/>
+  <path d="M140 300 Q128 280 140 262 Q152 244 140 226" stroke="#fff3d6" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M266 300 Q254 280 266 262 Q278 244 266 226" stroke="#fff3d6" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- pumpkin baker (hero) -->
+  <ellipse cx="200" cy="230" rx="120" ry="108" fill="#f28c1e"/>
+  <path d="M200 122 Q172 180 200 338 Q228 180 200 122" fill="#d9701a" opacity="0.55"/>
+  <ellipse cx="128" cy="190" rx="16" ry="34" fill="#ffc46b" opacity="0.5"/>
+  <rect x="186" y="110" width="28" height="34" rx="6" fill="#4f7a2a"/>
+  <!-- chef hat -->
+  <rect x="128" y="50" width="144" height="56" rx="16" fill="#ffffff"/>
+  <ellipse cx="158" cy="58" rx="32" ry="24" fill="#ffffff"/>
+  <ellipse cx="242" cy="58" rx="32" ry="24" fill="#ffffff"/>
+  <!-- face: happy, focused -->
+  <path d="M150 215 Q162 202 174 215" stroke="#2b1d14" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M226 215 Q238 202 250 215" stroke="#2b1d14" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M160 258 Q200 292 240 258" stroke="#2b1d14" stroke-width="9" fill="none" stroke-linecap="round"/>
+  <circle cx="142" cy="250" r="13" fill="#ff6b4a" opacity="0.65"/>
+  <circle cx="258" cy="250" r="13" fill="#ff6b4a" opacity="0.65"/>
+  <!-- arms -->
+  <path d="M96 270 Q70 320 118 352" stroke="#e07a16" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <path d="M304 270 Q330 320 290 350" stroke="#e07a16" stroke-width="22" fill="none" stroke-linecap="round"/>
+  <!-- cookie tray (front) -->
+  <rect x="96" y="352" width="276" height="22" rx="7" fill="#9aa1aa"/>
+  <rect x="96" y="352" width="276" height="6" rx="3" fill="#c4cad1"/>
+  <circle cx="134" cy="342" r="24" fill="#c98a4b"/>
+  <circle cx="200" cy="342" r="24" fill="#c98a4b"/>
+  <circle cx="266" cy="342" r="24" fill="#c98a4b"/>
+  <circle cx="330" cy="342" r="24" fill="#c98a4b"/>
+  <circle cx="128" cy="336" r="3.5" fill="#4a2a14"/>
+  <circle cx="140" cy="348" r="3.5" fill="#4a2a14"/>
+  <circle cx="196" cy="336" r="3.5" fill="#4a2a14"/>
+  <circle cx="262" cy="346" r="3.5" fill="#4a2a14"/>
+  <circle cx="326" cy="336" r="3.5" fill="#4a2a14"/>
+  <ellipse cx="128" cy="332" rx="8" ry="4" fill="#e0a862" opacity="0.7"/>
+  <circle cx="110" cy="318" r="2.5" fill="#4a2a14"/>
+  <circle cx="176" cy="318" r="2.5" fill="#4a2a14"/>
+  <circle cx="300" cy="318" r="2.5" fill="#4a2a14"/>
+  <!-- oven mitt -->
+  <ellipse cx="392" cy="356" rx="30" ry="24" fill="#d6453d"/>
+</svg>
