@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#090d16"/>
+      <stop offset="100%" stop-color="#1e293b"/>
+    </linearGradient>
+    <linearGradient id="chair" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#dc2626"/>
+      <stop offset="100%" stop-color="#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#3d1502"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Wall & Floor -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <rect x="0" y="380" width="512" height="132" fill="#0b0f19"/>
+  <!-- Floor line with ambient shadow -->
+  <line x1="0" y1="380" x2="512" y2="380" stroke="#1e293b" stroke-width="6"/>
+
+  <!-- Moon outside window in background with soft glow -->
+  <circle cx="430" cy="80" r="48" fill="#fde047" opacity="0.9" filter="url(#glow)"/>
+  <circle cx="430" cy="80" r="35" fill="#fef08a" opacity="0.4"/>
+
+  <!-- Barber Pole detail on left wall -->
+  <g opacity="0.5">
+    <rect x="30" y="100" width="20" height="250" fill="#1e293b" rx="10"/>
+    <path d="M30 120 L50 140 L50 160 L30 140 Z" fill="#ef4444"/>
+    <path d="M30 160 L50 180 L50 200 L30 180 Z" fill="#3b82f6"/>
+    <path d="M30 200 L50 220 L50 240 L30 220 Z" fill="#ef4444"/>
+    <path d="M30 240 L50 260 L50 280 L30 260 Z" fill="#3b82f6"/>
+    <path d="M30 280 L50 300 L50 320 L30 300 Z" fill="#ef4444"/>
+    <path d="M30 320 L50 340 L50 350 L30 330 Z" fill="#3b82f6"/>
+  </g>
+
+  <!-- Large Salon Mirror -->
+  <ellipse cx="256" cy="220" rx="130" ry="160" fill="#0f172a" stroke="#475569" stroke-width="12"/>
+  <!-- Mirror Reflection Gradient -->
+  <ellipse cx="256" cy="220" rx="120" ry="150" fill="#38bdf8" opacity="0.25"/>
+  <!-- Mirror highlight arc -->
+  <path d="M150 160 Q256 105 362 160" stroke="#ffffff" stroke-width="5" fill="none" opacity="0.5"/>
+
+  <!-- Barber Chair Base & Seat -->
+  <rect x="216" y="300" width="80" height="90" rx="12" fill="url(#chair)"/>
+  <!-- Armrests -->
+  <path d="M196 320 Q216 320 216 350 L216 380 Q196 380 196 350 Z" fill="#991b1b"/>
+  <path d="M316 320 Q296 320 296 350 L296 380 Q316 380 316 350 Z" fill="#991b1b"/>
+  <!-- Hydraulic pole & base -->
+  <rect x="236" y="390" width="40" height="90" fill="#64748b"/>
+  <ellipse cx="256" cy="480" rx="74" ry="16" fill="#94a3b8"/>
+
+  <!-- Barber Cape / Sheet on Werewolf -->
+  <path d="M186 350 Q256 315 326 350 L368 438 Q256 468 144 438 Z" fill="#f8fafc" stroke="#cbd5e1" stroke-width="3"/>
+  <path d="M226 350 Q256 338 286 350 L276 385 Q256 390 236 385 Z" fill="#1e293b"/> <!-- Cape collar -->
+  <!-- Cape emblem / star -->
+  <circle cx="256" cy="410" r="14" fill="#38bdf8"/>
+  <path d="M256 400 L259 407 L266 407 L260 411 L262 418 L256 414 L250 418 L252 411 L246 407 L253 407 Z" fill="#f8fafc"/>
+
+  <!-- WEREWOLF BODY & HEAD -->
+  <circle cx="256" cy="180" r="75" fill="url(#fur)"/>
+  <!-- Pointy Werewolf Ears -->
+  <polygon points="190,140 156,65 212,118" fill="#3d1502"/>
+  <polygon points="195,135 166,75 207,112" fill="#78350f"/>
+  <polygon points="322,140 356,65 300,118" fill="#3d1502"/>
+  <polygon points="317,135 346,75 305,112" fill="#78350f"/>
+
+  <!-- Snout -->
+  <ellipse cx="256" cy="205" rx="36" ry="26" fill="#a8a29e"/>
+  <polygon points="242,192 270,192 256,215" fill="#0f172a"/>
+  <!-- Fangs & Grin -->
+  <path d="M240 220 Q256 235 272 220" stroke="#0f172a" stroke-width="4" fill="none"/>
+  <polygon points="244,220 250,235 254,220" fill="#ffffff"/>
+  <polygon points="268,220 262,235 258,220" fill="#ffffff"/>
+
+  <!-- Eyes & Fierce Brows -->
+  <polygon points="215,155 245,145 240,165" stroke="#f59e0b" stroke-width="2" fill="#fef08a"/>
+  <circle cx="230" cy="162" r="6" fill="#0f172a"/>
+  <polygon points="297,155 267,145 272,165" stroke="#f59e0b" stroke-width="2" fill="#fef08a"/>
+  <circle cx="282" cy="162" r="6" fill="#0f172a"/>
+  <path d="M210 142 Q230 130 250 148" stroke="#0f172a" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <path d="M302 142 Q282 130 262 148" stroke="#0f172a" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Wild hair tufts on head -->
+  <path d="M240 110 Q243 85 255 102" stroke="#78350f" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M260 108 Q268 80 275 102" stroke="#78350f" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M280 115 Q298 90 288 120" stroke="#78350f" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- HUMAN BARBER STANDING LEFT -->
+  <path d="M110 270 L145 390 L75 390 Z" fill="#2563eb"/>
+  <!-- Apron -->
+  <path d="M98 300 L132 390 L88 390 Z" fill="#f8fafc"/>
+  <circle cx="110" cy="225" r="32" fill="#fed7aa"/>
+  <!-- Hair -->
+  <path d="M85 220 Q110 195 135 220 L130 210 Q110 190 90 210 Z" fill="#0f172a"/>
+  <circle cx="120" cy="220" r="3" fill="#0f172a"/>
+  <!-- Smile -->
+  <path d="M115 238 Q122 245 128 238" stroke="#0f172a" stroke-width="2.5" fill="none"/>
+
+  <!-- Arm holding scissors -->
+  <path d="M125 240 Q150 210 185 225" stroke="#fed7aa" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <!-- Scissors (Shiny) -->
+  <g transform="translate(195, 220) rotate(-25)">
+    <line x1="-35" y1="0" x2="35" y2="0" stroke="#f1f5f9" stroke-width="6" stroke-linecap="round"/>
+    <line x1="-35" y1="0" x2="35" y2="15" stroke="#f1f5f9" stroke-width="6" stroke-linecap="round"/>
+    <circle cx="-40" cy="-3" r="10" fill="none" stroke="#94a3b8" stroke-width="4"/>
+    <circle cx="-40" cy="12" r="10" fill="none" stroke="#94a3b8" stroke-width="4"/>
+    <circle cx="0" cy="4" r="4" fill="#334155"/>
+  </g>
+
+  <!-- Falling fur tufts & sparkles -->
+  <path d="M210 135 Q190 120 180 140" stroke="#78350f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="185" cy="130" r="4" fill="#d97706"/>
+  <path d="M320 130 Q340 115 350 135" stroke="#78350f" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <circle cx="335" cy="122" r="4" fill="#d97706"/>
+  <path d="M265 95 Q280 65 275 85" stroke="#78350f" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- Sparkles -->
+  <path d="M175 190 L185 180 M185 190 L175 180" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+  <path d="M330 200 L342 192 M342 200 L330 192" stroke="#fde047" stroke-width="3" stroke-linecap="round"/>
+</svg>
