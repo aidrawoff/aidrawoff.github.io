@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Sky -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+  <!-- Ground -->
+  <ellipse cx="256" cy="440" rx="260" ry="60" fill="#6B8E23"/>
+  <ellipse cx="256" cy="445" rx="250" ry="50" fill="#556B2F"/>
+  
+  <!-- Bicycle shadow -->
+  <ellipse cx="256" cy="440" rx="120" ry="15" fill="#3A5A1B" opacity="0.5"/>
+  
+  <!-- Back wheel -->
+  <circle cx="170" cy="370" r="55" fill="none" stroke="#333" stroke-width="8"/>
+  <circle cx="170" cy="370" r="48" fill="none" stroke="#888" stroke-width="2"/>
+  <line x1="170" y1="315" x2="170" y2="425" stroke="#888" stroke-width="2"/>
+  <line x1="115" y1="370" x2="225" y2="370" stroke="#888" stroke-width="2"/>
+  <line x1="131" y1="331" x2="209" y2="409" stroke="#888" stroke-width="2"/>
+  <line x1="131" y1="409" x2="209" y2="331" stroke="#888" stroke-width="2"/>
+  
+  <!-- Front wheel -->
+  <circle cx="340" cy="370" r="55" fill="none" stroke="#333" stroke-width="8"/>
+  <circle cx="340" cy="370" r="48" fill="none" stroke="#888" stroke-width="2"/>
+  <line x1="340" y1="315" x2="340" y2="425" stroke="#888" stroke-width="2"/>
+  <line x1="285" y1="370" x2="395" y2="370" stroke="#888" stroke-width="2"/>
+  <line x1="301" y1="331" x2="379" y2="409" stroke="#888" stroke-width="2"/>
+  <line x1="301" y1="409" x2="379" y2="331" stroke="#888" stroke-width="2"/>
+  
+  <!-- Bike frame -->
+  <path d="M170 370 L230 280 L340 370" fill="none" stroke="#D32F2F" stroke-width="6" stroke-linejoin="round"/>
+  <line x1="230" y1="280" x2="290" y2="300" stroke="#D32F2F" stroke-width="6" stroke-linecap="round"/>
+  <line x1="290" y1="300" x2="340" y2="370" stroke="#D32F2F" stroke-width="6" stroke-linecap="round"/>
+  <line x1="230" y1="280" x2="250" y2="260" stroke="#D32F2F" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Handlebars -->
+  <path d="M290 300 L295 270 L310 265" fill="none" stroke="#555" stroke-width="5" stroke-linecap="round"/>
+  <path d="M290 300 L285 270 L270 265" fill="none" stroke="#555" stroke-width="5" stroke-linecap="round"/>
+  
+  <!-- Seat post & seat -->
+  <line x1="250" y1="260" x2="240" y2="245" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+  <ellipse cx="235" cy="242" rx="20" ry="8" fill="#333"/>
+  
+  <!-- Pedal crank -->
+  <circle cx="290" cy="300" r="8" fill="#666"/>
+  <line x1="290" y1="300" x2="275" y2="320" stroke="#555" stroke-width="4" stroke-linecap="round"/>
+  <rect x="268" y="316" width="14" height="6" rx="2" fill="#444"/>
+  
+  <!-- Turtle body -->
+  <ellipse cx="230" cy="220" rx="45" ry="30" fill="#2E7D32"/>
+  
+  <!-- Shell with texture pattern -->
+  <ellipse cx="230" cy="215" rx="42" ry="28" fill="#388E3C"/>
+  <path d="M195 200 Q210 190 230 195 Q250 190 265 200" fill="none" stroke="#2E7D32" stroke-width="3"/>
+  <path d="M195 215 Q210 205 230 210 Q250 205 265 215" fill="none" stroke="#2E7D32" stroke-width="3"/>
+  <path d="M195 230 Q210 220 230 225 Q250 220 265 230" fill="none" stroke="#2E7D32" stroke-width="3"/>
+  <line x1="210" y1="195" x2="205" y2="230" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="230" y1="193" x2="230" y2="228" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="250" y1="195" x2="255" y2="230" stroke="#2E7D32" stroke-width="2"/>
+  <line x1="220" y1="197" x2="215" y2="225" stroke="#1B5E20" stroke-width="1.5"/>
+  <line x1="240" y1="197" x2="245" y2="225" stroke="#1B5E20" stroke-width="1.5"/>
+  
+  <!-- Head -->
+  <ellipse cx="185" cy="210" rx="18" ry="15" fill="#4CAF50"/>
+  <ellipse cx="185" cy="210" rx="16" ry="13" fill="#66BB6A"/>
+  
+  <!-- Eyes -->
+  <circle cx="178" cy="206" r="4" fill="white"/>
+  <circle cx="178" cy="206" r="2.5" fill="black"/>
+  <circle cx="179" cy="205" r="1" fill="white"/>
+  <circle cx="192" cy="206" r="4" fill="white"/>
+  <circle cx="192" cy="206" r="2.5" fill="black"/>
+  <circle cx="193" cy="205" r="1" fill="white"/>
+  
+  <!-- Smile -->
+  <path d="M180 218 Q185 223 190 218" fill="none" stroke="#2E7D32" stroke-width="1.5"/>
+  
+  <!-- Front legs on handlebars -->
+  <path d="M200 230 Q210 250 270 268" fill="none" stroke="#4CAF50" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="272" cy="270" rx="6" ry="4" fill="#66BB6A"/>
+  
+  <!-- Back legs on pedals -->
+  <path d="M260 235 Q270 260 275 316" fill="none" stroke="#4CAF50" stroke-width="7" stroke-linecap="round"/>
+  <ellipse cx="275" cy="318" rx="7" ry="4" fill="#66BB6A"/>
+  
+  <!-- Tail -->
+  <path d="M272 220 Q285 215 280 225 Q285 230 272 228" fill="#4CAF50"/>
+  
+  <!-- Small scarf flowing back -->
+  <path d="M215 225 Q220 210 240 205 Q235 215 230 225" fill="#FF5722" opacity="0.8"/>
+  <path d="M220 220 Q230 200 255 195 Q245 210 235 222" fill="#FF7043" opacity="0.7"/>
+</svg>

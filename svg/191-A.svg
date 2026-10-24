@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Sky -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+  <!-- Sun -->
+  <circle cx="420" cy="80" r="45" fill="#FFD700"/>
+  <circle cx="420" cy="80" r="55" fill="#FFD700" opacity="0.25"/>
+  <!-- Distant wave -->
+  <path d="M0 280 Q 128 220 256 260 Q 384 300 512 240 L 512 512 L 0 512 Z" fill="#1E90FF"/>
+  <!-- Big wave back -->
+  <path d="M0 320 Q 128 200 256 280 Q 384 360 512 260 L 512 512 L 0 512 Z" fill="#00BFFF"/>
+  <!-- Big wave front -->
+  <path d="M0 360 Q 160 260 320 320 Q 420 360 512 300 L 512 512 L 0 512 Z" fill="#00BFFF"/>
+  <!-- Wave foam crest -->
+  <path d="M0 360 Q 160 260 320 320 Q 420 360 512 300" fill="none" stroke="white" stroke-width="14" stroke-linecap="round"/>
+  <!-- Wave foam dots -->
+  <circle cx="80" cy="335" r="4" fill="white" opacity="0.8"/>
+  <circle cx="160" cy="295" r="3" fill="white" opacity="0.7"/>
+  <circle cx="240" cy="275" r="4" fill="white" opacity="0.8"/>
+  <circle cx="400" cy="335" r="3" fill="white" opacity="0.7"/>
+  <circle cx="480" cy="315" r="4" fill="white" opacity="0.8"/>
+  <!-- Surfboard shadow -->
+  <ellipse cx="282" cy="308" rx="70" ry="14" fill="#000" opacity="0.2" transform="rotate(-15 282 308)"/>
+  <!-- Surfboard -->
+  <ellipse cx="280" cy="305" rx="70" ry="14" fill="#FF8C00" transform="rotate(-15 280 305)"/>
+  <ellipse cx="280" cy="305" rx="50" ry="8" fill="#FFA500" transform="rotate(-15 280 305)"/>
+  <!-- Surfboard stripe -->
+  <path d="M245 305 Q 280 300 315 305" fill="none" stroke="#FF4500" stroke-width="3" transform="rotate(-15 280 305)" stroke-linecap="round"/>
+  <!-- Penguin body -->
+  <ellipse cx="280" cy="245" rx="38" ry="52" fill="#111"/>
+  <!-- Penguin belly -->
+  <ellipse cx="280" cy="255" rx="24" ry="38" fill="white"/>
+  <!-- Penguin head -->
+  <circle cx="280" cy="195" r="28" fill="#111"/>
+  <!-- Beak -->
+  <polygon points="280,200 298,210 280,220" fill="#FF8C00"/>
+  <!-- Eye left -->
+  <circle cx="272" cy="188" r="5" fill="white"/>
+  <circle cx="270" cy="188" r="2" fill="black"/>
+  <!-- Eye right (wink!) -->
+  <path d="M282 186 Q 288 192 294 186" fill="none" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  <!-- Cheek blush -->
+  <circle cx="270" cy="205" r="5" fill="#FF69B4" opacity="0.4"/>
+  <!-- Flipper left (balance) -->
+  <ellipse cx="235" cy="240" rx="10" ry="28" fill="#111" transform="rotate(30 235 240)"/>
+  <!-- Flipper right (up!) -->
+  <ellipse cx="325" cy="220" rx="10" ry="28" fill="#111" transform="rotate(-50 325 220)"/>
+  <!-- Feet -->
+  <ellipse cx="265" cy="295" rx="12" ry="6" fill="#FF8C00"/>
+  <ellipse cx="295" cy="290" rx="12" ry="6" fill="#FF8C00"/>
+  <!-- Splash spray -->
+  <circle cx="340" cy="330" r="10" fill="white" opacity="0.9"/>
+  <circle cx="360" cy="340" r="6" fill="white" opacity="0.8"/>
+  <circle cx="350" cy="355" r="7" fill="white" opacity="0.7"/>
+  <circle cx="375" cy="335" r="5" fill="white" opacity="0.8"/>
+  <circle cx="330" cy="345" r="4" fill="white" opacity="0.6"/>
+  <circle cx="385" cy="350" r="4" fill="white" opacity="0.7"/>
+  <circle cx="345" cy="365" r="3" fill="white" opacity="0.6"/>
+  <!-- Motion lines -->
+  <path d="M180 220 Q 160 200 140 210" fill="none" stroke="white" stroke-width="2" opacity="0.5"/>
+  <path d="M190 200 Q 170 180 150 190" fill="none" stroke="white" stroke-width="2" opacity="0.4"/>
+</svg>

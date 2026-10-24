@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Sky -->
+  <rect width="512" height="512" fill="#87CEEB"/>
+  <!-- Ground -->
+  <rect y="380" width="512" height="132" fill="#4CAF50"/>
+  <!-- Sun -->
+  <circle cx="420" cy="80" r="40" fill="#FFD700"/>
+  <!-- Clouds -->
+  <ellipse cx="100" cy="70" rx="35" ry="18" fill="#fff" opacity="0.9"/>
+  <ellipse cx="130" cy="80" rx="25" ry="14" fill="#fff" opacity="0.9"/>
+  <ellipse cx="320" cy="60" rx="30" ry="15" fill="#fff" opacity="0.9"/>
+  <!-- Shadow -->
+  <ellipse cx="230" cy="390" rx="90" ry="10" fill="#2E7D32" opacity="0.4"/>
+  <!-- Bicycle frame -->
+  <path d="M180 340 L240 340 L210 280 L180 340" fill="none" stroke="#333" stroke-width="6"/>
+  <path d="M210 280 L280 340" fill="none" stroke="#333" stroke-width="6"/>
+  <path d="M280 340 L300 280" fill="none" stroke="#333" stroke-width="6"/>
+  <path d="M210 280 L200 250" fill="none" stroke="#333" stroke-width="5"/>
+  <!-- Handlebars -->
+  <path d="M190 250 L220 250" fill="none" stroke="#555" stroke-width="5" stroke-linecap="round"/>
+  <!-- Seat -->
+  <ellipse cx="195" cy="245" rx="18" ry="6" fill="#8B4513"/>
+  <!-- Wheels -->
+  <circle cx="180" cy="340" r="45" fill="none" stroke="#222" stroke-width="6"/>
+  <circle cx="280" cy="340" r="45" fill="none" stroke="#222" stroke-width="6"/>
+  <circle cx="180" cy="340" r="38" fill="none" stroke="#888" stroke-width="2"/>
+  <circle cx="280" cy="340" r="38" fill="none" stroke="#888" stroke-width="2"/>
+  <!-- Spokes -->
+  <line x1="180" y1="340" x2="180" y2="295" stroke="#888" stroke-width="2"/>
+  <line x1="180" y1="340" x2="180" y2="385" stroke="#888" stroke-width="2"/>
+  <line x1="180" y1="340" x2="135" y2="340" stroke="#888" stroke-width="2"/>
+  <line x1="180" y1="340" x2="225" y2="340" stroke="#888" stroke-width="2"/>
+  <line x1="280" y1="340" x2="280" y2="295" stroke="#888" stroke-width="2"/>
+  <line x1="280" y1="340" x2="280" y2="385" stroke="#888" stroke-width="2"/>
+  <line x1="280" y1="340" x2="235" y2="340" stroke="#888" stroke-width="2"/>
+  <line x1="280" y1="340" x2="325" y2="340" stroke="#888" stroke-width="2"/>
+  <!-- Pedals -->
+  <rect x="250" y="335" width="14" height="6" fill="#555" rx="2"/>
+  <!-- Turtle body -->
+  <ellipse cx="240" cy="255" rx="55" ry="40" fill="#228B22"/>
+  <!-- Shell hexagon pattern -->
+  <polygon points="240,235 255,245 255,260 240,270 225,260 225,245" fill="#006400" opacity="0.5"/>
+  <polygon points="240,210 250,217 250,230 240,237 230,230 230,217" fill="#004d00" opacity="0.4"/>
+  <polygon points="265,225 275,232 275,245 265,252 255,245 255,232" fill="#004d00" opacity="0.4"/>
+  <polygon points="215,225 225,232 225,245 215,252 205,245 205,232" fill="#004d00" opacity="0.4"/>
+  <polygon points="265,255 275,262 275,275 265,282 255,275 255,262" fill="#004d00" opacity="0.4"/>
+  <polygon points="215,255 225,262 225,275 215,282 205,275 205,262" fill="#004d00" opacity="0.4"/>
+  <!-- Head -->
+  <ellipse cx="295" cy="245" rx="22" ry="18" fill="#32CD32"/>
+  <!-- Helmet -->
+  <path d="M275 238 Q295 220 315 238" fill="none" stroke="#FF4500" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="295" cy="232" rx="16" ry="8" fill="#FF4500" opacity="0.9"/>
+  <!-- Eyes -->
+  <circle cx="302" cy="242" r="5" fill="#fff"/>
+  <circle cx="304" cy="242" r="2.5" fill="#000"/>
+  <circle cx="288" cy="242" r="4.5" fill="#fff"/>
+  <circle cx="290" cy="242" r="2" fill="#000"/>
+  <!-- Eyebrows (determined) -->
+  <path d="M298 235 Q304 233 310 236" fill="none" stroke="#006400" stroke-width="2" stroke-linecap="round"/>
+  <path d="M284 236 Q290 234 296 235" fill="none" stroke="#006400" stroke-width="2" stroke-linecap="round"/>
+  <!-- Big smile -->
+  <path d="M298 254 Q308 262 318 254" fill="none" stroke="#004d00" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Front leg on pedal -->
+  <ellipse cx="255" cy="315" rx="10" ry="18" fill="#32CD32"/>
+  <!-- Back leg -->
+  <ellipse cx="195" cy="310" rx="10" ry="16" fill="#32CD32" transform="rotate(-20 195 310)"/>
+  <!-- Tail -->
+  <path d="M185 255 Q170 260 175 270" fill="none" stroke="#228B22" stroke-width="5" stroke-linecap="round"/>
+  <!-- Arm reaching handlebars -->
+  <ellipse cx="225" cy="265" rx="8" ry="14" fill="#32CD32" transform="rotate(30 225 265)"/>
+  <!-- Speed lines -->
+  <line x1="120" y1="340" x2="60" y2="340" stroke="#fff" stroke-width="3" opacity="0.8"/>
+  <line x1="130" y1="320" x2="70" y2="320" stroke="#fff" stroke-width="2" opacity="0.7"/>
+  <line x1="110" y1="300" x2="60" y2="300" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  <line x1="350" y1="330" x2="400" y2="330" stroke="#fff" stroke-width="2" opacity="0.6"/>
+  <line x1="360" y1="310" x2="410" y2="310" stroke="#fff" stroke-width="2" opacity="0.5"/>
+  <!-- Wind on head -->
+  <path d="M325 240 Q345 232 338 245" fill="none" stroke="#fff" stroke-width="2.5" opacity="0.8"/>
+  <path d="M328 248 Q345 243 342 252" fill="none" stroke="#fff" stroke-width="2" opacity="0.7"/>
+</svg>

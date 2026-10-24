@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#141a2e"/>
+  <circle cx="400" cy="90" r="46" fill="#f2eecb" opacity="0.9"/>
+  <rect x="0" y="380" width="512" height="132" fill="#232c47"/>
+  <!-- foreground: checkered floor strip -->
+  <g opacity="0.5">
+    <rect x="0" y="430" width="64" height="40" fill="#2e3a5c"/><rect x="128" y="430" width="64" height="40" fill="#2e3a5c"/>
+    <rect x="256" y="430" width="64" height="40" fill="#2e3a5c"/><rect x="384" y="430" width="64" height="40" fill="#2e3a5c"/>
+  </g>
+  <ellipse cx="300" cy="382" rx="120" ry="14" fill="#0d1120"/>
+  <!-- ketchup bottle -->
+  <g>
+    <path d="M255 175 q25 -12 50 0 l-4 30 h-42 z" fill="#d8dde3"/>
+    <rect x="262" y="140" width="36" height="40" rx="6" fill="#c8342a"/>
+    <path d="M248 205 q-14 4 -14 26 v130 q0 24 26 24 h44 q26 0 26 -24 v-130 q0 -22 -14 -26 z" fill="#e23b2e"/>
+    <path d="M256 220 v120 q0 12 10 12" stroke="#ff7a63" stroke-width="7" fill="none" opacity="0.7"/>
+    <ellipse cx="280" cy="300" rx="34" ry="46" fill="#ffffff"/>
+    <text x="280" y="292" font-size="20" text-anchor="middle" fill="#c8342a" font-weight="bold">KETCHUP</text>
+    <path d="M262 318 q18 12 36 0" stroke="#c8342a" stroke-width="5" fill="none"/>
+  </g>
+  <!-- ketchup splat on ground -->
+  <g fill="#c8342a">
+    <circle cx="345" cy="378" r="7"/><circle cx="360" cy="373" r="4"/><circle cx="333" cy="371" r="3"/>
+  </g>
+  <!-- ghost: haunted-mansion sheet, surprised, arms up -->
+  <g opacity="0.95">
+    <path d="M96 322 q-14 -118 78 -124 q92 6 78 124 q6 34 -10 52 l-16 -20 l-16 22 l-18 -22 l-16 22 l-18 -22 l-16 20 q-16 -20 -14 -52 z" fill="#f4f7fa"/>
+    <path d="M96 322 q-14 -118 78 -124 q92 6 78 124 q6 34 -10 52 l-16 -20 l-16 22 l-18 -22 l-16 22 l-18 -22 l-16 20 q-16 -20 -14 -52 z" fill="none" stroke="#c3ccd6" stroke-width="2"/>
+    <!-- arm reaching for bottle -->
+    <path d="M238 250 q40 -12 52 8 q-16 12 -48 6 z" fill="#eaeff4"/>
+    <!-- folds -->
+    <path d="M120 210 q20 -22 50 -24 M150 300 q8 20 2 44 M200 200 q14 30 10 60" stroke="#cdd6df" stroke-width="4" fill="none" opacity="0.8"/>
+    <!-- face: shocked -->
+    <ellipse cx="152" cy="238" rx="12" ry="17" fill="#1b2338"/>
+    <ellipse cx="200" cy="238" rx="12" ry="17" fill="#1b2338"/>
+    <ellipse cx="176" cy="282" rx="9" ry="14" fill="#1b2338"/>
+    <circle cx="156" cy="232" r="3.5" fill="#ffffff"/>
+    <circle cx="204" cy="232" r="3.5" fill="#ffffff"/>
+    <!-- red splatter on shoulder -->
+    <g fill="#d9342a">
+      <circle cx="222" cy="212" r="6"/><circle cx="232" cy="203" r="3"/><circle cx="214" cy="200" r="2.5"/>
+    </g>
+  </g>
+  <!-- motion / surprise marks -->
+  <g stroke="#ffd76e" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M100 170 l-14 -18"/><path d="M175 150 l0 -22"/><path d="M250 168 l14 -18"/>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <!-- Ketchup bottle (center-right) -->
+  <path id="bottle" d="M384 192c0-32-24-56-56-56s-56 24-56 56v192c0 32 24 56 56 56s56-24 56-56V192z" fill="#c41e3a"/>
+  <path d="M328 192v192" stroke="#ffffff" stroke-width="16" stroke-linecap="round"/>
+  <circle cx="328" cy="128" r="24" fill="#ffffff"/>
+  <!-- Bottle cap highlight -->
+  <circle cx="328" cy="128" r="12" fill="#ff6b6b"/>
+<circle cx="328" cy="128" r="6" fill="#ffffff" opacity="0.7"/>
+  <!-- Bottle label -->
+  <rect x="296" y="144" width="64" height="48" rx="8" fill="#ffffff" opacity="0.1"/>
+  <!-- Ghost (center-left) -->
+  <path id="ghost" d="M192 256c0-48 32-96 96-96s96 48 96 96c0 16-8 32-24 48H224c-16 0-24-16-24-24 0-16 8-32 24-48zm0-64c-32 0-64 24-64 64s32 64 64 64 64-24 64-64-32-64-64-64z" fill="#f0f0f0"/>
+  <!-- Ghost eyes -->
+  <circle cx="192" cy="256" r="8" fill="#0a0a0a"/>
+<circle cx="192" cy="256" r="4" fill="#ffffff" opacity="0.6"/>
+  <circle cx="224" cy="256" r="8" fill="#0a0a0a"/>
+  <!-- Ghost mouth (subtle) -->
+  <path d="M200 280h24" stroke="#0a0a0a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Bottle glow -->
+  <ellipse cx="328" cy="128" rx="32" ry="16" fill="#ff6b6b" opacity="0.4"/>
+  <ellipse cx="328" cy="128" rx="20" ry="12" fill="#ffffff" opacity="0.2"/>
+  <!-- Ghost aura -->
+  <ellipse cx="192" cy="256" rx="48" ry="32" fill="#f0f0f0" opacity="0.3"/>
+  <ellipse cx="192" cy="256" rx="32" ry="24" fill="#ffffff" opacity="0.15"/>
+  <!-- Bottle base highlight -->
+  <path d="M296 384h64l-32-32z" fill="#ff6b6b"/>
+<path d="M312 368l-8-16h24l-8 16z" fill="#ffffff" opacity="0.8"/>
+  <!-- Ghost wispy edges -->
+  <path d="M160 256c0-32 24-64 64-64s64 32 64 64c0 16-8 32-24 48H200c-16 0-24-16-24-24 0-16 8-32 24-48z" fill="#f0f0f0" opacity="0.95"/>
+<path d="M144 256c0-24 16-48 48-48s48 24 48 48c0 12-6 24-18 32H182c-12 0-18-12-18-24 0-12 6-24 18-32z" fill="#f0f0f0" opacity="0.7"/>
+<path d="M240 256c0-24-16-48-48-48s-48 24-48 48c0 12 6 24 18 32h18c12 0 18-12 18-24 0-12-6-24-18-32z" fill="#f0f0f0" opacity="0.7"/>
+</svg>

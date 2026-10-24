@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0216"/>
+      <stop offset="50%" stop-color="#1f0535"/>
+      <stop offset="100%" stop-color="#3d1045"/>
+    </linearGradient>
+    
+    <!-- Neon Glow Filter -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Smoothie Glass Gradient -->
+    <linearGradient id="smoothieGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff2a6d" stop-opacity="0.85"/>
+      <stop offset="50%" stop-color="#ff6ec7" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#9900ff" stop-opacity="0.85"/>
+    </linearGradient>
+
+    <!-- Vampire Cape Gradient -->
+    <linearGradient id="capeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="50%" stop-color="#3b0007"/>
+      <stop offset="100%" stop-color="#0d0d0d"/>
+    </linearGradient>
+    
+    <!-- Skin Tone with Soft Volume -->
+    <radialGradient id="vampSkin" cx="45%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#f5f7fa"/>
+      <stop offset="65%" stop-color="#d4dcde"/>
+      <stop offset="100%" stop-color="#9fb0b8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Atmospheric Neon Arches & Back Wall Decals -->
+  <path d="M 120 0 Q 256 180 392 0" fill="none" stroke="#ff2a6d" stroke-width="2" opacity="0.2" filter="url(#neonGlow)"/>
+  <circle cx="256" cy="110" r="100" fill="#ff2a6d" opacity="0.12" filter="url(#neonGlow)"/>
+  <circle cx="256" cy="110" r="70" fill="#00ffcc" opacity="0.06" filter="url(#neonGlow)"/>
+
+  <!-- Menu Board on Wall -->
+  <rect x="290" y="50" width="186" height="160" rx="14" fill="#12041c" stroke="#ff2a6d" stroke-width="3" filter="url(#neonGlow)"/>
+  <!-- Menu Text & Neon Bullets -->
+  <text x="383" y="82" fill="#00ffcc" font-family="monospace" font-size="14" font-weight="bold" text-anchor="middle">FANG &amp; SMOOTHIE</text>
+  <line x1="310" y1="95" x2="456" y2="95" stroke="#ff2a6d" stroke-width="1.5"/>
+  <text x="315" y="122" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">1. Blood Berry</text>
+  <text x="315" y="148" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">2. Midnight Plum</text>
+  <text x="315" y="174" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">3. Crimson Colada</text>
+  <circle cx="430" cy="118" r="4" fill="#00ffcc" filter="url(#neonGlow)"/>
+  <circle cx="430" cy="144" r="4" fill="#ff2a6d" filter="url(#neonGlow)"/>
+  <circle cx="430" cy="170" r="4" fill="#00ffcc" filter="url(#neonGlow)"/>
+  <!-- Price Tag -->
+  <text x="383" y="198" fill="#ff2a6d" font-family="monospace" font-size="11" text-anchor="middle">HAPPY HOUR</text>
+
+  <!-- Counter Top with Deep Lighting -->
+  <rect x="0" y="380" width="512" height="132" fill="#12051c"/>
+  <rect x="0" y="370" width="512" height="14" fill="#290b3a" stroke="#ff2a6d" stroke-width="2" filter="url(#neonGlow)"/>
+  <rect x="0" y="384" width="512" height="6" fill="#08020d"/>
+
+  <!-- Vampire Character -->
+  <!-- Dramatic Tall Collar with Red Lining -->
+  <path d="M 110 400 L 135 270 L 185 315 L 225 270 L 250 400 Z" fill="url(#capeGrad)" stroke="#990022" stroke-width="3"/>
+  <polygon points="130,290 170,260 150,335" fill="#f0e6ef" opacity="0.95"/>
+  <polygon points="230,290 190,260 210,335" fill="#f0e6ef" opacity="0.95"/>
+
+  <!-- Vampire Head & Face -->
+  <ellipse cx="180" cy="235" rx="58" ry="68" fill="url(#vampSkin)" stroke="#68788c" stroke-width="2.5"/>
+
+  <!-- Slick Black Hair & Sharp Widow's Peak -->
+  <path d="M 122 205 Q 138 160 180 165 Q 222 160 238 205 Q 242 245 228 220 Q 180 185 132 220 Z" fill="#050505"/>
+  <path d="M 168 163 Q 180 190 192 163 Z" fill="#050505"/>
+  <!-- Subtle Ear -->
+  <circle cx="123" cy="235" r="8" fill="url(#vampSkin)" stroke="#68788c" stroke-width="1.5"/>
+
+  <!-- Expressive Asymmetric Eyebrows & Sleek Red Eyes -->
+  <path d="M 142 215 Q 158 202 174 218" stroke="#ff2a6d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <path d="M 186 218 Q 202 202 218 215" stroke="#ff2a6d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  
+  <ellipse cx="158" cy="230" rx="11" ry="8" fill="#ffffff" stroke="#330011" stroke-width="1"/>
+  <circle cx="160" cy="230" r="4.5" fill="#b3003b"/>
+  <circle cx="162" cy="228" r="1.8" fill="#ffffff"/>
+
+  <ellipse cx="202" cy="230" rx="11" ry="8" fill="#ffffff" stroke="#330011" stroke-width="1"/>
+  <circle cx="200" cy="230" r="4.5" fill="#b3003b"/>
+  <circle cx="202" cy="228" r="1.8" fill="#ffffff"/>
+
+  <!-- Refined Nose & Confident Smirk with Sharp Fangs -->
+  <path d="M 180 232 L 174 252 L 182 254" stroke="#7a8a9e" stroke-width="2.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M 152 278 Q 180 292 208 278" stroke="#1a000d" stroke-width="3.5" fill="none" stroke-linecap="round"/>
+  <!-- Fangs -->
+  <polygon points="160,281 165,298 170,281" fill="#ffffff" stroke="#ccccff" stroke-width="0.5"/>
+  <polygon points="190,281 195,298 200,281" fill="#ffffff" stroke="#ccccff" stroke-width="0.5"/>
+  <!-- Cheek Blush / Shadow -->
+  <ellipse cx="145" cy="250" rx="8" ry="5" fill="#ff2a6d" opacity="0.2"/>
+  <ellipse cx="215" cy="250" rx="8" ry="5" fill="#ff2a6d" opacity="0.2"/>
+
+  <!-- Hand on Counter, Holding Giant Smoothie -->
+  <path d="M 125 380 L 155 325 L 210 345 L 225 380 Z" fill="url(#capeGrad)"/>
+  <ellipse cx="228" cy="355" rx="16" ry="13" fill="url(#vampSkin)" stroke="#68788c" stroke-width="2"/>
+  <!-- Fingers curving around cup -->
+  <path d="M 215 350 Q 235 340 240 355" fill="none" stroke="#68788c" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Giant Glowing Smoothie Cup -->
+  <g transform="translate(225, 245)">
+    <!-- Cup Outer Glow & Shape -->
+    <path d="M 20 20 L 38 145 Q 52 155 66 145 L 84 20 Z" fill="url(#smoothieGrad)" stroke="#00ffcc" stroke-width="3.5" filter="url(#neonGlow)"/>
+    <!-- Liquid Level Inside with Highlight -->
+    <path d="M 25 35 L 40 135 Q 52 143 64 135 L 79 35 Z" fill="#ff0055" opacity="0.9"/>
+    <!-- Highlight Shimmer -->
+    <path d="M 32 45 L 40 125" stroke="#ffffff" stroke-width="3" opacity="0.4" stroke-linecap="round"/>
+    <!-- Whipped Cream / Foam Top -->
+    <ellipse cx="52" cy="25" rx="34" ry="11" fill="#ffffff" filter="url(#neonGlow)"/>
+    <ellipse cx="44" cy="22" rx="16" ry="7" fill="#ff6ec7"/>
+    <ellipse cx="60" cy="22" rx="16" ry="7" fill="#00ffcc" opacity="0.7"/>
+    <!-- Neon Straw -->
+    <line x1="58" y1="18" x2="80" y2="-30" stroke="#00ffcc" stroke-width="7" stroke-linecap="round" filter="url(#neonGlow)"/>
+    <line x1="58" y1="18" x2="80" y2="-30" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+    <!-- Little Bat Umbrella -->
+    <line x1="42" y1="22" x2="26" y2="-18" stroke="#ff2a6d" stroke-width="3.5" stroke-linecap="round"/>
+    <path d="M 10 -18 Q 26 -40 42 -18 Z" fill="#ff2a6d" filter="url(#neonGlow)"/>
+    <!-- Cherry on top -->
+    <circle cx="26" cy="-20" r="5" fill="#ff0033" filter="url(#neonGlow)"/>
+  </g>
+
+  <!-- Ambient Magic Sparkles & Floating Bubbles -->
+  <g fill="#00ffcc" filter="url(#neonGlow)">
+    <polygon points="85,110 88,118 96,121 88,124 85,132 82,124 74,121 82,118"/>
+    <polygon points="415,290 417,296 423,298 417,300 415,306 413,300 407,298 413,296"/>
+  </g>
+  <g fill="#ff2a6d" filter="url(#neonGlow)">
+    <polygon points="265,70 267,76 273,78 267,80 265,86 263,80 257,78 263,76"/>
+    <circle cx="105" cy="280" r="3" fill="#ff2a6d"/>
+    <circle cx="115" cy="265" r="2" fill="#00ffcc"/>
+    <circle cx="230" cy="220" r="2.5" fill="#ff2a6d"/>
+  </g>
+</svg>

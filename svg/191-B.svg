@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="waveGrad" x1="0" y1="384" x2="0" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#3e6b96"/>
+      <stop offset="1" stop-color="#0a2463"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#waveGrad)"/>
+  <!-- Wave base -->
+  <path d="M0 384c0 0 64-64 128-64s128 64 192 64 128-64 192-64v128H0z" fill="#3e6b96"/>
+  <!-- Wave curl highlight -->
+  <path d="M128 320c0 0 64-32 128-32s128 32 192 32v32H128z" fill="#a0d2eb" opacity="0.7"/>
+  <!-- Motion lines behind penguin -->
+  <path d="M208 288h24l-8 16-8-16h24l-8 16-8-16h24l-8 16-8-16h24l-8 16-8-16h8z" fill="#ffffff" opacity="0.6"/>
+  <!-- Penguin body (simplified silhouette) -->
+  <path d="M256 256c0 32-16 64-48 64s-48-32-48-64c0-32 16-64 48-64s48 32 48 64z" fill="#1a1a1a"/>
+  <!-- Penguin belly -->
+  <path d="M224 256c0 16-16 32-16 32s-16-16-16-32c0-16 16-32 16-32s16 16 16 32z" fill="#ffffff"/>
+  <!-- Penguin eye -->
+  <circle cx="240" cy="240" r="8" fill="#000000"/>
+  <!-- Penguin beak -->
+  <path d="M256 240l16 8-8-16-8 16z" fill="#ff8c00"/>
+  <!-- Surfboard (simple shape) -->
+  <path d="M208 288l96 0 0-8 0 8-96 0z" fill="#8b4513"/>
+  <!-- Surfboard top highlight -->
+  <path d="M216 288l80 0 0-4 0 4-80 0z" fill="#d2b48c" opacity="0.8"/>
+  <!-- Wave curl shadow -->
+  <path d="M160 352c0 0 32-16 64-16s64 16 96 16 64-16 96-16v16H160z" fill="#1a5fb4" opacity="0.5"/>
+  <!-- Splashes and spray -->
+  <circle cx="200" cy="304" r="4" fill="#a0d2eb" opacity="0.8"/>
+  <circle cx="224" cy="300" r="3" fill="#a0d2eb" opacity="0.8"/>
+  <circle cx="248" cy="296" r="4" fill="#a0d2eb" opacity="0.8"/>
+  <circle cx="272" cy="292" r="3" fill="#a0d2eb" opacity="0.8"/>
+  <path d="M208 304l4-8 4 8-4 8-4-8z" fill="#ffffff" opacity="0.7"/>
+  <!-- Penguin head highlight (wetness) -->
+  <circle cx="240" cy="232" r="6" fill="#a0d2eb" opacity="0.4"/>
+</svg>
