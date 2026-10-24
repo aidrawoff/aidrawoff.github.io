@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1464"/>
+      <stop offset=".55" stop-color="#4a3aa0"/>
+      <stop offset="1" stop-color="#e8a06a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#fff6c8" stop-opacity=".95"/>
+      <stop offset="1" stop-color="#fff6c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- sky / hills / soil bands -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="88" r="34" fill="#fdf3d0"/>
+  <path d="M0 300 Q120 258 250 292 T512 276 V512 H0 Z" fill="#2f6b46"/>
+  <path d="M0 344 Q160 312 320 340 T512 330 V512 H0 Z" fill="#3f8454"/>
+  <path d="M0 392 Q256 366 512 388 V512 H0 Z" fill="#5a3b28"/>
+  <g stroke="#3c2718" stroke-width="4" opacity=".7">
+    <path d="M-10 424 Q256 404 522 420" fill="none"/>
+    <path d="M-10 456 Q256 440 522 452" fill="none"/>
+    <path d="M-10 490 Q256 478 522 486" fill="none"/>
+  </g>
+
+  <!-- star sparkles -->
+  <g fill="#ffe9a8">
+    <circle cx="60" cy="60" r="2.5"/><circle cx="130" cy="40" r="1.8"/>
+    <circle cx="215" cy="95" r="2"/><circle cx="300" cy="45" r="2.4"/>
+    <circle cx="60" cy="170" r="1.6"/><circle cx="480" cy="150" r="2"/>
+    <path d="M95 120 l4 12 12 4 -12 4 -4 12 -4 -12 -12 -4 12 -4z"/>
+    <path d="M355 150 l3 9 9 3 -9 3 -3 9 -3 -9 -9 -3 9 -3z"/>
+  </g>
+
+  <!-- wheelbarrow -->
+  <g transform="translate(415 372)">
+    <path d="M-42 -14 L34 -14 L24 12 L-30 12 Z" fill="#8a5a34" stroke="#5a3a20" stroke-width="3"/>
+    <circle cx="-4" cy="20" r="11" fill="#2b2b38" stroke="#cfd6e6" stroke-width="3"/>
+    <path d="M34 -10 L58 8" stroke="#5a3a20" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-20 -16 q10 -14 22 -4 q8 8 -6 10z" fill="#4fae5f"/>
+  </g>
+
+  <!-- WIZARD -->
+  <ellipse cx="212" cy="418" rx="96" ry="14" fill="#000" opacity=".22"/>
+  <g stroke-linecap="round">
+    <!-- robe -->
+    <path d="M176 250 C150 300 142 360 138 410 L262 410 C258 356 250 300 232 250 Z" fill="#3b2a8f" stroke="#241766" stroke-width="4"/>
+    <path d="M150 380 Q200 396 254 380 L258 410 L142 410 Z" fill="#5b45c4"/>
+    <!-- boots -->
+    <path d="M168 404 q-14 12 4 14 h34 q10 -6 -4 -14z" fill="#241766"/>
+    <path d="M212 404 q-10 12 8 14 h30 q10 -6 -2 -14z" fill="#241766"/>
+    <!-- head bent forward-left -->
+    <circle cx="186" cy="232" r="26" fill="#f3c99a"/>
+    <path d="M162 236 q-6 30 12 44 q16 -18 12 -46z" fill="#e8e8f0"/>
+    <path d="M160 224 l52 -8 -6 -26 -40 6z" fill="#4536a8"/>
+    <!-- hat brim + cone tilted -->
+    <ellipse cx="186" cy="206" rx="46" ry="12" fill="#4536a8" stroke="#241766" stroke-width="3"/>
+    <path d="M152 204 Q176 150 214 118 Q222 160 222 202 Z" fill="#5b45c4" stroke="#241766" stroke-width="3"/>
+    <path d="M214 118 q16 -10 10 8" fill="none" stroke="#ffd76a" stroke-width="5"/>
+    <g fill="#ffe9a8"><circle cx="176" cy="176" r="3"/><circle cx="196" cy="152" r="2.5"/><circle cx="204" cy="186" r="2"/></g>
+    <!-- face -->
+    <circle cx="176" cy="232" r="3" fill="#241766"/>
+    <path d="M166 244 q10 6 18 0 q-4 12 -10 12z" fill="#c96a4a"/>
+    <!-- ARM raised high holding watering can (dynamic) -->
+    <path d="M226 262 Q268 224 286 176" fill="none" stroke="#3b2a8f" stroke-width="20"/>
+    <path d="M226 262 Q268 224 286 176" fill="none" stroke="#5b45c4" stroke-width="12"/>
+    <circle cx="290" cy="168" r="10" fill="#f3c99a"/>
+    <g transform="translate(296 150) rotate(-18)">
+      <path d="M-18 -12 h34 v26 h-34z" fill="#7fd6e8" stroke="#3a8fa8" stroke-width="3"/>
+      <path d="M14 -6 L38 -20 L42 -12 L18 2z" fill="#7fd6e8" stroke="#3a8fa8" stroke-width="3"/>
+      <path d="M-16 -12 q10 -16 22 -2" fill="none" stroke="#3a8fa8" stroke-width="4"/>
+    </g>
+    <!-- other arm reaching down to a sprout -->
+    <path d="M182 276 Q150 320 128 356" fill="none" stroke="#3b2a8f" stroke-width="18"/>
+    <path d="M182 276 Q150 320 128 356" fill="none" stroke="#5b45c4" stroke-width="10"/>
+    <circle cx="124" cy="362" r="9" fill="#f3c99a"/>
+    <!-- staff leaning -->
+    <path d="M254 408 L286 250" fill="none" stroke="#7a5a34" stroke-width="7"/>
+    <circle cx="288" cy="242" r="11" fill="#a9f0ff" stroke="#3a8fa8" stroke-width="3"/>
+  </g>
+
+  <!-- magic water arc + glow onto garden -->
+  <circle cx="150" cy="330" r="110" fill="url(#glow)" opacity=".55"/>
+  <g fill="none" stroke="#a9f0ff" stroke-width="4" stroke-linecap="round" opacity=".9">
+    <path d="M330 132 Q250 210 150 300"/>
+    <path d="M338 146 Q262 232 176 318"/>
+  </g>
+  <g fill="#cdf6ff">
+    <circle cx="300" cy="176" r="4"/><circle cx="262" cy="216" r="5"/>
+    <circle cx="222" cy="256" r="4"/><circle cx="188" cy="292" r="5"/>
+    <circle cx="160" cy="318" r="4"/>
+  </g>
+
+  <!-- plants being watered: sprouts + carrots -->
+  <g stroke="#2c7a3f" stroke-width="4" fill="none" stroke-linecap="round">
+    <path d="M118 396 v-26 M118 380 q-14 -8 -16 -22 M118 380 q14 -8 16 -22"/>
+    <path d="M60 428 v-30 M60 410 q-16 -8 -18 -26 M60 410 q16 -8 18 -26"/>
+    <path d="M330 430 v-28 M330 414 q-14 -8 -16 -24 M330 414 q14 -8 16 -24"/>
+    <path d="M392 462 v-30 M392 444 q-16 -8 -18 -26 M392 444 q16 -8 18 -26"/>
+    <path d="M250 470 v-32 M250 452 q-16 -8 -18 -28 M250 452 q16 -8 18 -28"/>
+    <path d="M150 486 v-30 M150 468 q-16 -8 -18 -26 M150 468 q16 -8 18 -26"/>
+  </g>
+  <g fill="#f08a3c" stroke="#c25f18" stroke-width="3">
+    <path d="M84 452 l10 34 10 -34z"/>
+    <path d="M204 476 l10 32 10 -32z"/>
+    <path d="M300 470 l9 30 9 -30z"/>
+  </g>
+  <g fill="#ff5b6e">
+    <circle cx="360" cy="474" r="9"/><circle cx="120" cy="440" r="8"/><circle cx="430" cy="452" r="8"/>
+  </g>
+  <!-- butterflies / motes -->
+  <g fill="#ffd76a">
+    <path d="M96 300 q-14 -14 -18 2 q14 6 18 -2z"/><path d="M96 300 q14 -14 18 2 q-14 6 -18 -2z"/>
+    <path d="M344 336 q-12 -12 -16 2 q12 6 16 -2z"/><path d="M344 336 q12 -12 16 2 q-12 6 -16 -2z"/>
+  </g>
+  <g fill="#ffffff" opacity=".8">
+    <circle cx="140" cy="350" r="3"/><circle cx="196" cy="330" r="2.5"/>
+    <circle cx="252" cy="300" r="2.5"/><circle cx="112" cy="286" r="2"/>
+  </g>
+</svg>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a1a2a" />
+  <!-- Octopus body -->
+  <circle cx="256" cy="256" r="80" fill="#4a6fa5" />
+  <!-- Arms (curved, dynamic) -->
+  <path d="M256,176 Q100,100 70,180 Q50,260 120,300 Q190,340 256,296" stroke="#6ba3d6" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M256,176 Q412,100 442,180 Q462,260 392,300 Q322,340 256,296" stroke="#6ba3d6" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M256,176 Q330,70 370,110 Q410,150 370,230 Q330,290 256,296" stroke="#6ba3d6" stroke-width="14" fill="none" stroke-linecap="round" />
+  <path d="M256,176 Q182,70 142,110 Q102,150 142,230 Q182,290 256,296" stroke="#6ba3d6" stroke-width="14" fill="none" stroke-linecap="round" />
+  <!-- Eggs (smooth, slightly shaded) -->
+  <circle cx="180" cy="200" r="14" fill="#f0f0f0" />
+  <circle cx="280" cy="180" r="14" fill="#f0f0f0" />
+  <circle cx="320" cy="220" r="14" fill="#f0f0f0" />
+</svg>

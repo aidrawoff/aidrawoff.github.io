@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffd27a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="egg" cx="35%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e8d6b0"/>
+    </radialGradient>
+    <radialGradient id="octo" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#d089e6"/>
+      <stop offset="100%" stop-color="#8e4aa8"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#2b1d33"/>
+  <circle cx="256" cy="200" r="230" fill="url(#glow)"/>
+  <!-- shelf and counter -->
+  <rect x="0" y="120" width="512" height="10" fill="#4a3228"/>
+  <rect x="40" y="60" width="60" height="60" fill="#3d2b40" stroke="#5a4060" stroke-width="4"/>
+  <rect x="410" y="70" width="60" height="50" fill="#3d2b40" stroke="#5a4060" stroke-width="4"/>
+  <rect x="0" y="430" width="512" height="82" fill="#5a3b2e"/>
+  <rect x="0" y="425" width="512" height="10" fill="#7a5241"/>
+  <!-- motion arcs for eggs -->
+  <path d="M150 150 Q140 60 215 55" stroke="#ffd27a" stroke-width="3" fill="none" stroke-dasharray="6 8" opacity="0.7"/>
+  <path d="M362 150 Q372 60 297 55" stroke="#ffd27a" stroke-width="3" fill="none" stroke-dasharray="6 8" opacity="0.7"/>
+  <!-- back arms curled on counter -->
+  <path d="M220 330 Q185 300 160 330 Q145 350 170 365" stroke="#8e4aa8" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M292 330 Q327 300 352 330 Q367 350 342 365" stroke="#8e4aa8" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <!-- tentacles -->
+  <path d="M200 300 Q170 360 190 420" stroke="url(#octo)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M225 315 Q215 375 235 425" stroke="url(#octo)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M290 315 Q300 375 280 425" stroke="url(#octo)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <path d="M312 300 Q345 360 322 420" stroke="url(#octo)" stroke-width="16" fill="none" stroke-linecap="round"/>
+  <!-- raised arms juggling -->
+  <path d="M205 280 Q150 220 130 150" stroke="url(#octo)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M307 280 Q362 220 382 150" stroke="url(#octo)" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <!-- head -->
+  <ellipse cx="256" cy="230" rx="78" ry="90" fill="url(#octo)"/>
+  <circle cx="225" cy="270" r="6" fill="#c07ad8" opacity="0.7"/>
+  <circle cx="290" cy="275" r="5" fill="#c07ad8" opacity="0.7"/>
+  <!-- eyes -->
+  <circle cx="232" cy="222" r="12" fill="#fff"/>
+  <circle cx="280" cy="222" r="12" fill="#fff"/>
+  <circle cx="235" cy="224" r="5" fill="#2b1d33"/>
+  <circle cx="283" cy="224" r="5" fill="#2b1d33"/>
+  <!-- eggs in the air -->
+  <ellipse cx="256" cy="90" rx="18" ry="23" fill="url(#egg)"/>
+  <ellipse cx="170" cy="110" rx="18" ry="23" fill="url(#egg)"/>
+  <ellipse cx="342" cy="110" rx="18" ry="23" fill="url(#egg)"/>
+  <ellipse cx="250" cy="82" rx="4" ry="6" fill="#fff" opacity="0.8"/>
+  <ellipse cx="164" cy="102" rx="4" ry="6" fill="#fff" opacity="0.8"/>
+  <ellipse cx="336" cy="102" rx="4" ry="6" fill="#fff" opacity="0.8"/>
+  <!-- sparkles -->
+  <path d="M100 200 l6 -14 l6 14 l14 6 l-14 6 l-6 14 l-6 -14 l-14 -6 z" fill="#ffd27a" opacity="0.8"/>
+  <path d="M410 230 l4 -9 l4 9 l9 4 l-9 4 l-4 9 l-4 -9 l-9 -4 z" fill="#ffd27a" opacity="0.8"/>
+  <circle cx="236" cy="216" r="2.5" fill="#fff"/>
+  <circle cx="284" cy="216" r="2.5" fill="#fff"/>
+  <!-- sucker dots on raised arms -->
+  <circle cx="150" cy="185" r="3" fill="#d089e6" opacity="0.8"/>
+  <circle cx="160" cy="205" r="3" fill="#d089e6" opacity="0.8"/>
+  <circle cx="362" cy="185" r="3" fill="#d089e6" opacity="0.8"/>
+  <circle cx="352" cy="205" r="3" fill="#d089e6" opacity="0.8"/>
+  <!-- shadows -->
+  <ellipse cx="256" cy="440" rx="110" ry="8" fill="#3a271e" opacity="0.6"/>
+  <ellipse cx="200" cy="432" rx="40" ry="5" fill="#3a271e" opacity="0.5"/>
+</svg>
