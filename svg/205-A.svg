@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#2a0a2a"/>
+  <!-- Mummy 1 (left, pillow-fighting stance) -->
+  <path d="M160 320c-16-24-16-64 0-88 16-24 48-24 64 0 16 24 16 64 0 88-16 24-48 24-64 0z" fill="#c8c8c8" stroke="#a0a0a0" stroke-width="4"/>
+  <path d="M140 280h40" stroke="#a0a0a0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M140 360h40" stroke="#a0a0a0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M120 320v80" stroke="#a0a0a0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M170 260l-20-20h20l20 20z" stroke="#a0a0a0" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Mummy 2 (right, pillow-fighting stance) -->
+  <path d="M352 320c16-24 16-64 0-88-16-24-48-24-64 0-16 24-16 64 0 88 16 24 48 24 64 0z" fill="#c8c8c8" stroke="#a0a0a0" stroke-width="4"/>
+  <path d="M332 280h40" stroke="#a0a0a0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M332 360h40" stroke="#a0a0a0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M372 320v80" stroke="#a0a0a0" stroke-width="8" stroke-linecap="round"/>
+  <path d="M342 260l20-20h-20l-20 20z" stroke="#a0a0a0" stroke-width="6" stroke-linecap="round" fill="none"/>
+  <!-- Pillow (center, dynamic) -->
+  <ellipse cx="256" cy="256" rx="90" ry="70" fill="#f0f0f0" stroke="#d0d0d0" stroke-width="4" transform="rotate(-15 256 256)"/>
+  <path d="M220 240h72" stroke="#b0b0b0" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M220 260h72" stroke="#b0b0b0" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M220 280h72" stroke="#b0b0b0" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <!-- Cup mid-sip -->
+  <path d="M256 380c0-24 20-44 44-44h12c24 0 44 20 44 44v40c0 24-20 44-44 44h-12c-24 0-44-20-44-44v-40z" fill="#ff69b4"/>
+  <circle cx="256" cy="360" r="16" fill="#ff1493"/>
+  <!-- Steam rising (warmer, more volume) -->
+  <path d="M260 320v-48" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.8"/>
+  <path d="M270 310v-40" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M240 310v-40" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <path d="M280 300v-32" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M220 300v-32" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <!-- Depth: darker foreground band -->
+  <rect x="0" y="420" width="512" height="92" fill="#1a061a"/>
+  <!-- Pillow creases -->
+  <path d="M200 220h32" stroke="#c0c0c0" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <path d="M312 240h28" stroke="#c0c0c0" stroke-width="4" stroke-linecap="round" opacity="0.7"/>
+  <!-- Cup rim highlight -->
+  <path d="M212 380c0-20 16-36 36-36s36 16 36 36v20c0 20-16 36-36 36s-36-16-36-36v-20z" fill="none" stroke="#ffb6c1" stroke-width="3" stroke-opacity="0.6"/>
+  <!-- Mummy 1 bandages (subtle texture) -->
+  <path d="M160 320c-8-12-8-32 0-44 8-12 24-12 32 0 8 12 8 32 0 44-8 12-24 12-32 0z" fill="#b8b8b8" opacity="0.3"/>
+  <path d="M160 280c-6-10-6-26 0-36 6-10 18-10 24 0 6 10 6 26 0 36-6 10-18 10-24 0z" fill="#b8b8b8" opacity="0.3"/>
+  <!-- Mummy 2 bandages (subtle texture) -->
+  <path d="M352 320c8-12 8-32 0-44-8-12-24-12-32 0 8 12 8 32 0 44 8 12 24 12 32 0z" fill="#b8b8b8" opacity="0.3"/>
+  <path d="M352 280c6-10 6-26 0-36-6-10-18-10-24 0 6 10 6 26 0 36 6 10 18 10 24 0z" fill="#b8b8b8" opacity="0.3"/>
+</svg>

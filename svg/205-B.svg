@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b1a3f"/>
+      <stop offset="1" stop-color="#5a3a2a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.45" r="0.6">
+      <stop offset="0" stop-color="#ffd98a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd98a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <rect x="0" y="360" width="512" height="152" fill="#3a2418"/>
+  <ellipse cx="256" cy="240" rx="230" ry="200" fill="url(#glow)"/>
+  <!-- bed -->
+  <rect x="120" y="330" width="272" height="80" rx="10" fill="#7a4a22"/>
+  <rect x="100" y="300" width="312" height="46" rx="14" fill="#c9852f"/>
+  <rect x="130" y="344" width="252" height="34" rx="12" fill="#e8d9b0"/>
+  <!-- left mummy -->
+  <g transform="rotate(-14 170 230)">
+    <ellipse cx="170" cy="230" rx="52" ry="62" fill="#efe3bd"/>
+    <path d="M120 205 Q170 185 220 208" stroke="#cdbf92" stroke-width="7" fill="none"/>
+    <path d="M118 235 Q170 215 222 238" stroke="#cdbf92" stroke-width="7" fill="none"/>
+    <path d="M120 262 Q170 245 220 265" stroke="#cdbf92" stroke-width="7" fill="none"/>
+    <circle cx="152" cy="212" r="7" fill="#1a1a1a"/>
+    <circle cx="188" cy="212" r="7" fill="#1a1a1a"/>
+    <path d="M146 232 q10 8 20 0" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- right mummy -->
+  <g transform="rotate(16 342 226)">
+    <ellipse cx="342" cy="226" rx="52" ry="62" fill="#f6ecd0"/>
+    <path d="M292 202 Q342 182 392 205" stroke="#d3c496" stroke-width="7" fill="none"/>
+    <path d="M290 232 Q342 212 394 235" stroke="#d3c496" stroke-width="7" fill="none"/>
+    <path d="M292 259 Q342 242 392 262" stroke="#d3c496" stroke-width="7" fill="none"/>
+    <circle cx="324" cy="208" r="7" fill="#1a1a1a"/>
+    <circle cx="360" cy="208" r="7" fill="#1a1a1a"/>
+    <path d="M346 230 q-12 8 -22 -2" stroke="#1a1a1a" stroke-width="4" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- hanging oil lamp (light source) -->
+  <line x1="70" y1="0" x2="70" y2="70" stroke="#8a6a3a" stroke-width="3"/>
+  <path d="M50 70 h40 l-8 22 h-24 z" fill="#b98a3a"/>
+  <ellipse cx="70" cy="66" rx="14" ry="7" fill="#ffcf5a"/>
+  <!-- left mummy body + arms -->
+  <g transform="rotate(-14 170 230)">
+    <path d="M132 270 q-18 46 6 76" stroke="#efe3bd" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <path d="M205 262 q22 40 6 74" stroke="#efe3bd" stroke-width="24" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M196 246 Q232 214 252 186" stroke="#efe3bd" stroke-width="21" fill="none" stroke-linecap="round"/>
+  <path d="M148 262 Q126 232 132 200" stroke="#efe3bd" stroke-width="19" fill="none" stroke-linecap="round"/>
+  <!-- right mummy body + arms -->
+  <g transform="rotate(16 342 226)">
+    <path d="M380 266 q20 46 -4 78" stroke="#f6ecd0" stroke-width="26" fill="none" stroke-linecap="round"/>
+    <path d="M308 268 q-20 44 -4 76" stroke="#f6ecd0" stroke-width="24" fill="none" stroke-linecap="round"/>
+  </g>
+  <path d="M316 242 Q282 210 264 184" stroke="#f6ecd0" stroke-width="21" fill="none" stroke-linecap="round"/>
+  <path d="M366 258 Q392 230 386 198" stroke="#f6ecd0" stroke-width="19" fill="none" stroke-linecap="round"/>
+  <!-- bandage flutter tails -->
+  <path d="M120 268 q-30 12 -40 34" stroke="#efe3bd" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M392 264 q30 12 40 34" stroke="#f6ecd0" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- pillows (struck together at centre) -->
+  <g transform="rotate(-32 236 168)">
+    <rect x="192" y="136" width="88" height="62" rx="20" fill="#fffbe8" stroke="#cbb87a" stroke-width="5"/>
+    <path d="M204 150 q34 -10 66 4" stroke="#e6d9ae" stroke-width="4" fill="none"/>
+  </g>
+  <g transform="rotate(30 286 176)">
+    <rect x="244" y="144" width="88" height="62" rx="20" fill="#ffeef2" stroke="#d9a2ae" stroke-width="5"/>
+    <path d="M256 196 q34 10 66 -4" stroke="#f3ccd6" stroke-width="4" fill="none"/>
+  </g>
+  <!-- impact burst -->
+  <g stroke="#fff6c8" stroke-width="5" stroke-linecap="round">
+    <line x1="256" y1="120" x2="256" y2="100"/>
+    <line x1="228" y1="126" x2="212" y2="110"/>
+    <line x1="284" y1="126" x2="300" y2="110"/>
+  </g>
+  <!-- wall context: painted tomb stripes + hieroglyph-ish marks -->
+  <g opacity="0.5">
+    <rect x="0" y="368" width="512" height="10" fill="#c9a24a"/>
+    <rect x="0" y="386" width="512" height="6" fill="#8a6a3a"/>
+  </g>
+  <g fill="#e0b455" opacity="0.75">
+    <circle cx="452" cy="120" r="14"/>
+    <path d="M440 150 h24 v6 h-24z M446 162 h12 v18 h-12z"/>
+    <path d="M436 196 q16 -14 32 0 q-16 12 -32 0z"/>
+    <rect x="444" y="216" width="16" height="26" rx="4"/>
+    <path d="M28 250 h20 v6 h-20z M34 262 h8 v16 h-8z"/>
+  </g>
+  <!-- feathers -->
+  <g fill="#ffffff">
+    <ellipse cx="256" cy="110" rx="12" ry="6" transform="rotate(-20 256 110)"/>
+    <ellipse cx="200" cy="120" rx="10" ry="5" transform="rotate(30 200 120)"/>
+    <ellipse cx="312" cy="118" rx="10" ry="5" transform="rotate(-45 312 118)"/>
+    <ellipse cx="270" cy="80" rx="9" ry="4"/>
+    <ellipse cx="160" cy="150" rx="9" ry="4" transform="rotate(15 160 150)"/>
+    <ellipse cx="360" cy="146" rx="9" ry="4" transform="rotate(-15 360 146)"/>
+  </g>
+</svg>

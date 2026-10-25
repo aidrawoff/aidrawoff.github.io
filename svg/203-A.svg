@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#090514"/>
+      <stop offset="40%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <!-- Ghost Gradient -->
+    <linearGradient id="ghostGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.98"/>
+      <stop offset="60%" stop-color="#e2e8f0" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0.5"/>
+    </linearGradient>
+    <!-- Neon Pink/Gold Sunglasses Frame -->
+    <linearGradient id="frameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ec4899"/>
+      <stop offset="50%" stop-color="#f43f5e"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+    <!-- Dark Lenses with Cyberpunk Gradient -->
+    <linearGradient id="lensGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#312e81"/>
+    </linearGradient>
+    <linearGradient id="lensShine" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9"/>
+      <stop offset="40%" stop-color="#ec4899" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <!-- Moon Gradient -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fed7aa" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#fb923c" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#c2410c" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Glow Filters -->
+    <filter id="neonGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  
+  <!-- Glowing Moon -->
+  <circle cx="380" cy="130" r="90" fill="url(#moonGlow)" opacity="0.5"/>
+  <circle cx="380" cy="130" r="45" fill="#ffedd5" opacity="0.9" filter="url(#softGlow)"/>
+
+  <!-- Stars & Sparkles -->
+  <g fill="#ffffff" opacity="0.8">
+    <circle cx="90" cy="100" r="2.5"/>
+    <circle cx="180" cy="70" r="1.5"/>
+    <circle cx="450" cy="280" r="2"/>
+    <circle cx="70" cy="260" r="1.5"/>
+    <polygon points="230,90 233,98 241,101 233,104 230,112 227,104 219,101 227,98" fill="#ec4899" opacity="0.7"/>
+    <polygon points="120,200 122,205 127,207 122,209 120,214 118,209 113,207 118,205" fill="#fbbf24" opacity="0.9"/>
+  </g>
+
+  <!-- Rolling Hills (Atmospheric Depth with Multi-Stop Gradients) -->
+  <path d="M 0 410 Q 140 350 280 390 T 512 370 L 512 512 L 0 512 Z" fill="#1e1b4b" opacity="0.9"/>
+  <path d="M 0 450 Q 180 400 360 430 T 512 420 L 512 512 L 0 512 Z" fill="#0f0514"/>
+
+  <!-- Ghost Character Group (Dynamic tilt & posture) -->
+  <g transform="translate(256, 220) rotate(-10)">
+    <!-- Aura / Shadow -->
+    <ellipse cx="0" cy="160" rx="65" ry="16" fill="#000000" opacity="0.5" filter="url(#neonGlow)"/>
+
+    <!-- Ghost Body -->
+    <path d="M -75 -15 
+             C -75 -115, 75 -115, 75 -15 
+             C 90 25, 75 85, 55 140 
+             C 40 160, 32 180, 22 160
+             C 12 140, 2 165, -8 160
+             C -18 155, -28 140, -38 160
+             C -48 180, -56 160, -70 140 
+             C -90 85, -90 25, -75 -15 Z" 
+          fill="url(#ghostGrad)" stroke="#ffffff" stroke-width="2.5" filter="url(#neonGlow)"/>
+
+    <!-- Confident Smirking Mouth -->
+    <path d="M -18 45 Q 2 60 25 42" fill="none" stroke="#1e1b4b" stroke-width="4.5" stroke-linecap="round"/>
+    <circle cx="28" cy="40" r="3" fill="#ec4899" opacity="0.8"/>
+
+    <!-- Retro Round Sunglasses (Polished Vector Lighting & Specular Highlights) -->
+    <g transform="translate(0, -15)">
+      <!-- Left Lens Frame & Shadow -->
+      <circle cx="-34" cy="-2" r="30" fill="url(#lensGrad)" stroke="url(#frameGrad)" stroke-width="5" filter="url(#softGlow)"/>
+      <circle cx="-34" cy="-2" r="26" fill="url(#lensGrad)"/>
+      <ellipse cx="-42" cy="-10" rx="12" ry="7" transform="rotate(-30 -42 -10)" fill="url(#lensShine)"/>
+
+      <!-- Right Lens Frame & Shadow -->
+      <circle cx="34" cy="-2" r="30" fill="url(#lensGrad)" stroke="url(#frameGrad)" stroke-width="5" filter="url(#softGlow)"/>
+      <circle cx="34" cy="-2" r="26" fill="url(#lensGrad)"/>
+      <ellipse cx="26" cy="-10" rx="12" ry="7" transform="rotate(-30 26 -10)" fill="url(#lensShine)"/>
+
+      <!-- Bridge & Studs -->
+      <rect x="-10" y="-8" width="20" height="7" rx="3.5" fill="url(#frameGrad)"/>
+      <circle cx="-64" cy="-2" r="3" fill="#fbbf24"/>
+      <circle cx="64" cy="-2" r="3" fill="#fbbf24"/>
+    </g>
+
+    <!-- Floating Neon Note / Sparkle -->
+    <g transform="translate(85, -70)">
+      <path d="M 0 0 L 10 -5 L 10 15 L 0 20 Z" fill="#ec4899" opacity="0.9"/>
+      <circle cx="5" cy="18" r="5" fill="#ec4899"/>
+      <circle cx="15" cy="13" r="5" fill="#ec4899"/>
+    </g>
+    
+    <!-- Extra Little Floating Music Note / Star -->
+    <g transform="translate(-95, -20) scale(0.8)">
+      <path d="M 0 0 L 8 -3 L 8 12 L 0 15 Z" fill="#38bdf8" opacity="0.9"/>
+      <circle cx="4" cy="13" r="4" fill="#38bdf8"/>
+    </g>
+
+    <!-- Tiny sparkle cluster -->
+    <polygon points="-50,-100 -48,-95 -43,-93 -48,-91 -50,-86 -52,-91 -57,-93 -52,-95" fill="#fbbf24" opacity="0.9"/>
+  </g>
+
+  <!-- Title / Branding -->
+  <text x="256" y="485" font-family="sans-serif" font-weight="900" font-size="22" fill="#f43f5e" text-anchor="middle" letter-spacing="6" filter="url(#softGlow)">SPECTRAL VIBES</text>
+</svg>
