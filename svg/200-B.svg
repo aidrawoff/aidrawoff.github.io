@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a33"/>
+      <stop offset="0.55" stop-color="#3b3f66"/>
+      <stop offset="1" stop-color="#8a6a72"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.5">
+      <stop offset="0" stop-color="#cfd8ff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#cfd8ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="256" cy="215" r="230" fill="url(#glow)"/>
+  <!-- distant hills for setting -->
+  <path d="M0 452 Q90 400 180 448 Q250 480 330 440 Q420 402 512 450 L512 512 L0 512 Z" fill="#1b2140"/>
+  <!-- rain -->
+  <g stroke="#9fb6e8" stroke-width="4" stroke-linecap="round" opacity="0.75">
+    <line x1="150" y1="300" x2="136" y2="340"/>
+    <line x1="190" y1="315" x2="176" y2="355"/>
+    <line x1="240" y1="320" x2="226" y2="360"/>
+    <line x1="290" y1="312" x2="276" y2="352"/>
+    <line x1="340" y1="298" x2="326" y2="338"/>
+    <line x1="120" y1="345" x2="106" y2="385"/>
+    <line x1="370" y1="330" x2="356" y2="370"/>
+    <line x1="165" y1="375" x2="151" y2="415"/>
+    <line x1="265" y1="378" x2="251" y2="418"/>
+    <line x1="315" y1="368" x2="301" y2="408"/>
+    <line x1="215" y1="392" x2="201" y2="432"/>
+  </g>
+  <!-- shadow under cloud -->
+  <ellipse cx="256" cy="272" rx="150" ry="34" fill="#0d1126" opacity="0.45"/>
+  <!-- cloud body -->
+  <g fill="#dfe6f5">
+    <circle cx="160" cy="215" r="58"/>
+    <circle cx="256" cy="170" r="76"/>
+    <circle cx="352" cy="215" r="58"/>
+    <rect x="102" y="205" width="308" height="72" rx="36"/>
+  </g>
+  <!-- underbelly shade -->
+  <path d="M110 250 Q256 300 402 250 Q400 282 256 284 Q112 282 110 250 Z" fill="#a9b4cf"/>
+  <!-- tiny angry sun being blocked, context clue -->
+  <circle cx="452" cy="72" r="30" fill="#f6c76a" opacity="0.9"/>
+  <g stroke="#f6c76a" stroke-width="5" stroke-linecap="round" opacity="0.8">
+    <line x1="452" y1="26" x2="452" y2="14"/>
+    <line x1="486" y1="72" x2="498" y2="72"/>
+    <line x1="424" y1="44" x2="433" y2="35"/>
+    <line x1="480" y1="44" x2="489" y2="35"/>
+  </g>
+  <!-- face -->
+  <g fill="#2a3050">
+    <path d="M182 186 Q216 172 246 194 L242 208 Q214 190 188 198 Z"/>
+    <path d="M330 186 Q296 172 266 194 L270 208 Q298 190 324 198 Z"/>
+    <ellipse cx="212" cy="223" rx="13" ry="9"/>
+    <ellipse cx="300" cy="223" rx="13" ry="9"/>
+    <path d="M212 260 Q256 234 300 260 Q296 278 256 264 Q216 278 212 260 Z"/>
+  </g>
+  <!-- grumpy flush -->
+  <ellipse cx="176" cy="240" rx="20" ry="11" fill="#e08a9a" opacity="0.45"/>
+  <ellipse cx="336" cy="240" rx="20" ry="11" fill="#e08a9a" opacity="0.45"/>
+  <!-- highlight on top lobes -->
+  <path d="M200 130 Q256 96 312 130 Q256 116 200 130 Z" fill="#ffffff" opacity="0.6"/>
+  <!-- puddles on the hill -->
+  <ellipse cx="150" cy="472" rx="46" ry="9" fill="#5b6fa8" opacity="0.55"/>
+  <ellipse cx="360" cy="486" rx="58" ry="10" fill="#5b6fa8" opacity="0.5"/>
+</svg>

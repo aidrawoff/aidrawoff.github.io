@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: deep teal gradient -->
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a2e2e"/>
+      <stop offset="1" stop-color="#001a1a"/>
+    </linearGradient>
+    <!-- Party lights: soft pink and purple glows -->
+    <radialGradient id="light1" cx="0.3" cy="0.3" r="0.4">
+      <stop offset="0" stop-color="#ff9eb3" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#ff9eb3" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="light2" cx="0.7" cy="0.2" r="0.35">
+      <stop offset="0" stop-color="#d8a7ff" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#d8a7ff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+  <!-- Party lights -->
+  <circle cx="150" cy="120" r="80" fill="url(#light1)"/>
+  <circle cx="380" cy="90" r="70" fill="url(#light2)"/>
+
+  <!-- Shy zombie: simple silhouette with subtle details -->
+  <!-- Head and body -->
+  <path d="M256 180 C220 180 190 220 190 260 C190 300 220 340 256 340 C292 340 322 300 322 260 C322 220 292 180 256 180 Z" fill="#c5d1c5"/>
+  <!-- Messy hair -->
+  <path d="M256 180 C256 160 230 150 210 170 C190 190 200 210 220 210 C240 210 256 190 256 180 Z" fill="#5a7a5a"/>
+  <!-- Eyes closed, shy expression -->
+  <circle cx="240" cy="240" r="8" fill="#2a1e18"/>
+  <circle cx="272" cy="240" r="8" fill="#2a1e18"/>
+  <!-- Mouth: subtle frown -->
+  <path d="M250 260 Q256 268 262 260" stroke="#2a1e18" stroke-width="3" fill="none"/>
+  <!-- Arms crossed with subtle folds -->
+  <path d="M210 280 L170 280 L170 320 L210 320 Z" fill="#c5d1c5"/>
+  <path d="M210 280 L200 270 L190 270 L180 280" stroke="#a8b8a8" stroke-width="4" fill="none"/>
+  <path d="M302 280 L342 280 L342 320 L302 320 Z" fill="#c5d1c5"/>
+  <path d="M302 280 L292 270 L282 270 L272 280" stroke="#a8b8a8" stroke-width="4" fill="none"/>
+  <!-- Legs slightly apart with subtle folds -->
+  <path d="M230 340 L220 400 L240 400 L250 340 Z" fill="#c5d1c5"/>
+  <path d="M230 340 L235 330 L245 330 L250 340" stroke="#a8b8a8" stroke-width="4" fill="none"/>
+  <path d="M282 340 L272 400 L292 400 L302 340 Z" fill="#c5d1c5"/>
+  <path d="M282 340 L287 330 L297 330 L302 340" stroke="#a8b8a8" stroke-width="4" fill="none"/>
+
+  <!-- Party props: more confetti, streamers, and a cup -->
+  <!-- Confetti dots -->
+  <circle cx="100" cy="100" r="6" fill="#ff6b6b"/>
+  <circle cx="420" cy="80" r="5" fill="#4ecdc4"/>
+  <circle cx="350" cy="150" r="7" fill="#ffe66d"/>
+  <circle cx="180" cy="200" r="4" fill="#a8e6cf"/>
+  <circle cx="200" cy="120" r="5" fill="#ff9999"/>
+  <circle cx="300" cy="100" r="6" fill="#d8a7ff"/>
+  <!-- Streamers -->
+  <path d="M120 180 L140 160 L160 180" stroke="#ff9999" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M400 160 L380 180 L360 160" stroke="#4ecdc4" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- Cup on table -->
+  <rect x="240" y="380" width="32" height="20" rx="4" fill="#ff9999"/>
+  <rect x="244" y="384" width="24" height="12" rx="2" fill="#ffffff" opacity="0.7"/>
+  <!-- Extra party detail: a small cake -->
+  <circle cx="256" cy="390" r="12" fill="#fff2cc"/>
+  <circle cx="256" cy="390" r="8" fill="#ff9999"/>
+  <circle cx="248" cy="384" r="2" fill="#2a1e18"/>
+  <circle cx="264" cy="384" r="2" fill="#2a1e18"/>
+</svg>
