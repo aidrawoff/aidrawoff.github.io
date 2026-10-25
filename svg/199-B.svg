@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: soft lavender stage with subtle gradient -->
+  <linearGradient id="bg" x1="0" y1="0" x2="0" y2="512">
+    <stop offset="0" stop-color="#e8e8ff"/>
+    <stop offset="1" stop-color="#d8d8f0"/>
+  </linearGradient>
+  <rect width="512" height="512" fill="url(#bg)" />
+  <!-- Spotlight from top-left -->
+  <radialGradient id="spot" cx="-100" cy="-100" r="400" gradientUnits="userSpaceOnUse">
+    <stop offset="0.4" stop-color="white" stop-opacity="0.95"/>
+    <stop offset="1" stop-color="white" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="512" height="512" fill="url(#spot)" />
+  <!-- Seal as ballerina: refined silhouette with gentle curve -->
+  <path id="sealBallerina" d="M256 320c-20-12-45-16-65-8-15 6-25 18-25 30 0 12 10 25 25 30 20 8 45 4 65-8 20-12 45-16 65-8 15 6 25 18 25 30 0 12-10 25-25 30-20 8-45 4-65-8-20-12-45-16-65-8z" fill="#333" transform="translate(0 -20) scale(1.1)"/>
+  <!-- Satin ribbon around neck -->
+  <path d="M240 260c0-8 10-12 20-8 10 4 15 12 15 20s-5 16-15 20c-10 4-20-0-20-8" fill="#ff9eb5" stroke="#e86a8c" stroke-width="1.5"/>
+  <!-- Pointe shoes (flippers as pointe shoes) -->
+  <ellipse cx="220" cy="380" rx="22" ry="10" fill="#ff6b6b" />
+  <ellipse cx="292" cy="380" rx="22" ry="10" fill="#ff6b6b" />
+  <!-- Shoelace bows -->
+  <circle cx="220" cy="370" r="4" fill="#ffd166"/>
+  <circle cx="292" cy="370" r="4" fill="#ffd166"/>
+  <!-- Tutu (flared skirt) with subtle pleats -->
+  <path d="M220 380c0-30 40-50 80-50s80 20 80 50v60H220z" fill="#ffd166" opacity="0.8"/>
+  <path d="M240 380c0-15 20-25 40-25s40 10 40 25v30H240z" fill="#ffc14d" opacity="0.7"/>
+  <!-- Graceful arms (both) -->
+  <path d="M200 280c-10-15-10-35 0-50 10-15 30-20 50-10 20 10 30 30 20 50-10 20-30 25-50 10z" fill="#555"/>
+  <path d="M312 280c10-15 10-35 0-50-10-15-30-20-50-10-20 10-30 30-20 50 10 20 30 25 50 10z" fill="#555"/>
+  <!-- Head/ear detail -->
+  <circle cx="256" cy="240" r="20" fill="#444"/>
+  <circle cx="240" cy="230" r="5" fill="#333"/>
+  <!-- Expressive eyes -->
+  <circle cx="265" cy="240" r="3" fill="white"/>
+  <circle cx="265" cy="240" r="1.2" fill="#000"/>
+  <circle cx="250" cy="235" r="0.8" fill="#000"/>
+  <!-- Whiskers -->
+  <path d="M270 245h12M270 250h10M270 255h8" stroke="#333" stroke-width="1.2" stroke-linecap="round"/>
+  <path d="M240 245h-12M240 250h-10M240 255h-8" stroke="#333" stroke-width="1.2" stroke-linecap="round"/>
+</svg>
