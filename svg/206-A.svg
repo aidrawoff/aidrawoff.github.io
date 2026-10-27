@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: dark gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a1a" />
+      <stop offset="100%" stop-color="#1a1a3a" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background rectangle -->
+  <rect width="512" height="512" fill="url(#bgGradient)" />
+
+  <!-- Ground: deeper shadow with texture -->
+  <rect x="0" y="400" width="512" height="112" fill="#0f0f2a" />
+  <!-- Ground texture: subtle lines -->
+  <path d="M 0 420 L 512 420 M 0 440 L 512 440 M 0 460 L 512 460" stroke="#0a0a1a" stroke-width="1" opacity="0.3" />
+
+  <!-- Ghost 1: hiding behind a pillar (left) -->
+  <g id="ghost1">
+    <!-- Body: soft white oval with subtle folds -->
+    <path d="M 120 280 C 120 240, 160 200, 220 200 C 280 200, 320 240, 320 280 C 320 320, 280 360, 220 360 C 160 360, 120 320, 120 280 Z" fill="white" fill-opacity="0.9" stroke="#f0f0f0" stroke-width="2" />
+    <!-- Eyes: small black circles -->
+    <circle cx="190" cy="255" r="8" fill="black" />
+    <circle cx="230" cy="255" r="8" fill="black" />
+    <!-- Mouth: subtle curve -->
+    <path d="M 200 285 Q 215 295, 230 285" stroke="black" stroke-width="2" fill="none" />
+    <!-- Bandages: more defined lines, sharper creases -->
+    <path d="M 140 240 L 160 220 L 180 240 L 200 220 L 220 240 L 240 220 L 260 240" stroke="#f0f0f0" stroke-width="3" fill="none" />
+    <path d="M 280 240 L 300 220 L 320 240 L 340 220 L 360 240" stroke="#f0f0f0" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- Ghost 2: hiding behind a pillar (right) -->
+  <g id="ghost2">
+    <!-- Body: soft white oval with subtle folds -->
+    <path d="M 380 280 C 380 240, 420 200, 480 200 C 540 200, 580 240, 580 280 C 580 320, 540 360, 480 360 C 420 360, 380 320, 380 280 Z" fill="white" fill-opacity="0.9" stroke="#f0f0f0" stroke-width="2" />
+    <!-- Eyes: small black circles -->
+    <circle cx="450" cy="255" r="8" fill="black" />
+    <circle cx="490" cy="255" r="8" fill="black" />
+    <!-- Mouth: subtle curve -->
+    <path d="M 460 285 Q 475 295, 490 285" stroke="black" stroke-width="2" fill="none" />
+    <!-- Bandages: more defined lines, sharper creases -->
+    <path d="M 400 240 L 420 220 L 440 240 L 460 220 L 480 240 L 500 220 L 520 240" stroke="#f0f0c0" stroke-width="3" fill="none" />
+    <path d="M 320 240 L 340 220 L 360 240 L 380 220 L 400 240" stroke="#f0f0c0" stroke-width="3" fill="none" />
+  </g>
+
+  <!-- Pillars: hiding spots with texture -->
+  <rect x="100" y="200" width="40" height="200" fill="#3a3a5a" rx="5" stroke="#2a2a4a" stroke-width="1" />
+  <rect x="460" y="200" width="40" height="200" fill="#3a3a5a" rx="5" stroke="#2a2a4a" stroke-width="1" />
+  <!-- Pillar shadows -->
+  <rect x="105" y="205" width="30" height="190" fill="#1a1a3a" rx="3" opacity="0.5" />
+  <rect x="465" y="205" width="30" height="190" fill="#1a1a3a" rx="3" opacity="0.5" />
+
+  <!-- Floating pillows: mid-air, soft edges, more detail -->
+  <path d="M 180 100 C 200 80, 220 100, 240 80 C 260 60, 280 80, 300 60 C 320 40, 340 60, 360 40 C 380 20, 400 40, 420 20" fill="#ffb6c1" fill-opacity="0.8" stroke="#ff9eb3" stroke-width="2" />
+  <path d="M 160 120 C 180 100, 200 120, 220 100 C 240 80, 260 100, 280 80 C 300 60, 320 80, 340 60" fill="#ffb6c1" fill-opacity="0.8" stroke="#ff9eb3" stroke-width="2" />
+  <path d="M 320 140 C 340 120, 360 140, 380 120 C 400 100, 420 120, 440 100 C 460 80, 480 100, 500 80" fill="#ffb6c1" fill-opacity="0.8" stroke="#ff9eb3" stroke-width="2" />
+  <path d="M 140 160 C 160 140, 180 160, 200 140 C 220 120, 240 140, 260 120" fill="#ffb6c1" fill-opacity="0.7" stroke="#ff9eb3" stroke-width="2" />
+
+  <!-- Floor shadow with more depth -->
+  <ellipse cx="256" cy="450" rx="130" ry="25" fill="#000000" fill-opacity="0.3" />
+  <!-- Ambient light glow behind ghosts -->
+  <ellipse cx="200" cy="280" rx="100" ry="60" fill="white" fill-opacity="0.12" />
+  <ellipse cx="440" cy="280" rx="100" ry="60" fill="white" fill-opacity="0.12" />
+</svg>

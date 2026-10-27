@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: cozy barber shop wall -->
+  <rect width="512" height="512" fill="#2a1a10"/>
+  <rect x="0" y="0" width="512" height="300" fill="#3e2718"/>
+  
+  <!-- Mirror -->
+  <rect x="120" y="40" width="272" height="200" rx="16" fill="#87ceeb" opacity="0.3"/>
+  <rect x="120" y="40" width="272" height="200" rx="16" fill="none" stroke="#c9a86c" stroke-width="8"/>
+  
+  <!-- Barber pole -->
+  <rect x="40" y="80" width="36" height="280" rx="18" fill="#fff"/>
+  <path d="M40 120 Q58 100 76 120 T76 160 T40 160" fill="none" stroke="#c41e3a" stroke-width="12"/>
+  <path d="M40 160 Q58 140 76 160 T76 200 T40 200" fill="none" stroke="#c41e3a" stroke-width="12"/>
+  <path d="M40 200 Q58 180 76 200 T76 240 T40 240" fill="none" stroke="#c41e3a" stroke-width="12"/>
+  <path d="M40 240 Q58 220 76 240 T76 280 T40 280" fill="none" stroke="#c41e3a" stroke-width="12"/>
+  <path d="M40 280 Q58 260 76 280 T76 320 T40 320" fill="none" stroke="#c41e3a" stroke-width="12"/>
+  <ellipse cx="58" cy="80" rx="18" ry="8" fill="#c9a86c"/>
+  <ellipse cx="58" cy="360" rx="18" ry="8" fill="#c9a86c"/>
+  
+  <!-- Barber chair -->
+  <rect x="220" y="300" width="72" height="140" rx="12" fill="#1a1a2e"/>
+  <rect x="240" y="420" width="32" height="60" fill="#555"/>
+  <rect x="200" y="470" width="112" height="12" rx="4" fill="#333"/>
+  <rect x="210" y="460" width="92" height="16" rx="4" fill="#c9a86c"/>
+  
+  <!-- Pumpkin in chair -->
+  <ellipse cx="256" cy="260" rx="90" ry="80" fill="#e65100"/>
+  <ellipse cx="256" cy="260" rx="70" ry="72" fill="#f57c00"/>
+  <ellipse cx="256" cy="260" rx="45" ry="65" fill="#ff9800"/>
+  
+  <!-- Pumpkin ridges -->
+  <path d="M200 240 Q220 260 200 290" fill="none" stroke="#bf360c" stroke-width="3" opacity="0.5"/>
+  <path d="M230 210 Q240 260 230 310" fill="none" stroke="#bf360c" stroke-width="3" opacity="0.5"/>
+  <path d="M270 205 Q260 260 270 315" fill="none" stroke="#bf360c" stroke-width="3" opacity="0.5"/>
+  <path d="M300 215 Q290 260 310 300" fill="none" stroke="#bf360c" stroke-width="3" opacity="0.5"/>
+  
+  <!-- Stem -->
+  <path d="M248 190 Q256 150 270 140 Q260 160 264 190" fill="#4e342e"/>
+  
+  <!-- Face: worried expression -->
+  <!-- Eyes -->
+  <ellipse cx="230" cy="245" rx="14" ry="16" fill="#fff"/>
+  <ellipse cx="282" cy="245" rx="14" ry="16" fill="#fff"/>
+  <circle cx="234" cy="248" r="5" fill="#000"/>
+  <circle cx="278" cy="248" r="5" fill="#000"/>
+  <!-- Eyebrows (worried) -->
+  <path d="M216 228 Q230 222 244 232" fill="none" stroke="#3e2723" stroke-width="4" stroke-linecap="round"/>
+  <path d="M268 232 Q282 222 296 228" fill="none" stroke="#3e2723" stroke-width="4" stroke-linecap="round"/>
+  <!-- Sweat drop -->
+  <path d="M300 220 Q308 210 306 230 Q300 240 294 230 Q292 210 300 220" fill="#81d4fa"/>
+  
+  <!-- Mouth (nervous grimace) -->
+  <path d="M240 285 Q256 275 272 285 Q256 295 240 285" fill="#3e2723"/>
+  <rect x="245" y="282" width="4" height="6" fill="#fff" opacity="0.7"/>
+  <rect x="252" y="280" width="4" height="6" fill="#fff" opacity="0.7"/>
+  <rect x="259" y="280" width="4" height="6" fill="#fff" opacity="0.7"/>
+  <rect x="266" y="282" width="4" height="6" fill="#fff" opacity="0.7"/>
+  
+  <!-- Barber tools: scissors and comb -->
+  <g transform="translate(360, 240) rotate(25)">
+    <rect x="0" y="0" width="6" height="40" rx="2" fill="#90a4ae"/>
+    <circle cx="3" cy="-4" r="5" fill="none" stroke="#90a4ae" stroke-width="2"/>
+    <circle cx="3" cy="-4" r="9" fill="none" stroke="#90a4ae" stroke-width="2"/>
+  </g>
+  <rect x="340" y="280" width="50" height="10" rx="2" fill="#5d4037" transform="rotate(-15 365 285)"/>
+  
+  <!-- Hair clippings on floor -->
+  <ellipse cx="200" cy="440" rx="8" ry="3" fill="#ff9800" opacity="0.6"/>
+  <ellipse cx="220" cy="450" rx="6" ry="2" fill="#e65100" opacity="0.6"/>
+  <ellipse cx="290" cy="445" rx="7" ry="3" fill="#ff9800" opacity="0.6"/>
+  <ellipse cx="310" cy="455" rx="5" ry="2" fill="#e65100" opacity="0.6"/>
+  
+  <!-- Cape around pumpkin -->
+  <path d="M190 300 Q256 340 322 300 L340 400 Q256 420 172 400 Z" fill="#fff" opacity="0.9"/>
+  <path d="M190 300 Q256 340 322 300" fill="none" stroke="#ddd" stroke-width="2"/>
+</svg>

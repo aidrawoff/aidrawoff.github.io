@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0b2e"/>
+      <stop offset="100%" stop-color="#050210"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#aaffff" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#aaffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2"/>
+    </filter>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <circle cx="256" cy="256" r="180" fill="url(#glow)" opacity="0.3"/>
+  <!-- tree trunk hiding ghost 1 -->
+  <rect x="60" y="180" width="70" height="260" rx="10" fill="#0d0518" stroke="#1e1035" stroke-width="2"/>
+  <ellipse cx="95" cy="180" rx="55" ry="70" fill="#0d0518" stroke="#1e1035" stroke-width="2"/>
+  <!-- ghost 1 peeking from behind tree -->
+  <g fill="#e0ffff" opacity="0.92">
+    <ellipse cx="145" cy="280" rx="48" ry="68"/>
+  </g>
+  <g fill="#0b0b1a">
+    <ellipse cx="135" cy="270" rx="11" ry="15"/>
+    <ellipse cx="162" cy="270" rx="11" ry="15"/>
+  </g>
+  <g stroke="#e0ffff" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M125 298 Q145 320 175 296"/>
+  </g>
+  <!-- ghost 1 tiny hands gripping tree -->
+  <g fill="#e0ffff" opacity="0.85">
+    <ellipse cx="108" cy="275" rx="6" ry="10"/>
+    <ellipse cx="108" cy="295" rx="6" ry="10"/>
+  </g>
+  <!-- bush hiding ghost 2 -->
+  <g fill="#0d0518" stroke="#1e1035" stroke-width="2">
+    <ellipse cx="420" cy="310" rx="60" ry="45"/>
+    <ellipse cx="380" cy="340" rx="50" ry="40"/>
+    <ellipse cx="460" cy="330" rx="45" ry="35"/>
+  </g>
+  <!-- ghost 2 peeking from behind bush -->
+  <g fill="#e0ffff" opacity="0.92">
+    <ellipse cx="360" cy="230" rx="42" ry="62"/>
+  </g>
+  <g fill="#0b0b1a">
+    <ellipse cx="350" cy="220" rx="10" ry="14"/>
+    <ellipse cx="375" cy="220" rx="10" ry="14"/>
+  </g>
+  <!-- ghost 2 wink -->
+  <g stroke="#0b0b1a" stroke-width="2.5" fill="none" opacity="0.9">
+    <path d="M345 220 Q350 215 355 220"/>
+  </g>
+  <g stroke="#e0ffff" stroke-width="3" fill="none" opacity="0.9">
+    <path d="M340 245 Q360 260 385 242"/>
+  </g>
+  <!-- ghost 2 hand waving -->
+  <g fill="#e0ffff" opacity="0.85">
+    <ellipse cx="405" cy="215" rx="7" ry="12" transform="rotate(25 405 215)"/>
+  </g>
+  <!-- ground shadows -->
+  <g fill="#e0ffff" opacity="0.55" filter="url(#blur)">
+    <ellipse cx="145" cy="365" rx="38" ry="9"/>
+    <ellipse cx="360" cy="305" rx="32" ry="8"/>
+  </g>
+  <!-- stars -->
+  <g fill="#ffaa00" opacity="0.8">
+    <ellipse cx="120" cy="100" rx="3" ry="3"/>
+    <ellipse cx="400" cy="80" rx="2" ry="2"/>
+    <ellipse cx="320" cy="60" rx="2.5" ry="2.5"/>
+    <ellipse cx="90" cy="160" rx="2" ry="2"/>
+    <ellipse cx="430" cy="140" rx="3" ry="3"/>
+    <ellipse cx="220" cy="50" rx="2" ry="2"/>
+    <ellipse cx="280" cy="110" rx="2" ry="2"/>
+    <ellipse cx="180" cy="130" rx="1.5" ry="1.5"/>
+  </g>
+  <!-- "1... 2..." count floating -->
+  <text x="260" y="140" text-anchor="middle" fill="#aaffff" font-size="18" font-family="sans-serif" opacity="0.35">1... 2...</text>
+</svg>
