@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="spot" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#fff4d6" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#fff4d6" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- back wall -->
+  <rect x="0" y="0" width="512" height="512" fill="#2e2233"/>
+  <!-- shelves with loaves -->
+  <rect x="30" y="120" width="452" height="10" fill="#8a5a3c"/>
+  <rect x="30" y="210" width="452" height="10" fill="#8a5a3c"/>
+  <ellipse cx="90" cy="100" rx="28" ry="18" fill="#c98a45"/>
+  <ellipse cx="150" cy="100" rx="28" ry="18" fill="#c98a45"/>
+  <ellipse cx="410" cy="100" rx="28" ry="18" fill="#c98a45"/>
+  <ellipse cx="70" cy="190" rx="22" ry="14" fill="#e8b860"/>
+  <ellipse cx="440" cy="190" rx="22" ry="14" fill="#e8b860"/>
+  <!-- spotlight on the hero -->
+  <rect x="0" y="0" width="512" height="512" fill="url(#spot)"/>
+  <!-- counter -->
+  <rect x="0" y="340" width="512" height="172" fill="#6e4a32"/>
+  <rect x="0" y="326" width="512" height="22" fill="#a8744b"/>
+  <!-- cakes at the edges -->
+  <rect x="30" y="280" width="100" height="46" fill="#f7d6b0"/>
+  <rect x="30" y="268" width="100" height="16" fill="#e26b8a"/>
+  <rect x="372" y="286" width="110" height="40" fill="#f7d6b0"/>
+  <rect x="372" y="274" width="110" height="16" fill="#8a4b2a"/>
+  <!-- ghost (hero, centered) -->
+  <path d="M190 330 L190 170 Q190 74 256 74 Q322 74 322 170 L322 330 L306 316 L289 330 L272 316 L256 330 L239 316 L222 330 L206 316 L190 330 Z" fill="#f4f7ff" stroke="#8fa8dc" stroke-width="4"/>
+  <!-- eyes: wide, visible whites -->
+  <ellipse cx="228" cy="164" rx="16" ry="21" fill="#ffffff" stroke="#22233a" stroke-width="4"/>
+  <ellipse cx="284" cy="164" rx="16" ry="21" fill="#ffffff" stroke="#22233a" stroke-width="4"/>
+  <circle cx="226" cy="168" r="6" fill="#22233a"/>
+  <circle cx="286" cy="168" r="6" fill="#22233a"/>
+  <!-- worried brows, angled up in the middle -->
+  <path d="M206 148 L244 134" stroke="#22233a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M306 148 L268 134" stroke="#22233a" stroke-width="6" stroke-linecap="round"/>
+  <!-- open, tense mouth -->
+  <ellipse cx="256" cy="226" rx="17" ry="22" fill="#3a1a2a"/>
+  <!-- big loaf on the counter -->
+  <ellipse cx="256" cy="330" rx="70" ry="24" fill="#c98a45" stroke="#8a5a3c" stroke-width="4"/>
+  <path d="M220 320 L240 306 M256 316 L270 300 M292 320 L304 306" stroke="#f2d3a0" stroke-width="4" stroke-linecap="round"/>
+  <!-- sweat drops -->
+  <path d="M336 124 Q350 148 336 162 Q322 148 336 124 Z" fill="#7fd3ff" stroke="#2a6f9a" stroke-width="2"/>
+  <path d="M176 150 Q184 166 176 174 Q168 166 176 150 Z" fill="#7fd3ff"/>
+  <!-- shaking lines -->
+  <path d="M120 200 L100 196 M122 226 L98 226 M120 252 L100 256" stroke="#f4f7ff" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M392 200 L412 196 M390 226 L414 226 M392 252 L412 256" stroke="#f4f7ff" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <!-- bakery sign: title card -->
+  <rect x="96" y="400" width="320" height="52" rx="10" fill="#ffd166"/>
+  <text x="256" y="436" font-family="Georgia, serif" font-size="22" font-weight="bold" text-anchor="middle" fill="#3b2a3a">BOO-LANGERIES</text>
+</svg>
