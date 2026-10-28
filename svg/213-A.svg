@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f051d"/>
+      <stop offset="50%" stop-color="#2a0845"/>
+      <stop offset="100%" stop-color="#4a154b"/>
+    </linearGradient>
+    <linearGradient id="pumpkin" x1="15%" y1="15%" x2="85%" y2="85%">
+      <stop offset="0%" stop-color="#ffb142"/>
+      <stop offset="40%" stop-color="#ff793f"/>
+      <stop offset="100%" stop-color="#cd6133"/>
+    </linearGradient>
+    <linearGradient id="counter" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#57606f"/>
+      <stop offset="100%" stop-color="#1e272e"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Neon Pizza Sign on Wall -->
+  <g transform="translate(256, 65)" filter="url(#glow)">
+    <rect x="-95" y="-28" width="190" height="56" rx="14" fill="none" stroke="#ff4757" stroke-width="4"/>
+    <text x="0" y="8" font-family="sans-serif" font-weight="900" font-size="22" fill="#ff6b81" text-anchor="middle" letter-spacing="2">PIZZA TIME</text>
+  </g>
+
+  <!-- Counter & Warm light bounce -->
+  <rect x="0" y="380" width="512" height="132" fill="url(#counter)"/>
+  <rect x="0" y="370" width="512" height="10" fill="#718093"/>
+  <rect x="0" y="378" width="512" height="4" fill="#ff793f" opacity="0.4"/>
+
+  <!-- Open Pizza Box on Counter with Pizza -->
+  <g transform="translate(305, 315)" filter="url(#shadow)">
+    <!-- Box Bottom Base -->
+    <polygon points="0,40 90,-5 180,40 90,85" fill="#f5cd79"/>
+    <!-- Box Front Panels -->
+    <polygon points="0,40 90,85 90,100 0,55" fill="#e1b12c"/>
+    <polygon points="90,85 180,40 180,55 90,100" fill="#c8d6e5"/>
+    <!-- Open lid -->
+    <polygon points="90,-5 180,40 180,-25 90,-70" fill="#f7f1e3"/>
+    
+    <!-- Delicious Pizza inside -->
+    <g transform="translate(90, 40)">
+      <ellipse cx="0" cy="0" rx="78" ry="34" fill="#f39c12"/>
+      <ellipse cx="0" cy="0" rx="70" ry="30" fill="#f1c40f"/>
+      <!-- Pepperonis & Melted Cheese details -->
+      <circle cx="-32" cy="-6" r="8" fill="#c0392b"/>
+      <circle cx="22" cy="-8" r="8" fill="#c0392b"/>
+      <circle cx="5" cy="10" r="7" fill="#c0392b"/>
+      <circle cx="-15" cy="12" r="7" fill="#c0392b"/>
+      <circle cx="35" cy="8" r="6" fill="#c0392b"/>
+    </g>
+  </g>
+
+  <!-- Steam / Aroma lines -->
+  <path d="M370 270 Q385 245 370 220 T370 170" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+  <path d="M410 285 Q395 260 410 235 T405 185" fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round" opacity="0.5"/>
+
+  <!-- Main Pumpkin Ordering Character -->
+  <g filter="url(#shadow)" transform="rotate(-3 235 270)">
+    <!-- Pumpkin Lobes & Glow -->
+    <ellipse cx="235" cy="270" rx="115" ry="98" fill="url(#pumpkin)"/>
+    <!-- Segment lines for 3D volume -->
+    <path d="M185 180 Q235 150 285 180 Q305 270 285 360 Q235 390 185 360 Q165 270 185 180 Z" fill="url(#pumpkin)" opacity="0.9"/>
+    <path d="M235 170 Q210 270 235 370 Q260 270 235 170 Z" fill="#ffffff" opacity="0.12"/>
+    
+    <!-- Stem -->
+    <path d="M225 165 Q245 120 270 135 Q285 155 250 180 Z" fill="#2ed573"/>
+
+    <!-- Jack-o-lantern Expressive Face -->
+    <!-- Winking / Confident Eyes -->
+    <polygon points="185,235 212,225 205,262" fill="#2f3542"/>
+    <polygon points="268,225 295,235 275,262" fill="#2f3542"/>
+    <circle cx="282" cy="238" r="3.5" fill="#ffffff"/>
+
+    <!-- Expressive Brows -->
+    <path d="M180 215 Q198 202 214 218" fill="none" stroke="#2f3542" stroke-width="5.5" stroke-linecap="round"/>
+    <path d="M268 218 Q284 202 302 215" fill="none" stroke="#2f3542" stroke-width="5.5" stroke-linecap="round"/>
+
+    <!-- Big Happy Smile ordering -->
+    <path d="M190 285 Q235 350 285 285 Q262 320 235 320 Q208 320 190 285 Z" fill="#2f3542"/>
+    <!-- Cute Teeth -->
+    <rect x="224" y="298" width="13" height="13" fill="#fff" rx="2"/>
+    <rect x="243" y="300" width="13" height="13" fill="#fff" rx="2"/>
+
+    <!-- Smartphone in hand -->
+    <g transform="translate(120, 275) rotate(-18)">
+      <rect x="0" y="0" width="58" height="96" rx="12" fill="#0984e3" stroke="#ffffff" stroke-width="3"/>
+      <!-- Phone screen -->
+      <rect x="6" y="8" width="46" height="68" rx="4" fill="#1e272e"/>
+      <circle cx="29" cy="82" r="5" fill="#ffffff"/>
+      <!-- Pizza Delivery App UI on screen -->
+      <circle cx="29" cy="42" r="20" fill="#ffa502"/>
+      <path d="M29 22 L38 48 L20 48 Z" fill="#ff4757"/>
+      <circle cx="29" cy="42" r="4" fill="#ffffff"/>
+    </g>
+  </g>
+</svg>

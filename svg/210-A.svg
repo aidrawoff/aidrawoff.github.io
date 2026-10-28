@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  <!-- Wave: single path, breaking left to right -->
+  <path d="M64 320c0 0 48 64 96 64s96-64 144-64 96 64 144 64v192H64z" fill="#00bfff" opacity="0.85"/>
+  <!-- Goat: refined silhouette, facing right, mid-wave, hidden face in mane -->
+  <path d="M256 288c0-16 8-32 24-32s24 16 24 32c0 16-8 32-24 32s-24-16-24-32zm-48 16c0-8 4-16 12-16s12 8 12 16-4 16-12 16-12-8-12-16zm96 0c0-8 4-16 12-16s12 8 12 16-4 16-12 16-12-8-12-16zm-32-32c-8 0-16 4-16 12s8 12 16 12 16-4 16-12-8-12-16-12zm-16-16c-8 0-16 4-16 12s8 12 16 12 16-4 16-12-8-12-16-12z" fill="#f5f5dc"/>
+  <!-- Highlight on wave crest, sharper and brighter -->
+  <path d="M192 256c0 0 32 48 64 48s64-48 96-48" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <!-- Subtle wave folds for depth -->
+  <path d="M160 320c16 0 32 8 48 8s32-8 48-8" stroke="#00bfff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+  <path d="M208 304c16 0 32 8 48 8s32-8 48-8" stroke="#00bfff" stroke-width="2" stroke-linecap="round" fill="none" opacity="0.6"/>
+</svg>

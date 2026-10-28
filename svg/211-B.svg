@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#4a2a6a"/>
+      <stop offset="100%" stop-color="#140a22"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <circle cx="400" cy="90" r="46" fill="#f5e6a8"/>
+  <circle cx="420" cy="78" r="40" fill="#4a2a6a"/>
+  <!-- moonlight halo behind the bat -->
+  <circle cx="256" cy="280" r="150" fill="#6a3f8f" opacity="0.25"/>
+  <!-- wings -->
+  <path d="M236 280 Q150 220 60 250 Q110 270 90 320 Q150 300 170 340 Q200 320 236 330 Z" fill="#1b1026"/>
+  <path d="M276 280 Q362 220 452 250 Q402 270 422 320 Q362 300 342 340 Q312 320 276 330 Z" fill="#1b1026"/>
+  <!-- ears -->
+  <path d="M226 196 L212 130 L248 176 Z" fill="#1b1026"/>
+  <path d="M286 196 L300 130 L264 176 Z" fill="#1b1026"/>
+  <!-- head and body -->
+  <ellipse cx="256" cy="220" rx="44" ry="38" fill="#2b1838"/>
+  <ellipse cx="256" cy="330" rx="46" ry="62" fill="#2b1838"/>
+  <!-- sunglasses -->
+  <rect x="206" y="206" width="42" height="26" rx="8" fill="#050508"/>
+  <rect x="264" y="206" width="42" height="26" rx="8" fill="#050508"/>
+  <line x1="248" y1="216" x2="264" y2="216" stroke="#050508" stroke-width="4"/>
+  <line x1="212" y1="212" x2="222" y2="212" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <line x1="270" y1="212" x2="280" y2="212" stroke="#ffffff" stroke-width="3" stroke-linecap="round"/>
+  <!-- fangs and grin -->
+  <path d="M238 240 Q256 252 274 240" stroke="#f5e6a8" stroke-width="3" fill="none"/>
+  <path d="M242 242 L246 252 L250 242 Z" fill="#ffffff"/>
+  <path d="M262 242 L266 252 L270 242 Z" fill="#ffffff"/>
+  <!-- feet hanging from a moonlit branch -->
+  <path d="M0 420 Q150 400 260 412 Q380 424 512 404 L512 440 Q380 452 260 440 Q150 430 0 448 Z" fill="#0d0716"/>
+  <path d="M236 384 L230 412 M276 384 L282 412" stroke="#1b1026" stroke-width="6" stroke-linecap="round"/>
+  <!-- stars -->
+  <circle cx="70" cy="70" r="3" fill="#ffffff"/>
+  <circle cx="150" cy="40" r="2" fill="#ffffff"/>
+  <circle cx="310" cy="50" r="2.5" fill="#ffffff"/>
+  <circle cx="200" cy="100" r="2" fill="#ffffff"/>
+  <circle cx="470" cy="200" r="2" fill="#ffffff"/>
+  <!-- cool-bat smirk and lens shine -->
+  <path d="M236 244 Q256 256 276 244" stroke="#050508" stroke-width="3" fill="none"/>
+  <path d="M226 224 L240 220" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  <!-- wing and belly highlights -->
+  <path d="M120 262 Q150 250 176 262" stroke="#4a2a6a" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M392 262 Q362 250 336 262" stroke="#4a2a6a" stroke-width="3" fill="none" opacity="0.7"/>
+  <ellipse cx="256" cy="318" rx="18" ry="30" fill="#3d2a52" opacity="0.8"/>
+  <!-- stars twinkle near the moon -->
+  <circle cx="440" cy="150" r="2" fill="#ffffff"/>
+  <!-- lens glints -->
+  <path d="M268 210 L276 210" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <path d="M300 210 L304 210" stroke="#ffffff" stroke-width="2" stroke-linecap="round"/>
+  <!-- brows for a cool look -->
+  <path d="M208 198 L236 192" stroke="#050508" stroke-width="5" stroke-linecap="round"/>
+  <path d="M276 192 L304 198" stroke="#050508" stroke-width="5" stroke-linecap="round"/>
+</svg>

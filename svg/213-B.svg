@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#18233d"/><stop offset="1" stop-color="#452b38"/></linearGradient>
+ <linearGradient id="pump" x2="0" y2="1"><stop stop-color="#ffb52e"/><stop offset="1" stop-color="#df5424"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="410" cy="82" r="48" fill="#ffd46a" opacity=".12"/>
+<path d="M0 360 Q120 330 250 360 T512 350 V512H0Z" fill="#101729"/>
+<ellipse cx="256" cy="455" rx="224" ry="28" fill="#080d19" opacity=".65"/>
+<!-- neon sign --> <rect x="28" y="35" width="456" height="70" rx="14" fill="#202c4d" stroke="#ff6c7c" stroke-width="4"/>
+<path d="M52 88 Q256 55 460 88" fill="none" stroke="#ffd15c" stroke-width="4" opacity=".7"/>
+<text x="256" y="78" text-anchor="middle" font-family="sans-serif" font-size="29" font-weight="bold" fill="#fff2bf">MIDNIGHT SLICE</text>
+<!-- pizza box --> <path d="M302 319 L465 296 L478 370 L320 393Z" fill="#d86b38" stroke="#702d2b" stroke-width="5"/>
+<path d="M314 312 L456 292 L469 329 L320 350Z" fill="#f6b34c" stroke="#702d2b" stroke-width="5"/>
+<path d="M345 325 l16 -7 11 9 -14 10z M397 315 l16 -5 10 9 -15 8z M427 333 l17 -5 7 10 -15 7z" fill="#c94232"/>
+<path d="M367 285 Q355 266 368 250 M407 279 Q397 260 410 244" fill="none" stroke="#ffdba0" stroke-width="5" stroke-linecap="round" opacity=".75"/>
+<!-- pumpkin body --> <ellipse cx="196" cy="330" rx="112" ry="119" fill="#0b1020" opacity=".5" filter="url(#shadow)"/>
+<path d="M196 210 C140 205 90 253 93 337 C96 420 140 457 196 454 C252 457 296 418 299 337 C302 253 252 205 196 210Z" fill="url(#pump)" stroke="#702d2b" stroke-width="7"/>
+<path d="M194 222 C166 248 164 402 194 445 M196 222 C228 248 229 405 196 445 M117 286 C144 268 160 270 175 281 M276 285 C250 267 235 270 220 281" fill="none" stroke="#bd4429" stroke-width="10" opacity=".8"/>
+<!-- stem --> <path d="M184 223 Q175 185 193 159 Q211 169 207 215" fill="#5d7338" stroke="#263d2a" stroke-width="6"/>
+<!-- face --> <path d="M132 305 Q151 289 170 304" fill="none" stroke="#21172a" stroke-width="9" stroke-linecap="round"/><path d="M218 304 Q239 288 258 303" fill="none" stroke="#21172a" stroke-width="9" stroke-linecap="round"/>
+<circle cx="154" cy="322" r="9" fill="#fff0b0"/><circle cx="238" cy="322" r="9" fill="#fff0b0"/>
+<path d="M151 360 Q196 402 244 359 Q228 424 196 426 Q164 424 151 360Z" fill="#28172a" stroke="#702d2b" stroke-width="5"/><path d="M171 389 Q196 380 222 389" stroke="#ffcf65" stroke-width="8"/>
+<circle cx="117" cy="351" r="5" fill="#ffd46a" opacity=".7"/><circle cx="274" cy="349" r="4" fill="#ffd46a" opacity=".7"/>
+<!-- phone --> <rect x="263" y="246" width="72" height="112" rx="12" fill="#263550" stroke="#e8e5d2" stroke-width="5" transform="rotate(12 299 302)"/><rect x="275" y="263" width="48" height="70" fill="#8fe0d1" transform="rotate(12 299 302)"/><path d="M287 290 Q300 276 313 291" fill="none" stroke="#db5a4e" stroke-width="7" transform="rotate(12 299 302)"/><path d="M286 315 L310 306 L302 325Z" fill="#ffd05c" transform="rotate(12 299 302)"/><circle cx="298" cy="316" r="3" fill="#c94232" transform="rotate(12 299 302)"/>
+<!-- arm ordering --> <path d="M255 365 Q306 370 330 347" fill="none" stroke="#e56b29" stroke-width="22" stroke-linecap="round"/><circle cx="330" cy="347" r="13" fill="#ffb52e"/>
+<!-- speech --> <path d="M322 150 Q414 122 468 177 L453 232 Q394 245 336 216 L313 230 L319 208 Q300 184 322 150Z" fill="#fff3c2" stroke="#702d2b" stroke-width="5"/>
+<text x="388" y="180" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#542a35">ONE LARGE</text><text x="388" y="201" text-anchor="middle" font-family="sans-serif" font-size="16" font-weight="bold" fill="#542a35">PEPPERONI!</text>
+<!-- counter --> <path d="M0 435 H512 V512 H0Z" fill="#713c38"/><path d="M0 435 H512" stroke="#ffc35a" stroke-width="7"/><path d="M35 466h90m35 0h90m35 0h90m35 0h60" stroke="#a95a45" stroke-width="4"/>
+</svg>

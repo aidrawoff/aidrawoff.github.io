@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5fc4f2"/>
+      <stop offset="1" stop-color="#d9f4ff"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f8fc4"/>
+      <stop offset="1" stop-color="#0b4f7a"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="90" r="40" fill="#ffe27a"/>
+  <rect x="0" y="300" width="512" height="212" fill="url(#sea)"/>
+  <!-- big curling wave -->
+  <path d="M0,380 C90,250 250,230 350,290 C400,320 420,380 380,430 C356,404 318,384 282,396 C200,414 90,404 0,450 Z" fill="#33b3e6"/>
+  <path d="M350,290 C400,320 420,380 380,430 C366,412 350,398 332,392 C368,366 372,326 350,290 Z" fill="#ffffff"/>
+  <path d="M0,450 C90,404 200,414 282,396 C318,384 356,404 380,430" fill="none" stroke="#ffffff" stroke-width="8" stroke-linecap="round" opacity="0.85"/>
+  <!-- spray off the lip -->
+  <circle cx="352" cy="262" r="6" fill="#ffffff"/>
+  <circle cx="372" cy="250" r="5" fill="#ffffff"/>
+  <circle cx="336" cy="236" r="4" fill="#ffffff"/>
+  <!-- goat and board, scaled up as the hero -->
+  <g transform="translate(232 300) scale(1.5) translate(-232 -300)">
+    <ellipse cx="215" cy="338" rx="92" ry="15" transform="rotate(-16 215 338)" fill="#ff7a59"/>
+    <ellipse cx="215" cy="338" rx="70" ry="5" transform="rotate(-16 215 338)" fill="#ffe27a"/>
+    <path d="M200,300 L188,334" stroke="#f4f1ea" stroke-width="12" stroke-linecap="round"/>
+    <path d="M236,296 L240,332" stroke="#f4f1ea" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="225" cy="280" rx="52" ry="26" transform="rotate(-16 225 280)" fill="#f4f1ea"/>
+    <path d="M176,268 L162,256" stroke="#f4f1ea" stroke-width="8" stroke-linecap="round"/>
+    <path d="M262,262 L276,236" stroke="#f4f1ea" stroke-width="18" stroke-linecap="round"/>
+    <circle cx="284" cy="226" r="22" fill="#f4f1ea"/>
+    <path d="M274,210 Q270,194 282,186" fill="none" stroke="#8a6a4a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M292,208 Q296,192 304,190" fill="none" stroke="#8a6a4a" stroke-width="6" stroke-linecap="round"/>
+    <path d="M290,240 L286,256 L294,248 Z" fill="#c9bfae"/>
+    <!-- wide-eyed, open-mouthed shock -->
+    <circle cx="292" cy="222" r="7" fill="#ffffff" stroke="#222" stroke-width="2"/>
+    <circle cx="293" cy="222" r="3.5" fill="#222"/>
+    <path d="M276,212 L288,215" stroke="#222" stroke-width="3" stroke-linecap="round"/>
+    <ellipse cx="302" cy="242" rx="6" ry="7" fill="#7a2e2e"/>
+  </g>
+  <ellipse cx="250" cy="420" rx="110" ry="8" fill="#0b4f7a" opacity="0.35"/>
+  <circle cx="60" cy="420" r="5" fill="#ffffff"/>
+  <circle cx="90" cy="440" r="4" fill="#ffffff"/>
+  <circle cx="420" cy="460" r="5" fill="#ffffff"/>
+  <path d="M410,30 L410,12 M410,150 L410,168 M350,90 L334,90 M470,90 L486,90" stroke="#ffe27a" stroke-width="6" stroke-linecap="round"/>
+  <path d="M30,470 Q60,455 90,470" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+  <path d="M440,400 Q462,385 484,400" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.8"/>
+</svg>
