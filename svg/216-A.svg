@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <radialGradient id="sky" cx="0.3" cy="0.2" r="0.8">
+    <stop offset="0%" stop-color="#87CEEB"/>
+    <stop offset="60%" stop-color="#4682B4"/>
+    <stop offset="100%" stop-color="#1a2a3a"/>
+  </radialGradient>
+  <linearGradient id="cap" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#e74c3c"/>
+    <stop offset="50%" stop-color="#c0392b"/>
+    <stop offset="100%" stop-color="#8e1c1c"/>
+  </linearGradient>
+  <linearGradient id="stem" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#fdf5e6"/>
+    <stop offset="100%" stop-color="#d2b48c"/>
+  </linearGradient>
+  <linearGradient id="glow" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#fff8dc" stop-opacity="0.6"/>
+    <stop offset="100%" stop-color="#fff8dc" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+
+<!-- Sky -->
+<rect width="512" height="512" fill="url(#sky)"/>
+
+<!-- Distant clouds -->
+<ellipse cx="120" cy="100" rx="60" ry="18" fill="#ffffff" opacity="0.25"/>
+<ellipse cx="380" cy="80" rx="70" ry="20" fill="#ffffff" opacity="0.2"/>
+<ellipse cx="260" cy="140" rx="50" ry="14" fill="#ffffff" opacity="0.15"/>
+
+<!-- Glow behind mushroom -->
+<ellipse cx="260" cy="320" rx="160" ry="120" fill="url(#glow)"/>
+
+<!-- Mushroom stem -->
+<path d="M 220 340 Q 200 420 180 520 L 340 520 Q 320 420 300 340 Z" fill="url(#stem)"/>
+
+<!-- Mushroom cap underside shadow -->
+<ellipse cx="260" cy="340" rx="110" ry="25" fill="#5a3a1a" opacity="0.5"/>
+
+<!-- Mushroom cap -->
+<path d="M 100 340 Q 260 80 420 340 Q 260 380 100 340 Z" fill="url(#cap)"/>
+
+<!-- White spots on cap -->
+<ellipse cx="180" cy="240" rx="22" ry="14" fill="#fff" opacity="0.85"/>
+<ellipse cx="260" cy="190" rx="28" ry="18" fill="#fff" opacity="0.9"/>
+<ellipse cx="340" cy="250" rx="20" ry="12" fill="#fff" opacity="0.8"/>
+<ellipse cx="220" cy="290" rx="16" ry="10" fill="#fff" opacity="0.75"/>
+<ellipse cx="310" cy="300" rx="14" ry="9" fill="#fff" opacity="0.7"/>
+<ellipse cx="140" cy="310" rx="12" ry="8" fill="#fff" opacity="0.6"/>
+<ellipse cx="380" cy="310" rx="10" ry="7" fill="#fff" opacity="0.55"/>
+
+<!-- Tiny city buildings on cap -->
+<rect x="235" y="260" width="14" height="28" fill="#4a3b2a" rx="1"/>
+<rect x="237" y="256" width="10" height="6" fill="#8b0000"/>
+<rect x="260" y="250" width="16" height="36" fill="#3d2f1f" rx="1"/>
+<rect x="262" y="244" width="12" height="8" fill="#2f4f4f"/>
+<rect x="210" y="270" width="12" height="22" fill="#5a4a3a" rx="1"/>
+<rect x="212" y="266" width="8" height="6" fill="#556b2f"/>
+<rect x="285" y="265" width="12" height="24" fill="#4a3b2a" rx="1"/>
+<rect x="287" y="261" width="8" height="6" fill="#4682b4"/>
+<rect x="190" y="280" width="10" height="16" fill="#6b5b4b" rx="1"/>
+<rect x="305" y="275" width="10" height="18" fill="#5a4a3a" rx="1"/>
+
+<!-- Tiny windows (warm lights) -->
+<rect x="238" y="264" width="3" height="4" fill="#ffd700"/>
+<rect x="243" y="270" width="3" height="4" fill="#ffd700"/>
+<rect x="264" y="252" width="3" height="4" fill="#ffd700"/>
+<rect x="270" y="260" width="3" height="4" fill="#ffd700"/>
+<rect x="264" y="270" width="3" height="4" fill="#ffd700"/>
+<rect x="213" y="274" width="2" height="3" fill="#ffd700"/>
+<rect x="288" y="269" width="2" height="3" fill="#ffd700"/>
+
+<!-- Tiny winding path -->
+<path d="M 260 288 Q 240 310 200 330" fill="none" stroke="#d2b48c" stroke-width="3" opacity="0.7"/>
+
+<!-- Tiny trees -->
+<circle cx="175" cy="295" r="5" fill="#228b22"/>
+<circle cx="325" cy="290" r="4" fill="#228b22"/>
+<circle cx="200" cy="305" r="3" fill="#32cd32"/>
+
+<!-- Cast shadow on stem -->
+<ellipse cx="260" cy="345" rx="90" ry="12" fill="#3a2510" opacity="0.3"/>
+
+<!-- Tiny character (gardener) -->
+<circle cx="270" cy="284" r="3" fill="#ffdbac"/>
+<rect x="268" y="287" width="4" height="5" fill="#2e8b57"/>
+<line x1="270" y1="287" x2="265" y2="284" stroke="#2e8b57" stroke-width="1.5"/>
+<line x1="270" y1="287" x2="275" y2="284" stroke="#2e8b57" stroke-width="1.5"/>
+<line x1="269" y1="292" x2="268" y2="296" stroke="#333" stroke-width="1"/>
+<line x1="271" y1="292" x2="272" y2="296" stroke="#333" stroke-width="1"/>
+
+<!-- Tiny watering can -->
+<rect x="274" y="288" width="4" height="3" fill="#708090" rx="1"/>
+<line x1="276" y1="288" x2="278" y2="286" stroke="#708090" stroke-width="1"/>
+
+<!-- Water droplets -->
+<circle cx="279" cy="288" r="0.8" fill="#87CEEB" opacity="0.8"/>
+<circle cx="280" cy="290" r="0.6" fill="#87CEEB" opacity="0.7"/>
+
+</svg>

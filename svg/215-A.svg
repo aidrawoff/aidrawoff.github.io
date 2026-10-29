@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+ <defs>
+  <radialGradient id="glow" cx="50%" cy="42%" r="62%">
+   <stop offset="0%" stop-color="#ffd98a"/>
+   <stop offset="55%" stop-color="#7a3f56"/>
+   <stop offset="100%" stop-color="#1b1024"/>
+  </radialGradient>
+  <linearGradient id="bone" x1="0" y1="0" x2="0" y2="1">
+   <stop offset="0%" stop-color="#fffaf0"/>
+   <stop offset="100%" stop-color="#cbb9a4"/>
+  </linearGradient>
+  <radialGradient id="head" cx="45%" cy="40%" r="65%">
+   <stop offset="0%" stop-color="#ffffff"/>
+   <stop offset="100%" stop-color="#d3c2ab"/>
+  </radialGradient>
+ </defs>
+ <rect width="512" height="512" fill="url(#glow)"/>
+ <ellipse cx="256" cy="470" rx="230" ry="46" fill="#120a1a" opacity="0.7"/>
+ <!-- ribs -->
+ <g stroke="url(#bone)" stroke-width="11" fill="none" stroke-linecap="round">
+  <path d="M212 268q44 22 88 0"/>
+  <path d="M204 292q52 26 104 0"/>
+  <path d="M200 318q56 28 112 0"/>
+  <path d="M206 344q50 24 100 0"/>
+ </g>
+ <rect x="248" y="256" width="16" height="112" rx="7" fill="url(#bone)"/>
+ <!-- spine + neck -->
+ <rect x="243" y="230" width="26" height="34" rx="9" fill="url(#bone)"/>
+ <!-- skull -->
+ <g>
+  <ellipse cx="256" cy="168" rx="82" ry="76" fill="url(#head)"/>
+  <path d="M206 224h100q16 34 -12 44h-76q-28 -10 -12 -44z" fill="url(#head)"/>
+  <ellipse cx="222" cy="168" rx="26" ry="30" fill="#1a0f20"/>
+  <ellipse cx="290" cy="168" rx="26" ry="30" fill="#1a0f20"/>
+  <circle cx="228" cy="176" r="7" fill="#ffe9a8"/>
+  <circle cx="284" cy="176" r="7" fill="#ffe9a8"/>
+  <path d="M256 196l10 20h-20z" fill="#1a0f20"/>
+  <g stroke="#1a0f20" stroke-width="4">
+   <path d="M232 236v26M248 234v30M264 234v30M280 236v26"/>
+  </g>
+ </g>
+ <!-- banjo -->
+ <g transform="rotate(28 330 372)">
+  <rect x="90" y="362" width="230" height="19" rx="9" fill="#7a4522"/>
+  <rect x="90" y="362" width="230" height="6" rx="3" fill="#5a2f14"/>
+  <circle cx="330" cy="372" r="70" fill="#f6e8c6" stroke="#8a5227" stroke-width="14"/>
+  <circle cx="330" cy="372" r="42" fill="none" stroke="#d9b877" stroke-width="3"/>
+  <circle cx="330" cy="372" r="12" fill="#3a2210"/>
+  <rect x="72" y="352" width="34" height="38" rx="8" fill="#5a2f14"/>
+  <g stroke="#fff6dc" stroke-width="2.5" opacity="0.95">
+   <path d="M100 366h214M100 371h214M100 376h214M100 381h214"/>
+  </g>
+ </g>
+ <!-- music notes -->
+ <g fill="#ffe9a8" opacity="0.9">
+  <circle cx="112" cy="196" r="8"/><rect x="118" y="158" width="4" height="40"/>
+  <circle cx="146" cy="150" r="7"/><rect x="151" y="116" width="4" height="36"/>
+  <path d="M151 116q22 4 22 20q-4 -12 -22 -12z"/>
+ </g>
+ <!-- arms -->
+ <g stroke="url(#bone)" stroke-width="15" fill="none" stroke-linecap="round">
+  <path d="M200 262q-58 30 -78 84"/>
+  <path d="M314 262q56 34 44 92"/>
+ </g>
+ <circle cx="122" cy="346" r="13" fill="#fffaf0"/>
+ <circle cx="358" cy="354" r="13" fill="#fffaf0"/>
+</svg>
