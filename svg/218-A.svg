@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b0f3a"/>
+      <stop offset="0.55" stop-color="#3a1d63"/>
+      <stop offset="1" stop-color="#7a2f5c"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff3c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="370" cy="150" r="170" fill="url(#glow)"/>
+  <circle cx="370" cy="150" r="82" fill="#ffe9a8"/>
+  <circle cx="352" cy="132" r="12" fill="#f6d888" opacity="0.7"/>
+  <circle cx="398" cy="176" r="9" fill="#f6d888" opacity="0.6"/>
+  <g fill="#ffffff">
+    <circle cx="60" cy="70" r="2.5"/><circle cx="130" cy="40" r="1.8"/>
+    <circle cx="220" cy="60" r="2.2"/><circle cx="40" cy="200" r="1.6"/>
+    <circle cx="480" cy="60" r="2.4"/><circle cx="450" cy="250" r="1.8"/>
+    <circle cx="90" cy="330" r="2"/><circle cx="30" cy="430" r="1.6"/>
+    <circle cx="300" cy="30" r="1.5"/><circle cx="180" cy="140" r="1.5"/>
+  </g>
+  <!-- speed streaks -->
+  <g stroke="#9fe8ff" stroke-width="5" stroke-linecap="round" opacity="0.5">
+    <path d="M60 300 h70"/><path d="M40 330 h58"/><path d="M78 360 h64"/>
+  </g>
+  <!-- broom: handle front-left, bristles back-right -->
+  <g transform="rotate(-12 256 316)">
+    <rect x="96" y="308" width="300" height="14" rx="7" fill="#8a5a2b" stroke="#2a1508" stroke-width="2"/>
+    <path d="M372 300 L444 274 Q462 315 444 356 L372 330 Z" fill="#f0b845" stroke="#7d4d10" stroke-width="3"/>
+    <path d="M382 306 L452 288 M384 315 L458 315 M384 324 L452 340" stroke="#b8791c" stroke-width="4" fill="none"/>
+    <rect x="356" y="296" width="20" height="40" rx="6" fill="#5b3a17"/>
+  </g>
+  <!-- witch body: dark cloak with bright rim -->
+  <path d="M210 250 Q256 232 300 258 L318 330 Q256 356 196 328 Z" fill="#241243" stroke="#ffd88a" stroke-width="4"/>
+  <!-- legs -->
+  <path d="M232 330 Q244 372 226 396 M282 332 Q296 368 286 394" stroke="#241243" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <path d="M214 396 h26 M276 394 h26" stroke="#241243" stroke-width="14" stroke-linecap="round"/>
+  <!-- head -->
+  <circle cx="256" cy="212" r="34" fill="#a6e78f" stroke="#ffd88a" stroke-width="3"/>
+  <!-- hat -->
+  <path d="M200 190 Q256 172 312 190 Q256 208 200 190 Z" fill="#241243" stroke="#ffd88a" stroke-width="3"/>
+  <path d="M256 188 Q246 150 274 118 Q288 138 272 186 Z" fill="#241243" stroke="#ffd88a" stroke-width="3"/>
+  <circle cx="266" cy="182" r="6" fill="#ff5fa2"/>
+  <!-- hiccup face: wide open mouth, surprised brows -->
+  <ellipse cx="250" cy="222" rx="9" ry="12" fill="#3a1030"/>
+  <circle cx="244" cy="206" r="4" fill="#1b0f2a"/>
+  <circle cx="268" cy="206" r="4" fill="#1b0f2a"/>
+  <path d="M238 196 q6 -6 12 -2 M262 196 q6 -4 12 0" stroke="#1b0f2a" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <!-- hiccup bursts -->
+  <g fill="none" stroke="#8ef0ff" stroke-width="4" stroke-linecap="round" opacity="0.95">
+    <path d="M300 232 q14 -6 20 6"/>
+    <path d="M318 250 q16 -4 20 10"/>
+    <path d="M296 258 q10 12 26 10"/>
+  </g>
+  <path d="M344 236 l10 -14 l4 16 l16 -6 l-12 12 l14 8 l-18 -2 l-2 16 l-8 -14 l-14 6 z" fill="#c9fbff" opacity="0.9"/>
+  <text x="330" y="200" font-family="Georgia, serif" font-size="30" fill="#c9fbff" font-style="italic" opacity="0.95">hic!</text>
+  <!-- ground -->
+  <path d="M0 470 Q120 430 256 462 Q380 490 512 452 L512 512 L0 512 Z" fill="#150a26"/>
+  <path d="M60 470 q10 -30 24 -2 M100 468 q12 -34 26 -2" stroke="#0d0518" stroke-width="5" fill="none"/>
+</svg>

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a12"/>
+      <stop offset="100%" stop-color="#121220"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="fur" patternUnits="userSpaceOnUse" width="16" height="16">
+      <path d="M0 0 L16 0 L16 16 L0 16 Z" fill="none" stroke="#222" stroke-width="1"/>
+      <path d="M2 2 L14 2 M2 6 L14 6 M2 10 L14 10 M2 14 L14 14" stroke="#222" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- Cat body (simple oval) -->
+  <ellipse cx="256" cy="320" rx="64" ry="48" fill="url(#fur)"/>
+  <!-- Cat head -->
+  <circle cx="256" cy="240" r="40" fill="#000"/>
+  <!-- Cat ears -->
+  <path d="M236 200l20-32h24l-20 32zM296 200l-20-32h-24l20 32z" fill="#000"/>
+  <!-- Cat eyes (glowing) -->
+  <circle cx="240" cy="232" r="10" fill="#ffcc88" filter="url(#glow)"/>
+  <circle cx="272" cy="232" r="10" fill="#ffcc88" filter="url(#glow)"/>
+  <!-- Cat tail (simple curve) -->
+  <path d="M320 320c24-16 48-16 72 0" stroke="#000" stroke-width="16" stroke-linecap="round" fill="none"/>
+  <!-- Pumpkin (carved face, overlapping cat's paws) -->
+  <circle cx="256" cy="368" r="64" fill="#ff6b35"/>
+  <!-- Pumpkin carved eyes (circles) -->
+  <circle cx="232" cy="352" r="12" fill="#000"/>
+  <circle cx="280" cy="352" r="12" fill="#000"/>
+  <!-- Pumpkin carved mouth (triangle) -->
+  <path d="M232 384l48 48 48-48z" fill="#000"/>
+  <!-- Cat paws (simple ovals) -->
+  <ellipse cx="224" cy="368" rx="16" ry="12" fill="#000"/>
+  <ellipse cx="288" cy="368" rx="16" ry="12" fill="#000"/>
+  <!-- Highlight on pumpkin -->
+  <circle cx="224" cy="344" r="8" fill="#ffcc88" opacity="0.6"/>
+  <circle cx="288" cy="344" r="8" fill="#ffcc88" opacity="0.6"/>
+</svg>

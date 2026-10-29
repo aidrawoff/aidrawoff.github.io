@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="70%">
+      <stop offset="0%" stop-color="#2a1b4e"/>
+      <stop offset="50%" stop-color="#150a28"/>
+      <stop offset="100%" stop-color="#080310"/>
+    </radialGradient>
+    <radialGradient id="pumpGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffb703" stop-opacity="1"/>
+      <stop offset="70%" stop-color="#fb8500" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#9d0208" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Stars / Sparkles -->
+  <circle cx="100" cy="80" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="220" cy="60" r="2" fill="#ffb703" opacity="0.9"/>
+  <circle cx="450" cy="200" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="80" cy="220" r="1" fill="#fff" opacity="0.5"/>
+  <polygon points="220,50 222,57 229,57 223,61 225,68 220,63 215,68 217,61 211,57 218,57" fill="#ffb703" opacity="0.8"/>
+
+  <!-- Moon -->
+  <circle cx="380" cy="120" r="45" fill="#f3c68f" opacity="0.1"/>
+  <circle cx="380" cy="120" r="30" fill="#f3c68f" opacity="0.25"/>
+  <circle cx="370" cy="110" r="25" fill="#fff" opacity="0.08"/>
+  
+  <!-- Ground -->
+  <path d="M0 430 Q256 405 512 430 L512 512 L0 512 Z" fill="#1b1226"/>
+  <ellipse cx="256" cy="455" rx="240" ry="35" fill="#0c0714"/>
+
+  <!-- Pumpkin -->
+  <g id="pumpkin" transform="translate(320, 360)">
+    <!-- Pumpkin glow -->
+    <circle cx="0" cy="-40" r="95" fill="url(#pumpGlow)"/>
+    <!-- Body segments -->
+    <ellipse cx="0" cy="-40" rx="75" ry="65" fill="#d65108"/>
+    <ellipse cx="-25" cy="-40" rx="55" ry="62" fill="#f77f00"/>
+    <ellipse cx="25" cy="-40" rx="55" ry="62" fill="#f77f00"/>
+    <ellipse cx="0" cy="-40" rx="40" ry="64" fill="#fcbf49"/>
+    <!-- Rib shading lines -->
+    <path d="M0 -104 Q -35 -40 0 24" fill="none" stroke="#b53702" stroke-width="4" opacity="0.5"/>
+    <path d="M0 -104 Q 35 -40 0 24" fill="none" stroke="#b53702" stroke-width="4" opacity="0.5"/>
+    <!-- Stem -->
+    <path d="M-5 -105 Q-15 -130 -30 -135 Q-10 -120 5 -95 Z" fill="#38b000"/>
+    <!-- Highlight on stem -->
+    <path d="M-8 -108 Q-14 -122 -22 -127" fill="none" stroke="#70e000" stroke-width="2" stroke-linecap="round"/>
+    
+    <!-- Jack-o-lantern Face (carved & glowing) -->
+    <polygon points="-30,-60 -15,-75 -5,-60" fill="#0a0502" filter="url(#glow)"/>
+    <polygon points="15,-60 30,-75 5,-60" fill="#0a0502" filter="url(#glow)"/>
+    <polygon points="0,-45 -8,-30 8,-30" fill="#0a0502" filter="url(#glow)"/>
+    <path d="M-35,-15 Q0,5 35,-15 Q25,10 0,5 Q-25,10 -35,-15 Z" fill="#0a0502" filter="url(#glow)"/>
+    <polygon points="-22,-8 0,-2 22,-8 0,3" fill="#ffb703" opacity="0.4"/>
+  </g>
+
+  <!-- Black Cat (Judging Pose) -->
+  <g id="cat" transform="translate(160, 340)">
+    <!-- Tail -->
+    <path d="M-60 40 Q-90 10 -80 -30 Q-70 -50 -85 -60" fill="none" stroke="#111" stroke-width="12" stroke-linecap="round"/>
+    <!-- Body -->
+    <ellipse cx="-15" cy="20" rx="45" ry="40" fill="#111"/>
+    <!-- Chest fluff / highlight -->
+    <ellipse cx="-20" cy="5" rx="20" ry="25" fill="#1b1226" opacity="0.2"/>
+    
+    <!-- Head -->
+    <circle cx="-10" cy="-35" r="35" fill="#111"/>
+    <!-- Ears -->
+    <polygon points="-35,-55 -45,-85 -15,-60" fill="#111"/>
+    <polygon points="15,-45 30,-75 5,-55" fill="#111"/>
+    <polygon points="-32,-58 -38,-78 -20,-58" fill="#ffb703" opacity="0.9"/>
+    <polygon points="18,-48 26,-70 8,-52" fill="#ffb703" opacity="0.9"/>
+    
+    <!-- Eyes (Narrowed, critical judgment) -->
+    <ellipse cx="-22" cy="-42" rx="7" ry="3" fill="#ffe169" transform="rotate(-15 -22 -42)"/>
+    <ellipse cx="2" cy="-42" rx="7" ry="3" fill="#ffe169" transform="rotate(15 2 -42)"/>
+    <ellipse cx="-22" cy="-42" rx="2" ry="2.5" fill="#000"/>
+    <ellipse cx="2" cy="-42" rx="2" ry="2.5" fill="#000"/>
+    
+    <!-- Eyebrows / Scowl -->
+    <line x1="-31" y1="-51" x2="-13" y2="-45" stroke="#000" stroke-width="3.5" stroke-linecap="round"/>
+    <line x1="-7" y1="-45" x2="11" y2="-51" stroke="#000" stroke-width="3.5" stroke-linecap="round"/>
+    
+    <!-- Nose & Mouth -->
+    <polygon points="-12,-32 -7,-29 -17,-29" fill="#ffb703"/>
+    <path d="M-12,-29 Q-12,-24 -15,-22" fill="none" stroke="#222" stroke-width="1.5"/>
+    <path d="M-12,-29 Q-12,-24 -9,-22" fill="none" stroke="#222" stroke-width="1.5"/>
+    
+    <!-- Whiskers -->
+    <line x1="-35" y1="-32" x2="-55" y2="-36" stroke="#444" stroke-width="1" stroke-linecap="round"/>
+    <line x1="-35" y1="-28" x2="-55" y2="-28" stroke="#444" stroke-width="1" stroke-linecap="round"/>
+    <line x1="12" y1="-32" x2="32" y2="-36" stroke="#444" stroke-width="1" stroke-linecap="round"/>
+    <line x1="12" y1="-28" x2="32" y2="-28" stroke="#444" stroke-width="1" stroke-linecap="round"/>
+
+    <!-- Paw on chin (Critical gesture) -->
+    <circle cx="-25" cy="-15" r="12" fill="#111"/>
+    <circle cx="-28" cy="-18" r="3" fill="#333" opacity="0.5"/>
+  </g>
+</svg>
