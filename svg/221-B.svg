@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: dark gym with spotlight on pumpkin -->
+  <defs>
+  <!-- Gym wall gradient -->
+  <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#111122"/>
+    <stop offset="100%" stop-color="#080812"/>
+  </linearGradient>
+</defs>
+<rect width="512" height="512" fill="url(#wall)"/>
+  <!-- Spotlight cone (sharper gradient) -->
+  <radialGradient id="spotlight" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" stop-color="#ffffff" stop-opacity="0.25"/>
+    <stop offset="60%" stop-color="#0a0a1a" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#0a0a1a" stop-opacity="1"/>
+  </radialGradient>
+  <rect x="0" y="0" width="512" height="512" fill="url(#spotlight)"/>
+
+  <!-- Pumpkin (centered) -->
+  <g transform="translate(256,256)">
+    <!-- Pumpkin body (orange) with subtle texture -->
+    <path d="M -100,-120 C -100,-160 100,-160 100,-120 C 100,-80 60,-60 0,-60 C -60,-60 -100,-80 -100,-120 Z" fill="#d4832f" stroke="#a05a1a" stroke-width="2"/>
+    <!-- Pumpkin texture (subtle ridges) -->
+    <path d="M -80,-100 C -60,-110 60,-110 80,-100 C 60,-90 20,-90 0,-80 C -20,-90 -60,-90 -80,-100 Z" fill="#c4731f" opacity="0.3"/>
+    <!-- Carved face (triangular eyes, jagged mouth) -->
+    <path d="M -40,-90 L -20,-70 L 0,-90 Z M 40,-90 L 20,-70 L 0,-90 Z M -60,-30 L -40,0 L 40,0 L 60,-30 L 40,-60 L -40,-60 Z" fill="#2a1e18"/>
+    <!-- Sharpened mouth jaggedness -->
+    <path d="M -40,-40 L -30,-20 L -10,-30 L 10,-30 L 30,-20 L 40,-40 L 30,-60 L 10,-70 L -10,-70 L -30,-60 Z" fill="#2a1e18"/>
+    <!-- Glow behind face (stronger) -->
+    <ellipse cx="0" cy="-80" rx="70" ry="30" fill="#ffcc80" opacity="0.7"/>
+    <!-- Inner glow (core) -->
+    <circle cx="0" cy="-80" r="25" fill="#ffaa40" opacity="0.6"/>
+  </g>
+  <!-- Floor reflections beneath pumpkin -->
+  <ellipse cx="256" cy="420" rx="60" ry="15" fill="#ffcc80" opacity="0.2"/>
+
+  <!-- Gym background elements (refined) -->
+  <!-- Vaulting horse (more detail) -->
+  <path d="M 380,320 L 420,320 L 420,360 L 380,360 Z" fill="#3a3a3a"/>
+  <path d="M 380,320 L 400,280 L 420,320" fill="#5a5a5a"/>
+  <path d="M 390,320 L 390,360" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M 410,320 L 410,360" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- Gymnastics rings (more depth) -->
+  <circle cx="120" cy="180" r="12" fill="#5a5a5a"/>
+  <circle cx="120" cy="180" r="6" fill="#3a3a3a"/>
+  <circle cx="380" cy="120" r="12" fill="#5a5a5a"/>
+  <circle cx="380" cy="120" r="6" fill="#3a3a3a"/>
+  <!-- Floor lines (gym) -->
+  <path d="M 0,400 L 512,400" stroke="#2a2a2a" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M 0,420 L 512,420" stroke="#2a2a2a" stroke-width="2" stroke-dasharray="4,4"/>
+  <path d="M 0,440 L 512,440" stroke="#2a2a2a" stroke-width="2" stroke-dasharray="4,4"/>
+  <!-- Floor texture (subtle) -->
+  <path d="M 0,450 Q 60,460 120,450 T 240,450 T 360,450 T 480,450" stroke="#1a1a1a" stroke-width="1" fill="none" opacity="0.3"/>
+  <!-- Additional gym equipment: balance beam -->
+  <path d="M 200,380 L 300,380" stroke="#3a3a3a" stroke-width="4"/>
+  <path d="M 200,380 L 200,360" stroke="#2a2a2a" stroke-width="2"/>
+  <path d="M 300,380 L 300,360" stroke="#2a2a2a" stroke-width="2"/>
+  <!-- Horizontal bars -->
+  <path d="M 100,200 L 150,200" stroke="#5a5a5a" stroke-width="6"/>
+  <path d="M 100,200 L 100,180" stroke="#3a3a3a" stroke-width="2"/>
+  <path d="M 150,200 L 150,180" stroke="#3a3a3a" stroke-width="2"/>
+  <!-- Gym wall texture (subtle) -->
+  <path d="M 0,100 L 512,100" stroke="#1a1a2a" stroke-width="1"/>
+  <path d="M 0,120 L 512,120" stroke="#1a1a2a" stroke-width="1"/>
+  <path d="M 0,140 L 512,140" stroke="#1a1a2a" stroke-width="1"/>
+  <path d="M 50,100 L 50,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 100,100 L 100,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 150,100 L 150,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 200,100 L 200,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 250,100 L 250,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 300,100 L 300,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 350,100 L 350,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 400,100 L 400,140" stroke="#0f0f1a" stroke-width="1"/>
+  <path d="M 450,100 L 450,140" stroke="#0f0f1a" stroke-width="1"/>
+</svg>
