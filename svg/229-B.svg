@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#000"/>
+  <!-- Sheet draped over werewolf -->
+  <rect x="192" y="128" width="128" height="256" fill="#f8f8f8"/>
+  <!-- Glowing eyes -->
+  <circle cx="240" cy="184" r="8" fill="#ff0"/>
+  <circle cx="272" cy="184" r="8" fill="#ff0"/>
+</svg>

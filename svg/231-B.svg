@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background: night sky with moon -->
+  <defs>
+    <radialGradient id="skyGrad" cx="0.3" cy="0.2" r="1">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#0d0221"/>
+    </radialGradient>
+    <radialGradient id="sunGrad" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#fff7e6"/>
+      <stop offset="30%" stop-color="#ffcc00"/>
+      <stop offset="100%" stop-color="#ff6600"/>
+    </radialGradient>
+    <linearGradient id="capeGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a0a1a"/>
+      <stop offset="100%" stop-color="#0f0208"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Moon -->
+  <circle cx="400" cy="100" r="50" fill="#f0e6d6" opacity="0.9"/>
+  <circle cx="385" cy="90" r="8" fill="#d9cbb8" opacity="0.5"/>
+  <circle cx="420" cy="110" r="5" fill="#d9cbb8" opacity="0.4"/>
+
+  <!-- Stars -->
+  <circle cx="50" cy="40" r="1.5" fill="#fff" opacity="0.8"/>
+  <circle cx="120" cy="80" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="200" cy="30" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="300" cy="60" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="480" cy="50" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="450" cy="180" r="1" fill="#fff" opacity="0.6"/>
+
+  <!-- Ground: cobblestone street -->
+  <rect x="0" y="380" width="512" height="132" fill="#1a1425"/>
+  <ellipse cx="256" cy="380" rx="200" ry="15" fill="#0f0a18"/>
+
+  <!-- Vampire silhouette -->
+  <g transform="translate(200, 180)">
+    <!-- Cape flowing back -->
+    <path d="M60,80 Q20,120 10,200 L110,200 Q100,120 60,80" fill="url(#capeGrad)"/>
+    <!-- Body -->
+    <ellipse cx="60" cy="140" rx="25" ry="55" fill="#1a0a12"/>
+    <!-- Head -->
+    <ellipse cx="60" cy="85" rx="22" ry="26" fill="#e8d5c4"/>
+    <!-- Hair -->
+    <path d="M38,75 Q35,55 60,50 Q85,55 82,75 Q88,85 80,95 Q60,90 40,95 Q32,85 38,75" fill="#0a0a0a"/>
+    <!-- Face: wide scared eyes -->
+    <ellipse cx="52" cy="82" rx="6" ry="7" fill="#fff"/>
+    <ellipse cx="68" cy="82" rx="6" ry="7" fill="#fff"/>
+    <circle cx="52" cy="82" r="3" fill="#660000"/>
+    <circle cx="68" cy="82" r="3" fill="#660000"/>
+    <!-- Tiny pupils -->
+    <circle cx="52" cy="82" r="1.5" fill="#000"/>
+    <circle cx="68" cy="82" r="1.5" fill="#000"/>
+    <!-- Eyebrows raised in fear -->
+    <path d="M45,72 Q52,68 58,72" stroke="#0a0a0a" stroke-width="2" fill="none"/>
+    <path d="M62,72 Q68,68 75,72" stroke="#0a0a0a" stroke-width="2" fill="none"/>
+    <!-- Open mouth in horror -->
+    <ellipse cx="60" cy="95" rx="5" ry="7" fill="#330000"/>
+    <!-- Fangs -->
+    <path d="M57,91 L58,96 L59,91" fill="#fff"/>
+    <path d="M61,91 L62,96 L63,91" fill="#fff"/>
+    <!-- Hand raised to shield -->
+    <ellipse cx="35" cy="110" rx="8" ry="12" fill="#e8d5c4" transform="rotate(-20 35 110)"/>
+  </g>
+
+  <!-- THE SUN: rising from below, rays blazing -->
+  <circle cx="100" cy="520" r="70" fill="url(#sunGrad)"/>
+  <!-- Sun rays -->
+  <polygon points="100,520 60,380 80,380" fill="#ffcc00" opacity="0.6"/>
+  <polygon points="100,520 120,360 140,360" fill="#ffcc00" opacity="0.5"/>
+  <polygon points="100,520 20,420 40,430" fill="#ffcc00" opacity="0.4"/>
+  <polygon points="100,520 160,400 180,410" fill="#ffcc00" opacity="0.5"/>
+  <polygon points="100,520 0,480 20,490" fill="#ffcc00" opacity="0.3"/>
+
+  <!-- Light beam hitting vampire -->
+  <polygon points="100,520 180,200 220,200" fill="#ffaa00" opacity="0.15"/>
+  <polygon points="100,520 240,220 280,220" fill="#ffaa00" opacity="0.1"/>
+
+  <!-- Smoke/steam from vampire where light hits -->
+  <ellipse cx="230" cy="260" rx="15" ry="25" fill="#ccc" opacity="0.3"/>
+  <ellipse cx="240" cy="240" rx="10" ry="18" fill="#ddd" opacity="0.25"/>
+  <ellipse cx="220" cy="280" rx="12" ry="20" fill="#bbb" opacity="0.2"/>
+
+  <!-- Dramatic shadow from vampire -->
+  <ellipse cx="280" cy="390" rx="40" ry="8" fill="#000" opacity="0.5"/>
+</svg>

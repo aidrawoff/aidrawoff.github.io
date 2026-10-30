@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="nightBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05070e"/>
+      <stop offset="50%" stop-color="#12102f"/>
+      <stop offset="100%" stop-color="#240733"/>
+    </linearGradient>
+
+    <!-- Ghost Glow & Gradients -->
+    <radialGradient id="ghostGlow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#6ee7b7" stop-opacity="0.55"/>
+      <stop offset="70%" stop-color="#38bdf8" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="ghostBody" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="50%" stop-color="#f1f5f9"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+
+    <linearGradient id="phoneScreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <!-- Drop Shadows & Filters -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="8" flood-color="#000" flood-opacity="0.7"/>
+    </filter>
+
+    <filter id="glowFilter" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#nightBg)"/>
+
+  <!-- Ambient Stars & Floating Dust -->
+  <circle cx="80" cy="100" r="2" fill="#fff" opacity="0.9"/>
+  <circle cx="430" cy="80" r="3" fill="#38bdf8" opacity="0.95"/>
+  <circle cx="450" cy="300" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="90" cy="400" r="2.5" fill="#f43f5e" opacity="0.8"/>
+  <circle cx="260" cy="70" r="2" fill="#fbbf24" opacity="0.95"/>
+  <circle cx="120" cy="220" r="1.5" fill="#c084fc" opacity="0.8"/>
+  <circle cx="390" cy="360" r="2" fill="#6ee7b7" opacity="0.85"/>
+
+  <!-- Floating Ambient Orbs (Magic) -->
+  <circle cx="360" cy="180" r="30" fill="#f43f5e" opacity="0.22" filter="url(#glowFilter)"/>
+  <circle cx="140" cy="300" r="40" fill="#38bdf8" opacity="0.22" filter="url(#glowFilter)"/>
+
+  <!-- Cozy Armchair silhouette below -->
+  <path d="M160 420 C160 380 180 360 220 360 L292 360 C332 360 352 380 352 420 L370 480 C370 495 355 500 340 500 L172 500 C157 500 142 495 142 480 Z" fill="#1e293b" filter="url(#shadow)"/>
+  <path d="M130 400 C130 370 150 350 170 350 C190 350 200 370 200 400 L200 460 C200 480 180 490 160 490 C140 490 130 470 130 450 Z" fill="#334155"/>
+  <path d="M382 400 C382 370 362 350 342 350 C322 350 312 370 312 400 L312 460 C312 480 332 490 352 490 C372 490 382 470 382 450 Z" fill="#334155"/>
+
+  <!-- Ghost Aura / Glow -->
+  <circle cx="256" cy="220" r="145" fill="url(#ghostGlow)"/>
+
+  <!-- Floating Notification Bubbles -->
+  <g transform="translate(315, 85)" filter="url(#shadow)">
+    <rect x="0" y="0" width="145" height="42" rx="21" fill="#ffffff" opacity="0.95"/>
+    <polygon points="15,42 27,42 12,58" fill="#ffffff" opacity="0.95"/>
+    <text x="20" y="27" font-family="sans-serif" font-weight="bold" font-size="14" fill="#0f172a">❤️ 15.6k Likes</text>
+  </g>
+
+  <g transform="translate(40, 145)" filter="url(#shadow)">
+    <rect x="0" y="0" width="130" height="38" rx="19" fill="#1e293b" opacity="0.95" stroke="#38bdf8" stroke-width="2"/>
+    <polygon points="95,38 107,38 102,52" fill="#1e293b"/>
+    <text x="18" y="24" font-family="sans-serif" font-weight="bold" font-size="13" fill="#38bdf8">👻 Boo-kmark</text>
+  </g>
+
+  <!-- Sparkles -->
+  <path d="M370 280 L373 290 L383 293 L373 296 L370 306 L367 296 L357 293 L367 290 Z" fill="#fbbf24" opacity="0.95"/>
+  <path d="M120 110 L122 116 L128 118 L122 120 L120 126 L118 120 L112 118 L118 116 Z" fill="#38bdf8" opacity="0.98"/>
+
+  <!-- Ghost Body -->
+  <path d="M190 190 
+           C190 110 322 110 322 190 
+           C322 220 340 250 340 290 
+           C340 330 315 370 300 400 
+           C285 370 270 350 256 400 
+           C242 350 227 370 212 400 
+           C197 370 172 330 172 290 
+           C172 250 190 220 190 190 Z" 
+        fill="url(#ghostBody)" filter="url(#shadow)"/>
+
+  <!-- Ghost Arms / Holding Phone -->
+  <path d="M185 240 C160 250 160 280 190 290" fill="none" stroke="#e2e8f0" stroke-width="16" stroke-linecap="round"/>
+  <path d="M325 240 C355 250 360 220 345 200" fill="none" stroke="#e2e8f0" stroke-width="16" stroke-linecap="round"/>
+
+  <!-- Smartphone & Screen Glow -->
+  <g transform="translate(205, 255) rotate(-15)" filter="url(#shadow)">
+    <!-- Phone Body -->
+    <rect x="0" y="0" width="56" height="96" rx="10" fill="#0f172a" stroke="#64748b" stroke-width="2"/>
+    <!-- Screen -->
+    <rect x="5" y="8" width="46" height="80" rx="5" fill="url(#phoneScreen)"/>
+    <!-- UI elements on screen -->
+    <rect x="10" y="15" width="36" height="12" rx="3" fill="#ffffff" opacity="0.95"/>
+    <rect x="10" y="33" width="24" height="8" rx="2" fill="#ffffff" opacity="0.8"/>
+    <rect x="10" y="45" width="36" height="25" rx="4" fill="#ffffff" opacity="0.98"/>
+    <!-- App UI feed icons -->
+    <circle cx="16" cy="78" r="4" fill="#f43f5e"/>
+    <circle cx="28" cy="78" r="4" fill="#38bdf8"/>
+    <circle cx="40" cy="78" r="4" fill="#fbbf24"/>
+  </g>
+
+  <!-- Light Glow from Phone onto Ghost Face -->
+  <path d="M210 270 L250 210 L270 240 Z" fill="#38bdf8" opacity="0.45" filter="url(#glowFilter)"/>
+
+  <!-- Ghost Face (Happy & Engaged) -->
+  <circle cx="230" cy="175" r="7" fill="#0f172a"/>
+  <circle cx="282" cy="175" r="7" fill="#0f172a"/>
+  <!-- Anime Eye Highlights -->
+  <circle cx="232" cy="173" r="2.5" fill="#ffffff"/>
+  <circle cx="284" cy="173" r="2.5" fill="#ffffff"/>
+
+  <!-- Smiling Mouth -->
+  <path d="M246 195 Q256 208 266 195" fill="none" stroke="#0f172a" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Blushing Cheeks -->
+  <ellipse cx="220" cy="188" rx="6" ry="4" fill="#f43f5e" opacity="0.55"/>
+  <ellipse cx="292" cy="188" rx="6" ry="4" fill="#f43f5e" opacity="0.55"/>
+
+</svg>

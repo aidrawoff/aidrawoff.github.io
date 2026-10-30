@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <!-- Background: dark moody hallway -->
+  <rect width="512" height="512" fill="#1a1a2e"/>
+  
+  <!-- Floor -->
+  <ellipse cx="256" cy="480" rx="280" ry="60" fill="#0f0f1a"/>
+  
+  <!-- Door frame outer -->
+  <rect x="120" y="40" width="272" height="440" rx="4" fill="#2d1b0e" stroke="#1a0f05" stroke-width="4"/>
+  
+  <!-- Door frame inner (arched top) -->
+  <path d="M150 440 L150 140 Q150 80 256 80 Q362 80 362 140 L362 440 Z" fill="#1c1008" stroke="#0f0802" stroke-width="3"/>
+  
+  <!-- Door panels - the ghost is STUCK between two doors -->
+  <!-- Left door panel -->
+  <rect x="155" y="100" width="98" height="330" rx="2" fill="#3d2514" stroke="#2a1a0c" stroke-width="2"/>
+  <rect x="165" y="110" width="78" height="150" rx="2" fill="#4a2e18" stroke="#2a1a0c" stroke-width="1"/>
+  <rect x="165" y="280" width="78" height="140" rx="2" fill="#4a2e18" stroke="#2a1a0c" stroke-width="1"/>
+  
+  <!-- Right door panel -->
+  <rect x="259" y="100" width="98" height="330" rx="2" fill="#3d2514" stroke="#2a1a0c" stroke-width="2"/>
+  <rect x="269" y="110" width="78" height="150" rx="2" fill="#4a2e18" stroke="#2a1a0c" stroke-width="1"/>
+  <rect x="269" y="280" width="78" height="140" rx="2" fill="#4a2e18" stroke="#2a1a0c" stroke-width="1"/>
+  
+  <!-- DOOR KNOBS -->
+  <circle cx="240" cy="270" r="8" fill="#8b7355" stroke="#5a4a30" stroke-width="2"/>
+  <circle cx="272" cy="270" r="8" fill="#8b7355" stroke="#5a4a30" stroke-width="2"/>
+  
+  <!-- GHOST - squeezed between the doors, comically stuck! -->
+  <!-- Ghost body - translucent white with blue tint -->
+  <ellipse cx="256" cy="260" rx="35" ry="55" fill="#e8e8ff" opacity="0.85"/>
+  
+  <!-- Ghost head -->
+  <circle cx="256" cy="200" r="28" fill="#e8e8ff" opacity="0.85"/>
+  
+  <!-- Ghost eyes - wide and startled -->
+  <ellipse cx="245" cy="195" rx="6" ry="8" fill="#1a1a2e"/>
+  <ellipse cx="267" cy="195" rx="6" ry="8" fill="#1a1a2e"/>
+  <!-- Eye highlights -->
+  <circle cx="247" cy="192" r="2" fill="#ffffff"/>
+  <circle cx="269" cy="192" r="2" fill="#ffffff"/>
+  
+  <!-- Ghost mouth - open in surprise -->
+  <ellipse cx="256" cy="210" rx="8" ry="6" fill="#1a1a2e" opacity="0.6"/>
+  
+  <!-- Ghost arms pushed against both doors -->
+  <!-- Left arm pressed against left door -->
+  <path d="M225 240 Q200 245 195 260" stroke="#e8e8ff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+  <!-- Right arm pressed against right door -->
+  <path d="M287 240 Q312 245 317 260" stroke="#e8e8ff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.8"/>
+  
+  <!-- Ghost bottom - wispy trailing end -->
+  <path d="M225 310 Q230 340 220 360 Q235 345 240 365 Q250 340 256 355 Q262 340 272 365 Q280 345 275 310" 
+        fill="#e8e8ff" opacity="0.7"/>
+  
+  <!-- Pressure marks on doors where ghost is pushing -->
+  <!-- Left door pressure -->
+  <circle cx="195" cy="260" r="15" fill="none" stroke="#6b4c2a" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="195" cy="260" r="8" fill="none" stroke="#6b4c2a" stroke-width="1" opacity="0.4"/>
+  <!-- Right door pressure -->
+  <circle cx="317" cy="260" r="15" fill="none" stroke="#6b4c2a" stroke-width="1.5" opacity="0.5"/>
+  <circle cx="317" cy="260" r="8" fill="none" stroke="#6b4c2a" stroke-width="1" opacity="0.4"/>
+  
+  <!-- Dramatic spotlight from above -->
+  <polygon points="256,0 200,440 312,440" fill="#ffffff" opacity="0.03"/>
+  
+  <!-- Eerie glow around the ghost -->
+  <ellipse cx="256" cy="260" rx="60" ry="90" fill="#aabbff" opacity="0.06"/>
+  
+  <!-- Small decorative elements - cobwebs in corners -->
+  <path d="M150 40 Q170 60 150 80" stroke="#cccccc" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M150 40 Q160 50 155 70" stroke="#cccccc" stroke-width="0.5" fill="none" opacity="0.2"/>
+  <path d="M362 40 Q342 60 362 80" stroke="#cccccc" stroke-width="1" fill="none" opacity="0.3"/>
+  <path d="M362 40 Q352 50 355 70" stroke="#cccccc" stroke-width="0.5" fill="none" opacity="0.2"/>
+  
+  <!-- Floor shadow under door -->
+  <ellipse cx="256" cy="475" rx="140" ry="12" fill="#000000" opacity="0.3"/>
+  
+  <!-- Subtle atmosphere particles -->
+  <circle cx="180" cy="350" r="1.5" fill="#ffffff" opacity="0.2"/>
+  <circle cx="340" cy="320" r="1" fill="#ffffff" opacity="0.15"/>
+  <circle cx="200" cy="150" r="1" fill="#ffffff" opacity="0.1"/>
+  <circle cx="320" cy="180" r="1.5" fill="#ffffff" opacity="0.12"/>
+  <circle cx="280" cy="400" r="1" fill="#ffffff" opacity="0.18"/>
+</svg>

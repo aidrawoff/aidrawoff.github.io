@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#000"/>
+  <!-- Ghost: white circle with face -->
+  <circle cx="256" cy="256" r="100" fill="#fff"/>
+  <circle cx="240" cy="240" r="12" fill="#000"/>
+  <circle cx="272" cy="240" r="12" fill="#000"/>
+  <!-- Phone: gray rectangle with black screen -->
+  <rect x="320" y="220" width="70" height="90" rx="8" fill="#888"/>
+  <rect x="330" y="230" width="50" height="70" fill="#000"/>
+  <!-- Hand holding phone -->
+  <path d="M280 260 C290 270 300 275 310 270" stroke="#fff" stroke-width="12" stroke-linecap="round" fill="none"/>
+</svg>

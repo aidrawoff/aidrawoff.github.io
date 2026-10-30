@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101833"/><stop offset="1" stop-color="#273052"/></linearGradient>
+ <linearGradient id="door" x2="1"><stop stop-color="#5b2933"/><stop offset="1" stop-color="#8d4b48"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#fffbd1" stop-opacity=".95"/><stop offset="1" stop-color="#9be4e1" stop-opacity="0"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<path d="M0 390 Q150 350 270 390 T512 370 V512H0Z" fill="#17182e"/>
+<circle cx="390" cy="100" r="72" fill="#e8f2d1" opacity=".9"/><circle cx="390" cy="100" r="105" fill="url(#halo)"/>
+<path d="M40 400V130h118v270" fill="#0b1022" stroke="#606783" stroke-width="7"/>
+<path d="M70 400V160h58v240" fill="#222742"/><path d="M12 400h174" stroke="#76819a" stroke-width="8"/>
+<!-- door and its dramatic opening -->
+<path d="M170 400V82h234v318Z" fill="#351e2d" stroke="#d6a66b" stroke-width="9"/>
+<path d="M196 400V108h179v292Z" fill="url(#door)" stroke="#311b2a" stroke-width="7"/>
+<path d="M196 108h179v292H196Z" fill="none" stroke="#d78363" stroke-width="3"/>
+<path d="M265 110v290M320 110v290M196 205h179M196 300h179" stroke="#542b36" stroke-width="5" opacity=".8"/>
+<circle cx="350" cy="257" r="12" fill="#f5d987"/><circle cx="350" cy="257" r="5" fill="#75402f"/>
+<!-- luminous ghost trapped in the narrowing gap -->
+<path d="M143 370 C132 331 146 292 170 267 C183 253 185 223 187 188 C190 147 216 124 252 126 C286 128 305 154 307 191 L310 255 C316 280 340 304 350 339 L355 371 Z" fill="#d9fbeb" stroke="#8ee0d1" stroke-width="6"/>
+<path d="M187 188 C202 169 218 161 239 163 C265 165 284 177 307 193" fill="none" stroke="#f7fff0" stroke-width="8" opacity=".8"/>
+<ellipse cx="244" cy="197" rx="59" ry="65" fill="#dcfff0"/>
+<ellipse cx="222" cy="195" rx="10" ry="17" fill="#222642"/><ellipse cx="268" cy="195" rx="10" ry="17" fill="#222642"/>
+<circle cx="224" cy="190" r="4" fill="#fff9cf"/><circle cx="270" cy="190" r="4" fill="#fff9cf"/>
+<path d="M225 225 Q246 240 270 222" fill="none" stroke="#713e58" stroke-width="6" stroke-linecap="round"/>
+<!-- arms jammed against frame -->
+<path d="M180 254 Q148 250 132 274 Q119 295 143 307 Q166 316 190 286" fill="#d9fbeb" stroke="#8ee0d1" stroke-width="6"/>
+<path d="M300 255 Q331 244 352 265 Q368 282 350 299 Q331 310 306 285" fill="#d9fbeb" stroke="#8ee0d1" stroke-width="6"/>
+<path d="M154 278l-22-11m28 28-27 3m193-19 24-12m-28 30 28 5" stroke="#8ee0d1" stroke-width="5" stroke-linecap="round"/>
+<!-- ghost tail squeezing under door -->
+<path d="M164 342 Q202 363 237 349 Q273 333 303 354 Q330 373 355 356 L355 400H143Z" fill="#d9fbeb" stroke="#8ee0d1" stroke-width="6"/>
+<path d="M145 399h218" stroke="#101326" stroke-width="12"/>
+<path d="M112 330l-18 8m20-24-22-2m267 12 19 7m-20-23 22-3" stroke="#f2c56d" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+<path d="M212 145l-8-12m27 8-2-16m28 19 6-14" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity=".65"/>
+<path d="M382 376l18 8-18 8z" fill="#e7b66d"/>
+<path d="M365 330l10 8m-10 4 10 8" stroke="#d78363" stroke-width="3" stroke-linecap="round"/>
+<ellipse cx="245" cy="414" rx="125" ry="12" fill="#090d1b" opacity=".65"/>
+<text x="34" y="58" fill="#d6e8ff" font-family="sans-serif" font-size="20" letter-spacing="4">NIGHT SHIFT</text>
+</svg>
