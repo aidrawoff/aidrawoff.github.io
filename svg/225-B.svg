@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Gym background: dark walls, lighter ceiling -->
+  <rect width="512" height="512" fill="#111111"/>
+  <rect x="0" y="0" width="512" height="128" fill="#222222"/>
+  <rect x="0" y="384" width="512" height="128" fill="#0a0a0a"/>
+
+  <!-- Ghost sheet: main shape, centered, sheet-like with wispy bottom -->
+  <path id="sheet" d="M256 192c-48 0-88 32-88 80 0 24 8 48 24 64 16 16 40 24 64 24s48-8 64-24c16-16 24-40 24-64 0-48-40-80-88-80zm0 32c24 0 44 16 44 40s-20 40-44 40-44-16-44-40 20-40 44-40z" fill="#f8f8f8" opacity="0.95"/>
+  <!-- Sheet creases and folds -->
+  <path d="M224 224h64M208 240h96M192 256h128M176 272h160" stroke="#e0e0e0" stroke-width="2" stroke-opacity="0.6" fill="none"/>
+  <!-- Wispy bottom edges -->
+  <path d="M200 288c-16 8-32 12-48 8-24-6-44-24-48-48-6-32 16-56 48-64 32-8 64 8 64 40 0 24-24 40-48 48-16 4-32 0-48-8z" fill="#f8f8f8" opacity="0.8"/>
+
+  <!-- Dumbbell head as ghost's "head": centered on sheet top -->
+  <circle cx="256" cy="192" r="32" fill="#e0e0e0"/>
+  <circle cx="256" cy="192" r="24" fill="#ffffff"/>
+  <!-- Dumbbell bar: horizontal line through head -->
+  <rect x="224" y="184" width="64" height="16" rx="8" fill="#555555"/>
+  <!-- Bar ends -->
+  <circle cx="224" cy="192" r="8" fill="#333333"/>
+  <circle cx="288" cy="192" r="8" fill="#333333"/>
+
+  <!-- Soft glow behind ghost sheet -->
+  <ellipse cx="256" cy="288" rx="160" ry="104" fill="#ffffff" opacity="0.14"/>
+  <ellipse cx="256" cy="288" rx="128" ry="80" fill="#ffffff" opacity="0.10"/>
+  <ellipse cx="256" cy="288" rx="96" ry="56" fill="#ffffff" opacity="0.06"/>
+
+  <!-- Wispy details: strands trailing from sheet -->
+  <path d="M224 320c-8 4-16 8-24 12-16 8-32 16-40 24-12 12-24 24-24 40 0 16 8 32 24 40 16 8 32 12 48 12s32-4 48-12c16-8 24-24 24-40 0-16-8-32-24-40-8-4-16-8-24-12" fill="none" stroke="#f8f8f8" stroke-width="2" stroke-opacity="0.7"/>
+  <!-- Additional wispy strands -->
+  <path d="M288 304c8 4 16 8 24 12 16 8 32 16 40 24 12 12 24 24 24 40 0 16-8 32-24 40-8 4-16 8-24 12" fill="none" stroke="#f8f8f8" stroke-width="2" stroke-opacity="0.6"/>
+
+  <!-- Gym gear silhouettes: simple shapes, not cluttering -->
+  <rect x="80" y="420" width="40" height="60" rx="4" fill="#333333"/>
+  <rect x="420" y="420" width="40" height="60" rx="4" fill="#333333"/>
+  <rect x="160" y="440" width="32" height="40" rx="2" fill="#333333"/>
+  <rect x="320" y="440" width="32" height="40" rx="2" fill="#333333"/>
+  <!-- Weight plate silhouettes -->
+  <circle cx="100" cy="450" r="16" fill="#555555"/>
+  <circle cx="460" cy="450" r="16" fill="#555555"/>
+  <!-- Dumbbell rack silhouette -->
+  <rect x="240" y="460" width="32" height="24" rx="2" fill="#333333"/>
+</svg>

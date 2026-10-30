@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#101735"/><stop offset="1" stop-color="#334d78"/></linearGradient>
+ <linearGradient id="cloak" x2="0" y2="1"><stop stop-color="#321d55"/><stop offset="1" stop-color="#160d2b"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fff6c4"/><stop offset="1" stop-color="#e8c86b"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="390" cy="104" r="57" fill="url(#moon)" opacity=".95"/>
+<path d="M0 405 Q110 365 220 411 T512 392 V512H0Z" fill="#dce8f3"/>
+<path d="M0 451 Q126 418 256 455 T512 440 V512H0Z" fill="#b7cade"/>
+<g fill="#f6fbff" opacity=".85">
+ <circle cx="52" cy="84" r="4"/><circle cx="119" cy="151" r="3"/><circle cx="188" cy="61" r="4"/><circle cx="278" cy="132" r="3"/><circle cx="456" cy="184" r="4"/><circle cx="345" cy="48" r="3"/><circle cx="72" cy="262" r="3"/><circle cx="430" cy="292" r="3"/>
+</g>
+<!-- witch hat -->
+<path d="M178 151 Q231 108 286 139 L252 54 Q249 43 260 48 L349 111 Q357 118 345 121 L271 143 Q258 169 219 176Z" fill="#201230" stroke="#0d0818" stroke-width="7"/>
+<path d="M169 147 Q235 126 301 150 L310 176 Q235 193 160 170Z" fill="#382052" stroke="#0d0818" stroke-width="7"/>
+<path d="M171 149 Q235 132 299 151" fill="none" stroke="#f7fbff" stroke-width="5" opacity=".9"/>
+<path d="M175 151 Q238 135 298 153" fill="none" stroke="#e0a62d" stroke-width="10"/>
+<path d="M228 141 L246 141 L246 160 L228 160Z" fill="#f4cc55" stroke="#6d3b27" stroke-width="3"/>
+<!-- cloak/body -->
+<path d="M181 291 Q150 318 135 401 L112 470 Q235 498 365 468 L340 383 Q326 319 281 290Z" fill="url(#cloak)" stroke="#0d0818" stroke-width="8"/>
+<path d="M169 342 Q250 371 326 339" fill="none" stroke="#6c3f8f" stroke-width="7"/>
+<!-- snowman -->
+<circle cx="232" cy="281" r="79" fill="#f8fbff" stroke="#b9cfe1" stroke-width="6"/>
+<circle cx="232" cy="211" r="59" fill="#fbffff" stroke="#b9cfe1" stroke-width="6"/>
+<circle cx="214" cy="199" r="7" fill="#202536"/><circle cx="251" cy="199" r="7" fill="#202536"/>
+<circle cx="196" cy="222" r="8" fill="#f3b4ae" opacity=".65"/><circle cx="268" cy="222" r="8" fill="#f3b4ae" opacity=".65"/>
+<path d="M228 216 L276 226 L229 237Z" fill="#e78332" stroke="#a34c20" stroke-width="3"/>
+<path d="M211 250 Q233 266 256 247" fill="none" stroke="#303446" stroke-width="5"/>
+<circle cx="232" cy="285" r="7" fill="#303446"/><circle cx="232" cy="319" r="7" fill="#303446"/>
+<!-- scarf -->
+<path d="M174 253 Q231 275 288 251 L284 277 Q231 296 179 275Z" fill="#b72d42" stroke="#681b32" stroke-width="4"/>
+<path d="M271 269 L309 341 L279 353 L251 282Z" fill="#b72d42" stroke="#681b32" stroke-width="4"/>
+<!-- twig arms -->
+<path d="M171 293 L105 267 M119 273 L101 245 M119 273 L87 280" stroke="#5c3828" stroke-width="8" fill="none" stroke-linecap="round"/>
+<path d="M292 292 L354 257 M342 264 L366 238 M342 264 L373 271" stroke="#5c3828" stroke-width="8" fill="none" stroke-linecap="round"/>
+<!-- broom -->
+<path d="M346 257 L426 417" stroke="#81502e" stroke-width="9"/>
+<path d="M400 403 Q454 410 463 461 Q414 475 373 445Z" fill="#c99b4a" stroke="#684126" stroke-width="6"/>
+<path d="M385 432 L448 447 M393 418 L456 435" stroke="#f1c76d" stroke-width="5"/>
+<path d="M405 407 L424 455 M421 408 L439 459" stroke="#8b5a31" stroke-width="3"/>
+<path d="M89 472 Q257 444 432 476" fill="none" stroke="#91abc4" stroke-width="5" opacity=".7"/>
+<ellipse cx="232" cy="478" rx="126" ry="10" fill="#91abc4" opacity=".28"/>
+<g fill="#faffff"><circle cx="143" cy="370" r="5"/><circle cx="382" cy="351" r="4"/><circle cx="79" cy="420" r="4"/><circle cx="323" cy="83" r="3"/><circle cx="470" cy="245" r="3"/></g>
+<g fill="none" stroke="#d9b5ff" stroke-width="3" opacity=".9"><path d="M80 330h18m-9-9v18"/><path d="M395 300h16m-8-8v16"/><path d="M317 183h14m-7-7v14"/></g>
+</svg>

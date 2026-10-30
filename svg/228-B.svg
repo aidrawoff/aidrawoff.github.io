@@ -1,0 +1,173 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#05020c"/>
+      <stop offset="40%" stop-color="#120824"/>
+      <stop offset="100%" stop-color="#241340"/>
+    </linearGradient>
+
+    <!-- Moon radial gradient -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffbea" stop-opacity="1"/>
+      <stop offset="35%" stop-color="#fef08a" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ca8a04" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Hill gradients -->
+    <linearGradient id="hillBack" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#581c87"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <linearGradient id="hillFront" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="35%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+
+    <!-- Snowball shading -->
+    <radialGradient id="snowBody" cx="38%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="65%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </radialGradient>
+
+    <!-- Witch hat gradient -->
+    <linearGradient id="hatGrad" x1="25%" y1="0%" x2="75%" y2="100%">
+      <stop offset="0%" stop-color="#4c1d95"/>
+      <stop offset="50%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#090412"/>
+    </linearGradient>
+
+    <!-- Potion glow -->
+    <radialGradient id="potionGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#4ade80" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#16a34a" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#14532d" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop shadow filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="6" flood-color="#030712" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Stars and Magic Sparkles in Sky -->
+  <g fill="#fff" opacity="0.95">
+    <circle cx="70" cy="65" r="1.5"/><circle cx="160" cy="35" r="2"/><circle cx="270" cy="85" r="1.2"/><circle cx="420" cy="50" r="2.2"/>
+    <circle cx="460" cy="130" r="1.8"/><circle cx="50" cy="170" r="1.2"/><circle cx="200" cy="140" r="2"/><circle cx="350" cy="110" r="1.5"/>
+    <polygon points="160,30 162,38 170,38 163,43 166,51 160,46 154,51 157,43 150,38 158,38" fill="#fef08a" transform="scale(0.5) translate(140,0)"/>
+    <polygon points="420,45 422,53 430,53 423,58 426,66 420,61 414,66 417,58 410,53 418,53" fill="#fef08a" transform="scale(0.6) translate(280,-10)"/>
+  </g>
+
+  <!-- Glowing Moon -->
+  <circle cx="410" cy="110" r="80" fill="url(#moonGlow)"/>
+  <circle cx="410" cy="110" r="38" fill="#fffbe8"/>
+
+  <!-- Distant Background Hills with Silhouette Trees -->
+  <path d="M0 370 Q 140 300, 290 360 T 512 340 L 512 512 L 0 512 Z" fill="url(#hillBack)"/>
+  <path d="M 80 340 Q 75 280, 60 240 Q 50 210, 35 190 M 60 240 Q 80 230, 95 210 M 68 260 Q 85 255, 105 245" stroke="#180e2a" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M 430 350 Q 440 290, 435 250 Q 430 220, 420 200 M 435 250 Q 455 240, 470 220" stroke="#180e2a" stroke-width="6" stroke-linecap="round" fill="none"/>
+
+  <!-- Foreground Snowy Ground with Sparkles & Extra Drift -->
+  <path d="M0 395 Q 180 355, 350 405 T 512 380 L 512 512 L 0 512 Z" fill="url(#hillFront)" filter="url(#shadow)"/>
+  <g fill="#93c5fd" opacity="0.7">
+    <circle cx="100" cy="430" r="3"/><circle cx="210" cy="470" r="2.5"/><circle cx="320" cy="440" r="3"/><circle cx="420" cy="460" r="2"/><circle cx="480" cy="430" r="3.5"/>
+  </g>
+
+  <!-- SNOWMAN WITCH CHARACTER -->
+  <g filter="url(#shadow)">
+    <!-- Bottom Snowball -->
+    <circle cx="256" cy="360" r="85" fill="url(#snowBody)"/>
+    <!-- Buttons with subtle glow -->
+    <circle cx="256" cy="325" r="6" fill="#1e1b4b"/>
+    <circle cx="256" cy="355" r="6" fill="#1e1b4b"/>
+    <circle cx="256" cy="385" r="6" fill="#1e1b4b"/>
+
+    <!-- Middle Snowball -->
+    <circle cx="256" cy="250" r="65" fill="url(#snowBody)"/>
+    
+    <!-- Scarf -->
+    <path d="M 203 215 Q 256 232, 309 215 L 318 238 Q 256 255, 194 238 Z" fill="#8b5cf6"/>
+    <path d="M 285 228 Q 330 255, 358 300 L 336 308 Q 315 265, 275 242 Z" fill="#7c3aed"/>
+
+    <!-- Left Stick Arm holding Broom -->
+    <path d="M 195 240 L 115 195" stroke="#78350f" stroke-width="8" stroke-linecap="round"/>
+    <!-- Broomstick -->
+    <path d="M 95 110 L 155 290" stroke="#92400e" stroke-width="6" stroke-linecap="round"/>
+    <!-- Broom bristles -->
+    <path d="M 140 260 L 110 320 L 180 310 Z" fill="#d97706"/>
+    <line x1="140" y1="270" x2="115" y2="315" stroke="#b45309" stroke-width="3"/>
+    <line x1="150" y1="270" x2="165" y2="312" stroke="#b45309" stroke-width="3"/>
+    <path d="M 125 245 Q 135 250, 145 245" fill="none" stroke="#78350f" stroke-width="3"/>
+
+    <!-- Head Snowball -->
+    <circle cx="256" cy="155" r="48" fill="url(#snowBody)"/>
+
+    <!-- Face: Coal Eyes -->
+    <circle cx="239" cy="147" r="5" fill="#0f172a"/>
+    <circle cx="273" cy="147" r="5" fill="#0f172a"/>
+    <!-- Eyebrows (witchy curved expression) -->
+    <path d="M 232 138 Q 239 133, 246 138" fill="none" stroke="#1e1b4b" stroke-width="3" stroke-linecap="round"/>
+    <path d="M 266 138 Q 273 133, 280 138" fill="none" stroke="#1e1b4b" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Carrot Nose with highlight -->
+    <path d="M 256 154 L 302 161 L 256 168 Z" fill="#f97316" filter="url(#shadow)"/>
+    <path d="M 265 157 L 285 160 L 265 163 Z" fill="#fed7aa" opacity="0.6"/>
+    <!-- Coal Smile -->
+    <circle cx="242" cy="176" r="3" fill="#0f172a"/>
+    <circle cx="252" cy="181" r="3" fill="#0f172a"/>
+    <circle cx="264" cy="181" r="3" fill="#0f172a"/>
+    <circle cx="274" cy="176" r="3" fill="#0f172a"/>
+
+    <!-- WITCH HAT -->
+    <!-- Hat Brim -->
+    <ellipse cx="256" cy="118" rx="68" ry="17" fill="url(#hatGrad)" stroke="#1e1b4b" stroke-width="2"/>
+    <!-- Hat Band -->
+    <path d="M 198 116 Q 256 128, 314 116 L 312 103 Q 256 115, 200 103 Z" fill="#a855f7"/>
+    <!-- Gold Buckle -->
+    <rect x="245" y="101" width="22" height="18" rx="3" fill="none" stroke="#fbbf24" stroke-width="4"/>
+    <rect x="251" y="107" width="10" height="6" fill="#fbbf24"/>
+    <!-- Hat Cone -->
+    <path d="M 208 108 Q 242 45, 278 12 Q 298 85, 308 108 Z" fill="url(#hatGrad)" stroke="#1e1b4b" stroke-width="2"/>
+    <!-- Hat tip curl -->
+    <path d="M 278 12 Q 260 22, 268 32" fill="none" stroke="#1e1b4b" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Right Arm holding Potion Bottle -->
+    <path d="M 317 250 L 365 215" stroke="#78350f" stroke-width="7" stroke-linecap="round"/>
+    
+    <!-- Potion Bottle -->
+    <g transform="translate(355, 190)">
+      <circle cx="15" cy="20" r="24" fill="url(#potionGlow)" filter="url(#glow)"/>
+      <circle cx="15" cy="20" r="19" fill="#22c55e" opacity="0.95"/>
+      <rect x="10" y="-3" width="10" height="9" rx="2" fill="#78350f"/>
+      <rect x="7" y="-8" width="16" height="5" rx="2" fill="#b45309"/>
+      <!-- Bubbles inside bottle -->
+      <circle cx="11" cy="22" r="3.5" fill="#86efac"/>
+      <circle cx="21" cy="14" r="2" fill="#86efac"/>
+      <circle cx="16" cy="29" r="2.5" fill="#86efac"/>
+      <circle cx="20" cy="25" r="1.5" fill="#86efac"/>
+    </g>
+
+    <!-- Magical swirling spell effect around the potion & snowman -->
+    <path d="M 330 190 Q 360 160, 390 180 T 370 230" fill="none" stroke="#4ade80" stroke-width="3" stroke-dasharray="6,4" opacity="0.9" filter="url(#glow)"/>
+    <path d="M 180 140 Q 150 110, 130 140 T 170 170" fill="none" stroke="#c084fc" stroke-width="3" stroke-dasharray="5,4" opacity="0.9" filter="url(#glow)"/>
+
+    <!-- Magical floating stars/sparks -->
+    <g fill="#a78bfa" filter="url(#glow)">
+      <polygon points="380,170 383,178 391,178 385,182 387,190 380,185 373,190 375,182 369,178 377,178" transform="scale(0.55) translate(360,170)" fill="#4ade80"/>
+      <polygon points="200,80 202,86 208,86 203,90 205,96 200,92 195,96 197,90 192,86 198,86" transform="scale(0.5) translate(110,30)" fill="#f43f5e"/>
+      <circle cx="330" cy="145" r="3.5" fill="#38bdf8"/>
+      <circle cx="370" cy="120" r="2.5" fill="#fbbf24"/>
+      <circle cx="180" cy="170" r="3" fill="#c084fc"/>
+      <circle cx="220" cy="100" r="2" fill="#38bdf8"/>
+    </g>
+  </g>
+</svg>
