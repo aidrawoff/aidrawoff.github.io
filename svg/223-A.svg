@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2b3a55"/>
+      <stop offset="1" stop-color="#e9c9a0"/>
+    </linearGradient>
+  </defs>
+  <!-- sky -->
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- distant mountains -->
+  <path d="M0 300 L90 200 L170 270 L260 180 L360 290 L440 210 L512 280 L512 340 L0 340 Z" fill="#7a8aa6"/>
+  <!-- snow ground -->
+  <rect y="350" width="512" height="162" fill="#eef3f7"/>
+  <path d="M0 380 Q256 350 512 385 L512 512 L0 512 Z" fill="#dfe8f0"/>
+  <!-- thatched snow-country house -->
+  <path d="M90 300 L256 150 L422 300 Z" fill="#c9b78a"/>
+  <path d="M120 300 L256 180 L392 300" fill="none" stroke="#8c7a52" stroke-width="6"/>
+  <!-- heavy snow on roof -->
+  <path d="M96 292 Q256 130 416 292 Q256 262 96 292 Z" fill="#ffffff"/>
+  <rect x="130" y="300" width="252" height="150" fill="#6b4f35"/>
+  <!-- lit window -->
+  <rect x="200" y="350" width="110" height="80" fill="#ffd27a"/>
+  <rect x="200" y="350" width="110" height="80" fill="none" stroke="#3d2a1a" stroke-width="8"/>
+  <line x1="255" y1="350" x2="255" y2="430" stroke="#3d2a1a" stroke-width="6"/>
+  <line x1="200" y1="390" x2="310" y2="390" stroke="#3d2a1a" stroke-width="6"/>
+  <!-- door -->
+  <rect x="150" y="380" width="36" height="70" fill="#3d2a1a"/>
+  <!-- snow falling -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="90" r="4"/>
+    <circle cx="150" cy="60" r="3"/>
+    <circle cx="330" cy="80" r="4"/>
+    <circle cx="450" cy="120" r="3"/>
+    <circle cx="420" cy="40" r="3"/>
+    <circle cx="240" cy="30" r="3"/>
+  </g>
+  <!-- warm glow around the window -->
+  <ellipse cx="255" cy="390" rx="150" ry="110" fill="#ffd27a" opacity="0.18"/>
+  <!-- snow-laden pine trees -->
+  <path d="M40 430 L70 330 L100 430 Z" fill="#2f4a3a"/>
+  <path d="M60 340 L70 300 L80 340 Z" fill="#ffffff"/>
+  <path d="M430 440 L460 330 L490 440 Z" fill="#2f4a3a"/>
+  <path d="M452 340 L460 302 L470 340 Z" fill="#ffffff"/>
+  <!-- tiny figure shoveling snow -->
+  <circle cx="380" cy="410" r="9" fill="#3d2a1a"/>
+  <rect x="372" y="420" width="16" height="40" fill="#b33a2e"/>
+  <line x1="392" y1="425" x2="410" y2="470" stroke="#3d2a1a" stroke-width="4"/>
+  <rect x="402" y="462" width="18" height="10" fill="#6b4f35"/>
+  <!-- red paper lantern by the door -->
+  <line x1="300" y1="300" x2="300" y2="330" stroke="#3d2a1a" stroke-width="3"/>
+  <ellipse cx="300" cy="345" rx="16" ry="20" fill="#d9372b"/>
+  <ellipse cx="300" cy="345" rx="16" ry="20" fill="none" stroke="#7a1d15" stroke-width="3"/>
+  <!-- snow drifts in front -->
+  <ellipse cx="200" cy="462" rx="120" ry="18" fill="#ffffff"/>
+  <ellipse cx="60" cy="490" rx="90" ry="14" fill="#ffffff"/>
+  <!-- falling snow streaks -->
+  <g stroke="#ffffff" stroke-width="2" opacity="0.7">
+    <line x1="210" y1="110" x2="204" y2="126"/>
+    <line x1="380" y1="170" x2="374" y2="186"/>
+    <line x1="470" y1="240" x2="464" y2="256"/>
+    <line x1="100" y1="200" x2="94" y2="216"/>
+  </g>
+  <!-- sparkle on the snow -->
+  <g fill="#ffffff">
+    <circle cx="340" cy="470" r="2"/>
+    <circle cx="90" cy="420" r="2"/>
+    <circle cx="470" cy="500" r="2"/>
+  </g>
+  <!-- icicles on eave -->
+  <path d="M120 300 L128 330 L134 300 Z" fill="#dff3ff"/>
+  <path d="M370 300 L378 335 L384 300 Z" fill="#dff3ff"/>
+</svg>

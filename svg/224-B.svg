@@ -1,0 +1,164 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#040008"/>
+      <stop offset="30%" stop-color="#100522"/>
+      <stop offset="70%" stop-color="#260b44"/>
+      <stop offset="100%" stop-color="#40155e"/>
+    </linearGradient>
+
+    <!-- Moon Glow & Radial -->
+    <radialGradient id="moonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fffff0" stop-opacity="1"/>
+      <stop offset="30%" stop-color="#ffeaad" stop-opacity="0.9"/>
+      <stop offset="65%" stop-color="#d97714" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#732f04" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Wing Gradient -->
+    <linearGradient id="batWing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#231d2c"/>
+      <stop offset="50%" stop-color="#16121f"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </linearGradient>
+
+    <!-- Torso Gradient -->
+    <radialGradient id="torsoGrad" cx="40%" cy="30%" r="70%">
+      <stop offset="0%" stop-color="#3b314a"/>
+      <stop offset="60%" stop-color="#1d1827"/>
+      <stop offset="100%" stop-color="#0a0810"/>
+    </radialGradient>
+
+    <!-- Sunglasses Frame Gradient -->
+    <linearGradient id="shadesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#404040"/>
+      <stop offset="50%" stop-color="#737373"/>
+      <stop offset="100%" stop-color="#1a1a1a"/>
+    </linearGradient>
+
+    <!-- Vibrant Cyber Neon Sunset Lens Gradient -->
+    <linearGradient id="lensReflect" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="0.95"/>
+      <stop offset="30%" stop-color="#4facfe" stop-opacity="0.85"/>
+      <stop offset="70%" stop-color="#ff0844" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffb199" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Cocktail Liquid -->
+    <linearGradient id="cocktailGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ff007f" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#7209b7" stop-opacity="0.95"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="dropShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background Sky -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Twinkling Stars & Nebula Dust -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="65" cy="75" r="1.5"/><circle cx="135" cy="40" r="2"/><circle cx="235" cy="65" r="1"/>
+    <circle cx="55" cy="175" r="1.5"/><circle cx="445" cy="245" r="2"/><circle cx="465" cy="85" r="1"/>
+    <circle cx="35" cy="325" r="1.5"/><circle cx="105" cy="375" r="2"/>
+    <!-- Star sparkles -->
+    <path d="M135 35 L135 45 M130 40 L140 40" stroke="#ffffff" stroke-width="0.8"/>
+    <path d="M445 240 L445 250 M440 245 L450 245" stroke="#ffffff" stroke-width="0.8"/>
+  </g>
+
+  <!-- Big Glowing Moon with Detailed Craters -->
+  <circle cx="390" cy="120" r="85" fill="url(#moonGlow)"/>
+  <circle cx="390" cy="120" r="48" fill="#fffef0" filter="url(#glow)" opacity="0.95"/>
+  <circle cx="372" cy="104" r="10" fill="#e2d6be" opacity="0.4"/>
+  <circle cx="412" cy="136" r="14" fill="#e2d6be" opacity="0.35"/>
+  <circle cx="385" cy="142" r="7" fill="#e2d6be" opacity="0.3"/>
+
+  <!-- Distant Spooky Mountains Silhouette (Multi-stop gradient depth) -->
+  <path d="M0 415 Q65 375 145 400 Q245 360 335 405 Q425 370 512 410 L512 512 L0 512 Z" fill="#140524"/>
+  <path d="M0 440 Q105 410 220 430 Q345 400 512 435 L512 512 L0 512 Z" fill="#0b0214"/>
+
+  <!-- Main Vampire Bat with Drop Shadow & Rich Lighting -->
+  <g filter="url(#dropShadow)">
+    
+    <!-- Left Wing (Dynamic & Posed) -->
+    <path d="M256 240 Q155 155 55 220 Q90 260 130 250 Q160 300 200 280 Q225 260 256 245 Z" fill="url(#batWing)" stroke="#372c44" stroke-width="2"/>
+    <path d="M256 240 Q165 185 55 220 M256 240 Q120 230 130 250 M256 240 Q165 265 200 280" stroke="#0f0b17" stroke-width="2.5" fill="none"/>
+    <path d="M110 210 Q95 235 55 220 M145 245 Q135 270 130 250 M180 270 Q190 290 200 280" stroke="#2e2439" stroke-width="1.5" fill="none"/>
+
+    <!-- Right Wing (Dynamic & Posed) -->
+    <path d="M256 240 Q357 155 457 220 Q422 260 382 250 Q352 300 312 280 Q287 260 256 245 Z" fill="url(#batWing)" stroke="#372c44" stroke-width="2"/>
+    <path d="M256 240 Q347 185 457 220 M256 240 Q392 230 382 250 M256 240 Q347 265 312 280" stroke="#0f0b17" stroke-width="2.5" fill="none"/>
+    <path d="M402 210 Q417 235 457 220 M367 245 Q377 270 382 250 M332 270 Q322 290 312 280" stroke="#2e2439" stroke-width="1.5" fill="none"/>
+
+    <!-- Cute Expressive Bat Ears -->
+    <polygon points="218,205 198,100 242,170" fill="#1f1828" stroke="#3d314e" stroke-width="2"/>
+    <polygon points="218,195 206,125 235,170" fill="#332742" opacity="0.75"/>
+    
+    <polygon points="294,205 314,100 270,170" fill="#1f1828" stroke="#3d314e" stroke-width="2"/>
+    <polygon points="294,195 306,125 277,170" fill="#332742" opacity="0.75"/>
+
+    <!-- Torso / Body with Soft Volume & Fur Texture -->
+    <ellipse cx="256" cy="260" rx="58" ry="78" fill="url(#torsoGrad)" stroke="#3d314e" stroke-width="3"/>
+
+    <!-- Fluffy Chest Fur -->
+    <path d="M230 240 Q256 260 282 240 Q290 270 256 300 Q222 270 230 240 Z" fill="#2b2238" opacity="0.9"/>
+    <path d="M235 250 Q256 270 277 250" stroke="#4e3f60" stroke-width="2" fill="none"/>
+    <path d="M242 265 Q256 280 270 265" stroke="#4e3f60" stroke-width="2" fill="none"/>
+
+    <!-- Cute Vampiric White Fangs -->
+    <polygon points="238,308 246,336 252,308" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+    <polygon points="260,308 266,336 274,308" fill="#ffffff" stroke="#e0e0e0" stroke-width="0.5"/>
+
+    <!-- Dashing Red Bow Tie with Golden Center -->
+    <g transform="translate(256, 325)">
+      <polygon points="0,0 -22,-13 -22,13" fill="#ff1e56"/>
+      <polygon points="0,0 22,-13 22,13" fill="#ff1e56"/>
+      <circle cx="0" cy="0" r="8" fill="#ffb703" stroke="#cc8f00" stroke-width="1.5"/>
+    </g>
+
+    <!-- Cool Sunglasses (Shades) with Specular Highlights & Cyberpunk Glow -->
+    <g transform="translate(0, -6)" filter="url(#glow)">
+      <!-- Frame -->
+      <rect x="200" y="202" width="152" height="58" rx="22" fill="url(#shadesGrad)" stroke="#888888" stroke-width="3.5"/>
+      <!-- Left Lens -->
+      <rect x="206" y="208" width="66" height="46" rx="15" fill="url(#lensReflect)"/>
+      <!-- Right Lens -->
+      <rect x="284" y="208" width="66" height="46" rx="15" fill="url(#lensReflect)"/>
+      <!-- Bridge -->
+      <rect x="272" y="216" width="12" height="14" fill="#1f1f1f"/>
+      
+      <!-- Sleek Specular Highlights on Lenses -->
+      <path d="M214 214 L254 214" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+      <path d="M292 214 L332 214" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" opacity="0.95"/>
+      <path d="M214 222 L236 222" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.75"/>
+      <path d="M292 222 L314 222" stroke="#ffffff" stroke-width="1.2" stroke-linecap="round" opacity="0.75"/>
+    </g>
+
+    <!-- Active Narrative Prop: Tiny Glowing Cocktail in Claw -->
+    <g transform="translate(150, 300)">
+      <!-- Cocktail Glass -->
+      <path d="M0 0 L34 0 L17 34 Z" fill="url(#cocktailGrad)" stroke="#ffffff" stroke-width="1.5" opacity="0.95"/>
+      <!-- Stem and Base -->
+      <line x1="17" y1="34" x2="17" y2="50" stroke="#e0e0e0" stroke-width="2"/>
+      <ellipse cx="17" cy="50" rx="12" ry="4" fill="#e0e0e0"/>
+      <!-- Umbrella / Straw -->
+      <line x1="5" y1="-8" x2="27" y2="18" stroke="#ffb703" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="24" cy="15" r="3" fill="#ff0055"/>
+      <!-- Bubbles -->
+      <circle cx="13" cy="10" r="1.5" fill="#ffffff" opacity="0.9"/>
+      <circle cx="20" cy="21" r="1" fill="#ffffff" opacity="0.9"/>
+    </g>
+  </g>
+
+  <!-- Title / Floating Vibe Banner -->
+  <rect x="106" y="442" width="300" height="44" rx="22" fill="#140524" stroke="#ffb703" stroke-width="2" opacity="0.95"/>
+  <text x="256" y="471" font-family="'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="20" fill="#ffb703" text-anchor="middle" letter-spacing="3">VAMPIRE BAT IN SHADES</text>
+</svg>

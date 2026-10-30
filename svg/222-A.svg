@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2a1a4a"/>
+      <stop offset="100%" stop-color="#0a0518"/>
+    </radialGradient>
+    <linearGradient id="rain" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0%" stop-color="#8899cc" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#445588" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <!-- rain -->
+  <g stroke="#99aadd" stroke-width="1" opacity="0.25">
+    <line x1="60" y1="20" x2="40" y2="100"/>
+    <line x1="150" y1="10" x2="130" y2="90"/>
+    <line x1="250" y1="30" x2="230" y2="110"/>
+    <line x1="350" y1="15" x2="330" y2="95"/>
+    <line x1="450" y1="25" x2="430" y2="105"/>
+    <line x1="100" y1="120" x2="80" y2="200"/>
+    <line x1="200" y1="110" x2="180" y2="190"/>
+    <line x1="300" y1="130" x2="280" y2="210"/>
+    <line x1="400" y1="115" x2="380" y2="195"/>
+    <line x1="50" y1="220" x2="30" y2="300"/>
+    <line x1="160" y1="210" x2="140" y2="290"/>
+    <line x1="260" y1="230" x2="240" y2="310"/>
+    <line x1="360" y1="215" x2="340" y2="295"/>
+    <line x1="460" y1="225" x2="440" y2="305"/>
+    <line x1="110" y1="320" x2="90" y2="400"/>
+    <line x1="220" y1="310" x2="200" y2="390"/>
+    <line x1="320" y1="330" x2="300" y2="410"/>
+    <line x1="420" y1="315" x2="400" y2="395"/>
+    <line x1="70" y1="410" x2="50" y2="490"/>
+    <line x1="180" y1="400" x2="160" y2="480"/>
+    <line x1="280" y1="420" x2="260" y2="500"/>
+    <line x1="380" y1="405" x2="360" y2="485"/>
+    <line x1="480" y1="415" x2="460" y2="495"/>
+  </g>
+  <!-- puddle glow -->
+  <ellipse cx="256" cy="460" rx="140" ry="18" fill="#3a2a6a" opacity="0.6"/>
+  <!-- ghosts -->
+  <g fill="#e8e8ff" opacity="0.92">
+    <!-- left ghost -->
+    <path d="M170 420 Q170 300 200 260 Q230 220 200 200 Q170 180 170 160 Q170 130 200 130 Q230 130 230 160 Q230 180 210 200 Q240 220 230 260 Q250 300 240 420 Z"/>
+    <!-- right ghost -->
+    <path d="M280 420 Q280 300 310 260 Q340 220 310 200 Q280 180 280 160 Q280 130 310 130 Q340 130 340 160 Q340 180 320 200 Q350 220 340 260 Q360 300 350 420 Z"/>
+  </g>
+  <!-- ghost eyes -->
+  <g fill="#1a0a3a">
+    <ellipse cx="195" cy="155" rx="5" ry="7"/>
+    <ellipse cx="215" cy="155" rx="5" ry="7"/>
+    <ellipse cx="305" cy="155" rx="5" ry="7"/>
+    <ellipse cx="325" cy="155" rx="5" ry="7"/>
+  </g>
+  <!-- ghost blush -->
+  <g fill="#cc88aa" opacity="0.35">
+    <ellipse cx="185" cy="168" rx="8" ry="4"/>
+    <ellipse cx="335" cy="168" rx="8" ry="4"/>
+  </g>
+  <!-- umbrella -->
+  <g>
+    <rect x="253" y="160" width="6" height="200" fill="#442233" rx="2"/>
+    <path d="M140 180 Q256 80 372 180 Q330 160 256 160 Q182 160 140 180" fill="#cc3355"/>
+    <path d="M180 170 Q256 100 332 170" fill="#dd4466" opacity="0.5"/>
+    <!-- umbrella ribs -->
+    <line x1="256" y1="160" x2="180" y2="170" stroke="#991133" stroke-width="2"/>
+    <line x1="256" y1="160" x2="220" y2="165" stroke="#991133" stroke-width="2"/>
+    <line x1="256" y1="160" x2="292" y2="165" stroke="#991133" stroke-width="2"/>
+    <line x1="256" y1="160" x2="332" y2="170" stroke="#991133" stroke-width="2"/>
+    <!-- handle hook -->
+    <path d="M256 360 Q256 390 276 390 Q286 390 286 380" fill="none" stroke="#442233" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <!-- rain hitting umbrella -->
+  <g stroke="#ccddff" stroke-width="1.5" opacity="0.4">
+    <line x1="200" y1="140" x2="190" y2="155"/>
+    <line x1="256" y1="120" x2="246" y2="135"/>
+    <line x1="310" y1="140" x2="300" y2="155"/>
+    <line x1="160" y1="170" x2="150" y2="185"/>
+    <line x1="350" y1="170" x2="340" y2="185"/>
+  </g>
+  <!-- rim light / atmosphere -->
+  <ellipse cx="256" cy="460" rx="120" ry="12" fill="#6655aa" opacity="0.3"/>
+</svg>

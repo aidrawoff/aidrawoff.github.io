@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a35"/>
+      <stop offset="1" stop-color="#3a2b56"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8e7" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#fff8e7" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="392" cy="104" r="150" fill="url(#glow)"/>
+  <circle cx="398" cy="100" r="46" fill="#f7f0d8"/>
+  <circle cx="380" cy="88" r="9" fill="#e6dcc0" opacity="0.7"/>
+  <circle cx="410" cy="118" r="6" fill="#e6dcc0" opacity="0.6"/>
+
+  <!-- rain, diagonal streaks -->
+  <g stroke="#8fb7e8" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+    <path d="M60 40 l-14 34"/><path d="M120 20 l-14 34"/><path d="M185 60 l-14 34"/>
+    <path d="M30 130 l-14 34"/><path d="M95 170 l-14 34"/><path d="M160 200 l-14 34"/>
+    <path d="M45 260 l-14 34"/><path d="M110 300 l-14 34"/><path d="M420 210 l-14 34"/>
+    <path d="M470 120 l-14 34"/><path d="M455 300 l-14 34"/><path d="M485 400 l-14 34"/>
+    <path d="M40 380 l-14 34"/><path d="M105 430 l-14 34"/><path d="M430 440 l-14 34"/>
+  </g>
+
+  <!-- puddle -->
+  <ellipse cx="256" cy="470" rx="185" ry="30" fill="#2a3a66" opacity="0.85"/>
+  <ellipse cx="200" cy="468" rx="42" ry="7" fill="#6f9bd8" opacity="0.45"/>
+  <ellipse cx="310" cy="478" rx="30" ry="5" fill="#6f9bd8" opacity="0.35"/>
+
+  <!-- umbrella: tilted, wind-blown -->
+  <g transform="rotate(-14 256 200)">
+    <path d="M116 210 Q256 62 396 210 Q352 188 316 210 Q286 188 256 210 Q226 188 196 210 Q160 188 116 210 Z" fill="#e0455a" stroke="#8c1f30" stroke-width="3"/>
+    <path d="M256 78 Q226 140 196 210" stroke="#a8283a" stroke-width="2.5" fill="none" opacity="0.8"/>
+    <path d="M256 78 Q286 140 316 210" stroke="#a8283a" stroke-width="2.5" fill="none" opacity="0.8"/>
+    <line x1="256" y1="78" x2="256" y2="330" stroke="#d9d2c4" stroke-width="6" stroke-linecap="round"/>
+    <path d="M256 330 q0 26 -24 26 q-20 0 -20 -18" stroke="#d9d2c4" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="256" cy="72" r="7" fill="#f2e6c8"/>
+  </g>
+
+  <!-- ghost A (left, small, delighted, leaning in) -->
+  <g>
+    <path d="M150 300 q0 -58 46 -58 q46 0 46 58 l0 78 q-14 -16 -26 0 q-14 16 -28 0 q-14 -16 -24 0 q-10 12 -14 4 z"
+          fill="#eef3ff" opacity="0.92" stroke="#b9c8e8" stroke-width="2"/>
+    <circle cx="178" cy="296" r="7" fill="#2b2f4a"/>
+    <circle cx="208" cy="294" r="7" fill="#2b2f4a"/>
+    <circle cx="180" cy="293" r="2.4" fill="#fff"/>
+    <circle cx="210" cy="291" r="2.4" fill="#fff"/>
+    <ellipse cx="193" cy="322" rx="11" ry="13" fill="#2b2f4a"/>
+    <circle cx="168" cy="313" r="8" fill="#ff9aa8" opacity="0.6"/>
+    <circle cx="218" cy="311" r="8" fill="#ff9aa8" opacity="0.6"/>
+    <path d="M232 300 q30 -10 40 8" stroke="#eef3ff" stroke-width="13" fill="none" stroke-linecap="round" opacity="0.9"/>
+  </g>
+
+  <!-- ghost B (right, tall, holding umbrella, grumpy-protective) -->
+  <g>
+    <path d="M268 268 q0 -70 56 -70 q56 0 56 70 l0 122 q-16 -18 -30 0 q-16 18 -32 0 q-16 -18 -30 0 q-14 16 -20 6 z"
+          fill="#f6faff" opacity="0.95" stroke="#b9c8e8" stroke-width="2"/>
+    <path d="M300 262 q10 -8 20 -2" stroke="#2b2f4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M348 258 q10 -8 20 -1" stroke="#2b2f4a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="312" cy="282" r="8" fill="#2b2f4a"/>
+    <circle cx="356" cy="280" r="8" fill="#2b2f4a"/>
+    <circle cx="315" cy="279" r="2.8" fill="#fff"/>
+    <circle cx="359" cy="277" r="2.8" fill="#fff"/>
+    <path d="M320 312 q18 12 36 2" stroke="#2b2f4a" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M272 296 q-24 14 -18 34" stroke="#f6faff" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.92"/>
+  </g>
+
+  <!-- wind: motion arcs + rain blowing hard -->
+  <g stroke="#cfe3ff" fill="none" stroke-linecap="round" opacity="0.5">
+    <path d="M70 120 q40 -18 84 -6" stroke-width="3"/>
+    <path d="M52 158 q34 -14 70 -4" stroke-width="2.5"/>
+    <path d="M400 340 q34 18 74 10" stroke-width="3"/>
+    <path d="M418 376 q28 14 62 8" stroke-width="2.5"/>
+  </g>
+
+  <!-- splash drops bouncing off umbrella -->
+  <g fill="#a9cdf5" opacity="0.9">
+    <circle cx="140" cy="176" r="4"/><circle cx="360" cy="150" r="5"/>
+    <circle cx="392" cy="196" r="3.5"/><circle cx="120" cy="230" r="3"/>
+  </g>
+</svg>
