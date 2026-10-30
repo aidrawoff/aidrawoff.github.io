@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#141e30"/>
+      <stop offset="50%" stop-color="#1c2833"/>
+      <stop offset="100%" stop-color="#0b131d"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f39c12"/>
+      <stop offset="50%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#d35400"/>
+    </linearGradient>
+    <linearGradient id="bandage" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#d6ccb2"/>
+      <stop offset="50%" stop-color="#f4ebd0"/>
+      <stop offset="100%" stop-color="#d6ccb2"/>
+    </linearGradient>
+    <linearGradient id="saladGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#82e0aa"/>
+      <stop offset="100%" stop-color="#27ae60"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Atmospheric background glow & hieroglyphs -->
+  <circle cx="256" cy="200" r="160" fill="#1f3a4d" opacity="0.4" filter="url(#glow)"/>
+  
+  <path d="M 100 480 L 100 180 Q 256 60 412 180 L 412 480 Z" fill="none" stroke="url(#gold)" stroke-width="5" opacity="0.8" filter="url(#shadow)"/>
+  <path d="M 120 480 L 120 190 Q 256 80 392 190 L 392 480 Z" fill="#0e1721" opacity="0.85"/>
+
+  <!-- Hieroglyph column decorations -->
+  <g fill="#f39c12" font-family="monospace" font-size="12" opacity="0.7" font-weight="bold">
+    <text x="135" y="150">AN</text>
+    <text x="135" y="170">KH</text>
+    <text x="135" y="190">===</text>
+    <text x="135" y="210">O_O</text>
+    
+    <text x="355" y="150">CAL</text>
+    <text x="355" y="170">OR</text>
+    <text x="355" y="190">===</text>
+    <text x="355" y="210">X_X</text>
+  </g>
+
+  <!-- Stone Pedestal -->
+  <rect x="160" y="330" width="192" height="150" fill="#34495e" filter="url(#shadow)"/>
+  <rect x="150" y="318" width="212" height="22" fill="#5d6d7e" rx="4"/>
+  <rect x="190" y="360" width="132" height="90" fill="#2c3e50" rx="6" stroke="#4a6572" stroke-width="2"/>
+  
+  <!-- Digital Scale Screen -->
+  <rect x="210" y="375" width="92" height="50" fill="#1a252f" rx="4" stroke="#e74c3c" stroke-width="2"/>
+  <text x="225" y="408" fill="#e74c3c" font-family="monospace" font-size="22" font-weight="bold">0.0G</text>
+  <text x="230" y="420" fill="#a6acaf" font-family="sans-serif" font-size="9">PURE AIR</text>
+
+  <!-- Salad Bowl on Pedestal -->
+  <ellipse cx="256" cy="318" rx="42" ry="14" fill="#bdc3c7" filter="url(#shadow)"/>
+  <ellipse cx="256" cy="315" rx="38" ry="11" fill="#ecf0f1"/>
+  
+  <!-- Single sad lettuce leaf inside bowl -->
+  <path d="M 235 315 Q 256 285 280 315 Q 256 325 235 315 Z" fill="url(#saladGrad)" filter="url(#shadow)"/>
+  <path d="M 256 315 L 256 295" stroke="#d4efdf" stroke-width="2" stroke-linecap="round"/>
+  <path d="M 245 310 Q 256 300 265 310" stroke="#d4efdf" stroke-width="1.5" fill="none"/>
+
+  <!-- Mummy Character -->
+  <!-- Head -->
+  <circle cx="256" cy="190" r="50" fill="url(#bandage)" filter="url(#shadow)"/>
+  <!-- Head Bandage Shadows/Wraps -->
+  <path d="M 206 170 Q 256 150 306 175" stroke="#b5a88c" stroke-width="10" fill="none"/>
+  <path d="M 204 195 Q 256 180 308 200" stroke="#b5a88c" stroke-width="10" fill="none"/>
+  <path d="M 210 220 Q 256 205 302 225" stroke="#b5a88c" stroke-width="10" fill="none"/>
+  
+  <!-- Expressive Sad Eyes & Tear -->
+  <circle cx="238" cy="185" r="7" fill="#111827"/>
+  <circle cx="274" cy="185" r="7" fill="#111827"/>
+  <circle cx="240" cy="183" r="2" fill="#fff"/>
+  <circle cx="276" cy="183" r="2" fill="#fff"/>
+  <!-- Sad eyebrows -->
+  <path d="M 230 172 Q 238 178 246 172" stroke="#111827" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <path d="M 266 172 Q 274 178 282 172" stroke="#111827" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Little blue tear dropping -->
+  <path d="M 282 192 Q 285 204 282 212" stroke="#3498db" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="282" cy="214" r="2.5" fill="#3498db"/>
+
+  <!-- Torso (hollow/skinny wrappings) -->
+  <path d="M 218 238 L 294 238 L 288 320 L 224 320 Z" fill="url(#bandage)" filter="url(#shadow)"/>
+  <line x1="220" y1="258" x2="292" y2="258" stroke="#b5a88c" stroke-width="8"/>
+  <line x1="222" y1="285" x2="290" y2="285" stroke="#b5a88c" stroke-width="8"/>
+  <line x1="224" y1="310" x2="288" y2="310" stroke="#b5a88c" stroke-width="8"/>
+
+  <!-- Arms holding fork -->
+  <path d="M 220 250 Q 175 275 205 305" fill="none" stroke="url(#bandage)" stroke-width="14" stroke-linecap="round" filter="url(#shadow)"/>
+  
+  <!-- Silver Fork pointing at lettuce -->
+  <line x1="190" y1="290" x2="180" y2="335" stroke="#bdc3c7" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 172 335 L 188 335 M 174 335 L 174 350 M 181 335 L 181 350 M 186 335 L 186 350" stroke="#bdc3c7" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Ground Shadow -->
+  <ellipse cx="256" cy="480" rx="110" ry="12" fill="#000000" opacity="0.6"/>
+</svg>

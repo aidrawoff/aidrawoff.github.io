@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#07020f"/>
+      <stop offset="50%" stop-color="#120620"/>
+      <stop offset="100%" stop-color="#030105"/>
+    </linearGradient>
+    
+    <!-- Cauldron Liquid Gradient -->
+    <linearGradient id="potionGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#76ff03"/>
+      <stop offset="40%" stop-color="#4caf50"/>
+      <stop offset="100%" stop-color="#1b5e20"/>
+    </linearGradient>
+
+    <!-- Potion Glow & Shine -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Strong Glow -->
+    <filter id="strongGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="16" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+
+    <!-- Drop Shadow -->
+    <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="3" dy="6" stdDeviation="5" flood-color="#000" flood-opacity="0.9"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Atmospheric background glow / magical aura -->
+  <circle cx="256" cy="220" r="200" fill="#2e7d32" opacity="0.22" filter="url(#strongGlow)"/>
+
+  <!-- Stone Wall / Lab details & Arch -->
+  <path d="M0 430 Q 256 420 512 430 L 512 512 L 0 512 Z" fill="#0d0514"/>
+  <rect x="35" y="50" width="110" height="190" rx="16" fill="#180b26" opacity="0.85" stroke="#2c1445" stroke-width="2"/>
+  <rect x="367" y="30" width="110" height="210" rx="16" fill="#180b26" opacity="0.85" stroke="#2c1445" stroke-width="2"/>
+
+  <!-- Shelves and Magical Bottles -->
+  <rect x="15" y="240" width="150" height="12" fill="#291242" rx="4"/>
+  <!-- Bottle 1 (Pink) -->
+  <path d="M 55 240 L 55 210 Q 55 200 65 200 Q 75 200 75 210 L 75 240 Z" fill="#880e4f"/>
+  <circle cx="65" cy="182" r="18" fill="#e91e63" filter="url(#shadow)"/>
+  <circle cx="60" cy="176" r="4" fill="#ffffff" opacity="0.8"/>
+  <!-- Bottle 2 (Cyan) -->
+  <path d="M 105 240 L 105 205 Q 105 195 115 195 Q 125 195 125 205 L 125 240 Z" fill="#004d40"/>
+  <circle cx="115" cy="172" r="20" fill="#00bcd4" filter="url(#shadow)"/>
+  <circle cx="108" cy="166" r="5" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Right Shelf & Spellbook / Crystal Ball -->
+  <rect x="347" y="240" width="150" height="12" fill="#291242" rx="4"/>
+  <!-- Crystal Ball on Stand -->
+  <circle cx="422" cy="205" r="22" fill="#7c4dff" opacity="0.9" filter="url(#shadow)"/>
+  <circle cx="414" cy="195" r="6" fill="#ffffff" opacity="0.7"/>
+  <path d="M 405 240 L 415 220 L 429 220 L 439 240 Z" fill="#424242"/>
+
+  <!-- Cauldron Shadow & Base -->
+  <ellipse cx="256" cy="450" rx="160" ry="28" fill="#010003" opacity="0.95"/>
+  <!-- Cauldron Body -->
+  <path d="M 120 220 C 90 370, 422 370, 392 220 Z" fill="#181818" filter="url(#shadow)"/>
+  <!-- Cauldron Rim -->
+  <ellipse cx="256" cy="220" rx="136" ry="24" fill="#242424" stroke="#484848" stroke-width="6"/>
+
+  <!-- Potion Liquid inside Cauldron -->
+  <ellipse cx="256" cy="227" rx="124" ry="18" fill="url(#potionGrad)" filter="url(#glow)"/>
+  
+  <!-- Vigorous Bubbles & Splashes -->
+  <circle cx="200" cy="225" r="11" fill="#b9f6ca" filter="url(#glow)"/>
+  <circle cx="305" cy="232" r="9" fill="#b9f6ca" filter="url(#glow)"/>
+  <circle cx="256" cy="220" r="16" fill="#ccff90" filter="url(#glow)"/>
+  <circle cx="256" cy="220" r="6" fill="#ffffff"/>
+  <!-- Pop splash drops -->
+  <circle cx="225" cy="198" r="6" fill="#69f0ae" filter="url(#glow)"/>
+  <circle cx="285" cy="192" r="7" fill="#69f0ae" filter="url(#glow)"/>
+
+  <!-- Toxic Noxious Fumes & Smoke Swirls -->
+  <path d="M 215 210 C 140 140, 210 80, 180 0" fill="none" stroke="#69f0ae" stroke-width="14" stroke-linecap="round" opacity="0.6" filter="url(#glow)"/>
+  <path d="M 295 210 C 370 130, 275 70, 310 -10" fill="none" stroke="#b9f6ca" stroke-width="10" stroke-linecap="round" opacity="0.6" filter="url(#glow)"/>
+  <!-- Skull smoke puffs -->
+  <circle cx="180" cy="40" r="28" fill="#69f0ae" opacity="0.25" filter="url(#strongGlow)"/>
+  <circle cx="310" cy="20" r="34" fill="#b9f6ca" opacity="0.25" filter="url(#strongGlow)"/>
+
+  <!-- Witch Character Body & Robes -->
+  <path d="M 130 490 C 130 320, 382 320, 382 490 Z" fill="#1b082e" filter="url(#shadow)"/>
+  <path d="M 170 490 C 170 350, 342 350, 342 490 Z" fill="#280e46"/>
+  <!-- Gold Cloak Trim / Collar -->
+  <path d="M 160 355 Q 256 385 352 355" fill="none" stroke="#ffb300" stroke-width="9"/>
+  <circle cx="256" cy="370" r="9" fill="#ffca28"/>
+
+  <!-- Witch Head & Face (Leaning back in total revulsion) -->
+  <ellipse cx="256" cy="280" rx="58" ry="64" fill="#8bc34a" filter="url(#shadow)"/>
+  <!-- Face Highlight -->
+  <ellipse cx="238" cy="258" rx="24" ry="38" fill="#aed581" opacity="0.5"/>
+
+  <!-- Witch Nose (Large hooked nose) -->
+  <path d="M 256 270 Q 300 288, 278 315 Z" fill="#689f38"/>
+  <circle cx="278" cy="308" r="4" fill="#33691e"/>
+
+  <!-- Disgusted Eyes (Squinted X marks in agony) -->
+  <path d="M 212 255 L 238 278 M 238 255 L 212 278" stroke="#1b5e20" stroke-width="6" stroke-linecap="round"/>
+  <path d="M 274 255 L 300 278 M 300 255 L 274 278" stroke="#1b5e20" stroke-width="6" stroke-linecap="round"/>
+  <!-- Eyebrows pinched in extreme disgust -->
+  <path d="M 206 242 Q 226 258 242 242" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+  <path d="M 270 242 Q 286 258 306 242" fill="none" stroke="#1b5e20" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Disgusted Mouth (Wide open screaming in horror, toxic green tongue / slime) -->
+  <ellipse cx="258" cy="328" rx="22" ry="16" fill="#1b5e20" stroke="#33691e" stroke-width="4"/>
+  <path d="M 245 332 Q 258 350 271 334" fill="#76ff03"/> <!-- Toxic tongue -->
+  <circle cx="258" cy="340" r="5" fill="#b9f6ca" filter="url(#glow)"/>
+
+  <!-- Sweat / Nausea Tears -->
+  <path d="M 200 260 Q 185 278 194 292 Q 204 292 200 260 Z" fill="#4fc3f7" filter="url(#glow)"/>
+  <path d="M 312 265 Q 327 283 318 297 Q 308 297 312 265 Z" fill="#4fc3f7" filter="url(#glow)"/>
+
+  <!-- Witch Hat -->
+  <!-- Brim -->
+  <ellipse cx="256" cy="235" rx="112" ry="26" fill="#14061f" filter="url(#shadow)"/>
+  <!-- Hat Cone -->
+  <path d="M 155 225 Q 215 105 232 30 Q 248 105 357 225 Z" fill="#14061f" filter="url(#shadow)"/>
+  <!-- Hat Ribbon & Gold Buckle -->
+  <path d="M 185 208 Q 256 190 327 208" fill="none" stroke="#ffb300" stroke-width="11"/>
+  <rect x="245" y="191" width="22" height="22" fill="#ffca28" rx="4" stroke="#ffa000" stroke-width="2"/>
+
+  <!-- Spoon & Repulsive Tastes (Active Narrative Action) -->
+  <path d="M 150 390 L 250 290 L 340 320" fill="none" stroke="#3e2723" stroke-width="16" stroke-linecap="round" filter="url(#shadow)"/>
+  <path d="M 150 390 L 250 290 L 340 320" fill="none" stroke="#5d4037" stroke-width="9" stroke-linecap="round"/>
+  <!-- Spoon Bowl near mouth -->
+  <ellipse cx="250" cy="290" rx="20" ry="15" fill="#8d6e63" stroke="#3e2723" stroke-width="3"/>
+  <ellipse cx="250" cy="290" rx="12" ry="9" fill="#271c19"/>
+  <!-- Foul Dripping Sludge Blob -->
+  <path d="M 238 296 C 238 322, 262 322, 262 296 Z" fill="#76ff03" filter="url(#glow)"/>
+  <circle cx="250" cy="328" r="7" fill="#76ff03" filter="url(#glow)"/>
+
+  <!-- Dynamic Cauldron Lighting Wash (Green rim light on witch & foreground) -->
+  <radialGradient id="cauldronLight" cx="256" cy="270" r="190" gradientUnits="userSpaceOnUse">
+    <stop offset="0%" stop-color="#76ff03" stop-opacity="0.5"/>
+    <stop offset="50%" stop-color="#4caf50" stop-opacity="0.18"/>
+    <stop offset="100%" stop-color="#4caf50" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="512" height="512" fill="url(#cauldronLight)" style="mix-blend-mode: screen; pointer-events: none;"/>
+</svg>

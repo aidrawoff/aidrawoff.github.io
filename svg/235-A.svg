@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Warm kitchen background -->
+  <rect width="512" height="512" fill="#f9f3e6"/>
+  <rect x="0" y="384" width="512" height="128" fill="#d4c4a8"/>
+  <!-- Soft glow behind bat chef -->
+  <ellipse cx="256" cy="224" rx="96" ry="64" fill="#fff8e1" opacity="0.6"/>
+  <!-- Kitchen counter details -->
+  <rect x="48" y="392" width="416" height="8" fill="#c4a480"/>
+  <rect x="48" y="408" width="320" height="4" fill="#c4a480"/>
+  <!-- Bat chef body (bat silhouette as chef) -->
+  <path d="M256 256c-64 0-112-40-112-96 0-32 16-64 48-80 24-12 52-16 76-12 32 4 56 20 68 48 16 36 16 80 0 116-20 16-48 24-76 20-32-4-60-16-72-40-16-28-16-68 0-96 20-16 48-24 76-20 32 4 60 16 72 40 12 24 12 56 0 80-16 12-36 20-56 24-24 4-48 4-72 0-28-4-52-16-64-36zm-80 48c12 0 24-8 24-20s-12-20-24-20-24 8-24 20 12 20 24 20z" fill="#2a2a2a"/>
+  <!-- Chef hat -->
+  <path d="M224 160c-24 0-40 16-40 40v32h80v-32c0-24-16-40-40-40zm-16 24c8 0 16 8 16 16s-8 16-16 16-16-8-16-16 8-16 16-16z" fill="#ffffff"/>
+  <!-- Apron -->
+  <rect x="208" y="288" width="96" height="32" fill="#4a6b8a"/>
+  <!-- Rolling pin -->
+  <rect x="160" y="304" width="80" height="6" rx="3" fill="#d1b280"/>
+  <!-- Chef's knife -->
+  <rect x="360" y="300" width="40" height="4" rx="2" fill="#555" transform="rotate(-15 380 302)"/>
+  <!-- Whisk -->
+  <path d="M120 304c0-16 12-28 28-28s28 12 28 28v8h-56v-8z" fill="#555"/>
+  <circle cx="148" cy="304" r="4" fill="#555"/>
+  <!-- Eyes with subtle glow -->
+  <circle cx="224" cy="184" r="6" fill="#ff5555"/>
+  <circle cx="288" cy="184" r="6" fill="#ff5555"/>
+  <!-- Cheeks (character) -->
+  <circle cx="208" cy="208" r="4" fill="#ff9999" opacity="0.6"/>
+  <circle cx="304" cy="208" r="4" fill="#ff9999" opacity="0.6"/>
+</svg>

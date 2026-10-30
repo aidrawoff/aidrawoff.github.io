@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="42%" r="60%">
+      <stop offset="0%" stop-color="#3d5a7a"/>
+      <stop offset="55%" stop-color="#1b2a42"/>
+      <stop offset="100%" stop-color="#0a1020"/>
+    </radialGradient>
+    <linearGradient id="band" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e8dcc0"/>
+      <stop offset="50%" stop-color="#fdf6e6"/>
+      <stop offset="100%" stop-color="#cbbda0"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <ellipse cx="256" cy="470" rx="230" ry="60" fill="#26374f"/>
+  <!-- scale platform -->
+  <rect x="120" y="430" width="272" height="26" rx="12" fill="#7d8aa0"/>
+  <rect x="120" y="430" width="272" height="9" rx="4" fill="#aab6c8"/>
+  <!-- mummy body -->
+  <g>
+    <path d="M188 200 Q256 170 324 200 L330 400 Q256 430 182 400 Z" fill="url(#band)"/>
+    <ellipse cx="256" cy="330" rx="86" ry="62" fill="#fff8e8"/>
+    <path d="M170 250 Q256 285 342 250" stroke="#cbbda0" stroke-width="7" fill="none" opacity=".8"/>
+    <path d="M172 290 Q256 330 340 290" stroke="#cbbda0" stroke-width="7" fill="none" opacity=".8"/>
+    <path d="M176 330 Q256 372 336 330" stroke="#cbbda0" stroke-width="7" fill="none" opacity=".8"/>
+    <path d="M182 372 Q256 408 330 372" stroke="#cbbda0" stroke-width="7" fill="none" opacity=".8"/>
+    <!-- head -->
+    <ellipse cx="256" cy="130" rx="72" ry="70" fill="#fdf6e6"/>
+    <path d="M186 108 Q256 78 326 108" stroke="#cbbda0" stroke-width="7" fill="none"/>
+    <path d="M184 140 Q256 168 328 140" stroke="#cbbda0" stroke-width="7" fill="none"/>
+    <!-- eyes -->
+    <ellipse cx="226" cy="126" rx="19" ry="22" fill="#ffffff"/>
+    <ellipse cx="288" cy="126" rx="19" ry="22" fill="#ffffff"/>
+    <circle cx="229" cy="130" r="10" fill="#2a2a35"/>
+    <circle cx="285" cy="130" r="10" fill="#2a2a35"/>
+    <circle cx="233" cy="125" r="3.5" fill="#fff"/>
+    <circle cx="289" cy="125" r="3.5" fill="#fff"/>
+    <!-- worried brows -->
+    <path d="M208 98 Q226 88 246 96" stroke="#a8946f" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <path d="M306 98 Q288 88 268 96" stroke="#a8946f" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <!-- frown -->
+    <path d="M236 176 Q256 162 276 176" stroke="#8a6f52" stroke-width="7" fill="none" stroke-linecap="round"/>
+    <!-- arms -->
+    <path d="M188 214 Q140 260 132 320" stroke="url(#band)" stroke-width="30" fill="none" stroke-linecap="round"/>
+    <path d="M324 214 Q372 260 380 320" stroke="url(#band)" stroke-width="30" fill="none" stroke-linecap="round"/>
+  </g>
+  <!-- pinched belly folds -->
+  <path d="M300 300 q14 10 4 26" stroke="#c3b18b" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- salad bowl left -->
+  <g>
+    <path d="M62 392 h84 a42 42 0 0 1 -84 0 z" fill="#d9e6ef"/>
+    <circle cx="88" cy="388" r="16" fill="#6fbf5a"/>
+    <circle cx="112" cy="382" r="14" fill="#8fd66f"/>
+    <circle cx="130" cy="390" r="12" fill="#e05a4a"/>
+    <circle cx="104" cy="396" r="10" fill="#c9e87a"/>
+  </g>
+  <!-- donut right, being rejected -->
+  <g>
+    <circle cx="404" cy="386" r="30" fill="#f27bb0"/>
+    <circle cx="404" cy="386" r="11" fill="#0f1a2e"/>
+    <circle cx="392" cy="374" r="4" fill="#ffe066"/>
+    <circle cx="416" cy="380" r="4" fill="#66d9ff"/>
+    <circle cx="406" cy="402" r="4" fill="#a06bff"/>
+  </g>
+  <!-- spotlight on mummy -->
+  <ellipse cx="256" cy="300" rx="170" ry="200" fill="#ffe9b8" opacity=".10"/>
+  <!-- sweat drop, diet struggle -->
+  <path d="M340 118 q10 14 0 20 q-10 -6 0 -20z" fill="#9fdcff"/>
+  <!-- falling band / measuring tape -->
+  <path d="M330 300 q40 30 30 78" stroke="#f2c14e" stroke-width="6" fill="none" stroke-dasharray="8 6"/>
+  <text x="256" y="470" font-family="sans-serif" font-size="26" fill="#cfe0f5" text-anchor="middle" opacity=".85">-0.4 kg</text>
+</svg>
