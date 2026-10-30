@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2a1b3d"/><stop offset="1" stop-color="#4a2f5c"/>
+    </linearGradient>
+    <linearGradient id="beam" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0.05"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd97a" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#ffd97a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#wall)"/>
+  <!-- pillars -->
+  <g fill="#1f1430">
+    <rect x="18" y="40" width="52" height="400"/><rect x="442" y="40" width="52" height="400"/>
+  </g>
+  <!-- arches -->
+  <path d="M70 120 Q256 -10 442 120 L442 60 Q256 -40 70 60 Z" fill="#170f24"/>
+  <!-- cheese window -->
+  <circle cx="256" cy="96" r="58" fill="#f6d873"/>
+  <circle cx="238" cy="82" r="9" fill="#c9a63c"/><circle cx="274" cy="110" r="12" fill="#c9a63c"/>
+  <circle cx="266" cy="72" r="6" fill="#c9a63c"/>
+  <!-- light beam -->
+  <polygon points="212,120 300,120 380,470 132,470" fill="url(#beam)"/>
+  <!-- floor -->
+  <rect x="0" y="400" width="512" height="112" fill="#3a2547"/>
+  <polygon points="196,400 316,400 386,512 126,512" fill="#7a2f3c"/>
+  <polygon points="214,400 298,400 350,512 162,512" fill="#93384a"/>
+  <!-- throne -->
+  <path d="M176 400 L176 200 Q256 150 336 200 L336 400 Z" fill="#8a6a1e"/>
+  <path d="M192 400 L192 212 Q256 168 320 212 L320 400 Z" fill="#c8a02f"/>
+  <rect x="150" y="330" width="34" height="80" rx="10" fill="#a8811f"/>
+  <rect x="328" y="330" width="34" height="80" rx="10" fill="#a8811f"/>
+  <!-- glow behind king -->
+  <circle cx="256" cy="300" r="110" fill="url(#glow)"/>
+  <!-- mouse body -->
+  <ellipse cx="256" cy="330" rx="62" ry="58" fill="#b9bcc6"/>
+  <ellipse cx="256" cy="346" rx="40" ry="36" fill="#e6e8ee"/>
+  <!-- ears -->
+  <circle cx="196" cy="262" r="34" fill="#a9adb9"/><circle cx="196" cy="262" r="20" fill="#efb6c4"/>
+  <circle cx="316" cy="262" r="34" fill="#a9adb9"/><circle cx="316" cy="262" r="20" fill="#efb6c4"/>
+  <!-- head -->
+  <ellipse cx="256" cy="280" rx="46" ry="42" fill="#c3c7d1"/>
+  <!-- crown -->
+  <path d="M222 244 L226 214 L242 232 L256 206 L270 232 L286 214 L290 244 Z" fill="#ffd24a" stroke="#a8811f" stroke-width="3"/>
+  <!-- eyes -->
+  <circle cx="238" cy="276" r="7" fill="#1b1b22"/><circle cx="274" cy="276" r="7" fill="#1b1b22"/>
+  <circle cx="240" cy="273" r="2.4" fill="#fff"/><circle cx="276" cy="273" r="2.4" fill="#fff"/>
+  <!-- snout + nose -->
+  <ellipse cx="256" cy="300" rx="16" ry="12" fill="#eef0f5"/>
+  <circle cx="256" cy="296" r="6" fill="#e57fa0"/>
+  <!-- whiskers -->
+  <g stroke="#f2f4f8" stroke-width="2.4" stroke-linecap="round">
+    <line x1="236" y1="300" x2="196" y2="292"/><line x1="236" y1="306" x2="194" y2="312"/>
+    <line x1="276" y1="300" x2="316" y2="292"/><line x1="276" y1="306" x2="318" y2="312"/>
+  </g>
+  <!-- scepter -->
+  <line x1="330" y1="250" x2="352" y2="400" stroke="#d9b23c" stroke-width="9" stroke-linecap="round"/>
+  <circle cx="328" cy="240" r="14" fill="#ffd24a" stroke="#a8811f" stroke-width="3"/>
+  <!-- paws -->
+  <ellipse cx="222" cy="368" rx="17" ry="13" fill="#d6d9e0"/>
+  <ellipse cx="290" cy="368" rx="17" ry="13" fill="#d6d9e0"/>
+  <!-- tail curling over armrest -->
+  <path d="M300 372 Q380 396 372 336 Q368 306 340 316" fill="none" stroke="#efb6c4" stroke-width="8" stroke-linecap="round"/>
+  <!-- courtier mice silhouettes -->
+  <g fill="#15101f">
+    <ellipse cx="72" cy="452" rx="26" ry="20"/><circle cx="52" cy="434" r="12"/>
+    <ellipse cx="440" cy="452" rx="26" ry="20"/><circle cx="460" cy="434" r="12"/>
+  </g>
+  <!-- torches -->
+  <g>
+    <rect x="34" y="200" width="12" height="46" fill="#5a4022"/>
+    <path d="M40 200 Q28 176 40 158 Q52 176 40 200 Z" fill="#ff9a3c"/>
+    <path d="M40 194 Q33 178 40 166 Q47 178 40 194 Z" fill="#ffd24a"/>
+    <rect x="466" y="200" width="12" height="46" fill="#5a4022"/>
+    <path d="M472 200 Q460 176 472 158 Q484 176 472 200 Z" fill="#ff9a3c"/>
+    <path d="M472 194 Q465 178 472 166 Q479 178 472 194 Z" fill="#ffd24a"/>
+  </g>
+  <!-- floating crumbs / sparkle -->
+  <g fill="#ffe9a8">
+    <circle cx="150" cy="180" r="4"/><circle cx="368" cy="166" r="5"/><circle cx="120" cy="290" r="3"/>
+    <circle cx="398" cy="300" r="4"/><circle cx="180" cy="120" r="3"/><circle cx="334" cy="112" r="3"/>
+  </g>
+</svg>

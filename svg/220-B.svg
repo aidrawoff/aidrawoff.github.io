@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0%" stop-color="#1a0f2a"/>
+      <stop offset="100%" stop-color="#2a1a3a"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bgGradient)"/>
+  <!-- Pumpkin throne base -->
+  <ellipse cx="256" cy="320" rx="120" ry="80" fill="#d4832a" stroke="#b86a1a" stroke-width="2"/>
+  <!-- Pumpkin texture lines -->
+  <path d="M180 300 L332 300" stroke="#b86a1a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M200 280 L312 280" stroke="#b86a1a" stroke-width="2" stroke-linecap="round"/>
+  <path d="M220 320 L292 320" stroke="#b86a1a" stroke-width="2" stroke-linecap="round"/>
+  <!-- Shadow under throne -->
+  <ellipse cx="256" cy="340" rx="110" ry="20" fill="#1a0f2a" opacity="0.6"/>
+  <!-- Mouse feet shadow -->
+  <ellipse cx="256" cy="275" rx="15" ry="5" fill="#1a0f2a" opacity="0.3"/>
+  <!-- Carved face on throne -->
+  <defs>
+    <radialGradient id="carvedFace" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#f5e7a1"/>
+      <stop offset="100%" stop-color="#d4832a"/>
+    </radialGradient>
+  </defs>
+  <circle cx="220" cy="300" r="8" fill="url(#carvedFace)"/>
+  <circle cx="292" cy="300" r="8" fill="url(#carvedFace)"/>
+  <circle cx="220" cy="300" r="3" fill="#5d2a0e"/>
+  <circle cx="292" cy="300" r="3" fill="#5d2a0e"/>
+  <path d="M256 300 L256 310" stroke="#5d2a0e" stroke-width="3" fill="none"/>
+  <path d="M220 320 Q256 340 292 320" stroke="#5d2a0e" stroke-width="3" fill="none"/>
+  <!-- Glowing eyes -->
+  <circle cx="220" cy="300" r="2" fill="#ffeb3b"/>
+  <circle cx="292" cy="300" r="2" fill="#ffeb3b"/>
+  <!-- Carved mouth -->
+  <path d="M240 310 Q256 315 272 310" stroke="#5d2a0e" stroke-width="2" fill="none"/>
+  <!-- Mouse throne occupant -->
+  <path d="M256 240 L256 270 Q240 270 240 255 Q240 240 256 240 Z" fill="#a0a0a0" stroke="#707070" stroke-width="1"/>
+  <!-- Mouse fur texture -->
+  <path d="M256 250 Q250 250 250 255" stroke="#888" stroke-width="1" fill="none"/>
+  <path d="M256 255 Q262 255 262 260" stroke="#888" stroke-width="1" fill="none"/>
+  <circle cx="252" cy="252" r="1" fill="#fff" opacity="0.6"/>
+  <circle cx="260" cy="258" r="1" fill="#fff" opacity="0.6"/>
+  <!-- Mouse fur highlights -->
+  <circle cx="248" cy="250" r="1" fill="#fff" opacity="0.4"/>
+  <circle cx="264" cy="252" r="1" fill="#fff" opacity="0.4"/>
+  <!-- Mouse crown highlights -->
+  <path d="M256 230 L250 230 L250 235" stroke="#f5e7a1" stroke-width="1" fill="none"/>
+  <!-- Mouse ears -->
+  <path d="M240 240 L235 230 L245 230 Z" fill="#a0a0a0" stroke="#707070" stroke-width="1"/>
+  <path d="M272 240 L277 230 L267 230 Z" fill="#a0a0a0" stroke="#707070" stroke-width="1"/>
+  <!-- Mouse eyes -->
+  <circle cx="248" cy="248" r="3" fill="#5d2a0e"/>
+  <circle cx="264" cy="248" r="3" fill="#5d2a0e"/>
+  <!-- Mouse nose -->
+  <circle cx="256" cy="255" r="2" fill="#5d2a0e"/>
+  <!-- Mouse tail -->
+  <path d="M256 270 Q270 280 280 290" stroke="#a0a0a0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Mouse crown -->
+  <defs>
+    <linearGradient id="crownGradient" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="100%" stop-color="#d4af37"/>
+    </linearGradient>
+  </defs>
+  <path d="M256 240 L256 230 L250 230 L250 240 Z" fill="url(#crownGradient)" stroke="#b8941f" stroke-width="1"/>
+  <path d="M250 235 L256 230 L262 235" stroke="#fff" stroke-width="1" fill="none"/>
+</svg>

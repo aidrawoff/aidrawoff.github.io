@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0a0518"/>
+      <stop offset="50%" stop-color="#1b1035"/>
+      <stop offset="100%" stop-color="#2d1b4e"/>
+    </linearGradient>
+    
+    <!-- Spotlight Gradient -->
+    <radialGradient id="spotlight" cx="50%" cy="30%" r="60%">
+      <stop offset="0%" stop-color="#ffeedd" stop-opacity="0.4"/>
+      <stop offset="60%" stop-color="#9966cc" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Brass Gradient -->
+    <linearGradient id="brass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffe57f"/>
+      <stop offset="30%" stop-color="#ffb300"/>
+      <stop offset="70%" stop-color="#ffa000"/>
+      <stop offset="100%" stop-color="#ff8f00"/>
+    </linearGradient>
+
+    <!-- Brass Highlight -->
+    <linearGradient id="brassHi" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#ffc107" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Bone Gradient -->
+    <linearGradient id="bone" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e0e0e0"/>
+      <stop offset="50%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#cccccc"/>
+    </linearGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="6" stdDeviation="4" flood-color="#000" flood-opacity="0.6"/>
+    </filter>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Background silhouettes / atmosphere -->
+  <g fill="#150a28">
+    <path d="M0 512 L0 420 Q 80 400 160 430 T 320 410 T 512 440 L 512 512 Z"/>
+    <path d="M 50 420 L 45 350 L 55 330 L 40 280 L 52 260 L 45 220 L 60 210 L 50 180 L 65 170 L 60 150 L 70 160 L 75 180 L 70 210 L 85 220 L 75 260 L 90 280 L 75 330 L 85 350 L 80 420 Z"/>
+    <path d="M 450 430 L 460 360 L 445 340 L 460 290 L 448 270 L 455 230 L 440 220 L 450 190 L 435 180 L 442 165 L 432 175 L 428 195 L 438 220 L 420 230 L 435 270 L 420 290 L 438 340 L 425 360 L 435 430 Z"/>
+  </g>
+
+  <!-- Stars & Confetti/Sparkles -->
+  <g fill="#ffffff" opacity="0.75">
+    <circle cx="80" cy="80" r="1.5"/>
+    <circle cx="200" cy="50" r="2"/>
+    <circle cx="350" cy="90" r="1"/>
+    <circle cx="450" cy="60" r="2.5"/>
+    <circle cx="120" cy="150" r="1"/>
+    <circle cx="390" cy="140" r="1.5"/>
+    <circle cx="270" cy="70" r="1.2"/>
+  </g>
+
+  <!-- Spotlight -->
+  <rect width="512" height="512" fill="url(#spotlight)"/>
+
+  <!-- Floor reflection / stage -->
+  <ellipse cx="256" cy="460" rx="180" ry="30" fill="#3a2268" opacity="0.85"/>
+
+  <!-- MUSIC STAND (Left side) -->
+  <g filter="url(#shadow)" opacity="0.95">
+    <path d="M 120 460 L 126 360 L 132 460 Z" fill="#2d1b4e"/>
+    <line x1="126" y1="360" x2="126" y2="280" stroke="#ffb300" stroke-width="4"/>
+    <!-- Stand Desk -->
+    <path d="M 90 250 L 162 250 L 172 290 L 80 290 Z" fill="url(#brass)"/>
+    <!-- Sheet Music -->
+    <rect x="98" y="258" width="56" height="26" fill="#f5f5f5" rx="2"/>
+    <line x1="104" y1="266" x2="146" y2="266" stroke="#333" stroke-width="1"/>
+    <line x1="104" y1="272" x2="140" y2="272" stroke="#333" stroke-width="1"/>
+    <circle cx="112" cy="270" r="2" fill="#333"/>
+    <circle cx="132" cy="264" r="2" fill="#333"/>
+  </g>
+
+  <!-- SKELETON & TROMBONE GROUP -->
+  <g filter="url(#shadow)">
+    
+    <!-- Floor shadow of skeleton -->
+    <ellipse cx="256" cy="465" rx="70" ry="12" fill="#000000" opacity="0.7"/>
+
+    <!-- Pelvis & Spine -->
+    <path d="M 236 340 Q 250 320 256 280 Q 262 320 276 340 Z" fill="url(#bone)"/>
+    <rect x="248" y="220" width="16" height="70" rx="4" fill="url(#bone)"/>
+    <!-- Ribcage -->
+    <g fill="url(#bone)">
+      <path d="M 230 225 Q 256 210 282 225 Q 285 240 275 245 Q 256 235 237 245 Q 227 240 230 225 Z"/>
+      <path d="M 226 250 Q 256 235 286 250 Q 288 265 278 270 Q 256 260 234 270 Q 224 265 226 250 Z"/>
+      <path d="M 230 275 Q 256 260 282 275 Q 284 290 274 295 Q 256 285 238 295 Q 228 290 230 275 Z"/>
+      <path d="M 238 300 Q 256 290 274 300 Q 276 312 268 316 Q 256 308 244 316 Q 236 312 238 300 Z"/>
+    </g>
+
+    <!-- Collarbone & Shoulders -->
+    <path d="M 210 205 Q 256 195 302 205 Q 308 215 300 218 Q 256 208 212 218 Q 204 215 210 205 Z" fill="url(#bone)"/>
+
+    <!-- Skull Group (with Top Hat) -->
+    <g transform="translate(256, 150)">
+      <!-- Cranium -->
+      <ellipse cx="0" cy="-15" rx="28" ry="32" fill="url(#bone)"/>
+      <!-- Jaw -->
+      <path d="M -18 5 Q 0 25 18 5 Q 16 18 0 22 Q -16 18 -18 5 Z" fill="url(#bone)"/>
+      <!-- Eye sockets (dark) -->
+      <ellipse cx="-10" cy="-15" rx="8" ry="10" fill="#150a28"/>
+      <ellipse cx="10" cy="-15" rx="8" ry="10" fill="#150a28"/>
+      <!-- Glowing eye pinpricks -->
+      <circle cx="-10" cy="-15" r="2.2" fill="#ffb300" filter="url(#glow)"/>
+      <circle cx="10" cy="-15" r="2.2" fill="#ffb300" filter="url(#glow)"/>
+      <!-- Nose cavity -->
+      <path d="M -3 -2 L 3 -2 L 0 7 Z" fill="#150a28"/>
+      <!-- Teeth grin -->
+      <line x1="-12" y1="12" x2="12" y2="12" stroke="#150a28" stroke-width="2"/>
+      <line x1="-8" y1="8" x2="-8" y2="16" stroke="#150a28" stroke-width="1.5"/>
+      <line x1="-3" y1="8" x2="-3" y2="16" stroke="#150a28" stroke-width="1.5"/>
+      <line x1="2" y1="8" x2="2" y2="16" stroke="#150a28" stroke-width="1.5"/>
+      <line x1="7" y1="8" x2="7" y2="16" stroke="#150a28" stroke-width="1.5"/>
+
+      <!-- Jazzy Top Hat -->
+      <g transform="translate(4, -42) rotate(10)">
+        <ellipse cx="0" cy="0" rx="32" ry="8" fill="#1a102f"/>
+        <path d="M -22 -2 L -18 -38 L 18 -38 L 22 -2 Z" fill="#2d1b4e"/>
+        <!-- Hat band -->
+        <path d="M -20 -8 L 20 -8 L 19 -2 L -19 -2 Z" fill="#ffb300"/>
+        <!-- Feather in hat -->
+        <path d="M 15 -35 Q 25 -55 35 -50 Q 28 -35 15 -25 Z" fill="#ffffff" opacity="0.95"/>
+      </g>
+    </g>
+
+    <!-- Legs (Jazz stance, bending knee) -->
+    <!-- Left Leg -->
+    <path d="M 242 345 L 210 410 L 195 460" stroke="url(#bone)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 195 460 L 175 465" stroke="url(#bone)" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+    <!-- Right Leg -->
+    <path d="M 270 345 L 290 415 L 320 455" stroke="url(#bone)" stroke-width="14" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+    <path d="M 320 455 L 345 452" stroke="url(#bone)" stroke-width="10" stroke-linecap="round" fill="none"/>
+
+    <!-- LEFT ARM (holding trombone body / brace) -->
+    <path d="M 220 210 Q 180 230 195 270 Q 210 290 230 285" stroke="url(#bone)" stroke-width="11" stroke-linecap="round" fill="none"/>
+
+    <!-- RIGHT ARM (holding slide, extended outward) -->
+    <path d="M 292 210 Q 340 220 380 250" stroke="url(#bone)" stroke-width="11" stroke-linecap="round" fill="none"/>
+    <path d="M 380 250 L 415 265" stroke="url(#bone)" stroke-width="9" stroke-linecap="round" fill="none"/>
+
+    <!-- TROMBONE -->
+    <g transform="translate(190, 240) rotate(-15)">
+      <!-- Outer Slide Bars -->
+      <rect x="130" y="23" width="160" height="6" rx="3" fill="url(#brass)"/>
+      <rect x="130" y="37" width="160" height="6" rx="3" fill="url(#brass)"/>
+      <!-- Slide cross-brace & end bow -->
+      <path d="M 285 20 Q 295 29 285 46" fill="none" stroke="url(#brass)" stroke-width="8" stroke-linecap="round"/>
+      <rect x="200" y="20" width="8" height="26" rx="3" fill="url(#brass)"/>
+
+      <!-- Inner Slide (connected to player) -->
+      <rect x="20" y="25" width="140" height="4" rx="2" fill="url(#brass)"/>
+      <rect x="20" y="39" width="140" height="4" rx="2" fill="url(#brass)"/>
+
+      <!-- Valve section / tubing loop -->
+      <path d="M 50 25 Q 35 10 50 -5 Q 65 -20 80 -5 Q 95 10 80 25" fill="none" stroke="url(#brass)" stroke-width="7"/>
+
+      <!-- Main Bell section -->
+      <path d="M 80 25 L 180 -10 Q 230 -25 260 -5 Q 290 15 285 32 Q 280 48 250 55 Q 220 62 170 45 L 80 35 Z" fill="url(#brass)"/>
+      <!-- Bell opening / inner darkness -->
+      <ellipse cx="265" cy="25" rx="12" ry="22" fill="#5c3800"/>
+      <ellipse cx="267" cy="25" rx="8" ry="16" fill="#150a28"/>
+
+      <!-- Mouthpiece -->
+      <path d="M 12 32 L 25 32" stroke="url(#brass)" stroke-width="6" stroke-linecap="round"/>
+      <ellipse cx="10" cy="32" rx="3" ry="5" fill="url(#brass)"/>
+
+      <!-- Highlights on bell -->
+      <path d="M 100 10 Q 180 -5 240 10" fill="none" stroke="url(#brassHi)" stroke-width="3" opacity="0.9"/>
+    </g>
+
+    <!-- Floating Musical Notes & Magic Waves -->
+    <g fill="#ffeb3b" filter="url(#glow)">
+      <!-- Note 1 -->
+      <ellipse cx="360" cy="140" rx="8" ry="6" transform="rotate(-20 360 140)"/>
+      <path d="M 366 138 L 366 110 L 385 105 L 385 112 L 374 115 L 374 138" stroke="#ffeb3b" stroke-width="2" fill="none"/>
+      
+      <!-- Note 2 (quaver) -->
+      <circle cx="410" cy="180" r="6"/>
+      <path d="M 416 178 L 416 145 Q 435 140 440 130 L 440 150 Q 430 155 416 158" fill="#ffeb3b"/>
+
+      <!-- Note 3 -->
+      <circle cx="330" cy="110" r="5"/>
+      <path d="M 335 108 L 335 85 L 350 80 L 350 86 L 341 89 L 341 108" stroke="#ffeb3b" stroke-width="1.5" fill="none"/>
+
+      <!-- Sparkles / Sound waves -->
+      <path d="M 300 220 Q 330 200 360 215" fill="none" stroke="#ffc107" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+      <path d="M 320 200 Q 350 180 390 200" fill="none" stroke="#ffc107" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+      <path d="M 280 240 Q 310 230 340 250" fill="none" stroke="#ffc107" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+      
+      <circle cx="340" cy="230" r="3" opacity="0.95"/>
+      <circle cx="370" cy="185" r="4" opacity="0.95"/>
+      <circle cx="430" cy="220" r="2.5" opacity="0.9"/>
+    </g>
+
+  </g>
+
+</svg>
