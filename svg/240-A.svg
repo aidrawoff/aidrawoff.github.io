@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a1a"/>
+  <!-- Mummy ghost silhouette (single path) -->
+  <path id="ghost" d="M256 160c-32 0-56 24-56 56 0 16 8 32 24 48 16 16 32 24 48 24s32-8 48-24c16-16 24-32 24-48 0-32-24-56-56-56zm-80 56c0-16 12-32 32-32s32 16 32 32-12 32-32 32-32-16-32-32zM336 216c0-16 12-32 32-32s32 16 32 32-12 32-32 32-32-16-32-32zM200 280c-16 0-32-12-32-32s12-32 32-32 32 12 32 32-12 32-32 32zm112 0c-16 0-32-12-32-32s12-32 32-32 32 12 32 32-12 32-32 32zM224 320c-24 0-48 16-48 40s24 40 48 40 48-16 48-40-24-40-48-40zm64 0c-24 0-48 16-48 40s24 40 48 40 48-16 48-40-24-40-48-40z" fill="#d0e8ff" opacity="0.9" filter="url(#wisp)"/>  <!-- wispy edges, slight head highlight -->
+  <!-- Tuba: clean curves, valves on top -->
+  <path id="tuba-body" d="M256 288c-48 0-88 40-88 88 0 24 16 40 40 40s40-16 40-40c0-24 24-40 48-40s48 16 48 40c0 24-16 40-40 40s-48-16-48-40 16-40 40-40zm-32 0c-16 0-32 12-32 32s12 32 32 32 32-12 32-32-12-32-32-32zM224 320h64" stroke="#f0f0f0" stroke-width="4" stroke-linecap="round"/>
+  <path id="tuba-bell" d="M256 376c-24 0-48 16-48 40s24 40 48 40 48-16 48-40-24-40-48-40zm-16 40c-8 0-16 8-16 16s8 16 16 16 16-8 16-16-8-16-16-16z" fill="#f0f0f0"/>
+  <!-- Soft shadow under ghost -->
+  <ellipse cx="256" cy="360" rx="64" ry="16" fill="#000000" opacity="0.2"/>
+  <!-- Glow on tuba bell -->
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" stop-color="#e0f0ff" stop-opacity="0.95"/>
+    <stop offset="100%" stop-color="#e0f0ff" stop-opacity="0"/>
+  </radialGradient>
+  <circle cx="256" cy="416" r="40" fill="url(#glow)"/>
+  <!-- Tuba valves -->
+  <circle cx="240" cy="344" r="6" fill="#a0a0a0"/>
+  <circle cx="272" cy="344" r="6" fill="#a0a0a0"/>
+  <!-- Wisp filter -->
+  <filter id="wisp" x="-20%" y="-20%" width="140%" height="140%">
+    <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
+    <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+  </filter>
+</svg>

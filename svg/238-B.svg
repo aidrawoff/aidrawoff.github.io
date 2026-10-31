@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#3a2456"/>
+      <stop offset="100%" stop-color="#120a22"/>
+    </radialGradient>
+    <linearGradient id="iron" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2a2a33"/>
+      <stop offset="40%" stop-color="#6a6a7a"/>
+      <stop offset="100%" stop-color="#17171d"/>
+    </linearGradient>
+    <linearGradient id="potion" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b8ff6a"/>
+      <stop offset="100%" stop-color="#2fae3a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7dff6a" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#7dff6a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bubble" cx="35%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#d4ff9e"/>
+      <stop offset="100%" stop-color="#5fcf45"/>
+    </radialGradient>
+  </defs>
+
+  <!-- background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <ellipse cx="256" cy="300" rx="240" ry="150" fill="url(#glow)" opacity="0.6"/>
+
+  <!-- glowing shadow under the hero -->
+  <ellipse cx="256" cy="458" rx="150" ry="10" fill="#0b2a10" opacity="0.5"/>
+
+  <!-- rim glow and sparks -->
+  <ellipse cx="256" cy="232" rx="140" ry="34" fill="none" stroke="#9dff5a" stroke-width="3" opacity="0.5"/>
+  <circle cx="90" cy="150" r="3" fill="#ffd34d"/>
+  <circle cx="420" cy="120" r="2.5" fill="#ffd34d"/>
+  <circle cx="60" cy="260" r="2" fill="#ffd34d"/>
+  <circle cx="455" cy="230" r="3" fill="#ffd34d"/>
+
+  <!-- steam -->
+  <path d="M212 150 Q188 118 214 88 Q238 58 212 26" fill="none" stroke="#d9c8ff" stroke-width="12" stroke-linecap="round" opacity="0.45"/>
+  <path d="M262 140 Q290 104 262 70 Q238 40 266 10" fill="none" stroke="#d9c8ff" stroke-width="10" stroke-linecap="round" opacity="0.35"/>
+  <path d="M312 150 Q334 120 312 92 Q296 68 318 44" fill="none" stroke="#d9c8ff" stroke-width="8" stroke-linecap="round" opacity="0.3"/>
+
+  <!-- fire -->
+  <path d="M150 455 Q170 395 190 432 Q205 370 230 428 Q250 350 270 428 Q295 380 310 432 Q330 395 362 455 Z" fill="#ff7a22"/>
+  <path d="M190 455 Q210 412 230 455 Q250 402 270 455 Z" fill="#ffd34d"/>
+
+  <!-- ground pool -->
+  <ellipse cx="256" cy="462" rx="200" ry="30" fill="#1d7a2c"/>
+  <ellipse cx="256" cy="458" rx="170" ry="20" fill="url(#potion)"/>
+  <ellipse cx="240" cy="452" rx="60" ry="5" fill="#e6ffb8" opacity="0.6"/>
+
+  <!-- spill streams down the front, over the rim -->
+  <path d="M140 232 Q132 300 128 380 Q126 420 134 446 Q146 452 152 430 Q158 380 164 300 Q168 252 170 236 Z" fill="url(#potion)"/>
+  <path d="M372 232 Q380 300 384 380 Q386 420 378 446 Q366 452 360 430 Q354 380 348 300 Q344 252 342 236 Z" fill="url(#potion)"/>
+  <path d="M236 236 Q232 300 226 360 Q222 392 230 408 Q240 412 242 392 Q248 330 250 240 Z" fill="url(#potion)" opacity="0.9"/>
+  <path d="M286 236 Q290 290 296 340 Q300 372 292 396 Q282 402 280 382 Q274 320 270 240 Z" fill="url(#potion)" opacity="0.9"/>
+  <!-- drips falling -->
+  <ellipse cx="112" cy="330" rx="6" ry="9" fill="#9dff5a"/>
+  <ellipse cx="400" cy="300" rx="7" ry="10" fill="#9dff5a"/>
+  <ellipse cx="128" cy="425" rx="9" ry="6" fill="#c8ff9a"/>
+
+  <!-- cauldron body -->
+  <path d="M124 232 Q120 380 196 414 L316 414 Q392 380 388 232 Z" fill="url(#iron)"/>
+  <path d="M150 300 Q152 370 190 400" fill="none" stroke="#c9c9d8" stroke-width="6" stroke-linecap="round" opacity="0.35"/>
+  <!-- legs -->
+  <path d="M176 402 L162 452 L182 452 L198 410 Z" fill="#1e1e26"/>
+  <path d="M336 402 L350 452 L330 452 L314 410 Z" fill="#1e1e26"/>
+
+  <!-- potion running down the front of the iron -->
+  <path d="M206 240 Q204 300 206 350 Q208 372 216 370 Q222 340 222 300 Q224 262 226 240 Z" fill="url(#potion)"/>
+  <path d="M300 240 Q302 290 300 336 Q298 362 306 364 Q312 330 312 290 Q314 262 316 240 Z" fill="url(#potion)"/>
+  <ellipse cx="216" cy="378" rx="8" ry="11" fill="#c8ff9a"/>
+  <ellipse cx="308" cy="372" rx="7" ry="10" fill="#c8ff9a"/>
+
+  <!-- rim -->
+  <ellipse cx="256" cy="232" rx="134" ry="28" fill="#3a3a46"/>
+  <ellipse cx="256" cy="236" rx="134" ry="5" fill="#55555f"/>
+  <!-- liquid surface, bulging over the rim -->
+  <ellipse cx="256" cy="228" rx="120" ry="20" fill="url(#potion)"/>
+  <ellipse cx="236" cy="222" rx="36" ry="5" fill="#f0ffd6" opacity="0.7"/>
+
+  <!-- bubbles -->
+  <circle cx="200" cy="196" r="15" fill="url(#bubble)"/>
+  <circle cx="242" cy="176" r="22" fill="url(#bubble)"/>
+  <circle cx="292" cy="190" r="13" fill="url(#bubble)"/>
+  <circle cx="322" cy="162" r="9" fill="url(#bubble)"/>
+  <circle cx="264" cy="146" r="6" fill="url(#bubble)"/>
+  <circle cx="218" cy="140" r="4" fill="url(#bubble)"/>
+</svg>

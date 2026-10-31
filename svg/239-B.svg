@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#140f2e"/>
+      <stop offset="1" stop-color="#34295a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#b9e4ff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#b9e4ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ghost" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.6" stop-color="#dfe8f5"/>
+      <stop offset="1" stop-color="#aebfd8"/>
+    </linearGradient>
+    <radialGradient id="shadow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#000" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="256" cy="250" r="230" fill="url(#glow)"/>
+  <!-- moon -->
+  <path d="M420 58 A34 34 0 1 0 446 116 A27 27 0 1 1 420 58 Z" fill="#f4f1d8" opacity="0.9"/>
+  <!-- ground -->
+  <path d="M0 420 Q256 396 512 424 L512 512 L0 512 Z" fill="#1d1738"/>
+  <ellipse cx="256" cy="392" rx="96" ry="12" fill="url(#shadow)"/>
+  <!-- stool shadow and stool -->
+  <ellipse cx="256" cy="436" rx="130" ry="18" fill="url(#shadow)"/>
+  <rect x="200" y="380" width="112" height="14" rx="5" fill="#6b4b8a"/>
+  <rect x="244" y="394" width="24" height="40" fill="#4a3366"/>
+  <!-- cape around the ghost's shoulders -->
+  <!-- ghost body, wavy hem, slightly tilted -->
+  <g transform="rotate(-4 256 260)">
+    <path d="M150 300 Q150 150 256 150 Q362 150 362 300 L362 380 Q344 362 326 380 Q308 396 290 380 Q272 364 256 380 Q238 396 220 380 Q202 362 184 380 Q166 396 150 380 Z" fill="url(#ghost)"/>
+    <!-- soft highlight on the dome -->
+    <path d="M190 220 Q196 180 230 166" stroke="#ffffff" stroke-width="8" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <!-- hair: uneven, half cut -->
+    <path d="M190 160 Q230 120 270 150 Q300 128 330 162 Q316 150 300 168 Q270 150 240 170 Q215 152 190 160 Z" fill="#e8eef8"/>
+    <!-- eyes, one squinted for mischief -->
+    <ellipse cx="220" cy="250" rx="11" ry="15" fill="#1b1638"/>
+    <path d="M276 252 Q292 238 308 252" stroke="#1b1638" stroke-width="6" fill="none" stroke-linecap="round"/>
+    <circle cx="224" cy="244" r="4" fill="#ffffff"/>
+    <!-- mouth: little "o" of concentration -->
+    <ellipse cx="256" cy="300" rx="12" ry="9" fill="#1b1638"/>
+    <!-- rosy cheeks -->
+    <circle cx="200" cy="284" r="9" fill="#f4a6b8" opacity="0.6"/>
+    <circle cx="312" cy="284" r="9" fill="#f4a6b8" opacity="0.6"/>
+  </g>
+  <!-- barber cape draped over the shoulders -->
+  <path d="M166 336 Q256 318 346 336 L352 364 Q256 348 160 364 Z" fill="#8c3b5e"/>
+  <path d="M160 364 Q256 348 352 364 L354 372 Q256 356 158 372 Z" fill="#6e2a48"/>
+  <path d="M236 342 L232 362 M276 344 L280 360" stroke="#f4d0dc" stroke-width="2" opacity="0.6"/>
+  <!-- scissors -->
+  <g stroke="#d8dde6" stroke-width="6" stroke-linecap="round" fill="none">
+    <line x1="382" y1="200" x2="330" y2="250"/>
+    <line x1="392" y1="252" x2="332" y2="198"/>
+  </g>
+  <circle cx="384" cy="194" r="10" fill="none" stroke="#9aa6bb" stroke-width="5"/>
+  <circle cx="396" cy="258" r="10" fill="none" stroke="#9aa6bb" stroke-width="5"/>
+  <!-- falling hair strands and clippings -->
+  <path d="M250 150 q-6 -26 8 -40" stroke="#e8eef8" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.8"/>
+  <path d="M120 230 q-14 30 -4 60" stroke="#e8eef8" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M410 300 q16 24 6 52" stroke="#e8eef8" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <g fill="#e8eef8" opacity="0.85">
+    <path d="M140 420 q6 -8 14 -2 q-6 6 -14 2 Z"/>
+    <path d="M352 432 q8 -6 16 0 q-8 4 -16 0 Z"/>
+    <path d="M300 438 q6 -6 12 0 q-6 4 -12 0 Z"/>
+    <path d="M96 440 q5 -5 11 0 q-5 3 -11 0 Z"/>
+  </g>
+</svg>
