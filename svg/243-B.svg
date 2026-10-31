@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#101b3d"/><stop offset="1" stop-color="#27335b"/></linearGradient>
+ <linearGradient id="cap" x2="0" y2="1"><stop stop-color="#ffb84a"/><stop offset="1" stop-color="#df5b38"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ffeaa0" stop-opacity=".9"/><stop offset="1" stop-color="#ffd05a" stop-opacity="0"/></radialGradient>
+ <filter id="soft"><feGaussianBlur stdDeviation="10"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="258" cy="256" r="185" fill="url(#glow)" filter="url(#soft)"/>
+<path d="M0 405 Q100 360 190 405T380 397T512 408V512H0Z" fill="#162444"/>
+<path d="M46 104 l18 -10 13 14-18 10zM420 100l16-12 12 15-18 9zM89 170l12-9 10 12-13 8z" fill="#8bb7d4" opacity=".45"/>
+<!-- mushroom body -->
+<path d="M163 284 Q168 208 256 207 Q344 208 349 284 L332 309 Q311 326 256 326 Q201 326 180 309Z" fill="#f3c58b" stroke="#632d37" stroke-width="8"/>
+<path d="M192 294 Q204 270 223 281T256 286T289 281T320 295" fill="none" stroke="#d98a63" stroke-width="9" stroke-linecap="round"/>
+<path d="M215 320 Q215 371 205 414 Q256 443 307 414 Q297 371 297 320Z" fill="#f4dfad" stroke="#632d37" stroke-width="8"/>
+<path d="M232 341 Q256 350 280 341" fill="none" stroke="#d98a63" stroke-width="7" stroke-linecap="round"/>
+<!-- beanie -->
+<path d="M151 222 Q158 112 256 93 Q354 112 361 222 Q326 244 256 242 Q186 244 151 222Z" fill="url(#cap)" stroke="#632d37" stroke-width="9"/>
+<path d="M145 211 Q256 242 367 211 L373 252 Q256 280 139 252Z" fill="#f08a3e" stroke="#632d37" stroke-width="9"/>
+<path d="M203 126 Q216 169 206 218M256 103 Q256 161 256 225M309 126 Q296 169 306 218" fill="none" stroke="#ffcc62" stroke-width="8" opacity=".8"/>
+<path d="M173 229 Q256 249 339 229" fill="none" stroke="#ffd477" stroke-width="3" stroke-dasharray="7 8" opacity=".8"/>
+<circle cx="256" cy="92" r="22" fill="#ffd56b" stroke="#632d37" stroke-width="8"/>
+<!-- face -->
+<circle cx="220" cy="274" r="8" fill="#40283a"/><circle cx="292" cy="274" r="8" fill="#40283a"/>
+<ellipse cx="198" cy="292" rx="13" ry="6" fill="#e99b83" opacity=".7"/><ellipse cx="314" cy="292" rx="13" ry="6" fill="#e99b83" opacity=".7"/>
+<path d="M232 294 Q256 311 280 294" fill="none" stroke="#632d37" stroke-width="7" stroke-linecap="round"/>
+<path d="M182 363 Q155 351 142 373M330 363 Q357 351 370 373" fill="none" stroke="#f4dfad" stroke-width="13" stroke-linecap="round"/>
+<circle cx="128" cy="385" r="12" fill="#ffcf63"/><circle cx="384" cy="385" r="12" fill="#ffcf63"/>
+<path d="M120 423 Q256 455 392 423" fill="none" stroke="#89b9cb" stroke-width="5" opacity=".55"/>
+<ellipse cx="256" cy="438" rx="92" ry="12" fill="#0b1730" opacity=".65"/>
+<g fill="#d9f5ff" opacity=".85"><circle cx="52" cy="252" r="4"/><circle cx="103" cy="320" r="3"/><circle cx="420" cy="250" r="4"/><circle cx="455" cy="330" r="3"/><circle cx="76" cy="58" r="3"/><circle cx="386" cy="58" r="3"/></g>
+<path d="M180 181 Q165 160 181 143 Q196 128 184 111" fill="none" stroke="#c8f1e7" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+<path d="M332 181 Q347 160 331 143 Q316 128 328 111" fill="none" stroke="#c8f1e7" stroke-width="7" stroke-linecap="round" opacity=".75"/>
+</svg>
