@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" fill="#0d1436"/>
+  <circle cx="418" cy="86" r="46" fill="#f7f0c8"/>
+  <circle cx="400" cy="76" r="9" fill="#e2d79f"/>
+  <circle cx="436" cy="102" r="6" fill="#e2d79f"/>
+  <circle cx="88" cy="132" r="3" fill="#fffbe6"/>
+  <circle cx="150" cy="70" r="2" fill="#fffbe6"/>
+  <circle cx="60" cy="230" r="2" fill="#fffbe6"/>
+  <circle cx="470" cy="240" r="3" fill="#fffbe6"/>
+  <circle cx="330" cy="46" r="2" fill="#fffbe6"/>
+  <!-- branch -->
+  <path d="M40 424 Q256 396 472 430 L472 452 Q256 420 40 448 Z" fill="#5a3a22"/>
+  <!-- body -->
+  <path d="M256 118 C150 118 108 236 118 322 C126 392 186 424 256 424 C326 424 386 392 394 322 C404 236 362 118 256 118 Z" fill="#8a6a4a" stroke="#2b1c10" stroke-width="7"/>
+  <!-- belly -->
+  <path d="M256 236 C204 236 178 292 186 348 C194 396 224 412 256 412 C288 412 318 396 326 348 C334 292 308 236 256 236 Z" fill="#e8d6b3"/>
+  <!-- wings -->
+  <path d="M126 250 C104 300 112 366 152 396 C160 350 152 296 168 252 Z" fill="#6b4f34" stroke="#2b1c10" stroke-width="6"/>
+  <path d="M386 250 C408 300 400 366 360 396 C352 350 360 296 344 252 Z" fill="#6b4f34" stroke="#2b1c10" stroke-width="6"/>
+  <!-- ear tufts -->
+  <path d="M164 148 L146 92 L196 128 Z" fill="#8a6a4a" stroke="#2b1c10" stroke-width="6"/>
+  <path d="M348 148 L366 92 L316 128 Z" fill="#8a6a4a" stroke="#2b1c10" stroke-width="6"/>
+  <!-- face discs -->
+  <ellipse cx="208" cy="236" rx="52" ry="58" fill="#f3e3c4" stroke="#2b1c10" stroke-width="5"/>
+  <ellipse cx="304" cy="236" rx="52" ry="58" fill="#f3e3c4" stroke="#2b1c10" stroke-width="5"/>
+  <!-- sleepy closed eyes -->
+  <path d="M180 238 Q208 262 236 238" fill="none" stroke="#2b1c10" stroke-width="8" stroke-linecap="round"/>
+  <path d="M276 238 Q304 262 332 238" fill="none" stroke="#2b1c10" stroke-width="8" stroke-linecap="round"/>
+  <!-- beak -->
+  <path d="M256 268 L240 292 Q256 306 272 292 Z" fill="#f0a63a" stroke="#2b1c10" stroke-width="5"/>
+  <!-- nightcap -->
+  <path d="M172 152 C186 84 268 62 336 104 C362 120 372 140 372 154 C330 128 214 128 172 152 Z" fill="#d1435b" stroke="#2b1c10" stroke-width="6"/>
+  <path d="M330 108 C372 84 404 62 412 40 C420 62 400 96 358 124 Z" fill="#d1435b" stroke="#2b1c10" stroke-width="6"/>
+  <circle cx="416" cy="34" r="18" fill="#fdfaf0" stroke="#2b1c10" stroke-width="5"/>
+  <path d="M168 156 C214 126 332 126 376 156 C332 176 214 176 168 156 Z" fill="#fdfaf0" stroke="#2b1c10" stroke-width="5"/>
+  <!-- feet -->
+  <path d="M212 420 q-6 18 -22 22 M212 420 q2 18 0 24 M212 420 q10 14 16 20" stroke="#f0a63a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M300 420 q6 18 22 22 M300 420 q-2 18 0 24 M300 420 q-10 14 -16 20" stroke="#f0a63a" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- belly scallop feathers -->
+  <g fill="none" stroke="#c9ae83" stroke-width="4" stroke-linecap="round">
+    <path d="M216 300 q10 12 20 0 M256 300 q10 12 20 0"/>
+    <path d="M196 330 q10 12 20 0 M236 330 q10 12 20 0 M276 330 q10 12 20 0"/>
+    <path d="M216 360 q10 12 20 0 M256 360 q10 12 20 0"/>
+    <path d="M236 388 q10 12 20 0"/>
+  </g>
+  <!-- rosy sleepy cheeks -->
+  <ellipse cx="176" cy="272" rx="16" ry="10" fill="#e8899a" opacity="0.75"/>
+  <ellipse cx="336" cy="272" rx="16" ry="10" fill="#e8899a" opacity="0.75"/>
+  <!-- eyelash lids -->
+  <path d="M186 232 l-12 -8 M326 232 l12 -8" stroke="#2b1c10" stroke-width="5" stroke-linecap="round"/>
+  <!-- star sparkles -->
+  <g fill="#fffbe6">
+    <path d="M120 190 l4 10 10 4 -10 4 -4 10 -4 -10 -10 -4 10 -4 z"/>
+    <path d="M452 320 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/>
+    <path d="M72 350 l3 8 8 3 -8 3 -3 8 -3 -8 -8 -3 8 -3 z"/>
+    <circle cx="200" cy="52" r="3"/>
+    <circle cx="286" cy="34" r="2.5"/>
+  </g>
+  <!-- zzz -->
+  <text x="392" y="188" font-family="Georgia,serif" font-size="30" fill="#fffbe6">z</text>
+  <text x="418" y="156" font-family="Georgia,serif" font-size="22" fill="#fffbe6">z</text>
+</svg>

@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b1f4b"/>
+      <stop offset="1" stop-color="#3b3f7a"/>
+    </linearGradient>
+    <radialGradient id="body" cx="0.4" cy="0.35" r="0.7">
+      <stop offset="0" stop-color="#b98a5a"/>
+      <stop offset="1" stop-color="#6b4424"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9a8" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="420" cy="90" r="60" fill="url(#glow)"/>
+  <circle cx="420" cy="90" r="34" fill="#fff3c4"/>
+  <circle cx="408" cy="82" r="6" fill="#e9d990" opacity="0.6"/>
+  <circle cx="432" cy="102" r="4" fill="#e9d990" opacity="0.6"/>
+  <circle cx="70" cy="60" r="2" fill="#ffffff"/>
+  <circle cx="150" cy="120" r="1.5" fill="#ffffff"/>
+  <circle cx="300" cy="50" r="2" fill="#ffffff"/>
+  <circle cx="240" cy="150" r="1.5" fill="#ffffff"/>
+  <ellipse cx="256" cy="320" rx="170" ry="180" fill="#6f6aa8" opacity="0.18"/>
+  <path d="M0 400 Q256 370 512 400 L512 512 L0 512 Z" fill="#241a3a"/>
+  <rect x="60" y="410" width="400" height="22" rx="10" fill="#4a2e18"/>
+  <ellipse cx="256" cy="330" rx="120" ry="130" fill="url(#body)"/>
+  <ellipse cx="256" cy="360" rx="78" ry="90" fill="#d7b084" opacity="0.5"/>
+  <path d="M170 215 Q256 130 342 215 Q256 232 170 215 Z" fill="#c8323c"/>
+  <path d="M230 178 Q256 110 300 170 Q270 160 230 178 Z" fill="#c8323c"/>
+  <circle cx="302" cy="168" r="14" fill="#fff6e6"/>
+  <rect x="164" y="208" width="184" height="18" rx="9" fill="#fff6e6"/>
+  <path d="M190 260 Q220 245 240 262 Q230 285 200 285 Q185 275 190 260 Z" fill="#f4e6c8"/>
+  <path d="M322 260 Q292 245 272 262 Q282 285 312 285 Q327 275 322 260 Z" fill="#f4e6c8"/>
+  <path d="M215 262 Q230 272 245 262" fill="none" stroke="#2b1a0e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M297 262 Q282 272 267 262" fill="none" stroke="#2b1a0e" stroke-width="5" stroke-linecap="round"/>
+  <path d="M248 300 L264 300 L256 316 Z" fill="#f2a53a"/>
+  <path d="M190 360 Q210 390 230 360" fill="#8a5a30" opacity="0.6"/>
+  <path d="M282 360 Q302 390 322 360" fill="#8a5a30" opacity="0.6"/>
+  <path d="M150 300 Q118 350 140 410 Q165 380 170 330 Z" fill="#5a3a1e"/>
+  <path d="M362 300 Q394 350 372 410 Q347 380 342 330 Z" fill="#5a3a1e"/>
+  <path d="M160 320 Q140 350 150 390" fill="none" stroke="#3a2412" stroke-width="3" opacity="0.6"/>
+  <path d="M352 320 Q372 350 362 390" fill="none" stroke="#3a2412" stroke-width="3" opacity="0.6"/>
+  <path d="M168 232 L150 196 L186 218 Z" fill="#8a5a30"/>
+  <path d="M344 232 L362 196 L326 218 Z" fill="#8a5a30"/>
+  <path d="M224 432 L218 448 M234 432 L232 450 M240 432 L246 448" stroke="#f2a53a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M276 432 L272 448 M286 432 L286 450 M296 432 L302 448" stroke="#f2a53a" stroke-width="5" stroke-linecap="round"/>
+  <path d="M230 392 Q236 380 244 392 Q238 400 230 392 Z" fill="#7a4e28" opacity="0.5"/>
+  <path d="M268 392 Q274 380 282 392 Q276 400 268 392 Z" fill="#7a4e28" opacity="0.5"/>
+  <path d="M256 330 Q256 300 262 288" fill="none" stroke="#fff3c4" stroke-width="0" opacity="0"/>
+  <path d="M330 280 Q368 320 350 380" fill="none" stroke="#ffe9a8" stroke-width="4" stroke-linecap="round" opacity="0.45"/>
+  <path d="M236 284 Q246 278 254 284" fill="none" stroke="#ffe9a8" stroke-width="3" stroke-linecap="round" opacity="0.4"/>
+  <circle cx="90" cy="150" r="1.5" fill="#ffffff"/>
+  <circle cx="460" cy="230" r="1.5" fill="#ffffff"/>
+  <circle cx="30" cy="260" r="1.5" fill="#ffffff"/>
+  <path d="M312 176 Q318 190 306 200" fill="none" stroke="#fff6e6" stroke-width="3" opacity="0.6"/>
+  <text x="352" y="200" font-family="sans-serif" font-size="30" fill="#c9d4ff" opacity="0.8">z</text>
+  <text x="380" y="168" font-family="sans-serif" font-size="40" fill="#c9d4ff" opacity="0.7">Z</text>
+</svg>
