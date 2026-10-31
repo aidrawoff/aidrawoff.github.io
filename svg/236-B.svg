@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#1a0a2e"/>
+      <stop offset="100%" stop-color="#05020a"/>
+    </radialGradient>
+    <linearGradient id="ghost" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="70%" stop-color="#e0e8ff"/>
+      <stop offset="100%" stop-color="#a0b0ff" stop-opacity="0.3"/>
+    </linearGradient>
+    <linearGradient id="tuba" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#ffd700"/>
+      <stop offset="50%" stop-color="#ffaa00"/>
+      <stop offset="100%" stop-color="#b8860b"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Ground glow -->
+  <ellipse cx="256" cy="420" rx="180" ry="30" fill="#4a0080" opacity="0.4" filter="url(#glow)"/>
+
+  <!-- Ghost body -->
+  <path d="M 160 420 Q 140 350 150 280 Q 160 180 256 160 Q 352 180 362 280 Q 372 350 352 420 Q 320 390 288 420 Q 256 390 224 420 Q 192 390 160 420 Z" fill="url(#ghost)" opacity="0.9"/>
+
+  <!-- Ghost face -->
+  <ellipse cx="230" cy="240" rx="14" ry="18" fill="#1a0a2e"/>
+  <ellipse cx="282" cy="240" rx="14" ry="18" fill="#1a0a2e"/>
+  <ellipse cx="234" cy="236" rx="5" ry="7" fill="#ffffff"/>
+  <ellipse cx="286" cy="236" rx="5" ry="7" fill="#ffffff"/>
+  <ellipse cx="256" cy="275" rx="18" ry="12" fill="#1a0a2e"/>
+  <path d="M 248 275 Q 256 285 264 275" stroke="#1a0a2e" stroke-width="2" fill="none"/>
+
+  <!-- Tuba body -->
+  <ellipse cx="340" cy="320" rx="70" ry="70" fill="none" stroke="url(#tuba)" stroke-width="18" filter="url(#glow)"/>
+  <ellipse cx="340" cy="320" rx="52" ry="52" fill="#1a0a2e"/>
+
+  <!-- Tuba tubing -->
+  <path d="M 280 300 Q 240 280 220 320 Q 200 360 240 380 Q 280 400 300 360" fill="none" stroke="url(#tuba)" stroke-width="14" stroke-linecap="round"/>
+  <path d="M 290 280 Q 260 240 220 260" fill="none" stroke="url(#tuba)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Mouthpiece near ghost mouth -->
+  <line x1="220" y1="260" x2="200" y2="255" stroke="#ffd700" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- Ghost arms holding tuba -->
+  <path d="M 200 300 Q 230 320 250 310" stroke="#e0e8ff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.7"/>
+  <path d="M 210 340 Q 240 350 270 330" stroke="#e0e8ff" stroke-width="10" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+  <!-- Musical notes/spooky wisps -->
+  <path d="M 400 250 Q 420 230 430 250 Q 440 270 420 280" stroke="#a0b0ff" stroke-width="3" fill="none" opacity="0.6"/>
+  <circle cx="430" cy="250" r="4" fill="#a0b0ff" opacity="0.6"/>
+  <path d="M 380 200 Q 400 180 410 200" stroke="#a0b0ff" stroke-width="2" fill="none" opacity="0.4"/>
+  <circle cx="410" cy="200" r="3" fill="#a0b0ff" opacity="0.4"/>
+
+  <!-- Spooky stars -->
+  <circle cx="80" cy="80" r="2" fill="#ffffff" opacity="0.8"/>
+  <circle cx="120" cy="60" r="1.5" fill="#ffffff" opacity="0.6"/>
+  <circle cx="400" cy="100" r="2" fill="#ffffff" opacity="0.7"/>
+  <circle cx="450" cy="70" r="1.5" fill="#ffffff" opacity="0.5"/>
+  <circle cx="60" cy="150" r="1" fill="#ffffff" opacity="0.4"/>
+</svg>
