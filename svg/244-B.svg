@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#20334a"/><stop offset="1" stop-color="#101b2c"/></linearGradient>
+ <linearGradient id="fur" x2="1" y2="1"><stop stop-color="#f4e4c8"/><stop offset="1" stop-color="#c99d76"/></linearGradient>
+ <linearGradient id="knit" x2="0" y2="1"><stop stop-color="#e96573"/><stop offset="1" stop-color="#a82f55"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="395" cy="95" r="55" fill="#f6cf83" opacity=".16"/>
+<path d="M0 406 Q120 365 245 410 T512 395 V512H0Z" fill="#16263a"/>
+<ellipse cx="263" cy="451" rx="157" ry="24" fill="#080f1b" opacity=".7" filter="url(#shadow)"/>
+<!-- ears and head -->
+<path d="M170 149 Q135 52 182 38 Q222 84 227 145Z" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<path d="M278 136 Q295 45 337 55 Q357 75 315 164Z" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<path d="M181 116 Q166 73 183 66 Q205 91 208 125Z" fill="#e6a0a4"/>
+<path d="M302 119 Q315 76 333 73 Q331 109 315 139Z" fill="#e6a0a4"/>
+<ellipse cx="244" cy="174" rx="101" ry="83" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<circle cx="207" cy="164" r="9" fill="#202333"/><circle cx="279" cy="164" r="9" fill="#202333"/><circle cx="210" cy="161" r="3" fill="white"/><circle cx="282" cy="161" r="3" fill="white"/>
+<ellipse cx="188" cy="188" rx="17" ry="8" fill="#e98d8e" opacity=".38"/><ellipse cx="302" cy="188" rx="17" ry="8" fill="#e98d8e" opacity=".38"/>
+<path d="M235 184 q10 -9 20 0 q-10 13 -20 0" fill="#aa4e61"/><path d="M245 194 q-10 15 -26 9 M245 194 q12 15 27 6" fill="none" stroke="#743c4b" stroke-width="4" stroke-linecap="round"/>
+<path d="M181 190 l-39 -7 M181 202 l-42 9 M305 190 l38 -8 M305 202 l41 10" stroke="#9d765e" stroke-width="3"/>
+<!-- body sweater -->
+<path d="M160 246 Q208 222 245 251 Q282 222 332 251 L366 403 Q318 438 243 429 Q170 439 120 403Z" fill="url(#knit)" stroke="#702d4a" stroke-width="6"/>
+<path d="M164 260 Q245 287 329 259" fill="none" stroke="#f49a9c" stroke-width="9" opacity=".8"/>
+<path d="M157 300 Q245 326 335 298 M148 345 Q245 369 345 340 M140 386 Q245 408 353 378" fill="none" stroke="#f58f9d" stroke-width="6" opacity=".7"/>
+<path d="M193 274 l14 130 M230 278 l10 137 M270 278 l-4 138 M309 270 l-12 133" stroke="#7f3150" stroke-width="4" opacity=".8"/>
+<!-- arms knitting -->
+<path d="M157 279 Q113 285 103 347 Q102 366 122 369 Q139 366 150 334 L179 309Z" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<path d="M326 277 Q371 283 378 338 Q380 359 360 364 Q342 358 334 331 L305 308Z" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<circle cx="168" cy="308" r="17" fill="#f1dcbf" stroke="#9d765e" stroke-width="4"/><circle cx="320" cy="307" r="17" fill="#f1dcbf" stroke="#9d765e" stroke-width="4"/>
+<!-- needles and yarn -->
+<path d="M157 304 L293 350 M355 306 L220 350" stroke="#f2c36d" stroke-width="5" stroke-linecap="round"/>
+<path d="M245 349 q-37 10 -20 34 q20 24 47 4 q28 -21 0 -38" fill="none" stroke="#f2c36d" stroke-width="5"/>
+<path d="M270 352 q52 18 63 58 q8 31 44 36" fill="none" stroke="#f2c36d" stroke-width="4"/>
+<path d="M126 369 Q115 416 151 432 Q176 440 185 407" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<path d="M325 407 Q338 441 370 434 Q397 427 386 386" fill="url(#fur)" stroke="#9d765e" stroke-width="5"/>
+<!-- buttons and stitch accents -->
+<path d="M63 118 q8 -12 16 0 M88 88 q8 -12 16 0 M423 174 q8 -12 16 0" fill="none" stroke="#f6cf83" stroke-width="4" stroke-linecap="round" opacity=".75"/>
+<path d="M42 278 q12 -10 24 0 M432 276 q12 -10 24 0" fill="none" stroke="#6d9bb1" stroke-width="3" opacity=".55"/>
+<path d="M183 294 q9 8 18 0 M284 294 q9 8 18 0 M183 339 q9 8 18 0 M284 339 q9 8 18 0 M183 381 q9 8 18 0 M284 381 q9 8 18 0" fill="none" stroke="#ffb0ad" stroke-width="3" opacity=".8"/>
+<circle cx="244" cy="311" r="7" fill="#f5d16e" stroke="#75304a" stroke-width="3"/><circle cx="244" cy="355" r="7" fill="#f5d16e" stroke="#75304a" stroke-width="3"/>
+<path d="M70 435 q24 -24 48 0 M399 433 q22 -22 43 0" fill="none" stroke="#f2c36d" stroke-width="5"/>
+<text x="256" y="485" text-anchor="middle" fill="#f7d89a" font-family="serif" font-size="18" letter-spacing="3">COZY HANDMADE</text>
+</svg>

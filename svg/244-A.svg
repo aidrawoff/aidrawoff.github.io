@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="#0a0a0a"/>
+  <!-- Soft ambient glow -->
+  <radialGradient id="glow" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+    <stop offset="0%" stop-color="#f5d7b0" stop-opacity="0.15"/>
+    <stop offset="100%" stop-color="#0a0a0a" stop-opacity="1"/>
+  </radialGradient>
+  <rect width="512" height="512" fill="url(#glow)"/>
+  <!-- Rabbit body and head silhouette -->
+  <path id="rabbit" d="M256 128c-32 0-56 24-56 56 0 16 8 32 24 40 16 8 32 8 48 0 16-8 24-24 24-40 0-32-24-56-56-56zm-64 64c-16 0-24-16-24-32s8-32 24-32 24 16 24 32-8 32-24 32zm128 0c-16 0-24-16-24-32s8-32 24-32 24 16 24 32-8 32-24 32z" fill="#f5d7b0"/>
+  <!-- Bandage-like texture on body -->
+  <path d="M224 184c-8 0-16 8-16 16s8 16 16 16 16-8 16-16-8-16-16-16zm64 0c-8 0-16 8-16 16s8 16 16 16 16-8 16-16-8-16-16-16z" fill="#f5d7b0" opacity="0.6"/>
+  <!-- Ears -->
+  <path d="M216 104c-8-8-16-8-24 0-8 8-8 24 0 32l16 16c8 8 24 8 32 0 8-8 8-24 0-32l-16-16zM312 104c8-8 16-8 24 0 8 8 8 24 0 32l-16 16c-8 8-24 8-32 0-8-8-8-24 0-32l16-16z" fill="#f5d7b0"/>
+  <!-- Eyes and nose -->
+  <circle cx="232" cy="152" r="4" fill="#333"/>
+  <circle cx="280" cy="152" r="4" fill="#333"/>
+  <circle cx="256" cy="176" r="3" fill="#333"/>
+  <!-- Knitting needles (crossed) -->
+  <path d="M224 192c-32 0-48-16-48-48s16-48 48-48 48 16 48 48-16 48-48 48zm-32-64h64v8h-64v-8z" stroke="#f0f0f0" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Tiny sweater on needles -->
+  <rect x="240" y="160" width="32" height="24" rx="4" fill="#e85a4f" opacity="0.9"/>
+  <!-- Knitting stitches on sweater -->
+  <g fill="#fff" opacity="0.9">
+    <circle cx="248" cy="168" r="2"/>
+    <circle cx="256" cy="168" r="2"/>
+    <circle cx="264" cy="168" r="2"/>
+    <circle cx="248" cy="176" r="2"/>
+    <circle cx="256" cy="176" r="2"/>
+    <circle cx="264" cy="176" r="2"/>
+  </g>
+  <!-- Scarf around neck -->
+  <path d="M240 184c0-8 8-16 16-16s16 8 16 16v4h-32v-4z" fill="#e85a4f" opacity="0.8"/>
+  <!-- Tiny ball of yarn -->
+  <circle cx="200" cy="200" r="8" fill="#e85a4f" opacity="0.9"/>
+  <circle cx="200" cy="200" r="4" fill="#fff" opacity="0.7"/>
+  <!-- Yarn highlight -->
+  <circle cx="200" cy="200" r="2" fill="#fff" opacity="0.9"/>
+  <!-- Needle highlights -->
+  <path d="M224 192c-32 0-48-16-48-48s16-48 48-48 48 16 48 48-16 48-48 48zm-32-64h64v8h-64v-8z" stroke="#fff" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Shadow under rabbit -->
+  <ellipse cx="256" cy="288" rx="48" ry="16" fill="#00000066"/>
+</svg>
