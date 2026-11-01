@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#1b2a4a"/>
+      <stop offset="100%" stop-color="#080c18"/>
+    </radialGradient>
+    <radialGradient id="c1" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffe9a8"/>
+      <stop offset="100%" stop-color="#f0a63c"/>
+    </radialGradient>
+    <radialGradient id="c2" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#ffd6e8"/>
+      <stop offset="100%" stop-color="#e0559a"/>
+    </radialGradient>
+    <radialGradient id="c3" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#cdfbe8"/>
+      <stop offset="100%" stop-color="#2bb6a3"/>
+    </radialGradient>
+    <radialGradient id="c4" cx="35%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#d8e6ff"/>
+      <stop offset="100%" stop-color="#5a8dee"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <!-- stars -->
+  <g fill="#ffffff">
+    <circle cx="70" cy="60" r="2" opacity="0.8"/><circle cx="130" cy="150" r="1.5" opacity="0.6"/>
+    <circle cx="420" cy="90" r="2" opacity="0.8"/><circle cx="470" cy="200" r="1.5" opacity="0.6"/>
+    <circle cx="40" cy="260" r="1.5" opacity="0.5"/><circle cx="450" cy="330" r="2" opacity="0.7"/>
+    <circle cx="90" cy="380" r="1.5" opacity="0.5"/><circle cx="380" cy="440" r="1.5" opacity="0.5"/>
+    <circle cx="200" cy="40" r="1.5" opacity="0.7"/><circle cx="330" cy="30" r="2" opacity="0.7"/>
+  </g>
+  <!-- warm glow behind the founding circle -->
+  <circle cx="256" cy="418" r="132" fill="#f0a63c" opacity="0.15"/>
+  <circle cx="256" cy="418" r="110" fill="#ffe9a8" opacity="0.12"/>
+  <!-- recursion column: every circle has a smaller circle painted above it -->
+  <circle cx="256" cy="418" r="88" fill="url(#c1)" stroke="#fff6df" stroke-width="4"/>
+  <circle cx="256" cy="288" r="62" fill="url(#c2)" stroke="#ffe6f2" stroke-width="4"/>
+  <circle cx="256" cy="196" r="42" fill="url(#c3)" stroke="#dcfff5" stroke-width="3"/>
+  <circle cx="256" cy="128" r="28" fill="url(#c4)" stroke="#e8f1ff" stroke-width="3"/>
+  <circle cx="256" cy="80" r="18" fill="#ffffff" opacity="0.92"/>
+  <circle cx="256" cy="48" r="11" fill="#ffffff" opacity="0.78"/>
+  <circle cx="256" cy="26" r="6" fill="#ffffff" opacity="0.62"/>
+  <circle cx="256" cy="12" r="3" fill="#ffffff" opacity="0.48"/>
+  <!-- upward arrow: the rule made visible -->
+  <path d="M352 400 Q392 250 300 70" fill="none" stroke="#ffffff" stroke-width="3" stroke-dasharray="7 7" opacity="0.55"/>
+  <path d="M292 84 L302 62 L316 88" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.7"/>
+  <!-- specular highlights -->
+  <ellipse cx="228" cy="382" rx="22" ry="14" fill="#ffffff" opacity="0.35" transform="rotate(-25 228 382)"/>
+  <ellipse cx="236" cy="266" rx="15" ry="9" fill="#ffffff" opacity="0.35" transform="rotate(-25 236 266)"/>
+  <ellipse cx="242" cy="182" rx="10" ry="6" fill="#ffffff" opacity="0.4" transform="rotate(-25 242 182)"/>
+  <!-- faces: the stack is alive, biggest at the base -->
+  <ellipse cx="232" cy="408" rx="9" ry="12" fill="#2a1a08"/>
+  <ellipse cx="282" cy="408" rx="9" ry="12" fill="#2a1a08"/>
+  <circle cx="235" cy="403" r="3.2" fill="#fff"/>
+  <circle cx="285" cy="403" r="3.2" fill="#fff"/>
+  <path d="M226 448 Q256 474 286 448" fill="none" stroke="#2a1a08" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="240" cy="282" rx="6" ry="8" fill="#3d0f24"/>
+  <ellipse cx="272" cy="282" rx="6" ry="8" fill="#3d0f24"/>
+  <circle cx="242" cy="279" r="2.2" fill="#fff"/>
+  <circle cx="274" cy="279" r="2.2" fill="#fff"/>
+  <path d="M240 306 Q256 320 272 306" fill="none" stroke="#3d0f24" stroke-width="4.5" stroke-linecap="round"/>
+  <ellipse cx="245" cy="192" rx="4.5" ry="6" fill="#06302a"/>
+  <ellipse cx="267" cy="192" rx="4.5" ry="6" fill="#06302a"/>
+  <path d="M246 210 Q256 219 266 210" fill="none" stroke="#06302a" stroke-width="3.5" stroke-linecap="round"/>
+  <ellipse cx="248" cy="125" rx="3" ry="4" fill="#0a1c3d"/>
+  <ellipse cx="264" cy="125" rx="3" ry="4" fill="#0a1c3d"/>
+  <path d="M249 138 Q256 144 263 138" fill="none" stroke="#0a1c3d" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
