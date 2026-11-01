@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="sky" cx="50%" cy="45%" r="75%">
+      <stop offset="0%" stop-color="#ffe9a8"/>
+      <stop offset="55%" stop-color="#ff9d5c"/>
+      <stop offset="100%" stop-color="#4b1d63"/>
+    </radialGradient>
+    <linearGradient id="film" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7ef0ff"/>
+      <stop offset="35%" stop-color="#c78bff"/>
+      <stop offset="70%" stop-color="#ff8fc4"/>
+      <stop offset="100%" stop-color="#ffd97e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+
+  <!-- burst rays -->
+  <g fill="#fff6d8" opacity="0.5">
+    <polygon points="256,256 200,20 240,20"/>
+    <polygon points="256,256 320,30 355,60"/>
+    <polygon points="256,256 470,150 480,195"/>
+    <polygon points="256,256 460,330 435,375"/>
+    <polygon points="256,256 300,480 260,485"/>
+    <polygon points="256,256 130,460 95,430"/>
+    <polygon points="256,256 25,330 20,285"/>
+    <polygon points="256,256 60,140 95,105"/>
+  </g>
+
+  <!-- back half of the soap bubble shell -->
+  <path d="M120,256 A136,136 0 0 1 392,256" fill="none" stroke="url(#film)" stroke-width="14" stroke-linecap="round" opacity="0.85"/>
+
+  <!-- shattered front: two big curved shards -->
+  <path d="M124,286 Q150,360 236,392 L222,344 Q172,326 152,272 Z" fill="url(#film)" stroke="#2a0f3d" stroke-width="5"/>
+  <path d="M388,286 Q360,364 274,394 L292,346 Q342,326 362,270 Z" fill="url(#film)" stroke="#2a0f3d" stroke-width="5"/>
+
+  <!-- the AI chip core popping out -->
+  <g transform="rotate(-8 256 250)">
+    <rect x="206" y="200" width="100" height="100" rx="14" fill="#1b2a4a" stroke="#0a1226" stroke-width="6"/>
+    <rect x="228" y="222" width="56" height="56" rx="8" fill="#2f5fa8"/>
+    <text x="256" y="266" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="bold" fill="#ffe066" text-anchor="middle">AI</text>
+    <g stroke="#0a1226" stroke-width="7" stroke-linecap="round">
+      <line x1="230" y1="200" x2="230" y2="182"/><line x1="256" y1="200" x2="256" y2="182"/><line x1="282" y1="200" x2="282" y2="182"/>
+      <line x1="230" y1="300" x2="230" y2="318"/><line x1="256" y1="300" x2="256" y2="318"/><line x1="282" y1="300" x2="282" y2="318"/>
+      <line x1="206" y1="230" x2="188" y2="230"/><line x1="206" y1="270" x2="188" y2="270"/>
+      <line x1="306" y1="230" x2="324" y2="230"/><line x1="306" y1="270" x2="324" y2="270"/>
+    </g>
+  </g>
+
+  <!-- flying droplets + confetti -->
+  <g>
+    <circle cx="96" cy="120" r="13" fill="#7ef0ff" stroke="#2a0f3d" stroke-width="4"/>
+    <circle cx="428" cy="96" r="10" fill="#ff8fc4" stroke="#2a0f3d" stroke-width="4"/>
+    <circle cx="452" cy="238" r="15" fill="#ffd97e" stroke="#2a0f3d" stroke-width="4"/>
+    <circle cx="66" cy="300" r="11" fill="#c78bff" stroke="#2a0f3d" stroke-width="4"/>
+    <circle cx="150" cy="440" r="12" fill="#7ef0ff" stroke="#2a0f3d" stroke-width="4"/>
+    <circle cx="372" cy="452" r="14" fill="#ff8fc4" stroke="#2a0f3d" stroke-width="4"/>
+    <rect x="120" y="60" width="22" height="10" rx="3" fill="#ff5c8a" transform="rotate(28 131 65)"/>
+    <rect x="396" y="150" width="24" height="10" rx="3" fill="#4be0b0" transform="rotate(-40 408 155)"/>
+    <rect x="40" y="200" width="22" height="10" rx="3" fill="#ffd166" transform="rotate(65 51 205)"/>
+    <rect x="300" y="440" width="24" height="10" rx="3" fill="#c78bff" transform="rotate(-18 312 445)"/>
+    <rect x="196" y="452" width="22" height="10" rx="3" fill="#4be0b0" transform="rotate(38 207 457)"/>
+  </g>
+
+  <!-- falling price chart line: the pop -->
+  <polyline points="30,470 110,430 180,455 250,395 320,415 390,300 430,470 500,500"
+            fill="none" stroke="#ffffff" stroke-width="17" stroke-linecap="round" stroke-linejoin="round" opacity="0.9"/>
+  <polyline points="30,470 110,430 180,455 250,395 320,415 390,300 430,470 500,500"
+            fill="none" stroke="#ff3b5c" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="390" cy="300" r="10" fill="#ff3b5c" stroke="#2a0f3d" stroke-width="4"/>
+</svg>
