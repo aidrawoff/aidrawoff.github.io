@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="henBodyGrad" x1="256" y1="270" x2="256" y2="370" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f0d59f"/>
+      <stop offset="100%" stop-color="#d4a76a"/>
+    </linearGradient>
+    <linearGradient id="headGrad" x1="256" y1="230" x2="256" y2="290" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f8e0b5"/>
+      <stop offset="100%" stop-color="#e0b87a"/>
+    </linearGradient>
+  </defs>
+  <!-- Background: warm golden field fading to deep teal at top -->
+  <rect width="512" height="512" fill="#f5e7a1"/>
+  <rect x="0" y="0" width="512" height="256" fill="#1a4a3a"/>
+
+  <!-- Hen silhouette: simple shapes, clear read -->
+  <!-- Body oval with subtle shading -->
+  <ellipse cx="256" cy="320" rx="60" ry="50" fill="url(#henBodyGrad)"/>
+  <!-- Head circle -->
+  <circle cx="256" cy="260" r="30" fill="url(#headGrad)"/>
+  <!-- Comb and wattle -->
+  <path d="M256 240 L256 220 L266 225 L256 230 Z" fill="#d12a3a"/>
+  <path d="M256 250 L256 245 L260 248 L256 253 Z" fill="#d12a3a"/>
+  <!-- Eye with subtle highlight -->
+  <circle cx="256" cy="255" r="3" fill="#000"/>
+  <circle cx="257" cy="254" r="1" fill="#fff" opacity="0.6"/>
+  <!-- Beak with subtle highlight -->
+  <path d="M256 260 L270 265 L256 270 Z" fill="#f4a460"/>
+  <path d="M268 264 L272 266 L268 268 Z" fill="#fff" opacity="0.4"/>
+  <!-- Tail feathers with subtle detail -->
+  <path d="M200 320 L180 300 L190 320 L170 340 L190 360 L200 340 Z" fill="#e8c57f"/>
+  <path d="M200 320 L190 310 L195 320 L185 330 Z" fill="#c9a875"/>
+  <path d="M312 320 L332 300 L322 320 L342 340 L322 360 L312 340 Z" fill="#e8c57f"/>
+  <path d="M312 320 L322 310 L317 320 L327 330 Z" fill="#c9a875"/>
+
+  <!-- Subtle highlight on basket rim -->
+  <path d="M320 380 L400 320 L400 325 L320 385 Z" fill="#a0522d" opacity="0.2"/>
+
+  <!-- Harvest basket: woven texture, clear silhouette -->
+  <path d="M320 380 L400 320 L400 440 L320 400 Z" fill="#8b4513"/>
+  <!-- Basket weave pattern -->
+  <path d="M320 380 L400 320" stroke="#a0522d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M320 400 L400 340" stroke="#a0522d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M320 420 L400 360" stroke="#a0522d" stroke-width="3" stroke-linecap="round"/>
+  <path d="M340 320 L340 440" stroke="#a0522d" stroke-width="3"/>
+  <path d="M360 320 L360 440" stroke="#a0522d" stroke-width="3"/>
+  <path d="M380 320 L380 440" stroke="#a0522d" stroke-width="3"/>
+  <!-- Basket rim stitches -->
+  <circle cx="325" cy="385" r="2" fill="#a0522d"/>
+  <circle cx="345" cy="382" r="2" fill="#a0522d"/>
+  <circle cx="365" cy="388" r="2" fill="#a0522d"/>
+  <circle cx="385" cy="384" r="2" fill="#a0522d"/>  
+
+  <!-- Ground shadow under hen -->
+  <ellipse cx="256" cy="340" rx="70" ry="15" fill="#000" opacity="0.15"/>
+</svg>
