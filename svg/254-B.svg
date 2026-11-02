@@ -1,0 +1,202 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background Sky Gradient -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    
+    <!-- Hill Gradients -->
+    <linearGradient id="hillGrad1" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1b3830"/>
+      <stop offset="100%" stop-color="#0d1b17"/>
+    </linearGradient>
+    <linearGradient id="hillGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#23453b"/>
+      <stop offset="100%" stop-color="#122520"/>
+    </linearGradient>
+
+    <!-- Moose Body Gradient -->
+    <linearGradient id="mooseBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8a5732"/>
+      <stop offset="50%" stop-color="#653f20"/>
+      <stop offset="100%" stop-color="#442610"/>
+    </linearGradient>
+
+    <!-- Antler Gradient -->
+    <linearGradient id="antlerGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f1e3c6"/>
+      <stop offset="100%" stop-color="#bda27b"/>
+    </linearGradient>
+
+    <!-- Rain Boot Yellow Gradient -->
+    <linearGradient id="bootYellow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffe600"/>
+      <stop offset="50%" stop-color="#fff066"/>
+      <stop offset="100%" stop-color="#d4aa00"/>
+    </linearGradient>
+
+    <!-- Puddle Gradient -->
+    <radialGradient id="puddleGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#5cc8e6" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#2a7392" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#113645" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Drop Shadow Filter -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="10" flood-color="#040608" flood-opacity="0.6"/>
+    </filter>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Sky -->
+  <rect width="512" height="512" fill="url(#skyGrad)"/>
+
+  <!-- Atmospheric Rain Layer -->
+  <g opacity="0.35" stroke="#90e0ef" stroke-width="1.3" stroke-linecap="round">
+    <line x1="30" y1="10" x2="10" y2="110"/>
+    <line x1="100" y1="40" x2="80" y2="140"/>
+    <line x1="180" y1="15" x2="160" y2="115"/>
+    <line x1="260" y1="50" x2="240" y2="150"/>
+    <line x1="330" y1="20" x2="310" y2="120"/>
+    <line x1="410" y1="45" x2="390" y2="145"/>
+    <line x1="480" y1="10" x2="460" y2="110"/>
+
+    <line x1="60" y1="160" x2="40" y2="260"/>
+    <line x1="130" y1="140" x2="110" y2="240"/>
+    <line x1="210" y1="170" x2="190" y2="270"/>
+    <line x1="290" y1="130" x2="270" y2="230"/>
+    <line x1="370" y1="160" x2="350" y2="260"/>
+    <line x1="450" y1="140" x2="430" y2="240"/>
+  </g>
+
+  <!-- Distant Hills & Pine Silhouettes -->
+  <path d="M0 300 Q140 255 280 290 T512 275 L512 512 L0 512 Z" fill="url(#hillGrad1)"/>
+  
+  <g fill="#11241e" opacity="0.85">
+    <polygon points="60,300 72,250 84,300"/>
+    <polygon points="110,295 125,235 140,295"/>
+    <polygon points="190,290 202,245 214,290"/>
+    <polygon points="270,285 285,220 300,285"/>
+    <polygon points="360,280 374,230 388,280"/>
+    <polygon points="430,278 444,238 458,278"/>
+  </g>
+
+  <path d="M0 345 Q180 310 340 355 T512 335 L512 512 L0 512 Z" fill="url(#hillGrad2)"/>
+
+  <g fill="#162e26" opacity="0.9">
+    <polygon points="40,345 53,290 66,345"/>
+    <polygon points="150,340 166,275 182,340"/>
+    <polygon points="310,335 325,280 340,335"/>
+    <polygon points="400,332 414,270 428,332"/>
+  </g>
+
+  <!-- Large Puddle on Ground -->
+  <ellipse cx="260" cy="425" rx="185" ry="52" fill="url(#puddleGrad)"/>
+  <ellipse cx="260" cy="425" rx="145" ry="38" fill="none" stroke="#90e0ef" stroke-width="2" opacity="0.75"/>
+  <ellipse cx="260" cy="425" rx="95" ry="25" fill="none" stroke="#90e0ef" stroke-width="1.5" opacity="0.55"/>
+
+  <!-- Cute Red Umbrella -->
+  <g filter="url(#shadow)">
+    <path d="M 220 220 L 210 330" stroke="#333" stroke-width="3.5" stroke-linecap="round" fill="none"/>
+    <path d="M 150 225 Q 210 160 270 225 Q 240 215 210 215 Q 180 215 150 225 Z" fill="#ff4d6d"/>
+    <path d="M 150 225 Q 180 240 210 225 Q 240 240 270 225" stroke="#ff758f" stroke-width="2" fill="none"/>
+    <circle cx="210" cy="160" r="4" fill="#ffd166"/>
+  </g>
+
+  <!-- Moose Group with DropShadow -->
+  <g filter="url(#shadow)">
+    <!-- Hind Leg 1 -->
+    <path d="M 170 340 L 160 410 L 140 410 L 150 340 Z" fill="url(#mooseBody)"/>
+    <!-- Left Hind Boot -->
+    <path d="M 162 400 L 158 436 L 122 436 L 132 400 Z" fill="url(#bootYellow)"/>
+    <path d="M 158 402 L 155 434" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <rect x="120" y="431" width="41" height="8" rx="2.5" fill="#181818"/>
+    <rect x="135" y="415" width="12" height="4" fill="#cca300" rx="1"/>
+
+    <!-- Front Leg 1 (Right) -->
+    <path d="M 330 350 L 340 415 L 365 415 L 350 350 Z" fill="url(#mooseBody)"/>
+    <!-- Right Front Boot -->
+    <path d="M 338 405 L 344 443 L 380 443 L 368 405 Z" fill="url(#bootYellow)"/>
+    <path d="M 342 407 L 346 441" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" fill="none" opacity="0.7"/>
+    <rect x="338" y="437" width="44" height="8" rx="2.5" fill="#181818"/>
+    <rect x="352" y="420" width="12" height="4" fill="#cca300" rx="1"/>
+
+    <!-- Front Leg 2 -->
+    <path d="M 300 350 L 295 410 L 315 410 L 315 350 Z" fill="#422912"/>
+    <path d="M 296 405 L 292 438 L 322 438 L 316 405 Z" fill="url(#bootYellow)"/>
+    <rect x="290" y="432" width="33" height="7" rx="2" fill="#181818"/>
+
+    <!-- Hind Leg 2 -->
+    <path d="M 185 345 L 180 405 L 198 405 L 202 345 Z" fill="#422912"/>
+    <path d="M 182 400 L 180 432 L 206 432 L 202 400 Z" fill="url(#bootYellow)"/>
+    <rect x="178" y="428" width="30" height="7" rx="2" fill="#181818"/>
+
+    <!-- Main Body Torso -->
+    <ellipse cx="250" cy="320" rx="102" ry="67" fill="url(#mooseBody)"/>
+    <path d="M 180 290 Q 250 265 320 290" stroke="#a47144" stroke-width="8" stroke-linecap="round" fill="none" opacity="0.5"/>
+
+    <!-- Shoulder Hump -->
+    <ellipse cx="210" cy="275" rx="46" ry="36" fill="url(#mooseBody)"/>
+
+    <!-- Neck -->
+    <path d="M 200 280 L 178 195 L 232 185 L 252 280 Z" fill="url(#mooseBody)"/>
+
+    <!-- Head -->
+    <path d="M 182 185 Q 138 168 118 194 Q 102 214 128 226 Q 158 238 192 210 Z" fill="url(#mooseBody)"/>
+
+    <!-- Snout / Nose Bulb -->
+    <ellipse cx="116" cy="207" rx="17" ry="13" fill="#24150a"/>
+    <ellipse cx="110" cy="205" rx="4" ry="2.5" fill="#111"/>
+    <path d="M 116 195 Q 124 200 120 215" stroke="#9c683c" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.7"/>
+
+    <!-- Eye & Eyelash -->
+    <circle cx="150" cy="195" r="5" fill="#111"/>
+    <circle cx="152" cy="193" r="1.8" fill="#fff"/>
+    <path d="M 142 187 Q 150 182 158 189" fill="none" stroke="#24150a" stroke-width="3" stroke-linecap="round"/>
+
+    <!-- Ear -->
+    <path d="M 185 174 Q 196 152 208 168 Q 202 184 185 174 Z" fill="url(#mooseBody)"/>
+    <path d="M 190 170 Q 196 158 202 166" fill="none" stroke="#c08d63" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Majestic Antlers -->
+    <g stroke="url(#antlerGrad)" stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round" fill="none" filter="url(#glow)">
+      <path d="M 190 160 Q 180 108 138 88 M 165 118 Q 128 108 108 78 M 175 102 Q 185 66 158 46 M 155 132 Q 112 136 88 116"/>
+      <path d="M 210 155 Q 226 98 272 82 M 235 112 Q 275 98 296 68 M 220 92 Q 214 56 244 36 M 240 128 Q 286 122 316 102"/>
+    </g>
+
+    <!-- Vibrant Red Scarf -->
+    <path d="M 178 218 Q 210 228 232 214 Q 222 242 194 246 Z" fill="#ef233c"/>
+    <path d="M 214 226 L 220 286 Q 223 296 215 302 L 204 296 Z" fill="#ef233c"/>
+    <line x1="206" y1="298" x2="218" y2="298" stroke="#ff8fa3" stroke-width="2"/>
+  </g>
+
+  <!-- Foreground Dynamic Raindrops & Splashes -->
+  <g opacity="0.95" stroke="#90e0ef" stroke-width="2" stroke-linecap="round">
+    <line x1="60" y1="230" x2="35" y2="330"/>
+    <line x1="170" y1="260" x2="145" y2="360"/>
+    <line x1="370" y1="240" x2="345" y2="340"/>
+    <line x1="440" y1="290" x2="415" y2="390"/>
+    <line x1="240" y1="220" x2="215" y2="320"/>
+  </g>
+
+  <!-- Puddle Splash Droplets & Ripple Rings -->
+  <circle cx="138" cy="426" r="6" fill="none" stroke="#90e0ef" stroke-width="1.5"/>
+  <circle cx="138" cy="426" r="2.5" fill="#90e0ef"/>
+  <circle cx="365" cy="434" r="7" fill="none" stroke="#90e0ef" stroke-width="1.5"/>
+  <circle cx="365" cy="434" r="3" fill="#90e0ef"/>
+  <circle cx="295" cy="430" r="5" fill="none" stroke="#90e0ef" stroke-width="1.5"/>
+  <circle cx="295" cy="430" r="2" fill="#90e0ef"/>
+
+  <circle cx="122" cy="412" r="3" fill="#bde0fe"/>
+  <circle cx="158" cy="408" r="2.5" fill="#bde0fe"/>
+  <circle cx="338" cy="412" r="2.5" fill="#bde0fe"/>
+  <circle cx="388" cy="418" r="3" fill="#bde0fe"/>
+</svg>

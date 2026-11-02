@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1f2452"/>
+      <stop offset="1" stop-color="#7a5c8f"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="90" r="40" fill="#fff4c2"/>
+  <circle cx="60" cy="60" r="2" fill="#fff"/>
+  <circle cx="110" cy="130" r="1.5" fill="#fff"/>
+  <circle cx="30" cy="180" r="2" fill="#fff"/>
+  <circle cx="470" cy="200" r="1.5" fill="#fff"/>
+  <circle cx="250" cy="40" r="1.5" fill="#fff"/>
+  <path d="M0 410 Q128 380 256 405 T512 400 L512 512 L0 512 Z" fill="#3d5a3a"/>
+  <ellipse cx="256" cy="425" rx="160" ry="14" fill="#000" opacity="0.3"/>
+  <!-- frog body -->
+  <ellipse cx="256" cy="300" rx="120" ry="90" fill="#6cbf5a" stroke="#3d7a35" stroke-width="4"/>
+  <!-- head -->
+  <ellipse cx="256" cy="210" rx="95" ry="62" fill="#7ad06a" stroke="#3d7a35" stroke-width="4"/>
+  <circle cx="200" cy="160" r="28" fill="#7ad06a" stroke="#3d7a35" stroke-width="4"/>
+  <circle cx="312" cy="160" r="28" fill="#7ad06a" stroke="#3d7a35" stroke-width="4"/>
+  <!-- sleepy eyes -->
+  <path d="M182 164 Q200 180 218 164" stroke="#1d2a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <path d="M294 164 Q312 180 330 164" stroke="#1d2a1a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- cheeks and mouth -->
+  <circle cx="185" cy="215" r="14" fill="#ff8fa3" opacity="0.5"/>
+  <circle cx="327" cy="215" r="14" fill="#ff8fa3" opacity="0.5"/>
+  <path d="M230 240 Q256 255 282 240" stroke="#2a5a25" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- blanket -->
+  <path d="M140 280 Q256 250 372 280 L392 380 Q256 410 120 380 Z" fill="#e8734a" stroke="#a84a2a" stroke-width="4"/>
+  <path d="M150 330 Q256 310 362 330" stroke="#ffd08a" stroke-width="8" fill="none" opacity="0.7"/>
+  <path d="M148 372 Q256 392 364 372" stroke="#a84a2a" stroke-width="5" fill="none" stroke-dasharray="6 8" opacity="0.6"/>
+  <path d="M135 360 Q256 340 377 360" stroke="#ffd08a" stroke-width="6" fill="none" opacity="0.5"/>
+  <!-- arms peeking out -->
+  <ellipse cx="150" cy="282" rx="18" ry="12" fill="#6cbf5a" stroke="#3d7a35" stroke-width="3"/>
+  <ellipse cx="362" cy="282" rx="18" ry="12" fill="#6cbf5a" stroke="#3d7a35" stroke-width="3"/>
+  <!-- nightcap with pompom -->
+  <path d="M176 136 Q186 56 290 84 Q272 104 312 128 Z" fill="#5b7bd6" stroke="#2f4a9a" stroke-width="4" stroke-linejoin="round"/>
+  <path d="M170 130 Q240 118 318 124" stroke="#fff" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <circle cx="292" cy="82" r="14" fill="#fff"/>
+  <!-- drifting zs -->
+  <text x="365" y="150" font-size="30" fill="#fff" font-family="sans-serif">z</text>
+  <text x="392" y="122" font-size="22" fill="#fff" font-family="sans-serif">z</text>
+</svg>
