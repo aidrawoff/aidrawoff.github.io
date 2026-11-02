@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="512">
+      <stop offset="0" stop-color="#fdebd0"/>
+      <stop offset="1" stop-color="#d4a574"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Ground with subtle shadow gradient -->
+  <defs>
+    <linearGradient id="ground" x1="0" y1="384" x2="0" y2="512">
+      <stop offset="0" stop-color="#5e3023"/>
+      <stop offset="1" stop-color="#3a1d14"/>
+    </linearGradient>
+  </defs>
+  <rect x="0" y="384" width="512" height="128" fill="url(#ground)"/>
+
+  <!-- Rooster body silhouette with subtle feather texture -->
+  <path d="M 320 264 c -24 -16 -48 -24 -72 -24 -24 0 -48 8 -72 24 -24 16 -36 40 -36 64 0 24 12 48 36 64 24 16 48 24 72 24 24 0 48 -8 72 -24 24 -16 36 -40 36 -64 0 -24 -12 -48 -36 -64 z" fill="#2c1810"/>
+  <path d="M 304 264 c -4 0 -8 4 -8 8 0 4 4 8 8 8 4 0 8 -4 8 -8 0 -4 -4 -8 -8 -8 z" fill="#5a3a22" opacity="0.3"/>
+  <path d="M 288 272 c -4 0 -8 4 -8 8 0 4 4 8 8 8 4 0 8 -4 8 -8 0 -4 -4 -8 -8 -8 z" fill="#5a3a22" opacity="0.3"/>
+  <path d="M 336 272 c -4 0 -8 4 -8 8 0 4 4 8 8 8 4 0 8 -4 8 -8 0 -4 -4 -8 -8 -8 z" fill="#5a3a22" opacity="0.3"/>  <!-- feather tufts -->
+
+  <!-- Rooster head and comb (sharper) -->
+  <path d="M 240 224 c -10 -10 -14 -18 -14 -26 0 -8 6 -16 14 -16 8 0 16 6 16 14 0 8 -6 16 -14 16 -8 0 -16 -6 -16 -14 0 -8 6 -16 14 -16 8 0 14 6 14 14 0 8 -6 16 -14 16 z" fill="#e74c3c"/>
+  <circle cx="256" cy="216" r="12" fill="#f1c40f"/>
+
+  <!-- Rooster eye with sparkle -->
+  <circle cx="260" cy="212" r="3" fill="#000"/>
+  <circle cx="261" cy="211" r="1" fill="#fff"/>
+
+  <!-- Rooster beak with highlight -->
+  <path d="M 272 220 l 14 -4 l 0 8 l 14 -4 l -4 -8 z" fill="#e67e22"/>
+  <path d="M 276 216 l 4 -2 l 2 4 z" fill="#fff"/>
+
+  <!-- Tail feathers (simpler) -->
+  <path d="M 384 256 l -24 -12 l -12 0 l -24 -12 l -12 0 l -24 -12" stroke="#2c1810" stroke-width="10" fill="none" stroke-linecap="round"/>
+
+  <!-- Scarf loops tangled around rooster (tighter, more dynamic) -->
+  <path d="M 280 280 q 32 -16 48 0 q 16 24 0 48 q -16 24 -24 16 q -24 -16 -48 0 q -16 -24 0 -48 q 16 -24 24 -16" stroke="#e74c3c" stroke-width="14" fill="none" stroke-linecap="round"/>
+  <path d="M 248 264 q -24 -8 0 -16 q 8 24 16 0" stroke="#3498db" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 312 248 q 16 -24 24 0 q 0 24 -12 0" stroke="#2ecc71" stroke-width="10" fill="none" stroke-linecap="round"/>
+  <path d="M 272 296 q 12 -16 24 0 q 8 16 0 32" stroke="#e74c3c" stroke-width="10" fill="none" stroke-linecap="round"/>  <!-- extra tangle -->
+
+  <!-- Rooster feet with subtle shadow -->
+  <path d="M 280 384 l -12 12 h 24 l -6 6 h 12 z" fill="#2c1810"/>
+  <path d="M 296 384 l -12 12 h 24 l -6 6 h 12 z" fill="#2c1810"/>
+</svg>

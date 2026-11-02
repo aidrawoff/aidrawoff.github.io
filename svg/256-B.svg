@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd9a0"/>
+      <stop offset="0.45" stop-color="#ffb066"/>
+      <stop offset="1" stop-color="#f37a4f"/>
+    </linearGradient>
+    <path id="track" d="M-30 150 C 60 150 80 60 150 60 C 230 60 240 330 320 330 C 380 330 390 110 450 110 C 490 110 500 200 545 200" fill="none"/>
+    <g id="car">
+      <rect x="-17" y="-15" width="34" height="22" rx="5" fill="#e8305a" stroke="#7a0e28" stroke-width="2"/>
+      <rect x="-13" y="-11" width="26" height="7" rx="3" fill="#ffd166"/>
+      <circle cx="-9" cy="9" r="5" fill="#2b2b3a" stroke="#ffd166" stroke-width="2"/>
+      <circle cx="9" cy="9" r="5" fill="#2b2b3a" stroke="#ffd166" stroke-width="2"/>
+    </g>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="80" r="42" fill="#fff3c4" opacity="0.9"/>
+
+  <g stroke="#3a2a4d" stroke-width="7" stroke-linecap="round">
+    <line x1="150" y1="62" x2="150" y2="452"/>
+    <line x1="240" y1="180" x2="240" y2="452"/>
+    <line x1="320" y1="332" x2="320" y2="452"/>
+    <line x1="450" y1="112" x2="450" y2="452"/>
+    <line x1="70" y1="120" x2="70" y2="452"/>
+    <line x1="390" y1="180" x2="390" y2="452"/>
+  </g>
+  <g stroke="#543a6d" stroke-width="3">
+    <line x1="60" y1="300" x2="460" y2="300"/>
+    <line x1="60" y1="380" x2="460" y2="380"/>
+  </g>
+
+  <use href="#track" stroke="#2b1b3d" stroke-width="16" fill="none"/>
+  <use href="#track" stroke="#ffd166" stroke-width="9" fill="none"/>
+  <use href="#track" stroke="#ff5d8f" stroke-width="3" fill="none" stroke-dasharray="10 8"/>
+
+  <g>
+    <animateTransform attributeName="transform" type="translate" dur="4s" repeatCount="indefinite"
+      values="-30,150; 20,140; 70,110; 110,70; 150,60; 190,80; 230,150; 270,260; 320,330; 360,280; 390,180; 420,120; 450,110; 480,140; 510,180; 545,200"
+      keyTimes="0;0.05;0.1;0.15;0.2;0.25;0.3;0.4;0.5;0.6;0.68;0.76;0.82;0.88;0.94;1"/>
+    <use href="#car"/>
+    <use href="#car" transform="translate(-38,0)" opacity="0.97"/>
+    <use href="#car" transform="translate(-76,0)" opacity="0.94"/>
+  </g>
+
+  <g transform="translate(256,470)">
+    <circle r="34" fill="#241a35" stroke="#ffd166" stroke-width="4"/>
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="2s" repeatCount="indefinite"/>
+      <g stroke="#ffd166" stroke-width="4">
+        <line x1="-28" y1="0" x2="28" y2="0"/>
+        <line x1="0" y1="-28" x2="0" y2="28"/>
+        <line x1="-20" y1="-20" x2="20" y2="20"/>
+        <line x1="-20" y1="20" x2="20" y2="-20"/>
+      </g>
+    </g>
+    <circle r="7" fill="#ff5d8f"/>
+  </g>
+
+  <rect y="452" width="512" height="60" fill="#2b1b3d"/>
+</svg>
