@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#18264d"/><stop offset="1" stop-color="#70415b"/></linearGradient>
+ <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#523b38"/><stop offset="1" stop-color="#241d28"/></linearGradient>
+ <radialGradient id="moon"><stop stop-color="#fff3c4"/><stop offset="1" stop-color="#e8ae76"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="398" cy="94" r="43" fill="#f3c77d" opacity=".2" filter="url(#glow)"/><circle cx="398" cy="94" r="28" fill="url(#moon)"/>
+<path d="M0 282 Q90 230 180 278 T360 266 T512 252 V512H0Z" fill="#30273a"/>
+<path d="M0 337 Q120 285 250 329 T512 310 V512H0Z" fill="url(#ground)"/>
+<!-- pumpkin patch -->
+<g stroke="#4a2928" stroke-width="4">
+ <g fill="#d76a35"><ellipse cx="82" cy="354" rx="39" ry="28"/><ellipse cx="82" cy="354" rx="22" ry="30"/><path d="M82 326v-12q10-13 20-2" fill="none" stroke="#71834b"/></g>
+ <g fill="#e58a3d"><ellipse cx="414" cy="360" rx="48" ry="31"/><ellipse cx="414" cy="360" rx="25" ry="33"/><path d="M414 328v-12q11-13 22-1" fill="none" stroke="#71834b"/></g>
+ <g fill="#bd542f"><ellipse cx="478" cy="420" rx="33" ry="24"/><ellipse cx="478" cy="420" rx="18" ry="26"/></g>
+</g>
+<!-- hedgehog silhouette -->
+<path d="M116 389 Q100 344 126 292 Q147 247 191 230 Q224 189 266 211 Q309 219 330 259 Q367 274 375 318 Q383 363 351 395Z" fill="#2b2026" stroke="#17151f" stroke-width="7"/>
+<!-- quills --> <path d="M124 292 L145 250 L157 275 L180 224 L190 265 L221 207 L224 257 L258 213 L255 268 L296 233 L280 276 L326 256 L298 295" fill="#60414a" stroke="#2a2028" stroke-width="6"/>
+<!-- face -->
+<path d="M230 287 Q278 260 329 285 Q374 308 358 352 Q342 394 287 397 Q232 395 211 360 Q196 326 230 287Z" fill="#bd7657" stroke="#542e32" stroke-width="6"/>
+<ellipse cx="316" cy="321" rx="8" ry="10" fill="#181622"/><circle cx="319" cy="317" r="3" fill="#fff5ce"/>
+<path d="M341 347 Q369 341 375 352 Q369 370 346 366Z" fill="#241824"/><path d="M342 357 Q325 370 307 357" fill="none" stroke="#54252d" stroke-width="5" stroke-linecap="round"/>
+<path d="M233 302 Q250 291 268 300" fill="none" stroke="#422a30" stroke-width="7" stroke-linecap="round"/>
+<!-- paws and pumpkin -->
+<ellipse cx="208" cy="397" rx="33" ry="17" fill="#bd7657" stroke="#542e32" stroke-width="5"/>
+<g stroke="#5a2d2b" stroke-width="4"><ellipse cx="165" cy="411" rx="35" ry="23" fill="#df7134"/><ellipse cx="165" cy="411" rx="19" ry="24" fill="#f08c40"/><path d="M165 387v-12" fill="none" stroke="#71834b"/></g>
+<!-- foreground vines --> <path d="M0 460 Q80 425 135 454 T270 450 T410 465 T512 440" fill="none" stroke="#7b7843" stroke-width="7"/><g fill="#9a924c"><ellipse cx="55" cy="452" rx="18" ry="7" transform="rotate(-25 55 452)"/><ellipse cx="380" cy="458" rx="20" ry="7" transform="rotate(25 380 458)"/></g>
+<g fill="#f6c878" opacity=".8"><circle cx="109" cy="270" r="3"/><circle cx="375" cy="239" r="3"/><circle cx="434" cy="288" r="2"/><circle cx="62" cy="300" r="2"/><circle cx="285" cy="129" r="2"/><circle cx="458" cy="178" r="2"/></g>
+<!-- warm rim light and patch texture -->
+<path d="M126 292 Q147 247 191 230 Q224 189 266 211" fill="none" stroke="#d88a62" stroke-width="5" opacity=".7"/>
+<path d="M56 382q12-10 25-2M390 390q17-12 34-2M438 440q13-9 26-2" fill="none" stroke="#a55b3b" stroke-width="4" stroke-linecap="round" opacity=".8"/>
+<path d="M278 347q5 5 11 0" fill="none" stroke="#eeae7d" stroke-width="3" stroke-linecap="round"/>
+<g fill="none" stroke="#8d8048" stroke-width="4" stroke-linecap="round"><path d="M25 430l7-17M34 432l15-14M108 438l-5-16M470 464l9-18M492 458l13-16"/></g>
+<g fill="#f5a654" opacity=".7"><path d="M61 344q8-16 15-1"/><path d="M397 350q9-18 17-2"/></g>
+</svg>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e0f7fa"/>
+      <stop offset="100%" stop-color="#b2ebf2"/>
+    </linearGradient>
+    <filter id="noise" x="0" y="0" width="100%" height="100%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="5" result="noise"/>
+      <feComposite in="SourceGraphic" in2="noise" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bgGradient)"/>
+  <rect width="512" height="512" fill="none" stroke="none" filter="url(#noise)" opacity="0.15"/>
+
+  <!-- Fiberglass chaos: jagged, wild spikes and erratic strands -->
+  <g fill="none" stroke-linecap="round">
+    <!-- Core chaotic mass -->
+    <path d="M256,200 Q200,150 180,220 Q160,250 200,280 Q240,300 260,260 Q280,220 256,200 Z"
+          stroke="#444" stroke-width="10" opacity="0.95"/>
+    <path d="M256,200 Q300,150 320,220 Q340,250 300,280 Q260,300 240,260 Q220,220 256,200 Z"
+          stroke="#333" stroke-width="8" opacity="0.9"/>
+
+    <!-- Wild spikes radiating outward -->
+    <path d="M256,200 L200,100" stroke="#d32f2f" stroke-width="6" opacity="0.95"/>
+    <path d="M256,200 L320,120" stroke="#f44336" stroke-width="5" opacity="0.95"/>
+    <path d="M256,200 L180,280" stroke="#ff9800" stroke-width="4.5" opacity="0.95"/>
+    <path d="M256,200 L340,260" stroke="#ffc107" stroke-width="4" opacity="0.95"/>
+    <path d="M256,200 L120,200" stroke="#f44336" stroke-width="5" opacity="0.95"/>
+    <path d="M256,200 L400,200" stroke="#d32f2f" stroke-width="6" opacity="0.95"/>
+    <path d="M256,200 L256,80" stroke="#ff9800" stroke-width="4.5" opacity="0.95"/>
+    <path d="M256,200 L256,340" stroke="#ffc107" stroke-width="4" opacity="0.95"/>
+
+    <!-- Erratic strands looping chaotically -->
+    <path d="M200,100 Q150,120 160,160 Q170,200 140,220 Q110,240 120,280" stroke="#f44336" stroke-width="3.5" opacity="0.9"/>
+    <path d="M320,120 Q360,140 350,180 Q340,220 370,240 Q400,260 380,300" stroke="#d32f2f" stroke-width="4" opacity="0.9"/>
+    <path d="M180,280 Q140,300 150,340 Q160,380 130,400 Q100,420 120,460" stroke="#ffc107" stroke-width="3" opacity="0.85"/>
+    <path d="M340,260 Q380,280 370,320 Q360,360 390,380 Q420,400 400,440" stroke="#ff9800" stroke-width="3.5" opacity="0.9"/>
+    <path d="M120,200 Q80,180 90,220 Q100,260 70,280 Q40,300 60,340" stroke="#f44336" stroke-width="3" opacity="0.85"/>
+    <path d="M400,200 Q440,180 430,220 Q420,260 450,280 Q480,300 460,340" stroke="#d32f2f" stroke-width="3.5" opacity="0.9"/>
+    <path d="M256,80 Q220,60 240,100 Q260,140 230,160 Q200,180 220,220" stroke="#ff9800" stroke-width="2.5" opacity="0.8"/>
+    <path d="M256,340 Q220,360 240,320 Q260,280 230,260 Q200,240 220,200" stroke="#ffc107" stroke-width="2.5" opacity="0.8"/>
+  </g>
+
+  <!-- Subtle depth: darker bottom, lighter top -->
+  <rect x="0" y="341" width="512" height="171" fill="#b2ebf2" opacity="0.2"/>
+  <rect x="0" y="0" width="512" height="171" fill="#e0f7fa" opacity="0.2"/>
+
+  <!-- Soft shadow under core -->
+  <ellipse cx="256" cy="260" rx="80" ry="20" fill="#000" opacity="0.15"/>
+
+  <!-- Final highlights: chaotic spikes and wild reflections -->
+  <path d="M256,200 L200,100" stroke="#ffcc00" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M256,200 L320,120" stroke="#ff9900" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M256,200 L180,280" stroke="#ff6600" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256,200 L340,260" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M256,200 L120,200" stroke="#ff9900" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+  <path d="M256,200 L400,200" stroke="#ffcc00" stroke-width="2" stroke-linecap="round" opacity="0.8"/>
+  <path d="M256,200 L256,80" stroke="#ff6600" stroke-width="1" stroke-linecap="round" opacity="0.6"/>
+  <path d="M256,200 L256,340" stroke="#ffcc00" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+</svg>

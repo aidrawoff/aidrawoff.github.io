@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#17263d"/><stop offset="1" stop-color="#080d18"/></linearGradient>
+ <linearGradient id="body" x2="1" y2="1"><stop stop-color="#fff1c7"/><stop offset=".45" stop-color="#ffb23e"/><stop offset="1" stop-color="#e34b31"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#bffaff" stop-opacity=".85"/><stop offset="1" stop-color="#43a9c7" stop-opacity=".25"/></linearGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<path d="M0 390 Q100 360 190 388 T360 378 T512 392 V512H0Z" fill="#111a29"/>
+<path d="M0 430H512M30 466H470" stroke="#34445a" stroke-width="5" opacity=".6"/>
+<g opacity=".8" stroke="#4d6b82" stroke-width="3"><path d="M75 95v225M130 70v250M405 80v260M455 120v210"/><path d="M55 145h65M390 160h85"/></g>
+<circle cx="375" cy="170" r="48" fill="#ffdc55" opacity=".16" filter="url(#glow)"/>
+<!-- wild fiberglass body -->
+<path d="M76 350 Q62 292 105 251 Q147 212 226 217 L302 190 Q364 167 414 199 Q453 225 439 276 L469 316 Q481 334 462 351 L402 365 Q374 406 306 407 L176 399 Q102 397 76 350Z" fill="#000" opacity=".35" transform="translate(7 10)"/>
+<path d="M76 350 Q62 292 105 251 Q147 212 226 217 L302 190 Q364 167 414 199 Q453 225 439 276 L469 316 Q481 334 462 351 L402 365 Q374 406 306 407 L176 399 Q102 397 76 350Z" fill="url(#body)" stroke="#ffcf62" stroke-width="6"/>
+<!-- glass cabin -->
+<path d="M174 229 Q227 202 300 199 L359 205 L327 278 L174 281Z" fill="url(#glass)" stroke="#d7ffff" stroke-width="5"/>
+<path d="M327 202 L359 205 L403 232 L381 276 L327 278Z" fill="#55bbd0" opacity=".6" stroke="#d7ffff" stroke-width="4"/>
+<path d="M246 211v69M327 202v76" stroke="#d9ffff" stroke-width="4" opacity=".8"/>
+<!-- huge broken fiberglass fins -->
+<path d="M113 255 L71 104 L126 190 L151 61 L176 218Z" fill="#7ee9e4" opacity=".72" stroke="#d4ffff" stroke-width="5"/>
+<path d="M369 211 L422 76 L431 183 L478 119 L447 247Z" fill="#ff7890" opacity=".74" stroke="#ffd1db" stroke-width="5"/>
+<path d="M395 366 L470 405 L405 399 L437 454 L370 405Z" fill="#9af4e1" opacity=".65" stroke="#d4ffff" stroke-width="4"/>
+<!-- face -->
+<path d="M344 258 Q388 244 420 267 L423 315 Q384 342 346 316Z" fill="#f8dca2" stroke="#8d382c" stroke-width="5"/>
+<ellipse cx="369" cy="282" rx="9" ry="13" fill="#17263d"/><ellipse cx="405" cy="278" rx="9" ry="13" fill="#17263d"/>
+<path d="M363 306 Q389 325 413 302" fill="none" stroke="#a52f32" stroke-width="7" stroke-linecap="round"/>
+<path d="M352 261l27-8M392 253l25 5" stroke="#8d382c" stroke-width="6" stroke-linecap="round"/>
+<!-- frantic wheels and shards -->
+<circle cx="151" cy="377" r="35" fill="#111827" stroke="#ffdf8a" stroke-width="8"/><circle cx="151" cy="377" r="12" fill="#55bed0"/>
+<circle cx="370" cy="376" r="35" fill="#111827" stroke="#ffdf8a" stroke-width="8"/><circle cx="370" cy="376" r="12" fill="#55bed0"/>
+<path d="M89 318l-45-29M101 337l-57 2M438 300l45-30M447 326l51 15" stroke="#ffda57" stroke-width="8" stroke-linecap="round"/>
+<path d="M207 304l45 10M222 326l55 6M279 353l50 8" stroke="#fff4c2" stroke-width="6" opacity=".8"/>
+<path d="M185 238l29-11M193 250l38-13M339 218l18 4" stroke="#ffffff" stroke-width="4" opacity=".65" stroke-linecap="round"/>
+<path d="M122 271l20 8M118 282l24 9M406 238l19 8M400 249l20 8" stroke="#fff8d0" stroke-width="3" opacity=".7"/>
+<path d="M89 221l-18-24M99 215l-5-31M427 204l14-28M437 214l26-19" stroke="#d5ffff" stroke-width="3" opacity=".8"/>
+<circle cx="107" cy="286" r="7" fill="#fff2a6"/><circle cx="454" cy="286" r="6" fill="#fff2a6"/>
+<path d="M124 366l18-4M392 356l17-5" stroke="#fff3bd" stroke-width="4" opacity=".8"/>
+<path d="M58 397 Q125 420 188 410 T330 416 T474 397" fill="none" stroke="#f05b3c" stroke-width="7" opacity=".7"/>
+<text x="28" y="40" fill="#ffe28a" font-family="sans-serif" font-size="18" letter-spacing="3">FIBERGLASS // WILD</text>
+</svg>

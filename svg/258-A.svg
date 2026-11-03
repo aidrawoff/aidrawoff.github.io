@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#18243b"/><stop offset="1" stop-color="#3d2030"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ffe9a8" stop-opacity=".8"/><stop offset="1" stop-color="#e98b45" stop-opacity="0"/></radialGradient>
+ <linearGradient id="mug" x2="0" y2="1"><stop stop-color="#e88b55"/><stop offset="1" stop-color="#9c3f3f"/></linearGradient>
+ <linearGradient id="drink"><stop stop-color="#fff0b0"/><stop offset="1" stop-color="#c8783e"/></linearGradient>
+ </defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="277" cy="282" r="205" fill="url(#glow)"/>
+<path d="M0 425 Q120 392 225 424 T512 410 V512H0Z" fill="#24192a"/>
+<!-- quills silhouette -->
+<path d="M113 302 L54 247 126 267 72 193 154 244 127 153 190 233 190 126 220 230 268 145 263 242 337 184 296 274Z" fill="#c8c1b1" stroke="#f4e9c5" stroke-width="4" stroke-linejoin="round"/>
+<!-- body -->
+<ellipse cx="225" cy="323" rx="125" ry="112" fill="#8d604e" stroke="#4c3035" stroke-width="7"/>
+<ellipse cx="170" cy="330" rx="61" ry="73" fill="#bd8363"/>
+<!-- head -->
+<path d="M122 283 Q117 222 180 203 Q246 184 287 230 Q306 252 282 298 Q250 332 179 320 Q136 315 122 283Z" fill="#b8795d" stroke="#4c3035" stroke-width="7"/>
+<path d="M138 234 L111 207 157 214Z" fill="#9f674f" stroke="#4c3035" stroke-width="6"/>
+<circle cx="181" cy="252" r="8" fill="#241b28"/><circle cx="184" cy="249" r="3" fill="#fff"/>
+<ellipse cx="151" cy="278" rx="15" ry="7" fill="#e99578" opacity=".55"/>
+<path d="M226 282 Q247 294 267 277" fill="none" stroke="#4c3035" stroke-width="6" stroke-linecap="round"/>
+<!-- mug and handle -->
+<ellipse cx="332" cy="327" rx="91" ry="31" fill="#6e3039" opacity=".6"/>
+<path d="M292 264 Q347 250 399 270 L390 405 Q345 430 301 402Z" fill="url(#mug)" stroke="#4c3035" stroke-width="8"/>
+<path d="M389 292 Q458 279 451 342 Q446 379 391 365" fill="none" stroke="#d36d4c" stroke-width="18"/>
+<ellipse cx="345" cy="270" rx="56" ry="17" fill="url(#drink)" stroke="#4c3035" stroke-width="7"/>
+<path d="M327 244 Q310 224 328 207 M355 244 Q345 219 366 198" fill="none" stroke="#ffe8bd" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+<!-- paws hugging -->
+<path d="M266 296 Q292 298 314 326 Q319 341 303 348 Q286 346 266 327Z" fill="#bd8363" stroke="#4c3035" stroke-width="6"/>
+<path d="M271 349 Q299 337 322 357 Q328 373 313 382 Q286 380 263 365Z" fill="#bd8363" stroke="#4c3035" stroke-width="6"/>
+<path d="M304 328 l17 4 M302 348 l18 3" stroke="#f4c08b" stroke-width="3"/>
+<!-- quill texture catches the warm light -->
+<g fill="none" stroke="#fff0c9" stroke-width="3" opacity=".65" stroke-linecap="round">
+ <path d="M90 218 l42 37"/><path d="M111 178 l43 59"/><path d="M157 158 l22 71"/>
+ <path d="M216 160 l4 67"/><path d="M293 183 l-26 63"/><path d="M327 218 l-38 56"/>
+</g>
+<circle cx="373" cy="307" r="5" fill="#ffe9a8" opacity=".8"/><circle cx="361" cy="382" r="4" fill="#ffe9a8" opacity=".7"/>
+<!-- quiet night sparkle and ceramic gleam -->
+<g fill="#f8df9a" opacity=".85">
+ <path d="M52 92 l4 11 11 4-11 4-4 11-4-11-11-4 11-4Z"/>
+ <path d="M437 128 l3 8 8 3-8 3-3 8-3-8-8-3 8-3Z"/>
+ <circle cx="91" cy="151" r="3"/><circle cx="463" cy="214" r="3"/>
+</g>
+<path d="M315 292 Q325 287 331 291" fill="none" stroke="#ffd9a1" stroke-width="5" stroke-linecap="round" opacity=".8"/>
+<text x="256" y="474" text-anchor="middle" fill="#f5d9a0" font-family="serif" font-size="18" letter-spacing="4">WARM &amp; SPIKY</text>
+</svg>

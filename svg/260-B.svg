@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f7c98b"/>
+      <stop offset="0.55" stop-color="#e8a06a"/>
+      <stop offset="1" stop-color="#c9dcb0"/>
+    </linearGradient>
+    <radialGradient id="pumpG" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffb347"/>
+      <stop offset="0.6" stop-color="#ef7d1a"/>
+      <stop offset="1" stop-color="#b4500d"/>
+    </radialGradient>
+    <radialGradient id="pumpG2" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffc06a"/>
+      <stop offset="0.6" stop-color="#f58a22"/>
+      <stop offset="1" stop-color="#c05a10"/>
+    </radialGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a8b878"/>
+      <stop offset="1" stop-color="#6d8a4a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="120" cy="96" r="46" fill="#fff2c4" opacity="0.85"/>
+  <path d="M0 300 Q120 268 256 292 T512 286 V512 H0 Z" fill="url(#ground)"/>
+  <path d="M0 330 Q160 312 300 336 T512 326 V512 H0 Z" fill="#5f7d40" opacity="0.55"/>
+
+  <!-- distant pumpkins -->
+  <ellipse cx="60" cy="300" rx="26" ry="20" fill="url(#pumpG)"/>
+  <ellipse cx="452" cy="296" rx="30" ry="23" fill="url(#pumpG)"/>
+  <path d="M452 273 q8 -12 18 -10" stroke="#4b7a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+
+  <!-- big pumpkin right -->
+  <g>
+    <ellipse cx="392" cy="372" rx="86" ry="72" fill="url(#pumpG)"/>
+    <ellipse cx="392" cy="372" rx="52" ry="70" fill="none" stroke="#a8490a" stroke-width="4" opacity="0.5"/>
+    <ellipse cx="392" cy="372" rx="20" ry="68" fill="none" stroke="#a8490a" stroke-width="4" opacity="0.5"/>
+    <path d="M392 302 q6 -22 26 -24 q-6 20 -10 24 z" fill="#4f7a2b"/>
+    <ellipse cx="360" cy="342" rx="20" ry="14" fill="#ffd9a0" opacity="0.45"/>
+  </g>
+
+  <!-- mid pumpkin left -->
+  <g>
+    <ellipse cx="96" cy="404" rx="62" ry="50" fill="url(#pumpG2)"/>
+    <ellipse cx="96" cy="404" rx="36" ry="48" fill="none" stroke="#b0560e" stroke-width="4" opacity="0.45"/>
+    <path d="M96 356 q4 -18 22 -18 q-4 16 -8 20 z" fill="#4f7a2b"/>
+    <ellipse cx="74" cy="382" rx="14" ry="10" fill="#ffe0b0" opacity="0.5"/>
+  </g>
+
+  <!-- small gourd front right -->
+  <ellipse cx="470" cy="452" rx="40" ry="30" fill="url(#pumpG2)"/>
+  <path d="M470 424 q6 -14 20 -12" stroke="#4f7a2b" stroke-width="6" fill="none" stroke-linecap="round"/>
+
+  <!-- HEDGEHOG -->
+  <g>
+    <ellipse cx="252" cy="430" rx="118" ry="30" fill="#3f5a2c" opacity="0.35"/>
+    <!-- spines as a fan of triangles over the back -->
+    <path d="M150 424 L168 356 L182 420 Z" fill="#5b4636"/>
+    <path d="M176 420 L196 338 L212 416 Z" fill="#6b5340"/>
+    <path d="M204 416 L226 326 L244 412 Z" fill="#5b4636"/>
+    <path d="M234 412 L258 320 L276 410 Z" fill="#75604a"/>
+    <path d="M266 410 L292 326 L308 412 Z" fill="#5b4636"/>
+    <path d="M298 412 L322 340 L336 418 Z" fill="#6b5340"/>
+    <path d="M326 418 L348 362 L358 424 Z" fill="#5b4636"/>
+    <!-- body under spines -->
+    <path d="M146 428 Q150 388 200 376 Q260 362 320 382 Q362 396 366 428 Q366 444 330 446 L176 446 Q146 444 146 428 Z" fill="#4a3a2c"/>
+    <!-- face/snout on the left -->
+    <path d="M150 430 Q112 424 104 400 Q100 384 122 380 Q150 376 168 392 Q180 406 172 424 Q164 434 150 430 Z" fill="#d9b48c"/>
+    <path d="M104 400 Q92 396 96 386 Q104 380 112 388 Z" fill="#e8cba6"/>
+    <circle cx="101" cy="390" r="6" fill="#2a1c14"/>
+    <circle cx="99" cy="388" r="2" fill="#ffffff" opacity="0.8"/>
+    <circle cx="132" cy="398" r="4.5" fill="#2a1c14"/>
+    <circle cx="130.6" cy="396.6" r="1.5" fill="#ffffff" opacity="0.85"/>
+    <path d="M124 414 q10 6 20 2" stroke="#8a6a4c" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+    <!-- ear -->
+    <path d="M158 380 q-4 -16 10 -16 q10 2 6 16 z" fill="#c9a37b"/>
+    <!-- little feet -->
+    <ellipse cx="196" cy="448" rx="14" ry="8" fill="#b98f66"/>
+    <ellipse cx="252" cy="450" rx="14" ry="8" fill="#b98f66"/>
+    <ellipse cx="308" cy="448" rx="14" ry="8" fill="#b98f66"/>
+    <!-- highlight along spine ridge -->
+    <path d="M180 372 Q250 340 330 380" stroke="#a8876a" stroke-width="5" fill="none" opacity="0.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- grass tufts -->
+  <g stroke="#40632c" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.85">
+    <path d="M40 470 q4 -22 10 -28 M52 472 q-2 -20 -8 -26"/>
+    <path d="M140 478 q4 -20 12 -26 M152 480 q-2 -18 -6 -24"/>
+    <path d="M356 476 q6 -20 14 -24 M368 478 q-2 -18 -8 -22"/>
+    <path d="M436 486 q4 -22 12 -26 M448 488 q-2 -18 -6 -24"/>
+    <path d="M236 488 q4 -18 10 -22"/>
+  </g>
+  <!-- fallen leaves -->
+  <path d="M300 478 q14 -12 28 -2 q-10 14 -28 2 z" fill="#c96a2a" opacity="0.85"/>
+  <path d="M180 492 q12 -10 24 -2 q-8 12 -24 2 z" fill="#a8551f" opacity="0.8"/>
+  <path d="M420 462 q10 -8 20 -2 q-6 10 -20 2 z" fill="#d98a30" opacity="0.8"/>
+</svg>
