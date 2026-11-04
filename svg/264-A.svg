@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#151224"/>
+      <stop offset="100%" stop-color="#2d2238"/>
+    </linearGradient>
+    <linearGradient id="fur" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#96613d"/>
+      <stop offset="100%" stop-color="#613b22"/>
+    </linearGradient>
+    <linearGradient id="mug" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e74c3c"/>
+      <stop offset="50%" stop-color="#ff6b6b"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Ambient glow behind bear -->
+  <circle cx="256" cy="240" r="160" fill="#f39c12" opacity="0.12" filter="url(#glow)"/>
+
+  <!-- Background Stars / Snowflakes -->
+  <circle cx="80" cy="100" r="2" fill="#fff" opacity="0.6"/>
+  <circle cx="420" cy="80" r="3" fill="#fff" opacity="0.8"/>
+  <circle cx="450" cy="200" r="2" fill="#fff" opacity="0.5"/>
+  <circle cx="60" cy="250" r="2.5" fill="#fff" opacity="0.7"/>
+  <circle cx="130" cy="60" r="1.5" fill="#fff" opacity="0.4"/>
+  <circle cx="360" cy="130" r="2" fill="#fff" opacity="0.7"/>
+
+  <!-- Table / Wooden Surface -->
+  <rect x="0" y="380" width="512" height="132" fill="#3b2618"/>
+  <rect x="0" y="370" width="512" height="12" fill="#523824"/>
+  <path d="M0,410 Q256,420 512,410" fill="none" stroke="#2a1b11" stroke-width="3" opacity="0.5"/>
+
+  <!-- Bear Ears -->
+  <circle cx="170" cy="165" r="45" fill="url(#fur)"/>
+  <circle cx="342" cy="165" r="45" fill="url(#fur)"/>
+  <circle cx="170" cy="165" r="24" fill="#bd8253"/>
+  <circle cx="342" cy="165" r="24" fill="#bd8253"/>
+
+  <!-- Bear Head & Body -->
+  <circle cx="256" cy="270" r="120" fill="url(#fur)"/>
+  <circle cx="256" cy="225" r="100" fill="url(#fur)"/>
+
+  <!-- Snout -->
+  <ellipse cx="256" cy="255" rx="60" ry="45" fill="#bd8253"/>
+  <ellipse cx="256" cy="242" rx="22" ry="14" fill="#2d1a0e"/>
+  <path d="M256,256 Q256,285 272,280" fill="none" stroke="#2d1a0e" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- Rosy Cheeks -->
+  <ellipse cx="205" cy="260" rx="15" ry="10" fill="#e74c3c" opacity="0.35"/>
+  <ellipse cx="307" cy="260" rx="15" ry="10" fill="#e74c3c" opacity="0.35"/>
+
+  <!-- Eyes -->
+  <circle cx="215" cy="205" r="9" fill="#111"/>
+  <circle cx="297" cy="205" r="9" fill="#111"/>
+  <circle cx="213" cy="202" r="3.5" fill="#fff"/>
+  <circle cx="295" cy="202" r="3.5" fill="#fff"/>
+  <!-- Eyebrows -->
+  <path d="M205,190 Q215,183 225,190" fill="none" stroke="#422714" stroke-width="3" stroke-linecap="round"/>
+  <path d="M287,190 Q297,183 307,190" fill="none" stroke="#422714" stroke-width="3" stroke-linecap="round"/>
+
+  <!-- Left Paws holding Mug -->
+  <ellipse cx="202" cy="355" rx="24" ry="18" fill="url(#fur)"/>
+  <!-- Right Paws holding Mug -->
+  <ellipse cx="310" cy="355" rx="24" ry="18" fill="url(#fur)"/>
+
+  <!-- Mug of Cocoa -->
+  <rect x="216" y="320" width="80" height="95" rx="12" fill="url(#mug)"/>
+  <ellipse cx="256" cy="320" rx="40" ry="12" fill="#5d3a1a"/>
+  <!-- Marshmallows in cocoa -->
+  <circle cx="240" cy="318" r="7" fill="#fff"/>
+  <circle cx="270" cy="322" r="6" fill="#fff"/>
+  <circle cx="255" cy="315" r="6.5" fill="#fff"/>
+
+  <!-- Mug Handle -->
+  <path d="M296,340 C325,340 330,380 296,390" fill="none" stroke="url(#mug)" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Steam wisps curving gracefully outward to the sides of the face -->
+  <path d="M225,310 Q190,260 195,190" fill="none" stroke="#fff" stroke-width="4" stroke-opacity="0.6" stroke-linecap="round"/>
+  <path d="M287,310 Q322,260 317,190" fill="none" stroke="#fff" stroke-width="4" stroke-opacity="0.6" stroke-linecap="round"/>
+</svg>

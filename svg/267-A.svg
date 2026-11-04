@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1b2a55"/>
+      <stop offset="0.55" stop-color="#4a6fa8"/>
+      <stop offset="1" stop-color="#cfe3f2"/>
+    </linearGradient>
+    <radialGradient id="ball" cx="0.35" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.7" stop-color="#e8f1fb"/>
+      <stop offset="1" stop-color="#b9cee4"/>
+    </radialGradient>
+    <linearGradient id="somb" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd23f"/>
+      <stop offset="1" stop-color="#e88a1a"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="410" cy="80" r="34" fill="#fff3c4" opacity="0.85"/>
+
+  <!-- distant hills -->
+  <path d="M0 372 Q90 320 180 360 T360 350 T512 372 L512 512 L0 512 Z" fill="#dceaf7"/>
+  <path d="M0 410 Q120 360 250 400 T512 405 L512 512 L0 512 Z" fill="#f2f8fd"/>
+
+  <!-- snow ground -->
+  <ellipse cx="256" cy="500" rx="300" ry="70" fill="#ffffff"/>
+
+  <!-- shadow -->
+  <ellipse cx="262" cy="470" rx="150" ry="26" fill="#9fb6d0" opacity="0.45"/>
+
+  <!-- arms -->
+  <path d="M175 300 L70 250" stroke="#7a4a21" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <path d="M70 250 L40 210 M70 250 L38 268 M70 250 L60 214" stroke="#7a4a21" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <path d="M337 300 L445 235" stroke="#7a4a21" stroke-width="11" stroke-linecap="round" fill="none"/>
+  <path d="M445 235 L478 200 M445 235 L482 248 M445 235 L455 198" stroke="#7a4a21" stroke-width="7" stroke-linecap="round" fill="none"/>
+
+  <!-- body balls -->
+  <circle cx="256" cy="400" r="105" fill="url(#ball)"/>
+  <circle cx="256" cy="270" r="72" fill="url(#ball)"/>
+  <circle cx="256" cy="172" r="55" fill="url(#ball)"/>
+
+  <!-- buttons -->
+  <circle cx="256" cy="300" r="9" fill="#20242c"/>
+  <circle cx="256" cy="340" r="9" fill="#20242c"/>
+  <circle cx="256" cy="382" r="9" fill="#20242c"/>
+
+  <!-- face -->
+  <circle cx="234" cy="162" r="7" fill="#20242c"/>
+  <circle cx="276" cy="162" r="7" fill="#20242c"/>
+  <path d="M256 172 L300 186 L258 190 Z" fill="#ef7a1f"/>
+  <path d="M240 200 Q256 212 274 200" stroke="#20242c" stroke-width="4" fill="none" stroke-linecap="round"/>
+
+  <!-- SOMBRERO: brim (upturned) + tall crown -->
+  <path d="M62 138 Q160 96 196 120 Q256 142 316 120 Q352 96 450 138 Q256 196 62 138 Z" fill="url(#somb)"/>
+  <path d="M190 122 Q186 52 256 44 Q326 52 322 122 Q256 146 190 122 Z" fill="#f0a02a"/>
+  <path d="M196 112 Q256 132 316 112 L318 96 Q256 118 194 96 Z" fill="#c94f2e"/>
+  <ellipse cx="256" cy="52" rx="52" ry="16" fill="#ffd23f"/>
+  <path d="M62 138 Q256 196 450 138" stroke="#8c3b1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <path d="M92 130 Q160 96 196 118 M316 118 Q352 96 420 130" stroke="#fff2c0" stroke-width="5" fill="none" opacity="0.85"/>
+  <!-- braided trim dots on brim edge -->
+  <g fill="#fff2c0">
+    <circle cx="120" cy="150" r="5"/><circle cx="170" cy="163" r="5"/><circle cx="224" cy="172" r="5"/>
+    <circle cx="288" cy="172" r="5"/><circle cx="342" cy="163" r="5"/><circle cx="392" cy="150" r="5"/>
+  </g>
+  <!-- red bandana under chin for character -->
+  <path d="M216 208 Q256 226 296 208 L300 216 Q256 240 212 216 Z" fill="#d33b2f"/>
+  <circle cx="256" cy="232" r="7" fill="#d33b2f"/>
+
+  <!-- falling snow -->
+  <g fill="#ffffff">
+    <circle cx="60" cy="70" r="4"/><circle cx="130" cy="40" r="3"/><circle cx="200" cy="30" r="4"/>
+    <circle cx="330" cy="45" r="3"/><circle cx="420" cy="180" r="4"/><circle cx="470" cy="90" r="3"/>
+    <circle cx="40" cy="200" r="3"/><circle cx="30" cy="330" r="4"/><circle cx="480" cy="330" r="4"/>
+    <circle cx="450" cy="420" r="3"/><circle cx="80" cy="440" r="3"/>
+  </g>
+</svg>

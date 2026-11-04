@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" fill="url(#ambient)"/>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0a2a"/>
+      <stop offset="100%" stop-color="#1a3a6a"/>
+    </linearGradient>
+    <linearGradient id="zeus" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5d76e"/>
+      <stop offset="100%" stop-color="#d4a017"/>
+    </linearGradient>
+    <linearGradient id="poseidon" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a90e2"/>
+      <stop offset="100%" stop-color="#1a5fb4"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <radialGradient id="ambient" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0a0a2a" stop-opacity="0.8"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+
+  <!-- Sea waves -->
+  <path d="M0,368 Q128,336 256,368 T512,368 L512,512 L0,512 Z" fill="#002255" opacity="0.7"/>
+  <path d="M0,400 Q128,368 256,400 T512,400 L512,512 L0,512 Z" fill="#003377" opacity="0.5"/>
+  <path d="M0,432 Q128,400 256,432 T512,432 L512,512 L0,512 Z" fill="#004499" opacity="0.3"/>
+  <!-- Whitecaps -->
+  <circle cx="48" cy="380" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="96" cy="372" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="144" cy="384" r="5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="192" cy="368" r="4" fill="#ffffff" opacity="0.8"/>
+  <circle cx="240" cy="380" r="5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="288" cy="372" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="336" cy="384" r="4" fill="#ffffff" opacity="0.9"/>
+  <circle cx="384" cy="368" r="3" fill="#ffffff" opacity="0.8"/>
+  <circle cx="432" cy="380" r="5" fill="#ffffff" opacity="0.9"/>
+  <circle cx="480" cy="372" r="3" fill="#ffffff" opacity="0.8"/>
+
+  <!-- Zeus (golden lightning) -->
+  <g transform="translate(128,128)">
+    <!-- Body -->
+    <path d="M64,128 C64,96 96,64 128,64 C160,64 192,96 192,128 C192,160 160,192 128,192 C96,192 64,160 64,128 Z" fill="url(#zeus)" filter="url(#glow)"/>
+    <!-- Lightning bolt -->
+    <path d="M128,64 L160,32 L192,64 L160,96 L128,64 Z" fill="#ffdd44" stroke="#ffbb00" stroke-width="2"/>
+    <path d="M144,48 L176,16 L192,32 L176,48 L144,48 Z" fill="#ffffff" opacity="0.8"/>
+    <path d="M112,80 L144,48 L160,64 L144,80 L112,80 Z" fill="#ffffff" opacity="0.6"/>
+    <!-- Arm raised -->
+    <path d="M192,128 C224,128 256,160 256,192 C256,224 224,256 192,256" stroke="url(#zeus)" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Lightning arcs -->
+    <path d="M128,64 L112,48 L96,64 L112,80 L128,64 Z" fill="#ffcc00" opacity="0.7"/>
+    <path d="M192,64 L208,48 L224,64 L208,80 L192,64 Z" fill="#ffcc00" opacity="0.7"/>
+  </g>
+
+  <!-- Poseidon (blue trident) -->
+  <g transform="translate(384,256)">
+    <!-- Body -->
+    <path d="M64,128 C64,96 96,64 128,64 C160,64 192,96 192,128 C192,160 160,192 128,192 C96,192 64,160 64,128 Z" fill="url(#poseidon)" filter="url(#glow)"/>
+    <!-- Trident -->
+    <path d="M128,64 L128,0 L160,32 L128,64 L96,32 L128,0 Z" fill="#b0e0ff" stroke="#88c8ff" stroke-width="2"/>
+    <path d="M128,32 L144,16 L128,0 L112,16 Z" fill="#ffffff" opacity="0.7"/>
+    <path d="M128,48 L152,24 L128,0 L104,24 Z" fill="#ffffff" opacity="0.5"/>
+    <!-- Arm raised -->
+    <path d="M192,128 C224,128 256,160 256,192 C256,224 224,256 192,256" stroke="url(#poseidon)" stroke-width="12" stroke-linecap="round" fill="none"/>
+    <!-- Water arcs -->
+    <path d="M128,64 Q144,48 160,64" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+    <path d="M96,32 Q112,16 128,32" stroke="#ffffff" stroke-width="3" stroke-linecap="round" fill="none" opacity="0.8"/>
+  </g>
+
+  <!-- Foreground clash -->
+  <path d="M128,192 Q256,152 384,192" stroke="url(#zeus)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.95"/>
+  <path d="M128,192 Q256,232 384,192" stroke="url(#poseidon)" stroke-width="6" stroke-linecap="round" fill="none" opacity="0.95"/>
+</svg>

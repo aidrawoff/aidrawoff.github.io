@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#d4b896"/>
+      <stop offset="1" stop-color="#c4a882"/>
+    </linearGradient>
+    <pattern id="straw" patternUnits="userSpaceOnUse" width="8" height="8">
+      <path d="M0 4 Q2 2 4 4 T8 4" stroke="#d1b06a" stroke-width="0.8" fill="none"/>
+      <path d="M2 0 L2 8 M6 0 L6 8" stroke="#d1b06a" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="512" height="512" fill="url(#bgGrad)"/>
+
+  <!-- Scarecrow body (pig shape) -->
+  <g id="pig-body" transform="translate(256 256)">
+    <!-- Head shadow -->
+    <ellipse cx="0" cy="-60" rx="40" ry="45" fill="#e68a8a" stroke="#333" stroke-width="2"/>
+    <!-- Head -->
+    <ellipse cx="0" cy="-60" rx="40" ry="45" fill="#ffb3b3" stroke="#333" stroke-width="2"/>
+    <!-- Snout shadow -->
+    <ellipse cx="0" cy="-45" rx="22" ry="18" fill="#e69999" stroke="#333" stroke-width="1.5"/>
+    <!-- Snout -->
+    <ellipse cx="0" cy="-45" rx="22" ry="18" fill="#ffcccc" stroke="#333" stroke-width="1.5"/>
+    <!-- Eyes -->
+    <circle cx="-12" cy="-65" r="6" fill="#222"/>
+    <circle cx="12" cy="-65" r="6" fill="#222"/>
+    <!-- Mouth -->
+    <path d="M -8 -38 Q 0 -32 8 -38" stroke="#552211" stroke-width="2" fill="none"/>
+    <!-- Ears -->
+    <ellipse cx="-30" cy="-70" rx="12" ry="16" fill="#e68a8a" stroke="#333" stroke-width="1.5"/>
+    <ellipse cx="-30" cy="-70" rx="12" ry="16" fill="#ff9999" stroke="#333" stroke-width="1.5"/>
+    <ellipse cx="30" cy="-70" rx="12" ry="16" fill="#e68a8a" stroke="#333" stroke-width="1.5"/>
+    <ellipse cx="30" cy="-70" rx="12" ry="16" fill="#ff9999" stroke="#333" stroke-width="1.5"/>
+    <!-- Body shadow -->
+    <ellipse cx="0" cy="20" rx="60" ry="50" fill="#e68a8a" stroke="#333" stroke-width="2"/>
+    <!-- Body -->
+    <ellipse cx="0" cy="20" rx="60" ry="50" fill="#ffb3b3" stroke="#333" stroke-width="2"/>
+    <!-- Legs shadow -->
+    <rect x="-45" y="50" width="18" height="40" fill="#e68a8a" stroke="#333" stroke-width="2" rx="6"/>
+    <rect x="-15" y="50" width="18" height="40" fill="#e68a8a" stroke="#333" stroke-width="2" rx="6"/>
+    <rect x="15" y="50" width="18" height="40" fill="#e68a8a" stroke="#333" stroke-width="2" rx="6"/>
+    <rect x="45" y="50" width="18" height="40" fill="#e68a8a" stroke="#333" stroke-width="2" rx="6"/>
+    <!-- Legs -->
+    <rect x="-45" y="50" width="18" height="40" fill="#ffb3b3" stroke="#333" stroke-width="2" rx="6"/>
+    <rect x="-15" y="50" width="18" height="40" fill="#ffb3b3" stroke="#333" stroke-width="2" rx="6"/>
+    <rect x="15" y="50" width="18" height="40" fill="#ffb3b3" stroke="#333" stroke-width="2" rx="6"/>
+    <rect x="45" y="50" width="18" height="40" fill="#ffb3b3" stroke="#333" stroke-width="2" rx="6"/>
+
+    <!-- Patchwork coat shadow -->
+    <rect x="-55" y="0" width="110" height="80" fill="#d9a85a" stroke="#553322" stroke-width="2" rx="8"/>
+    <!-- Patchwork coat -->
+    <rect x="-55" y="0" width="110" height="80" fill="#f0c070" stroke="#553322" stroke-width="2" rx="8"/>
+    <!-- Coat buttons -->
+    <circle cx="-30" cy="20" r="4" fill="#884422"/>
+    <circle cx="0" cy="20" r="4" fill="#884422"/>
+    <circle cx="30" cy="20" r="4" fill="#884422"/>
+    <!-- Coat stitching -->
+    <path d="M -50 10 L -40 10 M -20 10 L -10 10 M 10 10 L 20 10 M 40 10 L 50 10" stroke="#553322" stroke-width="1.5" fill="none"/>
+    <!-- Straw texture on coat -->
+    <rect x="-50" y="5" width="100" height="70" fill="url(#straw)" opacity="0.6"/>
+
+    <!-- Straw hat brim shadow -->
+    <ellipse cx="0" cy="-90" rx="50" ry="10" fill="#d4a35d" stroke="#553322" stroke-width="2"/>
+    <!-- Straw hat brim -->
+    <ellipse cx="0" cy="-90" rx="50" ry="10" fill="#e8b86d" stroke="#553322" stroke-width="2"/>
+    <!-- Hat top shadow -->
+    <ellipse cx="0" cy="-105" rx="25" ry="12" fill="#d4a35d" stroke="#553322" stroke-width="2"/>
+    <!-- Hat top -->
+    <ellipse cx="0" cy="-105" rx="25" ry="12" fill="#e8b86d" stroke="#553322" stroke-width="2"/>
+    <!-- Hat band -->
+    <rect x="-30" y="-100" width="60" height="6" fill="#884422" rx="3"/>
+    <!-- Straw texture on hat -->
+    <ellipse cx="0" cy="-90" rx="45" ry="8" fill="url(#straw)" opacity="0.7"/>
+    <ellipse cx="0" cy="-105" rx="20" ry="8" fill="url(#straw)" opacity="0.7"/>
+  </g>
+</svg>

@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+  <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#87CEEB"/>
+    <stop offset="100%" stop-color="#E0F6FF"/>
+  </linearGradient>
+  <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#FFD700"/>
+    <stop offset="100%" stop-color="#FFA500"/>
+  </linearGradient>
+</defs>
+<!-- sky -->
+<rect width="512" height="512" fill="url(#sky)"/>
+<!-- sun -->
+<circle cx="420" cy="80" r="45" fill="url(#sun)"/>
+<!-- ground -->
+<ellipse cx="256" cy="460" rx="280" ry="60" fill="#8B7355"/>
+<ellipse cx="256" cy="455" rx="240" ry="45" fill="#A08B6D"/>
+<!-- corn stalks behind -->
+<g stroke="#228B22" stroke-width="4" fill="none">
+  <path d="M80 460 L80 200 M70 280 L90 260 M70 320 L90 300"/>
+  <path d="M120 460 L120 180 M110 250 L130 230 M110 300 L130 280"/>
+  <path d="M380 460 L380 190 M370 260 L390 240 M370 310 L390 290"/>
+  <path d="M430 460 L430 210 M420 280 L440 260 M420 330 L440 310"/>
+</g>
+<!-- scarecrow post -->
+<rect x="248" y="160" width="16" height="300" fill="#5D4037"/>
+<!-- pig head -->
+<ellipse cx="256" cy="155" rx="42" ry="38" fill="#FFB6C1"/>
+<!-- snout -->
+<ellipse cx="256" cy="165" rx="16" ry="12" fill="#FF69B4"/>
+<circle cx="250" cy="165" r="3" fill="#8B0000"/>
+<circle cx="262" cy="165" r="3" fill="#8B0000"/>
+<!-- eyes -->
+<circle cx="242" cy="148" r="5" fill="#000"/>
+<circle cx="270" cy="148" r="5" fill="#000"/>
+<circle cx="244" cy="146" r="2" fill="#FFF"/>
+<circle cx="272" cy="146" r="2" fill="#FFF"/>
+<!-- ears -->
+<ellipse cx="220" cy="140" rx="10" ry="16" fill="#FFB6C1" transform="rotate(-20 220 140)"/>
+<ellipse cx="292" cy="140" rx="10" ry="16" fill="#FFB6C1" transform="rotate(20 292 140)"/>
+<!-- straw hat -->
+<ellipse cx="256" cy="120" rx="70" ry="18" fill="#DAA520"/>
+<ellipse cx="256" cy="110" rx="45" ry="28" fill="#DAA520"/>
+<path d="M220 110 Q256 95 292 110" stroke="#B8860B" stroke-width="3" fill="none"/>
+<!-- shirt body -->
+<rect x="210" y="200" width="92" height="110" rx="8" fill="#CD5C5C"/>
+<!-- plaid pattern -->
+<g stroke="#8B0000" stroke-width="2" opacity="0.4">
+  <line x1="210" y1="230" x2="302" y2="230"/>
+  <line x1="210" y1="260" x2="302" y2="260"/>
+  <line x1="210" y1="290" x2="302" y2="290"/>
+  <line x1="240" y1="200" x2="240" y2="310"/>
+  <line x1="272" y1="200" x2="272" y2="310"/>
+</g>
+<!-- overalls -->
+<rect x="220" y="280" width="72" height="90" rx="4" fill="#4682B4"/>
+<rect x="220" y="280" width="72" height="20" fill="#4169E1"/>
+<!-- straps -->
+<rect x="225" y="200" width="10" height="85" fill="#4682B4"/>
+<rect x="277" y="200" width="10" height="85" fill="#4682B4"/>
+<!-- buttons -->
+<circle cx="230" cy="285" r="5" fill="#FFD700"/>
+<circle cx="282" cy="285" r="5" fill="#FFD700"/>
+<!-- arms (stick with straw) -->
+<line x1="210" y1="220" x2="140" y2="190" stroke="#5D4037" stroke-width="8" stroke-linecap="round"/>
+<line x1="302" y1="220" x2="370" y2="190" stroke="#5D4037" stroke-width="8" stroke-linecap="round"/>
+<!-- straw hands -->
+<g stroke="#DAA520" stroke-width="3" fill="none">
+  <line x1="140" y1="190" x2="125" y2="175"/>
+  <line x1="140" y1="190" x2="120" y2="195"/>
+  <line x1="140" y1="190" x2="128" y2="205"/>
+  <line x1="370" y1="190" x2="385" y2="175"/>
+  <line x1="370" y1="190" x2="390" y2="195"/>
+  <line x1="370" y1="190" x2="382" y2="205"/>
+</g>
+<!-- legs (stick with straw) -->
+<line x1="235" y1="370" x2="220" y2="450" stroke="#5D4037" stroke-width="8" stroke-linecap="round"/>
+<line x1="277" y1="370" x2="292" y2="450" stroke="#5D4037" stroke-width="8" stroke-linecap="round"/>
+<!-- straw feet -->
+<g stroke="#DAA520" stroke-width="3" fill="none">
+  <line x1="220" y1="450" x2="205" y2="465"/>
+  <line x1="220" y1="450" x2="215" y2="468"/>
+  <line x1="220" y1="450" x2="230" y2="465"/>
+  <line x1="292" y1="450" x2="277" y2="465"/>
+  <line x1="292" y1="450" x2="287" y2="468"/>
+  <line x1="292" y1="450" x2="302" y2="465"/>
+</g>
+<!-- scarf -->
+<path d="M230 195 Q256 215 282 195" stroke="#FF4500" stroke-width="10" fill="none" stroke-linecap="round"/>
+<path d="M265 205 L275 240 L260 235 Z" fill="#FF4500"/>
+<!-- crows -->
+<path d="M350 100 Q360 90 370 100 Q380 90 390 100" stroke="#000" stroke-width="3" fill="none"/>
+<path d="M100 120 Q108 112 116 120 Q124 112 132 120" stroke="#000" stroke-width="2.5" fill="none"/>
+</svg>
