@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#86d8e5"/><stop offset="1" stop-color="#f8d58b"/></linearGradient>
+ <linearGradient id="road" x2="0" y2="1"><stop stop-color="#d99b69"/><stop offset="1" stop-color="#8b5360"/></linearGradient>
+ <filter id="shadow"><feGaussianBlur stdDeviation="5"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="414" cy="82" r="42" fill="#fff0ae" opacity=".7"/>
+<path d="M0 275 Q90 220 177 273 T350 260 T512 255 V345 H0Z" fill="#56a77d"/>
+<path d="M0 335 Q145 305 260 337 T512 325 V512 H0Z" fill="url(#road)"/>
+<path d="M238 342 L274 342 292 512 204 512Z" fill="#f5ce82" opacity=".7"/>
+<!-- bunting -->
+<path d="M18 113 Q255 170 494 105" fill="none" stroke="#493c67" stroke-width="5"/>
+<path d="M55 124 l18 34 18-29 M141 142 l18 35 18-30 M232 151 l18 35 18-32 M327 143 l18 35 18-34 M420 125 l18 34 18-37" fill="#ed6b62" stroke="#493c67" stroke-width="3"/>
+<!-- crowd -->
+<g fill="#493c67"><circle cx="34" cy="289" r="14"/><circle cx="72" cy="278" r="13"/><circle cx="450" cy="278" r="14"/><circle cx="485" cy="292" r="13"/></g>
+<g stroke="#493c67" stroke-width="6" stroke-linecap="round"><path d="M34 302v42m-15-20 15 8 15-16M72 291v45m-13-20 13 6 14-18M450 292v45m-15-18 15 6 15-17M485 305v38m-14-20 14 6 13-17"/></g>
+<!-- goose shadow --> <ellipse cx="238" cy="424" rx="137" ry="22" fill="#493c67" opacity=".25" filter="url(#shadow)"/>
+<!-- goose body -->
+<path d="M143 355 Q125 305 162 271 Q197 239 250 266 Q287 284 291 331 Q303 350 332 360 L360 377 Q367 391 349 402 L315 398 Q277 430 217 420 Q163 412 143 355Z" fill="#fffaf0" stroke="#493c67" stroke-width="7"/>
+<!-- neck/head -->
+<path d="M219 300 Q207 245 225 205 Q238 177 268 183 Q295 189 296 218 Q295 245 272 266 L258 310Z" fill="#fffaf0" stroke="#493c67" stroke-width="7"/>
+<path d="M267 196 Q289 180 320 193 Q337 201 322 214 L296 222Z" fill="#f29a63" stroke="#493c67" stroke-width="6"/>
+<circle cx="279" cy="205" r="6" fill="#493c67"/><path d="M288 226 Q273 236 260 225" fill="none" stroke="#493c67" stroke-width="4"/>
+<!-- conductor cap -->
+<path d="M239 187 Q255 166 281 177 L296 190 Q269 184 244 198Z" fill="#ed6b62" stroke="#493c67" stroke-width="6"/>
+<path d="M238 190q28-8 57 1" fill="none" stroke="#f5ce82" stroke-width="6"/>
+<path d="M259 175l3 7 8 1-6 5 2 8-7-4-7 4 2-8-6-5 8-1Z" fill="#fff0ae" stroke="#493c67" stroke-width="3"/>
+<!-- wing and feet -->
+<path d="M174 310 Q218 302 246 337 Q229 371 188 374 Q164 362 174 310Z" fill="#d5edf0" stroke="#493c67" stroke-width="6"/>
+<path d="M196 414v28m58-29v29" stroke="#493c67" stroke-width="7" stroke-linecap="round"/><path d="M178 442q18-10 35 0m22 0q18-10 36 0" fill="none" stroke="#f29a63" stroke-width="7" stroke-linecap="round"/>
+<!-- baton --> <path d="M319 315 L385 257" stroke="#493c67" stroke-width="7"/><path d="M381 256 l12-10m-17 2 4-15" stroke="#f29a63" stroke-width="6" stroke-linecap="round"/>
+<!-- flags --> <path d="M83 366v-73m0 5 38 12-38 15" stroke="#493c67" stroke-width="5" fill="#ed6b62"/><path d="M421 376v-74m0 5 38 12-38 15" stroke="#493c67" stroke-width="5" fill="#f5ce82"/>
+<g fill="#fff0ae" opacity=".8"><circle cx="113" cy="235" r="5"/><circle cx="373" cy="221" r="6"/><circle cx="396" cy="315" r="4"/></g>
+<!-- musical sparkle -->
+<g fill="none" stroke="#493c67" stroke-width="5" stroke-linecap="round"><path d="M112 203v25q0 9-9 9-8 0-8-7 0-8 17-8"/><path d="M373 174v25q0 9-9 9-8 0-8-7 0-8 17-8"/></g>
+<path d="M151 397q15 8 31 0m83-3q14 8 28 0" fill="none" stroke="#b9dfe0" stroke-width="5" stroke-linecap="round"/>
+<!-- confetti and marching rhythm -->
+<g stroke-width="6" stroke-linecap="round"><path d="M126 257l-8-10m18 3 5-13" stroke="#ed6b62"/><path d="M396 250l9-12m-1 27 13-4" stroke="#f5ce82"/><path d="M92 409l-9 10m335-2 9 10" stroke="#56a77d"/></g>
+<g fill="#ed6b62" stroke="#493c67" stroke-width="4"><ellipse cx="104" cy="383" rx="14" ry="10"/><path d="M90 383v22m28-22v22"/></g>
+<path d="M88 405h34" stroke="#493c67" stroke-width="4"/>
+</svg>

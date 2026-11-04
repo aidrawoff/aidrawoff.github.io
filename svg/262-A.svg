@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Background sky gradient -->
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="60%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#311042"/>
+    </linearGradient>
+    <!-- Ocean gradient -->
+    <linearGradient id="oceanGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#0369a1"/>
+    </linearGradient>
+    <!-- Turtle shell gradient -->
+    <radialGradient id="shellGrad" cx="50%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#4ade80"/>
+      <stop offset="60%" stop-color="#15803d"/>
+      <stop offset="100%" stop-color="#14532d"/>
+    </radialGradient>
+    <!-- Building glowing windows gradient -->
+    <linearGradient id="windowGlow" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="100%" stop-color="#eab308"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Sky background -->
+  <rect width="512" height="380" fill="url(#skyGrad)"/>
+
+  <!-- Distant Planet / Moon -->
+  <circle cx="420" cy="90" r="35" fill="#38bdf8" opacity="0.15"/>
+  <circle cx="420" cy="90" r="30" fill="none" stroke="#7dd3fc" stroke-width="1.5" opacity="0.3"/>
+
+  <!-- Stars -->
+  <g fill="#ffffff" opacity="0.9">
+    <circle cx="60" cy="50" r="1.5"/>
+    <circle cx="140" cy="80" r="1"/>
+    <circle cx="230" cy="40" r="2"/>
+    <circle cx="110" cy="110" r="1.2"/>
+    <circle cx="350" cy="70" r="1.5"/>
+    <circle cx="90" cy="160" r="1.2"/>
+    <circle cx="310" cy="45" r="1"/>
+    <circle cx="470" cy="140" r="1.2"/>
+    <circle cx="180" cy="100" r="1.5"/>
+  </g>
+
+  <!-- Ocean below -->
+  <rect x="0" y="380" width="512" height="132" fill="url(#oceanGrad)"/>
+  <!-- Ocean waves -->
+  <path d="M0 380 Q 64 365, 128 380 T 256 380 T 384 380 T 512 380 L 512 512 L 0 512 Z" fill="#0284c7" opacity="0.7"/>
+  <path d="M0 395 Q 80 380, 160 395 T 320 395 T 480 395 L 512 512 L 0 512 Z" fill="#0369a1" opacity="0.9"/>
+  <!-- Highlights on waves -->
+  <path d="M 40 410 Q 90 400, 140 410" fill="none" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <path d="M 280 420 Q 330 410, 380 420" fill="none" stroke="#7dd3fc" stroke-width="2" opacity="0.6"/>
+  <path d="M 180 440 Q 230 430, 280 440" fill="none" stroke="#7dd3fc" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Turtle body and flippers -->
+  <!-- Tail -->
+  <polygon points="120,380 150,370 135,395" fill="#15803d"/>
+  <!-- Rear flipper -->
+  <path d="M140 375 Q 110 420, 130 440 Q 160 430, 170 380 Z" fill="#16a34a"/>
+  <!-- Front flipper -->
+  <path d="M380 370 Q 440 430, 470 410 Q 480 370, 420 340 Z" fill="#16a34a"/>
+  <!-- Head & Neck -->
+  <path d="M380 310 Q 430 310, 450 280 Q 460 260, 440 250 Q 410 260, 375 295 Z" fill="#22c55e"/>
+  <!-- Eye -->
+  <circle cx="435" cy="268" r="3" fill="#0f172a"/>
+  <circle cx="436" cy="267" r="1" fill="#ffffff"/>
+
+  <!-- Turtle Shell (Dome) -->
+  <ellipse cx="260" cy="300" rx="150" ry="85" fill="url(#shellGrad)" stroke="#0f172a" stroke-width="3"/>
+
+  <!-- Shell scutes (pattern) -->
+  <g stroke="#0f172a" stroke-width="2" fill="none" opacity="0.5">
+    <path d="M260 215 L 260 385"/>
+    <path d="M200 230 Q 260 250, 320 230"/>
+    <path d="M160 265 Q 260 280, 360 265"/>
+    <path d="M145 320 Q 260 330, 375 320"/>
+  </g>
+
+  <!-- City on the Shell -->
+  <!-- City base platform / walls -->
+  <path d="M 160 260 Q 260 235, 360 260 L 350 240 Q 260 215, 170 240 Z" fill="#475569" stroke="#1e293b" stroke-width="2"/>
+
+  <!-- Buildings & Towers -->
+  <!-- Central skyscraper / spire -->
+  <rect x="240" y="130" width="40" height="110" fill="#64748b" stroke="#334155" stroke-width="2"/>
+  <polygon points="235,130 260,80 285,130" fill="#cbd5e1" stroke="#334155" stroke-width="2"/>
+  <!-- Spire tip -->
+  <line x1="260" y1="80" x2="260" y2="45" stroke="#f59e0b" stroke-width="3"/>
+  <circle cx="260" cy="43" r="5" fill="#fbbf24"/>
+  <!-- Beacon ray -->
+  <polygon points="260,43 220,5 300,5" fill="#fef08a" opacity="0.25"/>
+
+  <!-- Left tower with dome -->
+  <rect x="190" y="160" width="35" height="80" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <path d="M 187 160 Q 207 130, 227 160 Z" fill="#38bdf8" stroke="#0369a1" stroke-width="2"/>
+
+  <!-- Right tower -->
+  <rect x="295" y="150" width="38" height="90" fill="#94a3b8" stroke="#334155" stroke-width="2"/>
+  <path d="M 292 150 Q 314 120, 336 150 Z" fill="#ec4899" stroke="#be185d" stroke-width="2"/>
+
+  <!-- Small residential buildings & glowing windows -->
+  <g fill="url(#windowGlow)">
+    <!-- Tower windows -->
+    <rect x="248" y="145" width="8" height="12" rx="2"/>
+    <rect x="264" y="145" width="8" height="12" rx="2"/>
+    <rect x="248" y="170" width="8" height="12" rx="2"/>
+    <rect x="264" y="170" width="8" height="12" rx="2"/>
+    <rect x="248" y="195" width="8" height="12" rx="2"/>
+    <rect x="264" y="195" width="8" height="12" rx="2"/>
+
+    <rect x="198" y="180" width="6" height="10" rx="1"/>
+    <rect x="211" y="180" width="6" height="10" rx="1"/>
+    <rect x="198" y="205" width="6" height="10" rx="1"/>
+    <rect x="211" y="205" width="6" height="10" rx="1"/>
+
+    <rect x="303" y="170" width="7" height="10" rx="1"/>
+    <rect x="317" y="170" width="7" height="10" rx="1"/>
+    <rect x="303" y="195" width="7" height="10" rx="1"/>
+    <rect x="317" y="195" width="7" height="10" rx="1"/>
+  </g>
+
+  <!-- Suspension bridge / aqueduct connecting towers -->
+  <path d="M 225 210 Q 260 230, 295 210" fill="none" stroke="#cbd5e1" stroke-width="3"/>
+  <line x1="245" y1="216" x2="245" y2="230" stroke="#cbd5e1" stroke-width="2"/>
+  <line x1="275" y1="216" x2="275" y2="230" stroke="#cbd5e1" stroke-width="2"/>
+
+  <!-- Clouds floating around the turtle and city -->
+  <path d="M 60 220 Q 80 205, 110 215 Q 140 200, 170 220 Q 190 235, 160 250 Q 100 260, 60 220 Z" fill="#ffffff" opacity="0.3"/>
+  <path d="M 340 280 Q 370 260, 410 275 Q 450 270, 470 290 Q 480 310, 440 320 Q 360 330, 340 280 Z" fill="#ffffff" opacity="0.25"/>
+
+  <!-- Sparkles / Magic particles -->
+  <circle cx="260" cy="110" r="2" fill="#fef08a"/>
+  <circle cx="225" cy="140" r="1.5" fill="#fef08a"/>
+  <circle cx="310" cy="130" r="2" fill="#fef08a"/>
+  <circle cx="200" cy="125" r="1.2" fill="#fef08a"/>
+  <circle cx="290" cy="115" r="1.5" fill="#fef08a"/>
+</svg>

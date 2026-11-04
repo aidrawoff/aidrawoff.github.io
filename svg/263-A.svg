@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2c3e50"/>
+      <stop offset="100%" stop-color="#34495e"/>
+    </linearGradient>
+    <linearGradient id="table" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#d35400"/>
+      <stop offset="100%" stop-color="#a04000"/>
+    </linearGradient>
+    <linearGradient id="frogGreen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2ecc71"/>
+      <stop offset="100%" stop-color="#27ae60"/>
+    </linearGradient>
+    <linearGradient id="belly" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f1c40f"/>
+      <stop offset="100%" stop-color="#f39c12"/>
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="2" dy="4" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Background wall & kitchen shelf -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Wall shelf with spice jars -->
+  <rect x="60" y="80" width="392" height="12" fill="#7f8c8d" rx="3"/>
+  <rect x="90" y="45" width="30" height="35" fill="#e74c3c" rx="5" filter="url(#shadow)"/>
+  <rect x="135" y="40" width="35" height="40" fill="#3498db" rx="5" filter="url(#shadow)"/>
+  <rect x="350" y="45" width="30" height="35" fill="#2ecc71" rx="5" filter="url(#shadow)"/>
+  <rect x="390" y="50" width="25" height="30" fill="#f1c40f" rx="4" filter="url(#shadow)"/>
+
+  <!-- Wooden Table -->
+  <rect x="0" y="320" width="512" height="192" fill="url(#table)" filter="url(#shadow)"/>
+  <line x1="0" y1="320" x2="512" y2="320" stroke="#e67e22" stroke-width="6"/>
+
+  <!-- Frog Body & Head -->
+  <g filter="url(#shadow)">
+    <!-- Legs -->
+    <ellipse cx="180" cy="350" rx="45" ry="25" fill="#27ae60"/>
+    <ellipse cx="332" cy="350" rx="45" ry="25" fill="#27ae60"/>
+    <circle cx="145" cy="345" r="15" fill="#2ecc71"/>
+    <circle cx="367" cy="345" r="15" fill="#2ecc71"/>
+
+    <!-- Torso -->
+    <ellipse cx="256" cy="300" rx="85" ry="95" fill="url(#frogGreen)"/>
+    <!-- Belly -->
+    <ellipse cx="256" cy="310" rx="60" ry="70" fill="url(#belly)"/>
+
+    <!-- Head -->
+    <ellipse cx="256" cy="180" rx="95" ry="75" fill="url(#frogGreen)"/>
+
+    <!-- Eyes (bulging) -->
+    <circle cx="205" cy="115" r="28" fill="#27ae60"/>
+    <circle cx="307" cy="115" r="28" fill="#27ae60"/>
+    <circle cx="205" cy="115" r="22" fill="#fff"/>
+    <circle cx="307" cy="115" r="22" fill="#fff"/>
+    <circle cx="210" cy="115" r="9" fill="#2c3e50"/>
+    <circle cx="302" cy="115" r="9" fill="#2c3e50"/>
+    <circle cx="213" cy="112" r="3" fill="#fff"/>
+    <circle cx="305" cy="112" r="3" fill="#fff"/>
+
+    <!-- Mouth (happy smile) -->
+    <path d="M 205 190 Q 256 220 307 190" fill="none" stroke="#1e8449" stroke-width="5" stroke-linecap="round"/>
+    
+    <!-- Cheeks -->
+    <circle cx="180" cy="180" r="12" fill="#e74c3c" opacity="0.4"/>
+    <circle cx="332" cy="180" r="12" fill="#e74c3c" opacity="0.4"/>
+  </g>
+
+  <!-- Chef Hat -->
+  <g filter="url(#shadow)">
+    <path d="M 216 110 Q 200 70 230 50 Q 256 30 282 50 Q 312 70 296 110 Z" fill="#fff"/>
+    <rect x="216" y="100" width="80" height="20" fill="#ecf0f1" rx="4"/>
+  </g>
+
+  <!-- Cookbook -->
+  <g filter="url(#shadow)">
+    <!-- Book Cover -->
+    <path d="M 120 280 L 256 250 L 392 280 L 392 410 L 256 440 L 120 410 Z" fill="#8e44ad"/>
+    <!-- Open Pages -->
+    <path d="M 130 290 L 256 265 L 256 425 L 130 395 Z" fill="#ecf0f1"/>
+    <path d="M 382 290 L 256 265 L 256 425 L 382 395 Z" fill="#fff"/>
+    <line x1="256" y1="265" x2="256" y2="425" stroke="#bdc3c7" stroke-width="3"/>
+
+    <!-- Recipe text / lines on pages -->
+    <line x1="145" y1="315" x2="230" y2="300" stroke="#bdc3c7" stroke-width="4" stroke-linecap="round"/>
+    <line x1="145" y1="335" x2="210" y2="322" stroke="#bdc3c7" stroke-width="4" stroke-linecap="round"/>
+    <line x1="145" y1="355" x2="225" y2="340" stroke="#bdc3c7" stroke-width="4" stroke-linecap="round"/>
+
+    <line x1="282" y1="300" x2="367" y2="315" stroke="#bdc3c7" stroke-width="4" stroke-linecap="round"/>
+    <line x1="282" y1="322" x2="340" y2="335" stroke="#bdc3c7" stroke-width="4" stroke-linecap="round"/>
+    <line x1="282" y1="340" x2="360" y2="355" stroke="#bdc3c7" stroke-width="4" stroke-linecap="round"/>
+    
+    <!-- Little fly illustration on page -->
+    <ellipse cx="320" cy="380" rx="6" ry="4" fill="#333"/>
+    <path d="M 314 376 Q 310 365 318 373" fill="none" stroke="#bdc3c7" stroke-width="1.5"/>
+    <path d="M 326 376 Q 330 365 322 373" fill="none" stroke="#bdc3c7" stroke-width="1.5"/>
+  </g>
+
+  <!-- Frog Hands holding book -->
+  <g filter="url(#shadow)">
+    <ellipse cx="160" cy="300" rx="18" ry="12" fill="#2ecc71" transform="rotate(-15 160 300)"/>
+    <ellipse cx="352" cy="300" rx="18" ry="12" fill="#2ecc71" transform="rotate(15 352 300)"/>
+  </g>
+
+  <!-- Reading glasses on frog -->
+  <g fill="none" stroke="#f1c40f" stroke-width="3" filter="url(#shadow)">
+    <circle cx="205" cy="115" r="16"/>
+    <circle cx="307" cy="115" r="16"/>
+    <line x1="221" y1="115" x2="291" y2="115"/>
+    <path d="M 189 115 Q 180 110 175 100"/>
+    <path d="M 323 115 Q 332 110 337 100"/>
+  </g>
+
+  <!-- Teacup with steam on side -->
+  <g filter="url(#shadow)">
+    <rect x="400" y="340" width="45" height="50" fill="#ffffff" rx="6"/>
+    <path d="M 445 355 Q 460 355 460 370 Q 460 385 445 385" fill="none" stroke="#ffffff" stroke-width="5"/>
+    <path d="M 415 330 Q 420 315 410 300" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+    <path d="M 430 325 Q 435 310 425 295" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.6"/>
+  </g>
+</svg>
