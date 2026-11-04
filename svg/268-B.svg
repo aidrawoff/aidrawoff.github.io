@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a3a"/>
+      <stop offset="1" stop-color="#4a3a5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <!-- moon -->
+  <circle cx="90" cy="90" r="30" fill="#f6e2a6"/>
+  <circle cx="90" cy="90" r="44" fill="#f6e2a6" opacity="0.15"/>
+  <!-- table -->
+  <rect x="0" y="400" width="512" height="112" fill="#7a4e2d"/>
+  <rect x="0" y="400" width="512" height="10" fill="#9a6538"/>
+  <!-- mug body -->
+  <path d="M150 250 L330 250 L320 400 Q318 415 300 415 L180 415 Q162 415 160 400 Z" fill="#e8e3da"/>
+  <!-- mug handle -->
+  <path d="M328 275 Q375 265 370 320 Q365 360 318 355" fill="none" stroke="#e8e3da" stroke-width="16"/>
+  <!-- mug rim -->
+  <ellipse cx="240" cy="250" rx="90" ry="14" fill="#5a3b22"/>
+  <!-- coffee -->
+  <ellipse cx="240" cy="252" rx="82" ry="10" fill="#4a2a18"/>
+  <!-- hedgehog body (in mug) -->
+  <ellipse cx="240" cy="235" rx="72" ry="50" fill="#8a6a4a"/>
+  <!-- spines -->
+  <g fill="#4d3824">
+    <path d="M175 225 L160 205 L185 212 Z"/>
+    <path d="M195 200 L185 178 L208 192 Z"/>
+    <path d="M225 188 L220 164 L240 184 Z"/>
+    <path d="M255 188 L262 164 L270 190 Z"/>
+    <path d="M285 200 L300 180 L298 210 Z"/>
+    <path d="M305 225 L325 212 L312 235 Z"/>
+  </g>
+  <!-- face -->
+  <ellipse cx="205" cy="240" rx="26" ry="20" fill="#d9b48a"/>
+  <!-- sleepy closed eyes -->
+  <path d="M192 236 Q199 244 206 236" fill="none" stroke="#2a1d12" stroke-width="3" stroke-linecap="round"/>
+  <path d="M196 252 Q202 258 208 252" fill="none" stroke="#2a1d12" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- blush -->
+  <ellipse cx="200" cy="250" rx="6" ry="3" fill="#e89a8a" opacity="0.7"/>
+  <!-- nose -->
+  <ellipse cx="180" cy="242" rx="6" ry="5" fill="#2a1d12"/>
+  <!-- mug shine and pattern -->
+  <path d="M166 270 L172 395" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.6"/>
+  <path d="M160 330 Q240 340 318 330" fill="none" stroke="#c9b9a0" stroke-width="4"/>
+  <!-- rim glow on hedgehog -->
+  <path d="M250 190 Q300 205 306 232" fill="none" stroke="#ffd9a0" stroke-width="3" opacity="0.7"/>
+  <!-- zZz -->
+  <text x="300" y="150" font-family="sans-serif" font-size="30" fill="#ffffff">z</text>
+  <text x="325" y="125" font-family="sans-serif" font-size="24" fill="#ffffff">z</text>
+  <text x="345" y="102" font-family="sans-serif" font-size="18" fill="#ffffff">z</text>
+  <!-- little paws resting on the rim -->
+  <ellipse cx="170" cy="254" rx="15" ry="9" fill="#d9b48a" stroke="#4d3824" stroke-width="2"/>
+  <ellipse cx="308" cy="254" rx="15" ry="9" fill="#d9b48a" stroke="#4d3824" stroke-width="2"/>
+  <!-- warm light on the mug rim -->
+  <path d="M160 252 Q240 268 320 252" fill="none" stroke="#ffd9a0" stroke-width="2" opacity="0.6"/>
+  <!-- steam-free shadow -->
+  <ellipse cx="240" cy="418" rx="110" ry="10" fill="#4a2e18" opacity="0.6"/>
+</svg>

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#17243f"/><stop offset="1" stop-color="#3c2443"/></linearGradient>
+ <linearGradient id="mug" x2="0" y2="1"><stop stop-color="#e87961"/><stop offset="1" stop-color="#a93e55"/></linearGradient>
+ <radialGradient id="tea"><stop stop-color="#ffd98a"/><stop offset="1" stop-color="#cc7048"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#bg)"/>
+<circle cx="92" cy="88" r="54" fill="#f8d99a" opacity=".12" filter="url(#glow)"/>
+<circle cx="92" cy="88" r="30" fill="#f8d99a" opacity=".9"/>
+<path d="M0 420 Q100 390 190 420 T380 414 T512 425 V512 H0Z" fill="#241b31"/>
+<ellipse cx="270" cy="454" rx="184" ry="25" fill="#111827" opacity=".65"/>
+<!-- mug handle behind -->
+<path d="M386 286 C478 270 486 390 394 402 L382 373 C435 368 437 311 386 320Z" fill="#b64d59" stroke="#742f4b" stroke-width="8"/>
+<!-- mug -->
+<path d="M128 282 Q260 255 393 282 L376 430 Q265 470 145 430Z" fill="url(#mug)" stroke="#742f4b" stroke-width="9"/>
+<ellipse cx="260" cy="286" rx="134" ry="38" fill="#7b3549" stroke="#742f4b" stroke-width="8"/>
+<ellipse cx="260" cy="280" rx="116" ry="27" fill="url(#tea)"/>
+<path d="M167 320 Q260 340 357 318" fill="none" stroke="#f58c72" stroke-width="6" opacity=".65"/>
+<!-- hedgehog body -->
+<path d="M145 282 Q115 251 126 204 L105 207 L131 181 L110 166 L145 166 L137 132 L171 151 L181 116 L201 148 Q235 126 276 145 Q319 163 336 216 L347 276Z" fill="#62465a" stroke="#362d48" stroke-width="9"/>
+<!-- face -->
+<path d="M173 184 Q195 151 241 155 Q289 159 311 198 Q321 221 308 260 Q283 290 230 285 Q182 278 163 245 Q157 214 173 184Z" fill="#c98561" stroke="#49354c" stroke-width="7"/>
+<path d="M183 202 Q196 190 211 202" fill="none" stroke="#382c43" stroke-width="8" stroke-linecap="round"/>
+<path d="M249 200 Q263 188 278 201" fill="none" stroke="#382c43" stroke-width="8" stroke-linecap="round"/>
+<path d="M219 228 Q232 238 246 227" fill="none" stroke="#503344" stroke-width="6" stroke-linecap="round"/>
+<ellipse cx="214" cy="218" rx="6" ry="4" fill="#f5b37b" opacity=".7"/><ellipse cx="274" cy="218" rx="6" ry="4" fill="#f5b37b" opacity=".7"/>
+<path d="M220 254 Q244 267 268 252" fill="none" stroke="#7d3f50" stroke-width="5" stroke-linecap="round"/>
+<!-- paws on rim -->
+<ellipse cx="174" cy="285" rx="28" ry="18" fill="#c98561" stroke="#49354c" stroke-width="7" transform="rotate(-18 174 285)"/>
+<ellipse cx="332" cy="282" rx="28" ry="18" fill="#c98561" stroke="#49354c" stroke-width="7" transform="rotate(18 332 282)"/>
+<g fill="none" stroke="#8a4c53" stroke-width="3" stroke-linecap="round" opacity=".8">
+ <path d="M163 282 l-3 6 M173 280 l-2 7 M183 277 l-1 6"/>
+ <path d="M323 277 l1 6 M333 280 l2 7 M343 282 l3 6"/>
+</g>
+<!-- steam -->
+<path d="M212 130 C181 108 224 88 202 62" fill="none" stroke="#ffe8c2" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+<path d="M270 133 C244 108 286 89 265 56" fill="none" stroke="#ffe8c2" stroke-width="8" stroke-linecap="round" opacity=".8"/>
+<path d="M326 143 C303 119 342 101 321 78" fill="none" stroke="#ffe8c2" stroke-width="8" stroke-linecap="round" opacity=".65"/>
+<path d="M159 388 Q258 414 367 385" fill="none" stroke="#ff9b78" stroke-width="7" opacity=".55"/>
+<g fill="#f8d99a" opacity=".75">
+ <circle cx="420" cy="86" r="3"/><circle cx="454" cy="142" r="4"/><circle cx="50" cy="178" r="3"/>
+ <path d="M392 190 l4 9 9 4-9 4-4 9-4-9-9-4 9-4z"/>
+</g>
+</svg>
