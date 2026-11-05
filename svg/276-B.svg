@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#24334b"/><stop offset="1" stop-color="#72586a"/></linearGradient>
+ <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#665348"/><stop offset="1" stop-color="#302b32"/></linearGradient>
+ <radialGradient id="glow"><stop stop-color="#ffe7a3" stop-opacity=".9"/><stop offset="1" stop-color="#e99b55" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="395" cy="125" r="150" fill="url(#glow)"/>
+<path d="M0 335 Q100 305 190 330 T365 318 T512 335 V512H0Z" fill="url(#ground)"/>
+<path d="M38 340 Q58 265 120 255 Q173 247 202 293 Q224 328 202 366 Q172 403 102 391 Q43 380 38 340Z" fill="#f4eee0" stroke="#272832" stroke-width="8"/>
+<circle cx="57" cy="315" r="29" fill="#f4eee0" stroke="#272832" stroke-width="8"/>
+<path d="M39 313 Q28 286 50 272 Q71 260 86 280 Q101 263 117 280 Q132 299 111 319 Q91 337 64 332Z" fill="#f4eee0" stroke="#272832" stroke-width="8"/>
+<circle cx="48" cy="312" r="5" fill="#292633"/><circle cx="78" cy="303" r="5" fill="#292633"/>
+<path d="M38 330 Q62 346 91 328" fill="none" stroke="#292633" stroke-width="5" stroke-linecap="round"/>
+<!-- flannel shirt -->
+<path d="M42 350 L106 340 L165 360 L200 407 L178 456 L71 450 L35 404Z" fill="#a84942" stroke="#292633" stroke-width="8"/>
+<path d="M53 354 L107 444 M96 345 L148 451 M42 390 L190 408 M61 365 L172 382" fill="none" stroke="#f1c079" stroke-width="8" opacity=".85"/>
+<path d="M97 346 L112 390 L136 349 L124 334Z" fill="#f5e8cf" stroke="#292633" stroke-width="5"/>
+<!-- arm and mug -->
+<path d="M157 378 Q204 361 250 337 Q266 329 276 344 Q283 360 266 370 L190 408Z" fill="#f4eee0" stroke="#292633" stroke-width="8"/>
+<path d="M260 331 h43 q10 0 10 12 v39 q0 12-10 12 h-43z" fill="#6e3037" stroke="#292633" stroke-width="7"/>
+<path d="M313 343 q32 -7 32 19 q0 27-32 18" fill="none" stroke="#292633" stroke-width="7"/>
+<path d="M270 330 q8-25 2-38 M288 330 q8-26 2-39" stroke="#f8d59d" stroke-width="5" fill="none" stroke-linecap="round"/>
+<!-- scarf and ground accents -->
+<path d="M24 461 Q130 440 235 462 T490 452" fill="none" stroke="#d5a06d" stroke-width="5" opacity=".7"/>
+<circle cx="410" cy="390" r="4" fill="#f7cc83"/><circle cx="448" cy="350" r="3" fill="#f7cc83"/><circle cx="370" cy="280" r="3" fill="#f7cc83"/>
+<path d="M270 95 l-8 14 m35-3 l-5 16 m34-2 l-4 13" stroke="#b6c7d4" stroke-width="3" opacity=".55"/>
+<circle cx="92" cy="382" r="5" fill="#f6d28b" stroke="#292633" stroke-width="2"/><circle cx="111" cy="415" r="5" fill="#f6d28b" stroke="#292633" stroke-width="2"/>
+<path d="M77 448 v17 M161 451 v15" stroke="#292633" stroke-width="9" stroke-linecap="round"/>
+<path d="M455 454 q-5-24 4-39 M458 435 l-13-11 M459 425 l12-13 M390 455 q-6-20 3-34 M394 438 l-12-9 M394 426 l11-10" stroke="#66725c" stroke-width="5" fill="none" stroke-linecap="round"/>
+</svg>

@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+<defs>
+ <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#162b55"/><stop offset="1" stop-color="#4c82a5"/></linearGradient>
+ <linearGradient id="ground" x2="0" y2="1"><stop stop-color="#d8f3f5"/><stop offset="1" stop-color="#8fc4d3"/></linearGradient>
+ <radialGradient id="warm"><stop stop-color="#fff1a8"/><stop offset="1" stop-color="#f28a45"/></radialGradient>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+</defs>
+<rect width="512" height="512" fill="url(#sky)"/>
+<circle cx="390" cy="118" r="75" fill="#ffdca0" opacity=".22" filter="url(#glow)"/><circle cx="390" cy="118" r="38" fill="#ffe9ae" opacity=".7"/>
+<path d="M0 345 Q90 300 175 344 T350 335 T512 340 V512 H0Z" fill="url(#ground)"/>
+<path d="M0 416 Q90 382 185 415 T370 405 T512 414 V512H0Z" fill="#e9fbf8" opacity=".75"/>
+<!-- falling snow -->
+<g fill="#fff" opacity=".8"><circle cx="75" cy="100" r="4"/><circle cx="130" cy="190" r="3"/><circle cx="455" cy="210" r="4"/><circle cx="335" cy="65" r="3"/><circle cx="55" cy="280" r="3"/><circle cx="470" cy="330" r="3"/><circle cx="250" cy="110" r="3"/></g>
+<!-- worm body -->
+<path d="M127 332 C112 292 131 247 171 227 C215 205 281 218 311 258 C334 289 328 343 296 373 C260 407 185 404 148 373 C137 364 130 350 127 332Z" fill="#e47746" stroke="#632f39" stroke-width="8"/>
+<path d="M146 351 Q185 375 218 355 T292 348" fill="none" stroke="#f3ad57" stroke-width="14" opacity=".85"/>
+<path d="M154 277 Q192 250 224 271" fill="none" stroke="#ffbd69" stroke-width="9" opacity=".8"/>
+<!-- head -->
+<ellipse cx="270" cy="245" rx="81" ry="70" fill="#ef8950" stroke="#632f39" stroke-width="8"/>
+<!-- earmuff band -->
+<path d="M204 227 Q204 140 273 135 Q344 133 354 218" fill="none" stroke="#f2c34e" stroke-width="18"/>
+<path d="M205 227 Q205 150 273 145 Q335 145 350 220" fill="none" stroke="#fff0a1" stroke-width="5"/>
+<circle cx="199" cy="234" r="31" fill="#de4d69" stroke="#632f39" stroke-width="8"/><circle cx="348" cy="230" r="31" fill="#de4d69" stroke="#632f39" stroke-width="8"/>
+<circle cx="199" cy="234" r="17" fill="#ff8b92"/><circle cx="348" cy="230" r="17" fill="#ff8b92"/>
+<!-- face -->
+<circle cx="243" cy="237" r="8" fill="#342b43"/><circle cx="292" cy="231" r="8" fill="#342b43"/>
+<path d="M254 266 Q271 281 291 261" fill="none" stroke="#632f39" stroke-width="6" stroke-linecap="round"/>
+<path d="M227 210 Q244 199 257 207 M278 203 Q293 193 307 202" fill="none" stroke="#632f39" stroke-width="6" stroke-linecap="round"/>
+<!-- waving arm -->
+<path d="M295 327 Q338 350 366 318" fill="none" stroke="#632f39" stroke-width="22" stroke-linecap="round"/><path d="M295 327 Q338 350 366 318" fill="none" stroke="#ed8550" stroke-width="13" stroke-linecap="round"/>
+<path d="M360 319 q-9-22 5-30 M362 319 q9-25 19-28 M368 323 q18-19 26-14" fill="none" stroke="#ed8550" stroke-width="10" stroke-linecap="round"/>
+<!-- foreground ice shadow -->
+<ellipse cx="235" cy="405" rx="145" ry="20" fill="#53899c" opacity=".3"/>
+<path d="M60 458 Q140 442 220 459 T390 452 T480 460" fill="none" stroke="#fff" stroke-width="5" opacity=".7"/>
+<!-- crisp winter sparkle accents -->
+<g stroke="#fff8d6" stroke-width="3" stroke-linecap="round" opacity=".9">
+ <path d="M102 150v18 M93 159h18 M96 153l12 12 M108 153l-12 12"/>
+ <path d="M427 270v16 M419 278h16 M421 272l12 12 M433 272l-12 12"/>
+ <path d="M390 385v12 M384 391h12"/>
+</g>
+<circle cx="235" cy="253" r="4" fill="#ffbe72" opacity=".8"/><circle cx="307" cy="248" r="4" fill="#ffbe72" opacity=".8"/>
+</svg>

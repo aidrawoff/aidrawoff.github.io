@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffd08a"/>
+      <stop offset="0.5" stop-color="#f7a65c"/>
+      <stop offset="1" stop-color="#e2734a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3c4"/>
+      <stop offset="1" stop-color="#ffcf7a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f2913d"/>
+      <stop offset="1" stop-color="#c95a1f"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="380" cy="120" r="150" fill="url(#sun)"/>
+  <circle cx="380" cy="120" r="46" fill="#ffe9a8"/>
+
+  <!-- background orchard hills -->
+  <path d="M0 330 Q120 290 240 322 Q360 352 512 306 L512 512 L0 512 Z" fill="#b9553a" opacity="0.55"/>
+  <path d="M0 372 Q140 340 280 372 Q400 398 512 360 L512 512 L0 512 Z" fill="#8d3b2f" opacity="0.6"/>
+
+  <!-- apple tree trunk + canopy left -->
+  <path d="M40 512 L46 400 Q48 372 62 356 L70 356 Q60 380 62 402 L70 512 Z" fill="#6b3a24"/>
+  <g fill="#d8622f">
+    <circle cx="58" cy="320" r="42"/><circle cx="20" cy="345" r="34"/><circle cx="96" cy="342" r="30"/>
+  </g>
+  <g fill="#e8813f">
+    <circle cx="44" cy="300" r="26"/><circle cx="84" cy="316" r="20"/>
+  </g>
+  <g fill="#c0392b"><circle cx="30" cy="332" r="8"/><circle cx="76" cy="352" r="7"/></g>
+
+  <!-- foreground ground -->
+  <path d="M0 430 Q160 404 320 434 Q420 452 512 430 L512 512 L0 512 Z" fill="#7a3326"/>
+  <path d="M0 462 Q180 440 360 470 Q440 482 512 466 L512 512 L0 512 Z" fill="#5e2419"/>
+
+  <!-- FOX: big tail behind -->
+  <path d="M300 430 Q400 440 442 380 Q470 336 448 292 Q430 300 424 330 Q416 372 360 392 Q322 404 300 400 Z" fill="#e07a2c"/>
+  <path d="M448 292 Q470 336 442 380 Q420 404 392 414 Q428 380 430 336 Q431 308 424 300 Q436 292 448 292 Z" fill="#faf3e6"/>
+
+  <!-- fox body -->
+  <path d="M180 512 Q170 430 210 392 Q250 358 300 372 Q346 388 350 450 L352 512 Z" fill="url(#fur)"/>
+  <path d="M228 512 Q222 452 252 424 Q286 400 316 430 Q336 452 336 512 Z" fill="#fbf2e2"/>
+
+  <!-- fox head, three-quarter, lowered toward mug -->
+  <path d="M150 300 Q146 250 186 232 Q232 214 276 240 Q306 258 302 300 Q298 340 258 356 Q212 372 176 350 Q152 334 150 300 Z" fill="url(#fur)"/>
+  <!-- ears -->
+  <path d="M168 246 Q156 196 176 178 Q196 196 202 236 Z" fill="#d7682a"/>
+  <path d="M262 236 Q272 186 296 180 Q306 210 292 248 Z" fill="#d7682a"/>
+  <path d="M176 236 Q170 202 180 192 Q192 206 194 232 Z" fill="#3a2018"/>
+  <path d="M266 232 Q274 200 288 192 Q292 216 282 240 Z" fill="#3a2018"/>
+  <!-- white cheeks/muzzle sweeping to the left -->
+  <path d="M158 316 Q142 336 150 356 Q166 380 204 384 Q246 386 268 360 Q286 336 272 306 Q240 322 204 320 Q176 318 158 316 Z" fill="#fbf2e2"/>
+  <path d="M150 356 Q126 366 118 386 Q136 396 162 388 Q182 380 186 366 Z" fill="#fbf2e2"/>
+  <!-- dark nose at muzzle tip -->
+  <path d="M124 372 Q112 378 114 390 Q122 400 136 394 Q146 386 140 376 Z" fill="#2a1a16"/>
+  <!-- closed happy eye -->
+  <path d="M196 292 Q214 280 232 292" fill="none" stroke="#2a1a16" stroke-width="6" stroke-linecap="round"/>
+  <path d="M256 288 Q270 280 282 292" fill="none" stroke="#2a1a16" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- front paws cupping mug -->
+  <path d="M206 452 Q196 424 216 412 Q240 404 252 424 Q258 444 246 462 Q224 470 206 452 Z" fill="#e8863b"/>
+  <path d="M300 456 Q292 424 314 412 Q338 408 346 430 Q348 452 332 464 Q312 470 300 456 Z" fill="#e8863b"/>
+
+  <!-- cider mug -->
+  <path d="M236 402 L322 402 Q326 448 300 468 L258 468 Q232 448 236 402 Z" fill="#f4efe3"/>
+  <ellipse cx="279" cy="402" rx="43" ry="11" fill="#8f4a1c"/>
+  <ellipse cx="279" cy="402" rx="34" ry="7" fill="#c2691f"/>
+  <path d="M322 414 Q352 414 352 436 Q352 458 320 456" fill="none" stroke="#f4efe3" stroke-width="10"/>
+
+  <!-- steam curls -->
+  <g fill="none" stroke="#fff6e8" stroke-width="7" stroke-linecap="round" opacity="0.85">
+    <path d="M258 388 Q244 366 258 348 Q272 330 260 310"/>
+    <path d="M286 386 Q302 362 288 342 Q276 322 292 300"/>
+    <path d="M272 380 Q266 356 276 336"/>
+  </g>
+
+  <!-- fallen apples foreground -->
+  <g><circle cx="96" cy="486" r="17" fill="#c0392b"/><path d="M96 470 q8 -8 14 -4" stroke="#6b3a24" stroke-width="3" fill="none"/></g>
+  <g><circle cx="404" cy="492" r="15" fill="#a83224"/><path d="M404 478 q7 -7 12 -3" stroke="#6b3a24" stroke-width="3" fill="none"/></g>
+
+  <!-- drifting leaves -->
+  <g fill="#ffb347">
+    <path d="M430 200 q18 -12 30 4 q-16 14 -30 -4 Z"/>
+    <path d="M120 150 q16 -14 30 2 q-14 16 -30 -2 Z"/>
+    <path d="M466 430 q16 -12 28 4 q-14 14 -28 -4 Z"/>
+  </g>
+</svg>
