@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="42%" r="75%">
+      <stop offset="0%" stop-color="#ffe9f4"/>
+      <stop offset="60%" stop-color="#ffc0e0"/>
+      <stop offset="100%" stop-color="#e08bc4"/>
+    </radialGradient>
+    <linearGradient id="hair" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ff9ec4"/>
+      <stop offset="100%" stop-color="#e04fa0"/>
+    </linearGradient>
+    <radialGradient id="eye" cx="50%" cy="35%" r="65%">
+      <stop offset="0%" stop-color="#a8f0ff"/>
+      <stop offset="55%" stop-color="#3aa8e8"/>
+      <stop offset="100%" stop-color="#1b5fb0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)"/>
+  <g fill="#ffffff" opacity="0.5">
+    <circle cx="70" cy="90" r="26"/><circle cx="440" cy="120" r="20"/>
+    <circle cx="55" cy="380" r="18"/><circle cx="465" cy="400" r="24"/>
+  </g>
+  <!-- twin tails -->
+  <path d="M120 170 C60 200 40 320 78 420 C96 462 130 440 128 380 C126 300 140 230 168 190 Z" fill="url(#hair)"/>
+  <path d="M392 170 C452 200 472 320 434 420 C416 462 382 440 384 380 C386 300 372 230 344 190 Z" fill="url(#hair)"/>
+  <!-- neck + shoulders / sailor uniform -->
+  <path d="M228 330 h56 v34 h-56 Z" fill="#ffd9c4"/>
+  <path d="M120 512 C132 430 190 380 256 380 C322 380 380 430 392 512 Z" fill="#ffffff"/>
+  <path d="M182 384 C200 420 226 442 256 442 C286 442 312 420 330 384 L300 372 C288 402 272 416 256 416 C240 416 224 402 212 372 Z" fill="#2b6cc4"/>
+  <path d="M256 416 L232 470 L256 500 L280 470 Z" fill="#e83f6d"/>
+  <circle cx="256" cy="452" r="10" fill="#ffd23f"/>
+  <!-- head -->
+  <ellipse cx="256" cy="250" rx="112" ry="118" fill="#ffe3d0"/>
+  <!-- bangs -->
+  <path d="M144 240 C138 130 200 92 256 92 C312 92 374 130 368 240 C352 190 336 176 322 214 C308 168 288 160 274 200 C262 156 240 158 232 202 C218 162 198 172 188 216 C176 180 158 194 144 240 Z" fill="url(#hair)"/>
+  <!-- eyes -->
+  <ellipse cx="204" cy="262" rx="34" ry="40" fill="#ffffff"/>
+  <ellipse cx="308" cy="262" rx="34" ry="40" fill="#ffffff"/>
+  <ellipse cx="204" cy="266" rx="27" ry="34" fill="url(#eye)"/>
+  <ellipse cx="308" cy="266" rx="27" ry="34" fill="url(#eye)"/>
+  <circle cx="196" cy="252" r="10" fill="#ffffff"/>
+  <circle cx="300" cy="252" r="10" fill="#ffffff"/>
+  <circle cx="214" cy="282" r="5" fill="#ffffff" opacity="0.8"/>
+  <circle cx="318" cy="282" r="5" fill="#ffffff" opacity="0.8"/>
+  <path d="M170 232 C186 218 222 218 238 232" stroke="#8a3560" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <path d="M274 232 C290 218 326 218 342 232" stroke="#8a3560" stroke-width="7" fill="none" stroke-linecap="round"/>
+  <!-- lashes -->
+  <g stroke="#5c2440" stroke-width="8" fill="none" stroke-linecap="round">
+    <path d="M172 246 C182 228 224 226 238 242"/>
+    <path d="M274 242 C288 226 330 228 340 246"/>
+    <path d="M168 250 l-14 -8"/><path d="M172 262 l-16 -2"/>
+    <path d="M344 250 l14 -8"/><path d="M340 262 l16 -2"/>
+  </g>
+  <!-- hair shine -->
+  <path d="M180 140 C212 116 300 116 332 140 C300 128 212 128 180 140 Z" fill="#ffd0e6" opacity="0.85"/>
+  <path d="M96 250 C86 320 92 380 108 420" stroke="#ffb8d8" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <path d="M416 250 C426 320 420 380 404 420" stroke="#ffb8d8" stroke-width="9" fill="none" stroke-linecap="round" opacity="0.7"/>
+  <!-- strands over shoulders -->
+  <path d="M158 236 C146 300 150 356 172 396 C158 344 160 288 178 244 Z" fill="#e04fa0"/>
+  <path d="M354 236 C366 300 362 356 340 396 C354 344 352 288 334 244 Z" fill="#e04fa0"/>
+  <!-- blush -->
+  <ellipse cx="168" cy="306" rx="24" ry="12" fill="#ff9db8" opacity="0.75"/>
+  <ellipse cx="344" cy="306" rx="24" ry="12" fill="#ff9db8" opacity="0.75"/>
+  <!-- smile -->
+  <path d="M238 320 Q256 340 274 320" stroke="#c05a72" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <!-- hair ribbons -->
+  <path d="M132 168 l-30 -22 l4 32 Z M132 168 l30 -22 l-4 32 Z" fill="#e83f6d"/>
+  <path d="M380 168 l-30 -22 l4 32 Z M380 168 l30 -22 l-4 32 Z" fill="#e83f6d"/>
+  <!-- sparkles -->
+  <g fill="#fff6a8">
+    <path d="M96 250 l7 18 18 7 -18 7 -7 18 -7 -18 -18 -7 18 -7 Z"/>
+    <path d="M420 270 l6 15 15 6 -15 6 -6 15 -6 -15 -15 -6 15 -6 Z"/>
+    <path d="M256 60 l5 13 13 5 -13 5 -5 13 -5 -13 -13 -5 13 -5 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f6c28b"/>
+      <stop offset="1" stop-color="#e98a4a"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#fff3c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="380" cy="120" r="90" fill="url(#glow)"/>
+  <path d="M0 380 Q128 350 256 372 T512 366 L512 512 L0 512 Z" fill="#7a9a4a"/>
+  <!-- leaf pile -->
+  <ellipse cx="330" cy="430" rx="140" ry="42" fill="#b9541f"/>
+  <ellipse cx="300" cy="418" rx="110" ry="30" fill="#e0822c"/>
+  <ellipse cx="360" cy="412" rx="80" ry="24" fill="#f2a53a"/>
+  <!-- gnome body -->
+  <ellipse cx="200" cy="330" rx="70" ry="92" fill="#2f7d4a"/>
+  <rect x="150" y="300" width="100" height="14" fill="#1f5a33"/>
+  <path d="M170 300 Q200 318 230 300" fill="none" stroke="#f2c14e" stroke-width="5"/>
+  <!-- legs and boots -->
+  <rect x="165" y="400" width="26" height="50" fill="#3b2f2a"/>
+  <rect x="212" y="400" width="26" height="50" fill="#3b2f2a"/>
+  <ellipse cx="176" cy="454" rx="20" ry="9" fill="#1d1714"/>
+  <ellipse cx="226" cy="454" rx="20" ry="9" fill="#1d1714"/>
+  <circle cx="200" cy="200" r="78" fill="url(#glow)" opacity="0.5"/>
+  <!-- head -->
+  <circle cx="200" cy="222" r="46" fill="#f7c9a0"/>
+  <path d="M150 222 Q200 180 250 222 Q236 200 200 196 Q164 200 150 222 Z" fill="#ffffff"/>
+  <path d="M154 230 Q200 300 246 230 Q240 282 200 290 Q160 282 154 230 Z" fill="#ffffff"/>
+  <circle cx="184" cy="216" r="5" fill="#2a1a12"/>
+  <circle cx="216" cy="216" r="5" fill="#2a1a12"/>
+  <circle cx="186" cy="214" r="1.8" fill="#ffffff"/>
+  <circle cx="218" cy="214" r="1.8" fill="#ffffff"/>
+  <ellipse cx="174" cy="232" rx="7" ry="4" fill="#f08c8c" opacity="0.7"/>
+  <ellipse cx="226" cy="232" rx="7" ry="4" fill="#f08c8c" opacity="0.7"/>
+  <!-- hat -->
+  <path d="M150 196 Q200 190 250 196 L200 60 Z" fill="#d6312b"/>
+  <ellipse cx="200" cy="196" rx="62" ry="12" fill="#b82620"/>
+  <circle cx="200" cy="60" r="10" fill="#fff6e0"/>
+  <!-- rake -->
+  <line x1="300" y1="250" x2="380" y2="400" stroke="#7a4e2a" stroke-width="7" stroke-linecap="round"/>
+  <path d="M362 382 L404 382 M364 392 L406 392 M368 402 L408 402" stroke="#4a2f18" stroke-width="5" stroke-linecap="round"/>
+  <path d="M250 300 L282 252 L306 260 L270 312 Z" fill="#2f7d4a"/>
+  <path d="M258 296 L280 264" stroke="#f2c14e" stroke-width="3"/>
+  <!-- flying leaves -->
+  <path d="M420 300 q14 -10 26 0 q-12 12 -26 0 Z" fill="#d9481e"/>
+  <path d="M90 300 q12 -12 26 -4 q-12 14 -26 4 Z" fill="#e0822c"/>
+  <path d="M440 210 q10 -12 22 -4 q-10 12 -22 4 Z" fill="#f2a53a"/>
+  <!-- contact shadow and rim light -->
+  <ellipse cx="200" cy="462" rx="58" ry="10" fill="#3d4a22" opacity="0.5"/>
+  <path d="M120 330 Q114 380 128 410" fill="none" stroke="#fff3c4" stroke-width="3" opacity="0.7"/>
+  <!-- scattered leaves on the grass and pile -->
+  <path d="M310 395 q12 -8 24 2 q-12 10 -24 -2 Z" fill="#8c2f14"/>
+  <path d="M352 440 q14 -6 26 4 q-14 8 -26 -4 Z" fill="#d9481e"/>
+  <path d="M280 430 q10 -9 22 -2 q-10 10 -22 2 Z" fill="#f2a53a"/>
+  <path d="M400 420 q10 -8 20 0 q-10 8 -20 0 Z" fill="#b9541f"/>
+  <path d="M250 440 q12 -6 22 2 q-12 8 -22 -2 Z" fill="#e0822c"/>
+  <path d="M100 440 q12 -6 22 2 q-12 8 -22 -2 Z" fill="#c8602a"/>
+  <path d="M430 460 q10 -8 20 0 q-10 8 -20 0 Z" fill="#e0822c"/>
+  <!-- leaves swept along the rake path -->
+  <path d="M340 370 q10 -6 20 2 q-10 8 -20 -2 Z" fill="#e0822c"/>
+  <path d="M370 382 q10 -6 20 2 q-10 8 -20 -2 Z" fill="#f2a53a"/>
+  <path d="M392 396 q8 -5 16 2 q-8 6 -16 -2 Z" fill="#b9541f"/>
+  <path d="M296 404 q8 -5 16 2 q-8 6 -16 -2 Z" fill="#d9481e"/>
+  <!-- head glow, brows and lashes -->
+  <path d="M176 204 Q184 198 192 204" fill="none" stroke="#5a3a20" stroke-width="3" stroke-linecap="round"/>
+  <path d="M208 204 Q216 198 224 204" fill="none" stroke="#5a3a20" stroke-width="3" stroke-linecap="round"/>
+  <!-- face shading and beard fold -->
+  <path d="M160 238 Q200 262 240 238" fill="none" stroke="#e8b89a" stroke-width="3"/>
+  <path d="M200 262 L200 284" stroke="#d8d8d8" stroke-width="2"/>
+  <!-- bokeh and sparkles -->
+  <circle cx="60" cy="150" r="14" fill="#fff3c4" opacity="0.25"/>
+  <circle cx="470" cy="330" r="10" fill="#fff3c4" opacity="0.25"/>
+  <path d="M30 260 l4 -10 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 Z" fill="#fff3c4" opacity="0.8"/>
+  <path d="M186 130 L196 84" stroke="#f7a0a0" stroke-width="4" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="60" cy="150" r="3" fill="#fff3c4"/>
+  <circle cx="470" cy="60" r="3" fill="#fff3c4"/>
+</svg>

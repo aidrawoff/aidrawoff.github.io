@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="void" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#1a1530"/>
+      <stop offset="100%" stop-color="#03030a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7fe8ff" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#7fe8ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6fbff"/>
+      <stop offset="60%" stop-color="#8fdcf0"/>
+      <stop offset="100%" stop-color="#2f7fa3"/>
+    </linearGradient>
+    <linearGradient id="wood" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#6b4f25"/>
+      <stop offset="50%" stop-color="#b08a4a"/>
+      <stop offset="100%" stop-color="#5a4120"/>
+    </linearGradient>
+    <clipPath id="inner"><rect x="92" y="68" width="328" height="376"/></clipPath>
+  </defs>
+  <rect width="512" height="512" fill="url(#void)"/>
+  <!-- gilt frame -->
+  <rect x="58" y="34" width="396" height="444" fill="url(#wood)"/>
+  <rect x="74" y="50" width="364" height="412" fill="#2b2140"/>
+  <rect x="92" y="68" width="328" height="376" fill="#050410"/>
+  <!-- painted cracks on canvas surface -->
+  <path d="M92 150 L140 170 L120 210 L168 230" stroke="#3a2f5c" stroke-width="3" fill="none"/>
+  <path d="M420 300 L380 320 L396 360 L356 380" stroke="#3a2f5c" stroke-width="3" fill="none"/>
+  <path d="M92 380 Q180 360 260 400 T420 420" stroke="#1d1838" stroke-width="18" fill="none" opacity="0.7"/>
+  <!-- endless recession rings in the void -->
+  <g fill="none" stroke="#2d2757" stroke-width="2" opacity="0.7" clip-path="url(#inner)">
+    <ellipse cx="256" cy="240" rx="130" ry="170"/>
+    <ellipse cx="256" cy="240" rx="170" ry="220"/>
+    <ellipse cx="256" cy="240" rx="210" ry="270"/>
+  </g>
+  <!-- frame gilt glints -->
+  <path d="M70 60 L110 40" stroke="#ffe7a0" stroke-width="4" opacity="0.7"/>
+  <path d="M440 470 L400 490" stroke="#ffe7a0" stroke-width="4" opacity="0.5"/>
+  <!-- trapped entity glow -->
+  <circle cx="256" cy="240" r="150" fill="url(#glow)" opacity="0.8"/>
+  <!-- pressing hand marks on the paint -->
+  <path d="M150 300 Q130 260 150 220" stroke="#2a4e66" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <path d="M362 300 Q382 260 362 220" stroke="#2a4e66" stroke-width="10" fill="none" stroke-linecap="round" opacity="0.6"/>
+  <!-- entity body -->
+  <ellipse cx="256" cy="250" rx="72" ry="104" fill="url(#body)"/>
+  <ellipse cx="256" cy="250" rx="72" ry="104" fill="none" stroke="#5fb8d6" stroke-width="4"/>
+  <ellipse cx="236" cy="200" rx="22" ry="10" fill="#ffffff" opacity="0.6" transform="rotate(-20 236 200)"/>
+  <!-- visor face -->
+  <rect x="216" y="222" width="80" height="38" rx="18" fill="#0d2a40"/>
+  <circle cx="238" cy="241" r="7" fill="#7fe8ff"/>
+  <circle cx="274" cy="241" r="7" fill="#7fe8ff"/>
+  <circle cx="230" cy="268" r="8" fill="#ff9fb0" opacity="0.6"/>
+  <circle cx="282" cy="268" r="8" fill="#ff9fb0" opacity="0.6"/>
+  <path d="M236 284 Q256 296 276 284" stroke="#0d2a40" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- rim light on the right edge -->
+  <path d="M318 180 Q334 250 318 330" stroke="#dffaff" stroke-width="3" fill="none" opacity="0.6"/>
+  <!-- cast shadow on the void floor -->
+  <ellipse cx="256" cy="366" rx="86" ry="12" fill="#000" opacity="0.7"/>
+</svg>

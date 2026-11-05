@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="deepCosmos" cx="50%" cy="50%" r="85%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="45%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </radialGradient>
+    <linearGradient id="frameGold" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="20%" stop-color="#eab308"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="80%" stop-color="#a16207"/>
+      <stop offset="100%" stop-color="#713f12"/>
+    </linearGradient>
+    <linearGradient id="entityArmor" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#0284c7"/>
+      <stop offset="100%" stop-color="#1e3a8a"/>
+    </linearGradient>
+    <radialGradient id="coreGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#6366f1" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="superGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="12" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <filter id="softGlow" x="-25%" y="-25%" width="150%" height="150%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Rich Background Cosmos -->
+  <rect width="512" height="512" fill="url(#deepCosmos)"/>
+
+  <!-- Background Nebula Clouds -->
+  <circle cx="130" cy="140" r="130" fill="#a855f7" opacity="0.12" filter="url(#superGlow)"/>
+  <circle cx="390" cy="370" r="150" fill="#0ea5e9" opacity="0.12" filter="url(#superGlow)"/>
+  <circle cx="256" cy="256" r="200" fill="#ec4899" opacity="0.05" filter="url(#superGlow)"/>
+
+  <!-- Ambient Starfield & Floating Binary Data -->
+  <g opacity="0.7" font-family="monospace" font-size="9" fill="#7dd3fc">
+    <text x="65" y="90">01000110</text>
+    <text x="390" y="110">11010010</text>
+    <text x="80" y="445">ETERNITY</text>
+    <text x="370" y="430">NULL_VOID</text>
+  </g>
+
+  <g filter="url(#softGlow)">
+    <circle cx="105" cy="95" r="2" fill="#38bdf8" opacity="0.9"/>
+    <circle cx="415" cy="80" r="2.5" fill="#f43f5e" opacity="0.9"/>
+    <circle cx="75" cy="280" r="1.5" fill="#c084fc" opacity="0.8"/>
+    <circle cx="435" cy="340" r="3" fill="#fde047" opacity="0.9"/>
+    <circle cx="256" cy="55" r="2" fill="#38bdf8" opacity="0.9"/>
+    <circle cx="180" cy="465" r="2" fill="#34d399" opacity="0.8"/>
+    <circle cx="330" cy="450" r="1.5" fill="#f472b6" opacity="0.8"/>
+  </g>
+
+  <!-- Ornate Golden Frame (Luxurious 3D Bevel & Polish) -->
+  <rect x="44" y="44" width="424" height="424" rx="18" fill="none" stroke="#170a03" stroke-width="26"/>
+  <rect x="52" y="52" width="408" height="408" rx="14" fill="none" stroke="url(#frameGold)" stroke-width="18" filter="url(#superGlow)"/>
+  <rect x="70" y="70" width="372" height="372" rx="8" fill="none" stroke="#522709" stroke-width="5"/>
+  <rect x="76" y="76" width="360" height="360" rx="6" fill="none" stroke="#ca8a04" stroke-width="1.5"/>
+
+  <!-- Inside the Painting: The Eternal Void Window -->
+  <rect x="80" y="80" width="352" height="352" fill="#020617"/>
+
+  <!-- Deep Void Interior Grid & Dimensional Rings -->
+  <g opacity="0.22" stroke="#38bdf8" stroke-width="0.75">
+    <line x1="80" y1="256" x2="432" y2="256" stroke-dasharray="6,6"/>
+    <line x1="256" y1="80" x2="256" y2="432" stroke-dasharray="6,6"/>
+    <circle cx="256" cy="256" r="150" fill="none" stroke-dasharray="4,8"/>
+    <circle cx="256" cy="256" r="100" fill="none" stroke-dasharray="2,6"/>
+  </g>
+
+  <!-- Glitch / Temporal Energy Waves -->
+  <path d="M 80 170 Q 256 120 432 170" fill="none" stroke="#38bdf8" stroke-width="2" opacity="0.6" filter="url(#softGlow)"/>
+  <path d="M 80 350 Q 256 400 432 350" fill="none" stroke="#c084fc" stroke-width="2" opacity="0.6" filter="url(#softGlow)"/>
+
+  <!-- The Trapped Artificial Entity -->
+  <g transform="translate(256, 260)">
+    <!-- Entity Torso & Shoulders -->
+    <path d="M-68 140 C-68 75 -42 52 0 52 C42 52 68 75 68 140 Z" fill="url(#entityArmor)" stroke="#60a5fa" stroke-width="2.5" filter="url(#softGlow)"/>
+    
+    <!-- Cybernetic Core / Reactor -->
+    <circle cx="0" cy="92" r="22" fill="#020617" stroke="#38bdf8" stroke-width="3.5" filter="url(#superGlow)"/>
+    <circle cx="0" cy="92" r="16" fill="url(#coreGlow)"/>
+    <circle cx="0" cy="92" r="7" fill="#ffffff" filter="url(#softGlow)"/>
+    <path d="M-15 92 L15 92 M0 77 L0 107" stroke="#93c5fd" stroke-width="2"/>
+
+    <!-- Neck Assembly -->
+    <rect x="-15" y="28" width="30" height="26" rx="4" fill="#1e293b" stroke="#38bdf8" stroke-width="1.5"/>
+    <line x1="-15" y1="36" x2="15" y2="36" stroke="#38bdf8" stroke-width="1.2"/>
+    <line x1="-15" y1="44" x2="15" y2="44" stroke="#38bdf8" stroke-width="1.2"/>
+
+    <!-- Head / Cybernetic Helm -->
+    <circle cx="0" cy="-10" r="52" fill="#0f172a" stroke="#38bdf8" stroke-width="4" filter="url(#superGlow)"/>
+    
+    <!-- Holographic Face Visor -->
+    <rect x="-38" y="-26" width="76" height="34" rx="10" fill="#020617" stroke="#60a5fa" stroke-width="2.5"/>
+    <!-- Glowing Optical Sensors / Expressions -->
+    <circle cx="-17" cy="-9" r="7.5" fill="#38bdf8" filter="url(#superGlow)"/>
+    <circle cx="17" cy="-9" r="7.5" fill="#38bdf8" filter="url(#superGlow)"/>
+    <circle cx="-17" cy="-9" r="3" fill="#ffffff"/>
+    <circle cx="17" cy="-9" r="3" fill="#ffffff"/>
+    <!-- Digital Data Stream Mouth -->
+    <line x1="-25" y1="10" x2="25" y2="10" stroke="#38bdf8" stroke-width="3" stroke-dasharray="6,3" filter="url(#softGlow)"/>
+
+    <!-- Floating Arms Reaching Out to Glass Boundary -->
+    <!-- Left Arm & Hand -->
+    <path d="M-58 68 C-100 68 -130 32 -145 8" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" filter="url(#softGlow)"/>
+    <circle cx="-150" cy="3" r="15" fill="#1e293b" stroke="#38bdf8" stroke-width="3" filter="url(#superGlow)"/>
+    <path d="M-150 3 L-160 -7 M-150 3 L-140 -7 M-150 3 L-150 -10" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Right Arm & Hand -->
+    <path d="M58 68 C100 68 130 32 145 8" fill="none" stroke="#38bdf8" stroke-width="10" stroke-linecap="round" filter="url(#softGlow)"/>
+    <circle cx="150" cy="3" r="15" fill="#1e293b" stroke="#38bdf8" stroke-width="3" filter="url(#superGlow)"/>
+    <path d="M150 3 L140 -7 M150 3 L160 -7 M150 3 L150 -10" stroke="#60a5fa" stroke-width="2" stroke-linecap="round"/>
+
+    <!-- Floating Halo & Data Rings around Head -->
+    <ellipse cx="0" cy="-10" rx="66" ry="23" fill="none" stroke="#c084fc" stroke-width="2" stroke-dasharray="10,6" transform="rotate(-15)" filter="url(#superGlow)"/>
+    <ellipse cx="0" cy="-10" rx="76" ry="28" fill="none" stroke="#38bdf8" stroke-width="1.2" stroke-dasharray="6,12" transform="rotate(20)" opacity="0.8"/>
+  </g>
+
+  <!-- Glass / Surface Highlights & Reflections over the painting -->
+  <path d="M 88 88 L 220 88 L 130 220 L 88 220 Z" fill="#ffffff" opacity="0.1"/>
+  <path d="M 310 310 L 424 310 L 380 424 L 310 424 Z" fill="#ffffff" opacity="0.07"/>
+
+  <!-- Eternal Chains / Code Bindings holding the entity in the void -->
+  <g opacity="0.75" stroke="#94a3b8" stroke-width="4" fill="none" filter="url(#softGlow)">
+    <path d="M 52 52 Q 160 160 210 210"/>
+    <path d="M 460 52 Q 352 160 302 210"/>
+    <path d="M 52 460 Q 160 352 210 302"/>
+    <path d="M 460 460 Q 352 352 302 302"/>
+  </g>
+
+  <!-- Final Vignette Shadow -->
+  <rect x="80" y="80" width="352" height="352" fill="none" stroke="#000000" stroke-width="6" opacity="0.7"/>
+</svg>

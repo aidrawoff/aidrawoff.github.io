@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#141a40"/>
+      <stop offset="1" stop-color="#7a4a7e"/>
+    </linearGradient>
+    <radialGradient id="pump" cx="0.38" cy="0.32" r="0.75">
+      <stop offset="0" stop-color="#ffc766"/>
+      <stop offset="0.6" stop-color="#ff8a1f"/>
+      <stop offset="1" stop-color="#b04a0a"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffd27a" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffd27a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <circle cx="92" cy="86" r="34" fill="#fff3c4"/>
+  <circle cx="420" cy="60" r="2" fill="#fff"/>
+  <circle cx="60" cy="200" r="2" fill="#fff"/>
+  <circle cx="380" cy="150" r="2" fill="#fff"/>
+  <path d="M0 370 Q120 320 250 360 T512 350 L512 512 L0 512 Z" fill="#2a2046"/>
+  <path d="M0 430 Q140 400 280 425 T512 420 L512 512 L0 512 Z" fill="#1c1533"/>
+  <ellipse cx="256" cy="438" rx="200" ry="22" fill="url(#glow)"/>
+  <ellipse cx="256" cy="442" rx="170" ry="16" fill="#000" opacity="0.4"/>
+  <ellipse cx="256" cy="290" rx="190" ry="170" fill="url(#glow)"/>
+  <path d="M250 150 Q238 118 262 98" stroke="#4a7a2a" stroke-width="12" fill="none" stroke-linecap="round"/>
+  <path d="M262 112 Q306 90 334 116 Q296 138 262 112 Z" fill="#6aa83c"/>
+  <path d="M262 112 Q296 116 330 116" stroke="#3f7024" stroke-width="2" fill="none"/>
+  <ellipse cx="256" cy="310" rx="150" ry="128" fill="url(#pump)"/>
+  <path d="M190 220 Q196 300 186 390" stroke="#a03e08" stroke-width="5" fill="none" opacity="0.55"/>
+  <path d="M256 190 Q262 300 256 436" stroke="#a03e08" stroke-width="5" fill="none" opacity="0.5"/>
+  <path d="M322 220 Q316 300 326 390" stroke="#a03e08" stroke-width="5" fill="none" opacity="0.55"/>
+  <path d="M160 270 Q200 262 230 272" stroke="#ffe2a0" stroke-width="7" fill="none" opacity="0.5" stroke-linecap="round"/>
+  <path d="M120 270 Q140 330 175 360 L170 340 Q140 300 120 270 Z" fill="#ffb55a" opacity="0.6"/>
+  <path d="M96 300 Q102 330 116 350" stroke="#7a2e06" stroke-width="2" fill="none" opacity="0.4"/>
+  <!-- skunk tail -->
+  <path d="M330 300 Q420 250 400 170 Q380 130 360 170 Q380 230 320 280 Z" fill="#f4f4f4"/>
+  <path d="M352 170 Q384 210 352 260" stroke="#1d1d1d" stroke-width="14" fill="none" stroke-linecap="round" opacity="0.9"/>
+  <!-- skunk body -->
+  <ellipse cx="250" cy="262" rx="82" ry="62" fill="#1d1d1d"/>
+  <path d="M236 204 Q248 200 258 210 L258 322 Q244 326 234 320 Z" fill="#f4f4f4"/>
+  <path d="M212 236 Q194 270 212 310 Q226 300 224 250 Z" fill="#1d1d1d" opacity="0.5"/>
+  <ellipse cx="172" cy="252" rx="20" ry="16" fill="#1d1d1d"/>
+  <!-- skunk head -->
+  <ellipse cx="172" cy="210" rx="52" ry="42" fill="#f4f4f4"/>
+  <path d="M130 194 Q172 168 214 194 L214 188 Q172 158 130 188 Z" fill="#f4f4f4"/>
+  <path d="M158 170 Q172 164 186 170 L184 214 L160 214 Z" fill="#1d1d1d"/>
+  <path d="M132 206 Q140 214 150 206" stroke="#1d1d1d" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M190 206 Q200 214 210 206" stroke="#1d1d1d" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <ellipse cx="128" cy="232" rx="13" ry="8" fill="#1d1d1d"/>
+  <path d="M136 232 Q148 236 156 228" stroke="#1d1d1d" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <circle cx="122" cy="222" r="5" fill="#ff9aa2" opacity="0.75"/>
+  <circle cx="206" cy="226" r="5" fill="#ff9aa2" opacity="0.75"/>
+  <!-- tour sign -->
+  <path d="M400 340 L400 420" stroke="#6b4a2a" stroke-width="8"/>
+  <rect x="352" y="308" width="110" height="46" rx="8" fill="#f7e7b5" stroke="#6b4a2a" stroke-width="4"/>
+  <text x="407" y="338" font-family="sans-serif" font-size="18" font-weight="bold" fill="#8a2d12" text-anchor="middle">TOUR</text>
+  <!-- small pumpkins on the ground -->
+  <ellipse cx="76" cy="424" rx="34" ry="26" fill="url(#pump)"/>
+  <path d="M76 400 Q72 392 78 388" stroke="#4a7a2a" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <ellipse cx="96" cy="452" rx="24" ry="18" fill="#e06a14"/>
+  <ellipse cx="446" cy="458" rx="28" ry="20" fill="#e06a14"/>
+  <path d="M446 438 Q452 430 458 434" stroke="#4a7a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+  <!-- twinkle sparkles -->
+  <path d="M440 110 L444 120 L454 124 L444 128 L440 138 L436 128 L426 124 L436 120 Z" fill="#fff3c4" opacity="0.9"/>
+</svg>

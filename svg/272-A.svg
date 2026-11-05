@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#87CEEB"/>
+      <stop offset="100%" stop-color="#E0F7FA"/>
+    </linearGradient>
+    <linearGradient id="grass" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4CAF50"/>
+      <stop offset="100%" stop-color="#2E7D32"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#sky)"/>
+  <ellipse cx="256" cy="420" rx="220" ry="60" fill="url(#grass)"/>
+  <ellipse cx="256" cy="400" rx="80" ry="20" fill="#1B5E20" opacity="0.4"/>
+  <ellipse cx="180" cy="410" rx="50" ry="15" fill="#1B5E20" opacity="0.3"/>
+  <ellipse cx="340" cy="405" rx="60" ry="18" fill="#1B5E20" opacity="0.3"/>
+  <ellipse cx="256" cy="360" rx="45" ry="55" fill="#FFCCBC"/>
+  <ellipse cx="256" cy="335" rx="35" ry="30" fill="#FFCCBC"/>
+  <ellipse cx="256" cy="310" rx="40" ry="35" fill="#FF5722"/>
+  <rect x="216" y="285" width="80" height="20" rx="10" fill="#5D4037"/>
+  <ellipse cx="256" cy="275" rx="50" ry="15" fill="#5D4037"/>
+  <ellipse cx="256" cy="265" rx="55" ry="15" fill="#5D4037"/>
+  <circle cx="245" cy="330" r="4" fill="#3E2723"/>
+  <circle cx="267" cy="330" r="4" fill="#3E2723"/>
+  <ellipse cx="256" cy="345" rx="8" ry="5" fill="#D84315"/>
+  <ellipse cx="256" cy="343" rx="6" ry="3" fill="#FFAB91"/>
+  <rect x="250" y="350" width="12" height="10" rx="3" fill="#FFFFFF"/>
+  <ellipse cx="256" cy="365" rx="12" ry="8" fill="#1B5E20"/>
+  <ellipse cx="256" cy="362" rx="10" ry="6" fill="#4CAF50"/>
+  <rect x="285" y="340" width="6" height="70" rx="3" fill="#8D6E63"/>
+  <path d="M285 410 L315 405 L315 415 L285 420 Z" fill="#5D4037"/>
+  <ellipse cx="200" cy="400" rx="40" ry="12" fill="#FF9800" opacity="0.8"/>
+  <ellipse cx="320" cy="395" rx="35" ry="10" fill="#FF9800" opacity="0.7"/>
+  <ellipse cx="260" cy="405" rx="30" ry="8" fill="#FF9800" opacity="0.6"/>
+  <path d="M100 380 Q120 370 140 385 Q160 375 180 390" stroke="#FF9800" stroke-width="4" fill="none" opacity="0.6"/>
+  <path d="M350 385 Q370 375 390 390 Q410 380 430 395" stroke="#FF9800" stroke-width="4" fill="none" opacity="0.6"/>
+  <circle cx="120" cy="200" r="30" fill="#FFF9C4" opacity="0.9"/>
+  <circle cx="400" cy="150" r="20" fill="#FFFFFF" opacity="0.7"/>
+  <circle cx="80" cy="120" r="25" fill="#FFFFFF" opacity="0.6"/>
+  <path d="M50 100 Q60 90 70 100 Q80 90 90 100" stroke="#FFFFFF" stroke-width="3" fill="none" opacity="0.5"/>
+</svg>

@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#3a1c24"/>
+      <stop offset="60%" stop-color="#1f1016"/>
+      <stop offset="100%" stop-color="#0d070a"/>
+    </radialGradient>
+    <radialGradient id="pumpkin" cx="45%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#ffb142"/>
+      <stop offset="60%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#c0392b"/>
+    </radialGradient>
+    <radialGradient id="body" cx="50%" cy="40%" r="55%">
+      <stop offset="0%" stop-color="#b06536"/>
+      <stop offset="70%" stop-color="#7a431d"/>
+      <stop offset="100%" stop-color="#4e2a11"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffdfba" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#ffdfba" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="512" height="512" fill="url(#bg)"/>
+  
+  <!-- Ambient Glow Behind Pumpkin -->
+  <circle cx="256" cy="340" r="190" fill="url(#glow)"/>
+
+  <!-- Magical Fireflies / Sparkles -->
+  <g fill="#ffeaa7" opacity="0.9">
+    <circle cx="120" cy="150" r="3.5" />
+    <circle cx="390" cy="130" r="3" />
+    <circle cx="95" cy="320" r="2.5" />
+    <circle cx="420" cy="280" r="3.5" />
+    <circle cx="200" cy="90" r="2.5" />
+    <circle cx="320" cy="80" r="3" />
+    <circle cx="256" cy="130" r="2" />
+  </g>
+  
+  <!-- Ground Shadow -->
+  <ellipse cx="256" cy="450" rx="170" ry="35" fill="#070305"/>
+
+  <!-- Autumn Leaves on Ground -->
+  <g>
+    <path d="M140 430 Q150 410 170 425 Q160 440 140 430 Z" fill="#e74c3c" opacity="0.9"/>
+    <path d="M360 425 Q375 410 385 435 Q350 445 360 425 Z" fill="#f39c12" opacity="0.9"/>
+    <path d="M190 450 Q210 435 220 455 Q195 465 190 450 Z" fill="#d35400" opacity="0.9"/>
+    <path d="M310 445 Q330 430 335 450 Q305 460 310 445 Z" fill="#c0392b" opacity="0.9"/>
+    <path d="M250 455 Q265 440 275 460 Q245 470 250 455 Z" fill="#f1c40f" opacity="0.9"/>
+  </g>
+
+  <!-- Pumpkin -->
+  <g id="pumpkin-group" transform="translate(256, 330)">
+    <!-- Back segments -->
+    <ellipse cx="-55" cy="10" rx="65" ry="85" fill="#b53712" transform="rotate(-10 -55 10)"/>
+    <ellipse cx="55" cy="10" rx="65" ry="85" fill="#b53712" transform="rotate(10 55 10)"/>
+    <ellipse cx="-30" cy="5" rx="65" ry="92" fill="#d35400" transform="rotate(-5 -30 5)"/>
+    <ellipse cx="30" cy="5" rx="65" ry="92" fill="#d35400" transform="rotate(5 30 5)"/>
+    <!-- Center segment -->
+    <ellipse cx="0" cy="0" rx="75" ry="98" fill="url(#pumpkin)"/>
+    
+    <!-- Rib lines / shading contours -->
+    <path d="M0 -98 Q -30 0 0 98" fill="none" stroke="#a83212" stroke-width="5" opacity="0.7"/>
+    <path d="M0 -98 Q 30 0 0 98" fill="none" stroke="#a83212" stroke-width="5" opacity="0.7"/>
+    <path d="M -50 -75 Q -80 0 -35 75" fill="none" stroke="#a83212" stroke-width="4" opacity="0.7"/>
+    <path d="M 50 -75 Q 80 0 35 75" fill="none" stroke="#a83212" stroke-width="4" opacity="0.7"/>
+    <path d="M -85 -35 Q -115 20 -70 50" fill="none" stroke="#a83212" stroke-width="3" opacity="0.6"/>
+    <path d="M 85 -35 Q 115 20 70 50" fill="none" stroke="#a83212" stroke-width="3" opacity="0.6"/>
+
+    <!-- Pumpkin Highlight -->
+    <ellipse cx="-25" cy="-45" rx="20" ry="35" fill="#ffdfba" opacity="0.35" transform="rotate(-15 -25 -45)"/>
+
+    <!-- Stem -->
+    <path d="M -10 -98 Q -20 -130 2 -140 Q 22 -125 10 -98 Z" fill="#27ae60"/>
+    <path d="M -4 -115 Q 15 -130 18 -125" fill="none" stroke="#219653" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Porcupine -->
+  <g id="porcupine" transform="translate(256, 255)">
+    <!-- Quills (Radial crown of needles) -->
+    <g fill="#3d2314" stroke="#1f110a" stroke-width="1.5">
+      <!-- Top quills -->
+      <polygon points="0,-125 -15,-160 -5,-120"/>
+      <polygon points="10,-125 25,-160 15,-120"/>
+      <polygon points="-25,-115 -55,-150 -30,-105"/>
+      <polygon points="25,-115 55,-150 30,-105"/>
+      <!-- Side quills -->
+      <polygon points="-50,-95 -90,-125 -55,-85"/>
+      <polygon points="50,-95 90,-125 55,-85"/>
+      <polygon points="-75,-65 -120,-85 -75,-50"/>
+      <polygon points="75,-65 120,-85 75,-50"/>
+      <polygon points="-85,-30 -135,-35 -85,-15"/>
+      <polygon points="85,-30 135,-35 85,-15"/>
+      <polygon points="-90,5 -140,0 -85,20"/>
+      <polygon points="90,5 140,0 85,20"/>
+      <polygon points="-80,40 -125,35 -75,55"/>
+      <polygon points="80,40 125,35 75,55"/>
+    </g>
+
+    <!-- Porcupine Body Backdrop -->
+    <ellipse cx="0" cy="15" rx="68" ry="58" fill="url(#body)"/>
+    
+    <!-- Cheeks / Face base -->
+    <ellipse cx="0" cy="28" rx="38" ry="32" fill="#c47a4a"/>
+    <ellipse cx="0" cy="38" rx="22" ry="16" fill="#e2a070"/>
+    
+    <!-- Cute Eyes with shine -->
+    <g fill="#1a1a1a">
+      <circle cx="-14" cy="18" r="4.5"/>
+      <circle cx="14" cy="18" r="4.5"/>
+    </g>
+    <g fill="#ffffff">
+      <circle cx="-15.5" cy="16.5" r="1.5"/>
+      <circle cx="12.5" cy="16.5" r="1.5"/>
+      <circle cx="-12.5" cy="19.5" r="0.7"/>
+      <circle cx="15.5" cy="19.5" r="0.7"/>
+    </g>
+
+    <!-- Cute Snout & Nose -->
+    <ellipse cx="0" cy="27" rx="9" ry="6.5" fill="#2c1a0e"/>
+    <ellipse cx="0" cy="25.5" rx="4" ry="2.5" fill="#ffffff" opacity="0.4"/>
+
+    <!-- Happy Gentle Smile -->
+    <path d="M -8 34 Q 0 42 8 34" fill="none" stroke="#2c1a0e" stroke-width="2.5" stroke-linecap="round"/>
+
+    <!-- Rosy Cheeks -->
+    <ellipse cx="-24" cy="26" rx="6" ry="4" fill="#e74c3c" opacity="0.5"/>
+    <ellipse cx="24" cy="26" rx="6" ry="4" fill="#e74c3c" opacity="0.5"/>
+
+    <!-- Paws Hugging Pumpkin tightly -->
+    <g fill="#7a431d" stroke="#4e2a11" stroke-width="1.5">
+      <ellipse cx="-40" cy="52" rx="14" ry="9" transform="rotate(-15 -40 52)"/>
+      <ellipse cx="40" cy="52" rx="14" ry="9" transform="rotate(15 40 52)"/>
+      <!-- Tiny Claws -->
+      <circle cx="-48" cy="50" r="2" fill="#2c1a0e"/>
+      <circle cx="-45" cy="54" r="2" fill="#2c1a0e"/>
+      <circle cx="48" cy="50" r="2" fill="#2c1a0e"/>
+      <circle cx="45" cy="54" r="2" fill="#2c1a0e"/>
+    </g>
+  </g>
+
+  <!-- Tiny Heart Floating Between Porcupine and Pumpkin -->
+  <path d="M 256 195 Q 262 185 270 192 Q 278 185 284 195 Q 284 205 270 215 Q 256 205 256 195 Z" fill="#ff6b6b" opacity="0.95"/>
+</svg>
